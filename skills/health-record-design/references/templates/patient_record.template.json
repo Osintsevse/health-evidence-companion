@@ -1,0 +1,37 @@
+{
+  "format": "personal_health_archive",
+  "schema_version": "1.0",
+  "is_blank_template": true,
+  "privacy": "filled_copy_must_be_outside_general_knowledge",
+  "owner": {
+    "record_id": null,
+    "display_name": null,
+    "date_of_birth": null,
+    "timezone": null
+  },
+  "created_at": null,
+  "updated_at": null,
+  "summary_as_of": null,
+  "conditions": [],
+  "physical_health_episodes": [],
+  "psychiatric_health_episodes": [],
+  "medications": {
+    "reconciliation_status": "unknown",
+    "last_reconciled_at": null,
+    "current_use": [],
+    "prescribed_not_started": [],
+    "history": []
+  },
+  "allergies": {
+    "information_status": "unknown",
+    "last_reviewed_at": null,
+    "entries": []
+  },
+  "adverse_reactions": [],
+  "vaccinations": [],
+  "investigations": [],
+  "source_documents": [],
+  "uncertainties": [],
+  "questions_for_clinician": [],
+  "corrections": []
+}

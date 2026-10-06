@@ -1,0 +1,32 @@
+name: Package checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-build:
+    name: validate-and-build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Validate canonical files and generated references
+        run: python3 scripts/validate.py
+      - name: Test packaging and rejection paths
+        run: python3 -m unittest discover -s tests -v
+      - name: Build release candidates
+        run: python3 scripts/build.py
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        with:
+          name: health-evidence-companion-candidate
+          path: dist/*
+          if-no-files-found: error
+          retention-days: 14

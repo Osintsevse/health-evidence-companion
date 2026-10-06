@@ -1,0 +1,4 @@
+interface:
+  display_name: "Psychiatry Information"
+  short_description: "Understand psychiatric medicines and clinical guidance"
+  default_prompt: "Use $health-mental-health to help with this request in my language."

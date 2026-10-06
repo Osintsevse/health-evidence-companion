@@ -1,0 +1,794 @@
+[
+  {
+    "id": "S01",
+    "title": "WHO - ICD",
+    "url": "https://www.who.int/standards/classifications/classification-of-diseases/",
+    "region": "International",
+    "retrieval_status": "Overview page opened",
+    "use": "Classification and terminology, not treatment regimens",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S02",
+    "title": "WHO - ICD-11 CDDR, 2024",
+    "url": "https://www.who.int/publications/i/item/9789240077263/",
+    "region": "International",
+    "retrieval_status": "Book description read; full 852-page book not read",
+    "use": "Psychiatric diagnostic descriptions; read the relevant section for criteria",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S03",
+    "title": "WHO - mhGAP guideline, 2023",
+    "url": "https://www.who.int/publications/i/item/9789240084278",
+    "region": "International",
+    "retrieval_status": "Description and available excerpts read; full document not studied",
+    "use": "Care guidance for mental and neurological disorders",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S04",
+    "title": "WHO - Teacher's Guide to Good Prescribing, 2001",
+    "url": "https://iris.who.int/bitstream/handle/10665/67010/WHO_EDM_PAR_2001.2.pdf?sequence=1",
+    "region": "International",
+    "retrieval_status": "Indexed rational-prescribing excerpts read",
+    "use": "Historical educational method; not current dosing",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S05",
+    "title": "MSD - Introduction to Clinical Decision Making",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/introduction-to-clinical-decision-making",
+    "region": "International",
+    "retrieval_status": "Chapter opened",
+    "use": "History, urgency and test selection",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S06",
+    "title": "MSD - Cognitive Errors in Clinical Decision Making",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/cognitive-errors-in-clinical-decision-making",
+    "region": "International",
+    "retrieval_status": "Chapter opened",
+    "use": "Premature conclusions, anchoring and propagation of errors",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S07",
+    "title": "NICE - NG120 acute cough",
+    "url": "https://www.nice.org.uk/guidance/ng120/chapter/recommendations",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed recommendations read; direct access returned HTTP 403",
+    "use": "Acute cough and antibiotic use",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S08",
+    "title": "CDC - Manage Common Cold, 2026-03-11",
+    "url": "https://www.cdc.gov/common-cold/treatment/index.html",
+    "region": "United States",
+    "retrieval_status": "Treatment sections opened",
+    "use": "Cold symptoms, supportive measures and assessment thresholds",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S09",
+    "title": "CDC - Adult Outpatient Clinical Care",
+    "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+    "region": "United States",
+    "retrieval_status": "Indexed clinical sections read",
+    "use": "Antibiotic use in bronchitis, sinusitis and pharyngitis",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S10",
+    "title": "NHS - Paracetamol for adults",
+    "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed dosing and safety sections read",
+    "use": "Paracetamol information; verify exact local packaging",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S11",
+    "title": "NHS - Ibuprofen for adults",
+    "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+    "region": "United Kingdom",
+    "retrieval_status": "Dosing section opened",
+    "use": "Ibuprofen forms and restrictions",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S12",
+    "title": "ALIMS - Human medicines search",
+    "url": "https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/",
+    "region": "Serbia",
+    "retrieval_status": "Catalogue located; direct access returned HTTP 403",
+    "use": "Serbian SmPC/PIL search; registration does not establish availability",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S13",
+    "title": "ALIMS - Medicine information",
+    "url": "https://www.alims.gov.rs/humani-lekovi/informacije-o-lekovima-i-klinickim-ispitivanjima/",
+    "region": "Serbia",
+    "retrieval_status": "Indexed explanation of SmPC and PIL read",
+    "use": "Patient leaflet and professional product information",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S14",
+    "title": "ALIMS - Tantum Verde Forte 3 mg/mL PIL",
+    "url": "https://www.alims.gov.rs/doc_file/lekovi/pil/515-01-02591-17-001.pdf",
+    "region": "Serbia",
+    "retrieval_status": "PDF opened and dose/restrictions read; version-to-package match requires checking",
+    "use": "Exact label example, not standard Tantum Verde",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S15",
+    "title": "ALIMS - Olynth HA 1 mg/mL SmPC",
+    "url": "https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00316-20-002.pdf",
+    "region": "Serbia",
+    "retrieval_status": "Indexed excerpts read; direct opening failed",
+    "use": "Xylometazoline form and duration limit",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S16",
+    "title": "Russian Ministry of Health - GRLS",
+    "url": "https://minzdrav.gov.ru/poleznye-resursy/portal-po-vedeniyu-gosudarstvennogo-reestra-lekarstvennyh-sredstv",
+    "region": "Russia",
+    "retrieval_status": "Official grls.rosminzdrav.ru route located; individual drug entry not opened",
+    "use": "Russian registration and product labels; forms require separate checks",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S17",
+    "title": "Russian Ministry of Health - Clinical guidelines catalogue",
+    "url": "https://minzdrav.gov.ru/special/smartphone_apps_rubrikator_kr",
+    "region": "Russia",
+    "retrieval_status": "Official resource description located, updated 2025-06-05",
+    "use": "Approved guidelines through cr.minzdrav.gov.ru",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S18",
+    "title": "Russian Ministry of Health - Adult respiratory viral infection update, 2025",
+    "url": "https://edu.rosminzdrav.ru/news/novosti/news/orvi-u-vzroslykh-opublikovany-novye-klinicheskie-rekom/",
+    "region": "Russia",
+    "retrieval_status": "Official update opened; complete guideline 724 version 2 not read",
+    "use": "Regional context; read full guidance and studies for disputed treatments",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S19",
+    "title": "Serbian Ministry of Health - National clinical guides",
+    "url": "https://zdravlje.gov.rs/tekst/436482/nacionalni-vodici-dobre-klinicke-prakse-.php",
+    "region": "Serbia",
+    "retrieval_status": "Indexed list read",
+    "use": "Check individual publication years; some documents are old",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S20",
+    "title": "Batut - Required and recommended immunization, 2026",
+    "url": "https://www.batut.org.rs/index.php?content=3157",
+    "region": "Serbia",
+    "retrieval_status": "Document page opened, updated 2026-02-09; full PDF not studied",
+    "use": "Local starting point for vaccination guidance",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S21",
+    "title": "NHS - Allergic rhinitis",
+    "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed sections read",
+    "use": "Allergic nasal symptoms, antihistamines and nasal steroids",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S22",
+    "title": "EAACI - IgE-mediated food allergy diagnosis, 2023",
+    "url": "https://doi.org/10.1111/all.15902",
+    "region": "International",
+    "retrieval_status": "Indexed diagnostic recommendations read",
+    "use": "History plus tests; sensitization is not a proven food reaction",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S23",
+    "title": "GINA - Asthma diagnosis FAQ",
+    "url": "https://ginasthma.org/faq/",
+    "region": "International",
+    "retrieval_status": "Indexed diagnostic sections read",
+    "use": "Variable symptoms and lung function; repeated tests may be needed",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S24",
+    "title": "GINA - Summary Guide, 2026",
+    "url": "https://ginasthma.org/2026-gina-summary-guide/",
+    "region": "International",
+    "retrieval_status": "Current guide catalogue found; full PDF not read",
+    "use": "Further study route; do not redistribute complete text",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S25",
+    "title": "NICE - NG222 Depression in adults",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403",
+    "use": "Antidepressants, review and gradual reduction",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S26",
+    "title": "NICE - NG215 Dependence and withdrawal",
+    "url": "https://www.nice.org.uk/guidance/ng215/chapter/Recommendations",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed excerpts read",
+    "use": "Distinguish dependence, addiction and withdrawal concepts",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S27",
+    "title": "DailyMed - Sertraline label example",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c614be38-cb45-44a1-b78e-0cdfc0691618",
+    "region": "United States",
+    "retrieval_status": "Indexed warnings and interactions read",
+    "use": "SSRI bleeding and serotonergic warnings, not a personal prescription",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S28",
+    "title": "MedlinePlus - Understanding lab results",
+    "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "region": "United States",
+    "retrieval_status": "Section opened",
+    "use": "Units, references, false results and clinical context",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S29",
+    "title": "NICE - NG136 Hypertension in adults",
+    "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed diagnostic confirmation recommendations read",
+    "use": "Home/ambulatory blood pressure monitoring",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S30",
+    "title": "USPSTF - Prediabetes and type 2 diabetes screening, 2021",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/screening-for-prediabetes-and-type-2-diabetes",
+    "region": "United States",
+    "retrieval_status": "Current final-recommendation page located and main criteria examined",
+    "use": "Age/risk-based screening, not universal annual panels",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S31",
+    "title": "WHO - BCG position paper, 2018",
+    "url": "https://www.who.int/publications/i/item/who-wer9308-73-96",
+    "region": "International",
+    "retrieval_status": "Indexed excerpts and summary read",
+    "use": "Do not promise lifelong tuberculosis immunity from BCG",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S32",
+    "title": "CDC - Rubella vaccine recommendations",
+    "url": "https://www.cdc.gov/rubella/hcp/vaccine-considerations/index.html",
+    "region": "United States",
+    "retrieval_status": "Indexed recommendations read",
+    "use": "Immunity criteria; no universal two-dose claim for all adults",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S33",
+    "title": "Ada - App and intended purpose",
+    "url": "https://ada.com/help/what-degree-of-liability-does-ada-accept/",
+    "region": "International",
+    "retrieval_status": "Product purpose description read",
+    "use": "Patient symptom assessment and possible next steps",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S34",
+    "title": "Isabel - Self-Triage",
+    "url": "https://www.isabelhealthcare.com/products/isabel-self-triage",
+    "region": "International",
+    "retrieval_status": "Product description read",
+    "use": "Possible causes and navigation; Russian language is advertised",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S35",
+    "title": "AMBOSS - Clinical AI Mode",
+    "url": "https://www.amboss.com/us/clinical-ai-mode",
+    "region": "United States / international",
+    "retrieval_status": "Product/source description opened",
+    "use": "Professional cited search; vendor claims are not comparative validation",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S36",
+    "title": "Wolters Kluwer - UpToDate Expert AI and Lexidrug",
+    "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-adds-uptodate-lexidrug-to-genai-powered-clinical-decision-support-uptodate-expert-ai",
+    "region": "International",
+    "retrieval_status": "Vendor announcement opened",
+    "use": "Professional clinical system with medicine information",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S37",
+    "title": "Wolters Kluwer - Lexidrug",
+    "url": "https://www.wolterskluwer.com/en/solutions/uptodate/pro/lexidrug",
+    "region": "International",
+    "retrieval_status": "Subscription/tool description read",
+    "use": "Specialized medicines and interaction reference",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S38",
+    "title": "Mount Sinai - OpenEvidence implementation, 2026",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-health-system-collaborates-with-openevidence-to-provide-evidence-based-knowledge-within-electronic-medical-record",
+    "region": "United States",
+    "retrieval_status": "Health-system announcement read",
+    "use": "Evidence of professional adoption, not safety of every answer",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S39",
+    "title": "JAMA Network Open - LLM influence on diagnostic reasoning RCT, 2024",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395",
+    "region": "Research study",
+    "retrieval_status": "Results and conclusions opened",
+    "use": "50 physicians, specified model/cases; do not generalize to all systems",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S40",
+    "title": "Cochrane - Zinc for common cold, 2024",
+    "url": "https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold",
+    "region": "Systematic review",
+    "retrieval_status": "Review page opened",
+    "use": "Possible shorter duration, uncertainty and adverse effects",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S41",
+    "title": "NHS - Cetirizine side effects",
+    "url": "https://www.nhs.uk/medicines/cetirizine/side-effects-of-cetirizine/",
+    "region": "United Kingdom",
+    "retrieval_status": "Indexed drowsiness warnings read",
+    "use": "Antihistamines and driving safety",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S42",
+    "title": "WHO - Guide to Good Prescribing, 1994",
+    "url": "https://iris.who.int/bitstream/handle/10665/59001/WHO_DAP_94.11.pdf",
+    "region": "International",
+    "retrieval_status": "Official PDF located; complete textbook not read",
+    "use": "Historical educational method; old doses are not current instructions",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S43",
+    "title": "MedGemma - Model card 1.5",
+    "url": "https://developers.google.com/health-ai-developer-foundations/medgemma/model-card",
+    "region": "International",
+    "retrieval_status": "Purpose, variants and limits read; weights not run",
+    "use": "Medical open weights and validation requirements",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S44",
+    "title": "HAI-DEF - FAQ",
+    "url": "https://developers.google.com/health-ai-developer-foundations/faqs",
+    "region": "International",
+    "retrieval_status": "Open-weight/open-source distinctions and memory needs read",
+    "use": "Licensing and resource assessment",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S45",
+    "title": "HAI-DEF - Terms",
+    "url": "https://developers.google.com/health-ai-developer-foundations/terms",
+    "region": "International",
+    "retrieval_status": "Main weight terms and code-license distinction read; no legal audit",
+    "use": "Separate weights, code and data rights",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S46",
+    "title": "MedGemma - Getting started",
+    "url": "https://developers.google.com/health-ai-developer-foundations/medgemma/get-started",
+    "region": "International",
+    "retrieval_status": "Official self-hosted/deployment routes studied; not executed",
+    "use": "Integration routes, infrastructure and restrictions",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S47",
+    "title": "BioMistral-7B - Model card",
+    "url": "https://huggingface.co/BioMistral/BioMistral-7B",
+    "region": "International",
+    "retrieval_status": "License, provenance and warnings read; model not tested",
+    "use": "Apache-2.0 research model weights",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S48",
+    "title": "MedRAG - gzxiong repository",
+    "url": "https://github.com/gzxiong/MedRAG",
+    "region": "International",
+    "retrieval_status": "Tool/corpus descriptions read; code not run",
+    "use": "Retrieval before generation as a research approach",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S49",
+    "title": "MedRAG - LICENSE",
+    "url": "https://github.com/gzxiong/MedRAG/blob/main/LICENSE",
+    "region": "International",
+    "retrieval_status": "Public Domain Notice read; individual corpus rights not checked",
+    "use": "Code rights do not grant rights to all medical texts",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S50",
+    "title": "Infermedica - API overview",
+    "url": "https://developer.infermedica.com/documentation/overview/",
+    "region": "International",
+    "retrieval_status": "Purpose and access route read; contract/keys not obtained",
+    "use": "Symptom interview and navigation through Engine/Platform",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S51",
+    "title": "Infermedica - Engine diagnosis",
+    "url": "https://developer.infermedica.com/documentation/engine-api/build-your-solution/diagnosis/",
+    "region": "International",
+    "retrieval_status": "Evidence states/stateless workflow examined; API not called",
+    "use": "Unknown is distinct from absent",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S52",
+    "title": "Isabel - Symptom checker API",
+    "url": "https://info.isabelhealthcare.com/symptom-checker-api",
+    "region": "International",
+    "retrieval_status": "Official API description read; sandbox/docs not requested",
+    "use": "Partner symptom/differential-assessment integration",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S53",
+    "title": "Isabel - API documentation request",
+    "url": "https://info.isabelhealthcare.com/isabel-api-documention-request",
+    "region": "International",
+    "retrieval_status": "Request page inspected; form not submitted",
+    "use": "Vendor contact required for access conditions",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S54",
+    "title": "Ada Health - Integration help",
+    "url": "https://ada.com/help/360000309665/",
+    "region": "International",
+    "retrieval_status": "Partner API/SDK description read; access not obtained",
+    "use": "Partnership route, not confirmed unrestricted API",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S55",
+    "title": "EvidenceMD - Developer API",
+    "url": "https://evidencemd.ai/developers",
+    "region": "International",
+    "retrieval_status": "REST endpoint, keys, models and citations read; no live calls/evaluation",
+    "use": "Candidate evidence-search API; accuracy claims unverified",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S56",
+    "title": "EvidenceMD - Enterprise terms overview",
+    "url": "https://evidencemd.ai/developers/enterprise",
+    "region": "International",
+    "retrieval_status": "Vendor retention/contract claims read; no audit",
+    "use": "Separate conditions review before external data transfer",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S57",
+    "title": "AMBOSS - Clinical integration",
+    "url": "https://www.amboss.com/de/integration",
+    "region": "International",
+    "retrieval_status": "Official partner-integration description studied",
+    "use": "Corporate integration does not establish an open public API",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S58",
+    "title": "DrugBank - API documentation",
+    "url": "https://docs.drugbank.com/",
+    "region": "International",
+    "retrieval_status": "DDI endpoint/fields read; no key/license/live calls",
+    "use": "Interactions with severity, rationale and references",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S59",
+    "title": "DailyMed - SPL REST API",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/webservices-help/v2/spls_api.cfm",
+    "region": "United States",
+    "retrieval_status": "Documentation and SPL search structure read; integration not established",
+    "use": "Labels and metadata, not universal interaction assessment",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S60",
+    "title": "openFDA - Drug label API",
+    "url": "https://open.fda.gov/apis/drug/label/",
+    "region": "United States",
+    "retrieval_status": "Data purpose and FDA warnings read",
+    "use": "Structured labels with currency/use limitations",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S61",
+    "title": "RxNav - Interaction API retirement FAQ",
+    "url": "https://lhncbc.nlm.nih.gov/RxNav/information/FAQs.html",
+    "region": "United States",
+    "retrieval_status": "Official 2024-01-02 retirement verified",
+    "use": "Do not build interaction checks on the retired endpoint",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S62",
+    "title": "RxNav - API index",
+    "url": "https://www.lhncbc.nlm.nih.gov/RxNav/APIs/index.html",
+    "region": "United States",
+    "retrieval_status": "Official available-API list examined; no calls",
+    "use": "RxNorm name and identifier normalization",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S63",
+    "title": "MSD - Pharmacokinetics overview",
+    "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/overview-of-pharmacokinetics",
+    "region": "International",
+    "retrieval_status": "Available definitions/parameters read; overview updated August 2026",
+    "use": "ADME, clearance, distribution, half-life and individual factors",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S64",
+    "title": "MSD - Pharmacodynamics overview",
+    "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/overview-of-pharmacodynamics",
+    "region": "International",
+    "retrieval_status": "Available definitions read; complete course not studied",
+    "use": "Targets, concentrations and changing responses",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S65",
+    "title": "MSD - Drug bioavailability",
+    "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-bioavailability",
+    "region": "International",
+    "retrieval_status": "Definitions and formulation differences read",
+    "use": "Ingredient, formulation and bioequivalence are separate checks",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S66",
+    "title": "NHS SPS - Understanding drug interactions",
+    "url": "https://sps.nhs.uk/articles/understanding-drug-interactions/",
+    "region": "United Kingdom",
+    "retrieval_status": "Interaction types and main mechanisms read",
+    "use": "Clinical significance, ADME, food, herbs and tobacco",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S67",
+    "title": "NHS SPS - Enzyme/transporter interactions",
+    "url": "https://sps.nhs.uk/articles/understanding-enzyme-or-transporter-based-drug-interactions/",
+    "region": "United Kingdom",
+    "retrieval_status": "Inhibition, induction, codeine activation and timing read",
+    "use": "Direction and persistence of enzyme interactions",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S68",
+    "title": "NHS SPS - Interaction resources",
+    "url": "https://sps.nhs.uk/articles/drug-interactions-resources-to-support-clinical-decisions/",
+    "region": "United Kingdom",
+    "retrieval_status": "Resource map/limits read; updated 2026-06-10",
+    "use": "BNF, SmPC, Stockley's and specialized references",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S69",
+    "title": "FDA - CYP/transporter interaction examples",
+    "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+    "region": "United States",
+    "retrieval_status": "Table purpose/examples examined; no individual regimens inferred",
+    "use": "Substrates, inhibitors, inducers and exposure",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S70",
+    "title": "FDA - Grapefruit and medicines",
+    "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix",
+    "region": "United States",
+    "retrieval_status": "CYP3A4 and reduced fexofenadine absorption example read",
+    "use": "Juice interactions depend on the ingredient",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S71",
+    "title": "FDA - Opioids, benzodiazepines and CNS depressants",
+    "url": "https://www.fda.gov/drugs/information-drug-class/new-safety-measures-announced-opioid-analgesics-prescription-opioid-cough-products-and",
+    "region": "United States",
+    "retrieval_status": "2016 warning about benzodiazepine/alcohol combinations read",
+    "use": "Sedation/respiratory depression; recheck current labels",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S72",
+    "title": "NHS - Sertraline",
+    "url": "https://www.nhs.uk/medicines/sertraline/",
+    "region": "United Kingdom",
+    "retrieval_status": "Combination information read, including NSAIDs, anticoagulants and St John's wort",
+    "use": "General patient information, not exact local brand label",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S73",
+    "title": "NHS - Chlorphenamine",
+    "url": "https://www.nhs.uk/medicines/chlorphenamine-including-piriton/about-chlorphenamine/",
+    "region": "United Kingdom",
+    "retrieval_status": "Drowsiness, alcohol and driving warnings read",
+    "use": "Sedating antihistamine example",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S74",
+    "title": "NHS SPS - QT interval medicines",
+    "url": "https://sps.nhs.uk/articles/managing-medicines-associated-with-qt-interval-prolongation/",
+    "region": "United Kingdom",
+    "retrieval_status": "Risk factors/interactions studied; updated 2026-09-14",
+    "use": "Cumulative and metabolic QT risks",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S75",
+    "title": "ALIMS - Zoloft 50/100 mg SmPC",
+    "url": "https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00534-22-001.pdf",
+    "region": "Serbia",
+    "retrieval_status": "Composition/form and available interaction excerpt read; full PDF/current registration not verified",
+    "use": "Local sertraline label example, not a personal regimen",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S76",
+    "title": "ALIMS - National medicines register",
+    "url": "https://registar.alims.gov.rs/",
+    "region": "Serbia",
+    "retrieval_status": "SmPC/PIL explanation and clinical-section structure read",
+    "use": "Local product and label-section navigation",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S77",
+    "title": "NHS SPS - Crushing tablets/opening capsules",
+    "url": "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/",
+    "region": "United Kingdom",
+    "retrieval_status": "Modified-release and exact-product checks read",
+    "use": "Do not alter a tablet without product verification",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S78",
+    "title": "FDA - Generic drugs Q&A",
+    "url": "https://www.fda.gov/drugs/generic-drugs/generic-drugs-questions-answers",
+    "region": "United States",
+    "retrieval_status": "Main approved-generic requirements examined",
+    "use": "FDA-system equivalence; check other jurisdictions separately",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S79",
+    "title": "Medsafe - Opioids and serotonergic medicines",
+    "url": "https://www.medsafe.govt.nz/profs/PUArticles/September2022/Opioids-and-serotonergic%20medicines-risk-of-serotonin-syndrome.html",
+    "region": "New Zealand",
+    "retrieval_status": "2022 warning about tramadol/dextromethorphan read",
+    "use": "Educational serotonergic interaction check",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S80",
+    "title": "University of Belgrade - Integrated medical studies",
+    "url": "https://med.bg.ac.rs/?page_id=12210&script=lat",
+    "region": "Serbia",
+    "retrieval_status": "Six-year programme/practical components description read",
+    "use": "Medical education coverage reference",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S81",
+    "title": "University of Belgrade - Curriculum",
+    "url": "https://med.bg.ac.rs/?page_id=14524&script=lat",
+    "region": "Serbia",
+    "retrieval_status": "Structure and available subject descriptions inspected; course not completed",
+    "use": "Discipline and study-sequence map",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S82",
+    "title": "Sechenov University - Higher education",
+    "url": "https://www.sechenov.ru/education/vysshee-obrazovanie/",
+    "region": "Russia",
+    "retrieval_status": "General Medicine 31.05.01 and six-year duration verified",
+    "use": "Second coverage reference, not completed training",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S83",
+    "title": "Sechenov University - Clinical pharmacology",
+    "url": "https://www.sechenov.ru/univers/structure/institute/institut-klinicheskoy-meditsiny/kafedry-klinicheskoy-mediciny-im-Sklificovskoro/farm/vysshee-professionalnoe-obrazovanie-/uchebnyy-razdel/klinicheskaya-farmakologiya/",
+    "region": "Russia",
+    "retrieval_status": "Thematic plan and learning section found; lectures not fully studied",
+    "use": "Further clinical pharmacology curriculum",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S84",
+    "title": "OpenStax - Anatomy and Physiology 2e preface",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+    "region": "International",
+    "retrieval_status": "Open textbook/scope found; chapters not yet studied",
+    "use": "Introductory anatomy/physiology, not a complete medical degree",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S85",
+    "title": "HL7 FHIR R4 - MedicationStatement",
+    "url": "https://hl7.org/fhir/R4/medicationstatement.html",
+    "region": "International",
+    "retrieval_status": "Key definitions and reported-use/prescription distinction read",
+    "use": "Actual-use provenance/status; project templates are not FHIR resources",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S86",
+    "title": "HL7 FHIR R4 - AllergyIntolerance",
+    "url": "https://hl7.org/fhir/R4/allergyintolerance.html",
+    "region": "International",
+    "retrieval_status": "Unknown vs no known allergies distinction read",
+    "use": "Empty list does not mean no allergies",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S87",
+    "title": "HL7 FHIR R4 - Provenance",
+    "url": "https://hl7.org/fhir/R4/provenance.html",
+    "region": "International",
+    "retrieval_status": "Key source/recording-time definitions read",
+    "use": "Fact provenance and changes in a private record",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S88",
+    "title": "MSD - Drug interactions",
+    "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/factors-affecting-response-to-medications/drug-interactions",
+    "region": "International",
+    "retrieval_status": "Main mechanisms and clinical-significance factors read",
+    "use": "Pharmacodynamic and pharmacokinetic interactions",
+    "checked_on": "2026-10-06"
+  }
+]

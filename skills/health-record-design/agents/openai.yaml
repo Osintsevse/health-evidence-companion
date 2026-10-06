@@ -1,0 +1,4 @@
+interface:
+  display_name: "Health Record Templates"
+  short_description: "Explain private record design using blank templates"
+  default_prompt: "Use $health-record-design to help with this request in my language."

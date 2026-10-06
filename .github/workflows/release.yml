@@ -1,0 +1,39 @@
+name: Versioned plugin archives
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    if: github.repository == 'Osintsevse/health-evidence-companion'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Verify version and reviewed main ancestry
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          python3 -c 'import json,os; v=json.load(open("plugin.json"))["version"]; assert os.environ["RELEASE_TAG"] == "v"+v, "Tag and manifest version differ"'
+          git merge-base --is-ancestor HEAD origin/main
+      - name: Validate and test
+        run: |
+          python3 scripts/validate.py
+          python3 -m unittest discover -s tests -v
+      - name: Build archives and checksums
+        run: python3 scripts/build.py
+      - name: Publish GitHub assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_TAG" dist/* --verify-tag --title "Health Evidence Companion $RELEASE_TAG" --notes-file CHANGELOG.md

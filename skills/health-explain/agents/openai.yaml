@@ -1,0 +1,4 @@
+interface:
+  display_name: "Health Questions"
+  short_description: "Understand symptoms and navigate reliable sources"
+  default_prompt: "Use $health-explain to help with this request in my language."

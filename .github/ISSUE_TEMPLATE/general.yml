@@ -1,0 +1,23 @@
+name: General knowledge or package issue
+description: Report a general evidence gap or reproducible package issue without personal data.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include real cases, medical records, medicine histories, private links or credentials."
+  - type: textarea
+    id: issue
+    attributes:
+      label: General question or package problem
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public primary sources and versions
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no real person's health information or secrets.
+          required: true
