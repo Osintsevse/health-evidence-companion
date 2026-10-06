@@ -1,10 +1,10 @@
 # Repository and release setup
 
-Target owner: `Osintsevse`. Target source repository: `health-evidence-companion`. The package uses these planned links; confirm actual repository creation before claiming they are live.
+Owner: `Osintsevse`. Source repository: [health-evidence-companion](https://github.com/Osintsevse/health-evidence-companion). The public repository, owner CODEOWNERS entry and an initial successful Actions artifact build were verified on 2026-10-06. Settings such as branch protection require separate administrative verification; the owner has reported enabling protection.
 
 ## After repository creation
 
-Push the prepared English source tree to `main`. Enable GitHub Actions. Ensure the owner has the authority to review/merge and `CODEOWNERS` resolves to `@Osintsevse`. The first push should produce the `validate-and-build` check and downloadable artifacts.
+The initial English source tree is already on `main`, with GitHub Actions enabled. Make further changes on branches through PRs and keep `CODEOWNERS` set to `@Osintsevse`. The `validate-and-build` check creates downloadable candidate artifacts; version tags use the separate release workflow.
 
 Configure protection/rules for `main`: require a PR, require code-owner review with one approval, dismiss stale approvals, require `validate-and-build`, block force pushes/deletion and resolve conversations. Review bypass settings deliberately. CODEOWNERS alone requests review; it does not enforce it. The repository administration operation must actually complete before describing the branch as protected.
 
@@ -16,7 +16,7 @@ Optional: enable private vulnerability reporting, issues and discussions as desi
 
 ## Contributions and releases
 
-Contributors fork and open PRs. Owner review checks evidence, limits, license and privacy in addition to CI. After merging a reviewed release, increment `plugin.json` and changelog, then create a matching version tag such as `v0.1.0`.
+Contributors fork and open PRs. Owner review checks evidence, limits, license and privacy in addition to CI. Include the version/changelog increment in the reviewed PR. After merging that release, create a matching version tag such as `v0.2.0`; the tag must refer to the reviewed source on `main`.
 
 The tag workflow builds the installable ZIP and source archive, checks the version/tag match and creates a GitHub release with checksums. It publishes no plugin to OpenAI automatically. Upload that release's plugin ZIP through the publisher process. If the GitHub action is disabled or fails, inspect the run; do not describe the pipeline as verified from a local test alone.
 

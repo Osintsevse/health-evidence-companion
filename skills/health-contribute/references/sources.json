@@ -790,5 +790,365 @@
     "retrieval_status": "Main mechanisms and clinical-significance factors read",
     "use": "Pharmacodynamic and pharmacokinetic interactions",
     "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S89",
+    "title": "WAO - Anaphylaxis guidance, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/",
+    "region": "International",
+    "retrieval_status": "Selected diagnostic, first-line and second-line management sections read; not a complete emergency-care course.",
+    "use": "Anaphylaxis urgency and limits of antihistamines.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S90",
+    "title": "ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/",
+    "region": "International",
+    "retrieval_status": "Publication abstract and dates read; full recommendation tables not accessible.",
+    "use": "Current rhinitis drug-class comparisons, with conditional scope.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S91",
+    "title": "EAACI - Food allergy diagnosis guideline overview, 2023",
+    "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/",
+    "region": "International",
+    "retrieval_status": "Official overview read: history, sensitization, targeted tests and supervised challenge; not full guideline text.",
+    "use": "Diagnostic-test interpretation without home challenges.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S92",
+    "title": "EAACI - IgE-mediated food allergy management, 2024",
+    "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/",
+    "region": "International",
+    "retrieval_status": "Official guideline abstract/overview read; full specialist protocols not studied.",
+    "use": "Confirmed food-allergy management concepts and specialist boundaries.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S93",
+    "title": "International urticaria guideline, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41649409/",
+    "region": "International",
+    "retrieval_status": "Publication dates, abstract and diagnostic figure descriptions read; linked PMC full text blocked by browser challenge.",
+    "use": "Latest guideline locator; no invented full treatment algorithm.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S94",
+    "title": "NICE - CG183 Drug allergy",
+    "url": "https://www.nice.org.uk/guidance/cg183/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Indexed recommendations on reaction history, documentation and assessment inspected; direct full-page retrieval limited.",
+    "use": "Distinguish allergy, adverse effects and unknown status.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S95",
+    "title": "AAAAI - IgG food panel testing",
+    "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
+    "region": "International; US",
+    "retrieval_status": "Official explanation and recommendations against diagnostic IgG/IgG4 testing read.",
+    "use": "Avoid unsupported allergy/intolerance panels.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S96",
+    "title": "NHS - Hives",
+    "url": "https://www.nhs.uk/conditions/hives/",
+    "region": "UK",
+    "retrieval_status": "Symptoms, emergency signs and pharmacist/antihistamine advice sections inspected.",
+    "use": "Public explanation and urgency; no specialist dose escalation.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S97",
+    "title": "KDIGO - CKD evaluation and management, 2024 guideline portal",
+    "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+    "region": "International",
+    "retrieval_status": "Current guideline status and focused-update notice inspected; complete guideline not read.",
+    "use": "Version tracking and acute/chronic kidney assessment source route.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S98",
+    "title": "KDIGO - Selected 2024 CKD evaluation takeaways presentation",
+    "url": "https://kdigo.org/wp-content/uploads/2024/07/07232024-KDIGO-CKD.pdf",
+    "region": "International",
+    "retrieval_status": "Selected evaluation slides on CKD definition, chronicity, eGFR accuracy and albuminuria read; not the full guideline.",
+    "use": "Laboratory literacy and chronicity without single-result diagnosis.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S99",
+    "title": "NIDDK - The A1C test and diabetes",
+    "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test",
+    "region": "US",
+    "retrieval_status": "Selected explanation, confirmation and red-cell/haemoglobin interference sections read.",
+    "use": "HbA1c/glucose discordance and diagnostic confirmation.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S100",
+    "title": "WHO - Ferritin guideline, 2020",
+    "url": "https://iris.who.int/bitstream/handle/10665/331505/9789240000124-eng.pdf",
+    "region": "International",
+    "retrieval_status": "Indexed recommendations 1.2-1.4 and inflammation-related passages inspected; complete PDF not read.",
+    "use": "Ferritin limits with inflammation and iron-overload assessment.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S101",
+    "title": "NICE - NG145 Thyroid disease",
+    "url": "https://www.nice.org.uk/guidance/NG145/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.",
+    "use": "Primary/secondary thyroid testing and biotin interference.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S102",
+    "title": "MedlinePlus - Complete blood count",
+    "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+    "region": "US",
+    "retrieval_status": "Test-component and interpretation explanations inspected.",
+    "use": "CBC quantities, red-cell size and limits.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S103",
+    "title": "MedlinePlus - Blood differential",
+    "url": "https://medlineplus.gov/lab-tests/blood-differential/",
+    "region": "US",
+    "retrieval_status": "Selected test and white-cell interpretation sections inspected.",
+    "use": "Differential counts do not independently diagnose infection/allergy.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S104",
+    "title": "MedlinePlus - C-reactive protein test",
+    "url": "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/",
+    "region": "US",
+    "retrieval_status": "Inflammation causes and result-interpretation sections inspected.",
+    "use": "CRP is not a stand-alone antibiotic or diagnostic decision.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S105",
+    "title": "MedlinePlus - Liver function tests",
+    "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+    "region": "US",
+    "retrieval_status": "Selected components and interpretation sections inspected.",
+    "use": "Distinguish liver-injury enzymes from other panel information.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S106",
+    "title": "NICE - NG158 Venous thromboembolic diseases",
+    "url": "https://www.nice.org.uk/guidance/ng158/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline.",
+    "use": "Explain a diagnostic pathway rather than D-dimer screening.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S107",
+    "title": "Batut - Immunization instructions for 2026, full PDF",
+    "url": "https://www.batut.org.rs/download/SMU%20za%20sprovodjenje%20imunizacije%202026.pdf",
+    "region": "Serbia",
+    "retrieval_status": "Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders.",
+    "use": "Selected national vaccine landmarks and version-specific local guidance.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S108",
+    "title": "Rospotrebnadzor - National vaccination calendar publication, 2025-12-23",
+    "url": "https://06.rospotrebnadzor.ru/content/kalendar-profilakticheskih-privivok",
+    "region": "Russia",
+    "retrieval_status": "Selected national-calendar childhood and adult entries read; regional calendar and full legal consolidation not reviewed.",
+    "use": "Russian vaccine landmarks; eligibility is not universal clinical suitability.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S109",
+    "title": "WHO - Interrupted/delayed immunization summary table, December 2025",
+    "url": "https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-3.pdf?download=true&sfvrsn=7c2de9f9_12",
+    "region": "International",
+    "retrieval_status": "Internal December 2025 version, selected resume-series entries and notes inspected; not every antigen schedule.",
+    "use": "Catch-up principles with exceptions and local reconciliation.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S110",
+    "title": "CDC - Vaccine contraindications and precautions",
+    "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html",
+    "region": "US; general principles",
+    "retrieval_status": "Selected general contraindication/precaution and mistaken-contraindication tables inspected.",
+    "use": "Vaccine-specific allergy, live-vaccine and mild-illness distinctions.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S111",
+    "title": "WHO - Clinical practice guidelines for influenza, 2024",
+    "url": "https://iris.who.int/bitstream/handle/10665/378872/9789240097759-eng.pdf",
+    "region": "International",
+    "retrieval_status": "Indexed executive summary and section 7.1.6 evidence-to-decision text inspected; direct full-PDF retrieval failed. Full guideline not read.",
+    "use": "Conditional recommendation against umifenovir for non-severe influenza; distinguish severity and jurisdiction.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S112",
+    "title": "FDA - Homeopathic products",
+    "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/homeopathic-products",
+    "region": "US",
+    "retrieval_status": "Official identification, regulatory-status and product-safety sections read.",
+    "use": "Homeopathic-label recognition, US approval status and safety concerns.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S113",
+    "title": "Australian Government - Homeopathy evidence evaluation, Natural Therapies Review 2024",
+    "url": "https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-homeopathy-evidence-evaluation.pdf",
+    "region": "Australia",
+    "retrieval_status": "Plain-language summary and selected methods on PDF pages 16-17 read; not all 221 pages or appendices. Government download published in 2025.",
+    "use": "Current scoped assessment, certainty and limitations, replacing stale review-status references.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S114",
+    "title": "NCCIH - Homeopathy",
+    "url": "https://www.nccih.nih.gov/health/homeopathy",
+    "region": "US",
+    "retrieval_status": "Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release.",
+    "use": "General explanation; do not repeat stale publication-status wording.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S115",
+    "title": "Cochrane - Oscillococcinum for influenza-like illness, 2015",
+    "url": "https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness",
+    "region": "International",
+    "retrieval_status": "Review summary and conclusions read; underlying search current to 2014, not a new 2026 review.",
+    "use": "Low-quality evidence does not justify a proven efficacy claim.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S116",
+    "title": "Cochrane - Vitamin C for common colds, 2013",
+    "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+    "region": "International",
+    "retrieval_status": "Summary/conclusions on regular supplementation versus treatment after onset read; older review.",
+    "use": "Do not conflate post-onset treatment with other vitamin C indications.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S117",
+    "title": "Cochrane - Echinacea for common colds, 2014",
+    "url": "https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold",
+    "region": "International",
+    "retrieval_status": "Summary on heterogeneous preparations, bias and uncertain treatment effects read; older review.",
+    "use": "Product-specific evidence rather than an herbal-class verdict.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S118",
+    "title": "Ergoferon paediatric respiratory-infection RCT, 2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8608533/",
+    "region": "Russia; paediatric study",
+    "retrieval_status": "Selected population, results and manufacturer funding/conflicts inspected; full adult evidence appraisal not completed.",
+    "use": "A positive funded trial exists; no automatic extrapolation to routine adult colds.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S119",
+    "title": "Ingavirin adult influenza trial, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19459424/",
+    "region": "Russia",
+    "retrieval_status": "Indexed abstract inspected: small randomized groups and reported fever benefit. Direct PubMed access limited; full text and current synthesis not read.",
+    "use": "Efficacy appraisal pending, not proof that no trials exist.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S120",
+    "title": "Kagocel respiratory-infection report in adults with diabetes, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32598630/",
+    "region": "Russia",
+    "retrieval_status": "Indexed abstract inspected; complete methods, risk of bias and current evidence body not available.",
+    "use": "Population mismatch and incomplete appraisal; no routine-cold endorsement.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S121",
+    "title": "Anaferon adjunctive schizophrenia trial, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26567593/",
+    "region": "Russia",
+    "retrieval_status": "Abstract read: 40-patient adjunctive study of ultra-high-dilution antibodies; not a cold efficacy study.",
+    "use": "Do not mistake an unrelated trial or PubMed indexing for cold benefit.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S122",
+    "title": "Encyclopedia Pathologica - Medicine watchlist (secondary discovery)",
+    "url": "https://encyclopatia.ru/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2",
+    "region": "Russian-language; secondary",
+    "retrieval_status": "Selected framing and drug entries read as discovery leads. Not a regulator, guideline or primary efficacy source; blanket harmlessness wording must not be adopted.",
+    "use": "Find candidates and original citations, then verify indication-specific primary evidence.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S123",
+    "title": "NCHPL - Popular explanation of medicines with weak evidence (secondary)",
+    "url": "https://www.nchpl.uz/ru/posts/fuflomicin",
+    "region": "Uzbekistan; secondary",
+    "retrieval_status": "Selected explanatory/antiviral sections read. Its rimantadine example conflicts with current CDC seasonal-influenza advice.",
+    "use": "Discovery only; verify resistance, indication and current guidance.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S124",
+    "title": "Russian Wikipedia - Medicines with unproven efficacy (secondary)",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81_%D0%BD%D0%B5%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9_%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E",
+    "region": "Russian-language; secondary",
+    "retrieval_status": "Selected medicine/nootropic entries read; not an authoritative blanket class verdict. References require independent checking.",
+    "use": "Discovery and source tracing only, without copying article text.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S125",
+    "title": "Cochrane - Cerebrolysin for acute ischaemic stroke, 2023",
+    "url": "https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke",
+    "region": "International",
+    "retrieval_status": "Review summary and conclusions on mortality, missing functional outcomes and serious adverse events read; not all trial reports.",
+    "use": "Indication-specific outcome and harm appraisal, including Cortexin mortality data.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S126",
+    "title": "EMA - Restricted trimetazidine use, 2012 regulatory review",
+    "url": "https://www.ema.europa.eu/en/documents/press-release/european-medicines-agency-recommends-restricting-use-trimetazidine-containing-medicines_en.pdf",
+    "region": "EU; historical regulatory review",
+    "retrieval_status": "Indexed EMA restrictions/indication passage read; direct PDF access failed. Historical review, not a current local SmPC.",
+    "use": "Counterexample to blanket ineffectiveness: selected adjunctive stable-angina use differs from deleted indications.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S127",
+    "title": "Manufacturer SmPC - Nootropil 1200 mg, emc 2025 update",
+    "url": "https://www.medicines.org.uk/emc/product/101131/smpc",
+    "region": "UK",
+    "retrieval_status": "Sections 4.1 and relevant medicine-change cautions inspected; not a clinical efficacy systematic review.",
+    "use": "Authorized cortical-myoclonus indication is distinct from general cognition marketing.",
+    "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S128",
+    "title": "CDC - Influenza antiviral summary for clinicians, 2026-03-10",
+    "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+    "region": "US",
+    "retrieval_status": "Indexed priority-treatment and adamantane-resistance sections inspected; not every dose or seasonal surveillance table.",
+    "use": "Rimantadine/amantadine are not recommended for currently circulating influenza because of resistance; antiviral guidance differs by setting.",
+    "checked_on": "2026-10-06"
   }
 ]

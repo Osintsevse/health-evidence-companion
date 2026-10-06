@@ -28,8 +28,8 @@ Clinical examination, procedures, supervised practice and professional assessmen
 | Obstetrics/gynaecology/reproductive health | Pregnancy, contraception, medicine risks, prevention | Queued; do not transfer general adult examples into pregnancy |
 | Paediatrics/age-specific care | Age norms, doses, urgency, vaccination | Separate future block; present dose examples are adult |
 | Emergency care | Warning signs, referral, guideline-based first aid | General urgency principles; systematic course incomplete |
-| Diagnostics | Laboratories, ECG, imaging, limits, pretest probability | Laboratory introduction; image interpretation not validated |
-| Prevention/public health | Screening, vaccination, epidemiology, nutrition, risks | Selected sources and introductory notes |
+| Diagnostics | Laboratories, ECG, imaging, limits, pretest probability | Module 16 expands laboratory literacy; ECG/image interpretation not validated |
+| Prevention/public health | Screening, vaccination, epidemiology, nutrition, risks | Module 17 adds selected national vaccine landmarks; other areas introductory |
 | Evidence-based medicine | Study design, reviews, absolute risks, applicability | Search and appraisal principles |
 | Data/ethics | Privacy, provenance, consent, corrections | General policy and record rules developed |
 

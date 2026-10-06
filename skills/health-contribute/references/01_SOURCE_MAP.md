@@ -16,7 +16,7 @@ Frame population/problem, intervention, comparator and desired outcome. Search c
 
 If blocked, seek the official PDF or another primary source. Label a search excerpt as an excerpt, never reconstruct a missing dose by guessing. Recheck contraindications and local applicability for each new medicine/interaction question. Save original concise notes with URL, date and limits; do not redistribute protected full texts.
 
-Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.
+Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Modules 15-18 expand allergy, laboratory literacy, vaccination and treatment evidence. Secondary discovery lists are marked and do not support final efficacy classifications. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.
 
 ## Entries
 
@@ -634,5 +634,285 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Region: International
 - Reading status: Main mechanisms and clinical-significance factors read
 - Purpose: Pharmacodynamic and pharmacokinetic interactions
+- Checked: 2026-10-06
+
+### S89 - WAO - Anaphylaxis guidance, 2020
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
+- Region: International
+- Reading status: Selected diagnostic, first-line and second-line management sections read; not a complete emergency-care course.
+- Purpose: Anaphylaxis urgency and limits of antihistamines.
+- Checked: 2026-10-06
+
+### S90 - ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)
+- URL: https://pubmed.ncbi.nlm.nih.gov/41324154/
+- Region: International
+- Reading status: Publication abstract and dates read; full recommendation tables not accessible.
+- Purpose: Current rhinitis drug-class comparisons, with conditional scope.
+- Checked: 2026-10-06
+
+### S91 - EAACI - Food allergy diagnosis guideline overview, 2023
+- URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/
+- Region: International
+- Reading status: Official overview read: history, sensitization, targeted tests and supervised challenge; not full guideline text.
+- Purpose: Diagnostic-test interpretation without home challenges.
+- Checked: 2026-10-06
+
+### S92 - EAACI - IgE-mediated food allergy management, 2024
+- URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/
+- Region: International
+- Reading status: Official guideline abstract/overview read; full specialist protocols not studied.
+- Purpose: Confirmed food-allergy management concepts and specialist boundaries.
+- Checked: 2026-10-06
+
+### S93 - International urticaria guideline, 2026
+- URL: https://pubmed.ncbi.nlm.nih.gov/41649409/
+- Region: International
+- Reading status: Publication dates, abstract and diagnostic figure descriptions read; linked PMC full text blocked by browser challenge.
+- Purpose: Latest guideline locator; no invented full treatment algorithm.
+- Checked: 2026-10-06
+
+### S94 - NICE - CG183 Drug allergy
+- URL: https://www.nice.org.uk/guidance/cg183/chapter/recommendations
+- Region: UK
+- Reading status: Indexed recommendations on reaction history, documentation and assessment inspected; direct full-page retrieval limited.
+- Purpose: Distinguish allergy, adverse effects and unknown status.
+- Checked: 2026-10-06
+
+### S95 - AAAAI - IgG food panel testing
+- URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test
+- Region: International; US
+- Reading status: Official explanation and recommendations against diagnostic IgG/IgG4 testing read.
+- Purpose: Avoid unsupported allergy/intolerance panels.
+- Checked: 2026-10-06
+
+### S96 - NHS - Hives
+- URL: https://www.nhs.uk/conditions/hives/
+- Region: UK
+- Reading status: Symptoms, emergency signs and pharmacist/antihistamine advice sections inspected.
+- Purpose: Public explanation and urgency; no specialist dose escalation.
+- Checked: 2026-10-06
+
+### S97 - KDIGO - CKD evaluation and management, 2024 guideline portal
+- URL: https://kdigo.org/guidelines/ckd-evaluation-and-management/
+- Region: International
+- Reading status: Current guideline status and focused-update notice inspected; complete guideline not read.
+- Purpose: Version tracking and acute/chronic kidney assessment source route.
+- Checked: 2026-10-06
+
+### S98 - KDIGO - Selected 2024 CKD evaluation takeaways presentation
+- URL: https://kdigo.org/wp-content/uploads/2024/07/07232024-KDIGO-CKD.pdf
+- Region: International
+- Reading status: Selected evaluation slides on CKD definition, chronicity, eGFR accuracy and albuminuria read; not the full guideline.
+- Purpose: Laboratory literacy and chronicity without single-result diagnosis.
+- Checked: 2026-10-06
+
+### S99 - NIDDK - The A1C test and diabetes
+- URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test
+- Region: US
+- Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read.
+- Purpose: HbA1c/glucose discordance and diagnostic confirmation.
+- Checked: 2026-10-06
+
+### S100 - WHO - Ferritin guideline, 2020
+- URL: https://iris.who.int/bitstream/handle/10665/331505/9789240000124-eng.pdf
+- Region: International
+- Reading status: Indexed recommendations 1.2-1.4 and inflammation-related passages inspected; complete PDF not read.
+- Purpose: Ferritin limits with inflammation and iron-overload assessment.
+- Checked: 2026-10-06
+
+### S101 - NICE - NG145 Thyroid disease
+- URL: https://www.nice.org.uk/guidance/NG145/chapter/recommendations
+- Region: UK
+- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.
+- Purpose: Primary/secondary thyroid testing and biotin interference.
+- Checked: 2026-10-06
+
+### S102 - MedlinePlus - Complete blood count
+- URL: https://medlineplus.gov/lab-tests/complete-blood-count-cbc/
+- Region: US
+- Reading status: Test-component and interpretation explanations inspected.
+- Purpose: CBC quantities, red-cell size and limits.
+- Checked: 2026-10-06
+
+### S103 - MedlinePlus - Blood differential
+- URL: https://medlineplus.gov/lab-tests/blood-differential/
+- Region: US
+- Reading status: Selected test and white-cell interpretation sections inspected.
+- Purpose: Differential counts do not independently diagnose infection/allergy.
+- Checked: 2026-10-06
+
+### S104 - MedlinePlus - C-reactive protein test
+- URL: https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/
+- Region: US
+- Reading status: Inflammation causes and result-interpretation sections inspected.
+- Purpose: CRP is not a stand-alone antibiotic or diagnostic decision.
+- Checked: 2026-10-06
+
+### S105 - MedlinePlus - Liver function tests
+- URL: https://medlineplus.gov/lab-tests/liver-function-tests/
+- Region: US
+- Reading status: Selected components and interpretation sections inspected.
+- Purpose: Distinguish liver-injury enzymes from other panel information.
+- Checked: 2026-10-06
+
+### S106 - NICE - NG158 Venous thromboembolic diseases
+- URL: https://www.nice.org.uk/guidance/ng158/chapter/recommendations
+- Region: UK
+- Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline.
+- Purpose: Explain a diagnostic pathway rather than D-dimer screening.
+- Checked: 2026-10-06
+
+### S107 - Batut - Immunization instructions for 2026, full PDF
+- URL: https://www.batut.org.rs/download/SMU%20za%20sprovodjenje%20imunizacije%202026.pdf
+- Region: Serbia
+- Reading status: Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders.
+- Purpose: Selected national vaccine landmarks and version-specific local guidance.
+- Checked: 2026-10-06
+
+### S108 - Rospotrebnadzor - National vaccination calendar publication, 2025-12-23
+- URL: https://06.rospotrebnadzor.ru/content/kalendar-profilakticheskih-privivok
+- Region: Russia
+- Reading status: Selected national-calendar childhood and adult entries read; regional calendar and full legal consolidation not reviewed.
+- Purpose: Russian vaccine landmarks; eligibility is not universal clinical suitability.
+- Checked: 2026-10-06
+
+### S109 - WHO - Interrupted/delayed immunization summary table, December 2025
+- URL: https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-3.pdf?download=true&sfvrsn=7c2de9f9_12
+- Region: International
+- Reading status: Internal December 2025 version, selected resume-series entries and notes inspected; not every antigen schedule.
+- Purpose: Catch-up principles with exceptions and local reconciliation.
+- Checked: 2026-10-06
+
+### S110 - CDC - Vaccine contraindications and precautions
+- URL: https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html
+- Region: US; general principles
+- Reading status: Selected general contraindication/precaution and mistaken-contraindication tables inspected.
+- Purpose: Vaccine-specific allergy, live-vaccine and mild-illness distinctions.
+- Checked: 2026-10-06
+
+### S111 - WHO - Clinical practice guidelines for influenza, 2024
+- URL: https://iris.who.int/bitstream/handle/10665/378872/9789240097759-eng.pdf
+- Region: International
+- Reading status: Indexed executive summary and section 7.1.6 evidence-to-decision text inspected; direct full-PDF retrieval failed. Full guideline not read.
+- Purpose: Conditional recommendation against umifenovir for non-severe influenza; distinguish severity and jurisdiction.
+- Checked: 2026-10-06
+
+### S112 - FDA - Homeopathic products
+- URL: https://www.fda.gov/drugs/understanding-over-counter-medicines/homeopathic-products
+- Region: US
+- Reading status: Official identification, regulatory-status and product-safety sections read.
+- Purpose: Homeopathic-label recognition, US approval status and safety concerns.
+- Checked: 2026-10-06
+
+### S113 - Australian Government - Homeopathy evidence evaluation, Natural Therapies Review 2024
+- URL: https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-homeopathy-evidence-evaluation.pdf
+- Region: Australia
+- Reading status: Plain-language summary and selected methods on PDF pages 16-17 read; not all 221 pages or appendices. Government download published in 2025.
+- Purpose: Current scoped assessment, certainty and limitations, replacing stale review-status references.
+- Checked: 2026-10-06
+
+### S114 - NCCIH - Homeopathy
+- URL: https://www.nccih.nih.gov/health/homeopathy
+- Region: US
+- Reading status: Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release.
+- Purpose: General explanation; do not repeat stale publication-status wording.
+- Checked: 2026-10-06
+
+### S115 - Cochrane - Oscillococcinum for influenza-like illness, 2015
+- URL: https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness
+- Region: International
+- Reading status: Review summary and conclusions read; underlying search current to 2014, not a new 2026 review.
+- Purpose: Low-quality evidence does not justify a proven efficacy claim.
+- Checked: 2026-10-06
+
+### S116 - Cochrane - Vitamin C for common colds, 2013
+- URL: https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold
+- Region: International
+- Reading status: Summary/conclusions on regular supplementation versus treatment after onset read; older review.
+- Purpose: Do not conflate post-onset treatment with other vitamin C indications.
+- Checked: 2026-10-06
+
+### S117 - Cochrane - Echinacea for common colds, 2014
+- URL: https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold
+- Region: International
+- Reading status: Summary on heterogeneous preparations, bias and uncertain treatment effects read; older review.
+- Purpose: Product-specific evidence rather than an herbal-class verdict.
+- Checked: 2026-10-06
+
+### S118 - Ergoferon paediatric respiratory-infection RCT, 2021
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8608533/
+- Region: Russia; paediatric study
+- Reading status: Selected population, results and manufacturer funding/conflicts inspected; full adult evidence appraisal not completed.
+- Purpose: A positive funded trial exists; no automatic extrapolation to routine adult colds.
+- Checked: 2026-10-06
+
+### S119 - Ingavirin adult influenza trial, 2009
+- URL: https://pubmed.ncbi.nlm.nih.gov/19459424/
+- Region: Russia
+- Reading status: Indexed abstract inspected: small randomized groups and reported fever benefit. Direct PubMed access limited; full text and current synthesis not read.
+- Purpose: Efficacy appraisal pending, not proof that no trials exist.
+- Checked: 2026-10-06
+
+### S120 - Kagocel respiratory-infection report in adults with diabetes, 2020
+- URL: https://pubmed.ncbi.nlm.nih.gov/32598630/
+- Region: Russia
+- Reading status: Indexed abstract inspected; complete methods, risk of bias and current evidence body not available.
+- Purpose: Population mismatch and incomplete appraisal; no routine-cold endorsement.
+- Checked: 2026-10-06
+
+### S121 - Anaferon adjunctive schizophrenia trial, 2015
+- URL: https://pubmed.ncbi.nlm.nih.gov/26567593/
+- Region: Russia
+- Reading status: Abstract read: 40-patient adjunctive study of ultra-high-dilution antibodies; not a cold efficacy study.
+- Purpose: Do not mistake an unrelated trial or PubMed indexing for cold benefit.
+- Checked: 2026-10-06
+
+### S122 - Encyclopedia Pathologica - Medicine watchlist (secondary discovery)
+- URL: https://encyclopatia.ru/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2
+- Region: Russian-language; secondary
+- Reading status: Selected framing and drug entries read as discovery leads. Not a regulator, guideline or primary efficacy source; blanket harmlessness wording must not be adopted.
+- Purpose: Find candidates and original citations, then verify indication-specific primary evidence.
+- Checked: 2026-10-06
+
+### S123 - NCHPL - Popular explanation of medicines with weak evidence (secondary)
+- URL: https://www.nchpl.uz/ru/posts/fuflomicin
+- Region: Uzbekistan; secondary
+- Reading status: Selected explanatory/antiviral sections read. Its rimantadine example conflicts with current CDC seasonal-influenza advice.
+- Purpose: Discovery only; verify resistance, indication and current guidance.
+- Checked: 2026-10-06
+
+### S124 - Russian Wikipedia - Medicines with unproven efficacy (secondary)
+- URL: https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81_%D0%BD%D0%B5%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9_%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E
+- Region: Russian-language; secondary
+- Reading status: Selected medicine/nootropic entries read; not an authoritative blanket class verdict. References require independent checking.
+- Purpose: Discovery and source tracing only, without copying article text.
+- Checked: 2026-10-06
+
+### S125 - Cochrane - Cerebrolysin for acute ischaemic stroke, 2023
+- URL: https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
+- Region: International
+- Reading status: Review summary and conclusions on mortality, missing functional outcomes and serious adverse events read; not all trial reports.
+- Purpose: Indication-specific outcome and harm appraisal, including Cortexin mortality data.
+- Checked: 2026-10-06
+
+### S126 - EMA - Restricted trimetazidine use, 2012 regulatory review
+- URL: https://www.ema.europa.eu/en/documents/press-release/european-medicines-agency-recommends-restricting-use-trimetazidine-containing-medicines_en.pdf
+- Region: EU; historical regulatory review
+- Reading status: Indexed EMA restrictions/indication passage read; direct PDF access failed. Historical review, not a current local SmPC.
+- Purpose: Counterexample to blanket ineffectiveness: selected adjunctive stable-angina use differs from deleted indications.
+- Checked: 2026-10-06
+
+### S127 - Manufacturer SmPC - Nootropil 1200 mg, emc 2025 update
+- URL: https://www.medicines.org.uk/emc/product/101131/smpc
+- Region: UK
+- Reading status: Sections 4.1 and relevant medicine-change cautions inspected; not a clinical efficacy systematic review.
+- Purpose: Authorized cortical-myoclonus indication is distinct from general cognition marketing.
+- Checked: 2026-10-06
+
+### S128 - CDC - Influenza antiviral summary for clinicians, 2026-03-10
+- URL: https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html
+- Region: US
+- Reading status: Indexed priority-treatment and adamantane-resistance sections inspected; not every dose or seasonal surveillance table.
+- Purpose: Rimantadine/amantadine are not recommended for currently circulating influenza because of resistance; antiviral guidance differs by setting.
 - Checked: 2026-10-06
 

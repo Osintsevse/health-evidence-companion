@@ -25,7 +25,8 @@ Mutation tests exercise reproducibility, stale/extra references, missing links/s
 - Clinical accuracy, suitability for diagnosis, clinician-certified content or patient outcomes.
 - Live access to optional medical APIs, hosted MCP handshakes or model performance.
 - OpenAI metadata/skill scan success, directory acceptance or installation.
-- A GitHub Actions run or enforced branch protection before repository creation and verification.
+- GitHub Actions run 7 for PR #3 completed successfully, including validation, packaging tests, the offline adapter tests and candidate build. The repository owner reported branch protection enabled; its administrative settings were not independently fetched.
 - Secure personal record storage or PHI-processing compliance.
 
 Before release, inspect actual tests and build output. Re-run relevant checks after substantive changes, perform additional synthetic forward checks when needed, and obtain the platform's real review outcome.
+

@@ -2,6 +2,8 @@
 
 Sources: S20, S28-S32. Principles and source routes; no individualized screening schedule is established here.
 
+Modules 16 and 17 expand laboratory literacy and vaccination source navigation. They distinguish selected dated calendar landmarks from complete schedules, and test interpretation from a diagnosis. Their examples remain general or synthetic.
+
 ## Laboratory results
 
 Record-design rules preserve analyte, value, unit, laboratory-specific reference range, timing, conditions and original source. Reference ranges depend on method. An out-of-range result does not always mean disease; an in-range result does not always exclude it. Symptoms and trends matter more than a red highlight alone. False positives and false negatives occur. [S28]

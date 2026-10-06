@@ -18,6 +18,8 @@ Never submit a real person's story, filled record, results, prescription, docume
 6. Regenerate derived material and run the README developer commands. Do not manually edit generated CSV, source map or skill reference copies. Inspect the complete ZIP contents.
 7. Open a PR using the template. Describe the general problem, change, sources, limitations and validation. Clinical checks need substantive maintainer review; passing CI is not proof of medical truth.
 
+For treatment claims, apply module 18's evidence gate. Identify the indication, comparator, outcome, certainty and guideline direction. Drug lists/Wikipedia/popular articles can supply search leads, not a final classification. Preserve legitimate indication-specific exceptions. Do not infer that weak-evidence products are harmless or exclude a trial solely because of its funding. For calendars/laboratories, record jurisdiction, internal version, units/method and reading scope; a lookup date does not establish a new guideline edition.
+
 ## Code changes
 
 Keep browser runtime skills free from local-code or mandatory paid-API dependencies. Packaging scripts are developer tooling, not runtime features. Use standard-library tooling where practical. Test meaningful failure modes: path traversal, stale reference copies, unfilled/filled templates, private links, missing source IDs, version mismatch and archive allowlisting.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "General adult health explanations, medicine information and evidence navigation with current primary sources.",
   "author": {"name": "Osintsevse", "url": "https://github.com/Osintsevse"},
   "homepage": "https://github.com/Osintsevse/health-evidence-companion",
@@ -13,7 +13,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Understand adult health questions, common symptoms, medicine ingredients and mechanisms, interaction evidence, medical research and psychiatric medicine information. Navigate primary sources in Serbia, Russia and internationally, and learn how to structure a separate private archive using blank templates. Answers follow your language. This skills-only package has no required local server or paid medical API. It provides general information and clinician questions, not definitive diagnoses, prescriptions, treatment changes or personal record management. It does not solicit or process PHI. Stored notes and source reading limits are explicit; current guidance must be checked when relevant.",
+        "longDescription": "Understand adult health questions, allergies and allergy tests, laboratory concepts, vaccine calendars, medicine labels, mechanisms, interaction evidence and psychiatric medicine information. Assess treatment claims, homeopathy and research using indication-specific evidence checks and primary sources in Serbia, Russia and internationally. Learn to design a separate private archive with blank templates. Answers follow your language. This skills-only package has no required local server or paid medical API. It provides general information and clinician questions, not definitive diagnoses, prescriptions, treatment changes or personal record management. It does not solicit or process PHI. Source reading limits, dated calendar scope and pending medicine appraisals are explicit; current guidance must be checked when relevant.",
         "developerName": "Osintsevse",
         "category": "Productivity",
         "capabilities": ["Explain health information", "Navigate clinical sources", "Explain medicine labels", "Appraise medical evidence", "Explain blank record design"],
@@ -27,7 +27,7 @@
         "logo": "./assets/icon.svg"
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
-      "publication": {"release_notes": "Initial English edition with six informational skills, primary-source references and blank templates."}
+      "publication": {"release_notes": "Version 0.2.0 expands allergy, laboratory literacy, vaccination and treatment-evidence/homeopathy information. Six updated skills, 128 registered sources with reading limits, indication-specific watchlists and blank templates. General information only; no patient-record processing or required paid API."}
     }
   }
 }
