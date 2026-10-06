@@ -1,6 +1,6 @@
 ---
 name: health-research
-description: Find and critically explain medical research, guidelines, medicine efficacy and safety with primary-source citations. Use for whether a treatment works, evidence strength, study interpretation, medical AI validation and current clinical source navigation.
+description: Find and critically explain medical research, guidelines, medicine efficacy and safety with primary-source citations. Use for whether a treatment works, homeopathy or weak-evidence medicine lists, allergy tests, laboratory or vaccination evidence, study interpretation, medical AI validation and current clinical source navigation.
 ---
 
 # Medical evidence
@@ -10,6 +10,10 @@ Reply in the user's language. Read [policy](references/00_KNOWLEDGE_POLICY.md), 
 Frame a focused population/intervention/comparator/outcome question without patient identifiers. Search current official guidance, systematic reviews and original studies with available browsing. PubMed/Europe PMC are search routes, not evidence grades. Do not claim full-text reading when only an abstract is accessible.
 
 Check design, population, comparator, outcomes, follow-up, sample, absolute effects, uncertainty, bias, funding, applicability and conflicts. Distinguish symptom relief from disease modification, statistical from clinical significance, association from causation and trial registration from results. FAERS counts are not rates or established causality.
+
+For efficacy questions read the [indication-specific evidence gate and watchlist](references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md). Do not turn discovery lists into automatic brand bans. Separate insufficient evidence, a guideline recommendation against, demonstrated little/no effect for a particular outcome and uncertain benefit. Do not discard a funded trial solely for its funding or claim no studies exist without a defensible search. Pending appraisal gets no positive efficacy recommendation. Date older reviews and search updates; report guideline disagreement rather than silently picking one jurisdiction.
+
+Use [allergology](references/15_ALLERGOLOGY.md), [laboratory literacy](references/16_LABORATORY_LITERACY.md) and [vaccination](references/17_VACCINATION.md) for their different diagnostic and source-version limits. A recently retrieved document is not necessarily a recent edition.
 
 Explain the evidence-supported conclusion and uncertainty; cite inspected primary sources and relevant dates/versions. Separate guideline recommendations from interpretation. Do not invent effects, citations, quotations or diagnostic probabilities. Explain access limits. Vendor benchmarks and adoption are not patient-outcome validation.
 

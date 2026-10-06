@@ -25,7 +25,9 @@ See [installation](docs/installation.md) and [publication](docs/publication.md).
 
 ## Knowledge and privacy
 
-The English library covers the original fourteen modules, 88 registered sources, additional free-tool research and five blank template files. It prioritizes Serbian ALIMS, Russian GRLS/clinical guidelines, WHO and relevant international primary sources. Reading status and gaps are explicit; this is not a completed medical degree or validated diagnostic model.
+The English library retains the original general modules and adds allergy, laboratory literacy, vaccination and treatment-evidence/homeopathy modules. It has 128 registered sources, including three marked secondary discovery lists, additional free-tool research and five blank template files. It prioritizes Serbian ALIMS, Russian GRLS/clinical guidelines, WHO and relevant international primary sources. Reading status and gaps are explicit; this is not a completed medical degree or validated diagnostic model.
+
+The medicine workflow checks evidence for the exact indication before endorsing efficacy. It separates unsupported claims, guideline recommendations against, uncertain effects and pending appraisal rather than treating a brand list as a universal ban. See the [knowledge index](knowledge/00_INDEX.md), [treatment watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [repository review](docs/review-2026-10-06.md).
 
 **Only general knowledge and blank forms are allowed.** Never contribute actual histories, anonymized real cases, identifiable documents, private links or personal medicine lists. The public plugin does not maintain patient records, solicit PHI or connect to a clinical archive. General record rules are included so people can design a separate private system. See [knowledge policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -44,6 +46,7 @@ python3 scripts/update_registry.py
 python3 scripts/sync_references.py
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s examples/drugbank -v
 python3 scripts/build.py
 ```
 

@@ -10,7 +10,9 @@ def update(root=ROOT):
     sources = json.loads((root / 'knowledge/sources.json').read_text())
     fields = ['id', 'title', 'url', 'region', 'retrieval_status', 'use', 'checked_on']
     with (root / 'knowledge/sources.csv').open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        # Keep generated text files LF-normalized so `git diff --check` does not
+        # treat csv.writer's platform-independent CRLF terminator as whitespace.
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows(sources)
     lines = ['# Source map', '',
@@ -22,7 +24,7 @@ def update(root=ROOT):
              '## Search procedure', '',
              'Frame population/problem, intervention, comparator and desired outcome. Search condition names/synonyms in English, Serbian and Russian; search medicines by INN, brand, formulation and concentration. For ALIMS, use product name plus uputstvo za lek or sazetak karakteristika leka, then inspect relevant SmPC sections 4.1-4.8. For Russia, use the official guideline catalogue and GRLS; check adult scope, year and version.', '',
              'If blocked, seek the official PDF or another primary source. Label a search excerpt as an excerpt, never reconstruct a missing dose by guessing. Recheck contraindications and local applicability for each new medicine/interaction question. Save original concise notes with URL, date and limits; do not redistribute protected full texts.', '',
-             'Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.', '',
+             'Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Modules 15-18 expand allergy, laboratory literacy, vaccination and treatment evidence. Secondary discovery lists are marked and do not support final efficacy classifications. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.', '',
              '## Entries', '']
     for s in sources:
         lines.extend([f"### {s['id']} - {s['title']}", f"- URL: {s['url']}",

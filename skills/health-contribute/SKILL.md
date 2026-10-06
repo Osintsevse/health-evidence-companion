@@ -9,6 +9,8 @@ Reply in the user's language; write package content in English. Read [policy](re
 
 Formulate an independent general question. Never copy a real symptom history, regimen, document or chronology, even with names removed. Collect no patient data/keys. Write original prose with scope, evidence, exceptions, actual reading status, URL/version, check date and uncertainty. Recheck current primary sources.
 
+Use the [treatment-evidence workflow](references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) for drug claims. Secondary lists can identify candidates but cannot support a final efficacy classification. Specify indication, outcome, certainty and current guidance. Avoid universal brand/class bans, claims that every weak-evidence product is harmless, or manufacturer funding as the sole exclusion reason.
+
 Add unique entries to canonical `knowledge/sources.json`; regenerate CSV/source map/references with documented scripts. Preserve stable IDs. Update relevant modules and the build map as needed. Do not add incompatible datasets or copyrighted full texts; check code/data/model licenses separately.
 
 Prepare a diff, checks and concise PR draft. Submit a GitHub PR only when explicitly requested and an authorized GitHub tool is available; otherwise provide a reviewable draft. Do not claim submission, approval, merge or publication without verification. Clinical changes need substantive maintainer source review; the skill cannot approve itself.

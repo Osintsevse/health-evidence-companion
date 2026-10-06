@@ -20,8 +20,12 @@ English edition, 2026-10-06. Scope: adult health information, with Serbian, Russ
 | 12 | Drug interactions and compatibility |
 | 13 | Curriculum across medical disciplines |
 | 14 | Universal private health record rules |
+| 15 | Allergology: testing, rhinitis, hives and emergency distinctions |
+| 16 | Laboratory literacy: units, patterns, confirmation and interference |
+| 17 | Vaccination: dated Serbia/Russia landmarks and catch-up source rules |
+| 18 | Treatment evidence, homeopathy and an indication-specific watchlist |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain the 88 original source entries; the research documents add links to free tools and integration documentation. `templates/` contains five blank files.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 128 entries, retaining all 88 original IDs. Three new secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Research documents add free-tool and integration links. `templates/` contains five blank files. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 

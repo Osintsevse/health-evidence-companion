@@ -1,0 +1,608 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Metadata and access audit, not full-text reading or a clinical currency certification.",
+  "original_sources": [
+    {
+      "id": "S01",
+      "url": "https://www.who.int/standards/classifications/classification-of-diseases/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.who.int/publications/i/item/9789240077263/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.who.int/publications/i/item/9789240084278",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S04",
+      "url": "https://iris.who.int/bitstream/handle/10665/67010/WHO_EDM_PAR_2001.2.pdf?sequence=1",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/introduction-to-clinical-decision-making",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/cognitive-errors-in-clinical-decision-making",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nice.org.uk/guidance/ng120/chapter/recommendations",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.cdc.gov/common-cold/treatment/index.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.alims.gov.rs/humani-lekovi/informacije-o-lekovima-i-klinickim-ispitivanjima/",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.alims.gov.rs/doc_file/lekovi/pil/515-01-02591-17-001.pdf",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00316-20-002.pdf",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S16",
+      "url": "https://minzdrav.gov.ru/poleznye-resursy/portal-po-vedeniyu-gosudarstvennogo-reestra-lekarstvennyh-sredstv",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S17",
+      "url": "https://minzdrav.gov.ru/special/smartphone_apps_rubrikator_kr",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S18",
+      "url": "https://edu.rosminzdrav.ru/news/novosti/news/orvi-u-vzroslykh-opublikovany-novye-klinicheskie-rekom/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S19",
+      "url": "https://zdravlje.gov.rs/tekst/436482/nacionalni-vodici-dobre-klinicke-prakse-.php",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.batut.org.rs/index.php?content=3157",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S22",
+      "url": "https://doi.org/10.1111/all.15902",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S23",
+      "url": "https://ginasthma.org/faq/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S24",
+      "url": "https://ginasthma.org/2026-gina-summary-guide/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.nice.org.uk/guidance/ng215/chapter/Recommendations",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S27",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c614be38-cb45-44a1-b78e-0cdfc0691618",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S28",
+      "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/screening-for-prediabetes-and-type-2-diabetes",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.who.int/publications/i/item/who-wer9308-73-96",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.cdc.gov/rubella/hcp/vaccine-considerations/index.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S33",
+      "url": "https://ada.com/help/what-degree-of-liability-does-ada-accept/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.isabelhealthcare.com/products/isabel-self-triage",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.amboss.com/us/clinical-ai-mode",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.wolterskluwer.com/en/news/wolters-kluwer-adds-uptodate-lexidrug-to-genai-powered-clinical-decision-support-uptodate-expert-ai",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.wolterskluwer.com/en/solutions/uptodate/pro/lexidrug",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-health-system-collaborates-with-openevidence-to-provide-evidence-based-knowledge-within-electronic-medical-record",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S39",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.nhs.uk/medicines/cetirizine/side-effects-of-cetirizine/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S42",
+      "url": "https://iris.who.int/bitstream/handle/10665/59001/WHO_DAP_94.11.pdf",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S43",
+      "url": "https://developers.google.com/health-ai-developer-foundations/medgemma/model-card",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S44",
+      "url": "https://developers.google.com/health-ai-developer-foundations/faqs",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S45",
+      "url": "https://developers.google.com/health-ai-developer-foundations/terms",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S46",
+      "url": "https://developers.google.com/health-ai-developer-foundations/medgemma/get-started",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S47",
+      "url": "https://huggingface.co/BioMistral/BioMistral-7B",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S48",
+      "url": "https://github.com/gzxiong/MedRAG",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S49",
+      "url": "https://github.com/gzxiong/MedRAG/blob/main/LICENSE",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S50",
+      "url": "https://developer.infermedica.com/documentation/overview/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S51",
+      "url": "https://developer.infermedica.com/documentation/engine-api/build-your-solution/diagnosis/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S52",
+      "url": "https://info.isabelhealthcare.com/symptom-checker-api",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S53",
+      "url": "https://info.isabelhealthcare.com/isabel-api-documention-request",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S54",
+      "url": "https://ada.com/help/360000309665/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S55",
+      "url": "https://evidencemd.ai/developers",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S56",
+      "url": "https://evidencemd.ai/developers/enterprise",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.amboss.com/de/integration",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S58",
+      "url": "https://docs.drugbank.com/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S59",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/webservices-help/v2/spls_api.cfm",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S60",
+      "url": "https://open.fda.gov/apis/drug/label/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S61",
+      "url": "https://lhncbc.nlm.nih.gov/RxNav/information/FAQs.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S62",
+      "url": "https://www.lhncbc.nlm.nih.gov/RxNav/APIs/index.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S63",
+      "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/overview-of-pharmacokinetics",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S64",
+      "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/overview-of-pharmacodynamics",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S65",
+      "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-bioavailability",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S66",
+      "url": "https://sps.nhs.uk/articles/understanding-drug-interactions/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S67",
+      "url": "https://sps.nhs.uk/articles/understanding-enzyme-or-transporter-based-drug-interactions/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S68",
+      "url": "https://sps.nhs.uk/articles/drug-interactions-resources-to-support-clinical-decisions/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S69",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S70",
+      "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S71",
+      "url": "https://www.fda.gov/drugs/information-drug-class/new-safety-measures-announced-opioid-analgesics-prescription-opioid-cough-products-and",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S72",
+      "url": "https://www.nhs.uk/medicines/sertraline/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S73",
+      "url": "https://www.nhs.uk/medicines/chlorphenamine-including-piriton/about-chlorphenamine/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S74",
+      "url": "https://sps.nhs.uk/articles/managing-medicines-associated-with-qt-interval-prolongation/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S75",
+      "url": "https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00534-22-001.pdf",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S76",
+      "url": "https://registar.alims.gov.rs/",
+      "access_result": "access-limited"
+    },
+    {
+      "id": "S77",
+      "url": "https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S78",
+      "url": "https://www.fda.gov/drugs/generic-drugs/generic-drugs-questions-answers",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S79",
+      "url": "https://www.medsafe.govt.nz/profs/PUArticles/September2022/Opioids-and-serotonergic%20medicines-risk-of-serotonin-syndrome.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S80",
+      "url": "https://med.bg.ac.rs/?page_id=12210&script=lat",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S81",
+      "url": "https://med.bg.ac.rs/?page_id=14524&script=lat",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S82",
+      "url": "https://www.sechenov.ru/education/vysshee-obrazovanie/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S83",
+      "url": "https://www.sechenov.ru/univers/structure/institute/institut-klinicheskoy-meditsiny/kafedry-klinicheskoy-mediciny-im-Sklificovskoro/farm/vysshee-professionalnoe-obrazovanie-/uchebnyy-razdel/klinicheskaya-farmakologiya/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S84",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S85",
+      "url": "https://hl7.org/fhir/R4/medicationstatement.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S86",
+      "url": "https://hl7.org/fhir/R4/allergyintolerance.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S87",
+      "url": "https://hl7.org/fhir/R4/provenance.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "id": "S88",
+      "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/factors-affecting-response-to-medications/drug-interactions",
+      "access_result": "page-metadata-retrieved"
+    }
+  ],
+  "other_documentation_links": [
+    {
+      "url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://ddinter2.scbdd.com/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://ddinter2.scbdd.com/download/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://ddinter2.scbdd.com/explanation/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://ddinter2.scbdd.com/terms/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://dev.drugbank.com/clients/sign_up",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://dev.drugbank.com/guides/implementation/ddi_checker",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://dev.drugbank.com/guides/tutorials/api_authentication",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://dev.europepmc.org/RestfulWebService",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://developers.openai.com/plugins/build/plugins",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://developers.openai.com/plugins/build/skills",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://developers.openai.com/plugins/deploy/connect-chatgpt",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://developers.openai.com/plugins/deploy/submission",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://docs.drugbank.com/v1/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://docs.github.com/en/actions/reference/security/secure-use",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/AnnaKazarian13/pharmexpert-drug-interactions",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/Google-Health/medgemma",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/GoogleCloudPlatform/hcls-mcp-servers",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/Osintsevse",
+      "access_result": "access-limited"
+    },
+    {
+      "url": "https://github.com/Osintsevse/health-evidence-companion",
+      "access_result": "access-limited"
+    },
+    {
+      "url": "https://github.com/Osintsevse/health-evidence-companion/blob/main/PRIVACY.md",
+      "access_result": "access-limited"
+    },
+    {
+      "url": "https://github.com/Osintsevse/health-evidence-companion/blob/main/TERMS.md",
+      "access_result": "access-limited"
+    },
+    {
+      "url": "https://github.com/Osintsevse/health-evidence-companion/issues",
+      "access_result": "access-limited"
+    },
+    {
+      "url": "https://github.com/RowanErasmus/dailymed-mcp-server",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/SPerekrestova/pillchecker-api",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/danielk-am/clinical-evidence-mcp",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/openemr/openemr",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://github.com/synthetichealth/synthea",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://go.drugbank.com/clinical/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://interaction-checker.com/about",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://interaction-checker.com/api",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://interaction-checker.com/privacy",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://lhncbc-portal.lhcaws-prod-pub.nlm.nih.gov/RxNav/information/FAQs.html",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://open.fda.gov/apis/authentication/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://py.sdk.modelcontextprotocol.io/v1/",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://trust.drugbank.com/drugbank-trust-center/drugbank-clinical-api",
+      "access_result": "page-metadata-retrieved"
+    },
+    {
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+      "access_result": "page-metadata-retrieved"
+    }
+  ]
+}

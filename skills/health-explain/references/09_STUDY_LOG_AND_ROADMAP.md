@@ -19,15 +19,17 @@ Harrison, Davidson, Katzung and Stahl are lawful-access candidates; access/curre
 | Area | Work needed | Current status |
 |---|---|---|
 | ENT/infection | Pharyngitis, sinusitis, otitis, testing, influenza/COVID | Basic cold module; detailed pathways pending |
-| Allergy/skin/eyes | Rhinitis, contact/atopic/seborrhoeic dermatitis, dry eye | Initial navigation |
+| Allergy/skin/eyes | Rhinitis, contact/atopic/seborrhoeic dermatitis, dry eye | Module 15 expands allergy testing/rhinitis/urgency; skin/eye pathways remain initial |
 | Psychiatry | Ingredient cards, adverse effects, monitoring and withdrawal | Basic safety principles |
 | Cardiovascular | Blood pressure, palpitations, lipids, prevention | Source routes/framework |
-| Metabolic | Glucose/HbA1c, weight, thyroid, deficiencies | Source routes/framework |
+| Metabolic | Glucose/HbA1c, weight, thyroid, deficiencies | Module 16 expands test literacy; disease-specific treatment guidelines remain pending |
 | Gastrointestinal | Reflux, pain, diarrhoea/constipation, medicine causes | Queued |
 | Musculoskeletal/sport | Pain, injury, recovery, medicine effects on driving | Queued |
-| Prevention/travel | Vaccine schedules, risks, travel infection | Sources and data-audit principles |
+| Prevention/travel | Vaccine schedules, risks, travel infection | Module 17 adds selected 2026 Serbia/Russia landmarks; full catch-up/travel regimens pending |
 
 ## Development rule
+
+Version 0.2.0 adds four topic modules and forty source entries (128 total), including three clearly marked secondary discovery lists. Selected ARIA/EAACI/WAO, laboratory, WHO/Batut/Rospotrebnadzor, treatment-review and regulator sections were inspected. Source access was audited for all 88 original register URLs and forty other documentation links. Metadata access is distinct from reading a full document or verifying every clinical assertion. Module 18 separates current recommendations, uncertain effects and pending appraisal; no broad drug blacklist or new clinical qualification is claimed.
 
 For a new general question, read the relevant section, create original notes, add sources/date and update related modules. A found link is not a studied topic. Recheck currency at each new decision; do not promise autonomous background updates.
 

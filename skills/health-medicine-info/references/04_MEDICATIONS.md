@@ -2,6 +2,8 @@
 
 Sources: S10-S16, S21, S25-S27, S37, S41. Educational information, not a personal prescription.
 
+Before describing a product as effective, apply module 18's indication-specific evidence workflow. Registration, an appealing mechanism and a brand's presence/absence on a discovery list are different from demonstrated benefit. Keep unknown or pending appraisal explicit.
+
 ## Common classes
 
 | Class | Ingredient examples | Purpose | Key checks |
@@ -24,6 +26,8 @@ Check brand, international nonproprietary name (INN), dosage form, strength/conc
 ## Adult label examples
 
 These illustrate label verification, not a personal regimen. Recheck the current local product before relying on them.
+
+The ALIMS PDFs were examined in the earlier source edition but could not be retrieved again during this review's access audit. Their filenames/age do not establish current registration or label currency. Do not present a stored example as a freshly verified local instruction when current retrieval fails.
 
 - Standard paracetamol 500 mg tablets: the NHS source describes 500-1,000 mg per dose, at least four hours between doses and a maximum of 4 g in 24 hours. This is that source's upper limit, not a target dose. Weight under 50 kg, liver disease and other factors require a separate limit check. Include paracetamol hidden in cold products in the total. [S10]
 - Standard ibuprofen 200/400 mg tablets: the NHS source describes 200-400 mg up to three times daily, at least four hours between doses, and an OTC maximum of 1,200 mg/day. Use the lowest effective dose. Food does not eliminate bleeding risk. Do not apply this regimen to modified-release products. [S11]
