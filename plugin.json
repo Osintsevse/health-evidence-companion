@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "General adult health explanations, medicine information and evidence navigation with current primary sources.",
   "author": {"name": "Osintsevse", "url": "https://github.com/Osintsevse"},
   "homepage": "https://github.com/Osintsevse/health-evidence-companion",
@@ -27,7 +27,7 @@
         "logo": "./assets/icon.svg"
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
-      "publication": {"release_notes": "Version 0.2.1 adds permanent GitHub release downloads and browser setup instructions, updates the contribution release process, selects Healthcare to reflect the package purpose and clarifies data handling, recipients, retention and user controls in the privacy policy. Six skills and 128 registered sources remain included. General information only; no patient-record processing or required paid API. Platform findings must be checked again after upload; this version does not imply approval."}
+      "publication": {"release_notes": "Version 0.2.2 fixes GitHub release publication when a newly created draft has not yet appeared in the release listing. It uses the release ID returned by creation and adds an offline regression test. Medical skill instructions, six skills, 128 sources, Healthcare category and privacy disclosures are unchanged. General information only; no patient-record processing or required paid API. This version does not imply platform approval."}
     }
   }
 }

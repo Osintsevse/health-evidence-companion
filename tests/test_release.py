@@ -26,6 +26,8 @@ class FakeCommands:
         self.fail_upload = None
         self.drop_upload = None
         self.reviewed = True
+        self.stale_listing_after_create = False
+        self.created = False
 
     def __call__(self, args, allowed=(0,)):
         self.calls.append(args)
@@ -43,11 +45,14 @@ class FakeCommands:
         elif args[:4] == ['gh', 'api', '--paginate', '--slurp']:
             if self.fail_listing:
                 raise RuntimeError('GitHub lookup failed')
+            visible = self.release and not (self.created and self.stale_listing_after_create)
             data = json.dumps([[{'tag_name': 'v0.0.1', 'id': 1}],
-                               [self.release] if self.release else []])
-        elif args[:3] == ['gh', 'release', 'create']:
-            self.release = {'id': 17, 'tag_name': TAG, 'draft': True,
-                            'prerelease': False, 'target_commitish': HEAD, 'assets': []}
+                               [self.release] if visible else []])
+        elif args[:5] == ['gh', 'api', '--method', 'POST', f'repos/{REPO}/releases']:
+            payload = json.loads(Path(args[args.index('--input') + 1]).read_text())
+            self.release = {'id': 17, 'assets': [], **payload}
+            self.created = True
+            data = json.dumps(self.release)
         elif args[:3] == ['gh', 'release', 'upload']:
             path = Path(args[4])
             if path.name == self.fail_upload:
@@ -69,7 +74,8 @@ class FakeCommands:
 
     def mutations(self):
         return [args for args in self.calls if args[:2] == ['gh', 'release']
-                or args[:4] == ['gh', 'api', '--method', 'PATCH']]
+                or args[:4] in [['gh', 'api', '--method', 'POST'],
+                               ['gh', 'api', '--method', 'PATCH']]]
 
 
 class ReleaseTests(unittest.TestCase):
@@ -109,9 +115,11 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(result['action'], 'create')
         self.assertFalse(fake.release['draft'])
         self.assertEqual({a['name'] for a in fake.release['assets']}, set(expected_assets(self.root, VERSION)))
-        create = next(args for args in fake.calls if args[:3] == ['gh', 'release', 'create'])
-        self.assertEqual(create[create.index('--target') + 1], HEAD)
-        self.assertIn('--draft', create)
+        create = next(args for args in fake.calls if args[:4] == ['gh', 'api', '--method', 'POST'])
+        payload = json.loads(Path(create[create.index('--input') + 1]).read_text())
+        self.assertEqual(payload['tag_name'], TAG)
+        self.assertEqual(payload['target_commitish'], HEAD)
+        self.assertIs(payload['draft'], True)
         self.assertEqual(fake.calls[-1][-4:], ['-F', 'draft=false', '-f', 'make_latest=legacy'])
         self.assertFalse(any('/releases/tags/' in arg for args in fake.calls for arg in args))
         self.assertFalse(any('--clobber' in args for args in fake.calls))
@@ -122,6 +130,14 @@ class ReleaseTests(unittest.TestCase):
         fake = FakeCommands(self.root, existing, tag_commit='b' * 40)
         self.assertEqual(publish(self.root, self.env, fake)['action'], 'skip')
         self.assertEqual(fake.mutations(), [])
+
+    def test_new_draft_can_publish_before_it_appears_in_release_listing(self):
+        fake = FakeCommands(self.root)
+        fake.stale_listing_after_create = True
+        self.assertEqual(publish(self.root, self.env, fake)['action'], 'create')
+        self.assertFalse(fake.release['draft'])
+        listings = [args for args in fake.calls if args[:4] == ['gh', 'api', '--paginate', '--slurp']]
+        self.assertEqual(len(listings), 1)
 
     def test_resumes_draft_and_retains_matching_existing_asset(self):
         asset = self.asset('SETUP.md')

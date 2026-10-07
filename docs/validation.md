@@ -30,6 +30,12 @@ The plugin archive has 81 members, six skills and 128 registered sources. The st
 
 Previously, GitHub Actions run 7 for PR #3 completed successfully, including validation, packaging tests, offline adapter tests and the candidate build. The owner reported branch protection enabled; its administrative settings were not independently fetched.
 
+## Version 0.2.2 release lookup fix, 2026-10-07
+
+The first live 0.2.1 main release run created a draft but could not find it in the immediately repeated release listing. Its failed-job retry completed successfully and published 0.2.1 with all seven expected assets; server digests match the checked build. This verifies the existing retry path and the repository's current release-token permissions, not the new creation path below.
+
+Version 0.2.2 reads the release ID from GitHub's creation response and continues by that ID. The new offline regression keeps a created draft absent from the release listing: it reproduced the original failure, then passed with the fix. Executed locally: validation, 35 packaging/release tests plus eight adapter tests, deterministic builds, release CLI dry run and whitespace checks. Medical skill instructions and knowledge are unchanged. The corrected first-creation path still needs its merged-main live run; PR CI does not publish releases.
+
 ## Not established
 
 - Clinical accuracy, suitability for diagnosis, clinician-certified content or patient outcomes.
