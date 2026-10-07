@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 - 2026-10-07
+
+- Require a reviewed source-file manifest; reject unexpected local files, including ignored private directories, before creating archives.
+- Enforce exact runtime archive membership and pin Markdown summary templates to reviewed, entirely blank content in source and ZIP checks.
+- Close the administrative protection request before passing it to GitHub CLI, with automatic cleanup on success or failure on Windows.
+- Skip only Windows filesystem symlink tests lacking the required privilege; retain Linux execution and portable ZIP symlink rejection coverage.
+- Add regression tests for these failure modes. Medical skill instructions and the 128-source register are unchanged.
+
 ## 0.3.0 - 2026-10-07
 
 - GitHub Releases and manual personal/workspace installation replace public-directory publication as the distribution target; host scans and rules still apply.

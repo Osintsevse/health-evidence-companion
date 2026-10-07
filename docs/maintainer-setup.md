@@ -28,4 +28,6 @@ GitHub Releases require no OpenAI developer verification. They publish no plugin
 
 `scripts/configure_github.py` provides an explicit maintainer CLI route for creating the public repository, pushing the source and applying branch protection. It requires a separately authenticated `gh` CLI with repository administration rights. Use `--execute` only after reviewing its printed plan; it never prompts for or writes a token. This is developer tooling, not a browser-user requirement. Availability/permissions/plan restrictions can prevent administrative operations; inspect returned errors and verify settings.
 
+The protection JSON is closed before GitHub CLI reads it and is held in a temporary directory removed after success or failure. Offline tests verify reading it from a separate process, including on Windows; they do not apply or verify live repository protection.
+
 Sources: [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches), [Actions secure use](https://docs.github.com/en/actions/reference/security/secure-use).

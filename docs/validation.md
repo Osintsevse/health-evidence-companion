@@ -2,6 +2,16 @@
 
 Initial edition: 2026-10-06. This document distinguishes file checks, workflow evaluation and clinical/platform review.
 
+## Version 0.3.1 packaging and Windows follow-up, 2026-10-07
+
+Review base: `3c75bfc` (0.3.0). Four earlier technical findings were still present: discovery of unlisted local files for source archives, unvalidated Markdown form contents, a Windows-locked administrative request file and a symlink test requiring unavailable Windows privilege. [Review follow-up](review-2026-10-07.md) records corrections and remaining recommendations.
+
+Executed on Windows/Python 3.11: canonical/reference validation, 51 packaging/release/administrative tests (50 passed, one filesystem symlink test skipped only for Windows error 1314), all eight offline DrugBank tests, deterministic builds, release/setup CLI dry runs and whitespace checks. A separate-process test reads the closed protection request and verifies cleanup after success or failure; no live repository administration was performed. Portable ZIP symlink rejection ran successfully. Linux CI must execute the filesystem symlink test without this Windows-only skip.
+
+Source archives use a reviewed exact-path manifest and reject unexpected files before build output. Runtime ZIP checks require the complete expected member set. Markdown forms must match reviewed blank-content digests, including after reference synchronization and inside ZIPs; CRLF/LF differences alone are accepted. JSON blank-field checks and privacy heuristics remain. These controls are not a proof of medical accuracy or universal sensitive-data detection.
+
+No health skill instructions, clinical knowledge or source entries changed in this patch. The contribution reference was regenerated to document source-list and Markdown-form maintenance. No additional clinical forward evaluation, live provider test, independent host installation or platform approval is claimed. CI, merge and release status require live verification outside this local report.
+
 ## Limited independent workflow checks
 
 Three fresh-context agents read the actual skill files and relevant bundled references, then answered ordinary requests. They received the prompt and skill location rather than the rubric or intended answer. No files or external systems were modified.

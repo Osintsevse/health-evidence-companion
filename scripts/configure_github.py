@@ -45,10 +45,12 @@ def main():
             parser.error('Expected main branch; inspect the checkout before executing.')
         run(['gh', 'repo', 'create', REPO, '--public', '--source', '.', '--remote', 'origin', '--push',
              '--description', 'General adult health information and evidence skills for ChatGPT'])
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.json') as f:
-        json.dump(protection, f)
-        f.flush()
-        run(['gh', 'api', '--method', 'PUT', f'repos/{REPO}/branches/main/protection', '--input', f.name])
+    with tempfile.TemporaryDirectory() as directory:
+        request = Path(directory) / 'protection.json'
+        request.write_text(json.dumps(protection), encoding='utf-8')
+        # Close the file before gh opens it; an open NamedTemporaryFile blocks
+        # ordinary readers on Windows. The directory context handles cleanup.
+        run(['gh', 'api', '--method', 'PUT', f'repos/{REPO}/branches/main/protection', '--input', str(request)])
     run(['gh', 'api', f'repos/{REPO}/branches/main/protection'])
 
 
