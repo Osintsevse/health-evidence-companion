@@ -1,4 +1,4 @@
 interface:
-  display_name: "Health Record Templates"
-  short_description: "Explain private record design using blank templates"
+  display_name: "Private Record Design"
+  short_description: "Design blank archives and preserve unknown status"
   default_prompt: "Use $health-record-design to help with this request in my language."

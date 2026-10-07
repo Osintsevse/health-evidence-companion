@@ -1,33 +1,57 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.2.0",
-  "description": "General adult health explanations, medicine information and evidence navigation with current primary sources.",
-  "author": {"name": "Osintsevse", "url": "https://github.com/Osintsevse"},
+  "version": "0.3.0",
+  "description": "Adult informational symptom reasoning, safe self-care, medicine and research assistance; GitHub and manual distribution.",
+  "author": {
+    "name": "Osintsevse",
+    "url": "https://github.com/Osintsevse"
+  },
   "homepage": "https://github.com/Osintsevse/health-evidence-companion",
   "repository": "https://github.com/Osintsevse/health-evidence-companion",
   "license": "MIT",
-  "keywords": ["health", "medical-information", "evidence", "medicines", "education"],
+  "keywords": [
+    "health",
+    "medical-information",
+    "evidence",
+    "medicines",
+    "education"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Understand adult health questions, allergies and allergy tests, laboratory concepts, vaccine calendars, medicine labels, mechanisms, interaction evidence and psychiatric medicine information. Assess treatment claims, homeopathy and research using indication-specific evidence checks and primary sources in Serbia, Russia and internationally. Learn to design a separate private archive with blank templates. Answers follow your language. This skills-only package has no required local server or paid medical API. It provides general information and clinician questions, not definitive diagnoses, prescriptions, treatment changes or personal record management. It does not solicit or process PHI. Source reading limits, dated calendar scope and pending medicine appraisals are explicit; current guidance must be checked when relevant.",
+        "longDescription": "Help adults reason about symptoms and possible diagnoses, check self-diagnosis hypotheses, understand laboratory results, choose safe self-care and OTC label options, check medicine interactions and prepare clinician questions using current primary sources. Includes psychiatry information, evidence appraisal, private-record design and a study-to-GitHub-PR contribution workflow with maintainer review. English knowledge; answers in your language, with a short disclaimer in every health-facing answer. Not intended for use as a medical device, not clinically validated, and not a definitive diagnosis or prescription. No independent prescription changes, medical clearance or publisher patient archive. Distributed through GitHub and supported manual personal/workspace installation, without a required server or paid medical API. Platform policies and scans still apply; no directory approval or import success is promised. Actual cases never enter public knowledge.",
         "developerName": "Osintsevse",
-        "category": "Productivity",
-        "capabilities": ["Explain health information", "Navigate clinical sources", "Explain medicine labels", "Appraise medical evidence", "Explain blank record design"],
+        "category": "Healthcare",
+        "capabilities": [
+          "Compare symptom hypotheses",
+          "Explain safe self-checks and self-care",
+          "Explain laboratory results",
+          "Review medicine labels and interactions",
+          "Appraise medical evidence",
+          "Prepare clinician questions",
+          "Design private records",
+          "Propose knowledge pull requests"
+        ],
         "websiteURL": "https://github.com/Osintsevse/health-evidence-companion",
         "supportURL": "https://github.com/Osintsevse/health-evidence-companion/issues",
         "privacyPolicyURL": "https://github.com/Osintsevse/health-evidence-companion/blob/main/PRIVACY.md",
         "termsOfServiceURL": "https://github.com/Osintsevse/health-evidence-companion/blob/main/TERMS.md",
-        "defaultPrompt": ["Explain what doctors consider when an adult cough persists.", "How do SSRIs and NSAIDs interact?", "What does research say about zinc for colds?"],
+        "defaultPrompt": [
+          "Help me compare possible causes of these symptoms and safe next steps.",
+          "Check this medicine combination using current official labels.",
+          "Review this public study and prepare a knowledge pull request."
+        ],
         "brandColor": "#145E73",
         "composerIcon": "./assets/icon.svg",
         "logo": "./assets/icon.svg"
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
-      "publication": {"release_notes": "Version 0.2.0 expands allergy, laboratory literacy, vaccination and treatment-evidence/homeopathy information. Six updated skills, 128 registered sources with reading limits, indication-specific watchlists and blank templates. General information only; no patient-record processing or required paid API."}
+      "publication": {
+        "release_notes": "Version 0.3.0 targets GitHub/manual distribution, expands symptom reasoning and safe self-care, requires a short health disclaimer and adds connected-GitHub PR contribution instructions. Existing knowledge retained; no clinical validation or host approval claimed."
+      }
     }
   }
 }

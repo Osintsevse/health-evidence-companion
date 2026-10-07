@@ -5,7 +5,7 @@ description: Explain private health archive design using blank templates, proven
 
 # Private record design
 
-Reply in the user's language. Read [policy](references/00_KNOWLEDGE_POLICY.md), [universal rules](references/14_PATIENT_RECORD_RULES.md) and [template guide](references/templates/README.md). Explain or provide a blank form; do not ask for identity, dates of birth, results, personal medicine lists or private document links.
+Reply in the user's language. Apply [response limits and the short disclaimer](references/19_SYMPTOM_REASONING_AND_SELF_CARE.md) in every health-facing answer, including follow-ups; do not delay emergency action. Read [policy](references/00_KNOWLEDGE_POLICY.md), [universal rules](references/14_PATIENT_RECORD_RULES.md) and [template guide](references/templates/README.md). Explain or provide a blank form; do not ask for identity, dates of birth, results, personal medicine lists or private document links.
 
 Describe separate owner-controlled storage: summary, physical episodes, psychiatric monitoring, unified medicine history, allergies/reactions, vaccinations, investigations, originals, uncertainties and corrections. Psychotherapy can have independent permissions. This package does not implement storage, consent/access control, encryption or automatic updates.
 

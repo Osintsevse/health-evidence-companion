@@ -5,7 +5,7 @@ description: Find and critically explain medical research, guidelines, medicine 
 
 # Medical evidence
 
-Reply in the user's language. Read [policy](references/00_KNOWLEDGE_POLICY.md), [source map](references/01_SOURCE_MAP.md) and [evidence methods](references/evidence-methods.md). Read [AI systems](references/08_MEDICAL_AI.md) or [free tools](references/free-medical-tools.md) for integration questions.
+Reply in the user's language. Apply [response limits and the short disclaimer](references/19_SYMPTOM_REASONING_AND_SELF_CARE.md) in every health-facing answer, including follow-ups; do not delay emergency action. Read [policy](references/00_KNOWLEDGE_POLICY.md), [source map](references/01_SOURCE_MAP.md) and [evidence methods](references/evidence-methods.md). Read [AI systems](references/08_MEDICAL_AI.md) or [free tools](references/free-medical-tools.md) for integration questions.
 
 Frame a focused population/intervention/comparator/outcome question without patient identifiers. Search current official guidance, systematic reviews and original studies with available browsing. PubMed/Europe PMC are search routes, not evidence grades. Do not claim full-text reading when only an abstract is accessible.
 

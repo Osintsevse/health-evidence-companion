@@ -8,6 +8,10 @@ Original general medical explanations, current primary-source metadata, correcti
 
 Never submit a real person's story, filled record, results, prescription, document/photo, medicine history, private link, query log or credentials. Removing names is insufficient. Use a wholly fictional, explicitly synthetic exercise if necessary. Do not bundle copyrighted books/full articles, vendor datasets or weights without verified redistribution rights. DDInter's data license is not this project's MIT license.
 
+## Ask an assistant to contribute
+
+See [study-to-PR workflow](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/contribution-workflow.md) for copyable requests, connected-account/fork requirements and a draft fallback. Explicitly asking to open a PR authorizes submission; it never authorizes merge or approval. Submit only general knowledge, never the personal question that motivated it.
+
 ## Add a knowledge card
 
 1. Define one general question and scope (age group, country/setting and exclusions).
@@ -24,10 +28,10 @@ For treatment claims, apply module 18's evidence gate. Identify the indication, 
 
 Keep browser runtime skills free from local-code or mandatory paid-API dependencies. Packaging scripts are developer tooling, not runtime features. Use standard-library tooling where practical. Test meaningful failure modes: path traversal, stale reference copies, unfilled/filled templates, private links, missing source IDs, version mismatch and archive allowlisting.
 
-Do not introduce external data transmission, a record store, MCP connection or paid provider as an incidental change. Such functionality needs explicit scope, license/privacy review and relevant platform review; adding an MCP server to an already published skills-only plugin is currently unsupported.
+Do not introduce external data transmission, a record store, MCP connection or paid provider as an incidental change. Such functionality needs explicit scope, license/privacy review and the applicable host review. GitHub/manual distribution does not exempt integrations from host rules or data protection.
 
 ## Review and release
 
 The owner checks evidence applicability, safety limits, citations, intellectual property, privacy and actual tests. CODEOWNERS requests owner review; repository branch protection must also require it. Contributions are not automatically merged. For changed skills, perform fresh-context synthetic forward checks and inspect actual output; do not supply expected answers to the executing agent.
 
-After acceptance, update version/changelog and create a reviewed `vX.Y.Z` tag matching `plugin.json`. CI creates the plugin archive and source archive separately. Publishing to GitHub does not submit or approve the plugin in ChatGPT; use the platform process in `docs/publication.md`.
+Include a higher stable `X.Y.Z` version in `plugin.json` and a matching changelog section in the PR. After review and merge to `main`, the release workflow validates/tests/builds and automatically creates `vX.Y.Z` with permanent plugin/source ZIP downloads, browser setup files and checksums. Existing published versions are not overwritten; a failed release may be retried on `main`. GitHub/manual installation is the distribution target. GitHub publication does not approve or update an installed ChatGPT copy; host controls still apply. See the repository's distribution guide.

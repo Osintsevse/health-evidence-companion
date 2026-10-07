@@ -1,31 +1,23 @@
-# Publication and platform review
+# GitHub distribution and platform boundaries
 
-This release is a portable Agent Plugins package: root `plugin.json`, immediate `skills/` directories and bundled relative references. It contains no MCP server, app mapping or lifecycle hooks. The core requires no user-run server or paid medical API.
+Version 0.3.0 targets **GitHub Releases plus supported manual personal/workspace installation**, not submission to the public ChatGPT directory. The portable root `plugin.json`, six immediate `skills/` folders and relative references remain. No MCP server, app mapping, hooks, publisher backend or mandatory paid API is connected. The root marketplace catalog enables an eligible admin's documented GitHub import route.
 
-## Current route
+## Why the distribution changed
 
-The publisher uses the OpenAI Plugins upload process with the owning organization/project and verified developer identity. Upload the plugin ZIP, inspect metadata/skill scan findings, resolve them, submit for review and publish only after approval. Use public links that are accessible and match the publisher; confirm the dashboard category and developer identity rather than assuming the working metadata is approved.
+The maintainer's 0.2.0 dashboard reported that `health-explain` fell in a healthcare/medical use case outside the currently supported distribution scope. Five other bundled skills passed the displayed preliminary checks. That is an observed scan result, not approval of those skills or the whole plugin. Category/privacy changes do not resolve a medical-scope restriction by themselves.
 
-This repository cannot confer publisher verification, directory acceptance or account installation rights. An archive passing local tests is only an upload candidate. Do not bypass findings by disguising medical purpose. Earlier informational health skills in this project were rejected by a server safety scan without detailed reasons; those attempts do not establish approval for this package.
+The repository retains and expands its informational medical functions rather than disguising them for directory review. A manual creation/import may still be scanned or refused. Do not conceal the purpose, suppress limits or switch routes to evade a host-policy refusal. A disclaimer, public source, MIT license or private copy does not waive platform rules, data-protection duties or applicable medical-device requirements. No legal classification or exemption is asserted.
 
-## Medical scope and privacy
+## Release and use
 
-The reviewed guidelines prohibit collecting, soliciting or processing PHI. This public package therefore provides general education, research, product explanations and blank record design, without an individual archive or identifiable-document workflow. It does not diagnose, prescribe or manage psychiatric treatment. Whether the platform accepts its specific medical scope remains a review decision; no eligibility guarantee is made.
+Reviewed PRs update the canonical general knowledge and version/changelog. Once the version reaches main, the GitHub release workflow validates/tests/builds and publishes versioned/stable plugin ZIPs, source archive, setup files and checksums. Existing released versions are immutable. The workflow installs or publishes nothing in ChatGPT.
 
-Keep real data and secrets out of metadata, examples, test materials and ZIPs. No publisher backend receives conversations through package code. The host's own privacy controls remain applicable.
+Personal/workspace users follow [manual setup](quick-start.md). Features/permissions, scanning, sharing and update behaviour belong to the host. This repository does not verify a friend's installation, grant account access or imply public-directory approval.
 
-## Versions and extensions
+## Health and privacy limits
 
-GitHub release publication and OpenAI plugin publication are separate. Changed metadata/skills need a new complete ZIP and the platform update flow. Do not promise automatic synchronization from GitHub.
+The GitHub edition supports adult symptom hypotheses, safe self-checks, basic self-care and verified label information with module 19's short disclaimer. It is not a confirmed diagnosis, prescription service, medical clearance or validated device. Actual personal information may inform an authorized host conversation only as necessary; no cases or records belong in public source/releases, and no publisher archive receives them. Host and recipient policies remain applicable.
 
-The current submission documentation does not support adding an MCP server to an already created skills-only plugin. A future source-access/backend integration should be planned as a separate plugin/submission unless that platform limitation changes. It needs its own transport, data-handling and review work; no external service is connected by this release.
+Future external integrations require separate explicit scope, rights, consent, security and host review; there are no automatic clinical API calls or personal-data transfers in this version.
 
-## Before submission
-
-- Verify repository, privacy, terms and support URLs are genuinely public and identify the publisher.
-- Confirm name/subtitle lengths, version, included square icon and every relative path.
-- Run project checks and inspect synthetic workflow outputs; state limits honestly.
-- Inspect actual automated findings and resolve them substantively.
-- Confirm required verification and policy attestations in the publisher dashboard.
-
-Official primary sources, checked 2026-10-06: [packaging](https://developers.openai.com/plugins/build/plugins), [submission](https://developers.openai.com/plugins/deploy/submission), [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines). Re-read before publishing because rules may change.
+References checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Workspace GitHub import](https://learn.chatgpt.com/docs/enterprise/plugin-management), [Submission](https://developers.openai.com/plugins/deploy/submission), [Plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines). Recheck when the host changes.

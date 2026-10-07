@@ -24,4 +24,8 @@ Formulate an independent general question; verify it against published sources; 
 4. Do not infer access to records from access to the knowledge base. Sharing private information requires a separate decision by its owner.
 5. If private information is committed accidentally, stop publication and correct all affected copies. Deleting the current file does not remove Git history, releases, caches or existing downloads. Follow `SECURITY.md`; do not repeat the sensitive content in a public issue.
 
-Module 14 describes record design. The public plugin explains those rules and blank fields; it does not operate a patient archive or collect protected health information.
+## Runtime conversation versus public corpus
+
+The GitHub/manual-install edition may discuss voluntarily supplied symptom details, relevant medicine use and non-identifying test values within an authorized host conversation. Minimize information, avoid identifiers, and obey host policies and permissions. This is not permission to publish, export, train on, store or share personal information. Do not send personal details to web search or GitHub.
+
+Module 14 describes record design; module 19 describes informational symptom reasoning and self-care. The package has no publisher-operated clinical archive or backend. A requested summary can stay in the conversation; persisting it needs a separately authorized private destination. Never put actual records into this repository or generated references. Include module 19's short disclaimer in every health-facing answer. Do not claim clinical validation or that private/manual distribution exempts the package from rules.

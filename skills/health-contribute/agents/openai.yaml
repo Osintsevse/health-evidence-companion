@@ -1,4 +1,4 @@
 interface:
-  display_name: "Contribute Knowledge"
-  short_description: "Prepare sourced general knowledge for maintainer review"
+  display_name: "Contribute Health Knowledge"
+  short_description: "Propose studies and knowledge through reviewed PRs"
   default_prompt: "Use $health-contribute to help with this request in my language."

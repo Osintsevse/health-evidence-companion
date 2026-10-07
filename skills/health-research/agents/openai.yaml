@@ -1,4 +1,4 @@
 interface:
   display_name: "Medical Evidence"
-  short_description: "Find and assess medical research with source links"
+  short_description: "Appraise guidelines and studies with source limits"
   default_prompt: "Use $health-research to help with this request in my language."

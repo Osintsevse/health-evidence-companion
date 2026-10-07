@@ -1,11 +1,29 @@
-# Privacy
+# Privacy policy
 
-Health Evidence Companion is a general-information skills package. It has no publisher-operated backend, patient database, account system, analytics SDK or automatic external API integration. The publisher receives no conversations through package code.
+Publisher: **Osintsevse**. Project: **Health Evidence Companion**. Last updated: **2026-10-07**. This policy covers the distributed skills package and its public GitHub project; it does not replace the host's privacy policy.
 
-The host ChatGPT service handles conversations under its own terms, controls and privacy policy. If the host uses web search, search queries and retrieval are handled by the host/service. Do not assume that the package makes the host a private offline system. Use generic, non-identifying search queries.
+## Data categories and purposes
 
-The public plugin must not solicit, collect or process PHI, identifiable medical documents, individual records, credentials or identity documents. Do not upload those for this package to process. It can explain general concepts, public product information, fictional examples and blank forms. Actual clinical records require a separately authorized suitable private environment, which this plugin does not implement.
+The package supplies informational symptom reasoning, safe self-checks, basic self-care, medicine/result explanations, research navigation and blank forms. It has no publisher-operated backend, patient database, account system, analytics SDK or automatic external API integration. Package code does not receive or collect conversations, files, identifiers, credentials, location, IP addresses or usage telemetry for the publisher.
 
-This repository and its releases must contain only general knowledge and blank templates. Real cases remain excluded even if names are removed. Do not post patient information in issues or PRs. Optional third-party tools described in research notes are not connected; using one would require a separate review of its terms and data handling.
+ChatGPT processes the messages and files you choose to supply under its own policies and account/workspace settings. The package is not an offline or separately secured medical-record environment. The manual-install edition may discuss relevant voluntarily supplied symptoms, medicines and non-identifying values in the authorized host conversation. Remove identifiers from documents where practical and do not provide credentials, identity documents or unnecessary histories. Use only a host/environment appropriate for your data and obligations. The package provides no HIPAA/GDPR compliance guarantee, separate security controls or publisher patient archive. Public knowledge must never include actual cases.
 
-For a suspected disclosure, follow `SECURITY.md`; do not repeat the disclosed content in a public report. Existing public copies/history may require separate cleanup. This document describes package behaviour, not a warranty of regulatory compliance or a replacement for the host's privacy policy.
+If you voluntarily open a GitHub issue, PR or discussion, GitHub stores your public account name and submitted content. The maintainer uses that information to respond to support requests and review contributions. Submit only general knowledge or package problems; never real cases, medical records or secrets, even with names removed.
+
+## Recipients and external services
+
+The publisher receives no conversations through the package and operates no transmission endpoint. ChatGPT/OpenAI handles host conversations. If you authorize web search, the host and its search/retrieval providers handle the queries and retrieved material under their policies; use generic, non-identifying queries.
+
+Public GitHub submissions are visible to GitHub, the maintainer and other visitors. Research notes mention optional services, but none is automatically connected or receives data from this release. An independently enabled third-party plugin/service has its own terms and privacy policy.
+
+## Retention
+
+The publisher retains no plugin conversation data because the package sends none to a publisher-operated system. ChatGPT retention and deletion timelines depend on the host, account settings and applicable workspace policy; this package does not set or shorten them. See [OpenAI's privacy policy](https://openai.com/policies/privacy-policy/) and the host's current data controls.
+
+Public GitHub content remains in the repository, issues, PRs or history until removed under the applicable GitHub controls. There is no automatic project deletion deadline. Copies, forks, archives or GitHub's own retention may persist after removal; see [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## User controls and contact
+
+You can stop using or remove the plugin and choose what you send. Use ChatGPT's available data controls and conversation/file deletion options for host-held data; removing this package does not itself erase earlier conversations. Avoid identifiable input and review a search request before authorizing it.
+
+For ordinary package/privacy questions, use the [support page](https://github.com/Osintsevse/health-evidence-companion/issues) without sensitive details. For a suspected disclosure, follow [SECURITY.md](https://github.com/Osintsevse/health-evidence-companion/blob/main/SECURITY.md) and do not repeat the disclosed material publicly. Removal from public history may require separate maintainer/GitHub work. This policy describes package behavior and provides no warranty of regulatory compliance.

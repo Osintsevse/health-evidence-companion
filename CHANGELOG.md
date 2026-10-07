@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.3.0 - 2026-10-07
+
+- GitHub Releases and manual personal/workspace installation replace public-directory publication as the distribution target; host scans and rules still apply.
+- Expanded symptom differentials, self-diagnosis hypothesis checks, safe home observations, basic self-care and verified OTC label information, with a short mandatory health disclaimer.
+- Relevant voluntary health details can inform the authorized host conversation; actual cases remain excluded from public source, PRs, releases and search queries.
+- Study-to-PR workflow with connected-account/fork handling, source appraisal, draft fallback and maintainer-only acceptance; research-request issue form.
+- Existing six skills, modules and 128-source register retained. Automatic version releases include plugin/source ZIPs, checksums and setup files.
+
+
+## 0.2.1 - 2026-10-07
+
+- Initial GitHub delivery: automatic release/tag creation after a reviewed main version bump, a permanent latest-ZIP link and browser friend setup instructions/prompt.
+- Draft-first, checksum-verified release uploads with retry handling and no published-asset replacement.
+- Updated contributor release instructions and their generated skill reference.
+- Healthcare listing category and explicit privacy-policy data categories, purposes, recipients, retention and user controls following the 0.2.0 dashboard findings. Platform rechecks remain required; no approval is claimed.
+
 ## 0.2.0 - 2026-10-06
 
 - Review of canonical knowledge, six skills, source register, policies, contribution/release files, packaging and the optional offline adapter.

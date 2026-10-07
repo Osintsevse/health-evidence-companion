@@ -1,4 +1,4 @@
 interface:
-  display_name: "Health Questions"
-  short_description: "Understand symptoms and navigate reliable sources"
+  display_name: "Symptoms and Self-care"
+  short_description: "Compare symptom hypotheses and safe next steps"
   default_prompt: "Use $health-explain to help with this request in my language."

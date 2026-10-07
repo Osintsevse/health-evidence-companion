@@ -2,7 +2,8 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json']
+COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
+          'knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md']
 MAP = {
     'health-explain': COMMON + [f'knowledge/{name}' for name in [
         '02_PRIMARY_CARE.md', '03_RESPIRATORY.md', '04_MEDICATIONS.md', '05_ALLERGY_SKIN_EYES.md',
@@ -24,7 +25,7 @@ MAP = {
     'health-record-design': COMMON + ['knowledge/14_PATIENT_RECORD_RULES.md'] + [
         'knowledge/templates/' + name for name in ['README.md', 'patient_card.template.md',
         'patient_record.template.json', 'medication_entry.template.json', 'episode_entry.template.json']],
-    'health-contribute': COMMON + ['CONTRIBUTING.md', 'knowledge/EVIDENCE_METHODS.md',
+    'health-contribute': COMMON + ['CONTRIBUTING.md', 'docs/contribution-workflow.md', 'knowledge/EVIDENCE_METHODS.md',
         'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
 }
 

@@ -14,5 +14,5 @@ Describe executed checks and synthetic forward evaluations where relevant.
 - [ ] No real cases, PHI, filled records, private links, personal query logs or credentials.
 - [ ] Original prose; external code/data/text rights checked separately.
 - [ ] Source registry and generated references are synchronized.
-- [ ] No invented clinical validation, independent diagnosis or treatment-change claims.
+- [ ] No invented clinical validation, definitive diagnosis or independent prescription-change claims; module 19 response limits maintained.
 - [ ] Maintainer review requested; passing CI is not clinical approval.

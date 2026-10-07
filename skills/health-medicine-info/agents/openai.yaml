@@ -1,4 +1,4 @@
 interface:
   display_name: "Medicine Information"
-  short_description: "Explain medicine labels, mechanisms and interactions"
+  short_description: "Check labels, OTC options and interaction risks"
   default_prompt: "Use $health-medicine-info to help with this request in my language."

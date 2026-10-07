@@ -1,37 +1,29 @@
-# Installation in ChatGPT
+# Installation and updates
 
-For browser users, the intended distribution route is an approved directory plugin or an authorized workspace import. A GitHub checkout/local marketplace is a developer route and is not a universal browser installation mechanism. End users do not need Codex, Python or an MCP server for the skills-only core.
+Start with [manual quick setup](quick-start.md) and its [setup prompt](setup-prompt.txt). The target is GitHub distribution with manual personal/workspace installation where the host allows it. Public-directory publication is not planned for this edition.
 
-## Publisher or workspace importer
+## Which download to use
 
-### Download the correct archive
+- [Latest plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip): stable asset name for friends.
+- [GitHub Releases](https://github.com/Osintsevse/health-evidence-companion/releases): fixed `health-evidence-companion-X.Y.Z.zip`, source archive, setup files, SHA256SUMS.txt and build report.
+- [GitHub Actions](https://github.com/Osintsevse/health-evidence-companion/actions): successful Package checks candidate artifacts for proposed versions; extract the artifact wrapper to obtain the inner plugin ZIP. GitHub sign-in may be required; artifacts expire after fourteen days.
 
-For a stable version, open [GitHub Releases](https://github.com/Osintsevse/health-evidence-companion/releases) and choose the maintainer-created `health-evidence-companion-X.Y.Z.zip` under Assets. Releases appear only after a reviewed version tag has successfully run; a PR or merge alone creates no release.
+The stable and versioned plugin ZIPs have identical bytes in a release. GitHub's generic source ZIP and the project's `-source.zip` are contributor files, not the plugin package. `plugin.json` is at archive root; SKILL.md/UI YAML are skill metadata, not import commands.
 
-For a candidate, open [GitHub Actions](https://github.com/Osintsevse/health-evidence-companion/actions), select a successful **Package checks** run for the intended PR or `main` commit, then download **health-evidence-companion-candidate** from Artifacts. GitHub sign-in may be required. This is an automatically generated artifact wrapper: extract it and use the inner `health-evidence-companion-X.Y.Z.zip`. The accompanying `-source.zip`, `SHA256SUMS.txt` and `build-report.json` are separate developer/verification files. Candidate artifacts expire after fourteen days; a newer successful run creates another one.
+## Routes and limitations
 
-### Use the available publishing/import route
+Personal copy: use Plugin Creator with attached reference material or a direct import/upload control only if the account offers it. Verify version, included relative references and actual install confirmation. The setup prompt describes the medical purpose honestly and retains all safety/privacy rules. No universal browser ZIP-import button or guaranteed recreation is claimed.
 
-1. Download the versioned `health-evidence-companion-X.Y.Z.zip` release asset. Do not use the source archive or GitHub's generic source ZIP.
-2. Check the accompanying SHA-256 checksum if desired.
-3. Use the plugin upload/import controls available to your account/workspace. For public submission, follow `publication.md` and the current official publisher dashboard.
-4. Inspect metadata/skill findings, resolve them and complete the applicable review. An upload candidate is not a directory-approved plugin.
-5. Install/enable the resulting plugin on a supported ChatGPT surface and try a general question in your language. Browse availability and workspace policy affect behaviour; the package cannot grant those capabilities.
+Workspace: an eligible admin can import the root marketplace catalog from GitHub and configure roles/sync. `.agents/plugins/marketplace.json` references the root portable package. This does not grant GitHub contribution permissions or clinical-data authorization.
 
-There is no documented universal ZIP/YAML import button available to every browser account. Public submission uses the publisher process. Workspace admins may import a GitHub marketplace where supported, which needs the applicable marketplace layout/catalog; this source repository currently contains a portable plugin package, not a configured team marketplace. If Plugin Creator is available in a personal/workspace account, use it to create/edit an eligible plugin through a conversation with the instructions/reference files. That availability is separate from accepting this ZIP as a public submission.
+Local Codex: use the available skill installer for this repository's six `skills/` folders or the documented user `.agents/skills/` location. Preserve references and unrelated installed skills. Local installation does not create a browser plugin.
 
-The package manifest is root `plugin.json`; the per-skill YAML files contain instructions/UI metadata. They are not themselves a marketplace installation file.
+Supported ordinary Project reference use is described in the quick setup. It is not a plugin installation and must not be used to bypass a medical-policy rejection. All routes remain subject to host policies, scans, account availability and permissions. No separate friend's account/workspace installation has been verified.
 
-## Ordinary users after publication
+## Updates and contributions
 
-Open ChatGPT's Plugins tab, find Health Evidence Companion if it is published and available to your account, open its details and select the plus/install button. Start a new chat and choose it with an @ mention under Plugins where supported. Ask naturally in your preferred language. Use general health questions and public product information; do not supply PHI or an identifiable archive for this public package to process. This repository does not establish directory publication.
+For personal snapshots, download a new released ZIP and update through the copy's permitted edit workflow, then verify version and a sample response. GitHub merge/release does not update installed copies automatically. Workspace GitHub sync has separate controls; fixed tags do not follow new versions.
 
-## Updates
+See [contribution workflow](contribution-workflow.md) for adding studies with PR review. A successful PR is a proposal, not a merged change, installed update or clinical approval.
 
-The knowledge and skills are snapshots. A GitHub merge does not update an installed plugin. The publisher uploads a new versioned ZIP, resolves findings and publishes the eligible reviewed version. A host may have its own update controls.
-
-No remote interaction engine is connected by the core package. Research notes describe candidates; they are not installation steps for required services. Personal record management is outside this public release.
-
-Official routes reviewed 2026-10-06: [package guide](https://developers.openai.com/plugins/build/plugins), [submission](https://developers.openai.com/plugins/deploy/submission), [skills](https://developers.openai.com/plugins/build/skills). Recheck these when the host changes.
-
-Browser controls and permissions: [Plugins](https://learn.chatgpt.com/docs/plugins), [Build plugins](https://learn.chatgpt.com/docs/build-plugins).
+Official sources checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Plugins](https://learn.chatgpt.com/docs/plugins), [GitHub workspace import](https://learn.chatgpt.com/docs/enterprise/plugin-management), [Local skills](https://learn.chatgpt.com/docs/build-skills).

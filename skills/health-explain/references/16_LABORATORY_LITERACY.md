@@ -1,6 +1,6 @@
 # Understanding laboratory information
 
-General adult education; reviewed 2026-10-06. Use public examples or wholly synthetic results. The public plugin does not ingest identifiable reports or establish a diagnosis from a panel.
+General adult education; reviewed 2026-10-06. Use public/synthetic examples or relevant voluntarily supplied non-identifying values within an authorized conversation. Do not solicit identifiers or publish actual results. A panel alone cannot establish a diagnosis; apply module 19's response and privacy limits.
 
 ## Read the result before interpreting the flag
 
