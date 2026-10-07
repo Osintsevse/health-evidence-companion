@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 - 2026-10-07
+
+- Initial GitHub delivery: automatic release/tag creation after a reviewed main version bump, a permanent latest-ZIP link and browser friend setup instructions/prompt.
+- Draft-first, checksum-verified release uploads with retry handling and no published-asset replacement.
+- Updated contributor release instructions and their generated skill reference.
+- Healthcare listing category and explicit privacy-policy data categories, purposes, recipients, retention and user controls following the 0.2.0 dashboard findings. Platform rechecks remain required; no approval is claimed.
+
 ## 0.2.0 - 2026-10-06
 
 - Review of canonical knowledge, six skills, source register, policies, contribution/release files, packaging and the optional offline adapter.

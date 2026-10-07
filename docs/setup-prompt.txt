@@ -1,0 +1,9 @@
+Create a personal ChatGPT plugin named Health Evidence Companion using the attached release ZIP as reference material.
+
+Inspect plugin.json and preserve all six existing workflows: health-explain, health-medicine-info, health-research, health-mental-health, health-record-design and health-contribute. Preserve each SKILL.md, its relative reference paths, bundled general knowledge, source-reading limits, evidence rules, privacy rules and blank templates. Keep the content in English and answer users in their language.
+
+This is a skills-only information plugin. It needs no local Codex, Python, MCP server, paid medical API or patient-record connection. Do not add those dependencies. Do not turn its information workflows into definitive diagnosis, prescribing or treatment changes. Keep individual medical records outside the general knowledge package.
+
+Tell me the version read from the manifest and which files/workflows you actually included. Report inaccessible or omitted files explicitly. If you cannot inspect the ZIP or preserve its referenced files, ask me to attach the extracted files before claiming the plugin was created. Do not claim public directory publication or a successful installation until the platform confirms it.
+
+Help me review the resulting plugin, complete the available installation steps, and test it in a new chat with this general question: Explain why antibiotics usually do not help an adult viral cold, using current primary sources and my language.

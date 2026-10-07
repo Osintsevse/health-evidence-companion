@@ -1,6 +1,7 @@
 """Build deterministic plugin and source ZIPs using an explicit source tree."""
 import hashlib
 import json
+import shutil
 import zipfile
 from pathlib import Path
 
@@ -26,7 +27,15 @@ def build(root=ROOT, output=None):
     archive(root, plugin_files(root), plugin)
     validate_zip(plugin)
     archive(root, source_files(root), source, prefix='health-evidence-companion/')
-    hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [plugin, source]}
+    # Stable names support /releases/latest/download/... without knowing a version.
+    alias = dest / 'health-evidence-companion.zip'
+    setup = dest / 'SETUP.md'
+    prompt = dest / 'SETUP_PROMPT.txt'
+    shutil.copyfile(plugin, alias)
+    shutil.copyfile(root / 'docs/quick-start.md', setup)
+    shutil.copyfile(root / 'docs/setup-prompt.txt', prompt)
+    hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in [plugin, source, alias, setup, prompt]}
     (dest / 'SHA256SUMS.txt').write_text(''.join(f'{h}  {name}\n' for name, h in hashes.items()))
     report['sha256'] = hashes
     report['plugin_members'] = len(plugin_files(root))

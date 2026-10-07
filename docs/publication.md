@@ -22,10 +22,11 @@ The current submission documentation does not support adding an MCP server to an
 
 ## Before submission
 
+- Version 0.2.1 uses **Healthcare**, an accepted category matching the medical-information purpose. The 0.2.0 dashboard questioned Productivity and requested a privacy-policy review. The expanded policy now explicitly covers data categories, purposes, recipients, retention and user controls. Upload 0.2.1 and check actual findings again; source edits do not clear dashboard findings or establish approval.
 - Verify repository, privacy, terms and support URLs are genuinely public and identify the publisher.
 - Confirm name/subtitle lengths, version, included square icon and every relative path.
 - Run project checks and inspect synthetic workflow outputs; state limits honestly.
 - Inspect actual automated findings and resolve them substantively.
 - Confirm required verification and policy attestations in the publisher dashboard.
 
-Official primary sources, checked 2026-10-06: [packaging](https://developers.openai.com/plugins/build/plugins), [submission](https://developers.openai.com/plugins/deploy/submission), [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines). Re-read before publishing because rules may change.
+Official primary sources, checked 2026-10-07: [packaging](https://developers.openai.com/plugins/build/plugins), [submission](https://developers.openai.com/plugins/deploy/submission), [accepted categories and upload errors](https://developers.openai.com/plugins/deploy/submission-errors), [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines). Re-read before publishing because rules may change.
