@@ -1150,5 +1150,77 @@
     "retrieval_status": "Indexed priority-treatment and adamantane-resistance sections inspected; not every dose or seasonal surveillance table.",
     "use": "Rimantadine/amantadine are not recommended for currently circulating influenza because of resistance; antiviral guidance differs by setting.",
     "checked_on": "2026-10-06"
+  },
+  {
+    "id": "S129",
+    "title": "HL7 FHIR R4 - Observation",
+    "url": "https://hl7.org/fhir/R4/observation.html",
+    "region": "International",
+    "retrieval_status": "Scope and resource structure read: values, comparators, absent results, dates, units and reference ranges",
+    "use": "Source-linked laboratory observations; conceptual inspiration, not a FHIR implementation",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S130",
+    "title": "HL7 FHIR R4 - DiagnosticReport",
+    "url": "https://hl7.org/fhir/R4/diagnosticreport.html",
+    "region": "International",
+    "retrieval_status": "Scope and result/report relationships read",
+    "use": "Keep the original report distinct from atomic test results",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S131",
+    "title": "HL7 FHIR R4 - DocumentReference",
+    "url": "https://hl7.org/fhir/R4/documentreference.html",
+    "region": "International",
+    "retrieval_status": "Scope and document metadata sections read",
+    "use": "Original document references and source context",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S132",
+    "title": "HL7 FHIR R4 - MedicationRequest",
+    "url": "https://hl7.org/fhir/R4/medicationrequest.html",
+    "region": "International",
+    "retrieval_status": "Scope and order/instruction definitions read",
+    "use": "Prescription orders are distinct from actual medication use",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S133",
+    "title": "UCUM specification",
+    "url": "https://ucum.org/ucum",
+    "region": "International",
+    "retrieval_status": "Selected symbol, variant and case-sensitive sections read; full terminology validator not implemented",
+    "use": "Preserve literal units and verify any standardized mapping; no automatic conversion claim",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S134",
+    "title": "Google Drive API - Upload file data",
+    "url": "https://developers.google.com/workspace/drive/api/guides/manage-uploads",
+    "region": "International",
+    "retrieval_status": "Upload and native conversion sections read; live sensitive-file uploads not tested",
+    "use": "Keep received source bytes separate from converted or derived documents",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S135",
+    "title": "Google Sheets API - spreadsheets.batchUpdate",
+    "url": "https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/batchUpdate",
+    "region": "International",
+    "retrieval_status": "Request validation, atomic subrequests and collaborative editing limitations read; live writes not tested",
+    "use": "Bounded native Sheet batches do not make Drive and Sheets one transaction; read back the committed ledger",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S136",
+    "title": "Google Drive API - Manage file revisions",
+    "url": "https://developers.google.com/workspace/drive/api/guides/manage-revisions",
+    "region": "International",
+    "retrieval_status": "Selected retention and keepForever limitations read; live revision operations not tested",
+    "use": "Explicit snapshots and backup verification instead of assuming permanent revision retention",
+    "checked_on": "2026-10-07"
   }
 ]

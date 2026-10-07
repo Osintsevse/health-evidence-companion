@@ -1,0 +1,4 @@
+interface:
+  display_name: "Private Health History"
+  short_description: "Import reports and retrieve sourced private history"
+  default_prompt: "Use $health-record-import to save these reports in my authorized private archive."

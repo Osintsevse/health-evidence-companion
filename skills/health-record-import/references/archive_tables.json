@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "format": "private_longitudinal_tables",
+  "description": "Project row contract, not a FHIR profile. Actual rows and destination IDs are private. The Sheet is authoritative; import JSON and derived charts are snapshots.",
+  "common_columns": ["entry_id", "import_id", "recorded_at", "record_status", "supersedes_entry_id"],
+  "fact_columns": ["source_kind", "source_document_id", "source_locator", "source_text", "event_date", "event_date_precision", "review_status", "uncertainties"],
+  "enums": {
+    "import_state": ["staged", "committed", "failed"],
+    "record_status": ["active", "superseded", "entered_in_error"],
+    "review_status": ["needs_review", "verified_from_source", "user_confirmed", "unreadable"],
+    "date_precision": ["unknown", "year", "month", "day", "datetime"],
+    "source_kind": ["medical_document", "owner_report", "administration_record"],
+    "mapping_status": ["unknown", "unverified", "verified"],
+    "storage_readback_status": ["pending", "metadata_verified", "bytes_verified", "failed"],
+    "ledger_readback_status": ["pending", "rows_verified", "failed"],
+    "medication_event_type": ["not_started", "started", "dose_taken", "missed", "dose_changed", "as_needed_use", "paused", "stopped", "completed", "regimen_reported", "benefit_reported", "adverse_effect_reported"],
+    "use_evidence": ["explicit_owner_report", "documented_use", "administration_record"]
+  },
+  "tables": {
+    "imports": {
+      "tab_name": "Imports",
+      "fact": false,
+      "columns": ["import_id", "record_id", "schema_version", "state", "recorded_at", "completed_at", "original_count", "fact_count", "unresolved_count", "snapshot_file_id", "receipt_file_id", "ledger_readback_status", "error_note"]
+    },
+    "documents": {
+      "tab_name": "Documents",
+      "fact": false,
+      "columns": ["document_kind", "original_filename", "mime_type", "size_bytes", "received_sha256", "remote_file_id", "parent_folder_id", "storage_readback_status", "report_group_id", "page_order", "document_date", "document_date_precision", "source_language", "missing_pages"]
+    },
+    "observations": {
+      "tab_name": "Observations",
+      "fact": true,
+      "columns": ["analyte_name_raw", "analyte_id", "analyte_mapping_status", "raw_value", "decimal_separator", "numeric_value", "comparator", "qualitative_value", "unit_raw", "unit_code", "unit_mapping_status", "specimen_raw", "method_raw", "laboratory_raw", "reference_range_raw", "reference_low", "reference_high", "reference_unit_raw", "flag_raw", "issued_date", "issued_date_precision", "comparability_status"]
+    },
+    "clinical_entries": {
+      "tab_name": "ClinicalEntries",
+      "fact": true,
+      "columns": ["entry_kind", "statement_raw", "diagnostic_certainty_raw", "clinician_raw", "organization_raw", "followup_raw", "completion_status_raw", "coding_system", "code", "coding_status"]
+    },
+    "medication_orders": {
+      "tab_name": "MedicationOrders",
+      "fact": true,
+      "columns": ["brand_raw", "inn_raw", "form_raw", "strength_raw", "route_raw", "dose_raw", "regimen_raw", "duration_raw", "indication_raw", "prescriber_raw", "actual_use_status"]
+    },
+    "medication_use_events": {
+      "tab_name": "MedicationUseEvents",
+      "fact": true,
+      "columns": ["order_entry_id", "product_identity_raw", "event_type", "dose_taken_raw", "regimen_reported_raw", "use_evidence", "benefit_reported_raw", "adverse_effect_reported_raw"]
+    },
+    "corrections": {
+      "tab_name": "Corrections",
+      "fact": true,
+      "columns": ["target_table", "target_entry_id", "replacement_entry_id", "reason_raw", "correction_authority"]
+    }
+  },
+  "representation": {
+    "numeric_value": "Finite decimal string using a dot, never a boolean; preserve raw_value and comparator. Conversions are derived and not performed by the offline helper.",
+    "dates": "ISO year/month/day/datetime paired with exact precision; null with unknown precision. Datetime includes its known timezone.",
+    "missing": "Null, never fabricated zero, midnight, date, diagnosis or actual medicine use.",
+    "literal_text": "Native Sheets stringValue for source text; safe escaped CSV for optional staging. Do not interpret extracted formulas.",
+    "provenance": "For medical-document facts use a known document entry ID and nonempty page/row/section locator. Owner reports retain their own source kind and private statement locator.",
+    "readback": "metadata_verified checks observed file metadata; bytes_verified additionally checks received byte integrity. Neither asserts transcription/clinical verification."
+  }
+}

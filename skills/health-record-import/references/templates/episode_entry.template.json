@@ -1,0 +1,21 @@
+{
+  "is_blank_template": true,
+  "entry_id": null,
+  "domain": null,
+  "event_date": null,
+  "event_date_precision": "unknown",
+  "recorded_at": null,
+  "source_ids": [],
+  "reported_symptoms": [],
+  "measured_observations": [],
+  "explicitly_reported_absent_findings": [],
+  "clinician_diagnoses_documented": [],
+  "diagnoses_reported_without_document": [],
+  "informational_hypotheses": [],
+  "prescriptions_documented": [],
+  "medication_actual_use_updates": [],
+  "next_contact": null,
+  "uncertainties": [],
+  "correction_of_entry_id": null,
+  "correction_reason": null
+}

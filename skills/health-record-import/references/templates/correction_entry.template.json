@@ -1,0 +1,21 @@
+{
+  "is_blank_template": true,
+  "entry_id": null,
+  "import_id": null,
+  "recorded_at": null,
+  "record_status": null,
+  "supersedes_entry_id": null,
+  "source_kind": null,
+  "source_document_id": null,
+  "source_locator": null,
+  "source_text": null,
+  "event_date": null,
+  "event_date_precision": null,
+  "review_status": null,
+  "uncertainties": null,
+  "target_table": null,
+  "target_entry_id": null,
+  "replacement_entry_id": null,
+  "reason_raw": null,
+  "correction_authority": null
+}

@@ -1,0 +1,16 @@
+{
+  "is_blank_template": true,
+  "schema_version": "1.0",
+  "record_id": null,
+  "import_id": null,
+  "state": null,
+  "recorded_at": null,
+  "tables": {
+    "documents": [],
+    "observations": [],
+    "clinical_entries": [],
+    "medication_orders": [],
+    "medication_use_events": [],
+    "corrections": []
+  }
+}

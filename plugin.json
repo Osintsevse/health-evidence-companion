@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.3.1",
-  "description": "Adult informational symptom reasoning, safe self-care, medicine and research assistance; GitHub and manual distribution.",
+  "version": "0.4.0",
+  "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",
     "url": "https://github.com/Osintsevse"
@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Help adults reason about symptoms and possible diagnoses, check self-diagnosis hypotheses, understand laboratory results, choose safe self-care and OTC label options, check medicine interactions and prepare clinician questions using current primary sources. Includes psychiatry information, evidence appraisal, private-record design and a study-to-GitHub-PR contribution workflow with maintainer review. English knowledge; answers in your language, with a short disclaimer in every health-facing answer. Not intended for use as a medical device, not clinically validated, and not a definitive diagnosis or prescription. No independent prescription changes, medical clearance or publisher patient archive. Distributed through GitHub and supported manual personal/workspace installation, without a required server or paid medical API. Platform policies and scans still apply; no directory approval or import success is promised. Actual cases never enter public knowledge.",
+        "longDescription": "Seven skills for adult health explanations, symptom reasoning, medicine information, research, mental-health education, private record design and owner-authorized document import/history. The English knowledge base contains 136 source entries with actual reading status, blank archive forms and a provenance-aware row contract. Photographs and reports can be organized into a private Drive/Sheets or local archive only when the host provides the required authorized storage tools. Originals, laboratory results, clinical entries, prescriptions and actual-use events stay distinct. The plugin provides instructions, not a built-in OCR or storage service. Keep personal records outside GitHub. Medical information is not a diagnosis or prescription; clinical decisions require qualified professional assessment. Every health-facing answer includes a short disclaimer. Not intended for use as a medical device; no clinical validation or independent prescription changes. Manual personal/workspace installation remains subject to host policies.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -33,7 +33,8 @@
           "Appraise medical evidence",
           "Prepare clinician questions",
           "Design private records",
-          "Propose knowledge pull requests"
+          "Propose knowledge pull requests",
+          "Maintain authorized private history"
         ],
         "websiteURL": "https://github.com/Osintsevse/health-evidence-companion",
         "supportURL": "https://github.com/Osintsevse/health-evidence-companion/issues",
@@ -50,7 +51,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.3.1 fixes source/runtime archive allowlisting, rejects populated or changed Markdown summary templates, and repairs Windows administrative setup and symlink-test handling. Adult health skills and the 128-source register are unchanged; no new clinical validation or host approval claimed."
+        "release_notes": "Version 0.4.0 adds owner-authorized private report/photo import and longitudinal history rules, Drive/Sheets and local archive contracts, eight blank forms and offline staging helpers. Seven skills and 136 source entries; no built-in OCR/storage connector, live patient import, clinical validation or host approval claimed."
       }
     }
   }

@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained adult health knowledge base and six AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained adult health knowledge base and seven AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -19,6 +19,7 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-research` | Guidelines, studies, systematic reviews and critical evidence appraisal |
 | `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |
 | `health-record-design` | Blank private-record design, provenance, medicine reconciliation and unknown fields |
+| `health-record-import` | Owner-authorized photo/PDF import, preserved originals, source-linked history, corrections, retrieval and charts in private storage |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
 
 Examples: "Compare possible causes of these symptoms and what would distinguish them", "What can I safely check at home and when should I seek care?", "Explain these non-identifying laboratory values", "Check this medicine combination and the unknown ingredients", "Review this study and open a PR for the maintainer". Ask naturally; no method selection required.
@@ -31,11 +32,17 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 128 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing modules are retained: 136 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
 No copyrighted textbook corpus, third-party interaction dataset or medical model weights are bundled. Optional integration research and the licensed DrugBank example remain outside the plugin ZIP. MIT covers original code/instructions/notes; external sources retain their rights ([NOTICE](NOTICE.md)).
+
+## Keep a private medical history
+
+Use [private archive setup](docs/private-archive-setup.md) and [document/history rules](knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). The preferred Drive layout preserves received photos/PDFs separately and uses one native Google Sheet for dated laboratory results, visits/recommendations, prescriptions, actual medicine-use events, corrections and an import journal. Each fact links to its source/page; unclear fields remain pending. JSON import snapshots provide an audit/export trail, while charts and summaries are derived views.
+
+The public project contains only general rules, the [row contract](knowledge/archive_tables.json), blank forms and wholly synthetic tests. The executing host needs available, explicitly authorized private storage tools; the package itself connects no account and stores no patient's files. Local storage can use the same contract. No real patient archive or live upload is exercised by repository tests.
 
 ## Build and release
 
@@ -43,6 +50,7 @@ Python 3.11+ and the standard library suffice:
 
 ```sh
 python3 scripts/update_registry.py
+python3 scripts/generate_archive_templates.py --check
 python3 scripts/sync_references.py
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v

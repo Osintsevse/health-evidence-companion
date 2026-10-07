@@ -916,3 +916,59 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Rimantadine/amantadine are not recommended for currently circulating influenza because of resistance; antiviral guidance differs by setting.
 - Checked: 2026-10-06
 
+### S129 - HL7 FHIR R4 - Observation
+- URL: https://hl7.org/fhir/R4/observation.html
+- Region: International
+- Reading status: Scope and resource structure read: values, comparators, absent results, dates, units and reference ranges
+- Purpose: Source-linked laboratory observations; conceptual inspiration, not a FHIR implementation
+- Checked: 2026-10-07
+
+### S130 - HL7 FHIR R4 - DiagnosticReport
+- URL: https://hl7.org/fhir/R4/diagnosticreport.html
+- Region: International
+- Reading status: Scope and result/report relationships read
+- Purpose: Keep the original report distinct from atomic test results
+- Checked: 2026-10-07
+
+### S131 - HL7 FHIR R4 - DocumentReference
+- URL: https://hl7.org/fhir/R4/documentreference.html
+- Region: International
+- Reading status: Scope and document metadata sections read
+- Purpose: Original document references and source context
+- Checked: 2026-10-07
+
+### S132 - HL7 FHIR R4 - MedicationRequest
+- URL: https://hl7.org/fhir/R4/medicationrequest.html
+- Region: International
+- Reading status: Scope and order/instruction definitions read
+- Purpose: Prescription orders are distinct from actual medication use
+- Checked: 2026-10-07
+
+### S133 - UCUM specification
+- URL: https://ucum.org/ucum
+- Region: International
+- Reading status: Selected symbol, variant and case-sensitive sections read; full terminology validator not implemented
+- Purpose: Preserve literal units and verify any standardized mapping; no automatic conversion claim
+- Checked: 2026-10-07
+
+### S134 - Google Drive API - Upload file data
+- URL: https://developers.google.com/workspace/drive/api/guides/manage-uploads
+- Region: International
+- Reading status: Upload and native conversion sections read; live sensitive-file uploads not tested
+- Purpose: Keep received source bytes separate from converted or derived documents
+- Checked: 2026-10-07
+
+### S135 - Google Sheets API - spreadsheets.batchUpdate
+- URL: https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/batchUpdate
+- Region: International
+- Reading status: Request validation, atomic subrequests and collaborative editing limitations read; live writes not tested
+- Purpose: Bounded native Sheet batches do not make Drive and Sheets one transaction; read back the committed ledger
+- Checked: 2026-10-07
+
+### S136 - Google Drive API - Manage file revisions
+- URL: https://developers.google.com/workspace/drive/api/guides/manage-revisions
+- Region: International
+- Reading status: Selected retention and keepForever limitations read; live revision operations not tested
+- Purpose: Explicit snapshots and backup verification instead of assuming permanent revision retention
+- Checked: 2026-10-07
+

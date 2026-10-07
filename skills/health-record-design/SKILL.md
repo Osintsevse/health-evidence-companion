@@ -1,6 +1,6 @@
 ---
 name: health-record-design
-description: Explain private health archive design using blank templates, provenance, medicine reconciliation, allergy status and corrections. Use for record structure, physical and psychiatric sections, unknown fields and clinician-summary templates. This public skill does not collect, read or write patient records.
+description: Design private medical archives and blank forms for source-linked laboratory, visit, prescription and actual medicine-use histories. Use for choosing storage/structure, provenance, reconciliation, corrections and graph-ready data. For actual owner-authorized report import or history retrieval, route to health-record-import; public knowledge contains no patient records.
 ---
 
 # Private record design
@@ -13,6 +13,8 @@ Explain event/recording dates; reported/documented/inferred information; unknown
 
 Use [blank summary](references/templates/patient_card.template.md), [blank archive](references/templates/patient_record.template.json), [blank medicine entry](references/templates/medication_entry.template.json) and [blank episode](references/templates/episode_entry.template.json). Keep public forms blank. These are project JSON structures informed by FHIR concepts, not validated FHIR resources or official charts.
 
-If asked to import, maintain or share an actual record, explain that this public package supplies design guidance only; such processing needs a separately authorized suitable private environment and privacy review. A folder alone does not implement secure record management. Do not claim unseen-chat access or background updates.
+For a Drive-first longitudinal archive, read [document/history workflow](references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md) and the [row contract](references/archive_tables.json). Design separate originals, import snapshots/receipts, one accepted-history ledger and derived views; reuse the owner's existing folders. Keep prescribed plans and explicit actual-use events separate. Describe exactly which host tools are required, without claiming the package automatically connects them.
+
+If asked to import, maintain or retrieve an actual record, route to health-record-import with the owner's explicit destination/source authorization and available private storage tools. Do not reject an authorized private task merely because the public repository excludes patient data. Requests to share need explicit recipients. A folder alone does not implement secure record management. Do not claim unseen-chat access or background updates.
 
 Never add records, anonymized real cases or filled templates to source, PRs or releases. Use only explicitly synthetic exercises if examples are necessary.

@@ -1,6 +1,6 @@
 # GitHub distribution and platform boundaries
 
-Version 0.3.0 targets **GitHub Releases plus supported manual personal/workspace installation**, not submission to the public ChatGPT directory. The portable root `plugin.json`, six immediate `skills/` folders and relative references remain. No MCP server, app mapping, hooks, publisher backend or mandatory paid API is connected. The root marketplace catalog enables an eligible admin's documented GitHub import route.
+Version 0.4.0 targets **GitHub Releases plus supported manual personal/workspace installation**, not submission to the public ChatGPT directory. The portable root `plugin.json`, seven immediate `skills/` folders and relative references remain. No MCP server, app mapping, hooks, publisher backend or mandatory paid API is connected. The root marketplace catalog enables an eligible admin's documented GitHub import route. Private record import uses available owner-authorized host tools; the archive is outside this public repository.
 
 ## Why the distribution changed
 

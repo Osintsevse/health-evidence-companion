@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 - 2026-10-07
+
+- Add health-record-import for owner-authorized private report/photo intake, original preservation, sourced history, chart selection and historical questions using available host tools.
+- Define a Drive/Sheets-first archive contract with separate documents, observations, clinical entries, medication orders, actual-use events, corrections and an import journal; retain local storage alternatives.
+- Add eight entirely blank generated archive forms, an offline staging/validation example and synthetic regression checks. No built-in OCR, Drive connector or publisher patient database is introduced.
+- Preserve raw values, units, date precision, inequalities, source locators and uncertainty; distinguish prescribed medicine from actual use and make retries/corrections commit-aware.
+- Expand to seven skills and 136 source entries, documenting selected FHIR R4, UCUM and Google storage sections actually read. Align privacy, setup and record-design instructions with explicitly authorized private storage.
+
+
 ## 0.3.1 - 2026-10-07
 
 - Require a reviewed source-file manifest; reject unexpected local files, including ignored private directories, before creating archives.
