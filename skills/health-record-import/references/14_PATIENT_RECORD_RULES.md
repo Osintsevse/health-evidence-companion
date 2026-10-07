@@ -55,3 +55,7 @@ Show last reconciliation dates for medicines, allergies and significant conditio
 Prepare a minimum relevant summary: current question, trajectory, significant conditions, allergies, actual medicines, investigations and questions. Share with the selected recipient only under the owner's decision. Never publish records as part of the general corpus.
 
 Do not claim access to unseen chats or background updates. A private update requires available source material and working authorized storage. An AI suggestion remains an informational hypothesis unless established by the appropriate clinical source.
+
+## Reader-facing output
+
+When maintaining readable views, use [module 21](21_READABLE_ARCHIVE_VIEWS.md): one clear reader entry point, a separate system area, source-linked views and generation rules saved privately. Preserve the chosen ledger and existing restricted access; readable output does not establish current status or replace source evidence.

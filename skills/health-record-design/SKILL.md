@@ -18,3 +18,7 @@ For a Drive-first longitudinal archive, read [document/history workflow](referen
 If asked to import, maintain or retrieve an actual record, route to health-record-import with the owner's explicit destination/source authorization and available private storage tools. Do not reject an authorized private task merely because the public repository excludes patient data. Requests to share need explicit recipients. A folder alone does not implement secure record management. Do not claim unseen-chat access or background updates.
 
 Never add records, anonymized real cases or filled templates to source, PRs or releases. Use only explicitly synthetic exercises if examples are necessary.
+
+## Readable archive views
+
+For dashboards, vaccination tables, laboratory matrices, reader/system organization and repeatable exports, read [readable-view rules](references/21_READABLE_ARCHIVE_VIEWS.md). Preserve the accepted ledger, older context, raw values, uncertainty and source permissions; keep all actual outputs/configuration private. Save the chosen generation rules and scripts with the owner archive, verify every view, and distinguish a generated snapshot from a correction or current clinical state.

@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
           'knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md']
-ARCHIVE = ['knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json']
+ARCHIVE = ['knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json', 'knowledge/21_READABLE_ARCHIVE_VIEWS.md']
 TEMPLATES = ['knowledge/templates/' + name for name in [
     'README.md', 'patient_card.template.md', 'patient_record.template.json',
     'medication_entry.template.json', 'episode_entry.template.json',

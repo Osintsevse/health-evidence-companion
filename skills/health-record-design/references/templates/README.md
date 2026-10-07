@@ -24,4 +24,6 @@ Module 20 and `archive_tables.json` define the Drive-first/private row contract.
 
 These eight forms are generated from the public contract by `scripts/generate_archive_templates.py`; use `--check` to detect stale copies and synchronize skill references after generation. Remove the `is_blank_template` marker from private active rows/bundles, then populate stable IDs and required statuses/dates according to the contract. Null cells are not negative findings or measured zero. The marker is not an authorization to ingest real data into the repository.
 
-Keep received originals immutable and the Sheet as the accepted-history master. Import JSON is an audit snapshot; summaries and charts are derived views. Private writes need explicit owner/material/destination authorization and readback. The package contains no person's Drive IDs and no automatic provider connection.
+Keep received originals immutable and the configured ledger as the accepted-history master. Import JSON is an audit snapshot; summaries and charts are derived views. Private writes need explicit owner/material/destination authorization and readback. The package contains no person's Drive IDs and no automatic provider connection.
+
+For reader/system layout, vaccination views and investigation matrices, use module 21. View configuration and generated records remain private; these blank forms do not prescribe an owner identity or storage path.

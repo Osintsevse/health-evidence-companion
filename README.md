@@ -42,7 +42,7 @@ No copyrighted textbook corpus, third-party interaction dataset or medical model
 
 Use [private archive setup](docs/private-archive-setup.md) and [document/history rules](knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). The preferred Drive layout preserves received photos/PDFs separately and uses one native Google Sheet for dated laboratory results, visits/recommendations, prescriptions, actual medicine-use events, corrections and an import journal. Each fact links to its source/page; unclear fields remain pending. JSON import snapshots provide an audit/export trail, while charts and summaries are derived views.
 
-The public project contains only general rules, the [row contract](knowledge/archive_tables.json), blank forms and wholly synthetic tests. The executing host needs available, explicitly authorized private storage tools; the package itself connects no account and stores no patient's files. Local storage can use the same contract. No real patient archive or live upload is exercised by repository tests.
+The public project contains only general rules, the [row contract](knowledge/archive_tables.json), blank forms and wholly synthetic tests. The executing host needs available, explicitly authorized private storage tools; the package itself connects no account and stores no patient's files. Local storage can use the same contract. [Readable archive views](knowledge/21_READABLE_ARCHIVE_VIEWS.md) describe one reader entry point, a separate system area, vaccination tables, laboratory matrices and repeatable offline views. Optional generators are packaged in the import skill; they create private snapshots only and connect no account. No real patient archive or live upload is exercised by repository tests.
 
 ## Build and release
 

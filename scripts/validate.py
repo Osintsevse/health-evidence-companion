@@ -13,7 +13,7 @@ from sync_references import MAP, destination, expected
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
-TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt'}
+TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs'}
 SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
 SOURCE_MANIFEST = Path('scripts/source-files.txt')
 # Only reviewed, entirely blank Markdown forms may be distributed. A layout
@@ -72,7 +72,7 @@ def check_blank_markdown(text, path):
 
 
 def plugin_paths():
-    paths = ROOT_FILES | {'assets/icon.svg'}
+    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/assets/archive-view.html'}
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)

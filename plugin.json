@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",
@@ -51,7 +51,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.4.0 adds owner-authorized private report/photo import and longitudinal history rules, Drive/Sheets and local archive contracts, eight blank forms and offline staging helpers. Seven skills and 136 source entries; no built-in OCR/storage connector, live patient import, clinical validation or host approval claimed."
+        "release_notes": "Version 0.4.1 adds private readable archive rules, an offline SQLite/HTML generator and an optional Artifact Tool spreadsheet adapter. Reader/system areas, vaccine layouts, laboratory matrices, source-linked uncertainty and correction-aware generation are covered by synthetic checks. No patient data, account connection, server, automatic update or clinical approval is included."
       }
     }
   }

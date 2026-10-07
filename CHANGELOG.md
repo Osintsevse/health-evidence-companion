@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 - 2026-10-07
+
+- Add readable private archive rules: one reader entry point, separate system files, vaccination layouts, date-by-analyte matrices, reports/measurements and explicit uncertainty.
+- Package an optional read-only SQLite generator, offline HTML template and host Artifact Tool spreadsheet adapter; save actual configuration, rules and generation receipts only in the owner archive.
+- Preserve raw unit/specimen identity, same-day/repeat and undated results, prescription/use distinctions and correction chains; exclude staged records and unreviewed replacements from accepted views.
+- Add wholly synthetic regression checks and independent synthetic forward review. No patient data, live connection, server, background processing or clinical validation is bundled.
+
 ## 0.4.0 - 2026-10-07
 
 - Add health-record-import for owner-authorized private report/photo intake, original preservation, sourced history, chart selection and historical questions using available host tools.

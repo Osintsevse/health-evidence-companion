@@ -60,6 +60,7 @@ knowledge/17_VACCINATION.md
 knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md
 knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md
+knowledge/21_READABLE_ARCHIVE_VIEWS.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/sources.csv
@@ -119,6 +120,7 @@ skills/health-explain/references/17_VACCINATION.md
 skills/health-explain/references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md
 skills/health-explain/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 skills/health-explain/references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md
+skills/health-explain/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-explain/references/archive_tables.json
 skills/health-explain/references/sources.json
 skills/health-medicine-info/SKILL.md
@@ -152,6 +154,7 @@ skills/health-record-design/references/01_SOURCE_MAP.md
 skills/health-record-design/references/14_PATIENT_RECORD_RULES.md
 skills/health-record-design/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 skills/health-record-design/references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md
+skills/health-record-design/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-record-design/references/archive_tables.json
 skills/health-record-design/references/sources.json
 skills/health-record-design/references/templates/README.md
@@ -169,11 +172,13 @@ skills/health-record-design/references/templates/patient_record.template.json
 skills/health-record-design/references/templates/source_document.template.json
 skills/health-record-import/SKILL.md
 skills/health-record-import/agents/openai.yaml
+skills/health-record-import/assets/archive-view.html
 skills/health-record-import/references/00_KNOWLEDGE_POLICY.md
 skills/health-record-import/references/01_SOURCE_MAP.md
 skills/health-record-import/references/14_PATIENT_RECORD_RULES.md
 skills/health-record-import/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 skills/health-record-import/references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md
+skills/health-record-import/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-record-import/references/archive_tables.json
 skills/health-record-import/references/sources.json
 skills/health-record-import/references/templates/README.md
@@ -189,6 +194,8 @@ skills/health-record-import/references/templates/medication_use_event.template.j
 skills/health-record-import/references/templates/patient_card.template.md
 skills/health-record-import/references/templates/patient_record.template.json
 skills/health-record-import/references/templates/source_document.template.json
+skills/health-record-import/scripts/build_labs.mjs
+skills/health-record-import/scripts/generate_views.py
 skills/health-research/SKILL.md
 skills/health-research/agents/openai.yaml
 skills/health-research/references/00_KNOWLEDGE_POLICY.md
@@ -207,3 +214,4 @@ tests/test_configure_github.py
 tests/test_package.py
 tests/test_record_tools.py
 tests/test_release.py
+tests/test_views.py
