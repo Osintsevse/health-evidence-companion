@@ -47,7 +47,7 @@ DDInter is an optional research candidate with separate noncommercial data licen
 
 ## General review workflow
 
-Establish ingredients, form, route, dose range and timing relevant to the question; include regular, as-needed, OTC, supplement, herbal and alcohol exposures. Keep unknown composition unknown. Factors such as indication, pregnancy, allergies, kidney/liver function, bleeding, electrolytes or ECG may change interpretation; ask only relevant non-identifying context and respect the public plugin's PHI boundary.
+Establish ingredients, form, route, dose range and timing relevant to the question; include regular, as-needed, OTC, supplement, herbal and alcohol exposures. Keep unknown composition unknown. Factors such as indication, pregnancy, allergies, kidney/liver function, bleeding, electrolytes or ECG may change interpretation; ask only relevant non-identifying context and apply module 19's minimization, host authorization and public-corpus boundary.
 
 Check duplicate ingredients/classes, then pairs and cumulative effects across the list. For recently stopped drugs, use the source's persistence information. Compare alerts with local labelling. Preserve conflicting sources and uncertainty.
 

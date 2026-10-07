@@ -4,9 +4,9 @@ Publisher: **Osintsevse**. Project: **Health Evidence Companion**. Last updated:
 
 ## Data categories and purposes
 
-The package supplies general health explanations, public medicine information, research navigation and blank forms. It has no publisher-operated backend, patient database, account system, analytics SDK or automatic external API integration. Package code does not receive or collect conversations, files, identifiers, credentials, location, IP addresses or usage telemetry for the publisher.
+The package supplies informational symptom reasoning, safe self-checks, basic self-care, medicine/result explanations, research navigation and blank forms. It has no publisher-operated backend, patient database, account system, analytics SDK or automatic external API integration. Package code does not receive or collect conversations, files, identifiers, credentials, location, IP addresses or usage telemetry for the publisher.
 
-ChatGPT processes the messages and files you choose to supply under its own policies and account/workspace settings. The package is not an offline or separately secured medical-record environment. Do not submit PHI, identifiable medical documents, individual records, identity documents or credentials for this public plugin to process. Actual patient archives are outside its scope.
+ChatGPT processes the messages and files you choose to supply under its own policies and account/workspace settings. The package is not an offline or separately secured medical-record environment. The manual-install edition may discuss relevant voluntarily supplied symptoms, medicines and non-identifying values in the authorized host conversation. Remove identifiers from documents where practical and do not provide credentials, identity documents or unnecessary histories. Use only a host/environment appropriate for your data and obligations. The package provides no HIPAA/GDPR compliance guarantee, separate security controls or publisher patient archive. Public knowledge must never include actual cases.
 
 If you voluntarily open a GitHub issue, PR or discussion, GitHub stores your public account name and submitted content. The maintainer uses that information to respond to support requests and review contributions. Submit only general knowledge or package problems; never real cases, medical records or secrets, even with names removed.
 

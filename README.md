@@ -1,49 +1,45 @@
 # Health Evidence Companion
 
-An English-language, skills-based plugin for adult medical information in ChatGPT. It helps people understand health questions, navigate primary sources, explain medicines and interactions, assess research and prepare useful questions for a healthcare professional. It answers in the user's language.
+A community-maintained adult health knowledge base and six AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
-[Download latest plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip) | [Browser quick start](docs/quick-start.md) | [All releases](https://github.com/Osintsevse/health-evidence-companion/releases)
+Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
-The core requires no local Codex installation, local server or paid medical API. A supported ChatGPT plugin surface and its own plan/workspace permissions are still required. This is an informational assistant: it does not establish diagnoses, prescribe, change treatment or replace clinical care.
+## Install or send to a friend
+
+**[Download plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip)** · **[Quick setup](docs/quick-start.md)** · **[Setup prompt](docs/setup-prompt.txt)** · **[Releases](https://github.com/Osintsevse/health-evidence-companion/releases)**
+
+Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/import a personal or workspace copy only through controls available to your account. Manual installation can still be scanned or refused by ChatGPT; this project does not bypass platform policy and is not targeting public directory approval. The setup guide also describes local skill installation and using the material as ordinary project reference files when supported.
 
 ## Skills
 
 | Skill | Purpose |
 |---|---|
-| `health-explain` | Adult health questions, possible causes, tests, prevention and source navigation |
-| `health-medicine-info` | Ingredients, mechanisms, exact product labels, interactions and uncertainty |
-| `health-research` | Guideline and research retrieval with critical appraisal |
-| `health-mental-health` | Psychiatry and psychiatric medicine information |
-| `health-record-design` | General private-archive rules and blank templates |
-| `health-contribute` | Sourced general knowledge contributions for maintainer review |
+| `health-explain` | Symptom assessment, differential hypotheses, urgency, safe self-checks, self-care, laboratory and vaccine questions |
+| `health-medicine-info` | Exact ingredients/forms, evidence, OTC labels, medicine-list and interaction checks |
+| `health-research` | Guidelines, studies, systematic reviews and critical evidence appraisal |
+| `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |
+| `health-record-design` | Blank private-record design, provenance, medicine reconciliation and unknown fields |
+| `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
 
-Examples: "What do doctors consider when an adult cough persists?", "How does benzydamine work?", "What does the evidence say about zinc for colds?", "Explain the interaction mechanisms of SSRIs and NSAIDs", "Show a blank medicine-history template." Ask in any language the host supports; no method selection is needed.
+Examples: "Compare possible causes of these symptoms and what would distinguish them", "What can I safely check at home and when should I seek care?", "Explain these non-identifying laboratory values", "Check this medicine combination and the unknown ingredients", "Review this study and open a PR for the maintainer". Ask naturally; no method selection required.
 
-## Browser installation and distribution
+## Extend the project
 
-Send a friend this repository link and direct them to the **Browser quick start** above. Before directory publication, they can use the ZIP as reference material to create a personal copy through Plugin Creator if their account supports it. The guide includes a copy-and-paste prompt, access checks and update instructions. This guided creation route is not a universal ZIP installer and has not been tested in a separate friend's account.
+**[Contribution workflow and copyable prompts](docs/contribution-workflow.md)** · **[Contribution rules](CONTRIBUTING.md)** · **[Propose research](https://github.com/Osintsevse/health-evidence-companion/issues/new/choose)**
 
-Use the **plugin ZIP release asset**, not GitHub's automatically generated source-code ZIP. After public platform approval/publication, users can install from the directory on supported browser surfaces. Authorized sharing/workspace import options depend on account access. An arbitrary GitHub URL does not automatically install a plugin into every ChatGPT account.
+Ask the assistant to review a public study/guideline, update the general knowledge and open a pull request (GitHub's name for a merge request). A connected GitHub account and appropriate tools/permissions are needed to submit it. Without them, the assistant prepares an evidence card and PR draft. `@Osintsevse` reviews and approves; there is no automatic merging or self-approval. CI checks files, not clinical truth.
 
-See [installation](docs/installation.md) and [publication](docs/publication.md). This repository contains an upload candidate, not evidence of platform approval. Skills are installed snapshots: new knowledge needs a new package upload/update, not merely a GitHub merge.
+## Knowledge, sources and privacy
 
-## Knowledge and privacy
+All existing modules are retained: 128 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
-The English library retains the original general modules and adds allergy, laboratory literacy, vaccination and treatment-evidence/homeopathy modules. It has 128 registered sources, including three marked secondary discovery lists, additional free-tool research and five blank template files. It prioritizes Serbian ALIMS, Russian GRLS/clinical guidelines, WHO and relevant international primary sources. Reading status and gaps are explicit; this is not a completed medical degree or validated diagnostic model.
+Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
-The medicine workflow checks evidence for the exact indication before endorsing efficacy. It separates unsupported claims, guideline recommendations against, uncertain effects and pending appraisal rather than treating a brand list as a universal ban. See the [knowledge index](knowledge/00_INDEX.md), [treatment watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [repository review](docs/review-2026-10-06.md).
+No copyrighted textbook corpus, third-party interaction dataset or medical model weights are bundled. Optional integration research and the licensed DrugBank example remain outside the plugin ZIP. MIT covers original code/instructions/notes; external sources retain their rights ([NOTICE](NOTICE.md)).
 
-**Only general knowledge and blank forms are allowed.** Never contribute actual histories, anonymized real cases, identifiable documents, private links or personal medicine lists. The public plugin does not maintain patient records, solicit PHI or connect to a clinical archive. General record rules are included so people can design a separate private system. See [knowledge policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
+## Build and release
 
-No third-party interaction dataset, medical model weights or copyrighted textbook corpus is bundled. Free integrations and the earlier optional licensed DrugBank adapter are research examples, excluded from the plugin ZIP.
-
-## Contributing
-
-Fork, create a branch, add original English knowledge with primary sources and explicit scope/limitations, run checks and open a pull request. The maintainer reviews evidence and approves changes. See [CONTRIBUTING.md](CONTRIBUTING.md). CI does not validate clinical accuracy.
-
-## Developer commands
-
-Python 3.11+ and its standard library suffice for the core build:
+Python 3.11+ and the standard library suffice:
 
 ```sh
 python3 scripts/update_registry.py
@@ -54,6 +50,4 @@ python3 -m unittest discover -s examples/drugbank -v
 python3 scripts/build.py
 ```
 
-`dist/` receives versioned plugin/source ZIPs, the stable `health-evidence-companion.zip` download, `SETUP.md`, `SETUP_PROMPT.txt`, checksums and a build report. CI runs checks on PRs/main. After a `plugin.json` version change reaches reviewed `main`, the release workflow validates/builds and creates `vX.Y.Z` plus a public GitHub Release automatically. Workflow changes bootstrap a missing release; manual runs on `main` can retry. Existing published versions are retained without overwrites. No local execution is needed by browser end users. See [maintainer setup](docs/maintainer-setup.md) for required repository protection.
-
-MIT applies to original project code/instructions/notes. External sources retain their rights. See [NOTICE.md](NOTICE.md).
+PR/main CI produces candidate artifacts. After a reviewed version bump reaches main, release automation publishes versioned and stable-name plugin ZIPs, source ZIP, checksums, build report and setup files. Installed personal copies are snapshots and need an explicit update. GitHub publishing does not install or publish anything in ChatGPT. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).

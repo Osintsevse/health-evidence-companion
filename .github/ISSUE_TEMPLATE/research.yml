@@ -1,0 +1,33 @@
+name: Research or knowledge proposal
+description: Propose a public study, guideline, topic or correction for maintainer review.
+title: "[Research] "
+body:
+  - type: markdown
+    attributes:
+      value: "General knowledge only. Do not include actual symptoms, records, prescriptions, names or private links, even after removing identifiers. An issue is a proposal, not a merged or clinically approved change."
+  - type: textarea
+    id: question
+    attributes:
+      label: General question or proposed correction
+      description: Explain the claim/topic and the intended knowledge change.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public primary sources
+      description: DOI/URL, guideline version/date and sections actually read. Mark abstract-only access.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Scope, opposing evidence and limitations
+      description: Population, country, outcome and important uncertainty.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public contribution boundary
+      options:
+        - label: This proposal contains only general knowledge and public sources; no actual case, record or secret.
+          required: true

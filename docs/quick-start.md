@@ -1,31 +1,33 @@
-# Health Evidence Companion: browser setup
+# Health Evidence Companion: manual setup
 
-[Download the latest plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip) | [All releases](https://github.com/Osintsevse/health-evidence-companion/releases) | [Setup prompt](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/setup-prompt.txt)
+[Download latest plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip) | [Releases](https://github.com/Osintsevse/health-evidence-companion/releases) | [Setup prompt](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/setup-prompt.txt)
 
-The ZIP contains English instructions and general medical references. Answers use your language. You do not need local Codex, Python, a server or a medical API key. Your ChatGPT account must support the creation or installation route you choose. A public GitHub repository does not grant ChatGPT plugin access.
+English instructions; answers in your language. No required local Codex, Python, server or medical API key for a supported browser installation. The target is a personal/workspace copy, not publication in the public directory. Account features and host medical/data policies still apply; manual installation may be scanned or refused. A ZIP cannot unlock features or bypass a refusal.
 
-## Use a personal copy before public directory publication
+## Personal ChatGPT copy
 
-1. Download `health-evidence-companion.zip` using the link above. Keep it as a ZIP; do not use GitHub's generic source-code download or the `-source.zip` asset.
-2. Open a new ChatGPT conversation, preferably Work for inspecting the archive. Type `@` and select **Plugin Creator** if it is available to your account/workspace.
-3. Attach the ZIP as reference material. Copy the [setup prompt](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/setup-prompt.txt) into the conversation and send it.
-4. Ask the creator to preserve the six bundled skills and their relative references. Review its actual output and complete any creation/install prompts. Ask it to report the package version and any omitted or inaccessible files.
-5. Open a new conversation, select **Health Evidence Companion** with an `@` mention, and try a general question such as "Explain why antibiotics usually do not help an adult viral cold. Cite current primary sources and answer in Russian."
+1. Download the maintainer's `health-evidence-companion.zip`, not the generic GitHub source ZIP or `-source.zip`.
+2. If your account/workspace offers **Plugin Creator**, start a new chat, select it with `@`, and attach the ZIP as reference material. If it offers a supported direct plugin upload/import control, use that instead.
+3. Send the [setup prompt](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/setup-prompt.txt). Preserve all six skills, their references, the medical purpose, practical symptom/self-care workflows and limits. Review which files were actually included and the manifest version.
+4. Complete the host's creation/install process only if permitted. In a new chat, select the resulting plugin with `@` and try: "Compare possible causes of an adult cough, safe home observations and when an examination helps; cite current primary sources and answer in my language."
+5. To contribute, try: "Review this public study [URL] and open a knowledge PR for Osintsevse. Do not merge." Submission needs available connected GitHub tools and account permissions; otherwise obtain an evidence card and PR draft.
 
-This is a guided personal-creation workflow using the package as input. Official documentation supports creating plugins with reference files; it does not document a universal ZIP importer for every browser account or guarantee a byte-for-byte recreation of this repository. If the creator cannot inspect the ZIP, extract it and attach the requested `SKILL.md` and reference files. If Plugin Creator is missing or creation is denied, the repository cannot unlock that feature; use an authorized shared/workspace plugin or wait for public publication. The friend setup has not been tested in a separate user's account.
+Official guidance documents creation with instructions/reference files. It does not establish a universal ZIP importer or faithful ZIP reconstruction for every account. If the ZIP cannot be inspected, attach extracted SKILL.md/reference files when asked. If host policy rejects the medical workflow, stop that installation attempt; do not disguise the purpose, strip safeguards or retry through another surface to evade the restriction. Personal setup has not been tested in a separate user's account.
 
-## Use a plugin shared by its creator
+## Workspace import
 
-If the maintainer supplies a ChatGPT plugin link, open it in the intended account/workspace and install the plugin if permitted. Access sharing and installation are separate. Workspace sharing requires the relevant permissions and does not imply availability to unrelated personal accounts. A GitHub URL is a source/download link, not this installation link.
+An eligible workspace admin can import this repository's marketplace: **Admin > Plugins > Add > Import marketplace**, repository `https://github.com/Osintsevse/health-evidence-companion`, root path (blank), chosen branch/tag (for example `v0.3.0`). The `.agents/plugins/marketplace.json` catalog references the root portable package. Review import findings and configure eligible roles. A tag pins a snapshot; main allows supported sync. Sharing/installation and access to a connected GitHub account remain separate controls. This import was not exercised in a separate workspace.
 
-## Use the public directory after publication
+## If plugin creation is unavailable
 
-If Health Evidence Companion has been approved and published to the ChatGPT Plugins directory, open its listing and select the plus/install button. GitHub release publication alone does not create a directory listing. Public directory submission requires developer identity verification and platform review; personal creation is a separate route.
+Use supported ordinary ChatGPT Project instructions/reference-file features with the source material where the host permits this medical-information use; this is reference use, not an installed plugin or an exemption from restrictions. Upload only the needed general modules and preserve their policies/source map. Availability, file limits and citations depend on the host. Do not use this path to bypass an explicit policy refusal.
 
-## Updates
+For local Codex, download/clone the repository and ask its skill installer to install the six `skills/` folders with their references. Alternatively, copy them to your local user's `.agents/skills/` directory using the documented local-skill mechanism, preserving existing unrelated skills. This is a local option; it does not install a browser plugin.
 
-Installed personal copies are snapshots. To update, download the new ZIP, open the plugin's **Edit Plugin** conversation and ask Plugin Creator to replace its instructions/reference files from that version while preserving the six workflows. Check the reported version and repeat the sample question. A GitHub release does not automatically update those copies.
+## Updating and privacy
 
-Use general health questions and public product information. This distributed package contains only general knowledge and blank forms; personal medical archives belong in a separate private system.
+Personal copies are snapshots. Download the new ZIP, open the copy's edit workflow, replace the instructions/references, verify version and rerun a sample question. A GitHub merge alone does not update it. Workspace GitHub sync uses its own controls.
 
-Sources checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Use and install plugins](https://learn.chatgpt.com/docs/plugins), [Package and workspace distribution](https://developers.openai.com/plugins/build/plugins), [Public submission](https://developers.openai.com/plugins/deploy/submission).
+Use only necessary symptom, medicine or non-identifying result details in an authorized host conversation. Actual cases must never enter public issues, PRs, releases or search queries. Remove identifiers from documents where practical. The package provides no publisher patient archive or secure storage. Every health-facing answer includes a short disclaimer; it cannot confirm diagnoses or change prescription treatment independently.
+
+Sources checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Plugins](https://learn.chatgpt.com/docs/plugins), [Workspace GitHub import](https://learn.chatgpt.com/docs/enterprise/plugin-management), [Local skills](https://learn.chatgpt.com/docs/build-skills).

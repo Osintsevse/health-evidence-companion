@@ -1,9 +1,11 @@
 # Terms of use
 
-Use this project for general adult medical education, source navigation and research explanations. It is not a licensed clinician, diagnostic service, prescription system, medical-device validation or emergency service. Do not rely on it to establish a diagnosis, change a prescription or obtain fitness-to-drive/other medical clearance.
+Use Health Evidence Companion for adult informational symptom reasoning, possible-diagnosis comparisons, safe self-checks, basic self-care, medicine/OTC information, research appraisal and clinician preparation. It is not a licensed clinician, definitive diagnostic service, prescription system or emergency service. It is not intended for use as a medical device and has not been clinically validated. This statement is not a legal classification or exemption from applicable law or host policies.
 
-Information can be incomplete, outdated or incorrectly interpreted. Verify the applicable current guidance and exact local product label. Relevant clinical decisions require an appropriately qualified professional. For an emergency, seek local urgent assistance without waiting for a plugin answer.
+Every health-facing answer must include a concise disclaimer in the user's language. A disclaimer does not make an unsafe recommendation acceptable. Do not rely on the package to confirm a diagnosis, independently start/stop/change prescription treatment or obtain fitness-to-drive or other medical clearance. Seek urgent help for emergency signs rather than waiting for an AI response.
 
-The public package excludes PHI processing and personal record management. Blank forms describe an independent private archive; the plugin does not supply secure storage or automate access to other chats.
+Information may be incomplete, outdated or incorrectly interpreted. Verify current applicable guidance and exact local product labels. Individual clinical decisions require an appropriately qualified professional. Adult guidance must not be silently applied to children, pregnancy or complex high-risk situations.
 
-MIT governs original project material with its stated warranty/liability terms. External reference material, API services, datasets and weights retain their own terms. No guaranteed availability, platform approval or clinical performance is promised. ChatGPT use is also subject to the host's terms and availability.
+GitHub/manual distribution is the target; no directory approval, platform availability or successful import is promised. Do not bypass host scans or misrepresent the medical purpose. Host terms, permissions, consent and data controls remain applicable. The package supplies no secure patient storage. Relevant voluntary details may be discussed in an authorized conversation; public source, PRs and releases must never contain actual cases or records.
+
+MIT governs original material with its stated warranty/liability terms. External publications, datasets, services and weights retain their own terms. No performance, clinical safety, regulatory compliance or availability guarantee is supplied.

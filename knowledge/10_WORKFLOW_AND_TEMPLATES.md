@@ -4,7 +4,7 @@ Project procedures, not clinical guidelines. Only blank forms belong here; fille
 
 ## Symptom explanation
 
-Explain plausible causes and uncertainty; identify urgent warning signs; state relevant next steps; ask only questions that change the interpretation; provide sources for material clinical claims. Do not assign a final diagnosis. Respect the public package's PHI boundary.
+Explain plausible causes and uncertainty; identify urgent warning signs; state relevant next steps; ask only questions that change the interpretation; provide sources for material clinical claims. Do not assign a final diagnosis. Apply module 19 for safe self-checks, basic recommendations, observation limits and the required short disclaimer. Actual conversations remain outside the corpus.
 
 ## Label or prescription explanation
 

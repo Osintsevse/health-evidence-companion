@@ -1,0 +1,15 @@
+{
+  "name": "health-evidence-companion-community",
+  "interface": {
+    "displayName": "Health Evidence Companion"
+  },
+  "plugins": [
+    {
+      "name": "health-evidence-companion",
+      "source": {
+        "source": "local",
+        "path": "."
+      }
+    }
+  ]
+}

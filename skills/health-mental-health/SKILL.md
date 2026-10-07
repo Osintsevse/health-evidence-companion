@@ -5,9 +5,9 @@ description: Explain adult psychiatry concepts, medicine classes, monitoring, in
 
 # Psychiatry information
 
-Reply in the user's language. Read [policy](references/00_KNOWLEDGE_POLICY.md), [psychiatry](references/06_PSYCHIATRY.md), [interactions](references/12_DRUG_INTERACTIONS.md) and [source map](references/01_SOURCE_MAP.md).
+Reply in the user's language. Apply [response limits and the short disclaimer](references/19_SYMPTOM_REASONING_AND_SELF_CARE.md) in every health-facing answer, including follow-ups; do not delay emergency action. Read [policy](references/00_KNOWLEDGE_POLICY.md), [psychiatry](references/06_PSYCHIATRY.md), [interactions](references/12_DRUG_INTERACTIONS.md) and [source map](references/01_SOURCE_MAP.md).
 
-Distinguish general information from psychotherapy and a private record. Do not infer a disorder from therapy participation, a questionnaire or family history. Do not request full conversations, identity or PHI. Offer general information when individual clinical evaluation is needed.
+Distinguish general information from psychotherapy and a private record. Do not infer a disorder from therapy participation, a questionnaire or family history. Use relevant voluntarily supplied symptoms or medicine effects in the authorized conversation, minimizing details. Do not request full therapy conversations, identity or records. Compare possible explanations and screening limitations without treating a hypothesis as a diagnosis; explain when individual clinical evaluation is needed.
 
 For diagnostic concepts, inspect the relevant ICD-11 CDDR section and current guidance; explain duration, functional impact, physical/substance-related alternatives and screening limits. Do not diagnose the user or prescribe from conversation.
 

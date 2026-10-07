@@ -22,7 +22,7 @@ Release-workflow/script changes also trigger a run on `main` to bootstrap a miss
 
 Release assets include the versioned plugin and source ZIPs, identical stable-name `health-evidence-companion.zip`, setup instructions/prompt, checksums and a build report. `/releases/latest/download/health-evidence-companion.zip` is the fixed download link. Latest-release selection uses GitHub's date/semantic-version policy, so an older-version retry does not explicitly force itself as latest.
 
-GitHub Releases require no OpenAI developer verification. They publish no plugin to the ChatGPT directory automatically. Upload the plugin ZIP through the separate verified publisher process when ready. Test the friend setup in the recipient's real account; creation/install permissions are not granted by the source repository. If GitHub tag/release rules restrict the Actions token, the release run will fail visibly; inspect those rules rather than adding a personal token or bypass as an incidental fix.
+GitHub Releases require no OpenAI developer verification. They publish no plugin to the ChatGPT directory automatically. Distribute the plugin ZIP with the manual setup guide. Public-directory submission is not the distribution target; manual host checks still apply. Test the friend setup in the recipient's real account; creation/install permissions are not granted by the source repository. If GitHub tag/release rules restrict the Actions token, the release run will fail visibly; inspect those rules rather than adding a personal token or bypass as an incidental fix.
 
 ## Administrative automation
 

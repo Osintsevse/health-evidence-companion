@@ -1,6 +1,6 @@
 # Health Evidence Companion: knowledge index
 
-English edition, 2026-10-06. Scope: adult health information, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
+English edition, 2026-10-07. Scope: adult health information, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
 
 ## Contents
 
@@ -24,6 +24,7 @@ English edition, 2026-10-06. Scope: adult health information, with Serbian, Russ
 | 16 | Laboratory literacy: units, patterns, confirmation and interference |
 | 17 | Vaccination: dated Serbia/Russia landmarks and catch-up source rules |
 | 18 | Treatment evidence, homeopathy and an indication-specific watchlist |
+| 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 
 `00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 128 entries, retaining all 88 original IDs. Three new secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Research documents add free-tool and integration links. `templates/` contains five blank files. The repository review and access-audit scope are documented under `docs/`.
 
