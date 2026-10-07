@@ -16,7 +16,7 @@ Personal copy: use Plugin Creator with attached reference material or a direct i
 
 Workspace: an eligible admin can import the root marketplace catalog from GitHub and configure roles/sync. `.agents/plugins/marketplace.json` references the root portable package. This does not grant GitHub contribution permissions or clinical-data authorization.
 
-Local Codex: use the available skill installer for this repository's six `skills/` folders or the documented user `.agents/skills/` location. Preserve references and unrelated installed skills. Local installation does not create a browser plugin.
+Local Codex: use the available skill installer for this repository's seven `skills/` folders or the documented user `.agents/skills/` location. Preserve references and unrelated installed skills. Local installation does not create a browser plugin.
 
 Supported ordinary Project reference use is described in the quick setup. It is not a plugin installation and must not be used to bypass a medical-policy rejection. All routes remain subject to host policies, scans, account availability and permissions. No separate friend's account/workspace installation has been verified.
 

@@ -1,0 +1,19 @@
+{
+  "is_blank_template": true,
+  "schema_version": "1.0",
+  "record_id": null,
+  "storage_backend": null,
+  "root_folder_id": null,
+  "ledger_file_id": null,
+  "folder_ids": {
+    "originals": null,
+    "imports": null,
+    "derived": null,
+    "backups": null
+  },
+  "owner_context": null,
+  "destination_authorization": null,
+  "access_checked_at": null,
+  "last_verified_at": null,
+  "writer_policy": null
+}

@@ -32,4 +32,4 @@ Never put real chat content, cases or personal outputs into public knowledge. Do
 - [Curriculum](references/13_MEDICAL_CURRICULUM.md) and [study log](references/09_STUDY_LOG_AND_ROADMAP.md): coverage/gaps.
 - [Workflows](references/10_WORKFLOW_AND_TEMPLATES.md), [record rules](references/14_PATIENT_RECORD_RULES.md), [AI systems](references/08_MEDICAL_AI.md), [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md).
 
-These are original notes, not full textbooks or permanently current labels. For research use health-research. For archive design use health-record-design; the public package does not maintain patient records.
+These are original notes, not full textbooks or permanently current labels. For research use health-research. For archive design use health-record-design; for owner-authorized photos, reports, history and charts use health-record-import with [the private import workflow](references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). Actual records stay in the selected private host storage, outside the public package.

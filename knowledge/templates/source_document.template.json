@@ -1,0 +1,22 @@
+{
+  "is_blank_template": true,
+  "entry_id": null,
+  "import_id": null,
+  "recorded_at": null,
+  "record_status": null,
+  "supersedes_entry_id": null,
+  "document_kind": null,
+  "original_filename": null,
+  "mime_type": null,
+  "size_bytes": null,
+  "received_sha256": null,
+  "remote_file_id": null,
+  "parent_folder_id": null,
+  "storage_readback_status": null,
+  "report_group_id": null,
+  "page_order": null,
+  "document_date": null,
+  "document_date_precision": null,
+  "source_language": null,
+  "missing_pages": null
+}

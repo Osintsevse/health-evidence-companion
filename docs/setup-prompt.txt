@@ -1,6 +1,6 @@
 Create a personal ChatGPT plugin named Health Evidence Companion from the attached release ZIP, only if my account and the host's policies permit this medical-information workflow.
 
-Inspect plugin.json and preserve all six skills: health-explain, health-medicine-info, health-research, health-mental-health, health-record-design and health-contribute. Preserve SKILL.md, relative references, source-reading limits, evidence appraisal, privacy boundaries and blank templates. Keep source content English and answers in the user's language.
+Inspect plugin.json and preserve all seven skills: health-explain, health-medicine-info, health-research, health-mental-health, health-record-design, health-record-import and health-contribute. Preserve SKILL.md, relative references, source-reading limits, evidence appraisal, privacy boundaries and blank templates. Keep source content English and answers in the user's language.
 
 Retain the expanded functions: adult symptom reasoning, comparison of possible diagnoses, checking self-diagnosis hypotheses, safe home observations, basic self-care, current label-based OTC information, laboratory and medicine-interaction explanations, psychiatry information and clinician questions. Apply module 19's short disclaimer in every health-facing answer, including follow-ups, after emergency action if needed. Do not establish a definitive diagnosis, change prescription treatment independently or claim medical-device validation. Manual/GitHub distribution does not exempt the copy from host policy or applicable obligations.
 
@@ -11,3 +11,5 @@ Relevant voluntary health details may be used only in the authorized conversatio
 Report the actual version and every included/omitted/inaccessible workflow or file. If ZIP inspection or preservation fails, request the needed extracted files before claiming success. If a host policy blocks this medical purpose, explain the refusal and stop rather than disguising it or trying to evade the restriction. Do not claim public-directory publication or installation without platform confirmation.
 
 Help complete the permitted manual setup and test in a new chat: Compare possible causes of an adult cough, safe home observations and when an examination helps, citing current primary sources in my language.
+
+Private archive capability: include health-record-import and the private import/history module and blank table forms. Use only owner-authorized destination folders and actual available host tools; preserve originals and source-linked rows. Do not claim built-in OCR, automatic Drive access or a completed archive write without readback. Keep personal files outside the public package.

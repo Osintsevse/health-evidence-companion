@@ -1,6 +1,6 @@
 # Universal private health record rules
 
-General design guidance for any owner. Filled records always remain outside this knowledge repository. The public plugin explains this design; it does not collect or maintain identifiable records.
+General design guidance for any owner. Filled records always remain outside this knowledge repository. The publisher operates no patient archive. An executing host may maintain an explicitly owner-authorized private archive through available tools using module 20; the public package stores only the design and blank forms.
 
 ## Creation
 
@@ -20,6 +20,8 @@ Keep complaint, observation, hypothesis and clinician-established diagnosis sepa
 
 For investigations, retain analyte, value, unit, that laboratory's reference, date and known conditions. One abnormal value is not a final diagnosis. Preserve the original separately; a summary does not replace it. Never guess an unreadable dose or result from OCR or a photograph.
 
+For photo/PDF ingestion, source file preservation, row-level provenance, exact dates, inequalities, import retries and historical charts, use [module 20](20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md) and the [table contract](archive_tables.json). Keep a source-linked row for each result and a separate clinical report/visit entry. A doctor's recommendation is not evidence that an action was completed. The same contract supports an owner-selected Drive archive or local private files.
+
 ## Medicines
 
 Separate prescribed treatment from actual use. An old discharge document does not establish current use. Retain source and status; this distinction is also reflected in FHIR MedicationStatement. [S85]
@@ -27,6 +29,8 @@ Separate prescribed treatment from actual use. An old discharge document does no
 Fields: brand/INN, formulation, strength/concentration, route, dose/unit, regular or as-needed regimen, indication, dates, prescriber where necessary, actual-use status, source and last reconciliation. Record benefit, adverse effects, missed doses and changes separately.
 
 Useful statuses: prescribed but not started; reported taking; as-needed; paused; completed; discontinued; unknown. Recommended, purchased and taken are not equivalent. Interaction work needs a single reconciled list across physical and psychiatric care, OTC products and supplements rather than disconnected partial lists.
+
+Module 20 separates MedicationOrders from dated MedicationUseEvents: started, dose taken, missed, changed, as-needed, paused, stopped, completed and reported effects. Preserve each event's evidence and date precision; never generate an adherence calendar or current-use status from a prescription alone.
 
 ## Allergies and adverse reactions
 

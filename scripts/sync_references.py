@@ -4,8 +4,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
           'knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md']
+ARCHIVE = ['knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json']
+TEMPLATES = ['knowledge/templates/' + name for name in [
+    'README.md', 'patient_card.template.md', 'patient_record.template.json',
+    'medication_entry.template.json', 'episode_entry.template.json',
+    'archive_config.template.json', 'archive_import.template.json', 'source_document.template.json',
+    'lab_result.template.json', 'clinical_entry.template.json', 'medication_order.template.json',
+    'medication_use_event.template.json', 'correction_entry.template.json']]
 MAP = {
-    'health-explain': COMMON + [f'knowledge/{name}' for name in [
+    'health-explain': COMMON + ARCHIVE + [f'knowledge/{name}' for name in [
         '02_PRIMARY_CARE.md', '03_RESPIRATORY.md', '04_MEDICATIONS.md', '05_ALLERGY_SKIN_EYES.md',
         '06_PSYCHIATRY.md', '07_LABS_PREVENTION_METABOLISM.md', '08_MEDICAL_AI.md',
         '09_STUDY_LOG_AND_ROADMAP.md', '10_WORKFLOW_AND_TEMPLATES.md', '11_PHARMACOLOGY_FOUNDATIONS.md',
@@ -22,9 +29,8 @@ MAP = {
         'docs/research/free-medical-tools.md'],
     'health-mental-health': COMMON + ['knowledge/06_PSYCHIATRY.md', 'knowledge/11_PHARMACOLOGY_FOUNDATIONS.md',
         'knowledge/12_DRUG_INTERACTIONS.md', 'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
-    'health-record-design': COMMON + ['knowledge/14_PATIENT_RECORD_RULES.md'] + [
-        'knowledge/templates/' + name for name in ['README.md', 'patient_card.template.md',
-        'patient_record.template.json', 'medication_entry.template.json', 'episode_entry.template.json']],
+    'health-record-design': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
+    'health-record-import': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
     'health-contribute': COMMON + ['CONTRIBUTING.md', 'docs/contribution-workflow.md', 'knowledge/EVIDENCE_METHODS.md',
         'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
 }
