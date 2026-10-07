@@ -2,13 +2,15 @@
 
 For browser users, the intended distribution route is an approved directory plugin or an authorized workspace import. A GitHub checkout/local marketplace is a developer route and is not a universal browser installation mechanism. End users do not need Codex, Python or an MCP server for the skills-only core.
 
+For a friend using their own account before directory publication, start with the [browser quick start](quick-start.md). It explains guided personal creation through Plugin Creator where available, authorized sharing and the public directory route. Publisher verification is separate from making the source/ZIP public on GitHub.
+
 ## Publisher or workspace importer
 
 ### Download the correct archive
 
-For a stable version, open [GitHub Releases](https://github.com/Osintsevse/health-evidence-companion/releases) and choose the maintainer-created `health-evidence-companion-X.Y.Z.zip` under Assets. Releases appear only after a reviewed version tag has successfully run; a PR or merge alone creates no release.
+Use [Download latest plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip) for a stable download URL. Alternatively open [GitHub Releases](https://github.com/Osintsevse/health-evidence-companion/releases) and choose `health-evidence-companion-X.Y.Z.zip` under Assets; it has the same bytes as `health-evidence-companion.zip`. Releases are generated after a version change reaches reviewed `main` and the release checks succeed. They remain available without the fourteen-day Actions-artifact expiry. The link returns no release until the first publication succeeds.
 
-For a candidate, open [GitHub Actions](https://github.com/Osintsevse/health-evidence-companion/actions), select a successful **Package checks** run for the intended PR or `main` commit, then download **health-evidence-companion-candidate** from Artifacts. GitHub sign-in may be required. This is an automatically generated artifact wrapper: extract it and use the inner `health-evidence-companion-X.Y.Z.zip`. The accompanying `-source.zip`, `SHA256SUMS.txt` and `build-report.json` are separate developer/verification files. Candidate artifacts expire after fourteen days; a newer successful run creates another one.
+For a candidate, open [GitHub Actions](https://github.com/Osintsevse/health-evidence-companion/actions), select a successful **Package checks** run for the intended PR or `main` commit, then download **health-evidence-companion-candidate** from Artifacts. GitHub sign-in may be required. This is an automatically generated artifact wrapper: extract it and use the inner `health-evidence-companion-X.Y.Z.zip` or identical stable-name ZIP. The accompanying `-source.zip`, `SHA256SUMS.txt` and `build-report.json` are separate developer/verification files. `SETUP.md` and `SETUP_PROMPT.txt` help browser users. Candidate artifacts expire after fourteen days; a newer successful run creates another one.
 
 ### Use the available publishing/import route
 

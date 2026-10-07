@@ -32,6 +32,13 @@ class PackageTests(unittest.TestCase):
 
     def test_runtime_archive_excludes_developer_code(self):
         report = build(self.root)
+        stable = self.root / 'dist/health-evidence-companion.zip'
+        versioned = self.root / f"dist/health-evidence-companion-{report['version']}.zip"
+        self.assertEqual(stable.read_bytes(), versioned.read_bytes())
+        self.assertEqual((self.root / 'dist/SETUP.md').read_bytes(),
+                         (self.root / 'docs/quick-start.md').read_bytes())
+        self.assertEqual((self.root / 'dist/SETUP_PROMPT.txt').read_bytes(),
+                         (self.root / 'docs/setup-prompt.txt').read_bytes())
         with zipfile.ZipFile(self.root / f"dist/health-evidence-companion-{report['version']}.zip") as z:
             names = z.namelist()
             self.assertIn('plugin.json', names)
