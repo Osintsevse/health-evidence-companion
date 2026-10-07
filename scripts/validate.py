@@ -1,6 +1,7 @@
 """Local packaging/content checks. This is not medical or platform certification."""
 import csv
 import datetime
+import hashlib
 import json
 import re
 import stat
@@ -8,12 +9,18 @@ import zipfile
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlparse
 
-from sync_references import MAP, expected
+from sync_references import MAP, destination, expected
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
 TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt'}
 SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
+SOURCE_MANIFEST = Path('scripts/source-files.txt')
+# Only reviewed, entirely blank Markdown forms may be distributed. A layout
+# change requires reviewing the new blank form and updating its digest here.
+BLANK_MARKDOWN_SHA256 = {
+    'patient_card.template.md': '86b3ebbb738771728466ee92c4c9d424d335464d0b6b4865dcfd2dc918c1ee41',
+}
 
 
 def require(condition, message):
@@ -52,6 +59,24 @@ def check_blank(template, path):
         elif value is not None:
             require(key in allowed and allowed[key] == value, f'Populated template field: {path}')
     visit(template)
+
+
+def check_blank_markdown(text, path):
+    digest = BLANK_MARKDOWN_SHA256.get(PurePosixPath(path).name)
+    require(digest is not None, f'Unreviewed Markdown template: {path}')
+    # Normalize line endings only, preserving every other character. Never echo
+    # the content of a potentially populated form in validation errors.
+    normalized = text.replace('\r\n', '\n')
+    require(hashlib.sha256(normalized.encode('utf-8')).hexdigest() == digest,
+            f'Populated or changed Markdown template: {path}')
+
+
+def plugin_paths():
+    paths = ROOT_FILES | {'assets/icon.svg'}
+    for skill, sources in MAP.items():
+        paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
+        paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)
+    return paths
 
 
 def check_manifest(manifest, paths):
@@ -118,6 +143,21 @@ def relative_links(text, relative_path, paths):
 
 
 def source_files(root=ROOT):
+    manifest = root / SOURCE_MANIFEST
+    require(not manifest.is_symlink(), f'Symlink forbidden: {SOURCE_MANIFEST}')
+    require(manifest.is_file(), 'Missing source-file manifest')
+    entries = manifest.read_text(encoding='utf-8').splitlines()
+    require(entries and all(entries) and len(entries) == len(set(entries)),
+            'Empty/duplicate source-file manifest entry')
+    allowed = set()
+    for entry in entries:
+        rel = PurePosixPath(entry)
+        require(not rel.is_absolute() and '..' not in rel.parts and '\\' not in entry
+                and ':' not in entry and rel.as_posix() == entry
+                and not any(part in SKIP_DIRS for part in rel.parts),
+                'Unsafe source-file manifest entry')
+        allowed.add(entry)
+    require(SOURCE_MANIFEST.as_posix() in allowed, 'Source manifest must list itself')
     files = []
     for path in root.rglob('*'):
         rel = path.relative_to(root)
@@ -125,18 +165,23 @@ def source_files(root=ROOT):
             continue
         require(not path.is_symlink(), f'Symlink forbidden: {rel}')
         if path.is_file():
+            require(rel.as_posix() in allowed, f'Unexpected source file: {rel}')
             files.append(rel)
+    require({p.as_posix() for p in files} == allowed, 'Missing allowlisted source file')
     return sorted(files)
 
 
 def plugin_files(root=ROOT):
     result = []
+    allowed = plugin_paths()
     for rel in source_files(root):
         p = rel.as_posix()
         if p in ROOT_FILES or p.startswith('skills/') or p.startswith('assets/'):
+            require(p in allowed, f'Unexpected plugin file: {p}')
             require(rel.suffix in TEXT_SUFFIXES or p == 'LICENSE', f'Unexpected plugin file: {p}')
             require(not any(part.startswith('.') for part in rel.parts), f'Hidden plugin file: {p}')
             result.append(rel)
+    require({p.as_posix() for p in result} == allowed, 'Missing plugin file')
     return result
 
 
@@ -179,6 +224,8 @@ def validate(root=ROOT):
             if '.template.' in rel.name:
                 check_blank(data, rel)
         if rel.suffix == '.md':
+            if '.template.' in rel.name:
+                check_blank_markdown(text, rel.as_posix())
             relative_links(text, rel.as_posix(), paths)
             for source_id in re.findall(r'\bS\d{2,}\b', text):
                 require(source_id in ids, f'Unknown source ID {source_id} in {rel}')
@@ -206,12 +253,14 @@ def validate_zip(path):
             p = PurePosixPath(i.filename)
             require(not p.is_absolute() and '..' not in p.parts and '\\' not in i.filename, 'Unsafe archive path')
             require(not stat.S_ISLNK(i.external_attr >> 16), 'Archive symlink')
-            allowed = i.filename in ROOT_FILES or (p.parts and p.parts[0] in {'skills', 'assets'})
+            allowed = i.filename in plugin_paths()
             require(allowed, 'Unexpected archive member')
             require(not any(part.startswith('.') for part in p.parts), 'Hidden archive member')
             text = z.read(i).decode('utf-8')
             privacy_check(text, p)
             if p.suffix == '.md':
+                if '.template.' in p.name:
+                    check_blank_markdown(text, i.filename)
                 relative_links(text, i.filename, set(names))
             if '.template.' in p.name and p.suffix == '.json':
                 check_blank(json.loads(text), p)
@@ -219,6 +268,7 @@ def validate_zip(path):
         check_manifest(manifest, set(names))
         skills = {p.split('/')[1] for p in names if p.startswith('skills/') and p.endswith('/SKILL.md')}
         require(skills == set(MAP), 'Wrong archive skills')
+        require(set(names) == plugin_paths(), 'Missing plugin archive member')
         require(z.testzip() is None, 'Corrupt archive')
 
 

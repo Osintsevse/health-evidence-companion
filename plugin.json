@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Adult informational symptom reasoning, safe self-care, medicine and research assistance; GitHub and manual distribution.",
   "author": {
     "name": "Osintsevse",
@@ -50,7 +50,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.3.0 targets GitHub/manual distribution, expands symptom reasoning and safe self-care, requires a short health disclaimer and adds connected-GitHub PR contribution instructions. Existing knowledge retained; no clinical validation or host approval claimed."
+        "release_notes": "Version 0.3.1 fixes source/runtime archive allowlisting, rejects populated or changed Markdown summary templates, and repairs Windows administrative setup and symlink-test handling. Adult health skills and the 128-source register are unchanged; no new clinical validation or host approval claimed."
       }
     }
   }
