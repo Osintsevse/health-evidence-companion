@@ -123,11 +123,17 @@ def publish(root=ROOT, env=None, command=None):
     release_notes = root / 'dist/RELEASE_NOTES.md'
     release_notes.write_text(notes(root, version, head), encoding='utf-8')
     if action == 'create':
-        command(['gh', 'release', 'create', tag, '--draft', '--target', head,
-                 '--title', 'Health Evidence Companion ' + tag, '--notes-file', str(release_notes)])
-        existing = find_release(command, tag)
-        if not existing:
-            raise ValueError('GitHub did not return the created draft; retry after inspection')
+        request = root / 'dist/RELEASE_REQUEST.json'
+        request.write_text(json.dumps({'tag_name': tag, 'target_commitish': head,
+                                      'name': 'Health Evidence Companion ' + tag,
+                                      'body': release_notes.read_text(), 'draft': True,
+                                      'prerelease': False}), encoding='utf-8')
+        # The creation response identifies this draft even if the release listing
+        # has not updated yet. Never create twice or guess a release ID.
+        existing = json.loads(command(['gh', 'api', '--method', 'POST',
+                                       f'repos/{REPO}/releases', '--input', str(request)]).stdout)
+    if not isinstance(existing, dict) or type(existing.get('id')) is not int or existing['id'] <= 0:
+        raise ValueError('GitHub did not return a valid release ID; inspect its state')
     endpoint = f'repos/{REPO}/releases/{existing["id"]}'
     draft = json.loads(command(['gh', 'api', endpoint]).stdout)
     if not draft['draft'] or draft['tag_name'] != tag:
