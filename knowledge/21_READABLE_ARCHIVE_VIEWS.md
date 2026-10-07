@@ -28,13 +28,13 @@ Distinguish vaccinations, tuberculin tests and reported disease history. A place
 
 ### Laboratory matrix
 
-Put investigation events vertically and analytes horizontally, with chronological dates, laboratory, specimen and source references. Group pages of the same established report/accession, not all tests sharing a calendar date. Different collections in one day remain distinct; missing collection time stays unknown. Keep blood, urine and stool contexts in distinct views when grouping would confuse interpretation.
+By default put analytes in rows and dated investigation events in columns, with chronological dates, laboratory, specimen and source references. Preserve an explicitly chosen owner orientation. Group pages of the same established report/accession, not all tests sharing a calendar date. Different collections in one day remain distinct; missing collection time stays unknown. Keep blood, urine and stool contexts in distinct views when grouping would confuse interpretation.
 
 Retain every value if a cell has multiple accepted results; never use a first/last overwrite, average or fabricated zero. Preserve raw decimal precision, inequality signs, qualitative results, source flags, units and the contemporary reference interval. Keep unknown-date reviewed results visible in an undated section rather than assigning a date or dropping them. Needs-review results remain available in an uncertainty view and must not become numerical chart points.
 
 Display translations or aliases must not collapse different raw analytes, units or specimens. An explicitly reviewed equivalence/conversion registry can support a further derived comparison, retaining the original identities, source units, conversion formula and review authority. Unreviewed spelling similarity, missing specimen or a display-unit label is insufficient. A side-by-side display does not establish assay comparability. Graph selection still follows module 20: reviewed values, genuine dates, verified compatible context, and explicit handling/exclusion of detection limits.
 
-Use frozen date/source columns, scannable headers, normal-sized text and bounded formatting. A search/filter should expose the selected analyte's actual cases rather than forcing the reader through many blank rows. Show reference intervals and source locators per cell or in one accessible detail view. Avoid using newly invented global ranges or color as a diagnosis.
+Freeze the analyte column and date/source header rows, with scannable headers, normal-sized text and bounded formatting. A search/filter should expose the selected analyte's actual cases rather than forcing the reader through many blank rows. Show reference intervals and source locators per cell or in one accessible detail view. Avoid using newly invented global ranges or color as a diagnosis.
 
 ### Measurements, reports and medicines
 
@@ -59,3 +59,15 @@ HTML should work from a local file with embedded data/assets and no external req
 5. Update only managed view files/ranges; preserve unrelated inputs, comments, formulas and source workbooks. Read back material values and output hashes, then finalize a generation receipt. Keep import completion separate from human uncertainty and from publication or clinical approval.
 
 Save the chosen rules with the personal archive so a later authorized assistant can reproduce it. Do not promise unseen-chat retrieval, monitoring or background refresh. Schedule future imports only when explicitly requested.
+
+## Owner clarification and laboratory row families
+
+Use module 22 for a separate questions/feedback page with stable IDs, private source links, persistent answer fields and correction acceptance. Preserve user answer columns during native refreshes; an offline browser draft requires export and ingestion. For date-by-analyte matrices, reviewed display aliases may share a row while source specimens, methods, values and references remain inspectable. Only reviewed compatible transformations support quantitative comparison; browsing grouping alone does not.
+
+## Parsed sources and original documents
+
+Every displayed fact and clarification needs both its parsed-source link and the preserved original link, including laboratory result details and report headings. Resolve local paths inside the authorized archive and reuse verified private cloud URLs when available. Do not invent accessible originals or silently substitute extracted text for a scan.
+
+Show document-photo previews immediately beside questions, with a click target for the full original. Embed verified local image bytes in offline HTML so previews survive downloading one file; label a resized preview and retain the untouched original and checksum. Plain source text may use a labeled text panel. Native tables and unsupported formats get an explicit original link, not a fabricated scan. PDF page rendering needs an available local renderer and a separate verified implementation; the optional helper does not render PDF pages.
+
+The optional local preview helper needs an explicitly configured private `originals_root`, `embed_question_originals: true`, and available Pillow for image thumbnails. It makes no network requests and requires matching source checksums. Hosts may implement equivalent local rendering with available tools. Never make a private image public to satisfy a spreadsheet IMAGE formula. Native question sheets can use rich original links while the offline HTML supplies immediate previews. Preserve owner answer cells during these changes and verify full-original URLs, source hashes, image loading and standalone HTML behavior.

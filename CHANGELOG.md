@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.2 - 2026-10-08
+
+- Add complete archive defaults and source-linked actual-use medication timelines, preserving unknown exposure boundaries and explicit non-initiation.
+- Add executable clarification/feedback helpers with prominent export warnings and collapsed accepted questions.
+- Add Codex/Claude Code manifests, marketplace catalogs and separate Claude upload skill ZIPs with checked release assets.
+- Add laboratory identity/scale/unit guidance based on inspected LOINC, UCUM and MedlinePlus sections.
+- Add finite multilingual display aliases with decimal transforms and conservative specimen/property boundaries.
+- Define a separate owner-feedback page, stable questions, preservation of durable answers, prominent submission warnings and download controls at both ends.
+- Add paired parsed/original links and optional checksum-verified local previews beside clarification items.
+- General guidance awaits maintainer review; no private case data or clinical validation included.
+
 ## 0.4.1 - 2026-10-07
 
 - Add readable private archive rules: one reader entry point, separate system files, vaccination layouts, date-by-analyte matrices, reports/measurements and explicit uncertainty.

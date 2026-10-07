@@ -51,13 +51,19 @@ def expected_assets(root, version):
     report = json.loads((root / 'dist/build-report.json').read_text())
     if report['version'] != version:
         raise ValueError('Build report and manifest version differ')
+    platform_hashes=report.get('platform_sha256',{})
+    if platform_hashes and set(platform_hashes)!={'health-evidence-companion-claude-skills.zip','PLATFORMS.md'}:
+        raise ValueError('Unexpected platform assets')
+    names+=list(platform_hashes)
     hashes = {name: hashlib.sha256((root / 'dist' / name).read_bytes()).hexdigest()
               for name in names}
     if set(report['sha256']) != set(names[:5]):
         raise ValueError('Build report is missing expected asset checksums')
     if any(hashes.get(name) != digest for name, digest in report['sha256'].items()):
         raise ValueError('Built asset differs from its recorded checksum')
-    sums = ''.join(f'{hashes[name]}  {name}\n' for name in names[:5])
+    if any(hashes[name]!=digest for name,digest in platform_hashes.items()):
+        raise ValueError('Platform asset differs from its recorded checksum')
+    sums = ''.join(f'{hashes[name]}  {name}\n' for name in names[:5]+list(platform_hashes))
     if (root / 'dist/SHA256SUMS.txt').read_text() != sums:
         raise ValueError('Checksum file differs from the built assets')
     if hashes[names[0]] != hashes['health-evidence-companion.zip']:
@@ -93,7 +99,7 @@ def notes(root, version, head):
             f'Read [browser setup]({url}/SETUP.md) and the '
             f'[copy-and-paste setup prompt]({url}/SETUP_PROMPT.txt).\n\n'
             'The versioned plugin ZIP has the same bytes as the stable download. '
-            'The -source.zip asset is for contributors. SHA256SUMS.txt and '
+            'The -source.zip asset is for contributors. [Codex/Claude setup]('+url+'/PLATFORMS.md) and [Claude skill uploads]('+url+'/health-evidence-companion-claude-skills.zip) are separate assets. SHA256SUMS.txt and '
             'build-report.json accompany the downloads.\n\n'
             'This GitHub release does not publish the plugin in the ChatGPT directory. '
             'Browser creation/install options depend on account permissions.\n\n'

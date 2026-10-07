@@ -8,7 +8,7 @@
       "name": "health-evidence-companion",
       "source": {
         "source": "local",
-        "path": "."
+        "path": "./"
       }
     }
   ]

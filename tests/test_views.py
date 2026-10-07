@@ -60,8 +60,9 @@ class ReadableViewsTests(unittest.TestCase):
         row=observation('SYN-A',analyte_name_raw='=synthetic()',raw_value='<2.0',numeric_value='2.0',comparator='<')
         model={'matrix':views.build_matrix([row]),'tables':{'observations':[row]}}
         export=views.workbook_data(model)
-        self.assertTrue(export[0]['headers'][-1].startswith("'="))
-        self.assertEqual(export[0]['rows'][0][-1],'<2.0')
+        self.assertEqual(export[0]['orientation'],'analytes_in_rows')
+        self.assertTrue(export[0]['rows'][-1][0].startswith("'="))
+        self.assertEqual(export[0]['rows'][-1][-1],'<2.0')
 
     def test_no_private_output_inside_public_source(self):
         with self.assertRaises(ValueError):

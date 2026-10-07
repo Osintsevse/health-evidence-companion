@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 from sync_references import MAP, destination, expected
 
 ROOT = Path(__file__).resolve().parents[1]
-ROOT_FILES = {'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
+ROOT_FILES = {'.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
 TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs'}
 SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
 SOURCE_MANIFEST = Path('scripts/source-files.txt')
@@ -72,7 +72,7 @@ def check_blank_markdown(text, path):
 
 
 def plugin_paths():
-    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/assets/archive-view.html'}
+    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)
@@ -179,7 +179,7 @@ def plugin_files(root=ROOT):
         if p in ROOT_FILES or p.startswith('skills/') or p.startswith('assets/'):
             require(p in allowed, f'Unexpected plugin file: {p}')
             require(rel.suffix in TEXT_SUFFIXES or p == 'LICENSE', f'Unexpected plugin file: {p}')
-            require(not any(part.startswith('.') for part in rel.parts), f'Hidden plugin file: {p}')
+            require(p in {'.codex-plugin/plugin.json','.claude-plugin/plugin.json'} or not any(part.startswith('.') for part in rel.parts), f'Hidden plugin file: {p}')
             result.append(rel)
     require({p.as_posix() for p in result} == allowed, 'Missing plugin file')
     return result
@@ -190,6 +190,9 @@ def validate(root=ROOT):
     paths = {p.as_posix() for p in files}
     manifest = json.loads((root / 'plugin.json').read_text())
     check_manifest(manifest, paths)
+    from sync_platforms import expected as platform_expected
+    for name,value in platform_expected(root).items():
+        require(json.loads((root/name).read_text(encoding='utf8'))==value,'Platform manifest drift: '+name)
     require({p.name for p in (root / 'skills').iterdir() if p.is_dir()} == set(MAP), 'Skill directory/reference map mismatch')
     sources = json.loads((root / 'knowledge/sources.json').read_text())
     require(len(sources) >= 88, 'Original sources were lost')
@@ -255,7 +258,7 @@ def validate_zip(path):
             require(not stat.S_ISLNK(i.external_attr >> 16), 'Archive symlink')
             allowed = i.filename in plugin_paths()
             require(allowed, 'Unexpected archive member')
-            require(not any(part.startswith('.') for part in p.parts), 'Hidden archive member')
+            require(i.filename in {'.codex-plugin/plugin.json','.claude-plugin/plugin.json'} or not any(part.startswith('.') for part in p.parts), 'Hidden archive member')
             text = z.read(i).decode('utf-8')
             privacy_check(text, p)
             if p.suffix == '.md':

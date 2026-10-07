@@ -1,5 +1,6 @@
 """Generate private read-only views from a committed SQLite archive; no network or clinical decisions."""
 import argparse
+import importlib.util
 import datetime
 import hashlib
 import json
@@ -7,6 +8,11 @@ import re
 import sqlite3
 from pathlib import PurePosixPath
 from pathlib import Path
+
+def helper(name):
+    spec=importlib.util.spec_from_file_location(name,Path(__file__).with_name(name+'.py'))
+    module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);return module
+
 
 FACT_TABLES = ('observations', 'clinical_entries', 'medication_orders', 'medication_use_events')
 REVIEWED = {'verified_from_source', 'user_confirmed'}
@@ -58,10 +64,10 @@ def build_matrix(rows,config=None,documents=None):
         # No unreviewed synonym or unit conversion. A repeated spelling is useful
         # for a display column, not proof of longitudinal clinical comparability.
         raw_name=r['analyte_name_raw'];raw_unit=r.get('unit_raw') or '';raw_specimen=r.get('specimen_raw') or ''
-        key=(raw_name,raw_unit,raw_specimen)
-        col=json.dumps(key,ensure_ascii=False)
-        columns[col]={'key':col,'name':labels.get(raw_name,raw_name),'raw_name':raw_name,
-                      'unit':raw_unit,'specimen':raw_specimen,
+        display=r.get('_display');key=(raw_name,raw_unit,raw_specimen)
+        col=display['row_key'] if display else json.dumps(key,ensure_ascii=False)
+        columns[col]={'key':col,'name':display['label'] if display else labels.get(raw_name,raw_name),'raw_name':raw_name,
+                      'unit':display['unit'] if display else raw_unit,'specimen':raw_specimen,
                       'display_unit':units.get(raw_unit,raw_unit),'display_specimen':specimens.get(raw_specimen,raw_specimen)}
         event_key=(r['event_date'],report_groups.get(r['source_document_id'],r['source_document_id']),r.get('laboratory_raw') or '',observation_category(r))
         event=events.setdefault(event_key,{'date':event_key[0],'document_id':event_key[1],
@@ -107,6 +113,7 @@ def read_model(db, config):
                 raise ValueError('Original path must remain inside the private archive')
         d.update(title=note.get('title') or d['original_filename'],body=note.get('body') or '',
                  original_path=loc.get('relative_path'),original_url=loc.get('remote_url'),
+                 received_sha256=loc.get('received_sha256') or d.get('received_sha256'),
                  note_path='details/'+did+'.md')
     vaccines=[]
     clinical_ids={r['entry_id']:r for r in tables['clinical_entries']}
@@ -118,13 +125,34 @@ def read_model(db, config):
     else:
         vaccines=[{**r,'cells':[None,None,None,r['event_date'],None,None,r['statement_raw'],None,None]}
                   for r in tables['clinical_entries'] if r['entry_kind'] in ('vaccination_record','tuberculin_test_record','reported_disease_history')]
+    saved=[]
+    if 'review_questions' in names:
+        for q in con.execute('SELECT * FROM review_questions'):
+            q=dict(q)
+            for column,key in [('document_ids_json','document_ids'),('entry_ids_json','entry_ids')]:
+                if column in q:q[key]=json.loads(q.pop(column))
+            saved.append(q)
+    review_questions=helper('record_feedback').build_questions(tables,documents,pending_corrections,saved)
+    if 'review_feedback' in names:
+        for q in review_questions:
+            f=con.execute('SELECT * FROM review_feedback WHERE question_id=? ORDER BY received_at DESC,feedback_id DESC LIMIT 1',(q['question_id'],)).fetchone()
+            if f:
+                q['last_answer']=f['answer_raw']
+                if f['review_status']=='pending_review':q['status']='answered_pending'
+    if 'feedback_resolutions' in names:
+        outcomes={r['question_id']:dict(r) for r in con.execute('SELECT * FROM feedback_resolutions')}
+        for q in review_questions:
+            if q['question_id'] in outcomes:q.update(status=outcomes[q['question_id']]['status'],resolution_text=outcomes[q['question_id']]['resolution_text'])
+    if config.get('display_families_enabled',True):
+        for r in tables['observations']:
+            if r['review_status'] in REVIEWED and observation_category(r) in ('blood','urine','stool'):r['_display']=helper('lab_identity').normalize(r)
     con.close()
     return {'format_version':'1.0','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'as_of':config.get('as_of'),'locale':config.get('locale','en'),'labels':config.get('labels',{}),
             'status_labels':config.get('status_labels',{}),
             'links':config.get('view_links',{}),
             'imports':[{k:r.get(k) for k in ('import_id','completed_at','schema_version','state','ledger_readback_status')} for r in imports if r['import_id'] in committed],
-            'tables':tables,'documents':documents,
+            'tables':tables,'documents':documents,'review_questions':review_questions,'feedback_storage_key':hashlib.sha256((config.get('record_id','')+str(Path(db).resolve())).encode()).hexdigest()[:16],
             'context':context,'vaccines':vaccines,'pending_corrections':pending_corrections,
             'undated_laboratory':[{**r,'display_category':observation_category(r)} for r in tables['observations']
                                   if not r['event_date'] and r['review_status'] in REVIEWED
@@ -145,15 +173,15 @@ def workbook_data(model):
         keys={k for r in events for k in r['cells']}
         cols=[c for c in model['matrix']['columns'] if c['key'] in keys]
         if not events:continue
-        headers=['Date','Laboratory','Specimen','Source']+[c['name']+(' ['+c['unit']+']' if c['unit'] else '') for c in cols]
-        data=[]
-        for event in events:
-            vals=[event['date'],event['laboratory'],event['specimen'],event['document_id']]
-            for c in cols:
+        headers=['Analyte / unit / specimen']+[e['date'] for e in events]
+        data=[['Laboratory']+[e['laboratory'] for e in events],['Specimen']+[e['specimen'] for e in events],['Source']+['; '.join(e['document_ids']) for e in events]]
+        for c in cols:
+            vals=[c['name']+(' ['+c['unit']+']' if c['unit'] else '')]
+            for event in events:
                 cell=event['cells'].get(c['key'],[])
-                vals.append(' / '.join(r['raw_value']+(' '+r['flag_raw'] if r.get('flag_raw') else '') for r in cell) if cell else None)
+                vals.append(' / '.join(r.get('_display',{}).get('display_value',r['raw_value'])+(' '+r['flag_raw'] if r.get('flag_raw') else '') for r in cell) if cell else None)
             data.append([literal(v) if isinstance(v,str) else v for v in vals])
-        sheets.append({'category':category,'headers':[literal(v) for v in headers],'rows':data})
+        sheets.append({'category':category,'orientation':'analytes_in_rows','headers':[literal(v) for v in headers],'rows':data})
     detail_headers=['Date','Analyte','Raw result','Unit','Reference','Printed flag','Specimen','Laboratory','Source','Locator','Review','Uncertainty']
     detail=[]
     for r in model['tables']['observations']:
@@ -169,6 +197,15 @@ def generate(db, config, output, template):
     if source_root is not None and (output==source_root or source_root in output.parents):
         raise ValueError('Private output must remain outside the plugin source tree')
     model=read_model(db,config)
+    model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)
+    if config.get('embed_question_originals'):
+        import importlib.util
+        preview_path=Path(__file__).with_name('document_previews.py')
+        spec=importlib.util.spec_from_file_location('private_previews',preview_path)
+        previews=importlib.util.module_from_spec(spec);spec.loader.exec_module(previews)
+        root=config.get('originals_root')
+        if not root:raise ValueError('An explicit private originals_root is required for previews')
+        previews.attach_previews(model,root,config)
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     text=Path(template).read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
     assert '__PRIVATE_MODEL__' not in text

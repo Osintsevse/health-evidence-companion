@@ -33,3 +33,6 @@ Use only necessary symptom, medicine or non-identifying result details in an aut
 Sources checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Plugins](https://learn.chatgpt.com/docs/plugins), [Workspace GitHub import](https://learn.chatgpt.com/docs/enterprise/plugin-management), [Local skills](https://learn.chatgpt.com/docs/build-skills).
 
 For private photographs, reports and longitudinal history, see [private archive setup](private-archive-setup.md).
+
+
+For supported Codex and Claude package layouts and installation commands, see [platform setup](platforms.md).

@@ -5,6 +5,7 @@ import shutil
 import zipfile
 from pathlib import Path
 
+from build_platforms import build_platforms
 from validate import ROOT, plugin_files, source_files, validate, validate_zip
 
 
@@ -36,7 +37,9 @@ def build(root=ROOT, output=None):
     shutil.copyfile(root / 'docs/setup-prompt.txt', prompt)
     hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
               for p in [plugin, source, alias, setup, prompt]}
-    (dest / 'SHA256SUMS.txt').write_text(''.join(f'{h}  {name}\n' for name, h in hashes.items()))
+    platforms=build_platforms(root,dest)
+    (dest / 'SHA256SUMS.txt').write_text(''.join(f'{h}  {name}\n' for name, h in {**hashes,**platforms}.items()))
+    report['platform_sha256']=platforms
     report['sha256'] = hashes
     report['plugin_members'] = len(plugin_files(root))
     report['contains_patient_data'] = 'prohibited; heuristic checks and blank-template checks passed, human review still required'

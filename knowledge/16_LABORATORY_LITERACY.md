@@ -41,3 +41,7 @@ A positive screening test is not necessarily a diagnosis. Predictive value depen
 Distinguish an ordinary reference flag from a critical laboratory alert. Follow an actual laboratory's urgent contact instruction; severe symptoms or rapid deterioration warrant urgent care independently of a panel. Do not publish guessed universal emergency thresholds. A safe explanation states what is measured, what the pattern might suggest, what remains uncertain and which clinician/laboratory question resolves it. No reassurance based only on a normal result.
 
 Further reading: coagulation disorders, specialist haematology, pregnancy/paediatric intervals, tumour markers, detailed urinalysis and monitoring schedules. This introductory module is not a complete laboratory-medicine course.
+
+## Multilingual records
+
+Apply [module 22](22_LAB_IDENTITY_AND_FEEDBACK.md) before joining results across languages. It distinguishes translation, display grouping and quantitative harmonization, with a persistent source-linked clarification workflow. Unknown specimen, method or conditions do not become confirmed identity through name similarity.

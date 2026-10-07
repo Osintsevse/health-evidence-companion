@@ -33,3 +33,7 @@ Never put real chat content, cases or personal outputs into public knowledge. Do
 - [Workflows](references/10_WORKFLOW_AND_TEMPLATES.md), [record rules](references/14_PATIENT_RECORD_RULES.md), [AI systems](references/08_MEDICAL_AI.md), [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md).
 
 These are original notes, not full textbooks or permanently current labels. For research use health-research. For archive design use health-record-design; for owner-authorized photos, reports, history and charts use health-record-import with [the private import workflow](references/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). Actual records stay in the selected private host storage, outside the public package.
+
+## Laboratory identity and clarification
+
+For multilingual analyte labels, specimen/property distinctions, unit transforms and persistent owner feedback, read [laboratory identity and feedback](references/22_LAB_IDENTITY_AND_FEEDBACK.md). Preserve raw source rows. A browsing family does not establish quantitative comparability. Keep a separate source-linked questions page, retain prior owner answers and accept corrections through reviewed provenance.
