@@ -38,3 +38,8 @@ See [the full workflow](../knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md),
 Preserve the configured accepted ledger, including SQLite when already selected. Do not create a second editable history during a small conversation save. Use [incremental saves](../knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md) for current-fact retrieval, stable operation IDs, bounded recovery and separate source/ledger/view verification. Full layout setup and migrations are separate operations.
 
 For optional local sync planning, supply an explicitly managed path list and private state with `archive_key` and `files`. A verified file entry has `status: verified`, the remotely read-back `sha256`, `file_id` and `remote_version`. Unknown/failed outcomes must be inspected. Run the import skill's `scripts/plan_archive_sync.py` with `--root`, `--managed`, `--state`, `--archive-key`, `--operation-id` and `--output`; all actual arguments and outputs stay private. Candidates do not authorize writes or establish remote freshness.
+
+
+## External chats and pending intake
+
+Use [private intake queues](../knowledge/36_PRIVATE_INTAKE_QUEUE.md) when an authorized chat can save a file but cannot safely commit the existing ledger. The bundled local helpers preserve sources, require manual source review and record separate ledger/view verification. Files/manual entry work without any wearable or home server.

@@ -206,7 +206,9 @@ def generate(db, config, output, template):
     source_root=next((p for p in Path(__file__).resolve().parents if (p/'plugin.json').is_file() and (p/'skills').is_dir()),None)
     if source_root is not None and (output==source_root or source_root in output.parents):
         raise ValueError('Private output must remain outside the plugin source tree')
+    ledger_sha256=hashlib.sha256(Path(db).read_bytes()).hexdigest()
     model=read_model(db,config)
+    model["input_database_sha256"]=ledger_sha256
     genetic_tools=helper('genetic_reports')
     genetics=genetic_tools.load_assessment(config)
     if genetics is not None:
@@ -237,6 +239,8 @@ def generate(db, config, output, template):
             previous=None
         if isinstance(previous,dict) and previous.get('generated_at') and {k:v for k,v in previous.items() if k!='generated_at'}=={k:v for k,v in model.items() if k!='generated_at'}:
             model['generated_at']=previous['generated_at']
+    if hashlib.sha256(Path(db).read_bytes()).hexdigest()!=ledger_sha256:
+        raise ValueError('Ledger changed during generation; no views published')
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     template=Path(template)
     text=template.read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)

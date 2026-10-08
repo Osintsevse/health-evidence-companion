@@ -2248,5 +2248,23 @@
     "retrieval_status": "Indexed primary PDF introduction and genotype interpretation excerpts read; current web route requires JavaScript; no dosing tables applied",
     "use": "Gene-drug association does not generalize to all substrates",
     "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S251",
+    "title": "OpenAI - moving workflows to plugins",
+    "url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+    "region": "Host integration documentation; not clinical evidence",
+    "retrieval_status": "Integration and app-permission sections opened; no account-specific installation test",
+    "use": "Skills versus supported app actions; installed plugins do not grant file permissions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S252",
+    "title": "OpenAI - build an MCP server",
+    "url": "https://developers.openai.com/plugins/build/mcp-server",
+    "region": "Host integration documentation; not clinical evidence",
+    "retrieval_status": "MCP tool/connection documentation opened; no remote service deployment tested",
+    "use": "Optional custom MCP tool surface; authorization and host testing remain necessary",
+    "checked_on": "2026-10-09"
   }
 ]

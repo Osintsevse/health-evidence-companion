@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.1 - 2026-10-09
+
+- Preserve source line endings on Windows checkouts so imported knowledge fingerprints remain verifiable.
+
+- Add a private source queue and reviewed owner-report SQLite acceptance with byte/row readback, backups, repeat-import protection and pending ledger/view statuses.
+- Bind generated views to the input database fingerprint; verify imported material rows in both the model and embedded HTML before marking intake processed.
+- Add a dedicated family-history reader section and preserve relatives separately from owner diagnoses and allergies.
+- Document external-chat file handoff, optional connected write adapters, bounded download recovery and ordinary manual/file intake without wearables or a home server.
+
+
 ## 0.6.0 - 2026-10-08
 
 - Combine nine Health and six PsyOps skills under one package, preserving existing names and source reading histories.

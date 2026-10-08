@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
           'knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md']
-ARCHIVE = ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md', 'knowledge/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md', 'knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md', 'knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json', 'knowledge/21_READABLE_ARCHIVE_VIEWS.md']
+ARCHIVE = ['knowledge/36_PRIVATE_INTAKE_QUEUE.md', 'knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md', 'knowledge/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md', 'knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md', 'knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json', 'knowledge/21_READABLE_ARCHIVE_VIEWS.md']
 TEMPLATES = ['knowledge/templates/' + name for name in [
     'README.md', 'patient_card.template.md', 'patient_record.template.json',
     'medication_entry.template.json', 'episode_entry.template.json',
@@ -73,6 +73,10 @@ for _skill in ['health-research','health-contribute']:
 
 for _skill in ['health-record-import','psyops-private-records']:
     MAP[_skill] += ['docs/private-record-sharing.md']
+
+for _skill, _sources in MAP.items():
+    if 'knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md' in _sources:
+        MAP[_skill] = list(dict.fromkeys(_sources + ['knowledge/36_PRIVATE_INTAKE_QUEUE.md']))
 
 def destination(source):
     if source.startswith('knowledge/psychology/'):

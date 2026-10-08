@@ -67,3 +67,5 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 ## Psychology and combined routing
 
 [Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the nine medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 102-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+
+- [36 - Private intake queues and external-chat handoff](36_PRIVATE_INTAKE_QUEUE.md).

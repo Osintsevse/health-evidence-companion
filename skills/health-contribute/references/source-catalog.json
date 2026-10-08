@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 352,
-  "unique_url_count": 350,
+  "record_count": 354,
+  "unique_url_count": 352,
   "records": [
     {
       "namespace": "medical",
@@ -3251,6 +3251,32 @@
       "limitations": "Indexed primary PDF introduction and genotype interpretation excerpts read; current web route requires JavaScript; no dosing tables applied",
       "purpose": "Gene-drug association does not generalize to all substrates",
       "region": "International",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S251",
+      "qualified_id": "medical:S251",
+      "title": "OpenAI - moving workflows to plugins",
+      "url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "checked_on": "2026-10-09",
+      "reading_status": "Integration and app-permission sections opened; no account-specific installation test",
+      "limitations": "Integration and app-permission sections opened; no account-specific installation test",
+      "purpose": "Skills versus supported app actions; installed plugins do not grant file permissions",
+      "region": "Host integration documentation; not clinical evidence",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S252",
+      "qualified_id": "medical:S252",
+      "title": "OpenAI - build an MCP server",
+      "url": "https://developers.openai.com/plugins/build/mcp-server",
+      "checked_on": "2026-10-09",
+      "reading_status": "MCP tool/connection documentation opened; no remote service deployment tested",
+      "limitations": "MCP tool/connection documentation opened; no remote service deployment tested",
+      "purpose": "Optional custom MCP tool surface; authorization and host testing remain necessary",
+      "region": "Host integration documentation; not clinical evidence",
       "canonical_path": "knowledge/sources.json"
     },
     {

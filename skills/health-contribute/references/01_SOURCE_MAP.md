@@ -1770,3 +1770,17 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Gene-drug association does not generalize to all substrates
 - Checked: 2026-10-08
 
+### S251 - OpenAI - moving workflows to plugins
+- URL: https://learn.chatgpt.com/docs/migrate-custom-gpts
+- Region: Host integration documentation; not clinical evidence
+- Reading status: Integration and app-permission sections opened; no account-specific installation test
+- Purpose: Skills versus supported app actions; installed plugins do not grant file permissions
+- Checked: 2026-10-09
+
+### S252 - OpenAI - build an MCP server
+- URL: https://developers.openai.com/plugins/build/mcp-server
+- Region: Host integration documentation; not clinical evidence
+- Reading status: MCP tool/connection documentation opened; no remote service deployment tested
+- Purpose: Optional custom MCP tool surface; authorization and host testing remain necessary
+- Checked: 2026-10-09
+

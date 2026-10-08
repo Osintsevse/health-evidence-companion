@@ -39,3 +39,6 @@ For genetic exports, fitness data, symptom photos or radiological images, read [
 For consumer genetics preserve provider reports and raw calls as separate source-linked datasets under [provider intake](references/33_GENETIC_PROVIDER_IMPORT.md). The laboratory table is not a universal genotype schema; do not force raw variants into clinical diagnoses or numerical charts.
 
 For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.
+
+
+For a save from a chat without safe accepted-ledger access, read [private intake queues](references/36_PRIVATE_INTAKE_QUEUE.md). Use an authorized private inbox with source/content readback; report queued, ledger-verified and view-verified stages separately. If upload is unavailable, provide a downloadable file and name the remaining manual placement step. Reuse the import skill's bundled `intake_queue.py` and `accept_owner_report.py` in an authorized local host; no wearable, smart home, home server or new ledger is required. Preserve relatives as family reports rather than the owner's diagnoses/allergies.
