@@ -1,7 +1,7 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.5.2",
-  "description": "Evidence-based health education, age-specific prevention and family-care navigation with private health history workflows.",
+  "version": "0.6.0",
+  "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
     "url": "https://github.com/Osintsevse"
@@ -14,8 +14,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Health Evidence Companion",
-        "shortDescription": "Understand health evidence",
-        "longDescription": "Nine skills for health explanations, medicines, research, mental-health education, family and life-stage care, prevention, private archive design/import and general knowledge contributions. The English library includes 250 source entries with actual reading limits, selected foundations and public lecture notes, pediatric and pregnancy routing, dentistry, rehabilitation, nutrition, screening and risk communication. Genetic, image and activity-data workflows preserve privacy and uncertainty; no live fitness connector, diagnostic imaging system or clinical genetic risk prediction engine is included. The package has no publisher backend or patient telemetry. Host and owner-selected storage process authorized data under their own controls. Medical information is not a diagnosis or prescription; no clinical validation or medical qualification is claimed. Current local guidance remains necessary. Manual installation remains subject to host policies.",
+        "shortDescription": "Health and psychology evidence",
+        "longDescription": "Fifteen skills combine medical education, medicines, prevention, family care, research and private medical history with adult psychological dialogue, CBT/ACT/MCT self-help, relationships, sport preparation and separate psychological notes. Existing health-* and psyops-* skill names are retained. The library preserves 250 medical and 102 psychology source records, their original IDs, reading dates and access limitations; a domain-qualified catalog links overlaps. Optional offline imports, graphs, genetics and owner-selected Psychology summaries reuse bundled helpers. Full medical records and psychological journals remain separate; neither installation nor authorization for one archive grants access to the other. No publisher backend, patient telemetry, automatic account access, therapist qualification, medical clearance or validated AI treatment is provided. Host and chosen storage controls apply. Clinical guidance and consequential genetic findings need current sources and clinical confirmation.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -28,15 +28,19 @@
           "Design private records",
           "Propose knowledge pull requests",
           "Maintain authorized private history",
-          "Review consumer genetic candidates locally"
+          "Review consumer genetic candidates locally",
+          "Support adult psychological reflection",
+          "Discuss optional CBT, ACT and MCT practices",
+          "Prepare sport and relationship discussions",
+          "Maintain separately authorized psychological notes"
         ],
         "websiteURL": "https://github.com/Osintsevse/health-evidence-companion",
         "supportURL": "https://github.com/Osintsevse/health-evidence-companion/issues",
         "privacyPolicyURL": "https://github.com/Osintsevse/health-evidence-companion/blob/main/PRIVACY.md",
         "termsOfServiceURL": "https://github.com/Osintsevse/health-evidence-companion/blob/main/TERMS.md",
         "defaultPrompt": [
-          "Help me compare possible causes of these symptoms and safe next steps.",
-          "Check this medicine combination using current official labels.",
+          "Help me understand this health concern and prepare clinician questions.",
+          "Help me reflect on this difficulty or choose an optional psychological practice.",
           "Review this public study and prepare a knowledge pull request."
         ],
         "brandColor": "#145E73",
@@ -45,7 +49,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.5.2 bundles reusable local genetic intake, MHTML extraction, marker/alias lookup, dated ClinVar caching and offline candidate annotation/rechecks, with a Genetics sidebar and Russian labels. Candidate records and consumer reports are distinct from diagnoses; consequential findings require clinical confirmation. No patient data or provider account connection is included."
+        "release_notes": "Version 0.6.0 combines Health and PsyOps in one 15-skill package. Medical and psychological records retain separate scopes; an optional Psychology sidebar accepts owner-selected summaries only. Original source records, reading limits, blank forms and skill names are preserved, with a domain-qualified catalog and offline review queue. No personal archives are migrated or disclosed automatically."
       }
     }
   }

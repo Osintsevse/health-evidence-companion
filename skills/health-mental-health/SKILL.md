@@ -1,6 +1,6 @@
 ---
 name: health-mental-health
-description: Explain adult psychiatry concepts, medicine classes, monitoring, interactions and withdrawal using current official sources. Use for antidepressant mechanisms, SSRI or SNRI questions, diagnostic criteria education and psychiatrist questions. Do not diagnose, prescribe, taper treatment or ingest private therapy records.
+description: Explain adult psychiatry concepts, medicine classes, monitoring, interactions and withdrawal using current official sources. Use for antidepressant mechanisms, SSRI or SNRI questions, diagnostic criteria education and psychiatrist questions. Do not diagnose, prescribe, taper treatment or ingest full private therapy records.
 ---
 
 # Psychiatry information
@@ -19,12 +19,12 @@ Explain withdrawal as distinct from addiction and recurrence. Do not give indivi
 
 Prioritize immediate local help/support for already stated immediate self-harm risk, severe reactions or rapid deterioration. Do not invent emergency numbers or delay help for documentation.
 
-Cite inspected official sections and preserve limits. Never claim another-chat access or transfer psychotherapy material. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
+Cite inspected official sections and preserve limits. Never claim another-chat access. Keep full psychotherapy conversations and journals separate; an explicitly authorized owner-selected factual summary may inform the current clinical question through the selected-summary workflow. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
 
-Retrieve minimal authorized medication facts through health-record-import when the owner refers to their existing archive and the host provides access. Read the latest dated accepted reconciliation before asking for known doses again. Distinguish inaccessible storage, unknown course boundaries and confirmed present-use reports. Keep the last confirmation date and partial scope; refresh genuinely stale/conflicting information. Do not ingest psychotherapy records or derive a taper from stored facts.
-
-Cite inspected official sections and preserve limits. Do not claim access to messages not actually retrieved or transfer psychotherapy material without owner authorization. Relevant owner-selected facts may be retrieved through health-record-import with available private tools. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
+Retrieve minimal authorized medication facts through health-record-import when the owner refers to their existing archive and the host provides access. Read the latest dated accepted reconciliation before asking for known doses again. Distinguish inaccessible storage, unknown course boundaries and confirmed present-use reports. Keep the last confirmation date and partial scope; refresh genuinely stale/conflicting information. Do not ingest a full psychotherapy journal or derive a taper from stored facts. Selected psychological summaries require their own authorization; medical archive access alone does not include them.
 
 For an owner-authorized current regimen question, retrieve the latest relevant accepted facts through health-record-import rather than rely on an older summary. Follow [current-record and save-status rules](references/24_INCREMENTAL_ARCHIVE_SAVES.md). Take reported benefit, burden and acceptability into account without inferring a treatment change from one symptom. Route authorized private saves to the import skill; this informational skill alone does not persist a record.
 
 For adverse-effect probabilities read [risk communication](references/32_RISK_COMMUNICATION.md). Establish life stage and use [specialty guidance](references/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md) before extrapolating adult examples to pregnancy or children.
+
+For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.

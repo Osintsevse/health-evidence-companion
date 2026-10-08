@@ -37,3 +37,5 @@ For interactive result plots, a substantive aggregate AI review or a purposeful 
 For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.
 
 For consumer genetics preserve provider reports and raw calls as separate source-linked datasets under [provider intake](references/33_GENETIC_PROVIDER_IMPORT.md). The laboratory table is not a universal genotype schema; do not force raw variants into clinical diagnoses or numerical charts.
+
+For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.

@@ -18,3 +18,7 @@ Prepare a diff, checks and concise PR draft. Requests such as "add this study an
 Describe change, evidence and limits without invented clinician review. CI validates files, not medical truth. A source merge does not update installed snapshots: manual users need the next reviewed ZIP and an explicit personal/workspace update. Public directory publication is not the distribution target. Include module 19's disclaimer when the contribution response contains health advice.
 
 Use [source maintenance](references/31_SOURCE_MAINTENANCE.md) and [the learning index](references/27_FOUNDATIONS_AND_LEARNING_INDEX.md) for curriculum expansion and periodic evidence audits. Preserve actual reading depth, rights and remaining gaps.
+
+For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.
+
+The [bundled offline source planner](scripts/source_review.py) reads the domain-qualified catalog; use --domain all, medical or psychology. It makes no network requests and does not refresh reading dates. Psychology entries remain in their original richer register and namespace.

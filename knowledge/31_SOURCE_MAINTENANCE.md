@@ -26,3 +26,7 @@ Curricula establish teaching scope. Lecture notes and textbooks explain foundati
 Maintain chapter-level reading locators and rights notes in original concept cards. Link protected books and recordings; do not copy full text, illustrations, question banks or videos into a retrieval corpus without suitable rights. Public availability does not imply redistribution permission. The repository's MIT license applies only to its original material.
 
 Source refresh must not collect real-user queries, transcripts, genetics or medical records for author feedback. Newly found sources stay general and independent of an actual case.
+
+## Combined-package source domains
+
+The medical and psychology registers retain their original schemas, source IDs, dates and access histories. source-catalog.json provides domain-qualified identifiers and duplicate-URL aliases. The bundled health-contribute source planner can prepare an all-domain or one-domain queue without network access. Its counts are records, not independent studies; transfer does not count as a new source review.

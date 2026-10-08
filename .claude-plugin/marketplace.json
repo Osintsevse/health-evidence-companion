@@ -8,7 +8,7 @@
     {
       "name": "health-evidence-companion",
       "source": "./",
-      "description": "Evidence-based health education, age-specific prevention and family-care navigation with private health history workflows."
+      "description": "Evidence-based medical and adult psychological education with separate private-record workflows."
     }
   ]
 }

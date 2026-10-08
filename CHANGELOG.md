@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0 - 2026-10-08
+
+- Combine nine Health and six PsyOps skills under one package, preserving existing names and source reading histories.
+- Preserve psychology knowledge, blank forms and historical evaluations in a separate public namespace; add a domain-qualified catalog and shared offline source-review queue.
+- Add task routing and separate private archive scopes with explicitly selected summaries; no automatic migration or journal access.
+- Provide an optional Psychology sidebar and reusable local summary helper while retaining existing medical, graph and genetics workflows.
+
 ## 0.5.2 — 2026-10-08
 
 - Reusable offline ClinVar download/index/annotation and marker lookup with provenance and evidence flags.

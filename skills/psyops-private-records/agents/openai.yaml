@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-private-records"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-private-records to help with my question."

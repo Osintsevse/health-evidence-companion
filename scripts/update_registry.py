@@ -30,7 +30,9 @@ def update(root=ROOT):
         lines.extend([f"### {s['id']} - {s['title']}", f"- URL: {s['url']}",
                       f"- Region: {s['region']}", f"- Reading status: {s['retrieval_status']}",
                       f"- Purpose: {s['use']}", f"- Checked: {s['checked_on']}", ''])
-    (root / 'knowledge/01_SOURCE_MAP.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    (root / 'knowledge/01_SOURCE_MAP.md').write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
+    from source_catalog import update as update_catalog
+    update_catalog(root)
 
 
 if __name__ == '__main__':

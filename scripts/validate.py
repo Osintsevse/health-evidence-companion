@@ -61,6 +61,48 @@ def check_blank(template, path):
     visit(template)
 
 
+PSYCHOLOGY_BLANK_FORMS = {
+  "session-review.blank.json": {
+    "template_kind": "blank-private-session-review",
+    "reported_goal": None,
+    "reported_episode": None,
+    "source_and_date": None,
+    "working_hypothesis": None,
+    "important_alternative": None,
+    "optional_practice": None,
+    "observed_result": None,
+    "negative_effect_or_cost": None,
+    "next_step": None,
+    "recording_authorization": None
+  },
+  "sport-review.blank.json": {
+    "template_kind": "blank-private-sport-review",
+    "discipline_and_context": None,
+    "conditions_and_source": None,
+    "process_goal": None,
+    "performance_observation": None,
+    "psychological_hypothesis": None,
+    "technical_or_physical_alternative": None,
+    "practice": None,
+    "actual_effect": None,
+    "safety_or_adverse_effect": None,
+    "next_comparable_check": None,
+    "recording_authorization": None
+  }
+}
+
+def check_psychology_blank(template, path):
+    expected_form=PSYCHOLOGY_BLANK_FORMS.get(PurePosixPath(path).name)
+    require(expected_form is not None and template==expected_form, f'Filled or unexpected psychological template: {path}')
+
+def check_source_citations(text, path, medical_ids, psychology_ids):
+    path=str(path).replace('\\','/')
+    psychology=('knowledge/psychology/' in path or '/references/psychology/' in path or path.startswith(('docs/psychology/','evals/psychology/')))
+    ids=psychology_ids if psychology else medical_ids
+    text=re.sub(r'https?://[^\s)]+','',text)
+    for identifier in re.findall(r'\bS\d{2,}\b',text):
+        require(identifier in ids,f'Unknown source ID {identifier} in {path}')
+
 def check_blank_markdown(text, path):
     digest = BLANK_MARKDOWN_SHA256.get(PurePosixPath(path).name)
     require(digest is not None, f'Unreviewed Markdown template: {path}')
@@ -72,7 +114,7 @@ def check_blank_markdown(text, path):
 
 
 def plugin_paths():
-    paths = ROOT_FILES | {'skills/health-record-import/assets/genetic_labels.json','skills/health-record-import/scripts/genetic_annotation.py','skills/health-record-import/scripts/genetic_reports.py','skills/health-record-import/scripts/genetic_marker_query.py','skills/health-record-import/scripts/genetic_staging.py','skills/health-record-import/scripts/lab_dashboard.py','skills/health-record-import/assets/lab_dashboard_ui.mjs','skills/health-record-import/assets/lab_dashboard.css','skills/health-record-import/scripts/medication_chart.py','skills/health-record-import/scripts/medication_reconciliation.py','skills/health-record-import/assets/medication_chart_ui.mjs','skills/health-record-import/assets/medication_chart.css','skills/health-record-import/scripts/plan_archive_sync.py','assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
+    paths = ROOT_FILES | {'skills/psyops-private-records/scripts/psychology_records.py','skills/health-contribute/scripts/source_review.py', 'skills/health-record-import/scripts/psychology_records.py','skills/health-record-import/assets/genetic_labels.json','skills/health-record-import/scripts/genetic_annotation.py','skills/health-record-import/scripts/genetic_reports.py','skills/health-record-import/scripts/genetic_marker_query.py','skills/health-record-import/scripts/genetic_staging.py','skills/health-record-import/scripts/lab_dashboard.py','skills/health-record-import/assets/lab_dashboard_ui.mjs','skills/health-record-import/assets/lab_dashboard.css','skills/health-record-import/scripts/medication_chart.py','skills/health-record-import/scripts/medication_reconciliation.py','skills/health-record-import/assets/medication_chart_ui.mjs','skills/health-record-import/assets/medication_chart.css','skills/health-record-import/scripts/plan_archive_sync.py','assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)
@@ -188,13 +230,13 @@ def plugin_files(root=ROOT):
 def validate(root=ROOT):
     files = source_files(root)
     paths = {p.as_posix() for p in files}
-    manifest = json.loads((root / 'plugin.json').read_text())
+    manifest = json.loads((root / 'plugin.json').read_text(encoding='utf-8'))
     check_manifest(manifest, paths)
     from sync_platforms import expected as platform_expected
     for name,value in platform_expected(root).items():
         require(json.loads((root/name).read_text(encoding='utf8'))==value,'Platform manifest drift: '+name)
     require({p.name for p in (root / 'skills').iterdir() if p.is_dir()} == set(MAP), 'Skill directory/reference map mismatch')
-    sources = json.loads((root / 'knowledge/sources.json').read_text())
+    sources = json.loads((root / 'knowledge/sources.json').read_text(encoding='utf-8'))
     require(len(sources) >= 88, 'Original sources were lost')
     ids = [s['id'] for s in sources]
     require(len(ids) == len(set(ids)), 'Duplicate source ID')
@@ -206,14 +248,27 @@ def validate(root=ROOT):
         require(re.fullmatch(r'S\d{2,}', s['id']) is not None, 'Invalid source ID')
         require(urlparse(s['url']).scheme == 'https', 'Non-HTTPS source URL')
         datetime.date.fromisoformat(s['checked_on'])
-    with (root / 'knowledge/sources.csv').open(newline='') as f:
+    psychology=json.loads((root/'knowledge/psychology/sources.json').read_text(encoding='utf-8'))
+    psychological_ids={source['id'] for source in psychology['sources']}
+    require(len(psychological_ids)==len(psychology['sources'])==psychology['source_count'], 'Invalid psychological source count or IDs')
+    require({f'S{i:02d}' for i in range(1,103)} <= psychological_ids, 'Original psychology sources were lost')
+    for source in psychology['sources']:
+        require(all(source.get(key) for key in ['id','title','url','access','checked_at','limitations']), 'Incomplete psychological source')
+        require(re.fullmatch(r'S\d{2,}', source['id']) is not None, 'Invalid psychological source ID')
+        require(urlparse(source['url']).scheme=='https','Non-HTTPS psychology source')
+        datetime.date.fromisoformat(source['checked_at'])
+    require((root/'skills/psyops-private-records/scripts/psychology_records.py').read_bytes()==(root/'skills/health-record-import/scripts/psychology_records.py').read_bytes(),'Stale psychological summary helper')
+    from source_catalog import catalog
+    require(json.loads((root/'knowledge/source-catalog.json').read_text(encoding='utf-8'))==catalog(root),'Stale unified source catalog')
+    require((root/'skills/health-contribute/scripts/source_review.py').read_bytes()==(root/'scripts/source_review.py').read_bytes(),'Stale bundled source review helper')
+    with (root / 'knowledge/sources.csv').open(newline='',encoding='utf-8') as f:
         require(list(csv.DictReader(f)) == sources, 'CSV differs from canonical JSON')
     for rel, wanted in expected(root).items():
         require((root / rel).is_file() and (root / rel).read_bytes() == wanted, f'Stale/missing generated reference: {rel}')
     actual_refs = {p for p in files if p.parts[0] == 'skills' and len(p.parts) > 2 and p.parts[2] == 'references'}
     require(actual_refs == set(expected(root)), 'Unexpected reference file')
     for name in MAP:
-        text = (root / 'skills' / name / 'SKILL.md').read_text()
+        text = (root / 'skills' / name / 'SKILL.md').read_text(encoding='utf-8')
         require(parse_skill(text)['name'] == name, f'Skill name mismatch: {name}')
         require('TODO' not in text, f'Unfinished skill: {name}')
         require(len(text.splitlines()) <= 500, f'Skill too long: {name}')
@@ -230,19 +285,18 @@ def validate(root=ROOT):
             if '.template.' in rel.name:
                 check_blank_markdown(text, rel.as_posix())
             relative_links(text, rel.as_posix(), paths)
-            for source_id in re.findall(r'\bS\d{2,}\b', text):
-                require(source_id in ids, f'Unknown source ID {source_id} in {rel}')
-    icon = (root / 'assets/icon.svg').read_text()
+            check_source_citations(text,rel.as_posix(),set(ids),psychological_ids)
+    icon = (root / 'assets/icon.svg').read_text(encoding='utf-8')
     require('viewBox="0 0 256 256"' in icon and '<script' not in icon and 'href=' not in icon, 'Invalid/external icon')
-    require('pull_request_target:' not in (root / '.github/workflows/ci.yml').read_text(), 'Unsafe PR trigger')
+    require('pull_request_target:' not in (root / '.github/workflows/ci.yml').read_text(encoding='utf-8'), 'Unsafe PR trigger')
     for name in ['ci.yml', 'release.yml']:
-        workflow = (root / '.github/workflows' / name).read_text()
+        workflow = (root / '.github/workflows' / name).read_text(encoding='utf-8')
         require(all(re.fullmatch(r'[^@]+@[a-f0-9]{40}', action) for action in re.findall(r'uses: (\S+)', workflow)), f'Unpinned action in {name}')
     installed = {p.as_posix() for p in plugin_files(root)}
     for rel in plugin_files(root):
         if rel.suffix == '.md':
-            relative_links((root / rel).read_text(), rel.as_posix(), installed)
-    return {'version': manifest['version'], 'skills': len(MAP), 'sources': len(sources), 'source_files': len(files),
+            relative_links((root / rel).read_text(encoding='utf-8'), rel.as_posix(), installed)
+    return {'version': manifest['version'], 'skills': len(MAP), 'sources': len(sources)+len(psychological_ids), 'medical_sources': len(sources), 'psychology_sources': len(psychological_ids), 'source_files': len(files),
             'validation': 'local structure/content checks only; not clinical or platform certification'}
 
 

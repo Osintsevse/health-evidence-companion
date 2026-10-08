@@ -16,7 +16,7 @@ Personal copy: use Plugin Creator with attached reference material or a direct i
 
 Workspace: an eligible admin can import the root marketplace catalog from GitHub and configure roles/sync. `.agents/plugins/marketplace.json` references the root portable package. This does not grant GitHub contribution permissions or clinical-data authorization.
 
-Local Codex: use the available skill installer for this repository's seven `skills/` folders or the documented user `.agents/skills/` location. Preserve references and unrelated installed skills. Local installation does not create a browser plugin.
+Local Codex: use the available skill installer for this repository's fifteen `skills/` folders or the documented user `.agents/skills/` location. Preserve references and unrelated installed skills. Local installation does not create a browser plugin.
 
 Supported ordinary Project reference use is described in the quick setup. It is not a plugin installation and must not be used to bypass a medical-policy rejection. All routes remain subject to host policies, scans, account availability and permissions. No separate friend's account/workspace installation has been verified.
 
@@ -27,3 +27,5 @@ For personal snapshots, download a new released ZIP and update through the copy'
 See [contribution workflow](contribution-workflow.md) for adding studies with PR review. A successful PR is a proposal, not a merged change, installed update or clinical approval.
 
 Official sources checked 2026-10-07: [Build plugins](https://learn.chatgpt.com/docs/build-plugins), [Plugins](https://learn.chatgpt.com/docs/plugins), [GitHub workspace import](https://learn.chatgpt.com/docs/enterprise/plugin-management), [Local skills](https://learn.chatgpt.com/docs/build-skills).
+
+Version 0.6.0 also includes the six psyops-* psychology skills. Read [combined-package migration](unification.md) before replacing a standalone PsyOps installation. Existing private archives are not moved or connected by package installation.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-relationships"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-relationships to help with my question."

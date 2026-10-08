@@ -9,3 +9,7 @@ Information may be incomplete, outdated or incorrectly interpreted. Verify curre
 GitHub/manual distribution is the target; no directory approval, platform availability or successful import is promised. Do not bypass host scans or misrepresent the medical purpose. Host terms, permissions, consent and data controls remain applicable. The package supplies no publisher-operated secure patient storage; its import skill guides available host tools to an explicitly owner-authorized private destination. Transcription and stored history can be incomplete or wrong and require source review; archive completion is not clinical verification. Relevant voluntary details may be discussed in an authorized conversation; public source, PRs and releases must never contain actual cases or records.
 
 MIT governs original material with its stated warranty/liability terms. External publications, datasets, services and weights retain their own terms. No performance, clinical safety, regulatory compliance or availability guarantee is supplied.
+
+## Combined psychology scope
+
+The adult psychology skills provide educational discussion and optional self-help, relationships and sport preparation within their stated boundaries. Their inclusion does not create a therapeutic relationship, professional qualification, emergency monitoring or medical/sport clearance. Personal notes and medical records use separately authorized owner-selected storage. Export of one domain does not grant access to the other. Source counts, software tests and transfer audits are not clinical validation.
