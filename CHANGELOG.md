@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.5 - 2026-10-08
+
+- Package the minimal medical book icon in a new downloadable release. Both listing and composer icons use the bundled square SVG.
+
 ## 0.4.4 - 2026-10-08
 
 - Add offline result graphs, conservative source-reference comparisons, versioned aggregate AI review rendering and optional purposeful follow-up questions. No automatic AI calls, clinical predictions or treatment changes.

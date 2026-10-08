@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",
@@ -51,7 +51,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.4.3 adds source-linked graphical medication timelines, care-context topic filters, explicit last-reconciled use and handwritten historical intake guidance. Dates, unknown boundaries, non-initiation and private/public separation remain explicit. No real records or clinical validation are bundled."
+        "release_notes": "Version 0.4.5 packages the minimal medical book icon in the downloadable plugin ZIP."
       }
     }
   }
