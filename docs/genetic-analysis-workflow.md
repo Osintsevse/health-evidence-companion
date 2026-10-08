@@ -50,3 +50,5 @@ python genetic_reports.py --candidates /private/candidates.sqlite --limit 50 --o
 ```
 
 This retains all aggregate counts, returns a bounded queue of pathogenic-source classifications including unresolved flags, and reports omitted rows. It does not infer diagnoses or remove other records from the full database. The helper refuses replacement of an existing output. Use new filenames for each review.
+
+Reader summaries add separate context flags for unestablished sex-chromosome copy number and differing X allele tokens. These are display context warnings, not evidence of chromosome abnormalities. They do not change the stored source flags or the annotation queue ranking. Pseudoautosomal position, laboratory context and clinical verification remain necessary.

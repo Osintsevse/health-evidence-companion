@@ -18,7 +18,7 @@ class QueueTests(unittest.TestCase):
                 db.execute('INSERT INTO metadata VALUES(?,?)', ('manifest', json.dumps({'schema':'dtc-clinvar-candidates-v1'})))
                 db.execute('CREATE TABLE candidates(id INTEGER,source_line INTEGER,row_json TEXT)')
                 for i, classification in enumerate(('Pathogenic', 'Benign', 'Likely_pathogenic', 'Pathogenic'), 1):
-                    row = {'observation':{'alleles':['A','G']}, 'clinvar':{'classification':classification, 'variation_id':str(i)}, 'flags':['synthetic_unresolved'], 'priority_for_manual_review':i==4}
+                    row = {'observation':{'alleles':['A','G'], 'chromosome_raw':'X'}, 'clinvar':{'classification':classification, 'variation_id':str(i)}, 'flags':['synthetic_unresolved'], 'priority_for_manual_review':i==4}
                     db.execute('INSERT INTO candidates VALUES(?,?,?)', (i,i,json.dumps(row)))
                 db.commit()
             summary=reports.candidate_overview(path, 1)
@@ -26,7 +26,10 @@ class QueueTests(unittest.TestCase):
             self.assertEqual(summary['review_queue_total'], 3)
             self.assertEqual(summary['omitted_review_rows'], 2)
             self.assertEqual(summary['rows'][0]['variation_id'], '4')
-            self.assertEqual(summary['rows'][0]['flags'], ['synthetic_unresolved'])
+            self.assertIn('synthetic_unresolved',summary['rows'][0]['flags'])
+            self.assertIn('sex_chromosome_ploidy_not_established',summary['rows'][0]['context_flags'])
+            self.assertIn('heterozygous_x_call_requires_ploidy_context',summary['rows'][0]['context_flags'])
+            self.assertTrue(summary['rows'][0]['priority'])
             for limit in (0,501,True):
                 with self.assertRaises(ValueError): reports.candidate_overview(path,limit)
 

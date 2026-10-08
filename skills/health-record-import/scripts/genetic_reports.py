@@ -130,10 +130,18 @@ def candidate_summary(path):
             classification=clinvar.get('classification') or ''
             classifications[classification]+=1
             gene=clinvar.get('info',{}).get('GENEINFO') or ''
+            context_flags=[]
+            chromosome=str(observation.get('chromosome_raw', '')).removeprefix('chr').upper()
+            if chromosome in ('X','Y','23','24'):
+                context_flags.append('sex_chromosome_ploidy_not_established')
+                alleles=observation.get('alleles') or []
+                if chromosome in ('X','23') and len(set(alleles))>1:
+                    context_flags.append('heterozygous_x_call_requires_ploidy_context')
             rows.append({'rsid':observation.get('rsid') or observation.get('rsid_raw') or observation.get('marker_raw') or '',
                          'genotype':observation.get('genotype_raw') or ''.join(observation.get('alleles') or []),
                          'gene':gene,'classification':classification,'review_status':clinvar.get('review_status') or '',
-                         'flags':record.get('flags') or [],'source_line':source_line,
+                         'flags':list(record.get('flags') or [])+context_flags,
+                         'context_flags':context_flags,'source_line':source_line,
                          'variation_id':clinvar.get('variation_id') or '',
                          'priority':record.get('priority_for_manual_review') is True})
     finally:
