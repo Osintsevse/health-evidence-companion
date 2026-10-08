@@ -1,6 +1,6 @@
 ---
 name: health-record-import
-description: Organize owner-authorized medical document photos or PDFs into a private longitudinal archive, preserving originals, laboratory values, visits, prescriptions, actual medicine-use events and corrections. Use for importing reports, maintaining history, retrieving past facts or plotting stored results in Google Drive or another explicitly chosen private store. Requires available authorized storage tools; no public patient records or clinical decisions.
+description: Organize owner-authorized medical document photos or PDFs into a private longitudinal archive, preserving originals, laboratory values, visits, prescriptions, actual medicine-use events and corrections. Use for importing reports, maintaining history, retrieving past facts importing genetic/fitness exports or plotting stored results in Google Drive or another explicitly chosen private store. Requires available authorized storage tools; no public patient records or clinical decisions.
 ---
 
 # Import and retrieve private health history
@@ -67,3 +67,15 @@ For handwritten or childhood source sets, apply module 20's historical-intake ch
 For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.
 
 For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.
+
+## Genetic provider exports
+
+For MyHeritage, Genotek or converted consumer DNA exports, read [provider-specific intake](references/33_GENETIC_PROVIDER_IMPORT.md). Distinguish saved health reports, ancestry/match files and raw calls. Preserve originals and unknown coverage/build/strand; never turn a provider risk label into a clinician diagnosis.
+
+The optional [offline genotype staging helper](scripts/genetic_staging.py) parses explicitly supported text schemas into a separate private SQLite dataset. It performs no annotation, network call or medical-ledger mutation. Read module 33 for supported formats and synthetic validation limits; do not claim Genotek account compatibility merely because a standard VCF parser works. Never place actual variants in tests, public issues or source examples. Archive the dataset through the existing provenance/commit/readback workflow only after staging review; genotype rows are not time-series laboratory points.
+
+## Reuse the bundled genetics pipeline
+
+For owner-authorized genetic analysis, read [annotation and interpretation](references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md) and [reusable workflow](references/genetic-analysis-workflow.md). Reuse [MHTML extraction](scripts/genetic_reports.py), [marker query](scripts/genetic_marker_query.py) and [offline ClinVar pipeline](scripts/genetic_annotation.py) before writing new processing code. Cache dated public references once outside the public checkout; download is a separate public-only operation and annotation uses no network. Verify assembly, forward orientation, exact alleles and all source flags. Separate unconfirmed candidates from provider claims and clinician findings; an aggregate pathogenic label is not a diagnosis. Preserve full provenance and coverage limitations.
+
+Add genetics to the existing sidebar through the optional private genetics assessment config. Keep human-reviewed explanations in the owner language, source statements intact and technical candidates in an appendix. Risk percentages need an identifiable population, denominator and time horizon; never infer an individual lifetime probability from an isolated allele. Do not change medicines, screening, reproductive decisions or diet from raw consumer data. For consequential findings route clinical confirmation/counseling through health-research, health-explain, health-prevention or health-family-care as applicable. Save all reusable generalized code and blank templates in the plugin; keep patient-specific driver/configuration/outputs solely in the private archive.

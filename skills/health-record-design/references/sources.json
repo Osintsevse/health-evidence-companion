@@ -1915,5 +1915,338 @@
     "retrieval_status": "Published eligibility, Pap sequence and follow-up sections read; page revision date not supplied; local current implementation not confirmed",
     "use": "Serbian organized screening example; not individual coverage or a complete current national schedule",
     "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S214",
+    "title": "MyHeritage — How should I interpret my raw DNA data? (July 21, 2026)",
+    "url": "https://www.myheritage.com/help/en/articles/12852246-how-should-i-interpret-my-raw-dna-data",
+    "region": "International",
+    "retrieval_status": "Official HTML read: fields, delimiter, allele tokens and strand; no raw export or account tested",
+    "use": "Current documented five-column tab-delimited schema; no universal genome-build claim",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S215",
+    "title": "MyHeritage — What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)",
+    "url": "https://www.myheritage.com/help/en/articles/12852457-what-does-the-whole-genome-sequencing-wgs-upgrade-mean-for-my-dna-results",
+    "region": "International",
+    "retrieval_status": "Official HTML read: generation dates, header verification, conditional CRAM availability and Health exceptions; no account download tested",
+    "use": "Distinguish GSA/WGS, ordinary CSV/TXT descriptions and planned CRAM export",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S216",
+    "title": "MyHeritage — How do I download my raw DNA data file? (live help page)",
+    "url": "https://www.myheritage.com/help/en/articles/12851869-how-do-i-download-my-raw-dna-data-file-from-myheritage",
+    "region": "International",
+    "retrieval_status": "Official HTML read: prerequisites and steps; page displayed Updated today; no account accessed or download executed",
+    "use": "Manager-only download, published results, emailed link lifetime and uploaded-kit limitation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S217",
+    "title": "MyHeritage — How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)",
+    "url": "https://www.myheritage.com/help/en/articles/12851466-how-can-i-download-the-shared-dna-segments-data-from-the-chromosome-browser",
+    "region": "International",
+    "retrieval_status": "Official HTML read: CSV contents and workflow; no export tested",
+    "use": "Distinguish shared-segment genealogy CSV from raw SNP data",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S218",
+    "title": "Genotek — Process and cost of genetic tests (official laboratory-process article)",
+    "url": "https://www.genotek.ru/blog/genetic-test-practice/",
+    "region": "Russia",
+    "retrieval_status": "Official HTML read: microarray process and stage 7 VCF download statement; publication date not established from opened page; no schema or export tested",
+    "use": "VCF availability in documented microarray workflow; VCF extension is not evidence of WGS",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S219",
+    "title": "Genotek — Full Genome DNA test (official product FAQ)",
+    "url": "https://www.genotek.ru/full-genome/",
+    "region": "Russia",
+    "retrieval_status": "Official HTML read: download FAQ and processed-result sharing; page version not specified; no account accessed, FASTQ downloaded or clinical claims validated",
+    "use": "Explicit VCF/FASTQ downloads and 23andMe v3/v5 conversion on request",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S220",
+    "title": "Genotek — Ancestry DNA test (official indexed FAQ excerpt)",
+    "url": "https://www.genotek.ru/genetics/genealogy/",
+    "region": "Russia",
+    "retrieval_status": "Official search-index excerpt read only: VCF, 23andmeV5 TXT and 23andmeV3 TXT; direct open returned almost no usable body; product version and account availability unverified",
+    "use": "Limited support for ancestry export choices; verify against owner-supplied current documentation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S221",
+    "title": "GATK germline short-variant discovery",
+    "url": "https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels",
+    "region": "International",
+    "retrieval_status": "Opened extracted official page; expected BAM input and read-based calling reviewed; Sequencing workflow, not array validation",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S222",
+    "title": "Ensembl VEP cache documentation",
+    "url": "https://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html",
+    "region": "International",
+    "retrieval_status": "Opened extracted official documentation; redirected to June 2026 archive; Tool annotation documentation, not clinical interpretation",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S223",
+    "title": "NCBI ClinVar review status",
+    "url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/review_status/",
+    "region": "International",
+    "retrieval_status": "Opened extracted documentation; star definitions and aggregation read; Documentation, not review of any individual variant",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S224",
+    "title": "ACMG/AMP 2015 sequence interpretation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4544753/",
+    "region": "International",
+    "retrieval_status": "Search excerpt for categories and VUS rule; direct open hit CAPTCHA; Full guideline not read; gene-specific current specifications need separate review",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S225",
+    "title": "Tandy-Connor et al. 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29565420/",
+    "region": "International",
+    "retrieval_status": "Search abstract/excerpts, including publisher result for 40% statistic; PubMed open empty and PMC CAPTCHA; Selected referral study; not a population-wide error estimate",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S226",
+    "title": "NIA Alzheimer's genetics",
+    "url": "https://www.nia.nih.gov/health/alzheimers-disease-genetics-fact-sheet",
+    "region": "International",
+    "retrieval_status": "Search excerpt on APOE prediction and counseling; direct open failed 405; No detailed numerical risk tables reviewed",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S227",
+    "title": "NEI AREDS FAQ",
+    "url": "https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/aredsareds2-frequently-asked-questions",
+    "region": "International",
+    "retrieval_status": "Detailed search excerpts: no/early AMD and genetic-testing sections; Full page not opened",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S228",
+    "title": "AREDS report 38",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4253656/",
+    "region": "International",
+    "retrieval_status": "Search excerpts on supplement interactions/conclusions; Full text not read",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S229",
+    "title": "NIDDK celiac diagnosis",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis",
+    "region": "International",
+    "retrieval_status": "Opened extracted page; genetic-testing and pre-diet testing guidance; Not a complete current specialist diagnostic guideline",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S230",
+    "title": "CCR5/CXCR4 primary infection report",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9621067/",
+    "region": "International",
+    "retrieval_status": "Search abstract excerpt; Historical mechanistic counterexample; not an estimate of current HIV risk",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S231",
+    "title": "CPIC atomoxetine supplement",
+    "url": "https://files.cpicpgx.org/data/guideline/publication/atomoxetine/2019/30801677-supplement.pdf",
+    "region": "International",
+    "retrieval_status": "Search excerpt on CYP2D6 structural/hybrid variants; Historical supplement; current gene-drug page must be checked before application",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S232",
+    "title": "CPIC antidepressants 2023",
+    "url": "https://files.cpicpgx.org/data/guideline/publication/serotonin_reuptake_inhibitor_antidepressants/2023/37032427.pdf",
+    "region": "International",
+    "retrieval_status": "Search excerpts on guideline scope, modest proprietary-panel evidence and supported CYP markers; Full tables not read; no dosing advice derived",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S233",
+    "title": "ClinGen gene-disease validity",
+    "url": "https://www.clinicalgenome.org/docs/gene-disease-validity-classification-information/",
+    "region": "International",
+    "retrieval_status": "Search excerpts of framework and definitions; No individual gene-condition curation reviewed",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S234",
+    "title": "ClinGen actionability",
+    "url": "https://www.clinicalgenome.org/curation-activities/clinical-actionability/browse-curations/",
+    "region": "International",
+    "retrieval_status": "Search excerpt of protocol and intervention-outcome purpose; No individual actionability score reviewed",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S235",
+    "title": "NHGRI diverse-population risk testing",
+    "url": "https://www.genome.gov/news/news-release/researchers-optimize-genetic-tests-for-diverse-populations-to-tackle-health-disparities",
+    "region": "International",
+    "retrieval_status": "Opened extracted release on 2024 multi-ancestry work; Agency research summary, not model-specific validation",
+    "use": "Consumer genetic interpretation evidence and limitations",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S236",
+    "title": "NCBI ClinVar downloads",
+    "url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/downloads/",
+    "region": "International",
+    "retrieval_status": "Official documentation opened; downloadable formats and GRCh37 VCF scope reviewed",
+    "use": "Public reference retrieval and partial-coverage safeguards",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S237",
+    "title": "NCBI ClinVar FTP primer",
+    "url": "https://www.ncbi.nlm.nih.gov/clinvar/docs/ftp_primer/",
+    "region": "International",
+    "retrieval_status": "Official extracted documentation reviewed by research agent; precise small-variant VCF and RCV association limits",
+    "use": "VCF is a partial aggregate annotation source",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S238",
+    "title": "NCBI ClinVar GRCh37 2026-10-04 public snapshot",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar_20261004.vcf.gz",
+    "region": "International",
+    "retrieval_status": "Official dated snapshot downloaded and official MD5 verified; VCF headers and streaming SNP index processed; no per-record clinical adjudication",
+    "use": "Reproducible offline public reference; refresh locally without sending genotype queries",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S239",
+    "title": "MyHeritage Health report accuracy documentation",
+    "url": "https://www.myheritage.com/help/en/articles/12851313-how-accurate-are-the-health-reports",
+    "region": "International",
+    "retrieval_status": "Official HTML read: GSA method, partial variant coverage, conditional Sanger confirmation claim; no individual confirmation inferred",
+    "use": "Provider feature claims and limits; not independent laboratory validation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S240",
+    "title": "CDC MTHFR variants and folic acid",
+    "url": "https://www.cdc.gov/folic-acid/data-research/mthfr/index.html",
+    "region": "International",
+    "retrieval_status": "Official current page read including common variant and folic acid sections; updated July16 2026",
+    "use": "Avoid unsupported methylation disease labels and genotype-only supplement changes",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S241",
+    "title": "NIDDK lactose intolerance diagnosis",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis",
+    "region": "International",
+    "retrieval_status": "Official HTML read: symptom assessment, differential and hydrogen breath testing; reviewed2018",
+    "use": "Genetic lactase persistence is distinct from current symptoms or acquired disease",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S242",
+    "title": "Lactase persistence genotype and dairy intake 2019 study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6723957/",
+    "region": "International",
+    "retrieval_status": "Indexed primary study excerpts read; full PMC open returned CAPTCHA",
+    "use": "Population association and marker orientation; no individual tolerance prediction",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S243",
+    "title": "NCBI Medical Genetics Summaries: lecanemab and APOE genotype",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK605938/",
+    "region": "International",
+    "retrieval_status": "Search-index excerpts only; direct HTML returned CAPTCHA; PDF not yet fully reviewed",
+    "use": "APOE haplotype mapping and therapy-genotype context require source-section refresh",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S244",
+    "title": "GeneReviews Fabry disease",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1292/",
+    "region": "International",
+    "retrieval_status": "Indexed summary/diagnostic and counseling sections read; direct HTML returned CAPTCHA; revision April11 2024",
+    "use": "General X-linked disease confirmation, enzyme activity and genetic counseling; no patient case",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S245",
+    "title": "GeneReviews Deafness-Dystonia-Optic Neuronopathy",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1216/",
+    "region": "International",
+    "retrieval_status": "Indexed summary and diagnosis excerpts read; direct HTML returned CAPTCHA; update November21 2019",
+    "use": "General syndrome and variant-confirmation context",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S246",
+    "title": "ATP6AP2 altered splicing and X-linked parkinsonism primary study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3723311/",
+    "region": "International",
+    "retrieval_status": "Indexed primary abstract read; direct full text returned CAPTCHA",
+    "use": "A synonymous consequence need not imply benign function; mechanistic evidence limits",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S247",
+    "title": "WHO cognitive decline and dementia risk reduction second edition2026",
+    "url": "https://www.who.int/publications/i/item/9789240123557",
+    "region": "International",
+    "retrieval_status": "Official publication overview read; guideline sections not yet all reviewed",
+    "use": "Prefer current second edition to2019 and check exact recommendation at use",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S248",
+    "title": "WHO2026 dementia guideline official announcement",
+    "url": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
+    "region": "International",
+    "retrieval_status": "Official full extracted announcement read; prevention behaviors, cardiometabolic management and no supplements without deficiency",
+    "use": "General prevention, not an individual or genotype-specific risk reduction percentage",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S249",
+    "title": "CPIC CYP2B6 and efavirenz current guideline page",
+    "url": "https://cpicpgx.org/guidelines/cpic-guideline-for-efavirenz-based-on-cyp2b6-genotype/",
+    "region": "International",
+    "retrieval_status": "Official HTML read: April2019 guideline and no dosing-update statement; allele resources linked; full tables not applied",
+    "use": "Gene-drug scope and clinical review; no array-based dosing",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S250",
+    "title": "CPIC CYP3A5 and tacrolimus2015 guideline",
+    "url": "https://files.cpicpgx.org/data/guideline/publication/tacrolimus/2015/25801146.pdf",
+    "region": "International",
+    "retrieval_status": "Indexed primary PDF introduction and genotype interpretation excerpts read; current web route requires JavaScript; no dosing tables applied",
+    "use": "Gene-drug association does not generalize to all substrates",
+    "checked_on": "2026-10-08"
   }
 ]

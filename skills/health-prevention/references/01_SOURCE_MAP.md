@@ -1511,3 +1511,262 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Serbian organized screening example; not individual coverage or a complete current national schedule
 - Checked: 2026-10-08
 
+### S214 - MyHeritage — How should I interpret my raw DNA data? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12852246-how-should-i-interpret-my-raw-dna-data
+- Region: International
+- Reading status: Official HTML read: fields, delimiter, allele tokens and strand; no raw export or account tested
+- Purpose: Current documented five-column tab-delimited schema; no universal genome-build claim
+- Checked: 2026-10-08
+
+### S215 - MyHeritage — What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12852457-what-does-the-whole-genome-sequencing-wgs-upgrade-mean-for-my-dna-results
+- Region: International
+- Reading status: Official HTML read: generation dates, header verification, conditional CRAM availability and Health exceptions; no account download tested
+- Purpose: Distinguish GSA/WGS, ordinary CSV/TXT descriptions and planned CRAM export
+- Checked: 2026-10-08
+
+### S216 - MyHeritage — How do I download my raw DNA data file? (live help page)
+- URL: https://www.myheritage.com/help/en/articles/12851869-how-do-i-download-my-raw-dna-data-file-from-myheritage
+- Region: International
+- Reading status: Official HTML read: prerequisites and steps; page displayed Updated today; no account accessed or download executed
+- Purpose: Manager-only download, published results, emailed link lifetime and uploaded-kit limitation
+- Checked: 2026-10-08
+
+### S217 - MyHeritage — How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12851466-how-can-i-download-the-shared-dna-segments-data-from-the-chromosome-browser
+- Region: International
+- Reading status: Official HTML read: CSV contents and workflow; no export tested
+- Purpose: Distinguish shared-segment genealogy CSV from raw SNP data
+- Checked: 2026-10-08
+
+### S218 - Genotek — Process and cost of genetic tests (official laboratory-process article)
+- URL: https://www.genotek.ru/blog/genetic-test-practice/
+- Region: Russia
+- Reading status: Official HTML read: microarray process and stage 7 VCF download statement; publication date not established from opened page; no schema or export tested
+- Purpose: VCF availability in documented microarray workflow; VCF extension is not evidence of WGS
+- Checked: 2026-10-08
+
+### S219 - Genotek — Full Genome DNA test (official product FAQ)
+- URL: https://www.genotek.ru/full-genome/
+- Region: Russia
+- Reading status: Official HTML read: download FAQ and processed-result sharing; page version not specified; no account accessed, FASTQ downloaded or clinical claims validated
+- Purpose: Explicit VCF/FASTQ downloads and 23andMe v3/v5 conversion on request
+- Checked: 2026-10-08
+
+### S220 - Genotek — Ancestry DNA test (official indexed FAQ excerpt)
+- URL: https://www.genotek.ru/genetics/genealogy/
+- Region: Russia
+- Reading status: Official search-index excerpt read only: VCF, 23andmeV5 TXT and 23andmeV3 TXT; direct open returned almost no usable body; product version and account availability unverified
+- Purpose: Limited support for ancestry export choices; verify against owner-supplied current documentation
+- Checked: 2026-10-08
+
+### S221 - GATK germline short-variant discovery
+- URL: https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels
+- Region: International
+- Reading status: Opened extracted official page; expected BAM input and read-based calling reviewed; Sequencing workflow, not array validation
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S222 - Ensembl VEP cache documentation
+- URL: https://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html
+- Region: International
+- Reading status: Opened extracted official documentation; redirected to June 2026 archive; Tool annotation documentation, not clinical interpretation
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S223 - NCBI ClinVar review status
+- URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/review_status/
+- Region: International
+- Reading status: Opened extracted documentation; star definitions and aggregation read; Documentation, not review of any individual variant
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S224 - ACMG/AMP 2015 sequence interpretation
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4544753/
+- Region: International
+- Reading status: Search excerpt for categories and VUS rule; direct open hit CAPTCHA; Full guideline not read; gene-specific current specifications need separate review
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S225 - Tandy-Connor et al. 2018
+- URL: https://pubmed.ncbi.nlm.nih.gov/29565420/
+- Region: International
+- Reading status: Search abstract/excerpts, including publisher result for 40% statistic; PubMed open empty and PMC CAPTCHA; Selected referral study; not a population-wide error estimate
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S226 - NIA Alzheimer's genetics
+- URL: https://www.nia.nih.gov/health/alzheimers-disease-genetics-fact-sheet
+- Region: International
+- Reading status: Search excerpt on APOE prediction and counseling; direct open failed 405; No detailed numerical risk tables reviewed
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S227 - NEI AREDS FAQ
+- URL: https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/aredsareds2-frequently-asked-questions
+- Region: International
+- Reading status: Detailed search excerpts: no/early AMD and genetic-testing sections; Full page not opened
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S228 - AREDS report 38
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4253656/
+- Region: International
+- Reading status: Search excerpts on supplement interactions/conclusions; Full text not read
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S229 - NIDDK celiac diagnosis
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis
+- Region: International
+- Reading status: Opened extracted page; genetic-testing and pre-diet testing guidance; Not a complete current specialist diagnostic guideline
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S230 - CCR5/CXCR4 primary infection report
+- URL: https://pubmed.ncbi.nlm.nih.gov/9621067/
+- Region: International
+- Reading status: Search abstract excerpt; Historical mechanistic counterexample; not an estimate of current HIV risk
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S231 - CPIC atomoxetine supplement
+- URL: https://files.cpicpgx.org/data/guideline/publication/atomoxetine/2019/30801677-supplement.pdf
+- Region: International
+- Reading status: Search excerpt on CYP2D6 structural/hybrid variants; Historical supplement; current gene-drug page must be checked before application
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S232 - CPIC antidepressants 2023
+- URL: https://files.cpicpgx.org/data/guideline/publication/serotonin_reuptake_inhibitor_antidepressants/2023/37032427.pdf
+- Region: International
+- Reading status: Search excerpts on guideline scope, modest proprietary-panel evidence and supported CYP markers; Full tables not read; no dosing advice derived
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S233 - ClinGen gene-disease validity
+- URL: https://www.clinicalgenome.org/docs/gene-disease-validity-classification-information/
+- Region: International
+- Reading status: Search excerpts of framework and definitions; No individual gene-condition curation reviewed
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S234 - ClinGen actionability
+- URL: https://www.clinicalgenome.org/curation-activities/clinical-actionability/browse-curations/
+- Region: International
+- Reading status: Search excerpt of protocol and intervention-outcome purpose; No individual actionability score reviewed
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S235 - NHGRI diverse-population risk testing
+- URL: https://www.genome.gov/news/news-release/researchers-optimize-genetic-tests-for-diverse-populations-to-tackle-health-disparities
+- Region: International
+- Reading status: Opened extracted release on 2024 multi-ancestry work; Agency research summary, not model-specific validation
+- Purpose: Consumer genetic interpretation evidence and limitations
+- Checked: 2026-10-08
+
+### S236 - NCBI ClinVar downloads
+- URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/downloads/
+- Region: International
+- Reading status: Official documentation opened; downloadable formats and GRCh37 VCF scope reviewed
+- Purpose: Public reference retrieval and partial-coverage safeguards
+- Checked: 2026-10-08
+
+### S237 - NCBI ClinVar FTP primer
+- URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/ftp_primer/
+- Region: International
+- Reading status: Official extracted documentation reviewed by research agent; precise small-variant VCF and RCV association limits
+- Purpose: VCF is a partial aggregate annotation source
+- Checked: 2026-10-08
+
+### S238 - NCBI ClinVar GRCh37 2026-10-04 public snapshot
+- URL: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar_20261004.vcf.gz
+- Region: International
+- Reading status: Official dated snapshot downloaded and official MD5 verified; VCF headers and streaming SNP index processed; no per-record clinical adjudication
+- Purpose: Reproducible offline public reference; refresh locally without sending genotype queries
+- Checked: 2026-10-08
+
+### S239 - MyHeritage Health report accuracy documentation
+- URL: https://www.myheritage.com/help/en/articles/12851313-how-accurate-are-the-health-reports
+- Region: International
+- Reading status: Official HTML read: GSA method, partial variant coverage, conditional Sanger confirmation claim; no individual confirmation inferred
+- Purpose: Provider feature claims and limits; not independent laboratory validation
+- Checked: 2026-10-08
+
+### S240 - CDC MTHFR variants and folic acid
+- URL: https://www.cdc.gov/folic-acid/data-research/mthfr/index.html
+- Region: International
+- Reading status: Official current page read including common variant and folic acid sections; updated July16 2026
+- Purpose: Avoid unsupported methylation disease labels and genotype-only supplement changes
+- Checked: 2026-10-08
+
+### S241 - NIDDK lactose intolerance diagnosis
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis
+- Region: International
+- Reading status: Official HTML read: symptom assessment, differential and hydrogen breath testing; reviewed2018
+- Purpose: Genetic lactase persistence is distinct from current symptoms or acquired disease
+- Checked: 2026-10-08
+
+### S242 - Lactase persistence genotype and dairy intake 2019 study
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6723957/
+- Region: International
+- Reading status: Indexed primary study excerpts read; full PMC open returned CAPTCHA
+- Purpose: Population association and marker orientation; no individual tolerance prediction
+- Checked: 2026-10-08
+
+### S243 - NCBI Medical Genetics Summaries: lecanemab and APOE genotype
+- URL: https://www.ncbi.nlm.nih.gov/books/NBK605938/
+- Region: International
+- Reading status: Search-index excerpts only; direct HTML returned CAPTCHA; PDF not yet fully reviewed
+- Purpose: APOE haplotype mapping and therapy-genotype context require source-section refresh
+- Checked: 2026-10-08
+
+### S244 - GeneReviews Fabry disease
+- URL: https://www.ncbi.nlm.nih.gov/books/NBK1292/
+- Region: International
+- Reading status: Indexed summary/diagnostic and counseling sections read; direct HTML returned CAPTCHA; revision April11 2024
+- Purpose: General X-linked disease confirmation, enzyme activity and genetic counseling; no patient case
+- Checked: 2026-10-08
+
+### S245 - GeneReviews Deafness-Dystonia-Optic Neuronopathy
+- URL: https://www.ncbi.nlm.nih.gov/books/NBK1216/
+- Region: International
+- Reading status: Indexed summary and diagnosis excerpts read; direct HTML returned CAPTCHA; update November21 2019
+- Purpose: General syndrome and variant-confirmation context
+- Checked: 2026-10-08
+
+### S246 - ATP6AP2 altered splicing and X-linked parkinsonism primary study
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3723311/
+- Region: International
+- Reading status: Indexed primary abstract read; direct full text returned CAPTCHA
+- Purpose: A synonymous consequence need not imply benign function; mechanistic evidence limits
+- Checked: 2026-10-08
+
+### S247 - WHO cognitive decline and dementia risk reduction second edition2026
+- URL: https://www.who.int/publications/i/item/9789240123557
+- Region: International
+- Reading status: Official publication overview read; guideline sections not yet all reviewed
+- Purpose: Prefer current second edition to2019 and check exact recommendation at use
+- Checked: 2026-10-08
+
+### S248 - WHO2026 dementia guideline official announcement
+- URL: https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed
+- Region: International
+- Reading status: Official full extracted announcement read; prevention behaviors, cardiometabolic management and no supplements without deficiency
+- Purpose: General prevention, not an individual or genotype-specific risk reduction percentage
+- Checked: 2026-10-08
+
+### S249 - CPIC CYP2B6 and efavirenz current guideline page
+- URL: https://cpicpgx.org/guidelines/cpic-guideline-for-efavirenz-based-on-cyp2b6-genotype/
+- Region: International
+- Reading status: Official HTML read: April2019 guideline and no dosing-update statement; allele resources linked; full tables not applied
+- Purpose: Gene-drug scope and clinical review; no array-based dosing
+- Checked: 2026-10-08
+
+### S250 - CPIC CYP3A5 and tacrolimus2015 guideline
+- URL: https://files.cpicpgx.org/data/guideline/publication/tacrolimus/2015/25801146.pdf
+- Region: International
+- Reading status: Indexed primary PDF introduction and genotype interpretation excerpts read; current web route requires JavaScript; no dosing tables applied
+- Purpose: Gene-drug association does not generalize to all substrates
+- Checked: 2026-10-08
+

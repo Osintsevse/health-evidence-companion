@@ -207,6 +207,11 @@ def generate(db, config, output, template):
     if source_root is not None and (output==source_root or source_root in output.parents):
         raise ValueError('Private output must remain outside the plugin source tree')
     model=read_model(db,config)
+    genetic_tools=helper('genetic_reports')
+    genetics=genetic_tools.load_assessment(config)
+    if genetics is not None:
+        model['genetics']=genetic_tools.localize_assessment(genetics,config.get('locale','en'))
+        model['labels']={**genetic_tools.ui_labels(config.get('locale','en')),**model.get('labels',{})}
     helper('lab_dashboard').attach_assessment(model,config)
     model['lab_dashboard']=helper('lab_dashboard').build_dashboard(model,config)
     model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)

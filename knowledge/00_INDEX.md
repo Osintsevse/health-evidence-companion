@@ -27,7 +27,7 @@ English edition, 2026-10-08. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 213 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 220 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -59,3 +59,7 @@ The curriculum describes intended coverage. This edition has not completed a med
 | 32 | Adverse effects, absolute risks and understandable probabilities |
 
 New entry skills: health-family-care and health-prevention. Load only relevant references; sources and book indices do not establish completed medical training.
+
+- [33: Genetic provider exports](33_GENETIC_PROVIDER_IMPORT.md) - MyHeritage, Genotek, report-versus-raw distinctions and offline private staging.
+
+- [Genetic annotation and interpretation](34_GENETIC_ANNOTATION_AND_INTERPRETATION.md): offline ClinVar, array limits, report review, pharmacogenomics and risk communication.

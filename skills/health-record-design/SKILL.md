@@ -35,3 +35,5 @@ For an existing archive, design a small-update path with separate source, ledger
 For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.
 
 For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.
+
+For consumer genetics preserve provider reports and raw calls as separate source-linked datasets under [provider intake](references/33_GENETIC_PROVIDER_IMPORT.md). The laboratory table is not a universal genotype schema; do not force raw variants into clinical diagnoses or numerical charts.
