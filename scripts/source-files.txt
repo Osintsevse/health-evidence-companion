@@ -242,3 +242,10 @@ skills/health-explain/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-design/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-import/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 tests/test_view_integration.py
+skills/health-record-import/scripts/medication_chart.py
+skills/health-record-import/scripts/medication_reconciliation.py
+skills/health-record-import/assets/medication_chart_ui.mjs
+skills/health-record-import/assets/medication_chart.css
+tests/test_medication_chart.py
+tests/test_medication_reconciliation.py
+docs/archive-followup-review.md

@@ -146,11 +146,16 @@ def read_model(db, config):
     if config.get('display_families_enabled',True):
         for r in tables['observations']:
             if r['review_status'] in REVIEWED and observation_category(r) in ('blood','urine','stool'):r['_display']=helper('lab_identity').normalize(r)
-    con.close()
+    try:
+        reconciliation,current_medications=helper('medication_reconciliation').read_reconciliation(
+            con,names,tables,committed,config.get('record_id'),config.get('as_of'))
+    finally:
+        con.close()
     return {'format_version':'1.0','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'as_of':config.get('as_of'),'locale':config.get('locale','en'),'labels':config.get('labels',{}),
             'status_labels':config.get('status_labels',{}),
             'links':config.get('view_links',{}),
+            'medication_reconciliation':reconciliation,'current_medications':current_medications,
             'imports':[{k:r.get(k) for k in ('import_id','completed_at','schema_version','state','ledger_readback_status')} for r in imports if r['import_id'] in committed],
             'tables':tables,'documents':documents,'review_questions':review_questions,'feedback_storage_key':hashlib.sha256((config.get('record_id','')+str(Path(db).resolve())).encode()).hexdigest()[:16],
             'context':context,'vaccines':vaccines,'pending_corrections':pending_corrections,
@@ -198,6 +203,7 @@ def generate(db, config, output, template):
         raise ValueError('Private output must remain outside the plugin source tree')
     model=read_model(db,config)
     model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)
+    model['medication_chart']=helper('medication_chart').build_chart(model['medication_timeline'],config,model.get('as_of'))
     if config.get('embed_question_originals'):
         import importlib.util
         preview_path=Path(__file__).with_name('document_previews.py')
@@ -207,7 +213,10 @@ def generate(db, config, output, template):
         if not root:raise ValueError('An explicit private originals_root is required for previews')
         previews.attach_previews(model,root,config)
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
-    text=Path(template).read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
+    template=Path(template)
+    text=template.read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
+    for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs')]:
+        if marker in text:text=text.replace(marker,(template.parent/name).read_text(encoding='utf-8'))
     assert '__PRIVATE_MODEL__' not in text
     output.mkdir(parents=True,exist_ok=True)
     (output/'index.html').write_text(text,encoding='utf-8')

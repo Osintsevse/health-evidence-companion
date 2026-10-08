@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.3 - 2026-10-08
+
+- Add graphical source-linked medication bands, date windows, event markers, care-context topics and date-range controls.
+- Preserve unknown boundaries, separate duration-only assertions and non-initiation, and keep medicine colours stable across filters.
+- Read optional committed medication reconciliations with explicit owner, row and date checks; distinguish the dated current list from historical context.
+- Add handwritten historical intake and full source-coverage guidance without inferring present-day diagnoses or doses.
+- Retain Codex/Claude packages and private/public separation; no real cases or clinical validation included.
+
 ## 0.4.2 - 2026-10-08
 
 - Add complete archive defaults and source-linked actual-use medication timelines, preserving unknown exposure boundaries and explicit non-initiation.

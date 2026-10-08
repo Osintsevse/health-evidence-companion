@@ -24,6 +24,20 @@ Do not draw a continuous exposure bar between disconnected mentions or close an 
 
 The optional medication-timeline helper creates event rows without calculating exposure intervals or doses. Save it with the actual private generator/template and config. The view should let an owner filter by medicine and record type, open originals, and see the evidence behind a date or dose.
 
+## Graphical scale and topics
+
+Provide a horizontal time scale with one medicine per row, source-supported course bands, separate event markers and topic/medicine/layer/date-range controls. Keep medicine colours stable across filters, names visible while scrolling and full dose/source/original details available by mouse or keyboard. Keep the readable event list below the scale. Embed assets locally without network requests.
+
+Use periods explicitly supported by actual-use evidence. Preserve source date precision; chart geometry may expand a month/year to its labeled date window but must not save invented exact clinical dates. Use hatching for uncertain boundaries/windows and a labeled unknown-start indicator for dated ongoing confirmation. Never position a duration-only assertion as an arbitrary course. Prescription and non-initiation markers remain distinct. Timestamped events and unplaced dates must not silently disappear. MedicationStatement distinguishes the time of use from the assertion date; this simplified archive does not implement FHIR. [S85, S140]
+
+Assign topics by the documented context of care or explicit owner classification. Include relevant adjuncts when they belong to that conversation/context. Do not infer a diagnosis, indication or medication class from a topic. Keep uncertain identity, combined reports and explicit non-use visible. Put actual theme memberships, default selection and reviewed source-linked period annotations in the private configuration, never the public package.
+
+## Dated reconciliation
+
+Show a current-use panel only from an explicit dated reconciliation referencing active, committed, reviewed actual-use rows for the correct owner. A prior prescription, recent import time, benefit report or old summary does not establish current use. Preserve the reconciliation scope and last confirmation date; unresolved or excluded row references fail validation. Historical reports remain accessible in the medicine view and event list. An empty or partial reconciliation is not a comprehensive negative history. [S85]
+
+The optional local `medication_reconciliations` table has `reconciliation_id`, `import_id`, `record_id`, `confirmed_date`, `recorded_at`, `entry_ids_json` and `scope_note`. It is a documented archive extension, not a change to the seven-table import contract. Write/review it through the owner's existing commit/readback workflow; do not pretend the helper connects or writes a native Sheet. Other stores can implement an equivalent source-linked reconciliation with their authorized tools.
+
 ## Clarification lifecycle
 
 Stable questions show the exact uncertainty and immediately available original preview where possible. Native Sheets bind answers by question ID and preserve owner cells. Offline HTML warns prominently at both ends that drafts are not sent or accepted automatically and provides working export controls at both ends. Use an archive-specific draft namespace to avoid mixing owners. Preserve all answers in downloads, including collapsed completed questions.

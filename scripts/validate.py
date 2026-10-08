@@ -13,7 +13,7 @@ from sync_references import MAP, destination, expected
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {'.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
-TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs'}
+TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs', '.css'}
 SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
 SOURCE_MANIFEST = Path('scripts/source-files.txt')
 # Only reviewed, entirely blank Markdown forms may be distributed. A layout
@@ -72,7 +72,7 @@ def check_blank_markdown(text, path):
 
 
 def plugin_paths():
-    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
+    paths = ROOT_FILES | {'skills/health-record-import/scripts/medication_chart.py','skills/health-record-import/scripts/medication_reconciliation.py','skills/health-record-import/assets/medication_chart_ui.mjs','skills/health-record-import/assets/medication_chart.css','assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)

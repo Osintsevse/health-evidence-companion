@@ -20,3 +20,5 @@ Explain withdrawal as distinct from addiction and recurrence. Do not give indivi
 Prioritize immediate local help/support for already stated immediate self-harm risk, severe reactions or rapid deterioration. Do not invent emergency numbers or delay help for documentation.
 
 Cite inspected official sections and preserve limits. Never claim another-chat access or transfer psychotherapy material. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
+
+Retrieve minimal authorized medication facts through health-record-import when the owner refers to their existing archive and the host provides access. Read the latest dated accepted reconciliation before asking for known doses again. Distinguish inaccessible storage, unknown course boundaries and confirmed present-use reports. Keep the last confirmation date and partial scope; refresh genuinely stale/conflicting information. Do not ingest psychotherapy records or derive a taper from stored facts.

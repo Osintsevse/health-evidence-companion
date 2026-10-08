@@ -52,3 +52,8 @@ For original-source links and immediate private previews beside clarification it
 For a complete archive or medication timeline, use [default views and timeline rules](references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md). Provide the standard reader/system layout and source-linked views without requiring layout coaching. Reconcile whole supplied medicine histories, distinguish orders from actual use, retain explicit non-initiation and unknown dates/doses, and move accepted questions into the collapsed answered section. Use the owner chosen store and available host tools.
 
 Optional helpers: [medication timeline](scripts/medication_timeline.py), [stable questions](scripts/record_feedback.py) and [answer-file collector](scripts/collect_feedback.py). The collector only stages feedback; source review and accepted corrections remain required.
+
+
+For graphical timelines, use [chart annotations](scripts/medication_chart.py) and the template's bundled [interaction code](assets/medication_chart_ui.mjs) / [styles](assets/medication_chart.css). Source-supported periods, uncertain windows, duration-only statements and topics follow module 23; do not fill event gaps. Copy these resources with the private generator/template/configuration. Generation embeds them in the standalone HTML. [Dated reconciliation](scripts/medication_reconciliation.py) reads an optional committed local extension; it does not infer current use or write new clinical facts.
+
+For handwritten or childhood source sets, apply module 20's historical-intake checklist and save full page coverage. Archive independently legible historical evidence without assigning today's status or guessing dates/doses. Preserve unresolved items and original previews for owner feedback.
