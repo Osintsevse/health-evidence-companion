@@ -1,6 +1,6 @@
 # Health Evidence Companion: knowledge index
 
-English edition, 2026-10-07. Scope: adult health information, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
+English edition, 2026-10-08. Scope: health information with selected child, pregnancy and specialty pathways, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
 
 ## Contents
 
@@ -27,7 +27,7 @@ English edition, 2026-10-07. Scope: adult health information, with Serbian, Russ
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 139 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 213 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -44,3 +44,18 @@ The curriculum describes intended coverage. This edition has not completed a med
 - [Medication timelines and complete archive defaults](23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md).
 
 - [24: Incremental archive saves and recovery](24_INCREMENTAL_ARCHIVE_SAVES.md) - small updates, current-record retrieval, verified completion stages and bounded retry.
+
+## Expanded routes
+
+| Module | Purpose |
+|---|---|
+| 25 | Laboratory plots and a separately dated health review |
+| 26 | Clinical workflow and knowledge routing |
+| 27 | Foundations cards, curricula, textbook and lecture reading index |
+| 28 | Pediatrics, reproductive health, dentistry, eyes, skin, lungs and rehabilitation |
+| 29 | Age/risk prevention, nutrition, longevity evidence, visits and insurance |
+| 30 | Private images, genetic exports and activity-data boundaries |
+| 31 | Source inventory and periodic review procedure |
+| 32 | Adverse effects, absolute risks and understandable probabilities |
+
+New entry skills: health-family-care and health-prevention. Load only relevant references; sources and book indices do not establish completed medical training.

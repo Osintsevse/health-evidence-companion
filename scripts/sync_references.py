@@ -41,6 +41,17 @@ for _name in ['health-explain','health-record-design','health-record-import']:
     MAP[_name]=list(dict.fromkeys(MAP[_name]+DASHBOARD))
 
 
+EXPANSION = ['knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md', 'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md', 'knowledge/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md', 'knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md', 'knowledge/31_SOURCE_MAINTENANCE.md', 'knowledge/32_RISK_COMMUNICATION.md']
+MAP['health-family-care'] = COMMON + EXPANSION + ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md']
+MAP['health-prevention'] = COMMON + EXPANSION + ['knowledge/17_VACCINATION.md', 'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md', 'knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md']
+for _skill in ['health-explain', 'health-research', 'health-contribute']:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + EXPANSION))
+for _skill in ['health-medicine-info', 'health-mental-health']:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + [EXPANSION[0], EXPANSION[2], EXPANSION[6]]))
+for _skill in ['health-record-design', 'health-record-import']:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + [EXPANSION[4]]))
+
+
 def destination(source):
     if source.startswith('knowledge/templates/'):
         return 'templates/' + Path(source).name

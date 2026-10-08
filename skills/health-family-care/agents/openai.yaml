@@ -1,0 +1,4 @@
+interface:
+  display_name: "Family and Life-stage Health"
+  short_description: "Age-specific health and specialty guidance"
+  default_prompt: "Use $health-family-care to help with this request in my language."

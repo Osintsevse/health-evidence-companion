@@ -850,9 +850,9 @@
     "title": "AAAAI - IgG food panel testing",
     "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
     "region": "International; US",
-    "retrieval_status": "Official explanation and recommendations against diagnostic IgG/IgG4 testing read.",
+    "retrieval_status": "Official explanation and recommendations against diagnostic IgG/IgG4 testing read. | Additional 2026-10-08 inspection: Rationale and recommendation against diagnostic food IgG directly read; cited older position papers not fully read.",
     "use": "Avoid unsupported allergy/intolerance panels.",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-08"
   },
   {
     "id": "S96",
@@ -958,9 +958,9 @@
     "title": "Batut - Immunization instructions for 2026, full PDF",
     "url": "https://www.batut.org.rs/download/SMU%20za%20sprovodjenje%20imunizacije%202026.pdf",
     "region": "Serbia",
-    "retrieval_status": "Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders.",
+    "retrieval_status": "Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders. | Additional 2026-10-08 inspection: Landing version verified and 80-page PDF opened; full tables not appraised.",
     "use": "Selected national vaccine landmarks and version-specific local guidance.",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-08"
   },
   {
     "id": "S108",
@@ -1021,9 +1021,9 @@
     "title": "NCCIH - Homeopathy",
     "url": "https://www.nccih.nih.gov/health/homeopathy",
     "region": "US",
-    "retrieval_status": "Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release.",
+    "retrieval_status": "Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release. | Additional 2026-10-08 inspection: Safety/effectiveness sections read; statement that Australian review is underway is stale.",
     "use": "General explanation; do not repeat stale publication-status wording.",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-08"
   },
   {
     "id": "S115",
@@ -1266,6 +1266,654 @@
     "region": "United Kingdom",
     "retrieval_status": "Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read",
     "use": "Purposeful measurement context and uncertainty; not automated individual risk prediction",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S142",
+    "title": "University of Belgrade: Courses",
+    "url": "https://studiesinenglish.med.bg.ac.rs/courses",
+    "region": "Serbia",
+    "retrieval_status": "Course catalogue read; Scope map; individual syllabi not read",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S143",
+    "title": "Sechenov: General Medicine",
+    "url": "https://international.sechenov.ru/directions/general-medicine/en",
+    "region": "Russia",
+    "retrieval_status": "About Program and curriculum-link section read; Overview, not detailed syllabus",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S144",
+    "title": "Sechenov: Description of Disciplines",
+    "url": "https://www.sechenov.ru/eng/education-study/undergraduate/general-medicine/Description%20of%20Disciplines.pdf",
+    "region": "Russia",
+    "retrieval_status": "Search-index excerpt only; direct retrieval failed; Detailed curricular claims unsupported",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S145",
+    "title": "Oxford: Pre-clinical Medicine",
+    "url": "https://www.medsci.ox.ac.uk/study/medicine/pre-clinical",
+    "region": "UK",
+    "retrieval_status": "Search-index text only; direct fetch 403; Comparator candidate only",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S146",
+    "title": "Harvard: Course and Examination Requirements",
+    "url": "https://medstudenthandbook.hms.harvard.edu/103-course-and-examination-requirements-md-degree-new-pathway-pathways-and-hst",
+    "region": "US",
+    "retrieval_status": "Preclerkship lists, HST years I-II and core clerkships read; Cohort-sensitive; distinguishes Class of 2030",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S147",
+    "title": "MIT: Biological Chemistry I, Fall 2013",
+    "url": "https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/",
+    "region": "US",
+    "retrieval_status": "Description, format and module index read; Course not completed; F4 notes separately read",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S148",
+    "title": "MIT: Mechanisms of Drug Actions, Fall 2013",
+    "url": "https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/",
+    "region": "US",
+    "retrieval_status": "Description and resource list read; Course not completed; F5/F6 notes separately read",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S149",
+    "title": "WebPath: Internet Pathology Laboratory",
+    "url": "https://webpath.med.utah.edu/",
+    "region": "US",
+    "retrieval_status": "Homepage, scope, disclaimer and copyright read; No tutorials studied; personal noncommercial use; redistribution requires permission",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S150",
+    "title": "GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1116/",
+    "region": "US",
+    "retrieval_status": "Indexed metadata only; CAPTCHA blocked retrieval; No disease chapter appraised",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S151",
+    "title": "WHO: Basic Epidemiology, 2nd edition (2006)",
+    "url": "https://iris.who.int/bitstream/handle/10665/43541/9241547073_eng.pdf",
+    "region": "Global",
+    "retrieval_status": "Indexed-only; PDF retrieval failed; Chapters not read; historical foundations",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S152",
+    "title": "WONCA: Definition of General Practice / Family Medicine",
+    "url": "https://www.woncaeurope.org/page/definition-of-general-practice-family-medicine",
+    "region": "Europe",
+    "retrieval_status": "Landing page and 2023-edition listing read; Full document unread; CC-BY-NC-SA except noted",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S153",
+    "title": "NLM: Biochemistry 5th edition added to Bookshelf (2003)",
+    "url": "https://www.nlm.nih.gov/pubs/techbull/so03/so03_technote_biochemistry_5th_edition_added.html",
+    "region": "US",
+    "retrieval_status": "Announcement read; Historical access notice only; textbook not read",
+    "use": "Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S154",
+    "title": "NCI SEER: Body Functions and Life Process",
+    "url": "https://training.seer.cancer.gov/anatomy/body/functions.html",
+    "region": "US",
+    "retrieval_status": "Body Functions; Life Process; Organization; Metabolism; Growth; Differentiation read; Introductory training, not clinical guidance",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S155",
+    "title": "NCI SEER: Characteristics of Hormones",
+    "url": "https://training.seer.cancer.gov/anatomy/endocrine/hormones.html",
+    "region": "US",
+    "retrieval_status": "Mechanism of Hormone Action; Control of Hormone Action read; Only feedback/control used; oversimplified chemical classification not adopted",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S156",
+    "title": "NCI SEER: Introduction to the Human Body",
+    "url": "https://training.seer.cancer.gov/anatomy/body/",
+    "region": "US",
+    "retrieval_status": "Cells; Tissues; Organs; Systems read; Not comprehensive anatomy",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S157",
+    "title": "MIT 5.07SC: Enzymes and Catalysis, Fall 2013",
+    "url": "https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/e9540e994623cb307d2e08dcd3de9d72_MIT5_07SCF13_Lec5_6.pdf",
+    "region": "US",
+    "retrieval_status": "Selected text sections II-III, printed pages 5-11, PDF indices 4-10 read; Historical lecture; third-party figures have separate rights; no figures copied",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S158",
+    "title": "MIT 20.201: Fundamentals / Principles and Absorption (September 2013)",
+    "url": "https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/c3592a216acb700b8d71a46139996985_MIT20_201F13_R1_funda.pdf",
+    "region": "US",
+    "retrieval_status": "Printed slides 2 and 6, PDF indices 1 and 5 read; Host title Recitation 1 differs from internal Lecture 4; no drug-specific values used",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S159",
+    "title": "MIT 20.201: Pharmacokinetics (October 9, 2013)",
+    "url": "https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf",
+    "region": "US",
+    "retrieval_status": "Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S160",
+    "title": "MedlinePlus Genetics: Reduced penetrance and variable expressivity",
+    "url": "https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/",
+    "region": "US",
+    "retrieval_status": "Reduced penetrance and Variable expressivity sections read; No individual or variant-specific risk estimate",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S161",
+    "title": "NHGRI: Variant of Uncertain Significance",
+    "url": "https://www.genome.gov/genetics-glossary/Variant-of-Uncertain-Significance-VUS",
+    "region": "US",
+    "retrieval_status": "Definition and narration read; General glossary; displayed date not assumed to mean substantive revision",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S162",
+    "title": "Merck Manual Professional: Understanding Medical Tests and Test Results",
+    "url": "https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results",
+    "region": "International",
+    "retrieval_status": "Dichotomous Tests; Pre-test probability; Odds-likelihood calculation; Sequential Testing read; Editorial reference; erroneous nearby LR interpretation not adopted; update formula cross-checked F10",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S163",
+    "title": "Deeks and Altman: Diagnostic tests 4: likelihood ratios (BMJ 2004;329:168-169)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC478236/",
+    "region": "International",
+    "retrieval_status": "Definition paragraphs and Bayesian-update discussion/box read; Original authors' methods exposition, not new diagnostic validation study; numeric example transcription not copied; DOI 10.1136/bmj.329.7458.168",
+    "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S164",
+    "title": "NICE NG143 - Fever in under 5s",
+    "url": "https://www.nice.org.uk/guidance/ng143/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Official indexed selected age/risk and infant investigation recommendations read; direct page 403; not full guideline.",
+    "use": "Age-specific fever routing; not remote triage validation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S165",
+    "title": "CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15",
+    "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+    "region": "US",
+    "retrieval_status": "Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.",
+    "use": "Pregnancy/postpartum urgent routing",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S166",
+    "title": "NICE NG126 - Diagnosis of viable intrauterine pregnancy and tubal ectopic pregnancy, updated 2026-06-17",
+    "url": "https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy",
+    "region": "UK",
+    "retrieval_status": "Official indexed ultrasound, viability and serial-hCG sections read; related QS69 referral text inspected; full updated guideline not read.",
+    "use": "Diagnostic uncertainty and professional pregnancy assessment; no treatment protocol",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S167",
+    "title": "NHS - Postmenopausal bleeding, reviewed 2026-09-24",
+    "url": "https://www.nhs.uk/symptoms/post-menopausal-bleeding/",
+    "region": "UK",
+    "retrieval_status": "Assessment threshold, investigations and cause sections directly read; patient guidance.",
+    "use": "Assessment even after one small episode; UK service timing not universal",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S168",
+    "title": "NHS - Testicle pain, reviewed 2025-06-26",
+    "url": "https://www.nhs.uk/symptoms/testicle-pain/",
+    "region": "UK",
+    "retrieval_status": "Emergency thresholds and torsion explanation directly read; not diagnostic rule.",
+    "use": "Acute scrotal emergency routing",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S169",
+    "title": "NIDDK - Symptoms and Causes of Urinary Retention, reviewed 2019-12",
+    "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/symptoms-causes",
+    "region": "US",
+    "retrieval_status": "Acute/chronic symptoms, urgency and selected causes directly read; older patient resource.",
+    "use": "Retention urgency; no current treatment regimen",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S170",
+    "title": "NHS - Dental abscess, reviewed 2026-03-18",
+    "url": "https://www.nhs.uk/conditions/dental-abscess/",
+    "region": "UK",
+    "retrieval_status": "Urgency, definitive treatment and prevention sections directly read; local access differs.",
+    "use": "Dental routing and fluoride/interdental prevention; not pediatric dosing",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S171",
+    "title": "ADA - Antibiotic Stewardship, includes 2026 practice statement",
+    "url": "https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-stewardship",
+    "region": "US",
+    "retrieval_status": "Selected definitive treatment, systemic involvement and harm sections directly read; linked full JADA guidance not read.",
+    "use": "Indication-specific antibiotic stewardship; no prescribing regimen",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S172",
+    "title": "NHS - Detached retina",
+    "url": "https://www.nhs.uk/conditions/detached-retina-retinal-detachment/",
+    "region": "UK",
+    "retrieval_status": "Symptoms and urgent assessment passages inspected; patient guidance.",
+    "use": "Urgent retinal symptoms; not photographic diagnostic validation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S173",
+    "title": "AAPOS - Vision Therapy, content updated 2023-04",
+    "url": "https://aapos.org/glossary/vision-therapy",
+    "region": "US",
+    "retrieval_status": "Orthoptics, convergence insufficiency, myopia and learning-disability sections directly read; underlying trials not independently appraised.",
+    "use": "Distinguish condition-specific orthoptics from unsupported general claims",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S174",
+    "title": "AAD - How to take pictures of your skin for your dermatologist, 2023-07-20",
+    "url": "https://www.aad.org/public/fad/digital-health/taking-pictures-skin",
+    "region": "US",
+    "retrieval_status": "Focus, filter, views, scale, light and secure-transmission sections directly read.",
+    "use": "Photography guidance only; no AI diagnostic validation or image reproduction",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S175",
+    "title": "ACR/RSNA RadiologyInfo - MRI Safety, 2025-12-22",
+    "url": "https://www.radiologyinfo.org/en/info/safety-mr",
+    "region": "US; international education",
+    "retrieval_status": "Mechanism and metal/implant/heating safety sections directly read; no device-specific appraisal.",
+    "use": "MRI safety screening; no implant clearance",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S176",
+    "title": "ACR/RSNA RadiologyInfo - Radiation Dose from X-Ray and CT Exams, 2025-04-15",
+    "url": "https://www.radiologyinfo.org/en/info/safety-xray",
+    "region": "US; international education",
+    "retrieval_status": "Dose concepts and adult comparison caveats directly read.",
+    "use": "Typical estimates are not patient dosimetry or individualized risk",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S177",
+    "title": "NHS - Anaphylaxis",
+    "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+    "region": "UK",
+    "retrieval_status": "Symptoms and emergency action/autoinjector sections directly read.",
+    "use": "Emergency routing with local number/device adaptation; no discharge plan",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S178",
+    "title": "BTS/NICE/SIGN NG245 - Asthma diagnosis monitoring and chronic management, 2024",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Official indexed 1.1.1-1.1.7 and selected adult testing pathway read; direct retrieval failed; overview scope inspected.",
+    "use": "Objective diagnosis and acute-care priority; not acute-attack protocol",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S179",
+    "title": "NICE NG211 - Rehabilitation after traumatic injury, 2022-01-18",
+    "url": "https://www.nice.org.uk/guidance/ng211/chapter/Recommendations",
+    "region": "UK",
+    "retrieval_status": "Official indexed plan/exercise/weight-bearing recommendations and selected rationale read; direct page 403; not full evidence reviews.",
+    "use": "Individualized complex-trauma rehabilitation; no universal exercise dose",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S180",
+    "title": "NICE NG59 - Low back pain and sciatica in over 16s, 2016/2020",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "region": "UK",
+    "retrieval_status": "Official indexed imaging, exercise, manual therapy and electrotherapy recommendations read; not full evidence reviews.",
+    "use": "Indication-specific anti-overtesting and physiotherapy limits",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S181",
+    "title": "CDC - Contraception and Birth Control Methods, 2024-08-06",
+    "url": "https://www.cdc.gov/contraception/about/index.html",
+    "region": "US",
+    "retrieval_status": "Choice, STI protection, reversible methods, lactational amenorrhea and emergency contraception sections directly read; full MEC/SPR not read.",
+    "use": "Voluntary choice and timely service navigation; no eligibility/prescribing algorithm",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S182",
+    "title": "CDC - Developmental Milestones, reviewed 2026-02-17",
+    "url": "https://www.cdc.gov/act-early/milestones/index.html",
+    "region": "US",
+    "retrieval_status": "Overview, screening limitation and concern/lost-skills action sections directly read; all individual age checklists not read.",
+    "use": "Developmental surveillance distinct from screening/diagnosis; local referral pathways differ",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S183",
+    "title": "NHS - Antenatal pregnancy care and appointments",
+    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+    "region": "UK",
+    "retrieval_status": "Booking, initial assessment, selected scans/tests and contact-between-visits sections directly read; not all linked guidance.",
+    "use": "Routine care navigation and screening choice; NHS schedule not universal",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S184",
+    "title": "NHS - Your 6-week postnatal check, reviewed 2022-11-28",
+    "url": "https://www.nhs.uk/baby/support-and-services/your-6-week-postnatal-check/",
+    "region": "UK",
+    "retrieval_status": "Timing and physical/mental health review sections directly read; review due 2025-11-28 is past.",
+    "use": "Older routine-navigation example; not current universal schedule or reason to defer symptoms",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S185",
+    "title": "CDC - Training Module Using WHO Child Growth Standards, 2024-06-28",
+    "url": "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/index.html",
+    "region": "US",
+    "retrieval_status": "Introduction, population and WHO-to-CDC age-scope statements directly read; submodules not read.",
+    "use": "Age-appropriate chart selection; no diagnostic percentile algorithm",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S186",
+    "title": "USPSTF A and B Recommendations",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+    "region": "US",
+    "retrieval_status": "Official index and eligibility examples read; individual evidence reviews not fully appraised.",
+    "use": "Prevention entry point; not another country calendar.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S187",
+    "title": "General health checks in adults for reducing morbidity and mortality, Cochrane 2019",
+    "url": "https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality",
+    "region": "International",
+    "retrieval_status": "Plain-language summary and complete abstract read; search ended 2018-01-31; underlying trials not read.",
+    "use": "Multi-disease checkups in unselected adults; not targeted screening.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S188",
+    "title": "WHO Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "region": "Global",
+    "retrieval_status": "Official fact sheet opened and recommendation sections read.",
+    "use": "General nutrition; not individualized clinical nutrition.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S189",
+    "title": "Karam et al. Comparison of seven popular structured dietary programmes, BMJ 2023",
+    "url": "https://www.bmj.com/content/380/bmj-2022-072003",
+    "region": "International",
+    "retrieval_status": "Search-rendered abstract, results and discussion excerpts read; direct open 403; supplements not read.",
+    "use": "Higher cardiovascular risk trial populations; network meta-analysis; no full-text appraisal.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S190",
+    "title": "WHO guidelines on physical activity and sedentary behaviour 2020",
+    "url": "https://www.who.int/publications/i/item/9789240015128",
+    "region": "Global",
+    "retrieval_status": "Official overview and search-rendered recommendations read; Bookshelf direct open CAPTCHA; full guideline not appraised.",
+    "use": "Population goals, not sports clearance.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S191",
+    "title": "Ekelund et al. Accelerometry measured activity, sedentary time and mortality, BMJ 2019",
+    "url": "https://www.bmj.com/content/366/bmj.l4570",
+    "region": "International",
+    "retrieval_status": "Search-rendered abstract/conclusion read; direct fetch failed.",
+    "use": "Observational review; middle-aged and older populations; confounding.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S192",
+    "title": "Yin et al. Relationship of Sleep Duration With All-Cause Mortality and Cardiovascular Events, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28889101/",
+    "region": "International",
+    "retrieval_status": "Search-rendered abstract only; direct open provided no usable article; search through December 2016.",
+    "use": "Prospective cohort meta-analysis; not causal intervention evidence.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S193",
+    "title": "Natural Therapies Review 2024 report and recommendations, published 2025",
+    "url": "https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-report-and-recommendations.pdf",
+    "region": "Australia",
+    "retrieval_status": "Homeopathy summary printed pages 16-17 inspected; 221-page underlying evaluation and appendices not fully read.",
+    "use": "Outcome/comparator-specific findings; preserves low-certainty positives.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S194",
+    "title": "NICE NG197 shared decision making recommendations 2021",
+    "url": "https://www.nice.org.uk/guidance/ng197/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Search-rendered recommendations 1.4.5-1.4.11 read; direct HTML/PDF access errors.",
+    "use": "Absolute risk and frequency communication; not validation of synthetic examples.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S195",
+    "title": "RFZO healthcare abroad",
+    "url": "https://www.rfzo.rs/index.php/osiguranalica/zz-u-ino",
+    "region": "Serbia",
+    "retrieval_status": "Official search-rendered overview read.",
+    "use": "Care abroad categories; eligibility needs individual current verification.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S196",
+    "title": "RFZO healthcare during temporary foreign stays",
+    "url": "https://www.rfzo.rs/index.php?Itemid=34&id=120&option=com_content&view=article",
+    "region": "Serbia",
+    "retrieval_status": "Substantive search-rendered procedure read; direct open failed.",
+    "use": "Emergency travel coverage procedure, not unrestricted coverage.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S197",
+    "title": "Moscow OMS fund: protection of insured persons rights",
+    "url": "https://www.mgfoms.ru/chastnye-lica/zashita-prav/poryadok-zashiti/",
+    "region": "Russia, Moscow",
+    "retrieval_status": "Official page opened; escalation paragraphs read.",
+    "use": "Moscow administrative source; not all regions or private policies.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S198",
+    "title": "FDA Direct-to-Consumer Tests",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/direct-consumer-tests",
+    "region": "US",
+    "retrieval_status": "Validity, limitations and FAQ sections read. | Additional 2026-10-08 inspection: Limitations, validity definitions and FAQ read; regulatory list not audited",
+    "use": "Consumer genetics boundaries; US regulatory examples not exhaustive current authorizations.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S199",
+    "title": "Strava How Do I Export My Data",
+    "url": "https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data",
+    "region": "International",
+    "retrieval_status": "Official export instructions read after old URL redirected.",
+    "use": "FIT TCX GPX and bulk export documentation only; no live import tested.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S200",
+    "title": "Strava API policy",
+    "url": "https://www.strava.com/legal/api_policy",
+    "region": "International",
+    "retrieval_status": "Policy opened; bulk-use, consent and interface restrictions inspected.",
+    "use": "Terms review required per integration; not comprehensive legal appraisal.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S201",
+    "title": "PsyOps Evidence Companion README",
+    "url": "https://github.com/Osintsevse/psyops-evidence-companion/blob/main/README.md",
+    "region": "International",
+    "retrieval_status": "Full README read via GitHub connector; underlying 102 sources not audited.",
+    "use": "Optional referral only; no dependency, data transfer or clinical validation.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S202",
+    "title": "USPSTF Colorectal Cancer Screening, 2021-05-18",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening",
+    "region": "US",
+    "retrieval_status": "Recommendation, clinician summary, eligibility, intervals and harms sections read; linked evidence report not fully read.",
+    "use": "Average-risk asymptomatic population; shared choices and colonoscopy follow-up.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S203",
+    "title": "USPSTF Breast Cancer Screening, 2024",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening",
+    "region": "US",
+    "retrieval_status": "Recommendation, interval, evidence-insufficiency and harms sections read; linked evidence report not fully read.",
+    "use": "Biennial mammography 40-74; special high-risk pathways excluded.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S204",
+    "title": "USPSTF Lung Cancer Screening, 2021",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening",
+    "region": "US",
+    "retrieval_status": "Recommendation, clinician summary, eligibility and harms sections read.",
+    "use": "LDCT age and smoking eligibility; not general chest CT screening.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S205",
+    "title": "USPSTF Hypertension in Adults Screening, 2021",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+    "region": "US",
+    "retrieval_status": "Recommendation, intervals, confirmation and measurement paragraphs read.",
+    "use": "Adults without known hypertension; routine screening not acute-care guidance.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S206",
+    "title": "USPSTF Tobacco Smoking Cessation in Adults Including Pregnant Persons, 2021",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions",
+    "region": "US",
+    "retrieval_status": "Recommendation and behavioral-intervention evidence sections read; linked systematic review not fully read.",
+    "use": "Separate pregnancy pathway; much evidence is cigarette-specific.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S207",
+    "title": "WHO Alcohol fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+    "region": "Global",
+    "retrieval_status": "Official fact sheet opened; risk and harm sections read.",
+    "use": "Public-health guidance; not individual withdrawal management or national limits.",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S208",
+    "title": "VCF v4.5 and BCF v2.2 specification, 25 February 2026",
+    "url": "https://samtools.github.io/hts-specs/VCFv4.5.pdf",
+    "region": "International",
+    "retrieval_status": "Selected header, fixed field and genotype sections read; not full specification or parser validation",
+    "use": "Preserve assembly, alleles, missing calls, phasing and quality in private data preparation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S209",
+    "title": "NCBI What is ClinVar?",
+    "url": "https://www.ncbi.nlm.nih.gov/clinvar/intro/",
+    "region": "International",
+    "retrieval_status": "Introduction and submission/classification scope read; no variant-specific entry reviewed",
+    "use": "Distinguish aggregate submitted classifications from an individual diagnosis",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S210",
+    "title": "Apple Support - Share health and fitness data in XML format",
+    "url": "https://support.apple.com/guide/iphone/share-your-health-data-iph5ede58c3d/ios",
+    "region": "International",
+    "retrieval_status": "XML export section read; no account connection or real export/import test",
+    "use": "Owner-provided Apple Health export route; no live integration",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S211",
+    "title": "Garmin FIT SDK overview",
+    "url": "https://developer.garmin.com/fit/overview/",
+    "region": "International",
+    "retrieval_status": "Protocol overview and message scope read; SDK and complete schema not appraised",
+    "use": "Fitness format navigation; no parser or clinical validation",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S212",
+    "title": "EMA anticancer SmPC section 4.8 mock-up - adverse reaction frequency convention, 2022",
+    "url": "https://www.ema.europa.eu/en/documents/other/appendix-3-guideline-clinical-evaluation-anticancer-medicinal-products-summary-product-characteristics-anticancer-medicinal-product-mock-48_en.pdf",
+    "region": "European Union",
+    "retrieval_status": "Official indexed frequency-convention excerpt read; direct PDF returned 429; not full document or drug-specific appraisal",
+    "use": "Translate label frequency bands; no frequency for a particular medicine inferred",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S213",
+    "title": "Batut Screening Serbia - cervical cancer screening",
+    "url": "https://www.skriningsrbija.rs/srl/skrining-raka-grlica-materice/",
+    "region": "Serbia",
+    "retrieval_status": "Published eligibility, Pap sequence and follow-up sections read; page revision date not supplied; local current implementation not confirmed",
+    "use": "Serbian organized screening example; not individual coverage or a complete current national schedule",
     "checked_on": "2026-10-08"
   }
 ]

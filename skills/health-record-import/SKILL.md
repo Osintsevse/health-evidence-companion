@@ -65,3 +65,5 @@ For graphical timelines, use [chart annotations](scripts/medication_chart.py) an
 For handwritten or childhood source sets, apply module 20's historical-intake checklist and save full page coverage. Archive independently legible historical evidence without assigning today's status or guessing dates/doses. Preserve unresolved items and original previews for owner feedback.
 
 For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.
+
+For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.

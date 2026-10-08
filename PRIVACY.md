@@ -1,6 +1,6 @@
 # Privacy policy
 
-Publisher: **Osintsevse**. Project: **Health Evidence Companion**. Last updated: **2026-10-07**. This policy covers the distributed skills package and its public GitHub project; it does not replace the host's privacy policy.
+Publisher: **Osintsevse**. Project: **Health Evidence Companion**. Last updated: **2026-10-08**. This policy covers the distributed skills package and its public GitHub project; it does not replace the host's privacy policy.
 
 ## Data categories and purposes
 
@@ -29,3 +29,9 @@ Public GitHub content remains in the repository, issues, PRs or history until re
 You can stop using or remove the plugin and choose what you send. Use ChatGPT's available data controls and conversation/file deletion options for host-held data; removing this package does not itself erase earlier conversations. Avoid identifiable input and review a search request before authorizing it.
 
 For ordinary package/privacy questions, use the [support page](https://github.com/Osintsevse/health-evidence-companion/issues) without sensitive details. For a suspected disclosure, follow [SECURITY.md](https://github.com/Osintsevse/health-evidence-companion/blob/main/SECURITY.md) and do not repeat the disclosed material publicly. Removal from public history may require separate maintainer/GitHub work. This policy describes package behavior and provides no warranty of regulatory compliance.
+
+## Owner-controlled security and no author access
+
+No patient information may be sent to the author, repository, public issue tracker or other people as feedback, examples or training material. Genetic data, image metadata, routes, derived summaries and source identifiers are private too. An optional psychological plugin receives no records automatically.
+
+The patient/archive owner is responsible for choosing suitable storage and host settings, access permissions, device protection, backups and recovery. The assistant must still preserve permissions and minimize disclosure. This package cannot guarantee the security or retention behavior of the host, storage provider, other enabled tools or devices; it must not promise that data can never leave a device. Explicitly authorized processing by the chosen host/storage is distinct from disclosure to the plugin author.

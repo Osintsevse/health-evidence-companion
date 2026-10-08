@@ -681,9 +681,9 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S95 - AAAAI - IgG food panel testing
 - URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test
 - Region: International; US
-- Reading status: Official explanation and recommendations against diagnostic IgG/IgG4 testing read.
+- Reading status: Official explanation and recommendations against diagnostic IgG/IgG4 testing read. | Additional 2026-10-08 inspection: Rationale and recommendation against diagnostic food IgG directly read; cited older position papers not fully read.
 - Purpose: Avoid unsupported allergy/intolerance panels.
-- Checked: 2026-10-06
+- Checked: 2026-10-08
 
 ### S96 - NHS - Hives
 - URL: https://www.nhs.uk/conditions/hives/
@@ -765,9 +765,9 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S107 - Batut - Immunization instructions for 2026, full PDF
 - URL: https://www.batut.org.rs/download/SMU%20za%20sprovodjenje%20imunizacije%202026.pdf
 - Region: Serbia
-- Reading status: Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders.
+- Reading status: Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders. | Additional 2026-10-08 inspection: Landing version verified and 80-page PDF opened; full tables not appraised.
 - Purpose: Selected national vaccine landmarks and version-specific local guidance.
-- Checked: 2026-10-06
+- Checked: 2026-10-08
 
 ### S108 - Rospotrebnadzor - National vaccination calendar publication, 2025-12-23
 - URL: https://06.rospotrebnadzor.ru/content/kalendar-profilakticheskih-privivok
@@ -814,9 +814,9 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S114 - NCCIH - Homeopathy
 - URL: https://www.nccih.nih.gov/health/homeopathy
 - Region: US
-- Reading status: Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release.
+- Reading status: Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release. | Additional 2026-10-08 inspection: Safety/effectiveness sections read; statement that Australian review is underway is stale.
 - Purpose: General explanation; do not repeat stale publication-status wording.
-- Checked: 2026-10-06
+- Checked: 2026-10-08
 
 ### S115 - Cochrane - Oscillococcinum for influenza-like illness, 2015
 - URL: https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness
@@ -1005,5 +1005,509 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Region: United Kingdom
 - Reading status: Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read
 - Purpose: Purposeful measurement context and uncertainty; not automated individual risk prediction
+- Checked: 2026-10-08
+
+### S142 - University of Belgrade: Courses
+- URL: https://studiesinenglish.med.bg.ac.rs/courses
+- Region: Serbia
+- Reading status: Course catalogue read; Scope map; individual syllabi not read
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S143 - Sechenov: General Medicine
+- URL: https://international.sechenov.ru/directions/general-medicine/en
+- Region: Russia
+- Reading status: About Program and curriculum-link section read; Overview, not detailed syllabus
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S144 - Sechenov: Description of Disciplines
+- URL: https://www.sechenov.ru/eng/education-study/undergraduate/general-medicine/Description%20of%20Disciplines.pdf
+- Region: Russia
+- Reading status: Search-index excerpt only; direct retrieval failed; Detailed curricular claims unsupported
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S145 - Oxford: Pre-clinical Medicine
+- URL: https://www.medsci.ox.ac.uk/study/medicine/pre-clinical
+- Region: UK
+- Reading status: Search-index text only; direct fetch 403; Comparator candidate only
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S146 - Harvard: Course and Examination Requirements
+- URL: https://medstudenthandbook.hms.harvard.edu/103-course-and-examination-requirements-md-degree-new-pathway-pathways-and-hst
+- Region: US
+- Reading status: Preclerkship lists, HST years I-II and core clerkships read; Cohort-sensitive; distinguishes Class of 2030
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S147 - MIT: Biological Chemistry I, Fall 2013
+- URL: https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/
+- Region: US
+- Reading status: Description, format and module index read; Course not completed; F4 notes separately read
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S148 - MIT: Mechanisms of Drug Actions, Fall 2013
+- URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/
+- Region: US
+- Reading status: Description and resource list read; Course not completed; F5/F6 notes separately read
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S149 - WebPath: Internet Pathology Laboratory
+- URL: https://webpath.med.utah.edu/
+- Region: US
+- Reading status: Homepage, scope, disclaimer and copyright read; No tutorials studied; personal noncommercial use; redistribution requires permission
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S150 - GeneReviews
+- URL: https://www.ncbi.nlm.nih.gov/books/NBK1116/
+- Region: US
+- Reading status: Indexed metadata only; CAPTCHA blocked retrieval; No disease chapter appraised
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S151 - WHO: Basic Epidemiology, 2nd edition (2006)
+- URL: https://iris.who.int/bitstream/handle/10665/43541/9241547073_eng.pdf
+- Region: Global
+- Reading status: Indexed-only; PDF retrieval failed; Chapters not read; historical foundations
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S152 - WONCA: Definition of General Practice / Family Medicine
+- URL: https://www.woncaeurope.org/page/definition-of-general-practice-family-medicine
+- Region: Europe
+- Reading status: Landing page and 2023-edition listing read; Full document unread; CC-BY-NC-SA except noted
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S153 - NLM: Biochemistry 5th edition added to Bookshelf (2003)
+- URL: https://www.nlm.nih.gov/pubs/techbull/so03/so03_technote_biochemistry_5th_edition_added.html
+- Region: US
+- Reading status: Announcement read; Historical access notice only; textbook not read
+- Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S154 - NCI SEER: Body Functions and Life Process
+- URL: https://training.seer.cancer.gov/anatomy/body/functions.html
+- Region: US
+- Reading status: Body Functions; Life Process; Organization; Metabolism; Growth; Differentiation read; Introductory training, not clinical guidance
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S155 - NCI SEER: Characteristics of Hormones
+- URL: https://training.seer.cancer.gov/anatomy/endocrine/hormones.html
+- Region: US
+- Reading status: Mechanism of Hormone Action; Control of Hormone Action read; Only feedback/control used; oversimplified chemical classification not adopted
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S156 - NCI SEER: Introduction to the Human Body
+- URL: https://training.seer.cancer.gov/anatomy/body/
+- Region: US
+- Reading status: Cells; Tissues; Organs; Systems read; Not comprehensive anatomy
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S157 - MIT 5.07SC: Enzymes and Catalysis, Fall 2013
+- URL: https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/e9540e994623cb307d2e08dcd3de9d72_MIT5_07SCF13_Lec5_6.pdf
+- Region: US
+- Reading status: Selected text sections II-III, printed pages 5-11, PDF indices 4-10 read; Historical lecture; third-party figures have separate rights; no figures copied
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S158 - MIT 20.201: Fundamentals / Principles and Absorption (September 2013)
+- URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/c3592a216acb700b8d71a46139996985_MIT20_201F13_R1_funda.pdf
+- Region: US
+- Reading status: Printed slides 2 and 6, PDF indices 1 and 5 read; Host title Recitation 1 differs from internal Lecture 4; no drug-specific values used
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S159 - MIT 20.201: Pharmacokinetics (October 9, 2013)
+- URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf
+- Region: US
+- Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity
+- URL: https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/
+- Region: US
+- Reading status: Reduced penetrance and Variable expressivity sections read; No individual or variant-specific risk estimate
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S161 - NHGRI: Variant of Uncertain Significance
+- URL: https://www.genome.gov/genetics-glossary/Variant-of-Uncertain-Significance-VUS
+- Region: US
+- Reading status: Definition and narration read; General glossary; displayed date not assumed to mean substantive revision
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S162 - Merck Manual Professional: Understanding Medical Tests and Test Results
+- URL: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results
+- Region: International
+- Reading status: Dichotomous Tests; Pre-test probability; Odds-likelihood calculation; Sequential Testing read; Editorial reference; erroneous nearby LR interpretation not adopted; update formula cross-checked F10
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S163 - Deeks and Altman: Diagnostic tests 4: likelihood ratios (BMJ 2004;329:168-169)
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC478236/
+- Region: International
+- Reading status: Definition paragraphs and Bayesian-update discussion/box read; Original authors' methods exposition, not new diagnostic validation study; numeric example transcription not copied; DOI 10.1136/bmj.329.7458.168
+- Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
+- Checked: 2026-10-08
+
+### S164 - NICE NG143 - Fever in under 5s
+- URL: https://www.nice.org.uk/guidance/ng143/chapter/recommendations
+- Region: UK
+- Reading status: Official indexed selected age/risk and infant investigation recommendations read; direct page 403; not full guideline.
+- Purpose: Age-specific fever routing; not remote triage validation
+- Checked: 2026-10-08
+
+### S165 - CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15
+- URL: https://www.cdc.gov/hearher/maternal-warning-signs/index.html
+- Region: US
+- Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.
+- Purpose: Pregnancy/postpartum urgent routing
+- Checked: 2026-10-08
+
+### S166 - NICE NG126 - Diagnosis of viable intrauterine pregnancy and tubal ectopic pregnancy, updated 2026-06-17
+- URL: https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
+- Region: UK
+- Reading status: Official indexed ultrasound, viability and serial-hCG sections read; related QS69 referral text inspected; full updated guideline not read.
+- Purpose: Diagnostic uncertainty and professional pregnancy assessment; no treatment protocol
+- Checked: 2026-10-08
+
+### S167 - NHS - Postmenopausal bleeding, reviewed 2026-09-24
+- URL: https://www.nhs.uk/symptoms/post-menopausal-bleeding/
+- Region: UK
+- Reading status: Assessment threshold, investigations and cause sections directly read; patient guidance.
+- Purpose: Assessment even after one small episode; UK service timing not universal
+- Checked: 2026-10-08
+
+### S168 - NHS - Testicle pain, reviewed 2025-06-26
+- URL: https://www.nhs.uk/symptoms/testicle-pain/
+- Region: UK
+- Reading status: Emergency thresholds and torsion explanation directly read; not diagnostic rule.
+- Purpose: Acute scrotal emergency routing
+- Checked: 2026-10-08
+
+### S169 - NIDDK - Symptoms and Causes of Urinary Retention, reviewed 2019-12
+- URL: https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/symptoms-causes
+- Region: US
+- Reading status: Acute/chronic symptoms, urgency and selected causes directly read; older patient resource.
+- Purpose: Retention urgency; no current treatment regimen
+- Checked: 2026-10-08
+
+### S170 - NHS - Dental abscess, reviewed 2026-03-18
+- URL: https://www.nhs.uk/conditions/dental-abscess/
+- Region: UK
+- Reading status: Urgency, definitive treatment and prevention sections directly read; local access differs.
+- Purpose: Dental routing and fluoride/interdental prevention; not pediatric dosing
+- Checked: 2026-10-08
+
+### S171 - ADA - Antibiotic Stewardship, includes 2026 practice statement
+- URL: https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-stewardship
+- Region: US
+- Reading status: Selected definitive treatment, systemic involvement and harm sections directly read; linked full JADA guidance not read.
+- Purpose: Indication-specific antibiotic stewardship; no prescribing regimen
+- Checked: 2026-10-08
+
+### S172 - NHS - Detached retina
+- URL: https://www.nhs.uk/conditions/detached-retina-retinal-detachment/
+- Region: UK
+- Reading status: Symptoms and urgent assessment passages inspected; patient guidance.
+- Purpose: Urgent retinal symptoms; not photographic diagnostic validation
+- Checked: 2026-10-08
+
+### S173 - AAPOS - Vision Therapy, content updated 2023-04
+- URL: https://aapos.org/glossary/vision-therapy
+- Region: US
+- Reading status: Orthoptics, convergence insufficiency, myopia and learning-disability sections directly read; underlying trials not independently appraised.
+- Purpose: Distinguish condition-specific orthoptics from unsupported general claims
+- Checked: 2026-10-08
+
+### S174 - AAD - How to take pictures of your skin for your dermatologist, 2023-07-20
+- URL: https://www.aad.org/public/fad/digital-health/taking-pictures-skin
+- Region: US
+- Reading status: Focus, filter, views, scale, light and secure-transmission sections directly read.
+- Purpose: Photography guidance only; no AI diagnostic validation or image reproduction
+- Checked: 2026-10-08
+
+### S175 - ACR/RSNA RadiologyInfo - MRI Safety, 2025-12-22
+- URL: https://www.radiologyinfo.org/en/info/safety-mr
+- Region: US; international education
+- Reading status: Mechanism and metal/implant/heating safety sections directly read; no device-specific appraisal.
+- Purpose: MRI safety screening; no implant clearance
+- Checked: 2026-10-08
+
+### S176 - ACR/RSNA RadiologyInfo - Radiation Dose from X-Ray and CT Exams, 2025-04-15
+- URL: https://www.radiologyinfo.org/en/info/safety-xray
+- Region: US; international education
+- Reading status: Dose concepts and adult comparison caveats directly read.
+- Purpose: Typical estimates are not patient dosimetry or individualized risk
+- Checked: 2026-10-08
+
+### S177 - NHS - Anaphylaxis
+- URL: https://www.nhs.uk/conditions/anaphylaxis/
+- Region: UK
+- Reading status: Symptoms and emergency action/autoinjector sections directly read.
+- Purpose: Emergency routing with local number/device adaptation; no discharge plan
+- Checked: 2026-10-08
+
+### S178 - BTS/NICE/SIGN NG245 - Asthma diagnosis monitoring and chronic management, 2024
+- URL: https://www.nice.org.uk/guidance/ng245/chapter/recommendations
+- Region: UK
+- Reading status: Official indexed 1.1.1-1.1.7 and selected adult testing pathway read; direct retrieval failed; overview scope inspected.
+- Purpose: Objective diagnosis and acute-care priority; not acute-attack protocol
+- Checked: 2026-10-08
+
+### S179 - NICE NG211 - Rehabilitation after traumatic injury, 2022-01-18
+- URL: https://www.nice.org.uk/guidance/ng211/chapter/Recommendations
+- Region: UK
+- Reading status: Official indexed plan/exercise/weight-bearing recommendations and selected rationale read; direct page 403; not full evidence reviews.
+- Purpose: Individualized complex-trauma rehabilitation; no universal exercise dose
+- Checked: 2026-10-08
+
+### S180 - NICE NG59 - Low back pain and sciatica in over 16s, 2016/2020
+- URL: https://www.nice.org.uk/guidance/ng59/chapter/Recommendations
+- Region: UK
+- Reading status: Official indexed imaging, exercise, manual therapy and electrotherapy recommendations read; not full evidence reviews.
+- Purpose: Indication-specific anti-overtesting and physiotherapy limits
+- Checked: 2026-10-08
+
+### S181 - CDC - Contraception and Birth Control Methods, 2024-08-06
+- URL: https://www.cdc.gov/contraception/about/index.html
+- Region: US
+- Reading status: Choice, STI protection, reversible methods, lactational amenorrhea and emergency contraception sections directly read; full MEC/SPR not read.
+- Purpose: Voluntary choice and timely service navigation; no eligibility/prescribing algorithm
+- Checked: 2026-10-08
+
+### S182 - CDC - Developmental Milestones, reviewed 2026-02-17
+- URL: https://www.cdc.gov/act-early/milestones/index.html
+- Region: US
+- Reading status: Overview, screening limitation and concern/lost-skills action sections directly read; all individual age checklists not read.
+- Purpose: Developmental surveillance distinct from screening/diagnosis; local referral pathways differ
+- Checked: 2026-10-08
+
+### S183 - NHS - Antenatal pregnancy care and appointments
+- URL: https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/
+- Region: UK
+- Reading status: Booking, initial assessment, selected scans/tests and contact-between-visits sections directly read; not all linked guidance.
+- Purpose: Routine care navigation and screening choice; NHS schedule not universal
+- Checked: 2026-10-08
+
+### S184 - NHS - Your 6-week postnatal check, reviewed 2022-11-28
+- URL: https://www.nhs.uk/baby/support-and-services/your-6-week-postnatal-check/
+- Region: UK
+- Reading status: Timing and physical/mental health review sections directly read; review due 2025-11-28 is past.
+- Purpose: Older routine-navigation example; not current universal schedule or reason to defer symptoms
+- Checked: 2026-10-08
+
+### S185 - CDC - Training Module Using WHO Child Growth Standards, 2024-06-28
+- URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/index.html
+- Region: US
+- Reading status: Introduction, population and WHO-to-CDC age-scope statements directly read; submodules not read.
+- Purpose: Age-appropriate chart selection; no diagnostic percentile algorithm
+- Checked: 2026-10-08
+
+### S186 - USPSTF A and B Recommendations
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations
+- Region: US
+- Reading status: Official index and eligibility examples read; individual evidence reviews not fully appraised.
+- Purpose: Prevention entry point; not another country calendar.
+- Checked: 2026-10-08
+
+### S187 - General health checks in adults for reducing morbidity and mortality, Cochrane 2019
+- URL: https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality
+- Region: International
+- Reading status: Plain-language summary and complete abstract read; search ended 2018-01-31; underlying trials not read.
+- Purpose: Multi-disease checkups in unselected adults; not targeted screening.
+- Checked: 2026-10-08
+
+### S188 - WHO Healthy diet
+- URL: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+- Region: Global
+- Reading status: Official fact sheet opened and recommendation sections read.
+- Purpose: General nutrition; not individualized clinical nutrition.
+- Checked: 2026-10-08
+
+### S189 - Karam et al. Comparison of seven popular structured dietary programmes, BMJ 2023
+- URL: https://www.bmj.com/content/380/bmj-2022-072003
+- Region: International
+- Reading status: Search-rendered abstract, results and discussion excerpts read; direct open 403; supplements not read.
+- Purpose: Higher cardiovascular risk trial populations; network meta-analysis; no full-text appraisal.
+- Checked: 2026-10-08
+
+### S190 - WHO guidelines on physical activity and sedentary behaviour 2020
+- URL: https://www.who.int/publications/i/item/9789240015128
+- Region: Global
+- Reading status: Official overview and search-rendered recommendations read; Bookshelf direct open CAPTCHA; full guideline not appraised.
+- Purpose: Population goals, not sports clearance.
+- Checked: 2026-10-08
+
+### S191 - Ekelund et al. Accelerometry measured activity, sedentary time and mortality, BMJ 2019
+- URL: https://www.bmj.com/content/366/bmj.l4570
+- Region: International
+- Reading status: Search-rendered abstract/conclusion read; direct fetch failed.
+- Purpose: Observational review; middle-aged and older populations; confounding.
+- Checked: 2026-10-08
+
+### S192 - Yin et al. Relationship of Sleep Duration With All-Cause Mortality and Cardiovascular Events, 2017
+- URL: https://pubmed.ncbi.nlm.nih.gov/28889101/
+- Region: International
+- Reading status: Search-rendered abstract only; direct open provided no usable article; search through December 2016.
+- Purpose: Prospective cohort meta-analysis; not causal intervention evidence.
+- Checked: 2026-10-08
+
+### S193 - Natural Therapies Review 2024 report and recommendations, published 2025
+- URL: https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-report-and-recommendations.pdf
+- Region: Australia
+- Reading status: Homeopathy summary printed pages 16-17 inspected; 221-page underlying evaluation and appendices not fully read.
+- Purpose: Outcome/comparator-specific findings; preserves low-certainty positives.
+- Checked: 2026-10-08
+
+### S194 - NICE NG197 shared decision making recommendations 2021
+- URL: https://www.nice.org.uk/guidance/ng197/chapter/recommendations
+- Region: UK
+- Reading status: Search-rendered recommendations 1.4.5-1.4.11 read; direct HTML/PDF access errors.
+- Purpose: Absolute risk and frequency communication; not validation of synthetic examples.
+- Checked: 2026-10-08
+
+### S195 - RFZO healthcare abroad
+- URL: https://www.rfzo.rs/index.php/osiguranalica/zz-u-ino
+- Region: Serbia
+- Reading status: Official search-rendered overview read.
+- Purpose: Care abroad categories; eligibility needs individual current verification.
+- Checked: 2026-10-08
+
+### S196 - RFZO healthcare during temporary foreign stays
+- URL: https://www.rfzo.rs/index.php?Itemid=34&id=120&option=com_content&view=article
+- Region: Serbia
+- Reading status: Substantive search-rendered procedure read; direct open failed.
+- Purpose: Emergency travel coverage procedure, not unrestricted coverage.
+- Checked: 2026-10-08
+
+### S197 - Moscow OMS fund: protection of insured persons rights
+- URL: https://www.mgfoms.ru/chastnye-lica/zashita-prav/poryadok-zashiti/
+- Region: Russia, Moscow
+- Reading status: Official page opened; escalation paragraphs read.
+- Purpose: Moscow administrative source; not all regions or private policies.
+- Checked: 2026-10-08
+
+### S198 - FDA Direct-to-Consumer Tests
+- URL: https://www.fda.gov/medical-devices/in-vitro-diagnostics/direct-consumer-tests
+- Region: US
+- Reading status: Validity, limitations and FAQ sections read. | Additional 2026-10-08 inspection: Limitations, validity definitions and FAQ read; regulatory list not audited
+- Purpose: Consumer genetics boundaries; US regulatory examples not exhaustive current authorizations.
+- Checked: 2026-10-08
+
+### S199 - Strava How Do I Export My Data
+- URL: https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data
+- Region: International
+- Reading status: Official export instructions read after old URL redirected.
+- Purpose: FIT TCX GPX and bulk export documentation only; no live import tested.
+- Checked: 2026-10-08
+
+### S200 - Strava API policy
+- URL: https://www.strava.com/legal/api_policy
+- Region: International
+- Reading status: Policy opened; bulk-use, consent and interface restrictions inspected.
+- Purpose: Terms review required per integration; not comprehensive legal appraisal.
+- Checked: 2026-10-08
+
+### S201 - PsyOps Evidence Companion README
+- URL: https://github.com/Osintsevse/psyops-evidence-companion/blob/main/README.md
+- Region: International
+- Reading status: Full README read via GitHub connector; underlying 102 sources not audited.
+- Purpose: Optional referral only; no dependency, data transfer or clinical validation.
+- Checked: 2026-10-08
+
+### S202 - USPSTF Colorectal Cancer Screening, 2021-05-18
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
+- Region: US
+- Reading status: Recommendation, clinician summary, eligibility, intervals and harms sections read; linked evidence report not fully read.
+- Purpose: Average-risk asymptomatic population; shared choices and colonoscopy follow-up.
+- Checked: 2026-10-08
+
+### S203 - USPSTF Breast Cancer Screening, 2024
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
+- Region: US
+- Reading status: Recommendation, interval, evidence-insufficiency and harms sections read; linked evidence report not fully read.
+- Purpose: Biennial mammography 40-74; special high-risk pathways excluded.
+- Checked: 2026-10-08
+
+### S204 - USPSTF Lung Cancer Screening, 2021
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
+- Region: US
+- Reading status: Recommendation, clinician summary, eligibility and harms sections read.
+- Purpose: LDCT age and smoking eligibility; not general chest CT screening.
+- Checked: 2026-10-08
+
+### S205 - USPSTF Hypertension in Adults Screening, 2021
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
+- Region: US
+- Reading status: Recommendation, intervals, confirmation and measurement paragraphs read.
+- Purpose: Adults without known hypertension; routine screening not acute-care guidance.
+- Checked: 2026-10-08
+
+### S206 - USPSTF Tobacco Smoking Cessation in Adults Including Pregnant Persons, 2021
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
+- Region: US
+- Reading status: Recommendation and behavioral-intervention evidence sections read; linked systematic review not fully read.
+- Purpose: Separate pregnancy pathway; much evidence is cigarette-specific.
+- Checked: 2026-10-08
+
+### S207 - WHO Alcohol fact sheet
+- URL: https://www.who.int/news-room/fact-sheets/detail/alcohol
+- Region: Global
+- Reading status: Official fact sheet opened; risk and harm sections read.
+- Purpose: Public-health guidance; not individual withdrawal management or national limits.
+- Checked: 2026-10-08
+
+### S208 - VCF v4.5 and BCF v2.2 specification, 25 February 2026
+- URL: https://samtools.github.io/hts-specs/VCFv4.5.pdf
+- Region: International
+- Reading status: Selected header, fixed field and genotype sections read; not full specification or parser validation
+- Purpose: Preserve assembly, alleles, missing calls, phasing and quality in private data preparation
+- Checked: 2026-10-08
+
+### S209 - NCBI What is ClinVar?
+- URL: https://www.ncbi.nlm.nih.gov/clinvar/intro/
+- Region: International
+- Reading status: Introduction and submission/classification scope read; no variant-specific entry reviewed
+- Purpose: Distinguish aggregate submitted classifications from an individual diagnosis
+- Checked: 2026-10-08
+
+### S210 - Apple Support - Share health and fitness data in XML format
+- URL: https://support.apple.com/guide/iphone/share-your-health-data-iph5ede58c3d/ios
+- Region: International
+- Reading status: XML export section read; no account connection or real export/import test
+- Purpose: Owner-provided Apple Health export route; no live integration
+- Checked: 2026-10-08
+
+### S211 - Garmin FIT SDK overview
+- URL: https://developer.garmin.com/fit/overview/
+- Region: International
+- Reading status: Protocol overview and message scope read; SDK and complete schema not appraised
+- Purpose: Fitness format navigation; no parser or clinical validation
+- Checked: 2026-10-08
+
+### S212 - EMA anticancer SmPC section 4.8 mock-up - adverse reaction frequency convention, 2022
+- URL: https://www.ema.europa.eu/en/documents/other/appendix-3-guideline-clinical-evaluation-anticancer-medicinal-products-summary-product-characteristics-anticancer-medicinal-product-mock-48_en.pdf
+- Region: European Union
+- Reading status: Official indexed frequency-convention excerpt read; direct PDF returned 429; not full document or drug-specific appraisal
+- Purpose: Translate label frequency bands; no frequency for a particular medicine inferred
+- Checked: 2026-10-08
+
+### S213 - Batut Screening Serbia - cervical cancer screening
+- URL: https://www.skriningsrbija.rs/srl/skrining-raka-grlica-materice/
+- Region: Serbia
+- Reading status: Published eligibility, Pap sequence and follow-up sections read; page revision date not supplied; local current implementation not confirmed
+- Purpose: Serbian organized screening example; not individual coverage or a complete current national schedule
 - Checked: 2026-10-08
 

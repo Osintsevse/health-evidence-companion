@@ -48,3 +48,7 @@ Statuses: source identified -> section read -> note checked -> application exami
 MSD Professional provides open clinical chapters. OpenStax Anatomy and Physiology 2e is an introductory textbook, not an entire medical degree. WHO, NICE and local sources address particular questions. [S05-S06, S80-S84]
 
 Harrison, Davidson, Katzung and Stahl remain candidates with lawful access to an appropriate edition; they are not claimed as read. Changing doses, interactions and guidance still require fresh verification.
+
+## Expansion checked 2026-10-08
+
+Module 27 adds a curriculum comparison and selected original foundations cards with exact reading limits; module 28 adds life-stage/specialty entry points; module 29 adds prevention, nutrition and evidence interpretation. The earlier queued items remain incomplete curricula, not completed subjects. Read these modules before treating this table as the current coverage summary.
