@@ -79,6 +79,14 @@ class IntakeTests(unittest.TestCase):
         self.assertEqual(queue.inventory(self.q)['packages'][0]['status'],'ledger_verified_views_pending')
         with closing(sqlite3.connect(self.db)) as c, c:
             self.assertEqual(c.execute('SELECT event_date,event_date_precision,review_status FROM clinical_entries').fetchone(),(None,'unknown','verified_from_source'))
+    def test_repeat_stage_reports_prior_receipt_without_writing_ledger(self):
+        self.commit()
+        before = self.db.read_bytes()
+        result = queue.stage(self.q,self.source,'synthetic-owner')
+        self.assertTrue(result['ledger_committed'])
+        self.assertEqual(result['status'],'ledger_verified_views_pending')
+        self.assertFalse(result['views_verified'])
+        self.assertEqual(self.db.read_bytes(),before)
     def test_changed_review_requires_correction(self):
         self.commit(); self.review_data['facts'][0]['statement_raw']='Changed fictional summary';self.save_review()
         with self.assertRaises(ValueError):self.commit()

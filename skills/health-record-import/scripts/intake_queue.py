@@ -73,6 +73,14 @@ def initialize(queue, record_id):
             pass
     return q
 
+def reported_manifest(q, manifest):
+    receipt = q / 'receipts' / (manifest['queue_id'] + '.json')
+    if not receipt.exists():
+        return manifest
+    result = read_json(receipt)
+    require(result.get('queue_id') == manifest['queue_id'] and result.get('source_sha256') == manifest['source_sha256'] and result.get('record_id') == manifest['record_id'], 'Existing receipt binding mismatch')
+    return {**manifest, 'status':result['status'], 'ledger_committed':bool(result.get('ledger_committed')), 'views_verified':bool(result.get('views_verified'))}
+
 def stage(queue, source, record_id, title=None):
     q = initialize(queue, record_id)
     source = private(source)
@@ -90,7 +98,7 @@ def stage(queue, source, record_id, title=None):
                 m = read_json(folder / 'manifest.json')
                 require(m['record_id'] == record_id and m['source_sha256'] == sha, 'Existing package differs')
                 require(digest((folder / m['source_file']).read_bytes()) == sha, 'Existing source bytes differ')
-                return m
+                return reported_manifest(q, m)
             tmp = q / 'packages' / ('.partial-' + os.urandom(8).hex())
             tmp.mkdir()
             try:
@@ -157,7 +165,7 @@ def main():
             if f.is_file() and f.suffix.lower() in SUFFIXES:
                 try: results.append(stage(q, f, a.record_id))
                 except (ValueError, OSError, UnicodeError) as e: errors.append({'file': f.name, 'error': type(e).__name__})
-        result = {'staged': results, 'errors': errors, 'ledger_committed': False}
+        result = {'staged': results, 'errors': errors, 'ledger_write_performed': False}
     else:
         result = inventory(a.queue)
     print(json.dumps(result, ensure_ascii=True))
