@@ -8,6 +8,8 @@ Reuse the chosen archive and its single authoritative ledger. For a new archive,
 
 Default readable views start with summaries, then source-linked details: overview; preserved vaccination layout; analytes in rows and dated laboratory events in columns; measurements; visits/reports; diagnoses sorted by date with first/last mentions; separate allergies/reactions; medication-use timeline; originals/parsed documents; and clarification. Module 22 governs safe display aliases and feedback. Generate static assets without external requests. A native Sheet can be used directly in Drive, while HTML may need a local synchronized file or download.
 
+These defaults apply to setup, a requested complete archive or a rebuild. Routine small saves use [module 24](24_INCREMENTAL_ARCHIVE_SAVES.md) and refresh only affected managed views, with exact partial/completed status.
+
 ## Reconstruct actual use without losing an ingredient or brand
 
 Keep medicine orders and actual-use events distinct, as in MedicationRequest and MedicationStatement. Preserve who reported each fact and its timing; a historical mention does not establish today's use. [S85, S87, S132]

@@ -66,3 +66,7 @@ PR/main CI produces candidate artifacts. After a reviewed version bump reaches m
 ## Codex and Claude
 
 See [platform setup](docs/platforms.md) for Codex CLI/desktop, Claude Code and individual Claude chat/Cowork skill ZIPs. All use the same general instructions. The default private archive now includes source-linked transposed labs, date-ordered diagnosis summaries, separate allergies, medication-use timelines and a clarification page with explicit transfer and collapsed accepted answers. Actual records remain outside this repository.
+
+## Small updates and save recovery
+
+[Module 24](knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md) defines an incremental path for conversation facts, corrections, save-status checks and unfinished operations. Keep the configured ledger authoritative, distinguish a supplement from a committed/read-back record, and refresh changed managed views only. The optional standard-library sync planner produces private candidates; it uploads nothing and provides no remote lock or background synchronization.

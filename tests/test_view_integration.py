@@ -11,3 +11,10 @@ class FullGenerationTests(unittest.TestCase):
     columns=([] if name=='imports' else contract['common_columns'])+(contract['fact_columns'] if table['fact'] else [])+table['columns'];c.execute('create table '+name+' ('+','.join(x+' TEXT' for x in columns)+')')
    c.commit();c.close();before=hashlib.sha256(db.read_bytes()).hexdigest();out=root/'views';views.generate(db,{},out,ROOT/'skills/health-record-import/assets/archive-view.html');self.assertEqual(hashlib.sha256(db.read_bytes()).hexdigest(),before)
    model=json.loads((out/'view_data.json').read_text());self.assertEqual(model['medication_timeline'],[]);self.assertEqual(model['review_questions'],[]);self.assertTrue(model['feedback_storage_key']);self.assertNotIn('__PRIVATE_MODEL__',(out/'index.html').read_text())
+   first={p.name:(p.read_bytes(),p.stat().st_mtime_ns) for p in out.iterdir() if p.is_file()}
+   views.generate(db,{},out,ROOT/'skills/health-record-import/assets/archive-view.html')
+   self.assertEqual(first,{p.name:(p.read_bytes(),p.stat().st_mtime_ns) for p in out.iterdir() if p.is_file()})
+   views.generate(db,{'as_of':'2040-06-07'},out,ROOT/'skills/health-record-import/assets/archive-view.html')
+   self.assertNotEqual(first['index.html'][0],(out/'index.html').read_bytes())
+   self.assertEqual(first['workbook_data.json'],((out/'workbook_data.json').read_bytes(),(out/'workbook_data.json').stat().st_mtime_ns))
+   self.assertEqual(hashlib.sha256(db.read_bytes()).hexdigest(),before)

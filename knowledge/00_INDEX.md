@@ -42,3 +42,5 @@ The curriculum describes intended coverage. This edition has not completed a med
 - [22: Laboratory identity and owner feedback](22_LAB_IDENTITY_AND_FEEDBACK.md) - multilingual display grouping, unit/scale distinctions and persistent clarification answers.
 
 - [Medication timelines and complete archive defaults](23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md).
+
+- [24: Incremental archive saves and recovery](24_INCREMENTAL_ARCHIVE_SAVES.md) - small updates, current-record retrieval, verified completion stages and bounded retry.

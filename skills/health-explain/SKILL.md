@@ -37,3 +37,5 @@ These are original notes, not full textbooks or permanently current labels. For 
 ## Laboratory identity and clarification
 
 For multilingual analyte labels, specimen/property distinctions, unit transforms and persistent owner feedback, read [laboratory identity and feedback](references/22_LAB_IDENTITY_AND_FEEDBACK.md). Preserve raw source rows. A browsing family does not establish quantitative comparability. Keep a separate source-linked questions page, retain prior owner answers and accept corrections through reviewed provenance.
+
+For authorized persistence or a question about previously confirmed facts, use [incremental saves and current-record retrieval](references/24_INCREMENTAL_ARCHIVE_SAVES.md). Retrieve current accepted relevant facts before repeating an old uncertainty. Route writes to health-record-import; a local note or skill invocation does not prove remote saving. Do not repeat the full import for a status question.

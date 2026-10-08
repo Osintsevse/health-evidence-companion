@@ -13,6 +13,12 @@ Reply in the user's language. Read [public/private policy](references/00_KNOWLED
 - For import/update, use only the supplied or explicitly selected private sources and destination. Google Drive plus one native Google Sheets ledger is the preferred layout when the owner chooses Drive; preserve an existing archive. Use currently available connectors and their document/spreadsheet workflows. Do not claim an installed skill provides a connector, OCR engine, background agent or persistence by itself.
 - For history/graphs, read the private archive's committed rows and originals as needed. Cite observed private source references and page/row locators. Do not answer from imagined memory or announce current medicine use from an old prescription.
 
+## Small saves, status and recovery
+
+For a conversation update, a correction, a status check or resuming a failed save, read [incremental saves](references/24_INCREMENTAL_ARCHIVE_SAVES.md) before loading the full archive. Reuse the configured ledger and current operation; commit and read back the delta, then refresh only changed managed views. A saved supplement, accepted ledger and refreshed views are separate completion stages. Save the accessible transcript when requested and state its coverage. Complete-view defaults apply to setup/rebuild, not every reply.
+
+The optional [local sync planner](scripts/plan_archive_sync.py) stages changed-file candidates against private readback state. It performs no upload, remote validation or locking. Keep its managed path list, state and output private; the adapter must reconcile remote versions and unknown outcomes before writes.
+
 ## Import with evidence
 
 Resolve the correct owner, exact destination IDs and authorization. Reuse clear standing authorization for these records/destination; ask only for missing information that blocks the write. Keep actual IDs/configuration and temporary extraction files outside this public repository. Preserve sharing; resolve unintended recipients before sensitive uploads. An explanation request alone does not authorize saving, and Drive authorization does not authorize a new OCR provider, web search with private details, publication or sharing.

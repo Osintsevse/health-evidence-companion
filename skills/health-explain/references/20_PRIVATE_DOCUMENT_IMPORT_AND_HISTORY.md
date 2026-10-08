@@ -30,7 +30,7 @@ private-archive/
   backups/                        dated exports and manifest
 ```
 
-The Sheet is the authoritative accepted history. Import JSON is an immutable audit snapshot, not a second editable master. Summaries/charts are rebuildable views with an as-of date and included row IDs. Keep originals in received format; crops, rotation, OCR text, compression and translated copies are derivatives. Record a hash of the bytes actually received when those bytes are available; do not claim it is the camera's original if the host transformed the attachment. Google supports stored-file uploads separately from native-document conversion. [S134]
+For this new-archive example, the Sheet is the authoritative accepted history; an existing configured SQLite database or other accepted ledger remains authoritative and is not migrated as part of a routine save. Import JSON is an immutable audit snapshot, not a second editable master. Summaries/charts are rebuildable views with an as-of date and included row IDs. Keep originals in received format; crops, rotation, OCR text, compression and translated copies are derivatives. Record a hash of the bytes actually received when those bytes are available; do not claim it is the camera's original if the host transformed the attachment. Google supports stored-file uploads separately from native-document conversion. [S134]
 
 Use neutral document IDs in generated filenames where practical. Keep the original filename privately in metadata. Do not put diagnoses, names, birth dates or a full medicine list in public names, URLs or chart titles. Record exact provider file IDs, parent folder, MIME type and size from completed operations. A thumbnail or readable text returned by a connector is not proof that the original bytes were uploaded.
 
@@ -111,3 +111,7 @@ The optional developer example in `examples/private_archive/` demonstrates offli
 ## Readable views
 
 For one reader entry point, preserved older context, vaccination layouts, date-by-analyte matrices, observations/reports and verified repeatable exports, use [module 21](21_READABLE_ARCHIVE_VIEWS.md). Keep the configured accepted-history ledger authoritative and generate private views from committed rows; a view is not a new import or clinical reassessment.
+
+## Incremental conversation updates
+
+For small updates, transcript requests, persistence status checks and resuming interrupted saves, use [module 24](24_INCREMENTAL_ARCHIVE_SAVES.md). Keep the accepted ledger, source preservation and reader refresh as separate verified stages. Do not substitute an old text section for the current accepted history or silently claim that a supplement has already been integrated.
