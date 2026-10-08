@@ -21,6 +21,7 @@ TERMS.md
 assets/icon.svg
 docs/archive-followup-review.md
 docs/contribution-workflow.md
+docs/health-dashboard.md
 docs/installation.md
 docs/laboratory-identity-review.md
 docs/maintainer-setup.md
@@ -70,6 +71,7 @@ knowledge/21_READABLE_ARCHIVE_VIEWS.md
 knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md
 knowledge/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md
+knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/sources.csv
@@ -135,6 +137,7 @@ skills/health-explain/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-explain/references/22_LAB_IDENTITY_AND_FEEDBACK.md
 skills/health-explain/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-explain/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-explain/references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md
 skills/health-explain/references/archive_tables.json
 skills/health-explain/references/sources.json
 skills/health-medicine-info/SKILL.md
@@ -174,6 +177,7 @@ skills/health-record-design/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-record-design/references/22_LAB_IDENTITY_AND_FEEDBACK.md
 skills/health-record-design/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-design/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-record-design/references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md
 skills/health-record-design/references/archive_tables.json
 skills/health-record-design/references/sources.json
 skills/health-record-design/references/templates/README.md
@@ -192,6 +196,8 @@ skills/health-record-design/references/templates/source_document.template.json
 skills/health-record-import/SKILL.md
 skills/health-record-import/agents/openai.yaml
 skills/health-record-import/assets/archive-view.html
+skills/health-record-import/assets/lab_dashboard.css
+skills/health-record-import/assets/lab_dashboard_ui.mjs
 skills/health-record-import/assets/medication_chart.css
 skills/health-record-import/assets/medication_chart_ui.mjs
 skills/health-record-import/references/00_KNOWLEDGE_POLICY.md
@@ -203,6 +209,7 @@ skills/health-record-import/references/21_READABLE_ARCHIVE_VIEWS.md
 skills/health-record-import/references/22_LAB_IDENTITY_AND_FEEDBACK.md
 skills/health-record-import/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-import/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-record-import/references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md
 skills/health-record-import/references/archive_tables.json
 skills/health-record-import/references/sources.json
 skills/health-record-import/references/templates/README.md
@@ -222,6 +229,7 @@ skills/health-record-import/scripts/build_labs.mjs
 skills/health-record-import/scripts/collect_feedback.py
 skills/health-record-import/scripts/document_previews.py
 skills/health-record-import/scripts/generate_views.py
+skills/health-record-import/scripts/lab_dashboard.py
 skills/health-record-import/scripts/lab_identity.py
 skills/health-record-import/scripts/medication_chart.py
 skills/health-record-import/scripts/medication_reconciliation.py
@@ -247,6 +255,7 @@ tests/test_archive_sync_plan.py
 tests/test_configure_github.py
 tests/test_document_previews.py
 tests/test_feedback.py
+tests/test_lab_dashboard.py
 tests/test_lab_identity.py
 tests/test_medication_chart.py
 tests/test_medication_reconciliation.py

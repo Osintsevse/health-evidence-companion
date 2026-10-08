@@ -1000,3 +1000,10 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Separate supported use periods from assertion dates and preserve unknown boundaries; simplified display model is not FHIR
 - Checked: 2026-10-08
 
+### S141 - NICE NG246 - Adult anthropometry and central adiposity assessment
+- URL: https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity
+- Region: United Kingdom
+- Reading status: Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read
+- Purpose: Purposeful measurement context and uncertainty; not automated individual risk prediction
+- Checked: 2026-10-08
+

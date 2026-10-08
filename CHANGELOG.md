@@ -1,12 +1,16 @@
 # Changelog
 
-## 0.4.3 - 2026-10-08
+## 0.4.4 - 2026-10-08
+
+- Add offline result graphs, conservative source-reference comparisons, versioned aggregate AI review rendering and optional purposeful follow-up questions. No automatic AI calls, clinical predictions or treatment changes.
 
 - Add graphical source-linked medication bands, date windows, event markers, care-context topics and date-range controls.
 - Preserve unknown boundaries, separate duration-only assertions and non-initiation, and keep medicine colours stable across filters.
 - Read optional committed medication reconciliations with explicit owner, row and date checks; distinguish the dated current list from historical context.
 - Add handwritten historical intake and full source-coverage guidance without inferring present-day diagnoses or doses.
 - Retain Codex/Claude packages and private/public separation; no real cases or clinical validation included.
+
+## 0.4.3 - 2026-10-08
 
 - Add incremental conversation-save, status-check and bounded-recovery rules with separate source, accepted-ledger and reader-view verification.
 - Preserve existing authoritative stores and retrieve current accepted facts before repeating stale summary uncertainty.

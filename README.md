@@ -72,3 +72,5 @@ The medication timeline includes a horizontal scale, supported course bands, unc
 ## Small updates and save recovery
 
 [Module 24](knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md) defines an incremental path for conversation facts, corrections, save-status checks and unfinished operations. Keep the configured ledger authoritative, distinguish a supplement from a committed/read-back record, and refresh changed managed views only. The optional standard-library sync planner produces private candidates; it uploads nothing and provides no remote lock or background synchronization.
+
+[Laboratory graphs and health review](knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md) separates offline numeric flags from a substantive, dated source-grounded AI assessment. The optional adapter supports multi-category selection, original links, uncertainty and private follow-up questions; it transmits nothing automatically.

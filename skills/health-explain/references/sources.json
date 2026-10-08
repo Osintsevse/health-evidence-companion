@@ -1258,5 +1258,14 @@
     "retrieval_status": "Selected Period structure and boundary/unknown-start notes read; no full datatype implementation or interoperability testing",
     "use": "Separate supported use periods from assertion dates and preserve unknown boundaries; simplified display model is not FHIR",
     "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S141",
+    "title": "NICE NG246 - Adult anthropometry and central adiposity assessment",
+    "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity",
+    "region": "United Kingdom",
+    "retrieval_status": "Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read",
+    "use": "Purposeful measurement context and uncertainty; not automated individual risk prediction",
+    "checked_on": "2026-10-08"
   }
 ]

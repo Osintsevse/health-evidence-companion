@@ -36,6 +36,8 @@ Assign topics by the documented context of care or explicit owner classification
 
 ## Dated reconciliation
 
+When the owner asks about stored medication history, retrieve the latest accepted reconciliation and relevant source-linked use rows through available authorized tools before asking them to repeat known facts. Distinguish inaccessible storage from uncertain facts. Unknown course boundaries do not invalidate an explicit dated report of current use or a confirmed dose. Report last confirmation and remaining uncertainty separately. A fresh status question may be needed when confirmation is stale, a change is reported or sources conflict; do not infer continuity.
+
 Show a current-use panel only from an explicit dated reconciliation referencing active, committed, reviewed actual-use rows for the correct owner. A prior prescription, recent import time, benefit report or old summary does not establish current use. Preserve the reconciliation scope and last confirmation date; unresolved or excluded row references fail validation. Historical reports remain accessible in the medicine view and event list. An empty or partial reconciliation is not a comprehensive negative history. [S85]
 
 The optional local `medication_reconciliations` table has `reconciliation_id`, `import_id`, `record_id`, `confirmed_date`, `recorded_at`, `entry_ids_json` and `scope_note`. It is a documented archive extension, not a change to the seven-table import contract. Write/review it through the owner's existing commit/readback workflow; do not pretend the helper connects or writes a native Sheet. Other stores can implement an equivalent source-linked reconciliation with their authorized tools.

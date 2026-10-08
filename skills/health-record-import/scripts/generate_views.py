@@ -36,6 +36,7 @@ def resolve_history(rows, corrections, table):
 
 
 def observation_category(row):
+    if row.get('unit_raw') in ('kg','cm','\u043a\u0433','\u0441\u043c','\xb0C'):return 'vitals'
     method=(row.get('method_raw') or '').lower()
     specimen=(row.get('specimen_raw') or '').lower()
     if 'abpm' in method or row.get('unit_raw') in ('mmHg','bpm'):
@@ -146,12 +147,16 @@ def read_model(db, config):
     if config.get('display_families_enabled',True):
         for r in tables['observations']:
             if r['review_status'] in REVIEWED and observation_category(r) in ('blood','urine','stool'):r['_display']=helper('lab_identity').normalize(r)
+    assessment=None
     try:
+        if 'health_assessments' in names:
+            saved=con.execute('SELECT assessment_json FROM health_assessments WHERE record_id=? AND status=? ORDER BY recorded_at DESC LIMIT 1',(config.get('record_id'),'ai_reviewed')).fetchone()
+            if saved:assessment=json.loads(saved[0])
         reconciliation,current_medications=helper('medication_reconciliation').read_reconciliation(
             con,names,tables,committed,config.get('record_id'),config.get('as_of'))
     finally:
         con.close()
-    return {'format_version':'1.0','generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    return {'format_version':'1.0','health_review':assessment,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'as_of':config.get('as_of'),'locale':config.get('locale','en'),'labels':config.get('labels',{}),
             'status_labels':config.get('status_labels',{}),
             'links':config.get('view_links',{}),
@@ -202,6 +207,8 @@ def generate(db, config, output, template):
     if source_root is not None and (output==source_root or source_root in output.parents):
         raise ValueError('Private output must remain outside the plugin source tree')
     model=read_model(db,config)
+    helper('lab_dashboard').attach_assessment(model,config)
+    model['lab_dashboard']=helper('lab_dashboard').build_dashboard(model,config)
     model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)
     model['medication_chart']=helper('medication_chart').build_chart(model['medication_timeline'],config,model.get('as_of'))
     if config.get('embed_question_originals'):
@@ -223,7 +230,7 @@ def generate(db, config, output, template):
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     template=Path(template)
     text=template.read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
-    for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs')]:
+    for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs'),('__LAB_DASHBOARD_CSS__','lab_dashboard.css'),('__LAB_DASHBOARD_JS__','lab_dashboard_ui.mjs')]:
         if marker in text:text=text.replace(marker,(template.parent/name).read_text(encoding='utf-8'))
     assert '__PRIVATE_MODEL__' not in text
     output.mkdir(parents=True,exist_ok=True)

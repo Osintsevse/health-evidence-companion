@@ -11,8 +11,9 @@ TEMPLATES = ['knowledge/templates/' + name for name in [
     'archive_config.template.json', 'archive_import.template.json', 'source_document.template.json',
     'lab_result.template.json', 'clinical_entry.template.json', 'medication_order.template.json',
     'medication_use_event.template.json', 'correction_entry.template.json']]
+DASHBOARD = ['knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md']
 MAP = {
-    'health-explain': COMMON + ARCHIVE + [f'knowledge/{name}' for name in [
+    'health-explain': COMMON + DASHBOARD + ARCHIVE + [f'knowledge/{name}' for name in [
         '02_PRIMARY_CARE.md', '03_RESPIRATORY.md', '04_MEDICATIONS.md', '05_ALLERGY_SKIN_EYES.md',
         '06_PSYCHIATRY.md', '07_LABS_PREVENTION_METABOLISM.md', '08_MEDICAL_AI.md',
         '09_STUDY_LOG_AND_ROADMAP.md', '10_WORKFLOW_AND_TEMPLATES.md', '11_PHARMACOLOGY_FOUNDATIONS.md',
@@ -29,11 +30,15 @@ MAP = {
         'docs/research/free-medical-tools.md'],
     'health-mental-health': COMMON + ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md'] + ['knowledge/06_PSYCHIATRY.md', 'knowledge/11_PHARMACOLOGY_FOUNDATIONS.md',
         'knowledge/12_DRUG_INTERACTIONS.md', 'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
-    'health-record-design': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
-    'health-record-import': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
+    'health-record-design': COMMON + DASHBOARD + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
+    'health-record-import': COMMON + DASHBOARD + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
     'health-contribute': COMMON + ['CONTRIBUTING.md', 'docs/contribution-workflow.md', 'knowledge/EVIDENCE_METHODS.md',
         'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
 }
+
+
+for _name in ['health-explain','health-record-design','health-record-import']:
+    MAP[_name]=list(dict.fromkeys(MAP[_name]+DASHBOARD))
 
 
 def destination(source):
