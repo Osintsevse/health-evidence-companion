@@ -18,7 +18,10 @@ import tempfile
 import zipfile
 
 MAX_BYTES = 100 * 1024 * 1024
-PUBLIC_ROOT = Path(__file__).resolve().parents[3]
+PUBLIC_ROOT = (next((p for p in Path(__file__).resolve().parents
+                     if (p/'plugin.json').is_file() and (p/'skills').is_dir()), None)
+               or next((p for p in Path(__file__).resolve().parents
+                        if (p/'SKILL.md').is_file() and (p/'scripts').is_dir()), None))
 TEXT_SUFFIXES = {'.txt', '.tsv', '.csv', '.vcf'}
 
 
@@ -186,7 +189,7 @@ def parse(text):
 
 def stage(source, output):
     output = Path(output).resolve()
-    if output == PUBLIC_ROOT or PUBLIC_ROOT in output.parents:
+    if PUBLIC_ROOT and (output == PUBLIC_ROOT or PUBLIC_ROOT in output.parents):
         raise ValueError('Staging output must be outside the public repository')
     if output.exists():
         raise FileExistsError('Output already exists; overwrites are forbidden')

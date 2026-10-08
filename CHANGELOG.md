@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.2 — 2026-10-08
+
+- Reusable offline ClinVar download/index/annotation and marker lookup with provenance and evidence flags.
+- Strict saved MHTML extraction, optional Genetics sidebar and literal private assessment rendering.
+- Genetic interpretation module, source reading ledger and cache refresh workflow; no patient data or clinical validation claims.
+
 ## 0.5.1 - 2026-10-08
 
 - Add current MyHeritage and Genotek export documentation with explicit product/format/version limits.

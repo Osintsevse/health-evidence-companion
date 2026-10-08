@@ -55,6 +55,9 @@ for _skill in ['health-record-design', 'health-record-import']:
 for _skill in ['health-explain', 'health-record-design', 'health-record-import', 'health-research', 'health-contribute', 'health-medicine-info']:
     MAP[_skill] = list(dict.fromkeys(MAP[_skill] + ['knowledge/33_GENETIC_PROVIDER_IMPORT.md', 'knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md']))
 
+for _skill in ['health-explain','health-record-design','health-record-import','health-research','health-contribute','health-medicine-info']:
+    MAP[_skill]=list(dict.fromkeys(MAP[_skill]+['knowledge/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md','docs/genetic-analysis-workflow.md']))
+
 def destination(source):
     if source.startswith('knowledge/templates/'):
         return 'templates/' + Path(source).name

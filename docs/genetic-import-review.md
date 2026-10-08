@@ -21,3 +21,11 @@ No actual patient records, real variants, kit/account identifiers, medical histo
 Ten parser tests use wholly fictional inputs and check preservation, schema rejection, no-calls, conflicting duplicates, VCF filter/quality limits, archive defenses and private atomic staging without overwrites. The full repository suite ran 157 tests successfully with three host-dependent skips (two symlink checks and optional Pillow). Structural/reference checks, package build and whitespace checks passed.
 
 A fresh-context synthetic review inspected four requests concerning absent variants, symbolic I/D, genealogy versus genotype CSV and external upload authorization. It found two VCF uncertainty gaps, which were corrected and tested. These checks validate selected mechanics and workflow boundaries, not clinical accuracy or every provider export version.
+
+## 0.5.2 annotation and reader checks
+
+Checked 2026-10-08. The reusable pipeline adds dated public ClinVar download and index, exact forward GRCh37 SNP cross-references, policy rechecks, identifier/reference-locus lookup, MHTML extraction and a bounded private review queue. The optional archive Genetics tab preserves the existing default navigation and chart data. Russian display dictionaries retain original database codes.
+
+The full repository suite ran 187 tests successfully with three host-dependent skips. Synthetic tests cover conflict/review separation, incompatible build and strand declarations, allele mismatches, missing calls, absent reference loci, duplicate flags, exact provenance, private and installed-skill output boundaries, partial-download preservation, bounded summaries and localization. Build, reference synchronization and source allowlist checks pass. Offline browser checks cover tab placement, search, filters, pagination, existing chart/timeline rendering, mobile overflow and blocked external requests.
+
+These checks verify software behavior and selected workflow boundaries. They do not validate array probe accuracy, all provider exports, rare variant calls, ploidy, haplotypes, clinical diagnoses or personal risk calibration. A reference match is not clinical confirmation.

@@ -4,7 +4,7 @@
 
 This module supports owner-authorized private intake and explanation of consumer genetic exports. It provides a provider-aware workflow, with an optional staging parser tested on wholly synthetic fixtures; no diagnostic service or clinical variant interpretation. Actual exports, kit identifiers, account links, ancestry matches and family information remain outside this public package. Use modules 20 and 30 for private import and clinical interpretation boundaries; module 32 covers numerical risk communication.
 
-Provider documentation was checked on 2026-10-08. No account was accessed and no actual genetic file was downloaded or tested. Documentation can change or describe a different product generation from the supplied file. The file header and product provenance must therefore be checked before normalization.
+Provider documentation was checked on 2026-10-08. No provider account was accessed and no export was downloaded during the public documentation review; synthetic tests do not establish vendor compatibility. Documentation can change or describe a different product generation from the supplied file. The file header and product provenance must therefore be checked before normalization.
 
 ## Classify the artifact before import
 
@@ -49,7 +49,7 @@ The official genealogy page's indexed FAQ lists VCF, 23andmeV5 TXT and 23andmeV3
 
 ## Sources and remaining uncertainty
 
-Source IDs in brackets identify the accompanying source records. MyHeritage pages and Genotek's laboratory-process and Full Genome pages were read as accessible official HTML. The Genotek genealogy claim was read only through a search-index excerpt. No original provider raw export, account UI, historical CSV specification or CRAM rollout was verified. Keep these limitations in any downstream answer about actual file support.
+Source IDs in brackets identify the accompanying source records. MyHeritage pages and Genotek's laboratory-process and Full Genome pages were read as accessible official HTML. The Genotek genealogy claim was read only through a search-index excerpt. No provider account UI, historical CSV specification or CRAM rollout was verified in the public documentation review. Keep these limitations in any downstream answer about actual file support.
 
 ## Optional offline staging helper
 

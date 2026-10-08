@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def update(root=ROOT):
-    sources = json.loads((root / 'knowledge/sources.json').read_text())
+    sources = json.loads((root / 'knowledge/sources.json').read_text(encoding='utf-8'))
     fields = ['id', 'title', 'url', 'region', 'retrieval_status', 'use', 'checked_on']
     with (root / 'knowledge/sources.csv').open('w', newline='', encoding='utf-8') as f:
         # Keep generated text files LF-normalized so `git diff --check` does not

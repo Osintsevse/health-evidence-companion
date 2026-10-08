@@ -12,6 +12,6 @@ def expected(root=ROOT):
 
 def sync(root=ROOT):
     for name,value in expected(root).items():
-        p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(value,indent=2)+'\n',encoding='utf8')
+        p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(value,indent=2)+'\n',encoding='utf8',newline='\n')
     print('Synchronized Claude Code and Codex manifests and Claude marketplace')
 if __name__=='__main__':sync()

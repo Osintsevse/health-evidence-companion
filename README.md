@@ -86,3 +86,5 @@ Generate a complete offline review queue with `python scripts/source_review.py -
 ## Genetic provider exports
 
 [MyHeritage and Genotek intake](knowledge/33_GENETIC_PROVIDER_IMPORT.md) distinguishes health reports, genealogy outputs and raw calls. The optional import-skill helper stages supported CSV/TSV and single-sample textual VCF in a separate private SQLite dataset, with no network or clinical annotation. Actual provider compatibility depends on inspected headers; FASTQ/CRAM processing is not implemented. Raw genotypes are not laboratory time-series points.
+
+Genetic analysis reuses bundled local helpers and a dated public ClinVar cache; see [workflow](docs/genetic-analysis-workflow.md). The optional Genetics sidebar keeps a private, reviewed explanation beside existing archive sections. No patient-specific report or reference database is distributed with the plugin.

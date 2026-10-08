@@ -61,3 +61,5 @@ The curriculum describes intended coverage. This edition has not completed a med
 New entry skills: health-family-care and health-prevention. Load only relevant references; sources and book indices do not establish completed medical training.
 
 - [33: Genetic provider exports](33_GENETIC_PROVIDER_IMPORT.md) - MyHeritage, Genotek, report-versus-raw distinctions and offline private staging.
+
+- [Genetic annotation and interpretation](34_GENETIC_ANNOTATION_AND_INTERPRETATION.md): offline ClinVar, array limits, report review, pharmacogenomics and risk communication.

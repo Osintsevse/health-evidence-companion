@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Evidence-based health education, age-specific prevention and family-care navigation with private health history workflows.",
   "author": {
     "name": "Osintsevse",
@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Nine skills for health explanations, medicines, research, mental-health education, family and life-stage care, prevention, private archive design/import and general knowledge contributions. The English library includes 220 source entries with actual reading limits, selected foundations and public lecture notes, pediatric and pregnancy routing, dentistry, rehabilitation, nutrition, screening and risk communication. Genetic, image and activity-data workflows preserve privacy and uncertainty; no live fitness connector, diagnostic imaging system or genetic risk engine is included. The package has no publisher backend or patient telemetry. Host and owner-selected storage process authorized data under their own controls. Medical information is not a diagnosis or prescription; no clinical validation or medical qualification is claimed. Current local guidance remains necessary. Manual installation remains subject to host policies.",
+        "longDescription": "Nine skills for health explanations, medicines, research, mental-health education, family and life-stage care, prevention, private archive design/import and general knowledge contributions. The English library includes 250 source entries with actual reading limits, selected foundations and public lecture notes, pediatric and pregnancy routing, dentistry, rehabilitation, nutrition, screening and risk communication. Genetic, image and activity-data workflows preserve privacy and uncertainty; no live fitness connector, diagnostic imaging system or clinical genetic risk prediction engine is included. The package has no publisher backend or patient telemetry. Host and owner-selected storage process authorized data under their own controls. Medical information is not a diagnosis or prescription; no clinical validation or medical qualification is claimed. Current local guidance remains necessary. Manual installation remains subject to host policies.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -34,7 +34,8 @@
           "Prepare clinician questions",
           "Design private records",
           "Propose knowledge pull requests",
-          "Maintain authorized private history"
+          "Maintain authorized private history",
+          "Review consumer genetic candidates locally"
         ],
         "websiteURL": "https://github.com/Osintsevse/health-evidence-companion",
         "supportURL": "https://github.com/Osintsevse/health-evidence-companion/issues",
@@ -51,7 +52,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.5.1 adds MyHeritage/Genotek export intake and a bounded offline raw-genotype staging helper, tested on synthetic data. Provider reports and raw calls remain private and distinct from clinical diagnoses and laboratory graphs. No clinical interpretation or provider account connection is included."
+        "release_notes": "Version 0.5.2 bundles reusable local genetic intake, MHTML extraction, marker/alias lookup, dated ClinVar caching and offline candidate annotation/rechecks, with a Genetics sidebar and Russian labels. Candidate records and consumer reports are distinct from diagnoses; consequential findings require clinical confirmation. No patient data or provider account connection is included."
       }
     }
   }
