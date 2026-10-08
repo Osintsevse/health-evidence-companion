@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 - 2026-10-08
+
+- Add family-care and prevention skills with age/life-stage routing and current-local-source checks.
+- Add selected foundations, curricula and lawful lecture/textbook indices with exact reading status; specialty, prevention/nutrition, genetic/activity/image boundaries and numerical risk communication.
+- Expand the canonical register to 213 entries; add offline review planning without telemetry or automatic clinical updates.
+- Strengthen no-author-disclosure and owner-controlled archive security guidance; retain all existing archive workflows.
+- No complete medical training, diagnostic imaging validation or live export adapter is claimed.
+
 ## 0.4.5 - 2026-10-08
 
 - Package the minimal medical book icon in a new downloadable release. Both listing and composer icons use the bundled square SVG.

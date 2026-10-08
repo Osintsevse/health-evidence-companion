@@ -56,3 +56,7 @@ The original general text/template audit checked privacy, valid JSON, agreement 
 ## English distributable edition
 
 The modules are translated and adapted for a general audience. Private-storage implementation is described as design guidance only, outside the public plugin. Sources retain explicit reading limits. Free integrations are optional research material. Build/evaluation results for this edition are recorded separately in `docs/validation.md`.
+
+## 2026-10-08 expansion
+
+Selected NCI foundations, MIT lecture-note sections, genetics concepts, specialty guidance and prevention sources were inspected. Modules 26-32 record actual reading and unresolved areas. No full medical degree, textbook corpus, complete national screening schedule, diagnostic imaging validation or live fitness/genetics integration was completed. All new sources retain reading scope in the canonical register.

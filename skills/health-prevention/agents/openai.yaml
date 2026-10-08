@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prevention and Healthy Ageing"
+  short_description: "Screening, nutrition and informed decisions"
+  default_prompt: "Use $health-prevention to help with this request in my language."

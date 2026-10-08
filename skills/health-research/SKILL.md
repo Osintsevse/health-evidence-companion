@@ -24,3 +24,5 @@ Draft an original evidence card for general knowledge additions and use health-c
 ## Laboratory identity and clarification
 
 For multilingual analyte labels, specimen/property distinctions, unit transforms and persistent owner feedback, read [laboratory identity and feedback](references/22_LAB_IDENTITY_AND_FEEDBACK.md). Preserve raw source rows. A browsing family does not establish quantitative comparability. Keep a separate source-linked questions page, retain prior owner answers and accept corrections through reviewed provenance.
+
+For foundations, books and public lecture notes use [the learning index](references/27_FOUNDATIONS_AND_LEARNING_INDEX.md). Use [source maintenance](references/31_SOURCE_MAINTENANCE.md) for dated rechecks; indexed resources and partial readings remain distinct.

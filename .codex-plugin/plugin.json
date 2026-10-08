@@ -1,7 +1,7 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.4.5",
-  "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
+  "version": "0.5.0",
+  "description": "Evidence-based health education, age-specific prevention and family-care navigation with private health history workflows.",
   "author": {
     "name": "Osintsevse",
     "url": "https://github.com/Osintsevse"
@@ -15,7 +15,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Seven skills for adult health explanations, symptom reasoning, medicine information, research, mental-health education, private record design and owner-authorized document import/history. The English knowledge base contains 140 source entries with actual reading status, blank archive forms and a provenance-aware row contract. Photographs and reports can be organized into a private Drive/Sheets or local archive only when the host provides the required authorized storage tools. Originals, laboratory results, clinical entries, prescriptions and actual-use events stay distinct. The plugin provides instructions, not a built-in OCR or storage service. Keep personal records outside GitHub. Medical information is not a diagnosis or prescription; clinical decisions require qualified professional assessment. Every health-facing answer includes a short disclaimer. Not intended for use as a medical device; no clinical validation or independent prescription changes. Manual personal/workspace installation remains subject to host policies.",
+        "longDescription": "Nine skills for health explanations, medicines, research, mental-health education, family and life-stage care, prevention, private archive design/import and general knowledge contributions. The English library includes 213 source entries with actual reading limits, selected foundations and public lecture notes, pediatric and pregnancy routing, dentistry, rehabilitation, nutrition, screening and risk communication. Genetic, image and activity-data workflows preserve privacy and uncertainty; no live fitness connector, diagnostic imaging system or genetic risk engine is included. The package has no publisher backend or patient telemetry. Host and owner-selected storage process authorized data under their own controls. Medical information is not a diagnosis or prescription; no clinical validation or medical qualification is claimed. Current local guidance remains necessary. Manual installation remains subject to host policies.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -44,7 +44,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.4.5 packages the minimal medical book icon in the downloadable plugin ZIP."
+        "release_notes": "Version 0.5.0 adds family-care and prevention skills, seven indexed knowledge modules, transparent curriculum/lecture reading records, risk communication and an offline source-review queue. No clinical validation, live data integrations or automatic source monitoring claimed."
       }
     }
   }

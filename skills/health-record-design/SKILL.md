@@ -33,3 +33,5 @@ For a complete archive or medication timeline, use [default views and timeline r
 For an existing archive, design a small-update path with separate source, ledger and view statuses, stable operation IDs and private verified file hashes. Use [incremental saves and recovery](references/24_INCREMENTAL_ARCHIVE_SAVES.md); complete defaults must not force a full rebuild after every clarification.
 
 For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.
+
+For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.

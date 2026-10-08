@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained adult health knowledge base and seven AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained health knowledge base and nine AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -20,6 +20,8 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |
 | `health-record-design` | Blank private-record design, provenance, medicine reconciliation and unknown fields |
 | `health-record-import` | Owner-authorized photo/PDF import, preserved originals, source-linked history, corrections, retrieval and charts in private storage |
+| `health-family-care` | Child and pregnancy pathways, reproductive health, specialty navigation and rehabilitation |
+| `health-prevention` | Screening, nutrition, healthy ageing, shared decisions and truthful insurance support |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
 
 Examples: "Compare possible causes of these symptoms and what would distinguish them", "What can I safely check at home and when should I seek care?", "Explain these non-identifying laboratory values", "Check this medicine combination and the unknown ingredients", "Review this study and open a PR for the maintainer". Ask naturally; no method selection required.
@@ -32,7 +34,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 140 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing modules are retained: 213 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -74,3 +76,9 @@ The medication timeline includes a horizontal scale, supported course bands, unc
 [Module 24](knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md) defines an incremental path for conversation facts, corrections, save-status checks and unfinished operations. Keep the configured ledger authoritative, distinguish a supplement from a committed/read-back record, and refresh changed managed views only. The optional standard-library sync planner produces private candidates; it uploads nothing and provides no remote lock or background synchronization.
 
 [Laboratory graphs and health review](knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md) separates offline numeric flags from a substantive, dated source-grounded AI assessment. The optional adapter supports multi-category selection, original links, uncertainty and private follow-up questions; it transmits nothing automatically.
+
+## Curriculum expansion and source maintenance
+
+See [routing](knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md), [learning index](knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md), [specialty and life-stage guidance](knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md), [prevention](knowledge/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md), [private data boundaries](knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md), [source maintenance](knowledge/31_SOURCE_MAINTENANCE.md) and [risk communication](knowledge/32_RISK_COMMUNICATION.md).
+
+Generate a complete offline review queue with `python scripts/source_review.py --as-of 2026-10-08 --interval-days 90`. This plans rechecks; it makes no network requests, does not change reading dates and creates no scheduled monitor. See [expansion audit](docs/knowledge-expansion-2026-10-08.md) for coverage and validation limits.
