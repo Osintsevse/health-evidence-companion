@@ -100,3 +100,8 @@ Genetic analysis reuses bundled local helpers and a dated public ClinVar cache; 
 Version 0.6.0 incorporates PsyOps: 102 psychological source records, the complete original knowledge and practice cards, and all six existing skill names. Medical and psychological registers retain separate IDs and actual reading dates. See [migration and provenance](docs/unification.md), [combined routing](knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) and [source catalog](knowledge/source-catalog.json). These counts are metadata records, not independent studies or completed courses.
 
 Medical records and full psychological journals remain separately authorized. The optional Psychology sidebar includes only an explicitly selected summary projection; omitting that config produces the medical-only view. Installing this package does not migrate any archive, authorize new recipients or access a diary. For psychological reflection use the relevant psyops-* skill; clinical psychiatric medication questions remain under health-mental-health and health-medicine-info.
+
+
+### Saving from an external chat
+
+Use [a private inbox](knowledge/36_PRIVATE_INTAKE_QUEUE.md) when this host lacks safe access to the accepted ledger. Connected file upload can queue a source package; otherwise download it and place it manually. Codex or another authorized local processor can review and accept it later. The inbox is not another medical database. No wearable, smart home or home server is required.
