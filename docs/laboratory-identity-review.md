@@ -1,0 +1,9 @@
+# Archive defaults, laboratory identity and platform review
+
+Version 0.4.2 contribution candidate. Original general material, finite display aliases and wholly synthetic fixtures only. Existing clinical literacy remains in module 16; module 22 adds multilingual identity, source-preserving display grouping, exact decimal unit transforms and persistent owner clarification. Module 23 specifies complete reader views, source-linked medication events, broad use confirmations with explicit exceptions, and the accepted-answer lifecycle.
+
+Inspected sources: LOINC naming, scale and method pages; selected UCUM 2.2 sections; MedlinePlus result/context guidance. No clinical validation, complete terminology dataset or laboratory catalogue review is claimed. Passing tests checks implementation and packaging only. Maintainer review remains required before release.
+
+Validation: registry generation, 112 synchronized skill references, local structure/English/privacy checks, 111 tests with one environment-specific skip, eight example tests, deterministic package build, ZIP allowlisting and git diff whitespace check. A wholly synthetic browser check covered all 12 reader sections, a transposed two-date laboratory family, original image previews, separated orders/use, one open and one collapsed accepted question, and answer export from both sections. An XLSX render checked the transposed laboratory adapter and found no formula errors.
+
+Codex CLI help and current official OpenAI/Anthropic documentation were checked for supported layouts and commands. Codex and Claude Code manifests share the portable identity; seven standalone Claude skill ZIPs retain their resources. Claude Code was unavailable for native installation testing. No separate account installation, native cloud spreadsheet rendering, clinical approval or installed-version update is implied. Maintainer review is required before merge and release.

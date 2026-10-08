@@ -18,3 +18,14 @@ For a Drive-first longitudinal archive, read [document/history workflow](referen
 If asked to import, maintain or retrieve an actual record, route to health-record-import with the owner's explicit destination/source authorization and available private storage tools. Do not reject an authorized private task merely because the public repository excludes patient data. Requests to share need explicit recipients. A folder alone does not implement secure record management. Do not claim unseen-chat access or background updates.
 
 Never add records, anonymized real cases or filled templates to source, PRs or releases. Use only explicitly synthetic exercises if examples are necessary.
+
+## Readable archive views
+
+For dashboards, vaccination tables, laboratory matrices, reader/system organization and repeatable exports, read [readable-view rules](references/21_READABLE_ARCHIVE_VIEWS.md). Preserve the accepted ledger, older context, raw values, uncertainty and source permissions; keep all actual outputs/configuration private. Save the chosen generation rules and scripts with the owner archive, verify every view, and distinguish a generated snapshot from a correction or current clinical state.
+
+## Laboratory identity and clarification
+
+For multilingual analyte labels, specimen/property distinctions, unit transforms and persistent owner feedback, read [laboratory identity and feedback](references/22_LAB_IDENTITY_AND_FEEDBACK.md). Preserve raw source rows. A browsing family does not establish quantitative comparability. Keep a separate source-linked questions page, retain prior owner answers and accept corrections through reviewed provenance.
+
+
+For a complete archive or medication timeline, use [default views and timeline rules](references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md). Provide the standard reader/system layout and source-linked views without requiring layout coaching. Reconcile whole supplied medicine histories, distinguish orders from actual use, retain explicit non-initiation and unknown dates/doses, and move accepted questions into the collapsed answered section. Use the owner chosen store and available host tools.

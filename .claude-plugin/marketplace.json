@@ -1,0 +1,14 @@
+{
+  "name": "health-evidence-companion-community",
+  "owner": {
+    "name": "Osintsevse",
+    "url": "https://github.com/Osintsevse"
+  },
+  "plugins": [
+    {
+      "name": "health-evidence-companion",
+      "source": "./",
+      "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows."
+    }
+  ]
+}

@@ -32,7 +32,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 136 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing modules are retained: 139 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -42,7 +42,7 @@ No copyrighted textbook corpus, third-party interaction dataset or medical model
 
 Use [private archive setup](docs/private-archive-setup.md) and [document/history rules](knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). The preferred Drive layout preserves received photos/PDFs separately and uses one native Google Sheet for dated laboratory results, visits/recommendations, prescriptions, actual medicine-use events, corrections and an import journal. Each fact links to its source/page; unclear fields remain pending. JSON import snapshots provide an audit/export trail, while charts and summaries are derived views.
 
-The public project contains only general rules, the [row contract](knowledge/archive_tables.json), blank forms and wholly synthetic tests. The executing host needs available, explicitly authorized private storage tools; the package itself connects no account and stores no patient's files. Local storage can use the same contract. No real patient archive or live upload is exercised by repository tests.
+The public project contains only general rules, the [row contract](knowledge/archive_tables.json), blank forms and wholly synthetic tests. The executing host needs available, explicitly authorized private storage tools; the package itself connects no account and stores no patient's files. Local storage can use the same contract. [Readable archive views](knowledge/21_READABLE_ARCHIVE_VIEWS.md) describe one reader entry point, a separate system area, vaccination tables, laboratory matrices and repeatable offline views. Optional generators are packaged in the import skill; they create private snapshots only and connect no account. No real patient archive or live upload is exercised by repository tests.
 
 ## Build and release
 
@@ -52,6 +52,7 @@ Python 3.11+ and the standard library suffice:
 python3 scripts/update_registry.py
 python3 scripts/generate_archive_templates.py --check
 python3 scripts/sync_references.py
+python3 scripts/sync_platforms.py
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
 python3 -m unittest discover -s examples/drugbank -v
@@ -59,3 +60,9 @@ python3 scripts/build.py
 ```
 
 PR/main CI produces candidate artifacts. After a reviewed version bump reaches main, release automation publishes versioned and stable-name plugin ZIPs, source ZIP, checksums, build report and setup files. Installed personal copies are snapshots and need an explicit update. GitHub publishing does not install or publish anything in ChatGPT. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).
+
+- [22: Laboratory identity and owner feedback](knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md) - multilingual display grouping, unit/scale distinctions and persistent clarification answers.
+
+## Codex and Claude
+
+See [platform setup](docs/platforms.md) for Codex CLI/desktop, Claude Code and individual Claude chat/Cowork skill ZIPs. All use the same general instructions. The default private archive now includes source-linked transposed labs, date-ordered diagnosis summaries, separate allergies, medication-use timelines and a clarification page with explicit transfer and collapsed accepted answers. Actual records remain outside this repository.

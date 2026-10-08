@@ -27,7 +27,7 @@ English edition, 2026-10-07. Scope: adult health information, with Serbian, Russ
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 136 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 139 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -36,3 +36,9 @@ Read the relevant module, then verify the current guideline and the exact local 
 Keep general knowledge separate from personal records. No real history, personal documents, filled forms or links to private records belong in this repository, its ZIPs, PDFs or retrieval corpus. Removing a person's name does not make their history eligible.
 
 The curriculum describes intended coverage. This edition has not completed a medical degree, a full pharmacology course or clinical validation. Consult modules 09 and 13 for actual status.
+
+- [21: Readable private archive views](21_READABLE_ARCHIVE_VIEWS.md) - dashboards, vaccination tables, date-by-analyte matrices and repeatable private generation.
+
+- [22: Laboratory identity and owner feedback](22_LAB_IDENTITY_AND_FEEDBACK.md) - multilingual display grouping, unit/scale distinctions and persistent clarification answers.
+
+- [Medication timelines and complete archive defaults](23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md).

@@ -212,9 +212,9 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S28 - MedlinePlus - Understanding lab results
 - URL: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
 - Region: United States
-- Reading status: Section opened
+- Reading status: Selected result/context and reference-interval sections rechecked; patient-education page, not assay harmonization validation
 - Purpose: Units, references, false results and clinical context
-- Checked: 2026-10-06
+- Checked: 2026-10-07
 
 ### S29 - NICE - NG136 Hypertension in adults
 - URL: https://www.nice.org.uk/guidance/ng136/chapter/recommendations
@@ -947,7 +947,7 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S133 - UCUM specification
 - URL: https://ucum.org/ucum
 - Region: International
-- Reading status: Selected symbol, variant and case-sensitive sections read; full terminology validator not implemented
+- Reading status: UCUM 2.2 (2024-06-17): selected case sensitivity, prefix, percent and arbitrary-unit sections read; no full parser conformance claimed
 - Purpose: Preserve literal units and verify any standardized mapping; no automatic conversion claim
 - Checked: 2026-10-07
 
@@ -970,5 +970,26 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Region: International
 - Reading status: Selected retention and keepForever limitations read; live revision operations not tested
 - Purpose: Explicit snapshots and backup verification instead of assuming permanent revision retention
+- Checked: 2026-10-07
+
+### S137 - LOINC Users Guide - Major Parts of a LOINC term; page revision 2026-08-17
+- URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term
+- Region: International
+- Reading status: Six-axis identity, naming fields and examples read; no terminology dataset downloaded or formal patient mappings validated
+- Purpose: Laboratory concept identity before multilingual display grouping
+- Checked: 2026-10-07
+
+### S138 - LOINC Users Guide - Type of Scale; page revision 2026-04-10
+- URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/scale
+- Region: International
+- Reading status: Quantitative, semi-quantitative, ordinal and nominal sections read; no clinical thresholds assessed
+- Purpose: Keep detection limits, strips, categories and true quantities distinct
+- Checked: 2026-10-07
+
+### S139 - LOINC Users Guide - Type of Method; page revision 2026-04-28
+- URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/method
+- Region: International
+- Reading status: Opening method-axis and method-specific distinction sections read; complete terminology catalogue not reviewed
+- Purpose: Avoid both method-blind merging and unjustified instrument-level fragmentation
 - Checked: 2026-10-07
 

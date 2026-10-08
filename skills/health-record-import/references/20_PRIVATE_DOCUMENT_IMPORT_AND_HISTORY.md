@@ -107,3 +107,7 @@ Local mode uses the same private row contract plus original files and a journal 
 For another host-managed storage surface, inspect actual file creation, retrieval, persistence, permissions, versioning and export support first. Conversation attachments or a preview do not by themselves prove a durable searchable archive. Do not invent cloud retention or indexing guarantees. Adapt the same provenance/verification contract to the owner's explicit storage choice.
 
 The optional developer example in `examples/private_archive/` demonstrates offline row validation, decimal parsing, literal-text export and chart filtering with synthetic tests. It performs no OCR, Drive writes or clinical interpretation and is excluded from the plugin ZIP. Installed skills can use available host tools without that code. Full photo-to-Drive operation must still be verified with authorized input in the executing environment.
+
+## Readable views
+
+For one reader entry point, preserved older context, vaccination layouts, date-by-analyte matrices, observations/reports and verified repeatable exports, use [module 21](21_READABLE_ARCHIVE_VIEWS.md). Keep the configured accepted-history ledger authoritative and generate private views from committed rows; a view is not a new import or clinical reassessment.

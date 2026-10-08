@@ -247,9 +247,9 @@
     "title": "MedlinePlus - Understanding lab results",
     "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
     "region": "United States",
-    "retrieval_status": "Section opened",
+    "retrieval_status": "Selected result/context and reference-interval sections rechecked; patient-education page, not assay harmonization validation",
     "use": "Units, references, false results and clinical context",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-07"
   },
   {
     "id": "S29",
@@ -1192,7 +1192,7 @@
     "title": "UCUM specification",
     "url": "https://ucum.org/ucum",
     "region": "International",
-    "retrieval_status": "Selected symbol, variant and case-sensitive sections read; full terminology validator not implemented",
+    "retrieval_status": "UCUM 2.2 (2024-06-17): selected case sensitivity, prefix, percent and arbitrary-unit sections read; no full parser conformance claimed",
     "use": "Preserve literal units and verify any standardized mapping; no automatic conversion claim",
     "checked_on": "2026-10-07"
   },
@@ -1221,6 +1221,33 @@
     "region": "International",
     "retrieval_status": "Selected retention and keepForever limitations read; live revision operations not tested",
     "use": "Explicit snapshots and backup verification instead of assuming permanent revision retention",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S137",
+    "title": "LOINC Users Guide - Major Parts of a LOINC term; page revision 2026-08-17",
+    "url": "https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term",
+    "region": "International",
+    "retrieval_status": "Six-axis identity, naming fields and examples read; no terminology dataset downloaded or formal patient mappings validated",
+    "use": "Laboratory concept identity before multilingual display grouping",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S138",
+    "title": "LOINC Users Guide - Type of Scale; page revision 2026-04-10",
+    "url": "https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/scale",
+    "region": "International",
+    "retrieval_status": "Quantitative, semi-quantitative, ordinal and nominal sections read; no clinical thresholds assessed",
+    "use": "Keep detection limits, strips, categories and true quantities distinct",
+    "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S139",
+    "title": "LOINC Users Guide - Type of Method; page revision 2026-04-28",
+    "url": "https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/method",
+    "region": "International",
+    "retrieval_status": "Opening method-axis and method-specific distinction sections read; complete terminology catalogue not reviewed",
+    "use": "Avoid both method-blind merging and unjustified instrument-level fragmentation",
     "checked_on": "2026-10-07"
   }
 ]
