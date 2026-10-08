@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.2 - 2026-10-09
+
+- Add professional genetics source selection with dated reading scopes and source/license boundaries.
+- Download full public ClinGen gene-validity summaries separately from private offline enrichment; preserve every condition and missing evidence.
+- Compare repeated annotations with strict raw/staging identity and preserve previous analyses and duplicate assertions.
+- Prepare minimal recipient/purpose/payload-bound transfer plans that never grant consent or send data.
+- Add synthetic safety and fresh-process checks; no patient data or clinical validation claims.
+
 ## 0.6.0 - 2026-10-08
 
 - Combine nine Health and six PsyOps skills under one package, preserving existing names and source reading histories.
