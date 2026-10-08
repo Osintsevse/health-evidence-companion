@@ -9,7 +9,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from release import REPO, expected_assets, publish, release_tag
+from release import REPO, expected_assets, notes, publish, release_tag
 
 HEAD = 'a' * 40
 VERSION = '0.2.1'
@@ -123,6 +123,26 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(fake.calls[-1][-4:], ['-F', 'draft=false', '-f', 'make_latest=legacy'])
         self.assertFalse(any('/releases/tags/' in arg for args in fake.calls for arg in args))
         self.assertFalse(any('--clobber' in args for args in fake.calls))
+
+
+    def test_changelog_accepts_typographic_dashes_and_stops_at_next_version(self):
+        for separator in ('-', '\u2013', '\u2014'):
+            with self.subTest(separator=separator):
+                (self.root / 'CHANGELOG.md').write_text(
+                    f'# Changelog\n\n## {VERSION} {separator} 2026-10-08\n\n'
+                    '- Current release.\n\n## 0.2.0 - 2026-10-07\n\n- Older release.\n',
+                    encoding='utf-8')
+                fake = FakeCommands(self.root)
+                self.assertEqual(publish(self.root, self.env, fake)['action'], 'create')
+                self.assertIn('Current release.', fake.release['body'])
+                self.assertNotIn('Older release.', fake.release['body'])
+
+    def test_current_manifest_has_extractable_release_notes(self):
+        root = Path(__file__).resolve().parents[1]
+        version = json.loads((root / 'plugin.json').read_text(encoding='utf-8'))['version']
+        result = notes(root, version, HEAD)
+        self.assertIn(f'/releases/download/v{version}', result)
+        self.assertIn(f'Source commit: {HEAD}', result)
 
     def test_published_version_is_not_overwritten_even_from_later_main(self):
         existing = self.draft()

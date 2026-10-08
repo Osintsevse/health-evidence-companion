@@ -89,8 +89,8 @@ def find_release(command, tag):
 
 
 def notes(root, version, head):
-    text = (root / 'CHANGELOG.md').read_text()
-    match = re.search(r'^## ' + re.escape(version) + r' - .*?\n(.*?)(?=^## |\Z)',
+    text = (root / 'CHANGELOG.md').read_text(encoding='utf-8')
+    match = re.search(r'^## ' + re.escape(version) + r' [-\u2013\u2014] [^\n]*\n(.*?)(?=^## |\Z)',
                       text, flags=re.M | re.S)
     if not match:
         raise ValueError('Missing changelog section for the release version')
