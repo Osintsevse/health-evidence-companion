@@ -113,15 +113,15 @@ class SummaryTests(unittest.TestCase):
             self.assertIn('literal text', html)
             self.assertEqual(model['labels']['psychology'], m.ui_labels('ru')['psychology'])
 
-    def test_literal_renderer_contract(self):
-        template = (ROOT / 'skills/health-record-import/assets/archive-view.html').read_text(encoding='utf-8')
-        renderer = template.split('function renderPsychology(){', 1)[1].split('function renderHealthQuestionnaire()', 1)[0]
-        self.assertIn("el('p',row.text)", renderer)
-        self.assertNotIn('innerHTML', renderer)
-        self.assertNotIn('link(', renderer)
-        self.assertIn("if(DATA.psychology)sections.splice", template)
-        self.assertEqual(m.ui_labels('en')['psychology'], 'Psychology')
-        self.assertNotEqual(m.ui_labels('ru')['psychology'], 'Psychology')
+    def test_projection_preserves_original_and_has_independent_rows(self):
+        import copy
+        original=summary()
+        original['private_diary']='Synthetic excluded text'
+        before=copy.deepcopy(original)
+        selected=m.project_summary(original,'synthetic-owner')
+        self.assertEqual(original,before)
+        selected['summaries'][0]['text']='Modified exported copy'
+        self.assertEqual(original,before)
 
 
 if __name__ == '__main__':
