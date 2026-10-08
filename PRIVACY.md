@@ -35,3 +35,7 @@ For ordinary package/privacy questions, use the [support page](https://github.co
 No patient information may be sent to the author, repository, public issue tracker or other people as feedback, examples or training material. Genetic data, image metadata, routes, derived summaries and source identifiers are private too. An optional psychological plugin receives no records automatically.
 
 The patient/archive owner is responsible for choosing suitable storage and host settings, access permissions, device protection, backups and recovery. The assistant must still preserve permissions and minimize disclosure. This package cannot guarantee the security or retention behavior of the host, storage provider, other enabled tools or devices; it must not promise that data can never leave a device. Explicitly authorized processing by the chosen host/storage is distinct from disclosure to the plugin author.
+
+## Psychological records and selected summaries
+
+The combined package adds adult psychological support and separately authorized private notes. Medical-record permission does not authorize a psychological journal or third-party records. A shared reader or clinician export includes only deliberately selected summaries with resolved owner, purpose and recipients. A tab or namespace is not access control: all text embedded in an HTML export is exposed to its recipient. Keep full diaries in a separately controlled store and omit the psychology extension for medical-only exports. The package adds no author backend, telemetry or automatic private-record discovery.

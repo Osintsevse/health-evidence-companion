@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-research"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-research to help with my question."

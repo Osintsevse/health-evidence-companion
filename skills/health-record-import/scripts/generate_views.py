@@ -212,6 +212,11 @@ def generate(db, config, output, template):
     if genetics is not None:
         model['genetics']=genetic_tools.localize_assessment(genetics,config.get('locale','en'))
         model['labels']={**genetic_tools.ui_labels(config.get('locale','en')),**model.get('labels',{})}
+    psychology_tools=helper('psychology_records')
+    psychology=psychology_tools.load_summary(config)
+    if psychology is not None:
+        model['psychology']=psychology
+        model['labels']={**psychology_tools.ui_labels(config.get('locale','en')),**model.get('labels',{})}
     helper('lab_dashboard').attach_assessment(model,config)
     model['lab_dashboard']=helper('lab_dashboard').build_dashboard(model,config)
     model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)

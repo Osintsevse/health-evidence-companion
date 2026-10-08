@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-08",
+  "scope": "Targeted source content inspection, not full reappraisal of all original evidence",
+  "checks": [
+    {"id":"S03","depth":"official indexed recommendations; direct fetch 403","finding":"indication-specific choices, monitoring and competent delivery"},
+    {"id":"S06","depth":"official indexed recommendations; direct fetch 403","finding":"manual-based CBT, indication-specific scope"},
+    {"id":"S12","depth":"ACBS-hosted abstract","finding":"no general superiority over CBT"},
+    {"id":"S14","depth":"full ACBS web page","finding":"six processes, values-based action"},
+    {"id":"S18","depth":"official landing page","finding":"human competency assessment, not AI certification"},
+    {"id":"S21","depth":"official preparation page","finding":"2026 framework mandatory 3 November; 2018 applies before"},
+    {"id":"S38","depth":"official web description","finding":"worry/rumination self-help resources, not full workbook course"},
+    {"id":"S55","depth":"fetch blocked","finding":"previous date preserved"},
+    {"id":"S56","depth":"PubMed abstract","finding":"UP comparison specific to trial"},
+    {"id":"S57","depth":"PubMed abstract; publisher/PMC blocked","finding":"different co-primary outcomes; correction flagged but text unavailable"},
+    {"id":"S58","depth":"abstract, methods, trial-registration text","finding":"protocol not result; target search did not locate completed report"},
+    {"id":"S62","depth":"official web code","finding":"effective 1 January 2026"},
+    {"id":"S75","depth":"abstract, recruitment, methods/results selected full text","finding":"185 randomized, 147 baseline; not equivalence or PsyOps trial"},
+    {"id":"S80","depth":"abstract and sensitivity-analysis sections","finding":"positive estimates sensitive to design and objective outcome restrictions"},
+    {"id":"S87","depth":"methods/participants selected full text","finding":"small F1/F2 self-report sample; season 2019"},
+    {"id":"S89","depth":"empty current page","finding":"previous abstract access preserved"},
+    {"id":"S93","depth":"professional ethics web sections","finding":"competence, multiple relationships and confidentiality"},
+    {"id":"S94","depth":"official certification requirements","finding":"education and mentored practice; no AI certification"},
+    {"id":"S96","depth":"official campaign text","finding":"concussion recognition and medical help; no chat clearance"},
+    {"id":"S98","depth":"full PubMed abstract","finding":"positive MCT comparison; quality limitations"},
+    {"id":"S99","depth":"abstract, methods, bias/results and limitations","finding":"heterogeneity and internally inconsistent wording limit strong claims"},
+    {"id":"S100","depth":"visible official platform text","finding":"training/supervision and assessment support"},
+    {"id":"S101","depth":"official indexed sections 1.5.1 and 1.5.2","finding":"ERP including mental rituals; competent providers"},
+    {"id":"S102","depth":"PubMed abstract/indexed primary text","finding":"old low-quality NLP evidence; not proof of no effect"}
+  ]
+}

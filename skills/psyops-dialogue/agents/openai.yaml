@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-dialogue"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-dialogue to help with my question."

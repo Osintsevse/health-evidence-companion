@@ -1,0 +1,618 @@
+{
+  "checked_on": "2026-10-08",
+  "scope": "URL transport only; no full-text evidence assessment",
+  "results": [
+    {
+      "id": "S01",
+      "url": "https://www.apa.org/practice/guidelines/evidence-based-statement",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.who.int/publications/i/item/9789240084278",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8129869/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme/evidence-centre/anxiety/brief-structured-psychological-interventions",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.nice.org.uk/guidance/ng116/chapter/recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551808/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S09",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.cochrane.org/evidence/CD012955_psychological-therapies-people-borderline-personality-disorder",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S11",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2789694",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S12",
+      "url": "https://contextualscience.org/publications/empirical_status_acceptance_commitment_therapy_review_metaanalyses",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.nice.org.uk/guidance/ng193/chapter/recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S14",
+      "url": "https://contextualscience.org/six_core_processes_act",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.who.int/publications/i/item/9789240003927",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.who.int/publications-detail-redirect/group-interpersonal-therapy-for-depression",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.who.int/publications/i/item/WHO-MSD-MER-18.5",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.who.int/publications/i/item/9789240121041",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.bacp.co.uk/ethical-framework",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.bacp.co.uk/media/26718/bacp-ethical-framework-for-the-counselling-professions-2026.pdf",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.bacp.co.uk/preparingforthe2026ethicalframework",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S22",
+      "url": "https://explore.bps.org.uk/content/report-guideline/bpsrep.2021.inf94",
+      "http": 302,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.apa.org/ethics/code",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29781200/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S25",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32551734/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S26",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32031866/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S27",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32192965/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.nhs.uk/symptoms/loss-of-libido/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S29",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39148917/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S30",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41401244/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S31",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25045907/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S32",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30308474/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S33",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39450933/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.cochrane.org/evidence/CD008063_does-motivational-interviewing-help-people-reduce-their-use-alcohol-drugs-or-both",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S35",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32820538/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S36",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29792475/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S37",
+      "url": "https://cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Worry-and-Rumination",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Assertiveness",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S41",
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S42",
+      "url": "https://www.c4tbh.org/research-brief/randomized-trial-of-a-generative-ai-chatbot-for-mental-health-treatment/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S43",
+      "url": "https://mental.jmir.org/2017/2/e19",
+      "http": 202,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.nature.com/articles/s41746-026-02566-w",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S45",
+      "url": "https://arxiv.org/abs/2504.18412",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S46",
+      "url": "https://github.com/jlcmoore/llms-as-therapists",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S47",
+      "url": "https://github.com/dralexlup/therapy-skill",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S48",
+      "url": "https://github.com/glebis/claude-cognitive-toolkit",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S49",
+      "url": "https://github.com/jjchen17/mindmirror-skill",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S50",
+      "url": "https://github.com/arktnld/cbt-llm-kit",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S51",
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S52",
+      "url": "https://www.nice.org.uk/guidance/ng225/chapter/recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S53",
+      "url": "https://www.who.int/publications/i/item/9789240109926",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S54",
+      "url": "https://www.nice.org.uk/guidance/ng222/chapter/rationale-and-impact",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S55",
+      "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Depression",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S56",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28768327/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.nature.com/articles/s41598-020-64577-1",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S58",
+      "url": "https://link.springer.com/article/10.1186/s13063-024-08689-3",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S59",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35753192/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S60",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12382812/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S61",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41609644/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S62",
+      "url": "https://www.aamft.org/common/Uploaded%20files/Legal%20Ethics/AAMFT%20Code%20of%20Ethics.pdf",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S63",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20350033/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S64",
+      "url": "https://wordpress.clarku.edu/wp-content/uploads/sites/257/2013/09/Cordova-2014-The-Marriage-Checkup_-A-randomize-1.pdf",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S65",
+      "url": "https://experts.umn.edu/en/publications/discernment-counseling-for-mixed-agenda-couples/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S66",
+      "url": "https://www.who.int/publications/i/item/9789240087149",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S67",
+      "url": "https://link.springer.com/article/10.1186/s13031-020-00290-0",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S68",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28104738/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S69",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26129996/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S70",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1533928/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S71",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2594719",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S72",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34513001/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S73",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1301489/full",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S74",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2847751",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S75",
+      "url": "https://mental.jmir.org/2026/1/e82642",
+      "http": 202,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S76",
+      "url": "https://doi.org/10.1126/science.aec8352",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S77",
+      "url": "https://www.nature.com/articles/s42256-022-00593-2",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S78",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208483",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S79",
+      "url": "https://www.nature.com/articles/s41746-026-03199-9_reference.pdf",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S80",
+      "url": "https://link.springer.com/article/10.1007/s40279-023-01931-z",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S81",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1750984X.2021.1944271",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S82",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1750984X.2022.2116723",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S83",
+      "url": "https://journals.sagepub.com/doi/10.1177/1745691611413136",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S84",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40426460/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S85",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00426/full",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S86",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01294/full",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S87",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1697498/full",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S88",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1750984X.2017.1408134",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S89",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41951087/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S90",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1469029220308219",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S91",
+      "url": "https://bjsm.bmj.com/content/55/7/356",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S92",
+      "url": "https://bjsm.bmj.com/content/60/15/1083",
+      "http": 403,
+      "result": "access_error_not_scientific_verdict"
+    },
+    {
+      "id": "S93",
+      "url": "https://appliedsportpsych.org/about/ethics/ethics-code/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S94",
+      "url": "https://appliedsportpsych.org/certification/become-certified/",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S95",
+      "url": "https://www.fia.com/news/fia-launches-pioneering-medical-guidelines-support-driver-health-and-wellbeing",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S96",
+      "url": "https://www.fia.com/news/concussion-awareness-campaign",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S97",
+      "url": "https://appliedsportpsych.org/site/assets/documents/how-to-identify-the-right-provider.pdf",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S98",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39692039/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S99",
+      "url": "https://link.springer.com/article/10.1186/s12991-026-00658-1",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S100",
+      "url": "https://whoequipremote.org/en-gb/home",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S101",
+      "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations",
+      "http": 200,
+      "result": "reachable_transport_only"
+    },
+    {
+      "id": "S102",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23211179/",
+      "http": 203,
+      "result": "reachable_transport_only"
+    }
+  ]
+}

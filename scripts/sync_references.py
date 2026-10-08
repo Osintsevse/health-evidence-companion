@@ -58,7 +58,25 @@ for _skill in ['health-explain', 'health-record-design', 'health-record-import',
 for _skill in ['health-explain','health-record-design','health-record-import','health-research','health-contribute','health-medicine-info']:
     MAP[_skill]=list(dict.fromkeys(MAP[_skill]+['knowledge/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md','docs/genetic-analysis-workflow.md']))
 
+
+PSYCHOLOGY_FILES = ["00_COMMON_INDEX.md","01_EVIDENCE_MAP.md","02_ETHICS_AND_DIALOGUE.md","03_CBT_ACT_WORKFLOW.md","04_RELATIONSHIPS.md","05_SEXUALITY.md","06_MEANING_MORTALITY_TIME.md","07_TOOLBOX.md","08_RISK_AND_REFERRAL.md","09_AI_EVIDENCE_AND_TOOLKITS.md","10_RESEARCH_AND_MAINTENANCE.md","12_SESSION_TEMPLATES.md","13_START_INSTRUCTIONS.md","14_FOUNDATIONS.md","15_MODERN_APPROACHES.md","16_AUTO_ROUTING.md","17_COUPLE_FAMILY_APPROACHES.md","18_JOINT_CONVERSATION_PROTOCOL.md","19_PREVENTIVE_CHECKIN.md","20_DATA_BOUNDARIES.md","21_SHARING_GUIDE.md","22_GLOBAL_AND_CULTURAL_CONTEXT.md","23_SPORT_PSYCHOLOGY.md","24_MOTORSPORT_PRACTICES.md","25_SPORT_PRACTITIONER_PROTOCOL.md","26_HELPING_COMPETENCIES.md","27_CBT_SYSTEM.md","28_ACT_SYSTEM.md","29_MCT_AND_MODERN_EVIDENCE.md","30_EVIDENCE_TRIAGE.md","31_MOTORSPORT_CONSULTING.md","32_OUTCOMES_AND_REVIEW.md","33_ASSESSMENT_AND_REFERRAL.md","34_PSYCHOLOGY_CURRICULUM.md","CHANGELOG.md","QUALITY_REVIEW.md","SOURCES.md","sources.json"]
+PSYCHOLOGY_SKILLS = ["psyops-dialogue","psyops-cbt-act-mct","psyops-sport","psyops-relationships","psyops-research","psyops-private-records"]
+UNIFIED = ['knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']
+for _skill in list(MAP):
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + UNIFIED))
+for _skill in PSYCHOLOGY_SKILLS:
+    MAP[_skill] = UNIFIED + ['knowledge/psychology/' + name for name in PSYCHOLOGY_FILES]
+for _skill in ['psyops-private-records', 'psyops-sport']:
+    MAP[_skill] += ['knowledge/psychology/templates/session-review.blank.json', 'knowledge/psychology/templates/sport-review.blank.json']
+for _skill in ['health-research','health-contribute']:
+    MAP[_skill] += ['knowledge/psychology/SOURCES.md','knowledge/psychology/sources.json','knowledge/source-catalog.json']
+
+for _skill in ['health-record-import','psyops-private-records']:
+    MAP[_skill] += ['docs/private-record-sharing.md']
+
 def destination(source):
+    if source.startswith('knowledge/psychology/'):
+        return 'psychology/' + source[len('knowledge/psychology/'):]
     if source.startswith('knowledge/templates/'):
         return 'templates/' + Path(source).name
     return {'CONTRIBUTING.md': 'contributing.md', 'EVIDENCE_METHODS.md': 'evidence-methods.md'}.get(Path(source).name, Path(source).name)
@@ -80,6 +98,12 @@ def sync(root=ROOT):
         path = root / rel
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
+    helper=root/'skills/health-contribute/scripts/source_review.py'
+    helper.parent.mkdir(parents=True,exist_ok=True)
+    helper.write_bytes((root/'scripts/source_review.py').read_bytes())
+    psychology_helper=root/'skills/psyops-private-records/scripts/psychology_records.py'
+    psychology_helper.parent.mkdir(parents=True,exist_ok=True)
+    psychology_helper.write_bytes((root/'skills/health-record-import/scripts/psychology_records.py').read_bytes())
     print(f'Synchronized {len(wanted)} reference files for {len(MAP)} skills.')
 
 

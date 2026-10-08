@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-cbt-act-mct"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-cbt-act-mct to help with my question."

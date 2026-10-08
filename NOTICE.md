@@ -9,3 +9,7 @@ No commercial textbook chapters, full GINA guide, paid interaction database, thi
 Research notes describe external projects only. Their licenses apply separately: examples include DDInter CC BY-NC-SA 4.0 data, MedGemma HAI-DEF weights, Apache-2.0/MIT code and OpenEMR GPL code. A descriptive link does not sublicense those materials under MIT.
 
 The package icon is an original vector book symbol. No Red Cross, medical-provider endorsement or regulator logo is used.
+
+## PsyOps incorporation
+
+Original PsyOps Evidence Companion instructions and notes by Osintsevse are incorporated from the MIT-licensed public repository snapshot recorded in docs/psychology/import-provenance.json. Canonical text and source histories are preserved; references and skill routing are adapted to the combined package. Rights in external studies, guidelines, instruments and quoted material remain with their respective owners. No textbook, licensed scale or third-party dataset is relicensed by this transfer.

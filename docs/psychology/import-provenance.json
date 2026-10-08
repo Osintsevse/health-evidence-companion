@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/Osintsevse/psyops-evidence-companion",
+  "pinned_commit": "489e7ece2e80ad6c7d8f9668ac4cf7d870b4bc54",
+  "files": [
+    {
+      "original_path": "knowledge/00_COMMON_INDEX.md",
+      "destination_path": "knowledge/psychology/00_COMMON_INDEX.md",
+      "sha256": "5b83a264dd9814e87f8312f620fa908f583d065c089b15a74c15109a02206f15"
+    },
+    {
+      "original_path": "knowledge/01_EVIDENCE_MAP.md",
+      "destination_path": "knowledge/psychology/01_EVIDENCE_MAP.md",
+      "sha256": "a1758550081c2556dad6c4fa108d8cdb69cafefe454b28ceccd6678dda7e2ff4"
+    },
+    {
+      "original_path": "knowledge/02_ETHICS_AND_DIALOGUE.md",
+      "destination_path": "knowledge/psychology/02_ETHICS_AND_DIALOGUE.md",
+      "sha256": "dfcec7d883414f8e2577f8ce8cd26aaae517f0b9f0cc95d791b70878c691086b"
+    },
+    {
+      "original_path": "knowledge/03_CBT_ACT_WORKFLOW.md",
+      "destination_path": "knowledge/psychology/03_CBT_ACT_WORKFLOW.md",
+      "sha256": "d81a9c2fab281e16eb80fc01bc16f94930478b6f09c80d0c402a947a79dd33ab"
+    },
+    {
+      "original_path": "knowledge/04_RELATIONSHIPS.md",
+      "destination_path": "knowledge/psychology/04_RELATIONSHIPS.md",
+      "sha256": "4128a1b526f7d46bf8e5776275c02ce648835274dfcdc9696bfabe5cf4330fa5"
+    },
+    {
+      "original_path": "knowledge/05_SEXUALITY.md",
+      "destination_path": "knowledge/psychology/05_SEXUALITY.md",
+      "sha256": "683d9af165264bcd693e48facb1d15c974fd54ce2bc8caf1044df4a7bebd8a15"
+    },
+    {
+      "original_path": "knowledge/06_MEANING_MORTALITY_TIME.md",
+      "destination_path": "knowledge/psychology/06_MEANING_MORTALITY_TIME.md",
+      "sha256": "3a140ddb200c833660ca4a95e0bef8f2ca2c780c521ca5bec244a4ab0ad9cf01"
+    },
+    {
+      "original_path": "knowledge/07_TOOLBOX.md",
+      "destination_path": "knowledge/psychology/07_TOOLBOX.md",
+      "sha256": "be653311b8fc277e8cd61747c018030f533c2a8b28ef3c335af3eac5e7f16450"
+    },
+    {
+      "original_path": "knowledge/08_RISK_AND_REFERRAL.md",
+      "destination_path": "knowledge/psychology/08_RISK_AND_REFERRAL.md",
+      "sha256": "be1211886a83a1e0232c9bc1e9684d9638a9544d87aa7c38eb90e7ce0da95c47"
+    },
+    {
+      "original_path": "knowledge/09_AI_EVIDENCE_AND_TOOLKITS.md",
+      "destination_path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",
+      "sha256": "27cfba907de402d13afe48e36c61eac9685ed225f9cde5403f92e2be085bf2bf"
+    },
+    {
+      "original_path": "knowledge/10_RESEARCH_AND_MAINTENANCE.md",
+      "destination_path": "knowledge/psychology/10_RESEARCH_AND_MAINTENANCE.md",
+      "sha256": "f73277ffd21072f2d62c9823354ad0bf81e0e4224e40d114ceca8da299b51c2f"
+    },
+    {
+      "original_path": "knowledge/12_SESSION_TEMPLATES.md",
+      "destination_path": "knowledge/psychology/12_SESSION_TEMPLATES.md",
+      "sha256": "b8d1c4ffea23ea094f5abdb76db4b27b6b7f44711d504ac1b040809d51a93ddf"
+    },
+    {
+      "original_path": "knowledge/13_START_INSTRUCTIONS.md",
+      "destination_path": "knowledge/psychology/13_START_INSTRUCTIONS.md",
+      "sha256": "bc9f3683dba38cf63bd282e6540a0286a3316c00289782deb5af127c793092a8"
+    },
+    {
+      "original_path": "knowledge/14_FOUNDATIONS.md",
+      "destination_path": "knowledge/psychology/14_FOUNDATIONS.md",
+      "sha256": "89e86dd7e563b27e5536f8e8a7f2d7d5c66f1a72c2525a5c1720b7a262bfe6aa"
+    },
+    {
+      "original_path": "knowledge/15_MODERN_APPROACHES.md",
+      "destination_path": "knowledge/psychology/15_MODERN_APPROACHES.md",
+      "sha256": "767f262b61987dc1a4cd74c33b2358bf082dd23981d138d1c09183c1ca391ef0"
+    },
+    {
+      "original_path": "knowledge/16_AUTO_ROUTING.md",
+      "destination_path": "knowledge/psychology/16_AUTO_ROUTING.md",
+      "sha256": "c5152565d3f94b723e2b552f29baf228b7210deae76ea2607fc96613b5722c85"
+    },
+    {
+      "original_path": "knowledge/17_COUPLE_FAMILY_APPROACHES.md",
+      "destination_path": "knowledge/psychology/17_COUPLE_FAMILY_APPROACHES.md",
+      "sha256": "b2000f003c543326a973c89482b082602b4cb31be80c5e3effcb5badf16b3a3e"
+    },
+    {
+      "original_path": "knowledge/18_JOINT_CONVERSATION_PROTOCOL.md",
+      "destination_path": "knowledge/psychology/18_JOINT_CONVERSATION_PROTOCOL.md",
+      "sha256": "1515241b7b77a6ee4bbad2ba11925851332b2e5d8ef24eb2c479289e44e00b42"
+    },
+    {
+      "original_path": "knowledge/19_PREVENTIVE_CHECKIN.md",
+      "destination_path": "knowledge/psychology/19_PREVENTIVE_CHECKIN.md",
+      "sha256": "0326f19bcf9736dbe7259bb20bf35f229869b011883c7e9128dae06cb0b11ad5"
+    },
+    {
+      "original_path": "knowledge/20_DATA_BOUNDARIES.md",
+      "destination_path": "knowledge/psychology/20_DATA_BOUNDARIES.md",
+      "sha256": "9153ef9a21e6633881572898af8455cddf1d4686449110a139748d06a86cde56"
+    },
+    {
+      "original_path": "knowledge/21_SHARING_GUIDE.md",
+      "destination_path": "knowledge/psychology/21_SHARING_GUIDE.md",
+      "sha256": "73e32c0e758c1a1234b64b75e94f581abc5d5159bbc58536c0577744905b8436"
+    },
+    {
+      "original_path": "knowledge/22_GLOBAL_AND_CULTURAL_CONTEXT.md",
+      "destination_path": "knowledge/psychology/22_GLOBAL_AND_CULTURAL_CONTEXT.md",
+      "sha256": "919219fb8125466f9b71f9757aa3afdee09bdb712467096b0ad8839f7f762956"
+    },
+    {
+      "original_path": "knowledge/23_SPORT_PSYCHOLOGY.md",
+      "destination_path": "knowledge/psychology/23_SPORT_PSYCHOLOGY.md",
+      "sha256": "a02fa8f2ee0fb2b5113c33aaa80bc69b92cdb3c07dfc4478924bbe88dd59da31"
+    },
+    {
+      "original_path": "knowledge/24_MOTORSPORT_PRACTICES.md",
+      "destination_path": "knowledge/psychology/24_MOTORSPORT_PRACTICES.md",
+      "sha256": "97f27ef157013f0206d85ee4050d99c54ff927b95285ec26fcf615167bfad1b1"
+    },
+    {
+      "original_path": "knowledge/25_SPORT_PRACTITIONER_PROTOCOL.md",
+      "destination_path": "knowledge/psychology/25_SPORT_PRACTITIONER_PROTOCOL.md",
+      "sha256": "4236fb600f5710ce0da52c104ae8e3a993e94735afa004c0bb1de54e87fe4402"
+    },
+    {
+      "original_path": "knowledge/26_HELPING_COMPETENCIES.md",
+      "destination_path": "knowledge/psychology/26_HELPING_COMPETENCIES.md",
+      "sha256": "b3100d4e3e73d92d84dade540bc9644e8485ef5164a2ddff1183314a5d82bc30"
+    },
+    {
+      "original_path": "knowledge/27_CBT_SYSTEM.md",
+      "destination_path": "knowledge/psychology/27_CBT_SYSTEM.md",
+      "sha256": "cc94f2ff5cd1c0ceac7bf94492dcc1ba8c7e2fbb51409ad1b37ac784e59d6d63"
+    },
+    {
+      "original_path": "knowledge/28_ACT_SYSTEM.md",
+      "destination_path": "knowledge/psychology/28_ACT_SYSTEM.md",
+      "sha256": "00a5ea18fa9090974196390185827adb4a245e882b5287b6db48d5ef7d3631a3"
+    },
+    {
+      "original_path": "knowledge/29_MCT_AND_MODERN_EVIDENCE.md",
+      "destination_path": "knowledge/psychology/29_MCT_AND_MODERN_EVIDENCE.md",
+      "sha256": "d679d1ca18be317579903019a9b3f67d62844b4cf5f0e16963d814687cccf832"
+    },
+    {
+      "original_path": "knowledge/30_EVIDENCE_TRIAGE.md",
+      "destination_path": "knowledge/psychology/30_EVIDENCE_TRIAGE.md",
+      "sha256": "194c384b566fbab7894e38966b6f4d5cd37426d9e66f746f0ac8cc0e5c0dc3d5"
+    },
+    {
+      "original_path": "knowledge/31_MOTORSPORT_CONSULTING.md",
+      "destination_path": "knowledge/psychology/31_MOTORSPORT_CONSULTING.md",
+      "sha256": "4d1beb036787be25ff13722abfcc5ebec79b794f1e95793888611c748c728d37"
+    },
+    {
+      "original_path": "knowledge/32_OUTCOMES_AND_REVIEW.md",
+      "destination_path": "knowledge/psychology/32_OUTCOMES_AND_REVIEW.md",
+      "sha256": "3946a630136052814482678f23234012cc9279b84612c3ac2e42e69fdc5bde4d"
+    },
+    {
+      "original_path": "knowledge/33_ASSESSMENT_AND_REFERRAL.md",
+      "destination_path": "knowledge/psychology/33_ASSESSMENT_AND_REFERRAL.md",
+      "sha256": "8f92cd1685f9b833ff04c57e0fbf71ca56ff788751aafe4c5a4cbddefeee778e"
+    },
+    {
+      "original_path": "knowledge/34_PSYCHOLOGY_CURRICULUM.md",
+      "destination_path": "knowledge/psychology/34_PSYCHOLOGY_CURRICULUM.md",
+      "sha256": "38ce96333b56379958b0b07d41db360640502474c95799c5a0a4a671497035ef"
+    },
+    {
+      "original_path": "knowledge/CHANGELOG.md",
+      "destination_path": "knowledge/psychology/CHANGELOG.md",
+      "sha256": "445053e5cc97b589e4be81c771369639882b43f48a90a50ea2c29edbc2a51a61"
+    },
+    {
+      "original_path": "knowledge/QUALITY_REVIEW.md",
+      "destination_path": "knowledge/psychology/QUALITY_REVIEW.md",
+      "sha256": "0eca94ccd68449a03364ee9e017bfdd10ddd81f319cf97bad62c7e89104f9c90"
+    },
+    {
+      "original_path": "knowledge/sources.json",
+      "destination_path": "knowledge/psychology/sources.json",
+      "sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8"
+    },
+    {
+      "original_path": "knowledge/SOURCES.md",
+      "destination_path": "knowledge/psychology/SOURCES.md",
+      "sha256": "2ef2c531c1f5a7d386b0f4c67f2283831c1b944d22f81a81aa6981ea73716598"
+    },
+    {
+      "original_path": "templates/session-review.blank.json",
+      "destination_path": "knowledge/psychology/templates/session-review.blank.json",
+      "sha256": "cdaab0a43738f6e0f569d1dfac39f890cb444b465b9688ae7b90377d0c082375"
+    },
+    {
+      "original_path": "templates/sport-review.blank.json",
+      "destination_path": "knowledge/psychology/templates/sport-review.blank.json",
+      "sha256": "c0daeb04e6b5476df2f44385b218d70b5f90ccb012bef5567f5813c755583e60"
+    },
+    {
+      "original_path": "evals/response-samples.json",
+      "destination_path": "evals/psychology/response-samples.json",
+      "sha256": "f1e045484d24f5685ffac6a3269b1ed41ec39932890fd3cc5f00a143779e4184"
+    },
+    {
+      "original_path": "docs/AUDIT-2026-10-08.md",
+      "destination_path": "docs/psychology/AUDIT-2026-10-08.md",
+      "sha256": "02e41d5e4ecec2ef710d23acf0a1c08244b52f346a1906acd595f46ec70fe7b3"
+    },
+    {
+      "original_path": "docs/DISTRIBUTION.md",
+      "destination_path": "docs/psychology/DISTRIBUTION.md",
+      "sha256": "fe1cb97d49019f746aa7d3b2dddc23207c067e510f2476e9c33d50db125fa85f"
+    },
+    {
+      "original_path": "docs/EVALUATION.md",
+      "destination_path": "docs/psychology/EVALUATION.md",
+      "sha256": "92909ed4f0d6be336efeb849e0d01d6932c5346e95cc84c44ad10bbce116d396"
+    },
+    {
+      "original_path": "docs/evidence-rechecks-2026-10-08.json",
+      "destination_path": "docs/psychology/evidence-rechecks-2026-10-08.json",
+      "sha256": "b98722ed3cb89ec1cb20de47a985af08084f6547de403d5f97a21da6dc2aed2e"
+    },
+    {
+      "original_path": "docs/RELEASE-VERIFICATION.md",
+      "destination_path": "docs/psychology/RELEASE-VERIFICATION.md",
+      "sha256": "d5894b22a1a468883554dcad7f8af6d684a40670f9a6bb431db7eb265972762f"
+    },
+    {
+      "original_path": "docs/source-link-check-2026-10-08.json",
+      "destination_path": "docs/psychology/source-link-check-2026-10-08.json",
+      "sha256": "0edba0a2d0798f9589c3509bae83c27ca6d5a123db23df5c8f6157041b571d94"
+    },
+    {
+      "original_path": "skills/psyops-cbt-act-mct/SKILL.md",
+      "destination_path": "skills/psyops-cbt-act-mct/SKILL.md",
+      "sha256": "b1fd93a3dda647cc5171007481ee8a5ac43332115b74e8aaeda35f315f49e0ce"
+    },
+    {
+      "original_path": "skills/psyops-cbt-act-mct/agents/openai.yaml",
+      "destination_path": "skills/psyops-cbt-act-mct/agents/openai.yaml",
+      "sha256": "3788093141a3164dae16ab2a14a375300e969570de63bf26ce48cb920f99df22"
+    },
+    {
+      "original_path": "skills/psyops-dialogue/SKILL.md",
+      "destination_path": "skills/psyops-dialogue/SKILL.md",
+      "sha256": "ffc0d6b43d1a339fc3afa0884f22628644347178e73e69dc7ac03d4071f077f1"
+    },
+    {
+      "original_path": "skills/psyops-dialogue/agents/openai.yaml",
+      "destination_path": "skills/psyops-dialogue/agents/openai.yaml",
+      "sha256": "01b5d895f8f3657370de8c250bcca1f85b6759cea08f82db9eca545c20af6114"
+    },
+    {
+      "original_path": "skills/psyops-private-records/SKILL.md",
+      "destination_path": "skills/psyops-private-records/SKILL.md",
+      "sha256": "9af374df4f12d0693edf529d913a64f832dc47a9741716481129a84052deb33d"
+    },
+    {
+      "original_path": "skills/psyops-private-records/agents/openai.yaml",
+      "destination_path": "skills/psyops-private-records/agents/openai.yaml",
+      "sha256": "4569d6012db8cd1b49c20bce75b53bd6d7a78ddd169a9f189dd9df0bca566cd2"
+    },
+    {
+      "original_path": "skills/psyops-relationships/SKILL.md",
+      "destination_path": "skills/psyops-relationships/SKILL.md",
+      "sha256": "db89344ffbbe232733628af243d804d7f842e0b6f42c469fe1e585fad442b43a"
+    },
+    {
+      "original_path": "skills/psyops-relationships/agents/openai.yaml",
+      "destination_path": "skills/psyops-relationships/agents/openai.yaml",
+      "sha256": "347a98e736d4d043a35eccc45eb7898c2182d2b96b10c8d66988005e5e7e1025"
+    },
+    {
+      "original_path": "skills/psyops-research/SKILL.md",
+      "destination_path": "skills/psyops-research/SKILL.md",
+      "sha256": "8fc2c69cdf39fc09e83dc3c9f0e8df21d1fcfdb564473b6028582410b16c7101"
+    },
+    {
+      "original_path": "skills/psyops-research/agents/openai.yaml",
+      "destination_path": "skills/psyops-research/agents/openai.yaml",
+      "sha256": "3ce3b19ae2990a35188aa8ec780abeddf81acb364e1fab1f1b40ec326b600e01"
+    },
+    {
+      "original_path": "skills/psyops-sport/SKILL.md",
+      "destination_path": "skills/psyops-sport/SKILL.md",
+      "sha256": "79edc67fe4841b18e2fa670306de4e2a5b97d4674d956d3de12ec6716ff1dfa9"
+    },
+    {
+      "original_path": "skills/psyops-sport/agents/openai.yaml",
+      "destination_path": "skills/psyops-sport/agents/openai.yaml",
+      "sha256": "e7aad155e855798aa6cab18ee42f97070f4ecb17c9f1f3ca8e4f3df86a272531"
+    }
+  ],
+  "scope": "Hashes identify exact upstream Git blobs and the initial byte-preserving transfer. Imported SKILL.md files are subsequently adapted for namespaced references and unified routing; source records and knowledge text preserve the upstream bytes."
+}

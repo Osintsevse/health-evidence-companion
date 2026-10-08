@@ -1,0 +1,4 @@
+interface:
+  display_name: "psyops-sport"
+  short_description: "Evidence-grounded psychology support"
+  default_prompt: "Use $psyops-sport to help with my question."

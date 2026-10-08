@@ -38,7 +38,7 @@ Sources: [Claude plugin overview](https://code.claude.com/docs/en/plugins), [mar
 
 ## Claude chat and Cowork
 
-Download the release asset `health-evidence-companion-claude-skills.zip`. Extract it: it contains seven individual skill ZIPs. In Claude, open **Customize > Skills**, choose **Create skill > Upload a skill**, and upload the needed individual ZIPs. Each contains one named skill folder with `SKILL.md` and its resources. The enclosing bundle is not itself one uploadable skill.
+Download the release asset `health-evidence-companion-claude-skills.zip`. Extract it: it contains fifteen individual skill ZIPs. In Claude, open **Customize > Skills**, choose **Create skill > Upload a skill**, and upload the needed individual ZIPs. Each contains one named skill folder with `SKILL.md` and its resources. The enclosing bundle is not itself one uploadable skill.
 
 For an archive, start with `health-record-import.zip` and `health-record-design.zip`. Enable other skills for health explanation, medicine information, mental-health education, research and general contributions when needed. Code execution/Skills availability and organization permissions vary. Installation does not grant file or Drive access. Account uploads and Cowork operation were not exercised by the package's local tests.
 
@@ -51,3 +51,5 @@ Example request: "Organize these selected reports in my existing private archive
 The assistant follows modules 20-23, chooses a supported store and keeps one authoritative ledger. It preserves dates, raw values, uncertainty, separate orders/use and corrections. The default reader interface supplies analyte-by-date labs, diagnosis summaries, allergies, medication events, original previews and explicit answer transfer. Existing owner layouts and authorization take precedence. Missing capabilities are reported rather than silently switching storage or claiming a successful write.
 
 When updating, verify the installed version and required resources. Perform a wholly synthetic forward check with an uncertain result, a prescription without use evidence, an explicit use report, and an accepted unknown answer. Confirm sources and uncertainty remain visible; do not use a real archive as a public test. Public distribution and maintainer review are separate from private record maintenance.
+
+Version 0.6.0 also includes the six psyops-* psychology skills. Read [combined-package migration](unification.md) before replacing a standalone PsyOps installation. Existing private archives are not moved or connected by package installation.

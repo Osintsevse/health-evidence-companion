@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained health knowledge base and nine AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained medical and adult psychology knowledge base and fifteen AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -23,6 +23,12 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-family-care` | Child and pregnancy pathways, reproductive health, specialty navigation and rehabilitation |
 | `health-prevention` | Screening, nutrition, healthy ageing, shared decisions and truthful insurance support |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
+| `psyops-dialogue` | Adult supportive reflection, emotions and meaning |
+| `psyops-cbt-act-mct` | Optional structured CBT, ACT and MCT self-help |
+| `psyops-relationships` | Relationships, consent and genuinely shared conversations |
+| `psyops-sport` | Sport and motorsport psychological preparation |
+| `psyops-research` | Appraise psychology/sport methods and public evidence |
+| `psyops-private-records` | Separately authorized private psychological notes |
 
 Examples: "Compare possible causes of these symptoms and what would distinguish them", "What can I safely check at home and when should I seek care?", "Explain these non-identifying laboratory values", "Check this medicine combination and the unknown ingredients", "Review this study and open a PR for the maintainer". Ask naturally; no method selection required.
 
@@ -34,7 +40,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 220 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing medical modules are retained: 250 medical source records, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -88,3 +94,9 @@ Generate a complete offline review queue with `python scripts/source_review.py -
 [MyHeritage and Genotek intake](knowledge/33_GENETIC_PROVIDER_IMPORT.md) distinguishes health reports, genealogy outputs and raw calls. The optional import-skill helper stages supported CSV/TSV and single-sample textual VCF in a separate private SQLite dataset, with no network or clinical annotation. Actual provider compatibility depends on inspected headers; FASTQ/CRAM processing is not implemented. Raw genotypes are not laboratory time-series points.
 
 Genetic analysis reuses bundled local helpers and a dated public ClinVar cache; see [workflow](docs/genetic-analysis-workflow.md). The optional Genetics sidebar keeps a private, reviewed explanation beside existing archive sections. No patient-specific report or reference database is distributed with the plugin.
+
+## Unified psychology edition
+
+Version 0.6.0 incorporates PsyOps: 102 psychological source records, the complete original knowledge and practice cards, and all six existing skill names. Medical and psychological registers retain separate IDs and actual reading dates. See [migration and provenance](docs/unification.md), [combined routing](knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) and [source catalog](knowledge/source-catalog.json). These counts are metadata records, not independent studies or completed courses.
+
+Medical records and full psychological journals remain separately authorized. The optional Psychology sidebar includes only an explicitly selected summary projection; omitting that config produces the medical-only view. Installing this package does not migrate any archive, authorize new recipients or access a diary. For psychological reflection use the relevant psyops-* skill; clinical psychiatric medication questions remain under health-mental-health and health-medicine-info.

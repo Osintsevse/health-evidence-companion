@@ -27,7 +27,7 @@ English edition, 2026-10-08. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 220 entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 250 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -63,3 +63,7 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 - [33: Genetic provider exports](33_GENETIC_PROVIDER_IMPORT.md) - MyHeritage, Genotek, report-versus-raw distinctions and offline private staging.
 
 - [Genetic annotation and interpretation](34_GENETIC_ANNOTATION_AND_INTERPRETATION.md): offline ClinVar, array limits, report review, pharmacogenomics and risk communication.
+
+## Psychology and combined routing
+
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the nine medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 102-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.

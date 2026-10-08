@@ -122,7 +122,7 @@ class PackageTests(unittest.TestCase):
             build(self.root)
 
     def test_real_tree_validates(self):
-        self.assertEqual(validate(self.root)['sources'], len(json.loads((self.root / 'knowledge/sources.json').read_text())))
+        self.assertEqual(validate(self.root)['medical_sources'], len(json.loads((self.root / 'knowledge/sources.json').read_text())))
 
     def test_build_is_reproducible(self):
         a = build(self.root, Path(self.temp.name) / 'a')

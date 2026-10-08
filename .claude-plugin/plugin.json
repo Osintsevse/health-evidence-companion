@@ -1,7 +1,7 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.5.2",
-  "description": "Evidence-based health education, age-specific prevention and family-care navigation with private health history workflows.",
+  "version": "0.6.0",
+  "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
     "url": "https://github.com/Osintsevse"
