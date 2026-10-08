@@ -29,3 +29,5 @@ For multilingual analyte labels, specimen/property distinctions, unit transforms
 
 
 For a complete archive or medication timeline, use [default views and timeline rules](references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md). Provide the standard reader/system layout and source-linked views without requiring layout coaching. Reconcile whole supplied medicine histories, distinguish orders from actual use, retain explicit non-initiation and unknown dates/doses, and move accepted questions into the collapsed answered section. Use the owner chosen store and available host tools.
+
+For an existing archive, design a small-update path with separate source, ledger and view statuses, stable operation IDs and private verified file hashes. Use [incremental saves and recovery](references/24_INCREMENTAL_ARCHIVE_SAVES.md); complete defaults must not force a full rebuild after every clarification.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "format": "private_longitudinal_tables",
-  "description": "Project row contract, not a FHIR profile. Actual rows and destination IDs are private. The Sheet is authoritative; import JSON and derived charts are snapshots.",
+  "description": "Project row contract, not a FHIR profile. Actual rows and destination IDs are private. The configured accepted-history ledger is authoritative, including an existing Sheet or SQLite store; import JSON and derived charts are snapshots.",
   "common_columns": ["entry_id", "import_id", "recorded_at", "record_status", "supersedes_entry_id"],
   "fact_columns": ["source_kind", "source_document_id", "source_locator", "source_text", "event_date", "event_date_precision", "review_status", "uncertainties"],
   "enums": {

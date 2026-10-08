@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",

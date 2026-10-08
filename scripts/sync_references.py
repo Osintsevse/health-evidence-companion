@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
           'knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md']
-ARCHIVE = ['knowledge/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md', 'knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md', 'knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json', 'knowledge/21_READABLE_ARCHIVE_VIEWS.md']
+ARCHIVE = ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md', 'knowledge/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md', 'knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md', 'knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md', 'knowledge/archive_tables.json', 'knowledge/21_READABLE_ARCHIVE_VIEWS.md']
 TEMPLATES = ['knowledge/templates/' + name for name in [
     'README.md', 'patient_card.template.md', 'patient_record.template.json',
     'medication_entry.template.json', 'episode_entry.template.json',
@@ -19,7 +19,7 @@ MAP = {
         '12_DRUG_INTERACTIONS.md', '13_MEDICAL_CURRICULUM.md', '14_PATIENT_RECORD_RULES.md',
         '15_ALLERGOLOGY.md', '16_LABORATORY_LITERACY.md', '17_VACCINATION.md',
         '18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md']],
-    'health-medicine-info': COMMON + [f'knowledge/{name}' for name in [
+    'health-medicine-info': COMMON + ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md'] + [f'knowledge/{name}' for name in [
         '04_MEDICATIONS.md', '06_PSYCHIATRY.md', '08_MEDICAL_AI.md',
         '11_PHARMACOLOGY_FOUNDATIONS.md', '12_DRUG_INTERACTIONS.md', '15_ALLERGOLOGY.md',
         '18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md']] + ['docs/research/free-medical-tools.md'],
@@ -27,7 +27,7 @@ MAP = {
         'knowledge/15_ALLERGOLOGY.md', 'knowledge/16_LABORATORY_LITERACY.md', 'knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md',
         'knowledge/17_VACCINATION.md', 'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md',
         'docs/research/free-medical-tools.md'],
-    'health-mental-health': COMMON + ['knowledge/06_PSYCHIATRY.md', 'knowledge/11_PHARMACOLOGY_FOUNDATIONS.md',
+    'health-mental-health': COMMON + ['knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md'] + ['knowledge/06_PSYCHIATRY.md', 'knowledge/11_PHARMACOLOGY_FOUNDATIONS.md',
         'knowledge/12_DRUG_INTERACTIONS.md', 'knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md'],
     'health-record-design': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
     'health-record-import': COMMON + ARCHIVE + ['knowledge/14_PATIENT_RECORD_RULES.md'] + TEMPLATES,
