@@ -760,9 +760,9 @@
     "title": "HL7 FHIR R4 - MedicationStatement",
     "url": "https://hl7.org/fhir/R4/medicationstatement.html",
     "region": "International",
-    "retrieval_status": "Key definitions and reported-use/prescription distinction read",
+    "retrieval_status": "Selected R4 status, effective date/period, assertion-date and information-source fields rechecked; no FHIR conformance or clinical validation",
     "use": "Actual-use provenance/status; project templates are not FHIR resources",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-08"
   },
   {
     "id": "S86",
@@ -1249,5 +1249,23 @@
     "retrieval_status": "Opening method-axis and method-specific distinction sections read; complete terminology catalogue not reviewed",
     "use": "Avoid both method-blind merging and unjustified instrument-level fragmentation",
     "checked_on": "2026-10-07"
+  },
+  {
+    "id": "S140",
+    "title": "HL7 FHIR R4 4.0.1 - Period datatype",
+    "url": "https://hl7.org/fhir/R4/datatypes.html#Period",
+    "region": "International",
+    "retrieval_status": "Selected Period structure and boundary/unknown-start notes read; no full datatype implementation or interoperability testing",
+    "use": "Separate supported use periods from assertion dates and preserve unknown boundaries; simplified display model is not FHIR",
+    "checked_on": "2026-10-08"
+  },
+  {
+    "id": "S141",
+    "title": "NICE NG246 - Adult anthropometry and central adiposity assessment",
+    "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity",
+    "region": "United Kingdom",
+    "retrieval_status": "Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read",
+    "use": "Purposeful measurement context and uncertainty; not automated individual risk prediction",
+    "checked_on": "2026-10-08"
   }
 ]

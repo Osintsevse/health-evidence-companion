@@ -32,7 +32,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 139 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing modules are retained: 140 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -67,6 +67,10 @@ PR/main CI produces candidate artifacts. After a reviewed version bump reaches m
 
 See [platform setup](docs/platforms.md) for Codex CLI/desktop, Claude Code and individual Claude chat/Cowork skill ZIPs. All use the same general instructions. The default private archive now includes source-linked transposed labs, date-ordered diagnosis summaries, separate allergies, medication-use timelines and a clarification page with explicit transfer and collapsed accepted answers. Actual records remain outside this repository.
 
+The medication timeline includes a horizontal scale, supported course bands, uncertain-date windows, contextual topic filters and source-linked details. Current-use panels require a dated accepted reconciliation; historical mentions stay separate.
+
 ## Small updates and save recovery
 
 [Module 24](knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md) defines an incremental path for conversation facts, corrections, save-status checks and unfinished operations. Keep the configured ledger authoritative, distinguish a supplement from a committed/read-back record, and refresh changed managed views only. The optional standard-library sync planner produces private candidates; it uploads nothing and provides no remote lock or background synchronization.
+
+[Laboratory graphs and health review](knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md) separates offline numeric flags from a substantive, dated source-grounded AI assessment. The optional adapter supports multi-category selection, original links, uncertainty and private follow-up questions; it transmits nothing automatically.

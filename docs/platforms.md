@@ -11,7 +11,7 @@ codex plugin marketplace add Osintsevse/health-evidence-companion
 codex plugin add health-evidence-companion@health-evidence-companion-community
 ```
 
-The second command was checked against the installed Codex CLI help. Restart the desktop app after local package changes. The repository's `.agents/plugins/marketplace.json`, portable `plugin.json` and `.codex-plugin/plugin.json` compatibility overlay declare the same skills and identity. For a contribution preview, add `--ref codex/medical-archive-portability-0.4.2` to the marketplace-add command; use main or a reviewed release tag after merge. Do not assume GitHub changes update an installed snapshot.
+The second command was checked against the installed Codex CLI help. Restart the desktop app after local package changes. The repository's `.agents/plugins/marketplace.json`, portable `plugin.json` and `.codex-plugin/plugin.json` compatibility overlay declare the same skills and identity. For a contribution preview, add `--ref codex/archive-graphs-review-0.4.4` to the marketplace-add command; use main or a reviewed release tag after merge. Do not assume GitHub changes update an installed snapshot.
 
 A skills-only fallback is to copy each complete `skills/<name>/` directory into a private project's `.agents/skills/` or the user's `~/.agents/skills/`, preserving references/assets/scripts and unrelated existing skills. Do not copy actual records into this repository. A supported workspace GitHub import remains available as described in [manual setup](quick-start.md).
 

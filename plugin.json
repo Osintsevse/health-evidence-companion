@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",
@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Understand health evidence",
-        "longDescription": "Seven skills for adult health explanations, symptom reasoning, medicine information, research, mental-health education, private record design and owner-authorized document import/history. The English knowledge base contains 139 source entries with actual reading status, blank archive forms and a provenance-aware row contract. Photographs and reports can be organized into a private Drive/Sheets or local archive only when the host provides the required authorized storage tools. Originals, laboratory results, clinical entries, prescriptions and actual-use events stay distinct. The plugin provides instructions, not a built-in OCR or storage service. Keep personal records outside GitHub. Medical information is not a diagnosis or prescription; clinical decisions require qualified professional assessment. Every health-facing answer includes a short disclaimer. Not intended for use as a medical device; no clinical validation or independent prescription changes. Manual personal/workspace installation remains subject to host policies.",
+        "longDescription": "Seven skills for adult health explanations, symptom reasoning, medicine information, research, mental-health education, private record design and owner-authorized document import/history. The English knowledge base contains 140 source entries with actual reading status, blank archive forms and a provenance-aware row contract. Photographs and reports can be organized into a private Drive/Sheets or local archive only when the host provides the required authorized storage tools. Originals, laboratory results, clinical entries, prescriptions and actual-use events stay distinct. The plugin provides instructions, not a built-in OCR or storage service. Keep personal records outside GitHub. Medical information is not a diagnosis or prescription; clinical decisions require qualified professional assessment. Every health-facing answer includes a short disclaimer. Not intended for use as a medical device; no clinical validation or independent prescription changes. Manual personal/workspace installation remains subject to host policies.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -51,7 +51,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.4.3 adds incremental private archive save/recovery rules, exact source/ledger/view status, current-record retrieval and an offline changed-file planner. No patient data, live synchronization, remote locking or measured performance guarantee is bundled."
+        "release_notes": "Version 0.4.3 adds source-linked graphical medication timelines, care-context topic filters, explicit last-reconciled use and handwritten historical intake guidance. Dates, unknown boundaries, non-initiation and private/public separation remain explicit. No real records or clinical validation are bundled."
       }
     }
   }

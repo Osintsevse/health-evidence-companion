@@ -38,4 +38,8 @@ These are original notes, not full textbooks or permanently current labels. For 
 
 For multilingual analyte labels, specimen/property distinctions, unit transforms and persistent owner feedback, read [laboratory identity and feedback](references/22_LAB_IDENTITY_AND_FEEDBACK.md). Preserve raw source rows. A browsing family does not establish quantitative comparability. Keep a separate source-linked questions page, retain prior owner answers and accept corrections through reviewed provenance.
 
+For consumer care equipment, follow module 19: identify the exact model and inspect current manufacturer instructions before summarizing timing, heat, repeat use or restricted body areas. State missing source/model information; do not infer individual clearance or transfer another model's limits.
+
 For authorized persistence or a question about previously confirmed facts, use [incremental saves and current-record retrieval](references/24_INCREMENTAL_ARCHIVE_SAVES.md). Retrieve current accepted relevant facts before repeating an old uncertainty. Route writes to health-record-import; a local note or skill invocation does not prove remote saving. Do not repeat the full import for a status question.
+
+For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.

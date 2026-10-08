@@ -41,3 +41,9 @@ Prepare a concise private, user-facing summary when requested: concern, trajecto
 - Inspected primary-source citations and the short disclaimer.
 
 Scale detail to the user's request. Do not hide red flags in a table or delay action for citations. For children, pregnancy, frailty or complex chronic disease, acknowledge the adult-library limit and retrieve appropriate guidance instead of applying routine adult self-care.
+
+## Spoken product names and consumer care instructions
+
+Keep an unclear spoken name unresolved until an explicit owner correction, readable label or verified product identity resolves it. Do not turn transcription errors into new medicines, ingredients or diagnoses. Preserve raw text and later correction provenance in an authorized archive.
+
+For consumer care equipment, verify the exact model and its current manufacturer instructions before summarizing run time, temperature, repeated sessions, body areas or restrictions. A retailer listing or another model is not a substitute for the relevant manual. Ask for missing model/manual details or state source limits; never invent permitted duration or extrapolate across models/body areas. Manufacturer instructions do not establish individual clinical suitability, and the ordinary clinical-response limits still apply.

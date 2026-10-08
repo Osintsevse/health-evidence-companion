@@ -611,9 +611,9 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 ### S85 - HL7 FHIR R4 - MedicationStatement
 - URL: https://hl7.org/fhir/R4/medicationstatement.html
 - Region: International
-- Reading status: Key definitions and reported-use/prescription distinction read
+- Reading status: Selected R4 status, effective date/period, assertion-date and information-source fields rechecked; no FHIR conformance or clinical validation
 - Purpose: Actual-use provenance/status; project templates are not FHIR resources
-- Checked: 2026-10-06
+- Checked: 2026-10-08
 
 ### S86 - HL7 FHIR R4 - AllergyIntolerance
 - URL: https://hl7.org/fhir/R4/allergyintolerance.html
@@ -992,4 +992,18 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Reading status: Opening method-axis and method-specific distinction sections read; complete terminology catalogue not reviewed
 - Purpose: Avoid both method-blind merging and unjustified instrument-level fragmentation
 - Checked: 2026-10-07
+
+### S140 - HL7 FHIR R4 4.0.1 - Period datatype
+- URL: https://hl7.org/fhir/R4/datatypes.html#Period
+- Region: International
+- Reading status: Selected Period structure and boundary/unknown-start notes read; no full datatype implementation or interoperability testing
+- Purpose: Separate supported use periods from assertion dates and preserve unknown boundaries; simplified display model is not FHIR
+- Checked: 2026-10-08
+
+### S141 - NICE NG246 - Adult anthropometry and central adiposity assessment
+- URL: https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity
+- Region: United Kingdom
+- Reading status: Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read
+- Purpose: Purposeful measurement context and uncertainty; not automated individual risk prediction
+- Checked: 2026-10-08
 
