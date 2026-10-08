@@ -47,3 +47,7 @@ The owner chooses an appropriate host and storage, manages access, device securi
 ## Optional psychological support
 
 For voluntarily requested reflection or sport-performance discussion, PsyOps Evidence Companion may be an optional route. Its README was inspected for scope only, not its full evidence base. It does not confer clinical validation or medical/sports clearance. No dependency, automatic access to records or transfer authorization is created by this link. [S201]
+
+## Provider-specific preparation
+
+Module 33 adds current MyHeritage/Genotek export distinctions and an optional bounded offline staging helper. Supported text schemas are explicit; FASTQ/CRAM alignment, variant calling, clinical annotation and complete sequencing coverage remain outside it. Preserve raw calls separately from reports, diagnoses and time-series laboratory plots.

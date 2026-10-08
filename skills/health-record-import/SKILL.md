@@ -1,6 +1,6 @@
 ---
 name: health-record-import
-description: Organize owner-authorized medical document photos or PDFs into a private longitudinal archive, preserving originals, laboratory values, visits, prescriptions, actual medicine-use events and corrections. Use for importing reports, maintaining history, retrieving past facts or plotting stored results in Google Drive or another explicitly chosen private store. Requires available authorized storage tools; no public patient records or clinical decisions.
+description: Organize owner-authorized medical document photos or PDFs into a private longitudinal archive, preserving originals, laboratory values, visits, prescriptions, actual medicine-use events and corrections. Use for importing reports, maintaining history, retrieving past facts importing genetic/fitness exports or plotting stored results in Google Drive or another explicitly chosen private store. Requires available authorized storage tools; no public patient records or clinical decisions.
 ---
 
 # Import and retrieve private health history
@@ -67,3 +67,9 @@ For handwritten or childhood source sets, apply module 20's historical-intake ch
 For interactive result plots, a substantive aggregate AI review or a purposeful follow-up questionnaire, follow [graphs and health-review rules](references/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md). A reference comparison is not an AI assessment. Save a separately dated source-linked review, retain uncertainty and mark it stale after relevant changes. The offline renderer does not call an AI or make clinical predictions.
 
 For genetic exports, fitness data, symptom photos or radiological images, read [private data and image limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). These are preparation/review workflows, not implemented live connectors or validated diagnostic engines. Never send patient data to the author or public issue tracker.
+
+## Genetic provider exports
+
+For MyHeritage, Genotek or converted consumer DNA exports, read [provider-specific intake](references/33_GENETIC_PROVIDER_IMPORT.md). Distinguish saved health reports, ancestry/match files and raw calls. Preserve originals and unknown coverage/build/strand; never turn a provider risk label into a clinician diagnosis.
+
+The optional [offline genotype staging helper](scripts/genetic_staging.py) parses explicitly supported text schemas into a separate private SQLite dataset. It performs no annotation, network call or medical-ledger mutation. Read module 33 for supported formats and synthetic validation limits; do not claim Genotek account compatibility merely because a standard VCF parser works. Never place actual variants in tests, public issues or source examples. Archive the dataset through the existing provenance/commit/readback workflow only after staging review; genotype rows are not time-series laboratory points.

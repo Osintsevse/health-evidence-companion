@@ -1511,3 +1511,52 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Serbian organized screening example; not individual coverage or a complete current national schedule
 - Checked: 2026-10-08
 
+### S214 - MyHeritage — How should I interpret my raw DNA data? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12852246-how-should-i-interpret-my-raw-dna-data
+- Region: International
+- Reading status: Official HTML read: fields, delimiter, allele tokens and strand; no raw export or account tested
+- Purpose: Current documented five-column tab-delimited schema; no universal genome-build claim
+- Checked: 2026-10-08
+
+### S215 - MyHeritage — What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12852457-what-does-the-whole-genome-sequencing-wgs-upgrade-mean-for-my-dna-results
+- Region: International
+- Reading status: Official HTML read: generation dates, header verification, conditional CRAM availability and Health exceptions; no account download tested
+- Purpose: Distinguish GSA/WGS, ordinary CSV/TXT descriptions and planned CRAM export
+- Checked: 2026-10-08
+
+### S216 - MyHeritage — How do I download my raw DNA data file? (live help page)
+- URL: https://www.myheritage.com/help/en/articles/12851869-how-do-i-download-my-raw-dna-data-file-from-myheritage
+- Region: International
+- Reading status: Official HTML read: prerequisites and steps; page displayed Updated today; no account accessed or download executed
+- Purpose: Manager-only download, published results, emailed link lifetime and uploaded-kit limitation
+- Checked: 2026-10-08
+
+### S217 - MyHeritage — How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)
+- URL: https://www.myheritage.com/help/en/articles/12851466-how-can-i-download-the-shared-dna-segments-data-from-the-chromosome-browser
+- Region: International
+- Reading status: Official HTML read: CSV contents and workflow; no export tested
+- Purpose: Distinguish shared-segment genealogy CSV from raw SNP data
+- Checked: 2026-10-08
+
+### S218 - Genotek — Process and cost of genetic tests (official laboratory-process article)
+- URL: https://www.genotek.ru/blog/genetic-test-practice/
+- Region: Russia
+- Reading status: Official HTML read: microarray process and stage 7 VCF download statement; publication date not established from opened page; no schema or export tested
+- Purpose: VCF availability in documented microarray workflow; VCF extension is not evidence of WGS
+- Checked: 2026-10-08
+
+### S219 - Genotek — Full Genome DNA test (official product FAQ)
+- URL: https://www.genotek.ru/full-genome/
+- Region: Russia
+- Reading status: Official HTML read: download FAQ and processed-result sharing; page version not specified; no account accessed, FASTQ downloaded or clinical claims validated
+- Purpose: Explicit VCF/FASTQ downloads and 23andMe v3/v5 conversion on request
+- Checked: 2026-10-08
+
+### S220 - Genotek — Ancestry DNA test (official indexed FAQ excerpt)
+- URL: https://www.genotek.ru/genetics/genealogy/
+- Region: Russia
+- Reading status: Official search-index excerpt read only: VCF, 23andmeV5 TXT and 23andmeV3 TXT; direct open returned almost no usable body; product version and account availability unverified
+- Purpose: Limited support for ancestry export choices; verify against owner-supplied current documentation
+- Checked: 2026-10-08
+

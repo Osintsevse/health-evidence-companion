@@ -34,7 +34,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing modules are retained: 213 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing modules are retained: 220 registered sources, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -82,3 +82,7 @@ The medication timeline includes a horizontal scale, supported course bands, unc
 See [routing](knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md), [learning index](knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md), [specialty and life-stage guidance](knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md), [prevention](knowledge/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md), [private data boundaries](knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md), [source maintenance](knowledge/31_SOURCE_MAINTENANCE.md) and [risk communication](knowledge/32_RISK_COMMUNICATION.md).
 
 Generate a complete offline review queue with `python scripts/source_review.py --as-of 2026-10-08 --interval-days 90`. This plans rechecks; it makes no network requests, does not change reading dates and creates no scheduled monitor. See [expansion audit](docs/knowledge-expansion-2026-10-08.md) for coverage and validation limits.
+
+## Genetic provider exports
+
+[MyHeritage and Genotek intake](knowledge/33_GENETIC_PROVIDER_IMPORT.md) distinguishes health reports, genealogy outputs and raw calls. The optional import-skill helper stages supported CSV/TSV and single-sample textual VCF in a separate private SQLite dataset, with no network or clinical annotation. Actual provider compatibility depends on inspected headers; FASTQ/CRAM processing is not implemented. Raw genotypes are not laboratory time-series points.

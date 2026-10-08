@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1 - 2026-10-08
+
+- Add current MyHeritage and Genotek export documentation with explicit product/format/version limits.
+- Add bounded offline staging for declared raw-genotype schemas, preserving missing calls and provenance without clinical annotation or ledger mutation.
+- Keep source reports, raw calls and clinical conclusions distinct; no patient data or provider account access in the public package.
+- Register seven provider sources, 220 entries total.
+
 ## 0.5.0 - 2026-10-08
 
 - Add family-care and prevention skills with age/life-stage routing and current-local-source checks.
