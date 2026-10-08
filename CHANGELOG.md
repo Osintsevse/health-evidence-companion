@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.3 - 2026-10-08
+
+- Add incremental conversation-save, status-check and bounded-recovery rules with separate source, accepted-ledger and reader-view verification.
+- Preserve existing authoritative stores and retrieve current accepted facts before repeating stale summary uncertainty.
+- Scope full layout/visual verification to setup and rebuilds; reuse verified unchanged outputs and refresh affected views.
+- Add an offline managed-file planner with unknown-outcome inspection, remote-base candidates and wholly synthetic regression checks.
+- No real conversations, patient facts, credentials or live performance/remote-locking claims are included.
+
 ## 0.4.2 - 2026-10-08
 
 - Add complete archive defaults and source-linked actual-use medication timelines, preserving unknown exposure boundaries and explicit non-initiation.

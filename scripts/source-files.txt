@@ -242,3 +242,11 @@ skills/health-explain/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-design/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 skills/health-record-import/references/23_MEDICATION_TIMELINES_AND_ARCHIVE_DEFAULTS.md
 tests/test_view_integration.py
+knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-explain/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-medicine-info/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-mental-health/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-record-design/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-record-import/references/24_INCREMENTAL_ARCHIVE_SAVES.md
+skills/health-record-import/scripts/plan_archive_sync.py
+tests/test_archive_sync_plan.py

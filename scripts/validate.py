@@ -72,7 +72,7 @@ def check_blank_markdown(text, path):
 
 
 def plugin_paths():
-    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
+    paths = ROOT_FILES | {'assets/icon.svg', 'skills/health-record-import/scripts/generate_views.py', 'skills/health-record-import/scripts/plan_archive_sync.py', 'skills/health-record-import/scripts/build_labs.mjs', 'skills/health-record-import/scripts/lab_identity.py', 'skills/health-record-import/scripts/document_previews.py', 'skills/health-record-import/scripts/medication_timeline.py', 'skills/health-record-import/scripts/record_feedback.py', 'skills/health-record-import/scripts/collect_feedback.py', 'skills/health-record-import/assets/archive-view.html'}
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Evidence-based adult health explanations, medicine research and owner-authorized private health history workflows.",
   "author": {
     "name": "Osintsevse",
@@ -51,7 +51,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.4.2 adds complete private archive defaults, transposed source-linked lab views, conservative multilingual display families, actual-use medication timelines and explicit persistent feedback. Codex/Claude Code manifests and Claude upload skill ZIPs distribute the same general knowledge. No patient data, publisher record store, clinical validation or automatic account integration is bundled."
+        "release_notes": "Version 0.4.3 adds incremental private archive save/recovery rules, exact source/ledger/view status, current-record retrieval and an offline changed-file planner. No patient data, live synchronization, remote locking or measured performance guarantee is bundled."
       }
     }
   }

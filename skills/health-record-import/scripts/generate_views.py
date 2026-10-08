@@ -206,19 +206,34 @@ def generate(db, config, output, template):
         root=config.get('originals_root')
         if not root:raise ValueError('An explicit private originals_root is required for previews')
         previews.attach_previews(model,root,config)
+    previous_path=output/'view_data.json'
+    if previous_path.is_file():
+        try:
+            previous=json.loads(previous_path.read_text(encoding='utf-8'))
+        except (OSError,ValueError):
+            previous=None
+        if isinstance(previous,dict) and previous.get('generated_at') and {k:v for k,v in previous.items() if k!='generated_at'}=={k:v for k,v in model.items() if k!='generated_at'}:
+            model['generated_at']=previous['generated_at']
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     text=Path(template).read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
     assert '__PRIVATE_MODEL__' not in text
     output.mkdir(parents=True,exist_ok=True)
-    (output/'index.html').write_text(text,encoding='utf-8')
-    (output/'view_data.json').write_text(json.dumps(model,ensure_ascii=False,indent=2),encoding='utf-8')
-    (output/'workbook_data.json').write_text(json.dumps(workbook_data(model),ensure_ascii=False,indent=2),encoding='utf-8')
+    write_changed(output/'index.html',text)
+    write_changed(output/'view_data.json',json.dumps(model,ensure_ascii=False,indent=2))
+    write_changed(output/'workbook_data.json',json.dumps(workbook_data(model),ensure_ascii=False,indent=2))
     docs=output/'details';docs.mkdir(exist_ok=True)
     for d in model['documents']:
-        (docs/(d['entry_id']+'.md')).write_text(d['body'],encoding='utf-8')
+        write_changed(docs/(d['entry_id']+'.md'),d['body'])
     return {'documents':len(model['documents']), 'observations':len(model['tables']['observations']),
             'vaccination_records':len(model['vaccines']), 'matrix_events':len(model['matrix']['events']),
             'private_output_sha256':hashlib.sha256(text.encode('utf-8')).hexdigest()}
+
+
+def write_changed(path,text):
+    """Preserve an unchanged generated file rather than create a false sync delta."""
+    data=text.encode('utf-8')
+    if not path.is_file() or path.read_bytes()!=data:
+        path.write_bytes(data)
 
 
 if __name__=='__main__':

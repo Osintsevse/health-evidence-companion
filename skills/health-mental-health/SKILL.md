@@ -19,4 +19,6 @@ Explain withdrawal as distinct from addiction and recurrence. Do not give indivi
 
 Prioritize immediate local help/support for already stated immediate self-harm risk, severe reactions or rapid deterioration. Do not invent emergency numbers or delay help for documentation.
 
-Cite inspected official sections and preserve limits. Never claim another-chat access or transfer psychotherapy material. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
+Cite inspected official sections and preserve limits. Do not claim access to messages not actually retrieved or transfer psychotherapy material without owner authorization. Relevant owner-selected facts may be retrieved through health-record-import with available private tools. See [pharmacology](references/11_PHARMACOLOGY_FOUNDATIONS.md) for mechanisms; use health-research for evidence.
+
+For an owner-authorized current regimen question, retrieve the latest relevant accepted facts through health-record-import rather than rely on an older summary. Follow [current-record and save-status rules](references/24_INCREMENTAL_ARCHIVE_SAVES.md). Take reported benefit, burden and acceptability into account without inferring a treatment change from one symptom. Route authorized private saves to the import skill; this informational skill alone does not persist a record.
