@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained medical and adult psychology knowledge base and nineteen AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained medical and adult psychology knowledge base and twenty AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -23,6 +23,7 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-family-care` | Detailed birth-to-under-five care and fontanelles, pregnancy/reproductive health, specialty navigation and rehabilitation |
 | `health-prevention` | Screening, nutrition, healthy ageing, shared decisions and truthful insurance support |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
+| `health-feedback` | Prepare public feedback, feature requests, knowledge gaps and prompt proposals |
 | `health-first-aid` | Immediate lay actions for suspected emergencies, followed by explanations |
 | `health-nutrition` | Food diaries, estimated calories/macros, diet quality and condition-specific questions |
 | `health-care-navigation` | Find a suitable verified local service and navigate travel assistance |
@@ -39,6 +40,12 @@ Examples: "Compare possible causes of these symptoms and what would distinguish 
 ## Community and accessibility
 
 See our [code of conduct](CODE_OF_CONDUCT.md) for participation, moderation and reporting routes, and our [accessibility statement](ACCESSIBILITY.md) for usage options, known limitations and barrier reports. Public reports must contain no personal health information.
+
+## Suggest an improvement
+
+**[Suggest an improvement](https://github.com/Osintsevse/health-evidence-companion/issues/new/choose)** · **[Feedback guide](docs/feedback.md)**
+
+Ask `health-feedback` to turn your idea into a public draft: a problem report, feature, missing topic or prompt fragment with a synthetic check. No code or GitHub connection is required to prepare it. Publish only general material; never paste a real chat or health record. The maintainer records a decision and links accepted requests to their PR and release. Knowledge expansion improves references/instructions; it does not train model weights.
 
 ## Extend the project
 

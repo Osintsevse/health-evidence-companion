@@ -4,7 +4,11 @@
 .codex-plugin/plugin.json
 .gitattributes
 .github/CODEOWNERS
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature.yml
 .github/ISSUE_TEMPLATE/general.yml
+.github/ISSUE_TEMPLATE/knowledge.yml
+.github/ISSUE_TEMPLATE/prompt.yml
 .github/ISSUE_TEMPLATE/research.yml
 .github/dependabot.yml
 .github/pull_request_template.md
@@ -23,7 +27,9 @@ SECURITY.md
 TERMS.md
 assets/icon.svg
 docs/archive-followup-review.md
+docs/community-feedback-forward-checks.md
 docs/contribution-workflow.md
+docs/feedback.md
 docs/genetic-analysis-workflow.md
 docs/genetic-import-review.md
 docs/health-dashboard.md
@@ -274,6 +280,7 @@ skills/health-contribute/references/SYMPTOMS.md
 skills/health-contribute/references/contributing.md
 skills/health-contribute/references/contribution-workflow.md
 skills/health-contribute/references/evidence-methods.md
+skills/health-contribute/references/feedback.md
 skills/health-contribute/references/genetic-analysis-workflow.md
 skills/health-contribute/references/intake-question-bank.json
 skills/health-contribute/references/medical-source-attribution.md
@@ -392,6 +399,9 @@ skills/health-family-care/references/source-review.json
 skills/health-family-care/references/source-use-policy.json
 skills/health-family-care/references/sources.json
 skills/health-family-care/references/terminology.json
+skills/health-feedback/SKILL.md
+skills/health-feedback/agents/openai.yaml
+skills/health-feedback/references/feedback.md
 skills/health-first-aid/SKILL.md
 skills/health-first-aid/agents/openai.yaml
 skills/health-first-aid/references/00_KNOWLEDGE_POLICY.md

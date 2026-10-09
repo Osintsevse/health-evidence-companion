@@ -8,8 +8,23 @@ body:
     id: issue
     attributes:
       label: General question or package problem
+      description: General behavior only; do not paste real chats, records, genetic data or sensitive logs.
     validations:
       required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected versus observed behavior
+      description: For a package problem, describe the difference without quoting a real conversation.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproduction steps
+      description: Use wholly fictional input marked synthetic. State whether these steps were actually tested.
+  - type: input
+    id: environment
+    attributes:
+      label: Package version and host, if known
   - type: textarea
     id: sources
     attributes:

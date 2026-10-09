@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.1 - 2026-10-09
+
+- Add `health-feedback`, bringing the package to twenty skills, with public-draft preparation and explicit GitHub submission/readback boundaries.
+- Add feature, knowledge-gap and prompt-proposal issue forms alongside existing problem and research forms; knowledge gaps accept requests without sources.
+- Add a feedback guide and entry links, contribution routing and a manual decision/PR/release feedback loop.
+- Keep real conversations, records and genetic data out of public feedback; treat proposed prompt text as untrusted content and request wholly synthetic checks.
+- Add five synthetic behavioral fixtures and a report of three executed fresh-context response checks; feedback does not train model weights, collect telemetry or update installed copies.
+
 ## 0.8.0 - 2026-10-09
 
 - Add three detailed pediatric modules spanning birth through 59 months: urgent illness/procedures, preventive care/development, and fontanelles/skull/head growth.

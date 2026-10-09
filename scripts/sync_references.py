@@ -106,6 +106,9 @@ for _skill in MAP:
     if _skill.startswith('health-'):
         MAP[_skill] = list(dict.fromkeys(MAP[_skill] + CLINICAL_PACK))
 
+MAP['health-feedback'] = ['docs/feedback.md']
+MAP['health-contribute'] += ['docs/feedback.md']
+
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
             for skill, sources in MAP.items() for src in sources}
