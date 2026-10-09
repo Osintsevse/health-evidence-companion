@@ -4473,3 +4473,31 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF page 1 soft-spot paragraph read (tool lines 15-24); direct DCJ copyright notice inspected.
 - Purpose: Transient crying-related swelling followed by return to flat appearance when crying ends.
 - Checked: 2026-10-09
+
+### S637 - AHA Measurement of Blood Pressure in Humans (2019 statement; PMC author manuscript available 2024)
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11409525/
+- Region: US / adult and measurement science
+- Reading status: Selected BP components, auscultatory/oscillometric and technique sections inspected; not full statement
+- Purpose: Explain BP components and measurement principles; no device-specific accuracy claim
+- Checked: 2026-10-09
+
+### S638 - NHS Blood pressure test
+- URL: https://www.nhs.uk/tests-and-treatments/blood-pressure-test/
+- Region: UK / general adult education
+- Reading status: Public test and setting-specific threshold sections inspected
+- Purpose: Explain clinic/home thresholds; no NICE clinical-content reuse
+- Checked: 2026-10-09
+
+### S639 - AHA All About Heart Rate (reviewed May 13, 2024)
+- URL: https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse
+- Region: US / general adult education
+- Reading status: Resting pulse, modifiers and clinical-contact sections inspected
+- Purpose: Separate pulse rate from blood pressure and avoid universal danger categories
+- Checked: 2026-10-09
+
+### S640 - AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)
+- URL: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home
+- Region: US / general adult education
+- Reading status: Device choice, home technique, repeat readings and severe-pressure action sections inspected
+- Purpose: Source-linked guide; historical points are not current emergencies
+- Checked: 2026-10-09

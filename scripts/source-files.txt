@@ -1103,3 +1103,16 @@ tests/test_source_review.py
 tests/test_unified_catalog.py
 tests/test_view_integration.py
 tests/test_views.py
+knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-record-import/scripts/blood_pressure.py
+skills/health-record-import/assets/blood_pressure_ui.mjs
+skills/health-record-import/assets/blood_pressure.css
+tests/test_blood_pressure.py
+tests/test_blood_pressure_browser.py
+tests/blood_pressure_browser.mjs
+docs/blood-pressure-review.md
+skills/health-explain/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-record-design/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-record-import/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-research/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-contribute/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md

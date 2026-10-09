@@ -109,6 +109,9 @@ for _skill in MAP:
 MAP['health-feedback'] = ['docs/feedback.md']
 MAP['health-contribute'] += ['docs/feedback.md']
 
+for _skill in ['health-explain','health-record-design','health-record-import','health-research','health-contribute']:
+    MAP[_skill] += ['knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md']
+
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
             for skill, sources in MAP.items() for src in sources}

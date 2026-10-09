@@ -113,3 +113,7 @@ Executed locally on Windows/Python 3.11: 256 main tests (253 passed, three skipp
 Twenty fictional model responses in four configured fresh agent contexts are recorded separately in [forward checks](pediatrics-under-five-forward-checks.md). Earlier locality/source-selection failures led to instruction repairs and independent-source replacement; six restricted-source clinical outputs are withheld rather than republished. Fourteen raw outputs and failure metadata remain public. All 214 reusable fixtures are still explicitly unexecuted.
 
 A bounded independent agent reviewed content/navigation before and after corrections and found no confirmed new issue within that scope. This is not a credentialed clinical review, whole-source/legacy-rights audit, benchmark or host installation test. National calendar/product details require current local verification. Builds record actual version, sizes, member counts and checksums; release, merge and installation are separate actions.
+
+## Version 0.8.2 BP view candidate, 2026-10-09
+
+See [blood-pressure review](blood-pressure-review.md) for the general contract, sources, fresh-context check and executed model/browser/package validation. No personal records, publication, release, installation or clinical approval are implied.

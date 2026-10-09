@@ -48,3 +48,7 @@ For a save from a chat without safe accepted-ledger access, read [private intake
 For the design of a voluntary adaptive intake or dated aggregate review, read [history/test guidance](references/DIAGNOSTICS.md) and [clinical navigation](references/CLINICAL_INDEX.md). Structure symptoms, functioning, actual medicine use, family reports, objective evidence, hypotheses, goals and unresolved questions separately. A form must allow unknown and declined responses; do not encode an empty answer as absence of disease.
 
 Clinical decision-tool names and versions are references, not a license to recreate a score or diagnosis. Source-linked facts and interpretation have different provenance. Keep actual interviews, food diaries, genetic data and reports solely in the owner's authorized private destination.
+
+## Blood pressure and measurement
+
+For BP parameters, manual versus electronic cuffs or requested BP views, read [blood pressure and measurement](references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md). Preserve complete source-local readings and unknown date/time; never guess pairs from repeated same-day components. Colours are optional named adult educational categories, not a universal good/bad health score. Keep pulse separate, show the full pair and source in a tooltip, and distinguish historical observations from present urgency.
