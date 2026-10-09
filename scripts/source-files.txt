@@ -11,7 +11,9 @@
 .github/workflows/ci.yml
 .github/workflows/release.yml
 .gitignore
+ACCESSIBILITY.md
 CHANGELOG.md
+CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 LICENSE
 NOTICE.md
