@@ -36,6 +36,10 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 
 Examples: "Compare possible causes of these symptoms and what would distinguish them", "What can I safely check at home and when should I seek care?", "Explain these non-identifying laboratory values", "Check this medicine combination and the unknown ingredients", "Review this study and open a PR for the maintainer". Ask naturally; no method selection required.
 
+## Community and accessibility
+
+See our [code of conduct](CODE_OF_CONDUCT.md) for participation, moderation and reporting routes, and our [accessibility statement](ACCESSIBILITY.md) for usage options, known limitations and barrier reports. Public reports must contain no personal health information.
+
 ## Extend the project
 
 **[Contribution workflow and copyable prompts](docs/contribution-workflow.md)** · **[Contribution rules](CONTRIBUTING.md)** · **[Propose research](https://github.com/Osintsevse/health-evidence-companion/issues/new/choose)**
