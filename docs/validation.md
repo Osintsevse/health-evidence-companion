@@ -85,3 +85,13 @@ Two additional fresh-context agents used the actual updated skills and bundled r
 Local checks passed: canonical/reference validation, 35 packaging/release failure-mode tests, eight offline adapter tests and deterministic build. All six skills and 128 registered sources remain; the new symptom/self-care module is an instruction workflow, not newly validated clinical evidence. The root marketplace catalog is included in source only; the runtime ZIP contains no repository workflow/scripts, MCP or app connection.
 
 Additional cases in tests/skill-cases.json remain reusable fixtures unless explicitly executed. Two examples do not establish reliable medical triage, clinical benefit, regulatory status or host import success. New version publication is pending maintainer acceptance of the PR and successful release automation on main; inspect the actual result before claiming release availability.
+
+## Version 0.6.3 archive snapshot safety, 2026-10-09
+
+Technical changes require an explicit single-owner medical ledger, read all medical tables in one SQLite transaction and use a versioned logical fingerprint that includes committed WAL data. Legacy file-hash reviews are rejected in WAL mode. A local fingerprint command prepares the review base; it does not authorize remote access or writes.
+
+Eight new wholly synthetic regressions exercise owner mismatch/mixed owners, unchanged main-file bytes after a WAL commit, stale-base rejection, WAL acceptance, a read snapshot across an external commit, URI-reserved filename characters, atomic replacement failure, interrupted file-set publication and honest reader-data/UI status separation. Existing intake and medical/psychological view fixtures now identify an initialized fictional owner.
+
+A fresh-context agent read the updated installed-form instructions and explained a fictional WAL intake, status reporting after verify-views and crash recovery without receiving the review rubric. It selected the logical review base, retained UI/cloud verification as pending and refused age-based lock removal or blind retries. This was an instruction check only: no records, accounts, writes, clinical assessment or browser UI execution were involved.
+
+Changed reader files are atomically replaced individually and generation.json is published last. A manifest readback rejects mixed/interrupted sets; the set itself is not one filesystem transaction. Local verification establishes data agreement, not JavaScript execution or visual correctness. Locks/backup recovery remains explicit and manual. Remote concurrency, automated model evals and browser smoke tests remain separate work. Existing views/receipts need regeneration and re-verification after updating.

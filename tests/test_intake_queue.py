@@ -101,14 +101,21 @@ class IntakeTests(unittest.TestCase):
         self.review_data['review_status']='pending';self.save_review()
         with self.assertRaises(ValueError):self.commit()
     def test_view_verification_requires_matching_material_rows(self):
-        r=self.commit(); model=self.root/'model.json'; view=self.root/'index.html';view.write_text('Synthetic inspected view')
-        with closing(sqlite3.connect(self.db)) as c, c:
-            c.row_factory=sqlite3.Row;rows=[dict(x) for x in c.execute('SELECT * FROM clinical_entries')]
-        model.write_text(json.dumps({'input_database_sha256':queue.digest(self.db.read_bytes()),'tables':{'clinical_entries':rows}}))
-        rows[0]['statement_raw']='Wrong fictional value';model.write_text(json.dumps({'input_database_sha256':queue.digest(self.db.read_bytes()),'tables':{'clinical_entries':rows}}))
-        with self.assertRaises(ValueError):accept.verify_views(self.q,self.m['queue_id'],model,[view])
-        rows[0]['statement_raw']=self.text;model.write_text(json.dumps({'input_database_sha256':queue.digest(self.db.read_bytes()),'tables':{'clinical_entries':rows}}));view.write_text('const DATA='+json.dumps({'input_database_sha256':queue.digest(self.db.read_bytes()),'tables':{'clinical_entries':rows}})+';')
-        r=accept.verify_views(self.q,self.m['queue_id'],model,[view]);self.assertTrue(r['views_verified']);self.assertEqual(r['status'],'processed')
-        self.assertTrue(self.commit()['views_verified'])
+        import generate_views as generator
+        self.commit()
+        output=self.root/'views'
+        generator.generate(self.db,{'record_id':'synthetic-owner'},output,SCRIPTS.parent/'assets/archive-view.html')
+        model=output/'view_data.json';view=output/'index.html'
+        original=model.read_bytes();data=json.loads(original)
+        data['tables']['clinical_entries'][0]['statement_raw']='Wrong fictional value'
+        model.write_text(json.dumps(data))
+        with self.assertRaises(ValueError):
+            accept.verify_views(self.q,self.m['queue_id'],model,[view])
+        model.write_bytes(original)
+        r=accept.verify_views(self.q,self.m['queue_id'],model,[view])
+        self.assertTrue(r['view_data_verified'])
+        self.assertFalse(r['views_verified']);self.assertFalse(r['ui_verified'])
+        self.assertEqual(r['status'],'ledger_verified_reader_data_verified_ui_pending')
+        self.assertTrue(self.commit()['view_data_verified'])
 
 if __name__=='__main__':unittest.main()

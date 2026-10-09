@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.3 - 2026-10-09
+
+- Reject missing, mixed or mismatched medical archive owners before generating views.
+- Read medical tables in one SQLite transaction and bind views/reviews to a versioned logical fingerprint that includes committed WAL data.
+- Support legacy file-hash reviews only outside WAL mode; add a local fingerprint CLI.
+- Serialize cooperating view generators, atomically replace individual files and publish a generation checksum manifest last. Interrupted sets remain unverified.
+- Verify the complete generated file set and embedded model. Reader-data verification no longer claims browser UI verification or marks the package processed.
+- Add wholly synthetic owner, WAL, concurrent-snapshot, interrupted-publication and reader-readback regressions. Existing fail-closed lock/backup recovery remains manual.
+
 ## 0.6.2 - 2026-10-09
 
 - Add professional genetics source selection with dated reading scopes and source/license boundaries.
