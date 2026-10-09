@@ -18,3 +18,5 @@ Offer a small set of practical changes suited to the person's preferences and re
 Review supplement evidence by ingredient, indication, deficiency evidence, dose/form and interactions through health-medicine-info when needed. Promising mechanisms, microbiome marketing and biomarkers do not establish patient benefit.
 
 If the user requests recording, route the selected diary/summary to the authorized private archive. Do not export a real diary into general knowledge or web search. Offer text-based or available host question UI; never claim a specific interactive interface is universally installed.
+
+For birth through 59 months, use [feeding and preventive pediatric care](references/PEDIATRIC_CARE.md). Distinguish exclusive milk feeding, complementary feeding and toddler/preschool meals. Verify formula preparation, food texture, allergy/exclusion context, growth and age-specific supplementation; do not transfer adult deficits, fixed macros, salt targets or restrictive diets. Review feeding deterioration through [pediatric illness](references/PEDIATRICS.md) before calculating intake.

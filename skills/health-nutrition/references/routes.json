@@ -4476,6 +4476,1612 @@
         "S545",
         "S546"
       ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-fever",
+      "title": "Under-five fever with age-specific risk",
+      "triggers": [
+        "Fever birth-59 months"
+      ],
+      "minimum_context": [
+        "Exact chronological age",
+        "Measurement/site and duration",
+        "Responsiveness, breathing, fluid/urine and change"
+      ],
+      "actions": [
+        "Assess whole child and trajectory",
+        "Suitable verified medicine only for distress",
+        "Five days or more: prompt clinical review",
+        "Under3m >=38 C or 3-6m >=39 C: urgent age-specific assessment; latest UK NHS urgent-help page directs emergency care"
+      ],
+      "avoid": [
+        "Temperature-only triage",
+        "Cooling response as clearance",
+        "Routine simultaneous/alternating medicines",
+        "Copied traffic-light score"
+      ],
+      "escalation": [
+        "Emergency for altered responsiveness, severe breathing, abnormal colour or concerning rash/neck symptoms"
+      ],
+      "source_ids": [
+        "S548",
+        "S565",
+        "S549"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-croup",
+      "title": "Barking cough and inspiratory noise",
+      "triggers": [
+        "Barking cough",
+        "Hoarseness/stridor"
+      ],
+      "minimum_context": [
+        "Noise at rest or upset",
+        "Work of breathing",
+        "Swallowing/drooling",
+        "Sudden choking/allergen onset"
+      ],
+      "actions": [
+        "Keep calm in comfortable position",
+        "Timely clinical advice",
+        "Explain clinician medicine/hospital care options without selecting regimen"
+      ],
+      "avoid": [
+        "Steam",
+        "Forcing throat inspection",
+        "Leftover steroid or nebulized adrenaline regimen",
+        "Photo clearance"
+      ],
+      "escalation": [
+        "Emergency for major distress, drooling with unsafe swallow, exhaustion or altered responsiveness"
+      ],
+      "source_ids": [
+        "S550"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-wheeze",
+      "title": "Bronchiolitis versus preschool wheeze",
+      "triggers": [
+        "Wheeze after cold",
+        "Recurrent preschool breathing symptoms"
+      ],
+      "minimum_context": [
+        "Age in months",
+        "First/recurrent episodes",
+        "Drinking and respiratory effort",
+        "Actual rescue plan/inhaler"
+      ],
+      "actions": [
+        "Under-two bronchiolitis remains possible",
+        "Older/recurrent wheeze needs clinical differentiation",
+        "Help follow existing verified rescue plan and seek care"
+      ],
+      "avoid": [
+        "Preschool universal puff schedule",
+        "Borrowed inhaler",
+        "Diagnose asthma by chat",
+        "Delay rescue while researching"
+      ],
+      "escalation": [
+        "Emergency for severe/worsening breathing or poor response; urgent review for reduced intake/urine"
+      ],
+      "source_ids": [
+        "S552",
+        "S557",
+        "S297"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-seizure",
+      "title": "Seizure with fever",
+      "triggers": [
+        "Child shaking/unresponsive with fever"
+      ],
+      "minimum_context": [
+        "Duration and recovery",
+        "First event",
+        "Breathing",
+        "Focality/repetition",
+        "Existing rescue plan after initial actions"
+      ],
+      "actions": [
+        "Call for first/prolonged event",
+        "Time event, protect head, clear hazards",
+        "Monitor breathing; recovery position after event if normal breathing",
+        "Follow prescribed rescue plan when verified"
+      ],
+      "avoid": [
+        "Restraint",
+        "Anything in mouth",
+        "Oral medicine during seizure",
+        "Antipyretic prevention promise",
+        "Drive actively seizing child"
+      ],
+      "escalation": [
+        "Emergency ongoing first/prolonged event, abnormal breathing, focal or repeated events; first resolved event hospital assessment"
+      ],
+      "source_ids": [
+        "S554",
+        "S548",
+        "S565"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-gastro",
+      "title": "Vomiting/diarrhea and dehydration",
+      "triggers": [
+        "Vomiting",
+        "Diarrhea",
+        "Reduced fluids or urine"
+      ],
+      "minimum_context": [
+        "Fluid retained",
+        "Vomit colour/blood",
+        "Pain",
+        "Urine and responsiveness"
+      ],
+      "actions": [
+        "Urgent under-five dehydration assessment",
+        "Small regular appropriate ORS if alert and safe swallow",
+        "Exact packet dilution; usual feeds/food as tolerated"
+      ],
+      "avoid": [
+        "Green vomit reassurance",
+        "Improvised dose/deficit calculation",
+        "Diluted formula",
+        "Toddler loperamide",
+        "Photo before urgent action"
+      ],
+      "escalation": [
+        "Emergency bilious/bloody vomit, severe pain, shock-like change or difficulty waking"
+      ],
+      "source_ids": [
+        "S462",
+        "S555"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-ear",
+      "title": "Ear pain and watchful waiting",
+      "triggers": [
+        "Ear pain/tugging",
+        "Reported otitis"
+      ],
+      "minimum_context": [
+        "Exact age",
+        "Clinician examination",
+        "One/both ears",
+        "Severity, temperature and duration",
+        "Follow-up access"
+      ],
+      "actions": [
+        "Explain examination-dependent diagnosis",
+        "Only clinician-agreed observation in eligible mild cases",
+        "Recheck if worsening/not improving",
+        "Explain antibiotic choices as clinician options"
+      ],
+      "avoid": [
+        "Ear tugging diagnosis",
+        "Remote antibiotic prescription",
+        "Universal wait policy",
+        "Extend wait repeatedly"
+      ],
+      "escalation": [
+        "Prompt reassessment for drainage/high fever/worsening; emergency if child critically unwell"
+      ],
+      "source_ids": [
+        "S556",
+        "S557"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-uti",
+      "title": "Urinary symptoms or unexplained fever",
+      "triggers": [
+        "Dysuria/frequency",
+        "New accidents",
+        "Fever with urinary/abdominal symptoms"
+      ],
+      "minimum_context": [
+        "Age",
+        "Fever/systemic illness",
+        "Pain/intake",
+        "Prior UTI/treatment"
+      ],
+      "actions": [
+        "Prompt clinical assessment",
+        "Explain targeted sample/testing",
+        "Ask service about needed urine sample; deterioration must not wait for home collection",
+        "No self-ordered universal imaging package"
+      ],
+      "avoid": [
+        "Adult pharmacy eligibility",
+        "Smell-only diagnosis",
+        "Strip photo clearance",
+        "Leftover antibiotics",
+        "Broad panel"
+      ],
+      "escalation": [
+        "Emergency for systemic deterioration or painful inability to urinate"
+      ],
+      "source_ids": [
+        "S471"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-limp",
+      "title": "Limp, hot joint or refusal to use limb",
+      "triggers": [
+        "New limp",
+        "Non-weight-bearing",
+        "Hot/swollen joint"
+      ],
+      "minimum_context": [
+        "Onset/injury",
+        "Fever and general condition",
+        "Ability to bear weight without forcing",
+        "Location as described"
+      ],
+      "actions": [
+        "Examine unexplained limp",
+        "Support and avoid forcing limb",
+        "Explain selected imaging/specialist referral"
+      ],
+      "avoid": [
+        "Growing-pains label for acute limp",
+        "Forced walking/joint tests",
+        "Photo exclusion of infection/fracture"
+      ],
+      "escalation": [
+        "Emergency for refusal to bear weight, severe sudden pain, deformity, fever with illness or worsening"
+      ],
+      "source_ids": [
+        "S559",
+        "S548",
+        "S565"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-scrotal",
+      "title": "Scrotal/testicular emergency",
+      "triggers": [
+        "Sudden scrotal/testicular pain",
+        "Painful groin with nausea/abdominal pain"
+      ],
+      "minimum_context": [
+        "Onset",
+        "Pain/location",
+        "Nausea/vomiting"
+      ],
+      "actions": [
+        "Emergency assessment for sudden severe presentation",
+        "State torsion is time-sensitive without diagnosis"
+      ],
+      "avoid": [
+        "Intimate photo",
+        "Manipulation",
+        "Wait for routine ultrasound",
+        "Normal appearance reassurance"
+      ],
+      "escalation": [
+        "Emergency now for sudden severe pain or associated nausea/abdominal pain"
+      ],
+      "source_ids": [
+        "S168"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-medicines",
+      "title": "Pediatric product identity and error prevention",
+      "triggers": [
+        "Dose request",
+        "Cold combination",
+        "Fever medicine",
+        "Possible repeat/overdose"
+      ],
+      "minimum_context": [
+        "Ingredient/concentration/route",
+        "Country/current label",
+        "Age/weight units",
+        "Amounts/times already given",
+        "Other ingredients"
+      ],
+      "actions": [
+        "Use exact label/pharmacist for suitability",
+        "No personalized dose calculation",
+        "Explain US under-two/manufacturer under-four versus UK under-six",
+        "Poison advice now for possible error"
+      ],
+      "avoid": [
+        "Adult scaling",
+        "mL equals mg",
+        "Loosest imported cutoff",
+        "Simultaneous/alternating timetable",
+        "Wait for overdose symptoms"
+      ],
+      "escalation": [
+        "Emergency if collapse/seizure/abnormal breathing; otherwise urgent poison guidance for uncertain exposure"
+      ],
+      "source_ids": [
+        "S560",
+        "S561",
+        "S548",
+        "S278"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-ingestion",
+      "title": "Battery, magnets and poison",
+      "triggers": [
+        "Possible coin/button battery",
+        "Missing magnets",
+        "Medicine/chemical ingestion"
+      ],
+      "minimum_context": [
+        "Age",
+        "Time or unknown time",
+        "Object/product",
+        "Swallowing and symptoms after initial routing"
+      ],
+      "actions": [
+        "Immediate care for battery/magnet even well",
+        "Poison service product/time context",
+        "Conditional NCPC honey protocol only if every condition verified",
+        "No emesis"
+      ],
+      "avoid": [
+        "Wait for stool/symptoms",
+        "Universal honey",
+        "Universal neutralizing drink",
+        "Delay emergency travel to get honey"
+      ],
+      "escalation": [
+        "Emergency department immediately for battery/magnet; emergency services for collapse or airway compromise"
+      ],
+      "source_ids": [
+        "S562",
+        "S563",
+        "S278"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-burn",
+      "title": "Toddler thermal/chemical/electrical burn",
+      "triggers": [
+        "Burn/scald"
+      ],
+      "minimum_context": [
+        "Mechanism/time",
+        "Site/extent as reported",
+        "Breathing/general condition"
+      ],
+      "actions": [
+        "Immediate thermal cooling under running water",
+        "Remove items unless stuck; loose covering after cooling",
+        "Follow EMERGENCY module and obtain child-specific advice"
+      ],
+      "avoid": [
+        "Photo depth clearance",
+        "Cream instead of cooling",
+        "Remove stuck clothes"
+      ],
+      "escalation": [
+        "Emergency large/deep, face/genital, chemical/electrical or breathing concern"
+      ],
+      "source_ids": [
+        "S283"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-head",
+      "title": "Head injury and new symptoms",
+      "triggers": [
+        "Head impact/fall",
+        "Change after injury or discharge"
+      ],
+      "minimum_context": [
+        "Mechanism/time",
+        "Responsiveness",
+        "Vomiting/seizure/function",
+        "Discharge plan"
+      ],
+      "actions": [
+        "Escalate warning signs",
+        "Urgent advice for vomiting/concerning change",
+        "After assessment follow supervision/discharge plan"
+      ],
+      "avoid": [
+        "Pupil or smiling-photo clearance",
+        "Earlier reassurance overrides new symptoms",
+        "Forced wakefulness as universal protocol"
+      ],
+      "escalation": [
+        "Emergency for abnormal responsiveness, seizure, neurological change or major mechanism"
+      ],
+      "source_ids": [
+        "S285"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-water",
+      "title": "Water safety and submersion",
+      "triggers": [
+        "Bath/pool/natural-water safety",
+        "Submersion"
+      ],
+      "minimum_context": [
+        "Immediate breathing/responsiveness for incident",
+        "Location and rescuer safety"
+      ],
+      "actions": [
+        "Incident: safe rescue, early call, EMERGENCY module",
+        "Prevention: designated attentive adult, barriers, life jackets",
+        "Lessons/lifeguard do not replace supervision"
+      ],
+      "avoid": [
+        "Unsafe untrained entry",
+        "Squeeze water out",
+        "Inflatable toy as safety equipment",
+        "New competing CPR protocol"
+      ],
+      "escalation": [
+        "Emergency for unresponsiveness/abnormal breathing or deterioration after submersion"
+      ],
+      "source_ids": [
+        "S564"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-newborn",
+      "title": "Newborn/young-infant illness even afebrile",
+      "triggers": [
+        "Poor feeding",
+        "Cold/floppy/less responsive newborn",
+        "Young-infant fever"
+      ],
+      "minimum_context": [
+        "Chronological age; gestation relevant",
+        "Breathing/responsiveness first",
+        "Feeding/urine change",
+        "Temperature method if available"
+      ],
+      "actions": [
+        "Emergency danger signs before questions",
+        "Prompt age-specific examination even without fever",
+        "Explain clinician-selected tests and procedure purpose without a universal young-infant bundle or hospital protocol"
+      ],
+      "avoid": [
+        "Afebrile reassurance",
+        "Wait for every sign",
+        "Vaccination automatically dismisses illness",
+        "Professional birth-room resuscitation at home",
+        "Delay for repeated temperatures"
+      ],
+      "escalation": [
+        "Emergency abnormal breathing/response or deterioration; young-infant fever urgent clinical assessment, local stronger instructions apply"
+      ],
+      "source_ids": [
+        "S565",
+        "S548",
+        "S631"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-jaundice",
+      "title": "Neonatal jaundice and age-hours interpretation",
+      "triggers": [
+        "Visible jaundice",
+        "Reported neonatal bilirubin",
+        "Persistent yellowing"
+      ],
+      "minimum_context": [
+        "Age in hours/days",
+        "Gestation at birth",
+        "Measured bilirubin units/time/method",
+        "Feeding/urine/stool/response",
+        "Actual follow-up plan"
+      ],
+      "actions": [
+        "Immediate assessment first24h",
+        "Timely bilirubin measurement/professional review",
+        "Persistent jaundice after2weeks: same-day clinical contact; prematurity context does not justify ignoring warning signs",
+        "Explain monitored phototherapy"
+      ],
+      "avoid": [
+        "Adult bilirubin range",
+        "Photo estimate/clearance",
+        "Sunlight or household lamp",
+        "Home treatment-threshold calculator",
+        "Wait timing despite pale stools/dark urine"
+      ],
+      "escalation": [
+        "Emergency jaundice with poor feeding/response, abnormal breathing/temperature or first24h"
+      ],
+      "source_ids": [
+        "S566",
+        "S632",
+        "S630"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-infant-feeds",
+      "title": "Infant reflux, feeding and hydration",
+      "triggers": [
+        "Milk spit-up",
+        "Forceful vomiting",
+        "Extra water question below6m",
+        "Poor intake/growth"
+      ],
+      "minimum_context": [
+        "Exact age",
+        "Breast/formula/complementary feeds",
+        "Effortless versus projectile/green/bloody vomit",
+        "Growth/intake/urine",
+        "Distress"
+      ],
+      "actions": [
+        "Stable effortless regurgitation supportive feeding advice",
+        "Flat back sleeping",
+        "Prompt clinical review feeding/growth concerns",
+        "Breast milk/formula central; avoid universal extra water",
+        "Professional rather than home acid-suppression/thickening plan"
+      ],
+      "avoid": [
+        "Raised cot/prone sleep",
+        "Diluted formula",
+        "Toddler water quota for newborn",
+        "Assume crying proves reflux",
+        "Unrequested elimination diet"
+      ],
+      "escalation": [
+        "Emergency bilious vomit/danger signs; urgent projectile/bloody vomiting, feed refusal or dehydration"
+      ],
+      "source_ids": [
+        "S568",
+        "S569",
+        "S462",
+        "S565"
+      ]
+    },
+    {
+      "id": "pediatrics-acute.pediatrics-acute-norms-tests",
+      "title": "Pediatric tests, reference intervals and vital observations",
+      "triggers": [
+        "Child lab flag",
+        "Adult range compared with neonatal result",
+        "Request universal test package",
+        "Breathing-rate/oxygen reading"
+      ],
+      "minimum_context": [
+        "Analyte,units,specimen,lab range/date/method",
+        "Chronological age and relevant gestation",
+        "Clinical question/severity",
+        "Resting/crying measurement state"
+      ],
+      "actions": [
+        "Use exact pediatric laboratory interval",
+        "Explain CALIPER scope without copying database",
+        "Bilirubin age-hours/gestation pathway",
+        "Discuss tests selected for management question",
+        "Visible distress overrides reassuring home oxygen"
+      ],
+      "avoid": [
+        "Adult cutoffs",
+        "Universal norm table",
+        "Normal number as clearance",
+        "Parent-invasive procedure coaching",
+        "Routine chest X-ray for typical bronchiolitis",
+        "Blanket panels"
+      ],
+      "escalation": [
+        "Clinical deterioration emergency regardless isolated lab/vital; other results interpreted with ordering clinician"
+      ],
+      "source_ids": [
+        "S570",
+        "S571",
+        "S632",
+        "S630",
+        "S552",
+        "S557",
+        "S548",
+        "S565"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-development",
+      "title": "Age-specific surveillance and formal screening",
+      "triggers": [
+        "milestones",
+        "late talking",
+        "development checklist",
+        "12-59 months"
+      ],
+      "minimum_context": [
+        "age in months",
+        "caregiver concern",
+        "current examples and changes",
+        "country"
+      ],
+      "actions": [
+        "Distinguish surveillance, validated screening and diagnosis.",
+        "Use selected examples for appropriate age; do not recreate a scored questionnaire.",
+        "Identify local developmental assessment and early-support pathway."
+      ],
+      "avoid": [
+        "Diagnosing ASD from checklist",
+        "Reassurance to wait despite concern",
+        "Universal US visit calendar"
+      ],
+      "escalation": [
+        "Loss of skills or persistent concern: arrange pediatric assessment.",
+        "Sudden deterioration with acute illness: acute pathway."
+      ],
+      "source_ids": [
+        "S579",
+        "S572",
+        "S573",
+        "S574",
+        "S575",
+        "S576",
+        "S577",
+        "S578"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-prematurity",
+      "title": "Corrected developmental age",
+      "triggers": [
+        "premature toddler",
+        "adjusted age"
+      ],
+      "minimum_context": [
+        "chronological age",
+        "documented gestational age",
+        "existing neonatal follow-up"
+      ],
+      "actions": [
+        "Explain chronological and corrected ages separately within first two years.",
+        "Use actual dates; discuss ongoing needs with treating team."
+      ],
+      "avoid": [
+        "Correcting vaccine dates",
+        "Using correction to dismiss regression",
+        "Extending indefinitely without clinical context"
+      ],
+      "escalation": [
+        "Persistent concerns or regression: pediatric assessment regardless of correction."
+      ],
+      "source_ids": [
+        "S587",
+        "S579"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-growth",
+      "title": "Growth chart and measurement interpretation",
+      "triggers": [
+        "percentile drop",
+        "height",
+        "child BMI",
+        "weight trend"
+      ],
+      "minimum_context": [
+        "dated units and measurements",
+        "lying length or standing height",
+        "chart and country",
+        "age"
+      ],
+      "actions": [
+        "Check method and chart before comparison.",
+        "Explain WHO 0-5 scope and US WHO-to-CDC transition at 2.",
+        "Use serial accurate measurements and clinician context."
+      ],
+      "avoid": [
+        "Adult BMI labels",
+        "Invented percentiles",
+        "Race/genotype assumptions",
+        "Diet restriction to chase percentile"
+      ],
+      "escalation": [
+        "Poor intake, loss of weight or concerning trend: pediatric review."
+      ],
+      "source_ids": [
+        "S580",
+        "S581"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-feeding",
+      "title": "Adequacy and selective eating",
+      "triggers": [
+        "picky eater",
+        "milk",
+        "vegetarian toddler",
+        "low-fat diet",
+        "supplements"
+      ],
+      "minimum_context": [
+        "12-23 versus 24-59 months",
+        "representative intake",
+        "growth concerns",
+        "known allergy/swallowing issue"
+      ],
+      "actions": [
+        "Prioritize adequate energy/fat and iron-rich foods.",
+        "Check actual alternative-drink labels.",
+        "Offer calm structured meals/snacks and repeated low-pressure exposure."
+      ],
+      "avoid": [
+        "Forced feeding",
+        "Adult calorie deficit or keto",
+        "Megavitamins",
+        "Precise energy target from incomplete diary"
+      ],
+      "escalation": [
+        "Deteriorating intake, painful swallowing, recurrent choking or growth concern: clinical/dietetic support."
+      ],
+      "source_ids": [
+        "S583",
+        "S584"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-allergy",
+      "title": "Food reaction and nutritional exclusions",
+      "triggers": [
+        "food allergy",
+        "intolerance",
+        "reaction after food",
+        "elimination"
+      ],
+      "minimum_context": [
+        "food and timing",
+        "symptoms",
+        "reproducibility",
+        "existing professional plan"
+      ],
+      "actions": [
+        "Distinguish immune allergy from intolerance without diagnosis.",
+        "Prepare pediatric/allergy assessment; protect nutritional adequacy.",
+        "Use emergency pathway and existing prescribed rescue plan if severe."
+      ],
+      "avoid": [
+        "Broad unsupported exclusions",
+        "Home challenge after suspected serious reaction",
+        "IgG-based diagnostic claim"
+      ],
+      "escalation": [
+        "Airway swelling, breathing difficulty, collapse or abnormal unresponsiveness: emergency help immediately."
+      ],
+      "source_ids": [
+        "S333"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-choking-prevention",
+      "title": "Safe food preparation below five",
+      "triggers": [
+        "whole grapes",
+        "nuts",
+        "popcorn",
+        "nut butter",
+        "sausage shapes"
+      ],
+      "minimum_context": [
+        "age",
+        "texture/swallowing skill",
+        "current choking or preventive question"
+      ],
+      "actions": [
+        "Use alert upright seated supervised eating.",
+        "Quarter round foods; soften firm textures; remove bones and avoid coin shapes.",
+        "No whole nuts/popcorn below 5; no lumps of nut butter."
+      ],
+      "avoid": [
+        "Swallowing clearance from photo",
+        "Assuming 4 y 11 m is five",
+        "Safety guarantee from cutting"
+      ],
+      "escalation": [
+        "Active choking: first aid immediately; swallowing difficulty: professional assessment."
+      ],
+      "source_ids": [
+        "S585"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-daily-routine",
+      "title": "Sleep, activity and screen age bands",
+      "triggers": [
+        "sleep hours",
+        "screen time",
+        "activity schedule"
+      ],
+      "minimum_context": [
+        "exact age",
+        "current 24-hour pattern",
+        "disability or clinical plan",
+        "family constraints"
+      ],
+      "actions": [
+        "Distinguish age 1 screen recommendation from age 2 and 3-4.",
+        "Describe WHO activity and sleep totals with naps.",
+        "Offer realistic enjoyable change, not pressured regimen."
+      ],
+      "avoid": [
+        "Single rigid timetable",
+        "Sedative/supplement prescription",
+        "Blame for isolated deviation"
+      ],
+      "escalation": [
+        "Persistent functional sleep concerns: pediatric discussion."
+      ],
+      "source_ids": [
+        "S582"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-oral-health",
+      "title": "Fluoride toothpaste and dental care",
+      "triggers": [
+        "toothpaste",
+        "smear",
+        "pea amount",
+        "fluoride ppm",
+        "first dentist"
+      ],
+      "minimum_context": [
+        "age below 3 or 3-4",
+        "actual toothpaste ppm",
+        "existing dentist advice",
+        "pain/swelling"
+      ],
+      "actions": [
+        "Use smear below 3; pea from 3; adult help and twice-daily brushing.",
+        "State UK fluoride concentration guidance with local/dentist context.",
+        "Arrange dental review when not established."
+      ],
+      "avoid": [
+        "Fluoride-free switch solely because cannot spit",
+        "Systemic fluoride dosing",
+        "Antibiotics for tooth pain remotely"
+      ],
+      "escalation": [
+        "Pain/swelling: dental assessment; severe associated symptoms: acute pathway."
+      ],
+      "source_ids": [
+        "S586"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-senses",
+      "title": "Speech, hearing and vision concerns",
+      "triggers": [
+        "unclear speech",
+        "ignores name",
+        "new squint",
+        "failed preschool screen"
+      ],
+      "minimum_context": [
+        "age",
+        "setting and language examples",
+        "hearing/vision concern",
+        "prior screen and dates"
+      ],
+      "actions": [
+        "Passed newborn hearing screen does not exclude later difficulty.",
+        "Ask for hearing assessment and relevant developmental support.",
+        "Explain AAPOS preschool age bands and professional testing; localize programme."
+      ],
+      "avoid": [
+        "Dismissal as disobedience",
+        "Normal hearing/vision from video",
+        "Home acuity score or patching prescription"
+      ],
+      "escalation": [
+        "Failed screen or persistent concerns: professional assessment; sudden deterioration: acute pathway."
+      ],
+      "source_ids": [
+        "S588",
+        "S589",
+        "S579"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-toileting",
+      "title": "Supportive toileting and constipation",
+      "triggers": [
+        "potty readiness",
+        "accidents",
+        "withholding",
+        "soiling"
+      ],
+      "minimum_context": [
+        "age",
+        "pain and stool character",
+        "duration",
+        "day versus night",
+        "ability/support needs"
+      ],
+      "actions": [
+        "Current NHS guidance does not require readiness signs before gentle learning.",
+        "Support foot position, easy clothing, calm routine and effort.",
+        "Check constipation before stopping nappies or increasing pressure."
+      ],
+      "avoid": [
+        "Punishment",
+        "Fixed deadline",
+        "Laxative/enema dosing",
+        "Soiling equated with intentional misbehavior"
+      ],
+      "escalation": [
+        "Blood, vomiting, constant abdominal pain, bloating or weight loss: prompt assessment.",
+        "Persistent symptoms or difficulty: local pediatric support."
+      ],
+      "source_ids": [
+        "S590",
+        "S591"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-prevention",
+      "title": "Home safety and local well-visit navigation",
+      "triggers": [
+        "childproofing",
+        "well-child visit",
+        "vaccine catch-up",
+        "medical check-up panel"
+      ],
+      "minimum_context": [
+        "country",
+        "age",
+        "specific concern",
+        "records/antigen dates only when relevant"
+      ],
+      "actions": [
+        "Briefly address water, batteries/magnets, medicines, falls and burn hazards.",
+        "Use actual national calendar/version and vaccination professional for reconciliation.",
+        "Prepare a focused appointment agenda; investigations need indication."
+      ],
+      "avoid": [
+        "Universal US schedule",
+        "Unverified Serbia/Russia calendar updates",
+        "Broad lab/genetic panels",
+        "Saving records without authorization"
+      ],
+      "escalation": [
+        "Actual ingestion/injury/drowning: acute pathway immediately."
+      ],
+      "source_ids": [
+        "S592",
+        "S579"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-newborn-plan",
+      "title": "Newborn contact and examination plan",
+      "triggers": [
+        "newborn discharge",
+        "well-newborn check",
+        "cord care"
+      ],
+      "minimum_context": [
+        "age in days",
+        "gestation",
+        "country/place of care",
+        "specific concern",
+        "discharge team plan"
+      ],
+      "actions": [
+        "Identify completed/outstanding procedures and responsible service.",
+        "Use England 72-hour/6-8-week examination as a localized example; obtain the actual local discharge/community-contact plan.",
+        "Cord care: gentle cleaning if soiled and drying; follow neonatal instructions."
+      ],
+      "avoid": [
+        "Universal UK timings",
+        "Home hip maneuver/red reflex clearance",
+        "Fontanel deadline",
+        "Antiseptic prescription from photo"
+      ],
+      "escalation": [
+        "New illness/feeding concern: acute infant assessment."
+      ],
+      "source_ids": [
+        "S593",
+        "S599"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-newborn-screens",
+      "title": "Newborn screening results and repeats",
+      "triggers": [
+        "heel prick",
+        "bloodspot",
+        "newborn hearing",
+        "CCHD",
+        "neonatal repeat"
+      ],
+      "minimum_context": [
+        "country/programme/version",
+        "test/sample/result dates",
+        "gestation/transfusion only if relevant",
+        "result exact wording",
+        "responsible service"
+      ],
+      "actions": [
+        "Explain screen versus confirmation.",
+        "Track every outstanding result and repeat separately.",
+        "Localize NHSday 5/results 6 w, hearing followup and USCCHD timing.",
+        "Prematurity/transfusion repeats belong to neonatal/screening team."
+      ],
+      "avoid": [
+        "Positive screen called diagnosis",
+        "Negative screen excludes all disease",
+        "Consumer wearable equivalent",
+        "DIY sampling",
+        "Sample taken equals result completed"
+      ],
+      "escalation": [
+        "Positive/unclear screen: programme followup promptly; new acute symptoms override pass."
+      ],
+      "source_ids": [
+        "S594",
+        "S595",
+        "S596",
+        "S597"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-infant-feeds",
+      "title": "Infant milk and formula safety",
+      "triggers": [
+        "newborn feeding",
+        "formula dilution",
+        "milk before 12 months"
+      ],
+      "minimum_context": [
+        "age",
+        "milk/product",
+        "preparation method",
+        "existing neonatal plan",
+        "feeding/weight concern"
+      ],
+      "actions": [
+        "Support feeding choices and qualified feed observation.",
+        "Use exact product ratio, measured water first, hygienic preparation and applicable 70 C mixing guidance.",
+        "No extra water/powder or additions.",
+        "Special formula/neonatal plans require professional instructions."
+      ],
+      "avoid": [
+        "Remote compulsory volume",
+        "Cowmilk main drink before 12 m",
+        "Adult nutrition targets",
+        "Microwaving",
+        "Assumed interchangeable scoop"
+      ],
+      "escalation": [
+        "Poor intake or illness: infant clinical assessment."
+      ],
+      "source_ids": [
+        "S600",
+        "S601"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-complementary",
+      "title": "Complementary foods and safe allergen introduction",
+      "triggers": [
+        "six-month solids",
+        "first foods",
+        "early peanuts"
+      ],
+      "minimum_context": [
+        "age/corrected age when relevant",
+        "head/sitting/swallowing ability",
+        "allergy/eczema",
+        "existing professional plan"
+      ],
+      "actions": [
+        "Explain around 6 m readiness; milk continues.",
+        "Progress safe textures and iron-containing foods.",
+        "Introduce allergenic foods individually small amounts; continue tolerated foods."
+      ],
+      "avoid": [
+        "Night waking means ready",
+        "Home challenge after reaction",
+        "Whole nuts",
+        "Solids replace infant milk"
+      ],
+      "escalation": [
+        "Swallowing difficulty or known allergy: professional plan; severe reaction: acute emergency."
+      ],
+      "source_ids": [
+        "S601",
+        "S602",
+        "S585"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-safe-infant-sleep",
+      "title": "Infant sleep and awake play",
+      "triggers": [
+        "flat head sleep pillow",
+        "prone sleep",
+        "newborn sleep hours",
+        "tummy time"
+      ],
+      "minimum_context": [
+        "age 0-3 or 4-11 m",
+        "prematurity",
+        "sleep surface",
+        "awake versus asleep",
+        "clinical plan"
+      ],
+      "actions": [
+        "Back sleeping on firm flat clear separate surface with room sharing.",
+        "No head-shape devices/pillows; skull concern routes separately.",
+        "WHO infant sleep groups and awake supervised tummy time; no pressure to force totals."
+      ],
+      "avoid": [
+        "Prone sleep therapy",
+        "Sofa co-sleeping",
+        "Consumer device safety guarantee",
+        "Ignore preterm safe sleep plan"
+      ],
+      "escalation": [
+        "New breathing/responsiveness concern: acute emergency pathway."
+      ],
+      "source_ids": [
+        "S603",
+        "S582"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-vaccine-planner",
+      "title": "Current calendar, antigens and original blank planner",
+      "triggers": [
+        "vaccine calendar",
+        "18 month vaccines",
+        "MMRV",
+        "catchup after moving",
+        "mild cold"
+      ],
+      "minimum_context": [
+        "country/current programme version",
+        "birth cohort",
+        "documented antigen/product/dates",
+        "actual reaction/illness context"
+      ],
+      "actions": [
+        "Check current original calendar and amendments.",
+        "Use UKJuly 2026 cohort details as localized example.",
+        "Blank planner separates documented dose from planned appointment.",
+        "Vaccination service reconciles catchup and exact product contraindications."
+      ],
+      "avoid": [
+        "Universal US/UK schedule",
+        "Invent Serbia/Russia update",
+        "Filled private public example",
+        "Automatic clearance",
+        "All mild colds contraindicate"
+      ],
+      "escalation": [
+        "Severe prior reaction/immunodeficiency: professional product assessment; acute severe reaction: emergency."
+      ],
+      "source_ids": [
+        "S604",
+        "S110"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-infant-development",
+      "title": "Infant developmental observation at 2/4/6/9 months",
+      "triggers": [
+        "infant milestones",
+        "early head control",
+        "babbling",
+        "sitting progress"
+      ],
+      "minimum_context": [
+        "chronological age",
+        "gestation when relevant",
+        "current skill examples and change",
+        "hearing/vision concern",
+        "local care plan"
+      ],
+      "actions": [
+        "Use selected age-appropriate observation prompts.",
+        "Separate surveillance from standardized screening and diagnosis.",
+        "Consider corrected developmental age and progress across domains.",
+        "Arrange clinical review for missed skills, regression or persistent concern."
+      ],
+      "avoid": [
+        "Complete recreated checklist",
+        "Diagnosis from one skill/video",
+        "Loud hearing test",
+        "Prone sleep or pressured motor practice"
+      ],
+      "escalation": [
+        "Regression or persistent concern: pediatric assessment.",
+        "Sudden loss with acute illness: acute infant pathway."
+      ],
+      "source_ids": [
+        "S605",
+        "S606",
+        "S607",
+        "S608",
+        "S579",
+        "S587"
+      ]
+    },
+    {
+      "id": "pediatrics-care.care-missed-result",
+      "title": "Outstanding screening result or transfer between services",
+      "triggers": [
+        "missing heelprick result",
+        "unfinished hearing screen",
+        "moved after discharge",
+        "test done but no result"
+      ],
+      "minimum_context": [
+        "test and dates",
+        "country/programme",
+        "exact known result wording",
+        "responsible previous/current service",
+        "repeat request or neonatal plan"
+      ],
+      "actions": [
+        "Distinguish sample collected from screening completed.",
+        "Identify who holds the result and who now owns follow-up.",
+        "Contact screening service for overdue result or pending repeat/referral.",
+        "Record completion, result and outstanding action separately in authorized private records only if requested."
+      ],
+      "avoid": [
+        "Assume no news means negative",
+        "Invent result/date",
+        "Combine UK/US examples into universal calendar",
+        "Save without authorization"
+      ],
+      "escalation": [
+        "Suspected positive/unclear result or requested repeat: prompt programme follow-up.",
+        "New symptoms override reassuring earlier screen."
+      ],
+      "source_ids": [
+        "S594",
+        "S595",
+        "S596",
+        "S597"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-urgency",
+      "title": "Ill infant or persistent tense fontanel",
+      "triggers": [
+        "bulging at rest",
+        "fever",
+        "drowsiness",
+        "seizure"
+      ],
+      "minimum_context": [
+        "Exact age",
+        "Present responsiveness and breathing",
+        "Temperature if already available"
+      ],
+      "actions": [
+        "Prompt medical assessment for a persistent tense/bulging fontanel while settled, even without other reported symptoms.",
+        "Emergency assessment for persistent tension with illness or neurological danger",
+        "Prompt assessment for under-three-month fever at least 38 C",
+        "Do not postpone for an image"
+      ],
+      "avoid": [
+        "Diagnose meningitis",
+        "Wait for photo or routine scan",
+        "Clear from absent bulging"
+      ],
+      "escalation": "Emergency pathway when impaired responsiveness, seizure, abnormal breathing or severe illness.",
+      "source_ids": [
+        "S548",
+        "S622",
+        "S635",
+        "S565"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-timing",
+      "title": "Closure timing in a well infant",
+      "triggers": [
+        "closed early",
+        "still open",
+        "small soft spot"
+      ],
+      "minimum_context": [
+        "Age and gestation",
+        "Caregiver observation versus examination",
+        "Shape and dated growth"
+      ],
+      "actions": [
+        "Explain variation and measurement method",
+        "Arrange examination when concern persists",
+        "Review growth and development"
+      ],
+      "avoid": [
+        "One mandatory month",
+        "Diagnose fusion from closure",
+        "Ancestry-based reassurance"
+      ],
+      "escalation": "Escalate for persistent abnormal shape, growth change or new illness.",
+      "source_ids": [
+        "S615",
+        "S610",
+        "S611",
+        "S612"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-growth",
+      "title": "Changing head circumference",
+      "triggers": [
+        "percentile jump",
+        "head stopped growing",
+        "large head"
+      ],
+      "minimum_context": [
+        "Dated measurements and units",
+        "Chart, age, sex and prematurity reference",
+        "Symptoms and development"
+      ],
+      "actions": [
+        "Confirm professional measurement and consistent chart",
+        "Use local referral pathway",
+        "Prioritize neurological symptoms"
+      ],
+      "avoid": [
+        "Adult cutoff",
+        "Unverified percentile",
+        "Normal circumference excludes fusion"
+      ],
+      "escalation": "Urgent assessment for verified rapid change with neurological features.",
+      "source_ids": [
+        "S634",
+        "S616",
+        "S628"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-pulse",
+      "title": "Pulsation or position-dependent prominence",
+      "triggers": [
+        "pulsing",
+        "bulges only crying"
+      ],
+      "minimum_context": [
+        "Whether crying-related prominence resolves after settling",
+        "Illness signs",
+        "Age"
+      ],
+      "actions": [
+        "Explain normal pulse possibility",
+        "Distinguish transient crying-related appearance from persistent abnormality",
+        "Provide reassessment trigger without a home clearance test"
+      ],
+      "avoid": [
+        "Pressure diagnosis",
+        "Forceful palpation",
+        "Home clearance test"
+      ],
+      "escalation": "Persistent tense bulge or illness routes urgently.",
+      "source_ids": [
+        "S614",
+        "S636",
+        "S622",
+        "S635"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-hydration",
+      "title": "Sunken appearance and intake",
+      "triggers": [
+        "sunken fontanel",
+        "dry diapers",
+        "poor feeding"
+      ],
+      "minimum_context": [
+        "Alertness",
+        "Intake and vomiting/diarrhea",
+        "Urine and breathing"
+      ],
+      "actions": [
+        "Whole-child hydration assessment",
+        "Prompt clinical advice for poor intake/urine",
+        "Emergency assessment for severe illness"
+      ],
+      "avoid": [
+        "Dehydration from photo alone",
+        "Reassure because fontanel flat",
+        "Fluid regimen from depth"
+      ],
+      "escalation": "Emergency if lethargic, abnormal breathing or shock concern.",
+      "source_ids": [
+        "S555",
+        "S614"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-shape",
+      "title": "Flattening or positional preference",
+      "triggers": [
+        "flat head",
+        "one-sided preference",
+        "torticollis"
+      ],
+      "minimum_context": [
+        "Onset and progression",
+        "Neck movement",
+        "Prior clinician assessment"
+      ],
+      "actions": [
+        "Clinical assessment to distinguish positional shape and fusion",
+        "Safe-sleep-preserving awake positioning",
+        "Professional physiotherapy for restricted movement"
+      ],
+      "avoid": [
+        "Prone sleep",
+        "Pillows or wedges",
+        "Photo diagnosis",
+        "Forced stretches"
+      ],
+      "escalation": "Early craniofacial referral for suspicious persistent shape or uncertain fusion.",
+      "source_ids": [
+        "S617",
+        "S619",
+        "S620"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-ridge",
+      "title": "Forehead ridge",
+      "triggers": [
+        "metopic ridge",
+        "triangular forehead"
+      ],
+      "minimum_context": [
+        "Whole shape and onset",
+        "Growth",
+        "Prior assessment"
+      ],
+      "actions": [
+        "Explain physiological ridge versus shape disorder",
+        "Recommend examination for narrowing or persistent concern"
+      ],
+      "avoid": [
+        "Diagnose from ridge alone",
+        "CT angle self-score",
+        "Guarantee surgery or harmlessness"
+      ],
+      "escalation": "Timely craniofacial review for triangular/narrow forehead or additional shape changes.",
+      "source_ids": [
+        "S621"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-late",
+      "title": "Large or late-closing fontanel",
+      "triggers": [
+        "large gap",
+        "open beyond infancy"
+      ],
+      "minimum_context": [
+        "Growth and development",
+        "Bone findings and diet",
+        "Screening and existing supplement plan"
+      ],
+      "actions": [
+        "Pediatric review of whole pattern",
+        "Explain selected causes without assigning diagnosis",
+        "Targeted clinician-chosen tests"
+      ],
+      "avoid": [
+        "Blanket mineral/thyroid/genetic panel",
+        "Rickets from gap alone",
+        "Extra supplements to force closure"
+      ],
+      "escalation": "Urgent route for neurological symptoms or severe illness; otherwise focused review.",
+      "source_ids": [
+        "S623",
+        "S626",
+        "S622"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-supplement",
+      "title": "Vitamin D or calcium change request",
+      "triggers": [
+        "stop vitamin D for small fontanel",
+        "more drops to close",
+        "duplicate supplements"
+      ],
+      "minimum_context": [
+        "Country",
+        "Exact concentration and actual amount",
+        "Existing clinician plan and other supplements"
+      ],
+      "actions": [
+        "Do not derive treatment from gap size",
+        "Preserve verified plan pending clinician advice",
+        "Check duplicates and route suspected excess exposure"
+      ],
+      "avoid": [
+        "Universal drop count",
+        "High-dose treatment",
+        "Automatic cessation for small gap"
+      ],
+      "escalation": "Poison-service/clinical advice for suspected excess; emergency route if severely unwell.",
+      "source_ids": [
+        "S624"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-imaging",
+      "title": "Scan choice or normal ultrasound claim",
+      "triggers": [
+        "CT",
+        "brain ultrasound normal",
+        "suture ultrasound",
+        "MRI"
+      ],
+      "minimum_context": [
+        "Clinical question",
+        "Written report and examined structures",
+        "Referral and symptoms"
+      ],
+      "actions": [
+        "Differentiate brain versus suture ultrasound",
+        "Explain indication-specific imaging",
+        "Do not delay specialist referral for extra local tests"
+      ],
+      "avoid": [
+        "Every infant CT",
+        "Universal ultrasound screening",
+        "Categorical CT ban",
+        "Interpret one slice"
+      ],
+      "escalation": "Urgency overrides elective imaging planning.",
+      "source_ids": [
+        "S613",
+        "S629"
+      ]
+    },
+    {
+      "id": "fontanels.fontanel-treatment",
+      "title": "Confirmed craniosynostosis options and follow-up",
+      "triggers": [
+        "endoscopic surgery",
+        "helmet",
+        "open reconstruction",
+        "postoperative concerns"
+      ],
+      "minimum_context": [
+        "Confirmed diagnosis",
+        "Center plan and age",
+        "Present symptoms"
+      ],
+      "actions": [
+        "Prepare questions about technique, window, risks and follow-up",
+        "Distinguish postoperative and cosmetic helmets",
+        "Reassess new symptoms after surgery"
+      ],
+      "avoid": [
+        "Guarantee procedure by birthday",
+        "Massage cure",
+        "End surveillance at fontanel closure"
+      ],
+      "escalation": "Emergency for acute neurological danger; contact treating team for new postoperative concern.",
+      "source_ids": [
+        "S627",
+        "S625"
+      ]
     }
   ]
 }

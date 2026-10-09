@@ -92,11 +92,13 @@ for _skill in ['health-record-import','health-record-design','health-research','
 
 
 CLINICAL_TOPICS = ['EMERGENCY','MEDICINES','NUTRITION','ANATOMY','CHRONIC','NEURO',
-                   'SYMPTOMS','DIAGNOSTICS','NAVIGATION','AGEING_REHAB','ENDOMETRIOSIS','ARCHITECTURE']
+                   'SYMPTOMS','DIAGNOSTICS','NAVIGATION','AGEING_REHAB','ENDOMETRIOSIS','ARCHITECTURE',
+                   'PEDIATRICS','PEDIATRIC_CARE','FONTANELS']
 CLINICAL_PACK = ['knowledge/clinical/'+name+'.md' for name in CLINICAL_TOPICS] + [
     'knowledge/clinical/CLINICAL_INDEX.md','knowledge/clinical/navigation.json',
     'knowledge/clinical/routes.json','knowledge/clinical/source-review.json',
-    'knowledge/clinical/intake-question-bank.json','knowledge/clinical/terminology.json']
+    'knowledge/clinical/intake-question-bank.json','knowledge/clinical/terminology.json',
+    'knowledge/clinical/source-use-policy.json','docs/medical-source-attribution.md']
 for _skill in ['health-first-aid','health-nutrition','health-care-navigation','health-history-intake']:
     MAP[_skill] = COMMON + ['knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md',
         'knowledge/32_RISK_COMMUNICATION.md','knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']

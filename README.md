@@ -20,7 +20,7 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |
 | `health-record-design` | Blank private-record design, provenance, medicine reconciliation and unknown fields |
 | `health-record-import` | Owner-authorized photo/PDF import, preserved originals, source-linked history, corrections, retrieval and charts in private storage |
-| `health-family-care` | Child and pregnancy pathways, reproductive health, specialty navigation and rehabilitation |
+| `health-family-care` | Detailed birth-to-under-five care and fontanelles, pregnancy/reproductive health, specialty navigation and rehabilitation |
 | `health-prevention` | Screening, nutrition, healthy ageing, shared decisions and truthful insurance support |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
 | `health-first-aid` | Immediate lay actions for suspected emergencies, followed by explanations |
@@ -48,7 +48,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing medical modules and original source histories are retained. The medical register now contains 547 records, covering allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. The twelve-module [clinical navigation index](knowledge/clinical/CLINICAL_INDEX.md) adds first aid, medicine classes, nutrition, chronic care, anatomy, diagnostic reports, ageing, local care and a deeper endometriosis review. It records actual source access and remaining limits; source count and archive size do not establish completeness. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing medical modules and original source histories are retained. The medical register now contains 636 records, covering allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. The fifteen-module [clinical navigation index](knowledge/clinical/CLINICAL_INDEX.md) adds first aid, medicine classes, nutrition, chronic care, anatomy, diagnostic reports, ageing, local care and a deeper endometriosis review. It records actual source access and remaining limits; source count and archive size do not establish completeness. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -118,3 +118,7 @@ Medical records and full psychological journals remain separately authorized. Th
 ### Saving from an external chat
 
 Use [a private inbox](knowledge/36_PRIVATE_INTAKE_QUEUE.md) when this host lacks safe access to the accepted ledger. Connected file upload can queue a source package; otherwise download it and place it manually. Codex or another authorized local processor can review and accept it later. The inbox is not another medical database. No wearable, smart home or home server is required.
+
+## Pediatrics before the fifth birthday
+
+[Under-five care](knowledge/clinical/PEDIATRIC_CARE.md), [illness and procedures](knowledge/clinical/PEDIATRICS.md), and [fontanelles/head growth](knowledge/clinical/FONTANELS.md) cover birth through 59 completed months. Age-specific development/growth, newborn screening and result follow-up, feeding, safe sleep, prevention and current-local vaccination navigation are separated from urgent illness. Fontanel timing is interpreted with shape, growth and the whole child rather than one closure deadline. [Review and limits](docs/pediatrics-under-five-review.md) and [executed response checks](docs/pediatrics-under-five-forward-checks.md) document evidence depth and remaining gaps.
