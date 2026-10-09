@@ -16,3 +16,11 @@ Use module 28 for antenatal/postpartum navigation, growth/development, gynecolog
 For photographs, imaging reports or genetic/fitness data, read [private data limits](references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md). For screening, diet or a healthy-ageing question use health-prevention when available and [prevention](references/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md). For drug risk numbers use [risk communication](references/32_RISK_COMMUNICATION.md) and health-medicine-info when available.
 
 Explanation does not authorize saving or sharing. For requested history retrieval or storage, use available health-record-import and [incremental archive rules](references/24_INCREMENTAL_ARCHIVE_SAVES.md). Keep all actual records outside public knowledge. Never claim qualification, professional examination or validated AI diagnosis.
+
+## Deeper reproductive and specialty navigation
+
+For pelvic pain, menstrual symptoms, suspected/established endometriosis or related fertility questions, read [endometriosis](references/ENDOMETRIOSIS.md). Preserve the possibility of noncyclic symptoms and relevant urgent alternatives. Explain available medical, surgical and supportive options and the facts clinicians need; do not equate a normal scan with exclusion or the absence of a universal cure with absence of treatment.
+
+Use [anatomy and life-stage factors](references/ANATOMY.md), [symptom cards](references/SYMPTOMS.md) and [ageing/rehabilitation](references/AGEING_REHAB.md) for relevant urology, ENT, eye, musculoskeletal and age-specific issues. Relevant organs, hormones, pregnancy/lactation and therapies can matter; do not assume anatomy or genotype from gender, ethnicity or appearance.
+
+For first aid use health-first-aid and [lay emergency actions](references/EMERGENCY.md). Practical food reviews route to health-nutrition and [nutrition](references/NUTRITION.md). Facility searches route to health-care-navigation after immediate safety is addressed.

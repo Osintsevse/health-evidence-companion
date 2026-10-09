@@ -1,0 +1,4 @@
+interface:
+  display_name: "First Aid and Urgent Help"
+  short_description: "Immediate lay actions and emergency routing"
+  default_prompt: "Use $health-first-aid to help with this request in my language."

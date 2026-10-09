@@ -2392,5 +2392,2534 @@
     "retrieval_status": "Automated scraping and licensing sections read; not legal advice or a negotiated data license",
     "use": "Manual navigation and licensed integration boundaries",
     "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S267",
+    "title": "Adult basic life support Guidelines",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines",
+    "region": "UK translation of ERC/ILCOR",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Emergency call, gasps, adult CPR/AED",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S268",
+    "title": "First Aid Guidelines",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+    "region": "UK translation of ERC/ILCOR",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Choking, anaphylaxis, bleeding, hypoglycemia, trauma; drowning, rescue breaths and safe water-rescue sections",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S269",
+    "title": "Paediatric Life Support (basic and advanced)",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines",
+    "region": "UK/ERC",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Paediatric BLS, choking, two-thumb infant thrusts, five initial breaths",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S270",
+    "title": "Part 6: Pediatric Basic Life Support",
+    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+    "region": "US AHA/AAP",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Infant CPR techniques; infant heel-hand choking thrust; compressions-first distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S271",
+    "title": "Infant CPR",
+    "url": "https://cpr.heart.org/en/training-programs/community-programs/community-resources/infant-cpr",
+    "region": "US",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Lay paediatric compressions/breaths and AED",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S272",
+    "title": "2025 Guidelines Updates\u2014Infant CPR Anytime",
+    "url": "https://cpr.heart.org/en/-/media/CPR-Files/Courses-and-Kits/CPR-Anytime/Infant-CPR-Anytime/KJ2004-2025-GL-Update-Infant-CPR-Anytime_260407_FINAL.pdf?sc_lang=en",
+    "region": "US",
+    "retrieval_status": "PDF_text_extracted",
+    "use": "Explicit heel-of-hand infant choking thrust change",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S273",
+    "title": "Adult & Child Choking: Symptoms and First Aid",
+    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+    "region": "US",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Effective cough, 5/5 sequence, pregnancy/body-size adaptations",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S274",
+    "title": "Infant Choking: How To Help",
+    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/infant-choking",
+    "region": "US",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Cough/cry assessment, infant positioning; comparison with current 2025 guidance",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S275",
+    "title": "Symptoms of a stroke",
+    "url": "https://www.nhs.uk/conditions/stroke/symptoms/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "FAST plus other symptoms; symptoms resolved within 24h emergency",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S276",
+    "title": "Heart attack",
+    "url": "https://www.nhs.uk/conditions/heart-attack/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Recognition, rest, no self-driving, aspirin context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S277",
+    "title": "Poisoning",
+    "url": "https://www.nhs.uk/conditions/poisoning/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Emergency symptoms, monitoring, no emesis/oral intake",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S278",
+    "title": "First aid: Act fast!",
+    "url": "https://www.poison.org/first-aid-for-poisonings",
+    "region": "US National Capital Poison Center",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "US number; eye/skin irrigation; caustic exception",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S279",
+    "title": "Paracetamol overdose",
+    "url": "https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/paracetamol-overdose",
+    "region": "UK NHS Trust",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Early wellness does not exclude poisoning; timing and combination medicines",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S280",
+    "title": "What is naloxone?",
+    "url": "https://www.poison.org/articles/what-is-naloxone",
+    "region": "US National Capital Poison Center",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Temporary reversal; product/local instructions; emergency assessment after response",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S281",
+    "title": "Low blood sugar (hypoglycaemia)",
+    "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Conscious oral glucose versus unconscious no oral intake and prescribed glucagon",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S282",
+    "title": "What to do if someone has a seizure (fit)",
+    "url": "https://www.nhs.uk/symptoms/what-to-do-if-someone-has-a-seizure-fit/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Protection, timing, ambulance triggers, trained existing plan",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S283",
+    "title": "Burns and scalds",
+    "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "20min cooling, coverings, severe/chemical/electrical routing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S284",
+    "title": "Broken bones and fractures",
+    "url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+    "region": "UK St John Ambulance",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Support, open injury, sensation, major fracture routing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S285",
+    "title": "Head injury and concussion",
+    "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Emergency and urgent-assessment warnings",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S286",
+    "title": "Sepsis",
+    "url": "https://www.nhs.uk/conditions/sepsis/",
+    "region": "UK",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Adults/children danger signs, temperature/rash limitations",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S287",
+    "title": "Adrenaline Auto-Injectors (AAIs)",
+    "url": "https://www.gov.uk/government/publications/adrenaline-auto-injectors-aais-safety-campaign/adrenaline-auto-injectors-aais",
+    "region": "UK regulator",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Lay/carer auto-injector action, posture and urgency",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S288",
+    "title": "EpiPen Adrenaline (Epinephrine) Auto-Injector 0.3mg SmPC",
+    "url": "https://www.medicines.org.uk/emc/medicine/26974",
+    "region": "UK product label",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Outer thigh, actual device instructions, 3-second hold",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S289",
+    "title": "112 \u2013 the EU's emergency phone number",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "region": "EU Commission",
+    "retrieval_status": "search_excerpt_only; direct_open_error",
+    "use": "112 throughout EU",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S290",
+    "title": "New police and emergency-service numbers from 1 January",
+    "url": "https://www.srbija.gov.rs/vest/182468/od-1-januara-novi-brojevi-policije-i-hitnih-sluzbi.php",
+    "region": "Serbia government",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "194 ambulance and 112 emergency intervention",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S291",
+    "title": "Serbia Travel Advisory \u2013 emergency phone numbers",
+    "url": "https://travel.state.gov/en/international-travel/travel-advisories/serbia.html",
+    "region": "US government information on Serbia",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Independent current 194 ambulance corroboration",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S292",
+    "title": "Part 7: Adult Basic Life Support",
+    "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support",
+    "region": "US AHA",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Recognition, no lay pulse delay, compressions-only fallback, CPR/AED sequence and quality",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S293",
+    "title": "European Resuscitation Council Guidelines 2025 First Aid",
+    "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf",
+    "region": "ERC international European guidance",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Glucose route, glucagon training, naloxone and regional medicine options; heat stroke and hypothermia sections",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S294",
+    "title": "Severe Bleeding First Aid",
+    "url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+    "region": "UK St John Ambulance",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Pressure and bleeding first-aid context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S295",
+    "title": "Heat exhaustion and heatstroke",
+    "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+    "region": "UK NHS",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Cooling, danger signs and mild heat-exhaustion contrast",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S296",
+    "title": "Hypothermia",
+    "url": "https://www.nhs.uk/conditions/hypothermia/",
+    "region": "UK NHS",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Shelter/insulation, safe-swallow drink boundary, avoid direct intense heat",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S297",
+    "title": "Asthma",
+    "url": "https://www.nhs.uk/conditions/asthma/",
+    "region": "UK NHS",
+    "retrieval_status": "relevant_sections_opened_and_read",
+    "use": "Existing reliever plan, SABA versus AIR/MART distinction, emergency and post-attack review",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S298",
+    "title": "ATC/DDD Index 2026",
+    "url": "https://atcddd.fhi.no/atc_ddd_index/",
+    "region": "Global",
+    "retrieval_status": "Full index landing page inspected; individual classes not exhaustively opened",
+    "use": "Classification navigation and limits",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S299",
+    "title": "WHO Model Lists of Essential Medicines",
+    "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists/",
+    "region": "Global",
+    "retrieval_status": "Landing page and search excerpts inspected; list PDF not fully read",
+    "use": "Essential-medicine scope and adult/child distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S300",
+    "title": "EMA medicine finder",
+    "url": "https://www.ema.europa.eu/en/medicines",
+    "region": "EU/EEA",
+    "retrieval_status": "Landing page inspected",
+    "use": "Central approval versus national registers and research/approval distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S301",
+    "title": "FDA Drug Approvals and Databases",
+    "url": "https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases",
+    "region": "US",
+    "retrieval_status": "Search excerpts inspected",
+    "use": "Approval history and safety database navigation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S302",
+    "title": "FDA Online Label Repository",
+    "url": "https://labels.fda.gov/",
+    "region": "US",
+    "retrieval_status": "Search-rendered disclaimer inspected",
+    "use": "Submitted label versus approved-label distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S303",
+    "title": "DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/",
+    "region": "US",
+    "retrieval_status": "Search-rendered landing information inspected; direct search URLs failed",
+    "use": "In-use labeling navigation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S304",
+    "title": "NICE NG238 cardiovascular risk and lipid modification",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3",
+    "region": "UK",
+    "retrieval_status": "Direct standard URL 403; search-rendered recommendation/rationale sections inspected",
+    "use": "Primary/secondary prevention and additional-agent eligibility",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S305",
+    "title": "NICE NG28 initial medicines",
+    "url": "https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines",
+    "region": "UK",
+    "retrieval_status": "Search-rendered section 1.13 and rationale inspected",
+    "use": "Current regional cardiorenal-oriented type 2 treatment context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S306",
+    "title": "GOLD 2026 Report",
+    "url": "https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf",
+    "region": "Global",
+    "retrieval_status": "Search PDF excerpt inspected only",
+    "use": "COPD-specific guideline route",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S307",
+    "title": "WHO AWaRe antibiotic book",
+    "url": "https://www.who.int/publications/i/item/9789240062382",
+    "region": "Global",
+    "retrieval_status": "Publication landing information inspected",
+    "use": "Site-specific antibiotic/stewardship route",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S308",
+    "title": "NICE NG5 Medicines optimisation",
+    "url": "https://www.nice.org.uk/Guidance/NG5?print=true",
+    "region": "UK",
+    "retrieval_status": "Overview and full-guideline structured-review search excerpts inspected; direct recommendations 403",
+    "use": "Reconciliation and structured medication review",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S309",
+    "title": "NHS SPS Advising on missed or delayed doses",
+    "url": "https://sps.nhs.uk/articles/advising-on-missed-or-delayed-doses-of-medicines/",
+    "region": "UK",
+    "retrieval_status": "Search-rendered page incl high-risk scope and general advice inspected",
+    "use": "Exact leaflet and high-risk missed-dose routing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S310",
+    "title": "NCCIH Using Dietary Supplements Wisely",
+    "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely",
+    "region": "US",
+    "retrieval_status": "Web page retrieved; safety/interaction navigation inspected",
+    "use": "Include supplement exposures and do not infer natural safety",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S311",
+    "title": "CDC Clinical Practice Guideline at a Glance",
+    "url": "https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html",
+    "region": "US",
+    "retrieval_status": "Full at-a-glance web page inspected",
+    "use": "Adult outpatient scope, flexibility, exclusions and no abrupt policy withdrawal",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S312",
+    "title": "WHO Rehabilitation fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+    "region": "Global",
+    "retrieval_status": "Full fact sheet inspected",
+    "use": "Function/participation and concurrent rehabilitation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S313",
+    "title": "NICE NG193 chronic primary pain recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng193/chapter/recommendations",
+    "region": "UK",
+    "retrieval_status": "Search-rendered sections 1.2.1-1.2.4 and rationale excerpts inspected; direct capitalized page 403",
+    "use": "Exercise and trained ACT/CBT for chronic primary pain",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S314",
+    "title": "NCI Types of Cancer Treatment",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types",
+    "region": "US",
+    "retrieval_status": "Types landing page inspected",
+    "use": "Cancer method map and indication-specific treatment navigation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S315",
+    "title": "DailyMed lisinopril oral tablet label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db5bfa2f-07b8-4f79-8a40-691da006e2ed",
+    "region": "US",
+    "retrieval_status": "Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected",
+    "use": "Selected ACE safety example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S316",
+    "title": "DailyMed lithium carbonate tablets/capsules",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+    "region": "US",
+    "retrieval_status": "Search-rendered pretreatment/renal/toxicity sections inspected",
+    "use": "Lithium monitoring and clearance example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S317",
+    "title": "DailyMed methotrexate tablets",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=948e0bab-6524-4b87-9853-1799d4415558",
+    "region": "US",
+    "retrieval_status": "Search-rendered indications and fatal schedule-error warning inspected",
+    "use": "Weekly inflammatory versus varying oncology schedules; urgent error routing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S318",
+    "title": "DailyMed metformin extended-release tablet",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e41818c-60e9-4bcf-9586-7bb8d33d5e89",
+    "region": "US",
+    "retrieval_status": "Search-rendered lactic-acidosis risk-factor excerpt inspected",
+    "use": "Organ/illness modifiers example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S319",
+    "title": "DailyMed Jardiance empagliflozin tablet",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59ed43d9-b4e0-72a2-e063-6394a90a327d",
+    "region": "US",
+    "retrieval_status": "Search-rendered ketoacidosis precipitating-factor and glucose-independent assessment excerpts inspected",
+    "use": "SGLT2 acute-risk example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S320",
+    "title": "DailyMed prednisone label PDF",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=2a053775-6f6a-455e-b9a8-8b60e6062db3&type=pdf",
+    "region": "US",
+    "retrieval_status": "Search-rendered HPA suppression and infection excerpts inspected",
+    "use": "Systemic steroid cumulative/withdrawal example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S321",
+    "title": "DailyMed sertraline HCl capsules",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c8bcba9-eaeb-aa44-f9ea-b580de55a439",
+    "region": "US",
+    "retrieval_status": "Search-rendered serotonin/bleeding/discontinuation warnings inspected",
+    "use": "Selected antidepressant interaction example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S322",
+    "title": "Healthy diet",
+    "url": "https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet",
+    "region": "Global",
+    "retrieval_status": "HTML read: principles, carbohydrate/fibre, sugar, fat, salt/potassium",
+    "use": "Population reference targets and food pattern",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S323",
+    "title": "Food energy: methods of analysis and conversion factors, chapter 4",
+    "url": "https://www.fao.org/4/y5022e/y5022e05.htm",
+    "region": "Global",
+    "retrieval_status": "Full short HTML chapter read",
+    "use": "General factors, available carbohydrate, fibre, polyols and alcohol",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S324",
+    "title": "Regulation (EU) No 1169/2011 consolidated 1 April 2025",
+    "url": "https://faolex.fao.org/docs/pdf/eur128444.pdf",
+    "region": "EU",
+    "retrieval_status": "FAOLEX-hosted primary regulation PDF text: Annex I definitions, XIV factors, XV units read",
+    "use": "Carbohydrate/fibre, salt equivalent and energy factors",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S325",
+    "title": "How to Understand and Use the Nutrition Facts Label",
+    "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+    "region": "US",
+    "retrieval_status": "HTML serving information, calorie, nutrient and sugar sections read",
+    "use": "Serving denominators, total/added sugars and label reference values",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S326",
+    "title": "DASH: Following DASH",
+    "url": "https://www.nhlbi.nih.gov/health/dash/following-dash",
+    "region": "US",
+    "retrieval_status": "HTML getting started, calorie-needs and serving-table context read",
+    "use": "Flexible DASH pattern and energy-dependent servings",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S327",
+    "title": "ACC Consensus on ASCVD Risk Reduction in Hypertriglyceridemia: Key Points",
+    "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2021/07/27/21/04/2021-ACC-ECDP-Hypertriglyceridemia",
+    "region": "US",
+    "retrieval_status": "Official society HTML key points read, especially 3-6 and severe triglycerides",
+    "use": "Secondary causes, referral, severity-dependent diets and medicine complementarity",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S328",
+    "title": "Healthy Eating for Adults with Chronic Kidney Disease",
+    "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+    "region": "US",
+    "retrieval_status": "HTML nutrition, potassium, protein, fluid and dietitian sections read",
+    "use": "No universal renal diet; stage, labs, dialysis and nutritional adequacy",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S329",
+    "title": "Chronic heart failure in adults: diagnosis and management, recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed primary recommendation excerpts read: 1.9.10-1.9.11; direct HTML failed",
+    "use": "Do not routinely restrict fluid/sodium; avoid potassium salt substitutes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S330",
+    "title": "Eating disorders: recognition and treatment, recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng69/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed primary excerpts read: identification, 1.10.1-1.10.3; direct HTML and PDF failed/403",
+    "use": "Early referral, BMI/screening limits, compensatory behavior and emergency deterioration",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S331",
+    "title": "Maternal and child nutrition: nutrition and weight management in pregnancy, and nutrition in children up to 5 years",
+    "url": "https://www.nice.org.uk/guidance/ng247/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed primary excerpts read: vitamin/life-stage advice, breastfeeding, 1.2.15; direct HTML/PDF failed/403",
+    "use": "No intentional pregnancy weight loss; breastfeeding and age-specific safeguards",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S332",
+    "title": "The vegan diet",
+    "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/",
+    "region": "UK",
+    "retrieval_status": "HTML nutrient adequacy, fortification, B12, calcium/iron and life stages read",
+    "use": "Reliable nutrient sources and planning across life stages",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S333",
+    "title": "Food allergy",
+    "url": "https://www.nhs.uk/conditions/food-allergy/",
+    "region": "UK",
+    "retrieval_status": "HTML symptoms, emergency warning, investigation and specialist plan sections read",
+    "use": "Anaphylaxis routing, specialist diagnosis and exact rescue plan",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S334",
+    "title": "Food intolerance",
+    "url": "https://www.nhs.uk/conditions/food-intolerance/",
+    "region": "UK",
+    "retrieval_status": "HTML mechanisms, tests, home-test limitations and exclusion risks read",
+    "use": "Separate intolerance from allergy; avoid broad unsupported exclusions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S335",
+    "title": "Probiotics: Health Professional Fact Sheet",
+    "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+    "region": "US",
+    "retrieval_status": "HTML strain specificity, clinical evidence context and safety considerations read",
+    "use": "Strain/indication-specific evidence, immune compromise and premature infant safety",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S336",
+    "title": "Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/",
+    "region": "US research",
+    "retrieval_status": "Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected",
+    "use": "20-adult crossover, 14 days per diet, energy intake and weight; mechanism limits",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S337",
+    "title": "Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition, recommendations",
+    "url": "https://www.nice.org.uk/guidance/cg32/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed primary excerpts read: 1.2 screening, 1.3 risk, 1.4 refeeding; direct HTML/PDF failed/403",
+    "use": "Unintentional loss, low intake, swallowing and nutrition support referral",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S338",
+    "title": "Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes\u20142026",
+    "url": "https://doi.org/10.2337/dc26-S005",
+    "region": "US",
+    "retrieval_status": "Indexed primary detailed excerpts read: meal planning, macro individualization, 5.26 SGLT/ketogenic warning; direct HTML/PDF failed/403",
+    "use": "Individualized nutrition, no universal macro distribution and ketogenic SGLT caution",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S339",
+    "title": "The American Heart Association Diet and Lifestyle Recommendations",
+    "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations",
+    "region": "US",
+    "retrieval_status": "HTML entire short food-pattern section read; official 2026 statement hub verified",
+    "use": "Current food pattern and saturated-to-unsaturated substitutions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S340",
+    "title": "Healthy Living with Diabetes",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes",
+    "region": "US",
+    "retrieval_status": "HTML meal timing, medicine-related low glucose, carb counting and plate method read",
+    "use": "Meal changes and insulin/sulfonylurea risks; existing care plan",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S341",
+    "title": "Anatomy & Physiology Module Map",
+    "url": "https://training.seer.cancer.gov/anatomy/?map=&view=searchengine",
+    "region": "US",
+    "retrieval_status": "Module map inspected",
+    "use": "system coverage",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S342",
+    "title": "Introduction to the Nervous System",
+    "url": "https://training.seer.cancer.gov/anatomy/nervous/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "sensory integration motor and homeostasis",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S343",
+    "title": "Introduction to the Endocrine System",
+    "url": "https://training.seer.cancer.gov/anatomy/endocrine/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "hormonal versus ductal signaling",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S344",
+    "title": "Structure of the Heart",
+    "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html",
+    "region": "US",
+    "retrieval_status": "Main organ section read",
+    "use": "chambers valves coronary supply",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S345",
+    "title": "Circulatory Pathways",
+    "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html",
+    "region": "US",
+    "retrieval_status": "Main pathway section read",
+    "use": "systemic pulmonary major arterial territories",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S346",
+    "title": "Introduction to the Respiratory System",
+    "url": "https://training.seer.cancer.gov/anatomy/respiratory/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "ventilation transport gas exchange pH",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S347",
+    "title": "Accessory Organs",
+    "url": "https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html",
+    "region": "US",
+    "retrieval_status": "Main organ section read",
+    "use": "liver portal supply gallbladder pancreas",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S348",
+    "title": "Kidneys",
+    "url": "https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html",
+    "region": "US",
+    "retrieval_status": "Main organ section read",
+    "use": "location hilum nephron urinary drainage",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S349",
+    "title": "Introduction to the Lymphatic System",
+    "url": "https://training.seer.cancer.gov/anatomy/lymphatic/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "fluid return fats immune connections",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S350",
+    "title": "Introduction to the Reproductive System",
+    "url": "https://training.seer.cancer.gov/anatomy/reproductive/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "gametes gonads hormones",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S351",
+    "title": "Introduction to the Skeletal System",
+    "url": "https://training.seer.cancer.gov/anatomy/skeletal/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "support protection calcium marrow",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S352",
+    "title": "Introduction to the Muscular System",
+    "url": "https://training.seer.cancer.gov/anatomy/muscular/",
+    "region": "US",
+    "retrieval_status": "Main introductory section read",
+    "use": "contraction movement posture heat",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S353",
+    "title": "Epidermis, Dermis and Skin Senses Program",
+    "url": "https://www.niams.nih.gov/grants-funding/supported-scientific-areas/extracellular-matrix-biology-and-diseases",
+    "region": "US",
+    "retrieval_status": "Accessible main research portfolio text read",
+    "use": "barrier matrix and sensory systems",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S354",
+    "title": "Demographics & eGFR Accuracy",
+    "url": "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics",
+    "region": "US",
+    "retrieval_status": "Relevant equation and accuracy sections inspected",
+    "use": "race-free equations uncertainty combined estimate",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S355",
+    "title": "Sex as a Biological Variable",
+    "url": "https://orwh.od.nih.gov/sex-as-biological-variable",
+    "region": "US",
+    "retrieval_status": "Accessible policy overview inspected; linked report not fully read",
+    "use": "sex-aware research interpretation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S356",
+    "title": "Use of Population Descriptors in Genomics",
+    "url": "https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics",
+    "region": "US",
+    "retrieval_status": "Definitions and proxy cautions read",
+    "use": "race ethnicity ancestry distinctions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S357",
+    "title": "Treatment of Uncomplicated Malaria",
+    "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html",
+    "region": "US",
+    "retrieval_status": "Anti-relapse G6PD and pregnancy subsection inspected; no regimen copied",
+    "use": "quantitative G6PD testing medicine-specific example",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S358",
+    "title": "Sickle Cell Disease Diagnosis",
+    "url": "https://www.nhlbi.nih.gov/health/sickle-cell-disease/diagnosis",
+    "region": "US",
+    "retrieval_status": "Blood genetic and screening sections inspected",
+    "use": "individual testing and confirmation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S359",
+    "title": "Pulse Oximeters",
+    "url": "https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters",
+    "region": "US",
+    "retrieval_status": "Device limitations and FDA efforts sections inspected",
+    "use": "skin pigmentation limits and symptom context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S360",
+    "title": "Anatomy and Physiology 2e introduction: current rights restriction",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+    "region": "US",
+    "retrieval_status": "Introduction objectives and licensing inspected only; no chapters ingested",
+    "use": "rights restriction only",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S361",
+    "title": "WHO: Endometriosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/endometriosis",
+    "region": "Global",
+    "retrieval_status": "Direct official full fact sheet inspected: overview, symptoms, causes, diagnosis, treatment, burden and WHO response.",
+    "use": "Definitions; approximate global prevalence and diagnostic delay; distinction between no universal cure and available effective care; inclusive population framing.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S362",
+    "title": "NICE NG73: Endometriosis\u2014diagnosis and management, recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng73/chapter/Recommendations",
+    "region": "United Kingdom",
+    "retrieval_status": "Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.",
+    "use": "Suspected disease pathway, normal-imaging limits, concurrent treatment/investigation, referral, laparoscopy, surgical and fertility distinctions, preoperative GnRH comparison.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S363",
+    "title": "ESHRE Guideline: Endometriosis (2022)",
+    "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf",
+    "region": "Europe / international professional guidance",
+    "retrieval_status": "Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9\u201317, diagnosis and pain, surgery pp. 53\u201361, pre/postoperative treatment pp. 67\u201368, infertility pp. 81\u2013105, adolescence pp. 123\u2013135, menopause pp. 137\u2013147, extrapelvic disease pp. 148\u2013153. Not all 192 pages read.",
+    "use": "Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care; explicit NICE comparison.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S364",
+    "title": "ACOG publishes new endometriosis clinical guidance aiming to shorten time to diagnosis and improve access to care",
+    "url": "https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care",
+    "region": "United States",
+    "retrieval_status": "Official announcement inspected through indexed text; direct article/guideline access failed. Full CPG was not read.",
+    "use": "Current official confirmation of presumptive clinical diagnosis and empirical management while evaluation proceeds; recognition and access barriers.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S365",
+    "title": "Non-invasive imaging techniques for diagnosis of pelvic deep endometriosis and endometriosis classification systems: an International Consensus Statement",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11366111/",
+    "region": "International multisociety consensus",
+    "retrieval_status": "Accessible full article; introduction, site-specific ultrasound/MRI performance, recommendations, classification and limitations inspected. Co-publication not counted as an independent source.",
+    "use": "Trained-operator imaging; deep-lesion mapping; anatomical and technique-dependent limitations; distinction between imaging classification and symptoms.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S366",
+    "title": "ESGE/ESHRE/WES: Recommendations for the surgical treatment of endometriosis, Part 2: deep endometriosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7013143/",
+    "region": "European and world professional societies",
+    "retrieval_status": "PMC direct view challenged; official journal/PMC indexed sections on ureteral disease, hydronephrosis, kidney assessment, bowel/bladder surgery and multidisciplinary planning inspected. Institutional PDF alternative failed.",
+    "use": "Silent urinary obstruction and renal risk; specialist organ assessment; deep-surgery selection, consent and complications.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S367",
+    "title": "The Asian Society of Endometriosis and Adenomyosis guidelines for managing adenomyosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10493363/",
+    "region": "Asia / international",
+    "retrieval_status": "Direct PMC retrieval challenged; indexed introduction, diagnostic/imaging section 3.2 and selected management/fertility sections inspected.",
+    "use": "Adenomyosis versus extrauterine endometriosis; coexistence; imaging and uterine/fertility implications.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S368",
+    "title": "NHS: Pelvic pain",
+    "url": "https://www.nhs.uk/symptoms/pelvic-pain/",
+    "region": "United Kingdom; urgency principles transferable with local services",
+    "retrieval_status": "Direct page fully inspected: causes, urgent and emergency action thresholds.",
+    "use": "Safety triage and alternatives; severe/worsening pain, pregnancy possibility, bleeding, faintness, fever, bowel/urinary problems.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S369",
+    "title": "CDC: U.S. Medical Eligibility Criteria for Contraceptive Use\u2014summary classifications",
+    "url": "https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html",
+    "region": "United States",
+    "retrieval_status": "Direct summary tables inspected for endometriosis, migraine, smoking, thrombosis, hypertension, breast cancer and liver disease.",
+    "use": "Method-specific contraceptive contraindication categories; avoid treating all hormones as a single safety category.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S370",
+    "title": "HALMED: Visanne (dienogest), Summary of Product Characteristics",
+    "url": "https://www.halmed.hr/upl/lijekovi/SPC/Visanne-SPC.pdf",
+    "region": "Croatia",
+    "retrieval_status": "Direct PDF failed; official indexed sections 4.2\u20134.4, contraindications, contraception and adolescent bone discussion inspected.",
+    "use": "Dienogest endometriosis formulation is not a contraceptive; jurisdiction/formulation safety distinctions.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S371",
+    "title": "FDA: Lupron Depot 11.25 mg (leuprolide acetate) prescribing information",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020708s040s041lbl.pdf",
+    "region": "United States",
+    "retrieval_status": "Direct label PDF; indications, duration limits, contraindications, warnings, add-back, bone safety and clinical pharmacology inspected.",
+    "use": "GnRH agonist mechanism, initial flare, add-back purpose, restricted duration, formulation and safety distinctions.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S372",
+    "title": "DailyMed: Orilissa (elagolix), US prescribing information",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66",
+    "region": "United States",
+    "retrieval_status": "Direct label; sections 1, 2, 4, 5 and 7 inspected for indication, duration, pregnancy, bone/mood/liver risks and interactions.",
+    "use": "US elagolix monotherapy indication and limits; avoid assuming contraceptive protection or arbitrary add-back.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S373",
+    "title": "FDA: Myfembree (relugolix, estradiol, norethindrone acetate) prescribing information",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214846s012lbl.pdf",
+    "region": "United States",
+    "retrieval_status": "Direct PDF; indication, duration, boxed warning, contraindications, bone/mood safety, interactions, contraception and endometriosis trials inspected.",
+    "use": "US fixed-combination indication, 24-month limit, baseline/annual endometriosis bone assessment, nonhormonal contraception and major safety categories.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S374",
+    "title": "EMA: Ryeqo, product information",
+    "url": "https://www.ema.europa.eu/en/documents/product-information/ryeqo-epar-product-information_en.pdf",
+    "region": "European Union",
+    "retrieval_status": "Direct 42-page product-information PDF; SmPC sections 4.1\u20134.4, contraception, bone-density monitoring and 5.1 efficacy inspected; not every annex line read.",
+    "use": "EU indication after prior medical/surgical treatment, continuous-use wording, contraception after first month and monitoring/contraindication differences from US.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S375",
+    "title": "EMA: Yselty (linzagolix), European public assessment report overview",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yselty",
+    "region": "European Union",
+    "retrieval_status": "Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed.",
+    "use": "Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S376",
+    "title": "Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35717987/",
+    "region": "Multinational phase 3 trials",
+    "retrieval_status": "Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read.",
+    "use": "24-week randomized pain efficacy; absolute comparator rates; distinction between response and cure.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S377",
+    "title": "Linzagolix therapy for endometriosis-associated pain: EDELWEISS 3 randomized phase 3 study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11144970/",
+    "region": "Multinational phase 3 trial",
+    "retrieval_status": "Accessible full article; selected methods, coprimary endpoints, results, safety, post-treatment observations and discussion inspected.",
+    "use": "486-participant trial; three-month pain responses; lower-dose monotherapy did not meet both coprimary endpoints.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S378",
+    "title": "EDELWEISS 6: long-term efficacy and safety of linzagolix for endometriosis-associated pain",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42077502/",
+    "region": "Extension of multinational clinical trial",
+    "retrieval_status": "PubMed abstract and declared conflicts inspected; full extension report/supplements not read.",
+    "use": "Twelve-month extension results, continued improvement among selected completers, and interpretation limits.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S379",
+    "title": "Long acting progestogens versus combined oral contraceptive pill for preventing recurrence of endometriosis-related pain: PRE-EMPT randomized controlled trial",
+    "url": "https://www.bmj.com/content/385/bmj-2023-079006",
+    "region": "United Kingdom",
+    "retrieval_status": "Direct article blocked; extensive indexed methods, results, participant characteristics and limitations inspected.",
+    "use": "Pragmatic postoperative comparison, similar pain outcomes, retreatment differences and preference-sensitive choice.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S380",
+    "title": "Laparoscopic surgery in infertile women with minimal or mild endometriosis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9227926/",
+    "region": "Canada / selected infertility population",
+    "retrieval_status": "Indexed abstract methods, 341-participant randomization, continuing-pregnancy results and complications inspected.",
+    "use": "Original randomized evidence supporting selected mild-disease surgery; clearly distinguish continuing pregnancy from live birth.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S381",
+    "title": "Dichloroacetate for the treatment of endometriosis-associated pain (EPiC1): a single-arm feasibility study",
+    "url": "https://research.birmingham.ac.uk/en/publications/dichloroacetate-for-the-treatment-of-endometriosis-associated-pai/",
+    "region": "United Kingdom",
+    "retrieval_status": "Publisher direct access blocked; complete original abstract directly read on the author-institution repository, including methods, recruitment, completion, neuropathy, interpretation and funding. Full article and supplements not read.",
+    "use": "Investigational nonhormonal approach, feasibility versus efficacy, completion and peripheral neuropathy findings.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S382",
+    "title": "Safety and pharmacokinetics of AMY109, an anti-interleukin-8 antibody, in healthy volunteers and patients with endometriosis: phase 1 study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41054739/",
+    "region": "Japan and Taiwan",
+    "retrieval_status": "Indexed original-study abstract inspected for design, participants, safety and pharmacokinetics; direct PubMed view did not return article content.",
+    "use": "Stage-appropriate interpretation of anti-IL-8 research; small endometriosis sample; not an approved therapy.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S383",
+    "title": "Chugai Pharmaceutical Annual Report 2025: development portfolio and July 2025 discontinuations",
+    "url": "https://www.chugai-pharm.co.jp/english/ir/reports_downloads/annual_reports/files/eAR2025_12_spread.pdf",
+    "region": "Manufacturer corporate report / Japan",
+    "retrieval_status": "Direct PDF text inspected at printed pp. 40\u201341 and 48\u201349, PDF spreads 21 and 25. Explicit paragraph and project list identify July 2025 in-house AMY109 discontinuation. Screenshot attempt failed; textual statement was accessible.",
+    "use": "Correct outdated claims that AMY109 continues as an active in-house development program.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S384",
+    "title": "Validation of a Saliva Micro-RNA Signature for Endometriosis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41147827/",
+    "region": "Multicenter French diagnostic population",
+    "retrieval_status": "Indexed original abstract inspected: 971-participant validation, prevalence, sensitivity, specificity, predictive values and funding. Publisher metadata inspected; full protocol/supplements not read.",
+    "use": "Promising current diagnostic-accuracy evidence with population/clinical-utility limitations; supersedes relying solely on the earlier 200-participant interim analysis.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S385",
+    "title": "French Ministry of Health: experimental Endotest saliva-test access to improve endometriosis diagnosis",
+    "url": "https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/endometriose/article/experimentation-d-un-test-salivaire-endotest-r-pour-ameliorer-les-conditions-de",
+    "region": "France",
+    "retrieval_status": "Official indexed page content inspected; direct page returned minimal nonarticle HTML. Selected-center trial/innovation-funding framework reviewed.",
+    "use": "Distinguish jurisdiction-specific innovation access and evaluation from universal routine screening or global approval.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S386",
+    "title": "Single-cell transcriptomic analysis of endometriosis",
+    "url": "https://www.nature.com/articles/s41588-022-01254-1",
+    "region": "Translational laboratory research",
+    "retrieval_status": "Indexed abstract and selected methods/results descriptions inspected; publication details cross-checked. Full supplements and computational code not assessed.",
+    "use": "Cellular heterogeneity, immune/stromal/vascular microenvironments, research-to-clinic distinction.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S387",
+    "title": "Association of Central Sensitization Inventory Scores With Pain Outcomes After Endometriosis Surgery",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36848090/",
+    "region": "Canadian tertiary-center prospective cohort",
+    "retrieval_status": "Indexed full abstract methods/results/limitations inspected: 239 participants, follow-up and adjusted associations.",
+    "use": "Persistent pain and need to assess multiple contributors; avoid equating lesion removal with guaranteed pain resolution.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S388",
+    "title": "AHA Home Blood Pressure Measurement Instructions",
+    "url": "https://professional.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/How_to_Measure_Your_Blood_Pressure_Letter_Size.pdf",
+    "region": "US",
+    "retrieval_status": "Full one-page PDF inspected",
+    "use": "Preparation, posture, repeats and symptom-based severe pressure routing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S389",
+    "title": "2025 AHA/ACC high blood pressure guideline: Top Things to Know",
+    "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know",
+    "region": "US",
+    "retrieval_status": "Official summary inspected; full guideline not read",
+    "use": "US categories, targets, combinations, cuffless limits, asymptomatic severe pathway",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S390",
+    "title": "NICE NG133 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng133/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403",
+    "use": "Pregnancy severe threshold and postpartum symptoms",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S391",
+    "title": "NHS Low blood pressure",
+    "url": "https://www.nhs.uk/conditions/low-blood-pressure-hypotension/",
+    "region": "UK",
+    "retrieval_status": "Page inspected",
+    "use": "Symptoms versus asymptomatic baseline and cause-directed review",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S392",
+    "title": "ADA Diagnosis and Classification of Diabetes: Standards of Care 2026",
+    "url": "https://doi.org/10.2337/dc26-s002",
+    "region": "US",
+    "retrieval_status": "Indexed diagnostic sections inspected; direct full page unavailable",
+    "use": "Confirmation, laboratory criteria and classification context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S393",
+    "title": "ADA Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises 2026",
+    "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
+    "region": "US",
+    "retrieval_status": "Indexed relevant recommendations inspected; direct 403",
+    "use": "Individualized goals, recurrent/severe hypoglycemia and acute crisis route",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S394",
+    "title": "DailyMed Lantus and Lantus SoloStar label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5e07a0c-7e14-4756-9152-9fea485d654a",
+    "region": "US",
+    "retrieval_status": "Administration, warnings, patient instructions inspected",
+    "use": "U-100 product, subcutaneous route, mixing/pump restrictions, rotation and sharing",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S395",
+    "title": "NHS Diabetic ketoacidosis",
+    "url": "https://www.nhs.uk/conditions/diabetic-ketoacidosis/",
+    "region": "UK",
+    "retrieval_status": "Symptoms and urgent/emergency sections inspected",
+    "use": "Symptoms without ketone availability and emergency pathway",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S396",
+    "title": "KDIGO 2024 CKD Clinical Practice Guideline",
+    "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+    "region": "Global",
+    "retrieval_status": "PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document",
+    "use": "Chronicity versus AKI, cardiorenal context and monitoring",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S397",
+    "title": "GINA Summary Guide for Asthma Management and Prevention 2026",
+    "url": "https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf",
+    "region": "Global",
+    "retrieval_status": "Relevant diagnosis, technique, review, ICS and action-plan sections inspected; not full guide",
+    "use": "Asthma diagnosis/plan/technique and regimen-specific controller/reliever distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S398",
+    "title": "NICE NG115 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed spirometry and inhaled-treatment sections inspected",
+    "use": "Spirometry confirmation, treatment roles, pneumonia risk and function",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S399",
+    "title": "AHA official explanation of 2022 AHA/ACC/HFSA HF guideline",
+    "url": "https://newsroom.heart.org/news/acc-aha-hfsa-issue-heart-failure-guideline",
+    "region": "US",
+    "retrieval_status": "Official explanation sections on stages, phenotype and medication classes inspected",
+    "use": "Complementary HFrEF drug classes, diuretics and coordinated care",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S400",
+    "title": "ESC 2026 Heart Failure guideline landing page",
+    "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure",
+    "region": "Europe",
+    "retrieval_status": "Landing page and rights text only; full guideline not read",
+    "use": "Discovery and freshness metadata only; no clinical recommendation encoding",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S401",
+    "title": "AHA Key Patient Messages: 2023 Chronic Coronary Disease Guideline",
+    "url": "https://professional.heart.org/en/science-news/patient-resources/key-patient-messages-2023-chronic-coronary-disease-guideline",
+    "region": "US",
+    "retrieval_status": "Official patient messages inspected",
+    "use": "Secondary prevention, statins, monitoring and care team",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S402",
+    "title": "AHA/ASA 2021 secondary stroke prevention: Top Things to Know",
+    "url": "https://professional.heart.org/en/science-news/2021-guideline-for-the-prevention-of-stroke-in-patients-with-stroke-and-transient-ischemic-attack/top-things-to-know",
+    "region": "US",
+    "retrieval_status": "Official summary points 1-10 inspected",
+    "use": "Etiology, antithrombotic distinctions and vascular risk management",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S403",
+    "title": "AHA 2023 AF guideline: Top Things to Know",
+    "url": "https://professional.heart.org/en/science-news/2023-acc-aha-accp-hrs-guideline-for-the-diagnosis-and-management-of-atrial-fibrillation/top-things-to-know",
+    "region": "US",
+    "retrieval_status": "Official summary inspected; full guideline not read",
+    "use": "Risk reassessment, comorbidity and shared management",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S404",
+    "title": "NICE NG56 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng56/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed sections 1.1-1.6 inspected; direct 403",
+    "use": "Goals, treatment burden, frailty, reconciliation and coordinated plan",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S405",
+    "title": "NICE NG226 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed exercise/function and pharmacological sections inspected",
+    "use": "Exercise, topical/oral NSAID distinction and comorbidity risk",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S406",
+    "title": "NICE NG100 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed referral and urgent septic-arthritis recommendation inspected",
+    "use": "Persistent synovitis referral and urgent hot-joint distinction",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S407",
+    "title": "NICE NG246 Medicines and surgery",
+    "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery",
+    "region": "England",
+    "retrieval_status": "Indexed medicine section and eligibility table inspected",
+    "use": "Structured care, product-specific medicine options and local eligibility",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S408",
+    "title": "AHA official explanation: ACC/AHA updated dyslipidemia guideline",
+    "url": "https://newsroom.heart.org/news/accaha-issue-updated-guideline-for-managing-lipids-cholesterol",
+    "region": "US",
+    "retrieval_status": "Official news explanation inspected; professional Top Things to Know summary also inspected; full guideline not read",
+    "use": "Risk-specific LDL goals, primary versus secondary prevention and clinician-selected adjunct classes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S409",
+    "title": "NINDS Brain Basics",
+    "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics",
+    "region": "US",
+    "retrieval_status": "Indexed official primer sections inspected; detail/PDF blocked",
+    "use": "Nervous networks and neurons",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S410",
+    "title": "NINDS Peripheral Neuropathy",
+    "url": "https://www.ninds.nih.gov/health-information/disorders/peripheral-neuropathy",
+    "region": "US",
+    "retrieval_status": "Indexed functional and symptom sections inspected; direct 403",
+    "use": "Motor sensory autonomic functions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S411",
+    "title": "NIMH Mental Health Medications",
+    "url": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+    "region": "US",
+    "retrieval_status": "Web sections inspected: antidepressants and interactions",
+    "use": "Classes and monitoring",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S412",
+    "title": "NIMH Psychotherapies",
+    "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+    "region": "US",
+    "retrieval_status": "Web elements and therapist-selection sections inspected",
+    "use": "Modalities and review goals",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S413",
+    "title": "NIMH Brain Stimulation Therapies",
+    "url": "https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies",
+    "region": "US",
+    "retrieval_status": "Web ECT memory, rTMS, MST sections inspected",
+    "use": "Distinct procedures and research-only MST",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S414",
+    "title": "NIMH Bipolar Disorder",
+    "url": "https://www.nimh.nih.gov/health/publications/bipolar-disorder",
+    "region": "US",
+    "retrieval_status": "Publication symptoms/diagnosis/treatment and rights sections inspected",
+    "use": "Mania and antidepressant monotherapy caution",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S415",
+    "title": "NIMH Understanding Psychosis",
+    "url": "https://www.nimh.nih.gov/health/publications/understanding-psychosis",
+    "region": "US",
+    "retrieval_status": "Web signs and assessment sections inspected",
+    "use": "First episode and danger",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S416",
+    "title": "NICE CG103 Delirium",
+    "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed official sections inspected; direct fetch failed",
+    "use": "Hours/days fluctuation and acute assessment",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S417",
+    "title": "NIA What Is Dementia?",
+    "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis?services=81",
+    "region": "US",
+    "retrieval_status": "Indexed subtype and assessment sections inspected; canonical direct fetch failed",
+    "use": "Subtype overlap and workup",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S418",
+    "title": "NIA Memory Problems, Forgetfulness, and Aging",
+    "url": "https://www.nia.nih.gov/health/memory-forgetfulness-and-aging-whats-normal-and-whats-not",
+    "region": "US",
+    "retrieval_status": "Indexed MCI, aging and function sections inspected",
+    "use": "MCI not inevitable dementia",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S419",
+    "title": "NIA Cognitive Health and Older Adults",
+    "url": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
+    "region": "US",
+    "retrieval_status": "Indexed exercise, medication and engagement sections inspected",
+    "use": "Contributors and prevention limits",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S420",
+    "title": "NIA Caring for Older Patients With Cognitive Impairment",
+    "url": "https://www.nia.nih.gov/health/health-care-professionals-information/caring-older-patients-cognitive-impairment",
+    "region": "US",
+    "retrieval_status": "Indexed care-partner/medicine review sections inspected",
+    "use": "Function, care and referral",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S421",
+    "title": "NIA Alzheimer Disease Genetics Fact Sheet",
+    "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/alzheimers-disease-genetics-fact-sheet",
+    "region": "US",
+    "retrieval_status": "Indexed official genetics sections inspected; full page unavailable",
+    "use": "Risk versus diagnosis",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S422",
+    "title": "LEQEMBI US prescribing information",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761375s001lbl.pdf",
+    "region": "US",
+    "retrieval_status": "PDF sections 1,2.4,5.1,14 and trial table inspected",
+    "use": "SC initiation and month-based MRI; benefit and ARIA",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S423",
+    "title": "LEQEMBI EU product information",
+    "url": "https://www.ema.europa.eu/en/documents/product-information/leqembi-epar-product-information_en.pdf",
+    "region": "EU",
+    "retrieval_status": "PDF 4.1-4.4 and safety sections inspected",
+    "use": "Genotype eligibility, anticoagulant/MRI restrictions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S424",
+    "title": "KISUNLA US prescribing information via DailyMed",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa&type=pdf",
+    "region": "US",
+    "retrieval_status": "Current DailyMed 29-page PDF inspected: sections 1,2.3,5.1,6.1,14; MRI schedule, revised regimen, anticoagulant warning and original study distinctions read. Integrating reviewer confirmed PDF revision 7/2025, distinct from effective date.",
+    "use": "Indication, MRI and revised initiation regimen",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S425",
+    "title": "KISUNLA EU product information",
+    "url": "https://www.ema.europa.eu/en/documents/product-information/kisunla-epar-product-information_en.pdf",
+    "region": "EU",
+    "retrieval_status": "PDF 4.1-4.4 MRI, contraindications and trial table inspected",
+    "use": "Restrictions and MRI monitoring",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S426",
+    "title": "van Dyck et al. Lecanemab in Early Alzheimer Disease",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2212948",
+    "region": "International trial",
+    "retrieval_status": "Original indexed result read; full article 403; FDA clinical table read separately",
+    "use": "Absolute vs relative 18-month result",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S427",
+    "title": "Sims et al. TRAILBLAZER-ALZ 2",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2807533",
+    "region": "International trial",
+    "retrieval_status": "Publisher HTML accessible with guest link; original results, tables and limitations inspected",
+    "use": "Absolute outcomes, subgroup, ARIA and representation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S428",
+    "title": "FDA clears first Alzheimer blood test",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
+    "region": "US",
+    "retrieval_status": "Relevant full FDA paragraphs read",
+    "use": "Named assay symptomatic age 55+; not screening/standalone",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S429",
+    "title": "FDA Class 2 Lumipulse calibrator recall",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945",
+    "region": "US",
+    "retrieval_status": "Product, lots, reason, actions inspected",
+    "use": "Lot-specific falsely elevated ratios and result review",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S430",
+    "title": "MHRA lecanemab licensing",
+    "url": "https://www.gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease",
+    "region": "UK",
+    "retrieval_status": "Official licensing announcement inspected",
+    "use": "National authorization separate from payer access",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S431",
+    "title": "Original evoke and evoke+ phase 3 trials",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41865758/",
+    "region": "International trial",
+    "retrieval_status": "Original indexed abstract inspected; direct page empty; full article not read",
+    "use": "Negative clinical outcome and discontinuation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S432",
+    "title": "NIA-Funded Active Alzheimer and Related Dementias Studies",
+    "url": "https://research.nih.gov/research/ongoing-AD-trials",
+    "region": "US",
+    "retrieval_status": "HTML AHEAD entry and category sections inspected",
+    "use": "Genuine research questions and enrollment checks",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S433",
+    "title": "NIA How Is Alzheimer Disease Treated?",
+    "url": "https://www.nia.nih.gov/health/alzheimers-treatment/how-alzheimers-disease-treated",
+    "region": "US",
+    "retrieval_status": "Official indexed symptom-treatment/no-cure sections read; canonical fetch empty",
+    "use": "Symptoms versus disease modification",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S434",
+    "title": "NICE NG97 dementia recommendations",
+    "url": "https://www.nice.org.uk/guidance/NG97/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Official indexed recommendations 1.5.2-1.5.15 and 1.6 inspected; direct page blocked",
+    "use": "Stage/subtype options and anticholinergic review",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S435",
+    "title": "Comprehensive Metabolic Panel (CMP)",
+    "url": "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "BMP/CMP panel differences; chemistry class navigation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S436",
+    "title": "How to approach elevated liver enzymes?",
+    "url": "https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Injury versus function; interpretation of liver chemistry pattern.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S437",
+    "title": "Chronic Kidney Disease Tests and Diagnosis",
+    "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Complementary filtration and urine-albumin assessment.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S438",
+    "title": "Recommendations for Implementing the CKD-EPI 2021 Race-Free eGFR Calculation",
+    "url": "https://www.kidney.org/recommendations-implementing-ckd-epi-2021-race-free-egfr-calculation-guidelines-clinical",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Race-free CKD-EPI implementation, equation discontinuity and non-GFR influences.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S439",
+    "title": "Iron Tests",
+    "url": "https://medlineplus.gov/lab-tests/iron-tests/",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Iron studies as linked assessment; context rather than isolated value.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S440",
+    "title": "Thyroid Tests",
+    "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Linked hormone testing and contextual interpretation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S441",
+    "title": "High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain",
+    "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain",
+    "region": "US",
+    "retrieval_status": "read ACC professional summary; underlying Circulation primer not read",
+    "use": "Assay identity, ng/L, serial timing and injury rather than automatic infarction.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S442",
+    "title": "UK Kidney Association Hyperkalaemia Guideline",
+    "url": "https://guidelines.ukkidney.org/hyperkalaemia/",
+    "region": "UK",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Urgency of severe hyperkalemia and clinical setting for treatment.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S443",
+    "title": "NICE NG158 Recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng158/chapter/Recommendations",
+    "region": "UK",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Clinician assessment, selected PERC/Wells/D-dimer pathways.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S444",
+    "title": "IBIS Breast Cancer Risk Evaluation Tool",
+    "url": "https://ems-trials.org/riskevaluator/",
+    "region": "UK",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Exact tool name, v8, pedigree, research-only download and license restriction.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S445",
+    "title": "QRISK3 official demonstrator",
+    "url": "https://www.qrisk.org/",
+    "region": "UK",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Demonstrator eligibility, accredited clinical-system instruction and access restrictions.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S446",
+    "title": "ASCVD Risk Estimator Plus",
+    "url": "https://tools.acc.org/ASCVD-Risk-Estimator-Plus/",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "US tool navigation and input/algorithm identity.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S447",
+    "title": "SCORE2 and SCORE2-OP calculators",
+    "url": "https://www.escardio.org/guidelines/practice-tools/cvd-prevention-toolbox/score-risk-charts/",
+    "region": "Europe",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "European fatal/nonfatal ten-year prevention tool navigation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S448",
+    "title": "FRAXplus official home and FRAX navigation",
+    "url": "https://frax.shef.ac.uk/FRAX/",
+    "region": "International",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Country-calibrated fracture probabilities and beta adjustment distinction.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S449",
+    "title": "Depression and Suicide Risk in Adults: Screening",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Validated screening followed by diagnosis, treatment and follow-up systems.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S450",
+    "title": "Official STOP-Bang screening destination",
+    "url": "https://www.stopbang.ca/osa/screening.php",
+    "region": "International",
+    "retrieval_status": "blocked: official screening and home pages returned tool errors; no content verification",
+    "use": "Official destination only; no scoring or questionnaire claims.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S451",
+    "title": "Urinalysis NIH summary",
+    "url": "https://medlineplus.gov/urinalysis.html",
+    "region": "US",
+    "retrieval_status": "read NIH summary; linked A.D.A.M. encyclopedia inspected but excluded from reuse",
+    "use": "NIH summary of urine test components; no encyclopedia text reused.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S452",
+    "title": "Diagnosis of Diarrhea",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/diagnosis",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "History-directed diarrhea testing rather than an indiscriminate stool panel.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S453",
+    "title": "WHO laboratory manual for examination and processing of human semen, sixth edition",
+    "url": "https://www.who.int/publications/i/item/9789240030787",
+    "region": "International",
+    "retrieval_status": "read official publication overview only; manual chapters not read",
+    "use": "WHO manual overview and standardization purpose only.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S454",
+    "title": "Pathology Reports",
+    "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Report structure, final diagnosis, adequacy, pending additions and clinical discussion.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S455",
+    "title": "Genetic Testing for Inherited Cancer Risk",
+    "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Germline risk testing, uncertainty, coverage and confirmation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S456",
+    "title": "Vitamin B12 Health Professional Fact Sheet",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "region": "US",
+    "retrieval_status": "read relevant rendered page sections",
+    "use": "Vitamin-B12 testing context and limitations.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S457",
+    "title": "American Heart Association PREVENT Online Calculator",
+    "url": "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator",
+    "region": "US",
+    "retrieval_status": "Read official landing page; embedded interactive calculator unavailable in text extraction",
+    "use": "Verified official navigation destination only.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S458",
+    "title": "NHS: Headaches",
+    "url": "https://www.nhs.uk/symptoms/headaches/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for headaches",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S459",
+    "title": "NHS: High temperature in adults",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for high temperature in adults",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S460",
+    "title": "NHS: Chest pain",
+    "url": "https://www.nhs.uk/symptoms/chest-pain/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for chest pain",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S461",
+    "title": "NHS: Stomach ache",
+    "url": "https://www.nhs.uk/symptoms/stomach-ache/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for stomach ache",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S462",
+    "title": "NHS: Diarrhoea and vomiting",
+    "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for diarrhoea and vomiting",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S463",
+    "title": "NHS: Constipation",
+    "url": "https://www.nhs.uk/conditions/constipation/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for constipation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S464",
+    "title": "NHS: Rectal bleeding",
+    "url": "https://www.nhs.uk/symptoms/bleeding-from-the-bottom-rectal-bleeding/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for rectal bleeding",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S465",
+    "title": "NHS: Dizziness",
+    "url": "https://www.nhs.uk/symptoms/dizziness/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for dizziness",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S466",
+    "title": "NHS: Fainting",
+    "url": "https://www.nhs.uk/symptoms/fainting/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for fainting",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S467",
+    "title": "NHS: Heart palpitations",
+    "url": "https://www.nhs.uk/symptoms/heart-palpitations/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for heart palpitations",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S468",
+    "title": "NHS: Tiredness and fatigue",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for tiredness and fatigue",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S469",
+    "title": "NHS: Shortness of breath",
+    "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for shortness of breath",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S470",
+    "title": "NHS: Cough",
+    "url": "https://www.nhs.uk/symptoms/cough/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for cough",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S471",
+    "title": "NHS: Urinary tract infections",
+    "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for urinary tract infections",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S472",
+    "title": "NHS: Blood in urine",
+    "url": "https://www.nhs.uk/symptoms/blood-in-urine/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for blood in urine",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S473",
+    "title": "NHS: Earache",
+    "url": "https://www.nhs.uk/symptoms/earache/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for earache",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S474",
+    "title": "NHS: Hearing loss",
+    "url": "https://www.nhs.uk/conditions/hearing-loss/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for hearing loss",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S475",
+    "title": "NHS: Sore throat",
+    "url": "https://www.nhs.uk/symptoms/sore-throat/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for sore throat",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S476",
+    "title": "NHS: Nosebleed",
+    "url": "https://www.nhs.uk/conditions/nosebleed/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for nosebleed",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S477",
+    "title": "NHS: Sinusitis",
+    "url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for sinusitis",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S478",
+    "title": "NHS: Red eye",
+    "url": "https://www.nhs.uk/symptoms/red-eye/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for red eye",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S479",
+    "title": "NHS: Eye injuries",
+    "url": "https://www.nhs.uk/conditions/eye-injuries/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for eye injuries",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S480",
+    "title": "NHS: Floaters and flashes",
+    "url": "https://www.nhs.uk/symptoms/floaters-and-flashes-in-the-eyes/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for floaters and flashes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S481",
+    "title": "NHS: Itchy skin",
+    "url": "https://www.nhs.uk/symptoms/itchy-skin/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for itchy skin",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S482",
+    "title": "NHS: Cuts and grazes",
+    "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for cuts and grazes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S483",
+    "title": "NHS: Lumps",
+    "url": "https://www.nhs.uk/symptoms/lumps/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for lumps",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S484",
+    "title": "NHS: Joint pain",
+    "url": "https://www.nhs.uk/symptoms/joint-pain/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for joint pain",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S485",
+    "title": "NHS: Sprains and strains",
+    "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for sprains and strains",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S486",
+    "title": "NHS: Back pain",
+    "url": "https://www.nhs.uk/conditions/back-pain/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for back pain",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S487",
+    "title": "NHS: Transient ischaemic attack",
+    "url": "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/",
+    "region": "United Kingdom; local access pathways require adaptation",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "use": "Decision-entry context and proportionate care navigation for transient ischaemic attack",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S488",
+    "title": "Stevens-Johnson syndrome - NHS",
+    "url": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/",
+    "region": "UK",
+    "retrieval_status": "Parent read relevant HTML symptom, emergency action and treatment sections",
+    "use": "Emergency routing for spreading painful, blistering or peeling rash and mucosal symptoms after a new medicine",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S489",
+    "title": "Emergency care",
+    "url": "https://www.who.int/health-topics/emergency-care",
+    "region": "Global",
+    "retrieval_status": "Opened official page; relevant overview inspected",
+    "use": "Integrated emergency care as time-sensitive pathway, early recognition, treatment and referral; no universal facility directory.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S490",
+    "title": "WHO Emergency care system framework",
+    "url": "https://www.who.int/publications/i/item/who-emergency-care-system-framework",
+    "region": "Global",
+    "retrieval_status": "Opened official WHO page; overview and pathway scope inspected",
+    "use": "Emergency care continuity from scene through transport and emergency unit to early inpatient care.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S491",
+    "title": "Urgent and emergency care services",
+    "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/",
+    "region": "England, United Kingdom",
+    "retrieval_status": "Opened official NHS page; links to service definitions inspected",
+    "use": "Jurisdiction-specific service routing and official service discovery.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S492",
+    "title": "About urgent and emergency care",
+    "url": "https://www.england.nhs.uk/urgent-emergency-care/about-uec/",
+    "region": "England, United Kingdom",
+    "retrieval_status": "Indexed excerpt inspected; direct page returned limited content",
+    "use": "Illustrative distinction between emergency and non-life-threatening urgent care.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S493",
+    "title": "Urgent treatment centres",
+    "url": "https://www.england.nhs.uk/urgent-emergency-%20care/urgent-treatment-centres/",
+    "region": "England, United Kingdom",
+    "retrieval_status": "Search excerpt inspected; opened page presented anti-bot/JavaScript barrier",
+    "use": "Example of a defined urgent non-emergency service, booking pathway, and scope.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S494",
+    "title": "About NHS 111",
+    "url": "https://www.england.nhs.uk/urgent-emergency-care/nhs-111/accessing-nhs-111/",
+    "region": "England, United Kingdom",
+    "retrieval_status": "Search excerpt inspected",
+    "use": "Example of jurisdiction-specific urgent advice service which can direct to locally suitable services or ambulance.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S495",
+    "title": "Directory of Services (DoS)",
+    "url": "https://digital.nhs.uk/services/directory-of-services-dos/",
+    "region": "England, United Kingdom",
+    "retrieval_status": "Opened official NHS Digital page; directory and triage integration sections inspected",
+    "use": "Example of official service directory used with NHS Pathways/111, with factors including appropriate setting.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S496",
+    "title": "Health Resource Geographic Information System (GIS Health)",
+    "url": "https://gis-health.moph.go.th/healthmap/gmap.php",
+    "region": "Thailand",
+    "retrieval_status": "Opened official directory; search filters/categories and facility-name search inspected",
+    "use": "Example official national facility discovery directory, including facility type filters.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S497",
+    "title": "Important phone numbers during your stay in Thailand",
+    "url": "https://thailand.go.th/issue-focus-detail/009_152",
+    "region": "Thailand",
+    "retrieval_status": "Opened official Thai government information portal; emergency medical phone lines inspected",
+    "use": "Thai government listing of 1669 for emergency medical notification, alongside other numbers.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S498",
+    "title": "LTCH Hospital: contact and complaints",
+    "url": "https://lumhos.moph.go.th/en/contact",
+    "region": "Thailand",
+    "retrieval_status": "Opened official MOPH hospital page; emergency contact listing, 24-hour emergency wording, and last-updated date inspected",
+    "use": "Current provider-level Thai government hospital corroboration that an emergency contact route lists 1669.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S499",
+    "title": "Thailand: health",
+    "url": "https://www.gov.uk/foreign-travel-advice/thailand/health",
+    "region": "Thailand / UK traveller guidance",
+    "retrieval_status": "Opened GOV.UK page; emergency number and insurance paragraphs inspected",
+    "use": "Travel advice lists 191 asking for ambulance and 1669; advises prompt insurer/assistance contact when referred.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S500",
+    "title": "How to call an ambulance correctly",
+    "url": "https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/kak-pravilno-vyzvat-skoruyu_5",
+    "region": "Russia",
+    "retrieval_status": "Opened official ministry page; number paragraph inspected",
+    "use": "Lists 112 as unified emergency number and 103 or regional numbers for ambulance.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S501",
+    "title": "Get healthcare cover for travelling abroad",
+    "url": "https://www.nhsbsa.nhs.uk/get-healthcare-cover-travelling-abroad",
+    "region": "United Kingdom and destination-specific eligible card regions",
+    "retrieval_status": "Opened official NHSBSA page; covered care, territory check and insurance caveats inspected",
+    "use": "EHIC/GHIC scope example; state-provided care in applicable destinations; not travel insurance and no repatriation cover.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S502",
+    "title": "Report data or content errors on Google Maps",
+    "url": "https://support.google.com/maps/answer/3094088?hl=en-en",
+    "region": "Global product documentation",
+    "retrieval_status": "Opened official product help; editable places, address, hours and data-error sections inspected",
+    "use": "Supports treating map facts as discovery leads requiring confirmation because place data can be edited/reported.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S503",
+    "title": "Object card | Yandex Maps",
+    "url": "https://www.yandex.com/support/maps/en/concept/object-kart",
+    "region": "Maps markets including Russia and nearby regions",
+    "retrieval_status": "Opened official help; organization contacts, hours, directions and edit-information features inspected",
+    "use": "Supports map discovery for addresses, contacts, hours and routes, with cross-checking against official branch sources.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S504",
+    "title": "Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition",
+    "url": "https://www.who.int/publications/i/item/9789240103726",
+    "region": "Global",
+    "retrieval_status": "Publication overview inspected; PDF fetch 403",
+    "use": "Functional domains and integrated care",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S505",
+    "title": "Falls: assessment and prevention, NG249 recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng249/chapter/Recommendations/",
+    "region": "England",
+    "retrieval_status": "Substantive indexed recommendation excerpts inspected; direct fetch 403",
+    "use": "Falls assessment and tailored prevention",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S506",
+    "title": "Stroke rehabilitation in adults, NG236",
+    "url": "https://www.nice.org.uk/guidance/ng236/chapter/Recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed sections 1.1 and 1.2 inspected; direct fetch 403",
+    "use": "Specialist service, goals and comprehensive rehabilitation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S507",
+    "title": "NOGG Section 5: Non-pharmacological management of osteoporosis",
+    "url": "https://www.nogg.org.uk/full-guideline/section-5-non-pharmacological-management-osteoporosis",
+    "region": "UK",
+    "retrieval_status": "Full relevant web section inspected",
+    "use": "Adapted exercise, dietary adequacy, falls, evidence limits",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S508",
+    "title": "Massage Therapy: What You Need To Know",
+    "url": "https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know",
+    "region": "US",
+    "retrieval_status": "Pain, cancer, risk and provider sections inspected",
+    "use": "Indication-specific benefits, uncertainty and risk",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S509",
+    "title": "Standard of Practice: Professional Boundaries, Draping, and Physical Privacy",
+    "url": "https://www.cmto.com/rules/standard-of-practice-professional-boundaries-draping-and-physical-privacy/",
+    "region": "Ontario Canada",
+    "retrieval_status": "Full relevant standard inspected",
+    "use": "Consent, privacy, draping and ongoing comfort",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S510",
+    "title": "The Effects of Massage Guns on Performance and Recovery: A Systematic Review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10532323/",
+    "region": "International research",
+    "retrieval_status": "Indexed abstract/method excerpts inspected; direct PMC browser challenge",
+    "use": "Short-term outcomes and bias limitations",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S511",
+    "title": "Therabody Product Safety and Precautions: Theragun and Wave Devices",
+    "url": "https://www.therabody.com/pages/precautions",
+    "region": "US manufacturer/global product context",
+    "retrieval_status": "Theragun/Wave section lines 305-339 inspected; Sense PDF failed",
+    "use": "Exact-device precaution examples",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S512",
+    "title": "Hair loss: Who gets and causes",
+    "url": "https://www.aad.org/public/diseases/hair-loss/causes/18-causes",
+    "region": "US",
+    "retrieval_status": "Causes, thyroid, nutrients and toxicity sections inspected",
+    "use": "Differential causes and excess-nutrient cautions",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S513",
+    "title": "Hair loss: Diagnosis and treatment",
+    "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat",
+    "region": "US",
+    "retrieval_status": "Diagnosis and supplement sections inspected",
+    "use": "Targeted assessment, no automatic supplements",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S514",
+    "title": "12 nail changes a dermatologist should examine",
+    "url": "https://www.aad.org/public/everyday-care/nail-care-secrets/basics/nail-changes-dermatologist-should-examine",
+    "region": "US",
+    "retrieval_status": "Relevant changes and uncertainty sections inspected",
+    "use": "Changing dark bands, inflammation and nonspecific findings",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S515",
+    "title": "Lower urinary tract symptoms in men: management, CG97",
+    "url": "https://www.nice.org.uk/guidance/cg97/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed specialist referral and retention sections inspected",
+    "use": "Uncomplicated versus complicated symptoms",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S516",
+    "title": "Urinary incontinence and pelvic organ prolapse in women: management, NG123",
+    "url": "https://www.nice.org.uk/guidance/ng123/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed assessment/conservative treatment inspected; fetch 403",
+    "use": "Supervised pelvic floor training, bladder training, referral",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S517",
+    "title": "Menopause: identification and management, NG23",
+    "url": "https://www.nice.org.uk/guidance/ng23/chapter/recommendations",
+    "region": "England",
+    "retrieval_status": "Indexed individual-care/genitourinary options and laser restriction inspected; fetch 403",
+    "use": "Local options and research-only laser status",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S518",
+    "title": "Prostate Problems",
+    "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems",
+    "region": "US",
+    "retrieval_status": "Symptoms, urgent retention, assessment and options inspected",
+    "use": "Basic causes, assessment and inability to void",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S519",
+    "title": "Symptoms and Causes of Erectile Dysfunction",
+    "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes",
+    "region": "US",
+    "retrieval_status": "Symptoms and causes section inspected",
+    "use": "Health, medicine and psychological causes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S520",
+    "title": "Deep vein thrombosis: UCLH NHS Foundation Trust",
+    "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/deep-vein-thrombosis",
+    "region": "UK",
+    "retrieval_status": "Full symptom and immediate-attention sections inspected; national NHS symptoms/emergency page also inspected",
+    "use": "Warm swollen painful limb; chest/breathing escalation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S521",
+    "title": "NICE Terms and conditions: Notice of Rights",
+    "url": "https://www.nice.org.uk/terms-and-conditions",
+    "region": "UK and outside UK",
+    "retrieval_status": "Notice of Rights inspected",
+    "use": "Publication rights audit",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S522",
+    "title": "DVT (deep vein thrombosis) - NHS",
+    "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+    "region": "UK",
+    "retrieval_status": "Parent read symptoms and urgent/emergency action HTML sections",
+    "use": "National corroboration of unilateral pain/swelling assessment and emergency chest/breathing symptoms",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S523",
+    "title": "WHO SMART Guideline Publications catalogue",
+    "url": "https://smart.who.int/",
+    "region": "International",
+    "retrieval_status": "Official catalogue page inspected; metadata and component listing only",
+    "use": "Discover DAK and FHIR implementation-guide sources; its component taxonomy shows that digital guidance needs data dictionaries, decision logic, indicators, and functional requirements.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S524",
+    "title": "SMART Guidelines\u2014Digital Adaptation Kits: Implementation research and technical support",
+    "url": "https://www.who.int/publications/m/item/who-digital-accelerator-kits",
+    "region": "International",
+    "retrieval_status": "Official landing-page overview and bibliographic metadata inspected; one-page brief not downloaded/read in full",
+    "use": "DAK design concept: workflow, data needs, algorithms, indicators, and functional requirements; emphasis on country implementation and validation.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S525",
+    "title": "Digital adaptation kit for child health (0\u201359 months) in humanitarian emergencies",
+    "url": "https://www.who.int/publications/i/item/9789240089907",
+    "region": "International; humanitarian primary care setting",
+    "retrieval_status": "Official WHO landing page and described components inspected; publication/web annexes not read",
+    "use": "Example of a DAK's stated scope and decomposition into personas, workflows, core data elements, decision-support logic, scheduling, indicators, and requirements.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S526",
+    "title": "WHO SMART Guidelines Base Implementation Guide repository",
+    "url": "https://github.com/WorldHealthOrganization/smart-base",
+    "region": "International",
+    "retrieval_status": "Repository README inspected; core profiles, DAK/FHIR distinction, publication links, and stated Creative Commons IGO license inspected; no code executed and no artifact extracted",
+    "use": "Reference for separating structured guideline content (L2 DAK) from computable FHIR profiles/implementation guides (L3), and for stable published versions versus changing continuous builds.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S527",
+    "title": "WHO SMART Guidelines Digital Adaptation Kit for Tuberculosis repository README and LICENSE.md",
+    "url": "https://github.com/WorldHealthOrganization/smart-dak-tb",
+    "region": "International; TB programme content requires localization",
+    "retrieval_status": "README scope and LICENSE.md text inspected on GitHub; source code/data not downloaded or run",
+    "use": "Shows stated goals of common language, transparent review of health content, and generic content that requires local contextualization; verifies separate content and software licenses.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S528",
+    "title": "Using CQL With FHIR Implementation Guide",
+    "url": "https://hl7.org/fhir/uv/cql/",
+    "region": "International technical standard",
+    "retrieval_status": "Official implementation-guide summary, version/status, scope, and intellectual-property navigation inspected",
+    "use": "Defines CQL as a language that can represent computable guideline, decision-support, public-health, and research-eligibility logic against FHIR resources; informs where executable knowledge belongs in a regulated system.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S529",
+    "title": "CDS Hooks Specification, Current Build",
+    "url": "https://cds-hooks.org/specification/current/",
+    "region": "International technical standard",
+    "retrieval_status": "Specification sections on scope, hooks, services, cards, versioning and maturity inspected",
+    "use": "Reference for workflow-triggered support, contextual inputs, client/service responsibilities, and version/maturity discipline.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S530",
+    "title": "The SHARE Approach Essential Steps of Shared Decision Making",
+    "url": "https://www.ahrq.gov/health-literacy/professional-training/shared-decision/tools/share-poster.html",
+    "region": "United States",
+    "retrieval_status": "Official AHRQ page and all five step headings/short descriptions inspected",
+    "use": "Interaction architecture for choice awareness, comparing benefits/harms, eliciting values, reaching a decision, and follow-up.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S531",
+    "title": "Reimagining Healthcare Teams: Patient-Clinician-AI Triad, Core Principles",
+    "url": "https://www.ahrq.gov/diagnostic-safety/resources/issue-briefs/dxsafety-reimagining-healthcare-teams-6.html",
+    "region": "United States; conceptual patient-safety resource",
+    "retrieval_status": "Official page core-principles section and table inspected",
+    "use": "Supports explicit human roles, shared goals, trust, communication, patient values, clinician accountability, and ongoing evaluation when AI participates in diagnostic work.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S532",
+    "title": "Clinical Decision Support Software Guidance for Industry and FDA Staff",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+    "region": "United States",
+    "retrieval_status": "Official FDA summary, final status, date, and scope description inspected; linked PDF not read in full",
+    "use": "Regulatory discovery for distinctions FDA draws among some non-device CDS functions and device software functions, including patient/caregiver-intended software.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S533",
+    "title": "Guidances with Digital Health Content",
+    "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/guidances-digital-health-content",
+    "region": "United States",
+    "retrieval_status": "Official FDA index and status/date rows inspected",
+    "use": "A source-update trigger and discovery index for relevant digital-health regulatory documents; demonstrates need to distinguish final and draft guidance.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S534",
+    "title": "Transparency for Machine Learning-Enabled Medical Devices: Guiding Principles",
+    "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/transparency-machine-learning-enabled-medical-devices-guiding-principles",
+    "region": "United States, Health Canada, United Kingdom collaboration",
+    "retrieval_status": "Official page sections on transparency, intended use, performance, human-AI team and communication inspected",
+    "use": "Supports a requirement to expose intended use, evidence limits, performance, context, and human responsibilities rather than presenting model output as authority.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S535",
+    "title": "NICE Guidance Surveillance Process and Methods",
+    "url": "https://www.nice.org.uk/process/pmg36/chapter/guidance-surveillance-2",
+    "region": "England and Wales; NICE process guidance",
+    "retrieval_status": "Search-indexed official excerpt inspected; direct page retrieval returned HTTP 403",
+    "use": "Reference for update decisions that may amend, update, withdraw, or leave guidance unchanged after surveillance; event-driven surveillance matters as well as a calendar interval.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S536",
+    "title": "Outcomes for Graduates",
+    "url": "https://www.gmc-uk.org/education/standards-guidance-and-curricula/standards-and-outcomes/outcomes-for-graduates",
+    "region": "United Kingdom",
+    "retrieval_status": "Official landing-page scope and link to practical skills/procedures inspected; full outcomes document not read",
+    "use": "Curriculum discovery for baseline knowledge, skills, professional behaviours and practical competence domains that an educational index might map.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S537",
+    "title": "Common Program Requirements (Residency) including FAQs",
+    "url": "https://www.acgme.org/globalassets/pfassets/programrequirements/2026-prs/cprresidency_2026.pdf",
+    "region": "United States",
+    "retrieval_status": "PDF introduction and selected oversight/supervision requirements inspected; not a complete curriculum review",
+    "use": "Shows supervised, graded responsibility, local programme accountability, and lifelong-learning structure; useful for distinguishing educational scope from independent competence.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S538",
+    "title": "Continuing Professional Development: Guidance",
+    "url": "https://www.gmc-uk.org/education/standards-guidance-and-curricula/guidance/continuing-professional-development",
+    "region": "United Kingdom",
+    "retrieval_status": "Official page overview and listed CPD planning, carrying-out, impact-evaluation, and recording topics inspected",
+    "use": "Curriculum/maintenance discovery for reflective learning and evaluating impact; informs how an evidence library can document review activity and identify learning gaps.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S539",
+    "title": "Information for Authors and Publishers\u2014About NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554841/",
+    "region": "United States; NLM platform policy",
+    "retrieval_status": "Official NLM policy sections inspected",
+    "use": "Establishes that free Bookshelf access does not equal blanket reuse: Open Access subset is a distinct subset where rights are public domain or Creative Commons/similar; each title must be checked.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S540",
+    "title": "Nursing Pharmacology, 2nd edition (Open RN), NCBI Bookshelf",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK595000/",
+    "region": "United States; prelicensure nursing education",
+    "retrieval_status": "Official indexed title, edition, book description, license notice, and linked TOC metadata inspected; direct chapter reading blocked; no chapter content used",
+    "use": "Candidate for a later rights-checked, chapter-specific educational route; its own book page states CC BY 4.0 and warns it is not a drug-reference book.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S541",
+    "title": "ESC Guidelines Licensing for AI, LLMs, and CDS Tools",
+    "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/esc-guidelines-licensing-for-ai-llms-and-cds-tools/",
+    "region": "Europe; professional society licensing policy",
+    "retrieval_status": "Official licensing page inspected; no clinical guideline content opened or extracted",
+    "use": "Rights-discovery example: public availability does not imply permission for AI training, extracted-data use, or CDS integration; licensing request pathway is explicit.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S542",
+    "title": "OpenMedSkills public repository README",
+    "url": "https://github.com/salikkhann/openmedskills",
+    "region": "International; community repository, not a regulator or professional society",
+    "retrieval_status": "README taxonomy, package structure, stated limits, and code/content license distinction inspected; no skill files or code executed",
+    "use": "Discovery-only example of a public skill library that separates risk class, permissions, human review, dated references, examples, evaluation cases, and field-change notes.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S543",
+    "title": "MillerQA benchmark repository README and licensing notes",
+    "url": "https://github.com/KatherLab/MillerQA",
+    "region": "International; benchmark aggregation",
+    "retrieval_status": "README evaluation dimensions, per-source license architecture, and exclusions inspected; no benchmark items copied or executed",
+    "use": "Discovery-only illustration that benchmark suites can be mixed-license, with source-level provenance and QC exclusion records; supports evaluating evidence citation and contradiction handling separately from domain knowledge.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S544",
+    "title": "Nursing Pharmacology-2e, Sections 1.2 Pharmacokinetics and 1.7 Pharmacodynamics",
+    "url": "https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-2-pharmacokinetics/",
+    "region": "United States; nursing education",
+    "retrieval_status": "Publisher-hosted section bodies, individual figure credits/footnotes and section license statements inspected; two selected sections read, not full chapter/book",
+    "use": "Foundational learning route for ADME, time-dependent drug disposition, mechanism of action, receptor agonist/antagonist concepts, and the distinction between how a drug is handled and how it acts.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S545",
+    "title": "Core Curriculum on Tuberculosis: What the Clinician Should Know, Chapter 1 selected sections",
+    "url": "https://www.cdc.gov/tb/media/Core_Curriculum_TB_eBook.pdf",
+    "region": "United States; clinician education/reference",
+    "retrieval_status": "PDF title/purpose and selected Chapter 1 sections read; full 211-page curriculum not read. The curriculum says it is a reference manual and not a substitute for specific guidelines.",
+    "use": "Clinician-learning map example linking stated learning objectives with a progression from topic introduction to mechanisms and related chapter topics. No treatment or diagnosis statement from the curriculum is used as current guidance.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S546",
+    "title": "CDC Core Curriculum on Tuberculosis Continuing Education Activity SS4444R",
+    "url": "https://www.cdc.gov/tb/hcp/education/core-curriculum-on-tuberculosis-continuing-education.html",
+    "region": "United States; physician, registered nurse, and health-professional continuing education",
+    "retrieval_status": "Official course description, seven learning objectives, target audience, prerequisites, format, disclosures, accreditation outline and expiration dates inspected; course not completed and no credits claimed",
+    "use": "Course-outline example for mapping objectives across transmission/pathogenesis, testing, diagnosis, treatment, infection control, and team roles; supports recording the current/expired status of education artifacts.",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S547",
+    "title": "Nursing Pharmacology-2e section 1.7 Pharmacodynamics",
+    "url": "https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-7-pharmacodynamics/",
+    "region": "United States; nursing education",
+    "retrieval_status": "Agent read publisher section 1.7 and figure credit; parent checked main receptor vocabulary section",
+    "use": "Foundational mechanism and receptor vocabulary; no product efficacy, dosing or individual clinical inference",
+    "checked_on": "2026-10-09"
   }
 ]

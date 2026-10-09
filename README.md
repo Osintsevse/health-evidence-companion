@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained medical and adult psychology knowledge base and fifteen AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained medical and adult psychology knowledge base and nineteen AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -23,6 +23,10 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | `health-family-care` | Child and pregnancy pathways, reproductive health, specialty navigation and rehabilitation |
 | `health-prevention` | Screening, nutrition, healthy ageing, shared decisions and truthful insurance support |
 | `health-contribute` | Add studies/topics/corrections through owner-reviewed GitHub PRs |
+| `health-first-aid` | Immediate lay actions for suspected emergencies, followed by explanations |
+| `health-nutrition` | Food diaries, estimated calories/macros, diet quality and condition-specific questions |
+| `health-care-navigation` | Find a suitable verified local service and navigate travel assistance |
+| `health-history-intake` | Voluntary focused anamnesis, dated health summaries and follow-up questions |
 | `psyops-dialogue` | Adult supportive reflection, emotions and meaning |
 | `psyops-cbt-act-mct` | Optional structured CBT, ACT and MCT self-help |
 | `psyops-relationships` | Relationships, consent and genuinely shared conversations |
@@ -40,7 +44,7 @@ Ask the assistant to review a public study/guideline, update the general knowled
 
 ## Knowledge, sources and privacy
 
-All existing medical modules are retained: 250 medical source records, allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
+All existing medical modules and original source histories are retained. The medical register now contains 547 records, covering allergy, laboratory literacy, dated Serbia/Russia vaccination landmarks, pharmacology, interaction evidence and the indication-specific treatment/homeopathy watchlist. Module 19 adds practical symptom/self-care workflows; module 20 adds an owner-authorized private document/history workflow with eight new data/storage references. Primary sources are checked for consequential claims; reading status, source dates, uncertainty and remaining coverage gaps stay explicit. The twelve-module [clinical navigation index](knowledge/clinical/CLINICAL_INDEX.md) adds first aid, medicine classes, nutrition, chronic care, anatomy, diagnostic reports, ageing, local care and a deeper endometriosis review. It records actual source access and remaining limits; source count and archive size do not establish completeness. See [index](knowledge/00_INDEX.md), [watchlist](knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) and [validation](docs/validation.md).
 
 Relevant voluntarily supplied symptom/medicine/test details can inform the authorized host conversation. They never enter this public repository, PRs, releases, logs, web-search queries or a training corpus. Do not include identifiers or entire histories. The package has no publisher backend or automatic patient archive; private storage/sharing requires separate authorization. See [policy](knowledge/00_KNOWLEDGE_POLICY.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
 
@@ -58,6 +62,7 @@ Python 3.11+ and the standard library suffice:
 
 ```sh
 python3 scripts/update_registry.py
+python3 scripts/update_clinical_index.py
 python3 scripts/generate_archive_templates.py --check
 python3 scripts/sync_references.py
 python3 scripts/sync_platforms.py
@@ -87,7 +92,7 @@ The medication timeline includes a horizontal scale, supported course bands, unc
 
 See [routing](knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md), [learning index](knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md), [specialty and life-stage guidance](knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md), [prevention](knowledge/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md), [private data boundaries](knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md), [source maintenance](knowledge/31_SOURCE_MAINTENANCE.md) and [risk communication](knowledge/32_RISK_COMMUNICATION.md).
 
-Generate a complete offline review queue with `python scripts/source_review.py --as-of 2026-10-08 --interval-days 90`. This plans rechecks; it makes no network requests, does not change reading dates and creates no scheduled monitor. See [expansion audit](docs/knowledge-expansion-2026-10-08.md) for coverage and validation limits.
+Generate a complete offline review queue with `python scripts/source_review.py --as-of 2026-10-09 --interval-days 90`. This plans rechecks; it makes no network requests, does not change reading dates and creates no scheduled monitor. See [expansion audit](docs/knowledge-expansion-2026-10-08.md) for coverage and validation limits.
 
 ## Genetic provider exports
 

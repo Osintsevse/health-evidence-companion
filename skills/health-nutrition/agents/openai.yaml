@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nutrition and Food Review"
+  short_description: "Diet review, nutrients and condition-aware food choices"
+  default_prompt: "Use $health-nutrition to help with this request in my language."

@@ -24,3 +24,9 @@ For psychological dialogue, relationships, sport or cross-domain private sharing
 The [bundled offline source planner](scripts/source_review.py) reads the domain-qualified catalog; use --domain all, medical or psychology. It makes no network requests and does not refresh reading dates. Psychology entries remain in their original richer register and namespace.
 
 For genetic source selection, repeat annotation review or external disclosure, read [genetic evidence and consent](references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md). Use the bundled offline evidence helper for a public ClinGen cache, gene-level context, same-input annotation comparison and a private minimal transfer plan. No transmission or consent approval is implemented; preserve the owner's exact authorization scope and verify any new recipient before using a separate host adapter.
+
+## Clinical packet review
+
+For substantial clinical additions, use [clinical navigation](references/CLINICAL_INDEX.md) and [resource architecture](references/ARCHITECTURE.md). Maintain task-to-module-to-source-to-evaluation links. Store original bounded guidance with actual reading depth, jurisdiction and remaining uncertainty; do not enlarge source counts by presenting technical URLs as independent clinical evidence.
+
+Review first-aid actions, treatment choices, risk instruments and unit transforms at their applicable population/product/setting. New clinical content needs substantive maintainer and suitable clinical review; software tests and synthetic forward checks do not approve it. Communities and other AI skills can identify research leads but never replace primary evidence.

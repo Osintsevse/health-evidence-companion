@@ -1,6 +1,6 @@
 # Health Evidence Companion: knowledge index
 
-English edition, 2026-10-08. Scope: health information with selected child, pregnancy and specialty pathways, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
+English edition, 2026-10-09. Scope: health information with selected child, pregnancy and specialty pathways, with Serbian, Russian and international sources. This is a maintained reference library and a set of workflows. It does not retrain model weights, confer a medical qualification or establish diagnostic accuracy.
 
 ## Contents
 
@@ -27,7 +27,7 @@ English edition, 2026-10-08. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 250 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 547 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -66,8 +66,12 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 
 ## Psychology and combined routing
 
-[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the nine medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 102-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 102-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
 
 - [37: Genetic evidence sources, repeat review and external-data consent](37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md)
 
 - [36 - Private intake queues and external-chat handoff](36_PRIVATE_INTAKE_QUEUE.md).
+
+## Expanded clinical navigation
+
+Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest relevant section of twelve topic modules. The graph links topics, skills, source IDs, 141 reference routes and 165 synthetic behavioural fixtures. Exact source access, jurisdiction, reading depth, limitations and rights are in `clinical/source-review.json`; the adaptive question bank contains prompts only. New skills cover lay first aid, nutrition, current-location care search and voluntary history intake. All source and fixture counts are metadata, not clinical validation.

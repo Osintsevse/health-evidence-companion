@@ -42,3 +42,9 @@ For psychological dialogue, relationships, sport or cross-domain private sharing
 
 
 For a save from a chat without safe accepted-ledger access, read [private intake queues](references/36_PRIVATE_INTAKE_QUEUE.md). Use an authorized private inbox with source/content readback; report queued, ledger-verified and view-verified stages separately. If upload is unavailable, provide a downloadable file and name the remaining manual placement step. Reuse the import skill's bundled `intake_queue.py` and `accept_owner_report.py` in an authorized local host; no wearable, smart home, home server or new ledger is required. Preserve relatives as family reports rather than the owner's diagnoses/allergies.
+
+## History and assessment structure
+
+For the design of a voluntary adaptive intake or dated aggregate review, read [history/test guidance](references/DIAGNOSTICS.md) and [clinical navigation](references/CLINICAL_INDEX.md). Structure symptoms, functioning, actual medicine use, family reports, objective evidence, hypotheses, goals and unresolved questions separately. A form must allow unknown and declined responses; do not encode an empty answer as absence of disease.
+
+Clinical decision-tool names and versions are references, not a license to recreate a score or diagnosis. Source-linked facts and interpretation have different provenance. Keep actual interviews, food diaries, genetic data and reports solely in the owner's authorized private destination.

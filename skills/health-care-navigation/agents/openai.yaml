@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Appropriate Medical Care"
+  short_description: "Verified local care and travel-insurance navigation"
+  default_prompt: "Use $health-care-navigation to help with this request in my language."

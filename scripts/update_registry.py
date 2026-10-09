@@ -25,12 +25,13 @@ def update(root=ROOT):
              'Frame population/problem, intervention, comparator and desired outcome. Search condition names/synonyms in English, Serbian and Russian; search medicines by INN, brand, formulation and concentration. For ALIMS, use product name plus uputstvo za lek or sazetak karakteristika leka, then inspect relevant SmPC sections 4.1-4.8. For Russia, use the official guideline catalogue and GRLS; check adult scope, year and version.', '',
              'If blocked, seek the official PDF or another primary source. Label a search excerpt as an excerpt, never reconstruct a missing dose by guessing. Recheck contraindications and local applicability for each new medicine/interaction question. Save original concise notes with URL, date and limits; do not redistribute protected full texts.', '',
              'Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Modules 15-18 expand allergy, laboratory literacy, vaccination and treatment evidence. Secondary discovery lists are marked and do not support final efficacy classifications. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.', '',
+             'The clinical navigation extension has additional reading records in knowledge/clinical/source-review.json, distributed as source-review.json in medical skill references. It preserves later section reviews and rights limits without rewriting historical IDs or claiming entire guidelines/textbooks were read. CLINICAL_INDEX.md connects topic, route and evidence scope; a navigation class atlas requires current exact-label retrieval before personal application.', '',
              '## Entries', '']
     for s in sources:
         lines.extend([f"### {s['id']} - {s['title']}", f"- URL: {s['url']}",
                       f"- Region: {s['region']}", f"- Reading status: {s['retrieval_status']}",
                       f"- Purpose: {s['use']}", f"- Checked: {s['checked_on']}", ''])
-    (root / 'knowledge/01_SOURCE_MAP.md').write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
+    (root / 'knowledge/01_SOURCE_MAP.md').write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8', newline='\n')
     from source_catalog import update as update_catalog
     update_catalog(root)
 

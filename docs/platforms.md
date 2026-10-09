@@ -38,7 +38,7 @@ Sources: [Claude plugin overview](https://code.claude.com/docs/en/plugins), [mar
 
 ## Claude chat and Cowork
 
-Download the release asset `health-evidence-companion-claude-skills.zip`. Extract it: it contains fifteen individual skill ZIPs. In Claude, open **Customize > Skills**, choose **Create skill > Upload a skill**, and upload the needed individual ZIPs. Each contains one named skill folder with `SKILL.md` and its resources. The enclosing bundle is not itself one uploadable skill.
+Download the release asset `health-evidence-companion-claude-skills.zip`. Extract it: it contains nineteen individual skill ZIPs. In Claude, open **Customize > Skills**, choose **Create skill > Upload a skill**, and upload the needed individual ZIPs. Each contains one named skill folder with `SKILL.md` and its resources. The enclosing bundle is not itself one uploadable skill.
 
 For an archive, start with `health-record-import.zip` and `health-record-design.zip`. Enable other skills for health explanation, medicine information, mental-health education, research and general contributions when needed. Code execution/Skills availability and organization permissions vary. Installation does not grant file or Drive access. Account uploads and Cowork operation were not exercised by the package's local tests.
 

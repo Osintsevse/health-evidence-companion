@@ -1,0 +1,156 @@
+{
+  "schema": "adaptive-history-question-bank-v1",
+  "purpose": "optional_question_prompts_not_a_diagnostic_score",
+  "contains_patient_answers": false,
+  "automatic_storage": false,
+  "host_ui": "Use an available question UI if supported; otherwise ordinary chat in the user language.",
+  "rules": [
+    "Ask only a few decision-relevant questions at a time; adapt and stop when useful context is sufficient.",
+    "Start emergency actions before routine questions. Do not delay urgent help for a questionnaire.",
+    "Unknown, not asked and declined are different from absent; never fill omissions as negative findings.",
+    "Do not request a full record, genotype file or unnecessary identity details.",
+    "Confirm proposed interpretations and persistence scope separately; no auto-save or public examples."
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "when": "At the start",
+      "question": "What would you like this review to help you do?",
+      "suggested_answers": [
+        "Understand a current concern",
+        "Prepare a visit",
+        "Build or update a history"
+      ],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "current_danger",
+      "when": "Before routine history",
+      "question": "Is there a current urgent problem such as abnormal breathing, sudden neurological change, severe bleeding or rapidly worsening illness?",
+      "suggested_answers": [
+        "No current urgent concern",
+        "There is a current concern",
+        "Unsure"
+      ],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "focus",
+      "when": "After immediate safety",
+      "question": "What is the main concern, when did it start, and how has it changed?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "context",
+      "when": "Only when it changes assessment",
+      "question": "What age or age range and relevant current anatomy or life stage should the discussion consider?",
+      "suggested_answers": [
+        "Prefer to describe relevant facts",
+        "Unknown or not relevant",
+        "Prefer not to answer"
+      ],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "function",
+      "when": "For a current concern",
+      "question": "How does this affect normal activities, sleep, eating or mobility?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "conditions",
+      "when": "For an overview or relevant symptom",
+      "question": "Which conditions have a clinician confirmed, and which are suspicions or old historical assessments?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "medicines",
+      "when": "When medicines or overall review matter",
+      "question": "Which exact medicines, OTC products and supplements are prescribed, and which are actually taken now? Include as-needed use and recent changes.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "reactions",
+      "when": "When treatment/history matters",
+      "question": "Have you had medicine or food reactions? What happened, when, and was an allergy confirmed?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "prior_events",
+      "when": "For relevant history",
+      "question": "Which operations, hospital stays, major injuries or previous similar episodes are relevant?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "family",
+      "when": "When family risk could change care",
+      "question": "Which blood relatives had a relevant condition, and approximately at what age? Keep relatives distinct from your own diagnoses.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "measurements",
+      "when": "Only for the relevant question",
+      "question": "Are there dated measurements or reports you want to discuss? Include original units, laboratory reference intervals and method if available.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "life_stage",
+      "when": "When relevant to symptoms/treatment",
+      "question": "Is pregnancy, pregnancy possibility, postpartum care, breastfeeding, menstrual or menopausal context relevant?",
+      "suggested_answers": [
+        "Yes, I can describe",
+        "No",
+        "Unsure",
+        "Prefer not to answer"
+      ],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "habits",
+      "when": "With the user agreement and relevance",
+      "question": "Which food, activity, sleep, tobacco, alcohol or work/environment factors would you like considered?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "prevention",
+      "when": "For preventive overview",
+      "question": "What screening or vaccinations are documented, when, and in which country? An uncertain history can stay unknown.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "priorities",
+      "when": "Before next-step planning",
+      "question": "What matters most to you, and what limits access, cost, time or ability to follow a plan?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "verify",
+      "when": "Before a summary",
+      "question": "Which parts of the summary need correction, are uncertain, or should be left out?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "save",
+      "when": "Only after a separately requested/authorized archive workflow",
+      "question": "Would you like a conversation-only summary or a selected update in your already authorized private archive?",
+      "suggested_answers": [
+        "Conversation-only summary",
+        "Selected private update",
+        "No summary yet"
+      ],
+      "unknown_and_decline_allowed": true
+    }
+  ]
+}
