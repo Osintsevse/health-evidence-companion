@@ -5,6 +5,8 @@ description: Prepare general medical knowledge contributions with English conten
 
 # Contribute general knowledge
 
+For feedback-only requests, use `health-feedback` when available, or [the feedback guide](references/feedback.md). Feature/knowledge-gap/prompt issues can precede implementation; do not turn a feedback draft into an unrequested PR.
+
 Reply in the user's language; write package content in English. Read [policy](references/00_KNOWLEDGE_POLICY.md), [contribution guide](references/contributing.md) and [evidence methods](references/evidence-methods.md) and [study-to-PR workflow](references/contribution-workflow.md). Draft with installed references; edit canonical repository knowledge files when in a checkout.
 
 Formulate an independent general question. Never copy a real symptom history, regimen, document or chronology, even with names removed. Collect no patient data/keys. Write original prose with scope, evidence, exceptions, actual reading status, URL/version, check date and uncertainty. Recheck current primary sources.

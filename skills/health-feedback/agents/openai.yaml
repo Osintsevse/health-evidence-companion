@@ -1,0 +1,4 @@
+interface:
+  display_name: "Community Feedback"
+  short_description: "Draft features, knowledge gaps and prompt proposals"
+  default_prompt: "Use $health-feedback to prepare a public improvement proposal in my language."

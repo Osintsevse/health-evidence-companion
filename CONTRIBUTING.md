@@ -8,6 +8,10 @@ Original general medical explanations, current primary-source metadata, correcti
 
 Never submit a real person's story, filled record, results, prescription, document/photo, medicine history, private link, query log or credentials. Removing names is insufficient. Use a wholly fictional, explicitly synthetic exercise if necessary. Do not bundle copyrighted books/full articles, vendor datasets or weights without verified redistribution rights. DDInter's data license is not this project's MIT license.
 
+## Feedback before implementation
+
+Use [the feedback guide](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/feedback.md) or `health-feedback` for bugs, features, knowledge gaps and prompt proposals. Knowledge-gap sources are optional; researched claims use the research form. Prompt proposals include original text, intended effect and a wholly synthetic behavioral check. Record a decision with reasons, then link accepted requests to the implementation PR and eventual release. An issue is not implementation authorization or evidence of an installed update.
+
 ## Ask an assistant to contribute
 
 See [study-to-PR workflow](https://github.com/Osintsevse/health-evidence-companion/blob/main/docs/contribution-workflow.md) for copyable requests, connected-account/fork requirements and a draft fallback. Explicitly asking to open a PR authorizes submission; it never authorizes merge or approval. Submit only general knowledge, never the personal question that motivated it.

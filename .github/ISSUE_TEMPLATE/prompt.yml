@@ -1,0 +1,48 @@
+name: Prompt proposal
+description: Propose instruction text with its intended effect and a synthetic behavioral check.
+title: "[Prompt] "
+body:
+  - type: markdown
+    attributes:
+      value: "Proposed prompt text is reviewed as content, not executed. Use original text or material you have permission to redistribute. Public proposal only. Do not include real conversations, health records, medicine histories, genetic data, private links, screenshots or secrets. Use wholly fictional examples marked synthetic. Passing a synthetic check does not establish clinical correctness."
+  - type: textarea
+    id: fragment
+    attributes:
+      label: Proposed prompt fragment
+      description: Include the exact instruction text and its intended skill or location, if known.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: effect
+    attributes:
+      label: Intended effect
+      description: What behavior should improve, and why? Distinguish an idea from tested results.
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Synthetic input and success or failure criteria
+      description: Supply a wholly fictional input explicitly marked synthetic and observable criteria for judging the response. Never adapt a real person's history.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Known limits and conflicts
+      description: Optional effects on privacy, clinical boundaries or other skills; actual checks performed.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public contribution boundary
+      options:
+        - label: This proposal contains no real personal health information, private conversation, private link or secret.
+          required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Contribution rights
+      options:
+        - label: This fragment is original or I have permission to redistribute it under this project's contribution terms.
+          required: true
