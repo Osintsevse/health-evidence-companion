@@ -6,6 +6,8 @@ import hashlib
 import json
 import re
 import sqlite3
+import os
+import tempfile
 from pathlib import PurePosixPath
 from pathlib import Path
 
@@ -85,10 +87,16 @@ def build_matrix(rows,config=None,documents=None):
 
 
 def read_model(db, config):
-    con=sqlite3.connect('file:'+Path(db).resolve().as_posix()+'?mode=ro',uri=True)
-    con.row_factory=sqlite3.Row
+    tools=helper('sqlite_snapshot')
+    with tools.snapshot(db,config.get('record_id')) as con:
+        model=_read_model(con,config,db)
+        model['record_id']=config['record_id']
+        model['input_ledger_fingerprint']=tools.fingerprint(con)
+        return model
+
+
+def _read_model(con, config, db):
     names={r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type IN ('table','view')")}
-    assert con.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
     imports=[dict(r) for r in con.execute('SELECT * FROM imports')]
     committed={r['import_id'] for r in imports if r['state']=='committed' and r['ledger_readback_status']=='rows_verified'}
     corrections=accepted_rows(con,'corrections',committed)
@@ -148,14 +156,11 @@ def read_model(db, config):
         for r in tables['observations']:
             if r['review_status'] in REVIEWED and observation_category(r) in ('blood','urine','stool'):r['_display']=helper('lab_identity').normalize(r)
     assessment=None
-    try:
-        if 'health_assessments' in names:
-            saved=con.execute('SELECT assessment_json FROM health_assessments WHERE record_id=? AND status=? ORDER BY recorded_at DESC LIMIT 1',(config.get('record_id'),'ai_reviewed')).fetchone()
-            if saved:assessment=json.loads(saved[0])
-        reconciliation,current_medications=helper('medication_reconciliation').read_reconciliation(
-            con,names,tables,committed,config.get('record_id'),config.get('as_of'))
-    finally:
-        con.close()
+    if 'health_assessments' in names:
+        saved=con.execute('SELECT assessment_json FROM health_assessments WHERE record_id=? AND status=? ORDER BY recorded_at DESC LIMIT 1',(config.get('record_id'),'ai_reviewed')).fetchone()
+        if saved:assessment=json.loads(saved[0])
+    reconciliation,current_medications=helper('medication_reconciliation').read_reconciliation(
+        con,names,tables,committed,config.get('record_id'),config.get('as_of'))
     return {'format_version':'1.0','health_review':assessment,'generated_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'as_of':config.get('as_of'),'locale':config.get('locale','en'),'labels':config.get('labels',{}),
             'status_labels':config.get('status_labels',{}),
@@ -206,9 +211,18 @@ def generate(db, config, output, template):
     source_root=next((p for p in Path(__file__).resolve().parents if (p/'plugin.json').is_file() and (p/'skills').is_dir()),None)
     if source_root is not None and (output==source_root or source_root in output.parents):
         raise ValueError('Private output must remain outside the plugin source tree')
-    ledger_sha256=hashlib.sha256(Path(db).read_bytes()).hexdigest()
+    # Serialize cooperating generators; existing locks remain fail-closed.
+    output.mkdir(parents=True,exist_ok=True)
+    with helper('intake_queue').lock(output/'.view-generator.lock'):
+        return _generate(db,config,output,template)
+
+
+def _generate(db, config, output, template):
+    output=Path(output).resolve()
+    source_root=next((p for p in Path(__file__).resolve().parents if (p/'plugin.json').is_file() and (p/'skills').is_dir()),None)
+    if source_root is not None and (output==source_root or source_root in output.parents):
+        raise ValueError('Private output must remain outside the plugin source tree')
     model=read_model(db,config)
-    model["input_database_sha256"]=ledger_sha256
     genetic_tools=helper('genetic_reports')
     genetics=genetic_tools.load_assessment(config)
     if genetics is not None:
@@ -239,21 +253,29 @@ def generate(db, config, output, template):
             previous=None
         if isinstance(previous,dict) and previous.get('generated_at') and {k:v for k,v in previous.items() if k!='generated_at'}=={k:v for k,v in model.items() if k!='generated_at'}:
             model['generated_at']=previous['generated_at']
-    if hashlib.sha256(Path(db).read_bytes()).hexdigest()!=ledger_sha256:
+    if helper('sqlite_snapshot').current_fingerprint(db,config['record_id'])!=model['input_ledger_fingerprint']:
         raise ValueError('Ledger changed during generation; no views published')
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     template=Path(template)
     text=template.read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
     for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs'),('__LAB_DASHBOARD_CSS__','lab_dashboard.css'),('__LAB_DASHBOARD_JS__','lab_dashboard_ui.mjs')]:
         if marker in text:text=text.replace(marker,(template.parent/name).read_text(encoding='utf-8'))
-    assert '__PRIVATE_MODEL__' not in text
-    output.mkdir(parents=True,exist_ok=True)
-    write_changed(output/'index.html',text)
-    write_changed(output/'view_data.json',json.dumps(model,ensure_ascii=False,indent=2))
-    write_changed(output/'workbook_data.json',json.dumps(workbook_data(model),ensure_ascii=False,indent=2))
-    docs=output/'details';docs.mkdir(exist_ok=True)
+    if '__PRIVATE_MODEL__' in text:
+        raise ValueError('Unresolved private model template marker')
+    files={'index.html':text,'view_data.json':json.dumps(model,ensure_ascii=False,indent=2),
+           'workbook_data.json':json.dumps(workbook_data(model),ensure_ascii=False,indent=2)}
     for d in model['documents']:
-        write_changed(docs/(d['entry_id']+'.md'),d['body'])
+        files['details/'+d['entry_id']+'.md']=d['body']
+    manifest={'format':'archive-view-generation-v1','record_id':config['record_id'],
+              'input_ledger_fingerprint':model['input_ledger_fingerprint'],
+              'files':{name:hashlib.sha256(value.encode('utf-8')).hexdigest() for name,value in files.items()}}
+    for name,value in files.items():
+        target=output/name
+        if target.parent.is_symlink():
+            raise ValueError('Generated directory cannot be a symlink')
+        target.parent.mkdir(parents=True,exist_ok=True)
+        write_changed(target,value)
+    write_changed(output/'generation.json',json.dumps(manifest,sort_keys=True,indent=2))
     return {'documents':len(model['documents']), 'observations':len(model['tables']['observations']),
             'vaccination_records':len(model['vaccines']), 'matrix_events':len(model['matrix']['events']),
             'private_output_sha256':hashlib.sha256(text.encode('utf-8')).hexdigest()}
@@ -262,8 +284,20 @@ def generate(db, config, output, template):
 def write_changed(path,text):
     """Preserve an unchanged generated file rather than create a false sync delta."""
     data=text.encode('utf-8')
+    path=Path(path)
+    if path.is_symlink():
+        raise ValueError('Generated output cannot be a symlink')
     if not path.is_file() or path.read_bytes()!=data:
-        path.write_bytes(data)
+        fd,tmp=tempfile.mkstemp(prefix='.view-partial-',dir=path.parent)
+        try:
+            with os.fdopen(fd,'wb') as stream:
+                stream.write(data)
+                stream.flush()
+                os.fsync(stream.fileno())
+            os.replace(tmp,path)
+        finally:
+            if os.path.exists(tmp):
+                os.unlink(tmp)
 
 
 if __name__=='__main__':

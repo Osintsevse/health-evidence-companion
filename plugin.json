@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -60,7 +60,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.6.2 adds professional genetics source guidance, bounded public ClinGen cache downloads, offline gene context and same-input comparison, and minimal recipient-specific transfer plans. No automatic transmission, patient records or diagnostic validation is included."
+        "release_notes": "Version 0.6.3 binds archive views to the selected owner and one SQLite read snapshot, adds WAL-aware logical fingerprints and atomic file replacement, and separates reader-data verification from browser UI verification. No clinical or cloud validation is implied."
       }
     }
   }

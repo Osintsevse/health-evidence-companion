@@ -79,7 +79,7 @@ def reported_manifest(q, manifest):
         return manifest
     result = read_json(receipt)
     require(result.get('queue_id') == manifest['queue_id'] and result.get('source_sha256') == manifest['source_sha256'] and result.get('record_id') == manifest['record_id'], 'Existing receipt binding mismatch')
-    return {**manifest, 'status':result['status'], 'ledger_committed':bool(result.get('ledger_committed')), 'views_verified':bool(result.get('views_verified'))}
+    return {**manifest, 'status':result['status'], 'ledger_committed':bool(result.get('ledger_committed')), 'views_verified':bool(result.get('views_verified')), 'view_data_verified':bool(result.get('view_data_verified')), 'ui_verified':bool(result.get('ui_verified'))}
 
 def stage(queue, source, record_id, title=None):
     q = initialize(queue, record_id)
@@ -142,7 +142,7 @@ def inventory(queue):
         require(not r or (r.get('queue_id') == m['queue_id'] and r.get('source_sha256') == m['source_sha256']), 'Receipt binding mismatch')
         result.append({'queue_id': m['queue_id'], 'source_title': m['source_title'],
                        'status': r.get('status', 'pending_review'), 'source_sha256': m['source_sha256'],
-                       'ledger_committed': bool(r.get('ledger_committed')), 'views_verified': bool(r.get('views_verified'))})
+                       'ledger_committed': bool(r.get('ledger_committed')), 'views_verified': bool(r.get('views_verified')), 'view_data_verified': bool(r.get('view_data_verified')), 'ui_verified': bool(r.get('ui_verified'))})
     return {'packages': result, 'incoming_files': [p.name for p in sorted((q / 'incoming').iterdir()) if p.is_file()]}
 
 def main():

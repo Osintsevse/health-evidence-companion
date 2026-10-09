@@ -98,13 +98,14 @@ class SummaryTests(unittest.TestCase):
                 for name, table in contract['tables'].items():
                     columns = ([] if name == 'imports' else contract['common_columns']) + (contract['fact_columns'] if table['fact'] else []) + table['columns']
                     connection.execute('create table ' + name + ' (' + ','.join(x + ' TEXT' for x in columns) + ')')
+                connection.execute("INSERT INTO imports(import_id,record_id,state,ledger_readback_status) VALUES('SYN-BASE','synthetic-owner','committed','rows_verified')")
                 connection.commit()
             template = ROOT / 'skills/health-record-import/assets/archive-view.html'
             out = base / 'view'
-            views.generate(db, {}, out, template)
+            views.generate(db, {'record_id':'synthetic-owner'}, out, template)
             self.assertNotIn('psychology', json.loads((out / 'view_data.json').read_text()))
             source = base / 'selected.json'; source.write_text(json.dumps(summary()))
-            config = {'locale': 'ru', 'psychology': {'summary_path': str(source), 'owner_key': 'synthetic-owner'}}
+            config = {'record_id':'synthetic-owner','locale': 'ru', 'psychology': {'summary_path': str(source), 'owner_key': 'synthetic-owner'}}
             views.generate(db, config, out, template)
             model = json.loads((out / 'view_data.json').read_text(encoding='utf-8'))
             self.assertEqual(model['psychology'], summary())
