@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.1 - 2026-10-09
+
+- Add an original community code of conduct with privacy-aware reporting and proportionate moderation.
+- Add an accessibility statement with text-based usage options, explicit unverified compatibility and audit limits, and a no-private-data barrier-reporting route.
+- Link both policies from the README and include them in the reviewed source manifest. No clinical content or runtime workflow is changed.
+
 ## 0.7.0 - 2026-10-09
 
 - Add first-aid, nutrition, local-care navigation and voluntary history-intake skills, bringing the package to nineteen skills.
