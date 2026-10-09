@@ -97,7 +97,8 @@ knowledge/32_RISK_COMMUNICATION.md
 knowledge/33_GENETIC_PROVIDER_IMPORT.md
 knowledge/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-knowledge/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+knowledge/36_PRIVATE_INTAKE_QUEUE.md
+knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/psychology/00_COMMON_INDEX.md
@@ -185,7 +186,7 @@ skills/health-contribute/references/32_RISK_COMMUNICATION.md
 skills/health-contribute/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-contribute/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-contribute/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-contribute/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-contribute/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-contribute/references/contributing.md
 skills/health-contribute/references/contribution-workflow.md
 skills/health-contribute/references/evidence-methods.md
@@ -233,7 +234,8 @@ skills/health-explain/references/32_RISK_COMMUNICATION.md
 skills/health-explain/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-explain/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-explain/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-explain/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-explain/references/36_PRIVATE_INTAKE_QUEUE.md
+skills/health-explain/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-explain/references/archive_tables.json
 skills/health-explain/references/genetic-analysis-workflow.md
 skills/health-explain/references/sources.json
@@ -251,6 +253,7 @@ skills/health-family-care/references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md
 skills/health-family-care/references/31_SOURCE_MAINTENANCE.md
 skills/health-family-care/references/32_RISK_COMMUNICATION.md
 skills/health-family-care/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/health-family-care/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-family-care/references/sources.json
 skills/health-medicine-info/SKILL.md
 skills/health-medicine-info/agents/openai.yaml
@@ -272,7 +275,8 @@ skills/health-medicine-info/references/32_RISK_COMMUNICATION.md
 skills/health-medicine-info/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-medicine-info/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-medicine-info/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-medicine-info/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-medicine-info/references/36_PRIVATE_INTAKE_QUEUE.md
+skills/health-medicine-info/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-medicine-info/references/free-medical-tools.md
 skills/health-medicine-info/references/genetic-analysis-workflow.md
 skills/health-medicine-info/references/sources.json
@@ -290,6 +294,7 @@ skills/health-mental-health/references/26_CLINICAL_ROUTING_AND_SCOPE.md
 skills/health-mental-health/references/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md
 skills/health-mental-health/references/32_RISK_COMMUNICATION.md
 skills/health-mental-health/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/health-mental-health/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-mental-health/references/sources.json
 skills/health-prevention/SKILL.md
 skills/health-prevention/agents/openai.yaml
@@ -307,6 +312,7 @@ skills/health-prevention/references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md
 skills/health-prevention/references/31_SOURCE_MAINTENANCE.md
 skills/health-prevention/references/32_RISK_COMMUNICATION.md
 skills/health-prevention/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/health-prevention/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-prevention/references/sources.json
 skills/health-record-design/SKILL.md
 skills/health-record-design/agents/openai.yaml
@@ -324,7 +330,8 @@ skills/health-record-design/references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.m
 skills/health-record-design/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-record-design/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-record-design/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-record-design/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-record-design/references/36_PRIVATE_INTAKE_QUEUE.md
+skills/health-record-design/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-record-design/references/archive_tables.json
 skills/health-record-design/references/genetic-analysis-workflow.md
 skills/health-record-design/references/sources.json
@@ -363,7 +370,8 @@ skills/health-record-import/references/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.m
 skills/health-record-import/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-record-import/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-record-import/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-record-import/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-record-import/references/36_PRIVATE_INTAKE_QUEUE.md
+skills/health-record-import/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-record-import/references/archive_tables.json
 skills/health-record-import/references/genetic-analysis-workflow.md
 skills/health-record-import/references/private-record-sharing.md
@@ -381,6 +389,7 @@ skills/health-record-import/references/templates/medication_use_event.template.j
 skills/health-record-import/references/templates/patient_card.template.md
 skills/health-record-import/references/templates/patient_record.template.json
 skills/health-record-import/references/templates/source_document.template.json
+skills/health-record-import/scripts/accept_owner_report.py
 skills/health-record-import/scripts/build_labs.mjs
 skills/health-record-import/scripts/collect_feedback.py
 skills/health-record-import/scripts/document_previews.py
@@ -390,6 +399,7 @@ skills/health-record-import/scripts/genetic_evidence.py
 skills/health-record-import/scripts/genetic_marker_query.py
 skills/health-record-import/scripts/genetic_reports.py
 skills/health-record-import/scripts/genetic_staging.py
+skills/health-record-import/scripts/intake_queue.py
 skills/health-record-import/scripts/lab_dashboard.py
 skills/health-record-import/scripts/lab_identity.py
 skills/health-record-import/scripts/medication_chart.py
@@ -419,7 +429,7 @@ skills/health-research/references/32_RISK_COMMUNICATION.md
 skills/health-research/references/33_GENETIC_PROVIDER_IMPORT.md
 skills/health-research/references/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md
 skills/health-research/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
-skills/health-research/references/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
+skills/health-research/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-research/references/evidence-methods.md
 skills/health-research/references/free-medical-tools.md
 skills/health-research/references/genetic-analysis-workflow.md
@@ -694,6 +704,7 @@ tests/test_genetic_private_tools.py
 tests/test_genetic_reports.py
 tests/test_genetic_review_queue.py
 tests/test_genetic_staging.py
+tests/test_intake_queue.py
 tests/test_lab_dashboard.py
 tests/test_lab_identity.py
 tests/test_medication_chart.py

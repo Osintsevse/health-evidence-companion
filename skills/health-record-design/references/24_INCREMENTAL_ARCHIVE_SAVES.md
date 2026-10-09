@@ -37,3 +37,10 @@ Bind every receipt to this archive and this operation's source/delta fingerprint
 Keep private stage timestamps, call counts, bytes transferred, retries and reasons for regeneration. Separate elapsed turn time from recorded tool durations; calls can overlap and gaps cannot be attributed to a service from these logs alone. Do not promise an unmeasured time target or a platform-level fix. Progress updates should name the completed persistence stage and the remaining blocker.
 
 The optional `scripts/plan_archive_sync.py` under the import skill compares explicitly managed local files against a private verified sync state. It stages a plan only, with no network, writes to the archive, deletions or concurrency guarantees. The adapter must check remote versions, execute authorized writes and populate verified state from readback.
+
+
+## External-chat handoff
+
+When the host cannot read or safely commit the accepted ledger, follow [private intake queues](36_PRIVATE_INTAKE_QUEUE.md). Save a bounded source package to the configured private inbox through an available authorized connector, verify its identity/content, and explicitly report pending ledger integration. If upload is unavailable, provide a downloadable JSON/Markdown/text file and name the manual placement step. A sandbox download link is not cloud persistence. Never ask the owner to move the live SQLite file between chats as the default fallback. Do not keep retrying a 403 bearer URL.
+
+For family reports, keep the relative, relationship, uncertainty and reported source explicit in each statement. Family reports use `family_history_report` clinical rows, appear in the dedicated reader section and never become the owner's diagnoses, allergies or quantitative observations. Do not derive psychiatric diagnoses from character descriptions or calendar dates from approximate ages.

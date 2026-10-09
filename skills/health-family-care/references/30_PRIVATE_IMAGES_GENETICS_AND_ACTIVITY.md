@@ -51,3 +51,8 @@ For voluntarily requested reflection or sport-performance discussion, PsyOps Evi
 ## Provider-specific preparation
 
 Module 33 adds current MyHeritage/Genotek export distinctions and an optional bounded offline staging helper. Supported text schemas are explicit; FASTQ/CRAM alignment, variant calling, clinical annotation and complete sequencing coverage remain outside it. Preserve raw calls separately from reports, diagnoses and time-series laboratory plots.
+
+
+## Optional activity sources
+
+A wearable, named phone application, smart home or home server is never a prerequisite for the medical archive. Start with ordinary owner reports, documents and manual/file intake. Offer supported CSV/JSON exports or an explicitly connected provider only when requested. A connection in another chat or project does not prove this host has its tools. A latest sensor state does not establish a complete history. Preserve source-device time, reception time, units, aggregate versus individual measurement, stale values, counter resets, missing days and app/server disagreements. Never sum repeated sleep summaries or carry-forward hourly weight states as independent measurements. Verify each metric against source samples before representing the feed as complete. Absence of a wearable does not imply missing medical history.

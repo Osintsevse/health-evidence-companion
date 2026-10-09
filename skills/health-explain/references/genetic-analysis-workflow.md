@@ -55,7 +55,7 @@ Reader summaries add separate context flags for unestablished sex-chromosome cop
 
 ## Evidence enrichment and comparison
 
-See module36 for professional source roles and recipient-specific consent. Commands below use explicit external paths; no real data belongs in this checkout.
+See module37 for professional source roles and recipient-specific consent. Commands below use explicit external paths; no real data belongs in this checkout.
 
 ```sh
 python genetic_evidence.py download-genes --output /external/reference/new-clingen-genes.csv

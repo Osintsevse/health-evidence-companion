@@ -103,4 +103,9 @@ Medical records and full psychological journals remain separately authorized. Th
 
 ## Genetic evidence and repeat review
 
-[Module 36](knowledge/36_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md) maps professional sources to specific questions. A bounded public-only ClinGen gene cache supports local context without uploading personal variants. The offline helper also compares same-input annotations and prepares a minimal recipient-specific transfer plan. Gene evidence does not classify a variant; a plan is not consent and no provider transmission is implemented. See the [reusable workflow](docs/genetic-analysis-workflow.md).
+[Module 37](knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md) maps professional sources to specific questions. A bounded public-only ClinGen gene cache supports local context without uploading personal variants. The offline helper also compares same-input annotations and prepares a minimal recipient-specific transfer plan. Gene evidence does not classify a variant; a plan is not consent and no provider transmission is implemented. See the [reusable workflow](docs/genetic-analysis-workflow.md).
+
+
+### Saving from an external chat
+
+Use [a private inbox](knowledge/36_PRIVATE_INTAKE_QUEUE.md) when this host lacks safe access to the accepted ledger. Connected file upload can queue a source package; otherwise download it and place it manually. Codex or another authorized local processor can review and accept it later. The inbox is not another medical database. No wearable, smart home or home server is required.
