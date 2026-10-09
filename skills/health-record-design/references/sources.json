@@ -1918,7 +1918,7 @@
   },
   {
     "id": "S214",
-    "title": "MyHeritage — How should I interpret my raw DNA data? (July 21, 2026)",
+    "title": "MyHeritage \u2014 How should I interpret my raw DNA data? (July 21, 2026)",
     "url": "https://www.myheritage.com/help/en/articles/12852246-how-should-i-interpret-my-raw-dna-data",
     "region": "International",
     "retrieval_status": "Official HTML read: fields, delimiter, allele tokens and strand; no raw export or account tested",
@@ -1927,7 +1927,7 @@
   },
   {
     "id": "S215",
-    "title": "MyHeritage — What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)",
+    "title": "MyHeritage \u2014 What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)",
     "url": "https://www.myheritage.com/help/en/articles/12852457-what-does-the-whole-genome-sequencing-wgs-upgrade-mean-for-my-dna-results",
     "region": "International",
     "retrieval_status": "Official HTML read: generation dates, header verification, conditional CRAM availability and Health exceptions; no account download tested",
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "S216",
-    "title": "MyHeritage — How do I download my raw DNA data file? (live help page)",
+    "title": "MyHeritage \u2014 How do I download my raw DNA data file? (live help page)",
     "url": "https://www.myheritage.com/help/en/articles/12851869-how-do-i-download-my-raw-dna-data-file-from-myheritage",
     "region": "International",
     "retrieval_status": "Official HTML read: prerequisites and steps; page displayed Updated today; no account accessed or download executed",
@@ -1945,7 +1945,7 @@
   },
   {
     "id": "S217",
-    "title": "MyHeritage — How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)",
+    "title": "MyHeritage \u2014 How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)",
     "url": "https://www.myheritage.com/help/en/articles/12851466-how-can-i-download-the-shared-dna-segments-data-from-the-chromosome-browser",
     "region": "International",
     "retrieval_status": "Official HTML read: CSV contents and workflow; no export tested",
@@ -1954,7 +1954,7 @@
   },
   {
     "id": "S218",
-    "title": "Genotek — Process and cost of genetic tests (official laboratory-process article)",
+    "title": "Genotek \u2014 Process and cost of genetic tests (official laboratory-process article)",
     "url": "https://www.genotek.ru/blog/genetic-test-practice/",
     "region": "Russia",
     "retrieval_status": "Official HTML read: microarray process and stage 7 VCF download statement; publication date not established from opened page; no schema or export tested",
@@ -1963,7 +1963,7 @@
   },
   {
     "id": "S219",
-    "title": "Genotek — Full Genome DNA test (official product FAQ)",
+    "title": "Genotek \u2014 Full Genome DNA test (official product FAQ)",
     "url": "https://www.genotek.ru/full-genome/",
     "region": "Russia",
     "retrieval_status": "Official HTML read: download FAQ and processed-result sharing; page version not specified; no account accessed, FASTQ downloaded or clinical claims validated",
@@ -1972,7 +1972,7 @@
   },
   {
     "id": "S220",
-    "title": "Genotek — Ancestry DNA test (official indexed FAQ excerpt)",
+    "title": "Genotek \u2014 Ancestry DNA test (official indexed FAQ excerpt)",
     "url": "https://www.genotek.ru/genetics/genealogy/",
     "region": "Russia",
     "retrieval_status": "Official search-index excerpt read only: VCF, 23andmeV5 TXT and 23andmeV3 TXT; direct open returned almost no usable body; product version and account availability unverified",
@@ -2265,6 +2265,132 @@
     "region": "Host integration documentation; not clinical evidence",
     "retrieval_status": "MCP tool/connection documentation opened; no remote service deployment tested",
     "use": "Optional custom MCP tool surface; authorization and host testing remain necessary",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S253",
+    "title": "GeneReviews point-of-care overview",
+    "url": "https://ncbi.nlm.nih.gov/books/NBK1116/?partid=1455",
+    "region": "International",
+    "retrieval_status": "Extracted overview read; standard chapter scope and peer review examined; no complete disease chapter appraisal",
+    "use": "Clinical explanation, inheritance and counseling context",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S254",
+    "title": "Ahimaz et al. 2023 genetic counselor subspecialty survey",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1812",
+    "region": "International",
+    "retrieval_status": "Abstract and resource-use table read; 178 experienced respondents in four subspecialties; not worldwide adoption statistics",
+    "use": "Documented use of GeneReviews and literature by a specified counselor cohort",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S255",
+    "title": "Allen et al. CanVIG-UK laboratory workflow survey, 2023",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/208847/1/jmg-2023-109645.full.pdf",
+    "region": "International",
+    "retrieval_status": "Abstract and workflow/resource table read; 17 UK germline cancer laboratories; no international ranking",
+    "use": "Actual laboratory use, manual review and audit-trail limitations",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S256",
+    "title": "ClinGen variant classification guidance, July 2025 page",
+    "url": "https://www.clinicalgenome.org/tools/clingen-variant-classification-guidance/",
+    "region": "International",
+    "retrieval_status": "Recommendation index and scope opened; individual specifications must be read for the relevant gene/criterion",
+    "use": "Current entry point for ACMG/AMP evidence specifications",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S257",
+    "title": "ClinGen public file downloads and APIs",
+    "url": "https://search.clinicalgenome.org/kb/downloads",
+    "region": "International",
+    "retrieval_status": "Download descriptions and exact public endpoints inspected; full gene-validity CSV fetched and schema tested; variant-pathogenicity CSV exceeds the bounded probe",
+    "use": "Public-only local evidence refresh; gene versus variant evidence scopes",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S258",
+    "title": "gnomAD variant interpretation paper, 2021 preprint",
+    "url": "https://arxiv.org/abs/2107.11458",
+    "region": "International",
+    "retrieval_status": "Abstract read; full paper not appraised; a later published update exists",
+    "use": "Population-frequency evidence and limitations; not a standalone diagnosis",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S259",
+    "title": "OMIM phenotype-gene knowledgebase, 2019 resource paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/6323937/",
+    "region": "International",
+    "retrieval_status": "Extracted resource-description sections read; no case-specific OMIM entry evaluated",
+    "use": "Gene/phenotype and inheritance navigation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S260",
+    "title": "ELLA clinical variant interpretation software",
+    "url": "https://allel.es/",
+    "region": "International",
+    "retrieval_status": "Official overview read: Oslo development, peer-review workflow, GPLv3 and air-gapped design; not deployed or clinically validated here",
+    "use": "Reproducible local review architecture",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S261",
+    "title": "Franklin workbench documentation",
+    "url": "https://help.genoox.com/en/articles/4277712-working-in-the-workbench",
+    "region": "International",
+    "retrieval_status": "Official workbench description read; no account or proprietary classification engine tested",
+    "use": "Optional external variant-review candidate, not independent clinical confirmation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S262",
+    "title": "Franklin by QIAGEN privacy policy",
+    "url": "https://go.genoox.com/pp_franklinbyqiagen",
+    "region": "International",
+    "retrieval_status": "Submitted Data, separate processing addendum and community disclosure sections read; no customer contract reviewed",
+    "use": "Recipient-specific privacy review before genetic data disclosure",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S263",
+    "title": "VarSome API documentation overview",
+    "url": "https://landing.varsome.com/varsome-api",
+    "region": "International",
+    "retrieval_status": "Official classification, Stable/Live/Staging and access descriptions read; API not called; pricing/contract not established",
+    "use": "Optional annotation API with version and source-provenance limits",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S264",
+    "title": "Alamut Visual Plus official product description",
+    "url": "https://www.sophiagenetics.com/sophia-ddm-for-genomics/alamut-visual-plus/",
+    "region": "International",
+    "retrieval_status": "Official features read; no installation, account or accuracy comparison",
+    "use": "Professional visualization, splicing tools and source aggregation",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S265",
+    "title": "IGV Desktop aligned-read guide",
+    "url": "https://igv.org/doc/desktop/UserGuide/tracks/alignments/viewing_alignments_basics/",
+    "region": "International",
+    "retrieval_status": "Official BAM/SAM/CRAM input section read; no real reads viewed",
+    "use": "Local read inspection when an actual alignment is available",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S266",
+    "title": "GeneCards Suite terms of use",
+    "url": "https://www.lifemapsc.com/terms-of-use/",
+    "region": "International",
+    "retrieval_status": "Automated scraping and licensing sections read; not legal advice or a negotiated data license",
+    "use": "Manual navigation and licensed integration boundaries",
     "checked_on": "2026-10-09"
   }
 ]

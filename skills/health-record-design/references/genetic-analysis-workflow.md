@@ -52,3 +52,16 @@ python genetic_reports.py --candidates /private/candidates.sqlite --limit 50 --o
 This retains all aggregate counts, returns a bounded queue of pathogenic-source classifications including unresolved flags, and reports omitted rows. It does not infer diagnoses or remove other records from the full database. The helper refuses replacement of an existing output. Use new filenames for each review.
 
 Reader summaries add separate context flags for unestablished sex-chromosome copy number and differing X allele tokens. These are display context warnings, not evidence of chromosome abnormalities. They do not change the stored source flags or the annotation queue ranking. Pseudoautosomal position, laboratory context and clinical verification remain necessary.
+
+## Evidence enrichment and comparison
+
+See module37 for professional source roles and recipient-specific consent. Commands below use explicit external paths; no real data belongs in this checkout.
+
+```sh
+python genetic_evidence.py download-genes --output /external/reference/new-clingen-genes.csv
+python genetic_evidence.py enrich --candidates /private/new-candidates.sqlite --genes /external/reference/new-clingen-genes.csv --output /private/new-gene-evidence.json
+python genetic_evidence.py compare --before /private/old-candidates.sqlite --after /private/new-candidates.sqlite --output /private/new-comparison.json
+python genetic_evidence.py plan-transfer --candidates /private/new-candidates.sqlite --variation-id SELECTED_VARIATION_ID --provider varsome --purpose "Check selected variant annotations" --output /private/transfer-plan.json
+```
+
+The gene cache adds gene-level assertions only and retains every condition/inheritance mode. Unknown genes stay unknown; priority and variant classification remain unchanged. Comparison requires identical raw/staging fingerprints and assembly/strand. The transfer plan binds a minimal payload to recipient and purpose and always requires actual human consent and current privacy review; it sends nothing. The helpers refuse replacement of existing outputs. A new analysis timestamp does not establish a newer database release.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -26,7 +26,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Health and psychology evidence",
-        "longDescription": "Fifteen skills combine medical education, medicines, prevention, family care, research and private medical history with adult psychological dialogue, CBT/ACT/MCT self-help, relationships, sport preparation and separate psychological notes. Existing health-* and psyops-* skill names are retained. The library preserves 250 medical and 102 psychology source records, their original IDs, reading dates and access limitations; a domain-qualified catalog links overlaps. Optional offline imports, graphs, genetics and owner-selected Psychology summaries reuse bundled helpers. Full medical records and psychological journals remain separate; neither installation nor authorization for one archive grants access to the other. No publisher backend, patient telemetry, automatic account access, therapist qualification, medical clearance or validated AI treatment is provided. Host and chosen storage controls apply. Clinical guidance and consequential genetic findings need current sources and clinical confirmation.",
+        "longDescription": "Fifteen skills combine medical education, medicines, prevention, family care, research and private medical history with adult psychological dialogue, CBT/ACT/MCT self-help, relationships, sport preparation and separate psychological notes. Existing health-* and psyops-* skill names are retained. The library preserves 266 medical and 102 psychology source records, their original IDs, reading dates and access limitations; a domain-qualified catalog links overlaps. Optional offline imports, graphs, genetics and owner-selected Psychology summaries reuse bundled helpers. Full medical records and psychological journals remain separate; neither installation nor authorization for one archive grants access to the other. No publisher backend, patient telemetry, automatic account access, therapist qualification, medical clearance or validated AI treatment is provided. Host and chosen storage controls apply. Clinical guidance and consequential genetic findings need current sources and clinical confirmation.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -60,7 +60,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.6.0 combines Health and PsyOps in one 15-skill package. Medical and psychological records retain separate scopes; an optional Psychology sidebar accepts owner-selected summaries only. Original source records, reading limits, blank forms and skill names are preserved, with a domain-qualified catalog and offline review queue. No personal archives are migrated or disclosed automatically."
+        "release_notes": "Version 0.6.2 adds professional genetics source guidance, bounded public ClinGen cache downloads, offline gene context and same-input comparison, and minimal recipient-specific transfer plans. No automatic transmission, patient records or diagnostic validation is included."
       }
     }
   }

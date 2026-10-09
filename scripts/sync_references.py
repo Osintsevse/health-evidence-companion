@@ -86,6 +86,10 @@ def destination(source):
     return {'CONTRIBUTING.md': 'contributing.md', 'EVIDENCE_METHODS.md': 'evidence-methods.md'}.get(Path(source).name, Path(source).name)
 
 
+for _skill in ['health-record-import','health-record-design','health-research','health-contribute','health-explain','health-medicine-info']:
+    MAP[_skill] += ['knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md']
+
+
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
             for skill, sources in MAP.items() for src in sources}

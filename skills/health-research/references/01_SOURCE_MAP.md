@@ -1784,3 +1784,101 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Optional custom MCP tool surface; authorization and host testing remain necessary
 - Checked: 2026-10-09
 
+### S253 - GeneReviews point-of-care overview
+- URL: https://ncbi.nlm.nih.gov/books/NBK1116/?partid=1455
+- Region: International
+- Reading status: Extracted overview read; standard chapter scope and peer review examined; no complete disease chapter appraisal
+- Purpose: Clinical explanation, inheritance and counseling context
+- Checked: 2026-10-09
+
+### S254 - Ahimaz et al. 2023 genetic counselor subspecialty survey
+- URL: https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1812
+- Region: International
+- Reading status: Abstract and resource-use table read; 178 experienced respondents in four subspecialties; not worldwide adoption statistics
+- Purpose: Documented use of GeneReviews and literature by a specified counselor cohort
+- Checked: 2026-10-09
+
+### S255 - Allen et al. CanVIG-UK laboratory workflow survey, 2023
+- URL: https://eprints.whiterose.ac.uk/id/eprint/208847/1/jmg-2023-109645.full.pdf
+- Region: International
+- Reading status: Abstract and workflow/resource table read; 17 UK germline cancer laboratories; no international ranking
+- Purpose: Actual laboratory use, manual review and audit-trail limitations
+- Checked: 2026-10-09
+
+### S256 - ClinGen variant classification guidance, July 2025 page
+- URL: https://www.clinicalgenome.org/tools/clingen-variant-classification-guidance/
+- Region: International
+- Reading status: Recommendation index and scope opened; individual specifications must be read for the relevant gene/criterion
+- Purpose: Current entry point for ACMG/AMP evidence specifications
+- Checked: 2026-10-09
+
+### S257 - ClinGen public file downloads and APIs
+- URL: https://search.clinicalgenome.org/kb/downloads
+- Region: International
+- Reading status: Download descriptions and exact public endpoints inspected; full gene-validity CSV fetched and schema tested; variant-pathogenicity CSV exceeds the bounded probe
+- Purpose: Public-only local evidence refresh; gene versus variant evidence scopes
+- Checked: 2026-10-09
+
+### S258 - gnomAD variant interpretation paper, 2021 preprint
+- URL: https://arxiv.org/abs/2107.11458
+- Region: International
+- Reading status: Abstract read; full paper not appraised; a later published update exists
+- Purpose: Population-frequency evidence and limitations; not a standalone diagnosis
+- Checked: 2026-10-09
+
+### S259 - OMIM phenotype-gene knowledgebase, 2019 resource paper
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/6323937/
+- Region: International
+- Reading status: Extracted resource-description sections read; no case-specific OMIM entry evaluated
+- Purpose: Gene/phenotype and inheritance navigation
+- Checked: 2026-10-09
+
+### S260 - ELLA clinical variant interpretation software
+- URL: https://allel.es/
+- Region: International
+- Reading status: Official overview read: Oslo development, peer-review workflow, GPLv3 and air-gapped design; not deployed or clinically validated here
+- Purpose: Reproducible local review architecture
+- Checked: 2026-10-09
+
+### S261 - Franklin workbench documentation
+- URL: https://help.genoox.com/en/articles/4277712-working-in-the-workbench
+- Region: International
+- Reading status: Official workbench description read; no account or proprietary classification engine tested
+- Purpose: Optional external variant-review candidate, not independent clinical confirmation
+- Checked: 2026-10-09
+
+### S262 - Franklin by QIAGEN privacy policy
+- URL: https://go.genoox.com/pp_franklinbyqiagen
+- Region: International
+- Reading status: Submitted Data, separate processing addendum and community disclosure sections read; no customer contract reviewed
+- Purpose: Recipient-specific privacy review before genetic data disclosure
+- Checked: 2026-10-09
+
+### S263 - VarSome API documentation overview
+- URL: https://landing.varsome.com/varsome-api
+- Region: International
+- Reading status: Official classification, Stable/Live/Staging and access descriptions read; API not called; pricing/contract not established
+- Purpose: Optional annotation API with version and source-provenance limits
+- Checked: 2026-10-09
+
+### S264 - Alamut Visual Plus official product description
+- URL: https://www.sophiagenetics.com/sophia-ddm-for-genomics/alamut-visual-plus/
+- Region: International
+- Reading status: Official features read; no installation, account or accuracy comparison
+- Purpose: Professional visualization, splicing tools and source aggregation
+- Checked: 2026-10-09
+
+### S265 - IGV Desktop aligned-read guide
+- URL: https://igv.org/doc/desktop/UserGuide/tracks/alignments/viewing_alignments_basics/
+- Region: International
+- Reading status: Official BAM/SAM/CRAM input section read; no real reads viewed
+- Purpose: Local read inspection when an actual alignment is available
+- Checked: 2026-10-09
+
+### S266 - GeneCards Suite terms of use
+- URL: https://www.lifemapsc.com/terms-of-use/
+- Region: International
+- Reading status: Automated scraping and licensing sections read; not legal advice or a negotiated data license
+- Purpose: Manual navigation and licensed integration boundaries
+- Checked: 2026-10-09
+

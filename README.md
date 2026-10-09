@@ -101,6 +101,10 @@ Version 0.6.0 incorporates PsyOps: 102 psychological source records, the complet
 
 Medical records and full psychological journals remain separately authorized. The optional Psychology sidebar includes only an explicitly selected summary projection; omitting that config produces the medical-only view. Installing this package does not migrate any archive, authorize new recipients or access a diary. For psychological reflection use the relevant psyops-* skill; clinical psychiatric medication questions remain under health-mental-health and health-medicine-info.
 
+## Genetic evidence and repeat review
+
+[Module 37](knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md) maps professional sources to specific questions. A bounded public-only ClinGen gene cache supports local context without uploading personal variants. The offline helper also compares same-input annotations and prepares a minimal recipient-specific transfer plan. Gene evidence does not classify a variant; a plan is not consent and no provider transmission is implemented. See the [reusable workflow](docs/genetic-analysis-workflow.md).
+
 
 ### Saving from an external chat
 
