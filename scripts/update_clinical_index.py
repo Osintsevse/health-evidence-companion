@@ -21,6 +21,7 @@ def render(root=ROOT):
       '| Voluntary focused history and dated review | health-history-intake; [DIAGNOSTICS](DIAGNOSTICS.md), [question prompts](intake-question-bank.json) |',
       '| Established disease, pressure/glucose or several conditions | health-explain; [CHRONIC](CHRONIC.md) and the existing care plan |',
       '| Psychiatric medicines, cognition and dementia | health-mental-health; [NEURO](NEURO.md); adult psychological skills retain their separate scope |',
+      '| Child from birth to the fifth birthday | health-family-care; [PEDIATRICS](PEDIATRICS.md), [preventive care and plans](PEDIATRIC_CARE.md), [fontanels/head shape](FONTANELS.md) |',
       '| Pelvic pain, endometriosis and fertility | health-family-care; [ENDOMETRIOSIS](ENDOMETRIOSIS.md); new acute symptoms still use emergency triage |',
       '| Function, older age, rehabilitation or massage | health-prevention / health-family-care; [AGEING_REHAB](AGEING_REHAB.md) |','',
       '## Topic, evidence and coverage map','',

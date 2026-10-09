@@ -1,0 +1,51 @@
+{
+  "schema": "external-clinical-source-use-v1",
+  "checked_on": "2026-10-09",
+  "purpose": "Source selection and rights provenance, not a legal clearance or medical rule engine",
+  "permission_assumed": false,
+  "preserve_bibliographic_history": true,
+  "rules": [
+    {
+      "id": "nice-ai-licensing",
+      "host_suffix": "nice.org.uk",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nice.org.uk/terms-and-conditions",
+        "https://www.nice.org.uk/reusing-our-content/nice-uk-open-content-licence"
+      ],
+      "limits": "NICE AI-purpose permissions are separate from UK open content reuse. BNF/BNFc/CKS involve third-party publishers. No approval, API access or complete legacy rights audit is claimed."
+    },
+    {
+      "id": "adam-medlineplus-encyclopedia",
+      "host_suffix": "medlineplus.gov",
+      "path_prefix": "/ency/",
+      "action": "exclude_ai_restricted_adam_pages_and_mirrors",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://medlineplus.gov/ency/article/003310.htm"
+      ],
+      "limits": "This concerns third-party A.D.A.M. encyclopedia pages, not every independently authored federal MedlinePlus resource. Check the actual provider; a government hostname is insufficient."
+    },
+    {
+      "id": "colorado-compilation",
+      "host_suffix": "childrenscolorado.org",
+      "path_prefix": "/",
+      "action": "exclude_from_this_corpus_due_to_harvesting_compilation_terms",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.childrenscolorado.org/terms-of-use/"
+      ],
+      "limits": "Targeted terms review for this contribution; no broader legal conclusion about every ordinary human use is made."
+    }
+  ],
+  "instructions": [
+    "Check actual author/provider and explicit AI-use restrictions before processing clinical content.",
+    "Do not bypass provider terms using search snippets, cached copies or a mirror.",
+    "Use independently authored usable primary guidance instead; omit unsupported exact algorithms or thresholds.",
+    "Preserved historical source IDs and bibliographic links do not grant current AI reuse permission.",
+    "Ordinary copyright is not automatically an AI ban: retain brief original factual synthesis and citations with actual source rights, without copying protected expression, questionnaires, tables or algorithms.",
+    "Runtime source selection must follow this policy; no built-in browser filter or permission negotiation is implemented."
+  ]
+}

@@ -85,3 +85,9 @@ For adult low back pain/sciatica, support appropriate activity and exercise with
 ## Evidence limits and review
 
 This is a routing/navigation module, not a systematic review or clinically validated decision system. Selected guideline excerpts and official patient/society resources were inspected; full guidelines, underlying trials and local service pathways were not comprehensively reviewed. Source metadata records reading depth and access failures. Maintainer review must check applicability, red-flag wording and local differences before release. A checked date does not imply a new guideline edition.
+
+## Detailed under-five references
+
+For birth to 59 completed months, consult illness and selected procedures (`PEDIATRICS.md`), feeding, preventive plans and development (`PEDIATRIC_CARE.md`) and fontanels, sutures and head growth (`FONTANELS.md`). Preserve chronological age separately from gestational/corrected age; age-specific source applicability determines which is used. These references expand the brief pediatric entry above and do not imply comprehensive newborn intensive care or all pediatric specialties.
+
+The repository stores these modules in `knowledge/clinical/`; installed health skills provide the same files in their flat `references/` directory. Open them through the skill or clinical index.

@@ -151,6 +151,34 @@
         "No summary yet"
       ],
       "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "child_age",
+      "when": "Only when the question concerns a child and urgent action is already addressed.",
+      "question": "What is the child's exact chronological age, current country of care, and your relationship to the child? For newborns use days or weeks.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "child_gestation",
+      "when": "When prematurity affects a specific growth, developmental or neonatal interpretation.",
+      "question": "What was the documented gestational age at birth, and what age/chart convention and follow-up plan does the child's clinical team use? Unknown can remain unknown.",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "child_trajectory",
+      "when": "For growth or fontanel/skull concerns after immediate danger is addressed.",
+      "question": "What are the dated professional growth measurements, chart and examination findings? What has changed in shape, feeding, responsiveness or acquired skills?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
+    },
+    {
+      "id": "child_pending_results",
+      "when": "For newborn screening, prevention or transfer of care.",
+      "question": "Which tests, results and vaccination doses are documented, which are still unknown or pending, and which service is responsible for follow-up?",
+      "suggested_answers": [],
+      "unknown_and_decline_allowed": true
     }
   ]
 }

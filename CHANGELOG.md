@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.0 - 2026-10-09
+
+- Add three detailed pediatric modules spanning birth through 59 months: urgent illness/procedures, preventive care/development, and fontanelles/skull/head growth.
+- Add age-specific surveillance aids, newborn screening/result ownership, feeding/formula safety, growth-chart methods, safe sleep, teeth/hearing/vision and dated local vaccination planning.
+- Separate fontanel closure variation from suture fusion; distinguish head-growth trends, illness danger signs, positional shape, ultrasound questions and specialist imaging/referral.
+- Connect nineteen skills and fifteen clinical modules through 189 routes and 214 synthetic fixtures; retain all prior records and source identities. Add 89 canonical sources including retained discovery history, with 93 current targeted reading records.
+- Add an explicit source-use policy and runtime attribution; require independent usable sources for new pediatric rules instead of unlicensed NICE AI reuse.
+- Add packaging guards for full under-five age scope, chronological routing and excluded source use. Record limited fresh-context response checks separately from unexecuted fixtures and clinical validation.
+
 ## 0.7.1 - 2026-10-09
 
 - Add an original community code of conduct with privacy-aware reporting and proportionate moderation.

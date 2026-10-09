@@ -14,6 +14,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | Voluntary focused history and dated review | health-history-intake; [DIAGNOSTICS](DIAGNOSTICS.md), [question prompts](intake-question-bank.json) |
 | Established disease, pressure/glucose or several conditions | health-explain; [CHRONIC](CHRONIC.md) and the existing care plan |
 | Psychiatric medicines, cognition and dementia | health-mental-health; [NEURO](NEURO.md); adult psychological skills retain their separate scope |
+| Child from birth to the fifth birthday | health-family-care; [PEDIATRICS](PEDIATRICS.md), [preventive care and plans](PEDIATRIC_CARE.md), [fontanels/head shape](FONTANELS.md) |
 | Pelvic pain, endometriosis and fertility | health-family-care; [ENDOMETRIOSIS](ENDOMETRIOSIS.md); new acute symptoms still use emergency triage |
 | Function, older age, rehabilitation or massage | health-prevention / health-family-care; [AGEING_REHAB](AGEING_REHAB.md) |
 
@@ -33,6 +34,9 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | [Ageing, function and rehabilitation](AGEING_REHAB.md) | frailty/falls, polypharmacy, urology, hair/nails, massage/devices, rehabilitation | 23 / 10 / 13 |
 | [Endometriosis, fertility and emerging evidence](ENDOMETRIOSIS.md) | pelvic pain, clinical diagnosis, imaging limits, hormonal/surgical choices, fertility, biomarkers | 27 / 9 / 12 |
 | [Learning resources and evidence architecture](ARCHITECTURE.md) | legal textbooks, curricula/CPD, repositories, AI research, decision cards, evaluation design | 26 / 10 / 12 |
+| [Under-five illness, urgent care and procedures](PEDIATRICS.md) | birth/newborn, young-infant fever, jaundice, reflux, croup/wheeze, seizures, dehydration/ORS, ear/urine/limb pain, medicine errors, batteries/magnets, pediatric tests and intervals | 37 / 18 / 18 |
+| [Well-child care, development and prevention under five](PEDIATRIC_CARE.md) | newborn contacts/screens/results, 2/4/6/9/12/15/18/24/30/36/48 month development, feeding/formula/solids, growth charts, safe sleep/activity/screens, teeth/hearing/vision, toileting, vaccines/catch-up navigation, local plans | 38 / 19 / 19 |
+| [Fontanelles, sutures, skull shape and head growth](FONTANELS.md) | anterior/posterior fontanel, closure variation, sutures/craniosynostosis, head circumference, bulging/sunken/pulsation, positional flattening/torticollis, vitamin D, brain/suture ultrasound, CT/MRI/referral/surgery | 25 / 11 / 12 |
 
 Counts measure navigation/provenance records, not independent studies, medical completeness or a validated pass rate. Sources may overlap between topics. Reusable synthetic cases are fixtures; executed checks are reported separately.
 
@@ -125,6 +129,27 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Indexed curricula/chapters are not completed medical training or a freely redistributable corpus.
 - Repository/community/AI demonstrations are discovery leads, not validated clinical evidence or code to execute automatically.
+
+### Under-five illness, urgent care and procedures
+
+Original targeted synthesis excluding sources with explicit unverified AI-use restrictions. Source-review.json records actual page/section/abstract/indexed access, versions, jurisdiction, rights and remaining limits. No full pediatric course or systematic review is claimed.
+
+- Selected illness and lay-action pathways, not a neonatal hospital protocol or pediatric prescribing engine.
+- Young-infant urgency, medicine labels, test intervals and follow-up need matching age and current local guidance.
+
+### Well-child care, development and prevention under five
+
+Original targeted synthesis excluding sources with explicit unverified AI-use restrictions. Source-review.json records actual page/section/abstract/indexed access, versions, jurisdiction, rights and remaining limits. No full pediatric course or systematic review is claimed.
+
+- Original surveillance and planning aids, not a licensed questionnaire, diagnostic milestone score or universal appointment calendar.
+- Dated UK/US programme examples are localized; Serbia/Russia calendars, exact products and individual catch-up remain live verification tasks.
+
+### Fontanelles, sutures, skull shape and head growth
+
+Original targeted synthesis excluding sources with explicit unverified AI-use restrictions. Source-review.json records actual page/section/abstract/indexed access, versions, jurisdiction, rights and remaining limits. No full pediatric course or systematic review is claimed.
+
+- Closure distributions describe selected imaging samples; no universal deadline, probability score or photo clearance.
+- Head-growth referral thresholds and imaging choices depend on the chart, jurisdiction, indication and specialist expertise.
 
 ## Review output
 

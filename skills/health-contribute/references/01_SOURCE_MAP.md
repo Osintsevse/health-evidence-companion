@@ -3850,3 +3850,626 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Agent read publisher section 1.7 and figure credit; parent checked main receptor vocabulary section
 - Purpose: Foundational mechanism and receptor vocabulary; no product efficacy, dosing or individual clinical inference
 - Checked: 2026-10-09
+
+### S548 - High temperature (fever) in children
+- URL: https://www.nhs.uk/symptoms/fever-in-children/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Home care, urgent signs and medicine cautions
+- Checked: 2026-10-09
+
+### S549 - Kawasaki disease
+- URL: https://www.nhs.uk/conditions/kawasaki-disease/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Five-day fever, clinical assessment, tests and supervised aspirin exception
+- Checked: 2026-10-09
+
+### S550 - Croup
+- URL: https://www.nhs.uk/conditions/croup/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Caregiver actions and airway warning signs
+- Checked: 2026-10-09
+
+### S551 - Croup (Laryngotracheobronchitis)
+- URL: https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/
+- Region: Australia
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Age range, clinician steroid/adrenaline choices and selected investigations
+- Checked: 2026-10-09
+
+### S552 - Bronchiolitis
+- URL: https://www.nhs.uk/conditions/bronchiolitis/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Under-two relevance, breathing/hydration warnings and course
+- Checked: 2026-10-09
+
+### S553 - Bronchiolitis in children: diagnosis and management NG9
+- URL: https://www.nice.org.uk/guidance/ng9/chapter/Recommendations
+- Region: UK
+- Reading status: search_excerpt_only; direct_open_HTTP_403
+- Purpose: Older-infant viral wheeze/asthma distinction; young-infant apnea, professional oxygen assessment and selective tests
+- Checked: 2026-10-09
+
+### S554 - Febrile seizures
+- URL: https://www.nhs.uk/conditions/febrile-seizures/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Lay safety, first/prolonged/focal events and clinician rescue plans
+- Checked: 2026-10-09
+
+### S555 - Dehydration
+- URL: https://www.nhs.uk/conditions/dehydration/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: ORS, small sips, warning signs and usual diet
+- Checked: 2026-10-09
+
+### S556 - Watchful Waiting for Ear Infections
+- URL: https://www.cdc.gov/antibiotic-use/media/pdfs/watchfulwaitingear-p.pdf
+- Region: US
+- Reading status: PDF_text_extracted_relevant_pages_read
+- Purpose: Exact 6-23 month/2-year eligibility and follow-up
+- Checked: 2026-10-09
+
+### S557 - Outpatient Clinical Care for Pediatric Populations
+- URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Otitis examination and clinician antibiotic choices
+- Checked: 2026-10-09
+
+### S558 - Urinary tract infection in under 16s NG224
+- URL: https://www.nice.org.uk/guidance/ng224/chapter/Recommendations
+- Region: UK
+- Reading status: search_excerpt_only; direct_open_HTTP_403
+- Purpose: Selected urine collection/testing and imaging
+- Checked: 2026-10-09
+
+### S559 - Limping in children
+- URL: https://www.nhs.uk/symptoms/limp-in-children/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Non-weight-bearing/fever escalation and clinical examination
+- Checked: 2026-10-09
+
+### S560 - Should You Give Kids Medicine for Coughs and Colds?
+- URL: https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Under-two advice, manufacturer under-four labels, duplicate ingredient/device safety
+- Checked: 2026-10-09
+
+### S561 - Over-the-counter cough and cold medicines for children
+- URL: https://www.gov.uk/drug-safety-update/over-the-counter-cough-and-cold-medicines-for-children
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Ingredient-specific under-six guidance; not current ingredient availability
+- Checked: 2026-10-09
+
+### S562 - National Capital Poison Center button battery ingestion triage and treatment guideline
+- URL: https://www.poison.org/battery/guideline
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Immediate care, conditional honey protocol, no delayed symptom waiting
+- Checked: 2026-10-09
+
+### S563 - Magnet safety
+- URL: https://www.canada.ca/en/health-canada/services/toy-safety/magnets.html
+- Region: Canada
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Immediate assessment even asymptomatic; multiple-magnet mechanism/prevention
+- Checked: 2026-10-09
+
+### S564 - Preventing Drowning
+- URL: https://www.cdc.gov/drowning/prevention/index.html
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Age 1-4 relevant supervision/barriers/life jackets
+- Checked: 2026-10-09
+
+### S565 - When to get urgent medical help for babies and children under 5
+- URL: https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Afebrile/lower-temperature illness, feeding/responsiveness, young-infant thresholds; source urgency difference
+- Checked: 2026-10-09
+
+### S566 - Jaundice in babies
+- URL: https://www.nhs.uk/conditions/jaundice-in-babies/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: First-day jaundice, feeding/behavior signs, measurement and professional treatment
+- Checked: 2026-10-09
+
+### S567 - Jaundice in newborn babies under 28 days CG98
+- URL: https://www.nice.org.uk/guidance/cg98/chapter/Recommendations
+- Region: UK
+- Reading status: search_excerpt_only; direct_open_HTTP_403
+- Purpose: Age-hours/gestation interpretation, prolonged term/preterm timing, no sunlight
+- Checked: 2026-10-09
+
+### S568 - Reflux in babies
+- URL: https://www.nhs.uk/conditions/reflux-in-babies/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Common regurgitation versus feeding/growth/vomit warnings, back sleep and clinician options
+- Checked: 2026-10-09
+
+### S569 - Drinks and cups for babies and young children
+- URL: https://www.nhs.uk/baby/weaning-and-feeding/drinks-and-cups-for-babies-and-young-children/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Breast/formula-fed under-six-month hydration distinctions
+- Checked: 2026-10-09
+
+### S570 - SickKids launches expanded and updated CALIPER app and website
+- URL: https://www.sickkids.ca/en/news/archive/2018/sickkids-team-launches-expanded-and-updated-caliper-app-and-website-/
+- Region: Canada
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Child age/sex and instrument-specific reference comparison; no current database-count claim
+- Checked: 2026-10-09
+
+### S571 - Clinical Biochemistry - Paediatric Reference Interval Database
+- URL: https://www.sickkids.ca/en/care-services/for-health-care-providers/lab-testing-services/clinical-biochemistry/
+- Region: Canada
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Confirms CALIPER pediatric laboratory-reference purpose only
+- Checked: 2026-10-09
+
+### S572 - CDC Milestones by 1 Year
+- URL: https://www.cdc.gov/act-early/milestones/1-year.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S573 - CDC Milestones by 15 Months
+- URL: https://www.cdc.gov/act-early/milestones/15-months.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S574 - CDC Milestones by 18 Months
+- URL: https://www.cdc.gov/act-early/milestones/18-months.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S575 - CDC Milestones by 2 Years
+- URL: https://www.cdc.gov/act-early/milestones/2-years.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S576 - CDC Milestones by 30 Months
+- URL: https://www.cdc.gov/act-early/milestones/30-months.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S577 - CDC Milestones by 3 Years
+- URL: https://www.cdc.gov/act-early/milestones/3-years.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S578 - CDC Milestones by 4 Years
+- URL: https://www.cdc.gov/act-early/milestones/4-years.html
+- Region: US
+- Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
+- Purpose: Selected age-specific communication/play/movement observations and concern routing
+- Checked: 2026-10-09
+
+### S579 - CDC Developmental Monitoring and Screening
+- URL: https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html
+- Region: US
+- Reading status: Relevant HTML sections inspected
+- Purpose: Surveillance versus validated screening; AAP timing; early support navigation
+- Checked: 2026-10-09
+
+### S580 - CDC Using WHO Growth Standard Charts
+- URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html
+- Region: US
+- Reading status: Relevant HTML sections inspected
+- Purpose: Accurate serial measures; US transition at two; length versus height; indicator changes
+- Checked: 2026-10-09
+
+### S581 - WHO Child Growth Standards
+- URL: https://www.who.int/tools/child-growth-standards
+- Region: Global
+- Reading status: HTML overview/training description and chart age scope inspected; manuals/chart figures not read
+- Purpose: WHO charts through 60 completed months; no universal CDC transition
+- Checked: 2026-10-09
+
+### S582 - WHO To grow up healthy, children need to sit less and play more
+- URL: https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more
+- Region: Global
+- Reading status: Official HTML recommendation groups inspected; full guideline not read (NCBI route recaptcha)
+- Purpose: Age-specific activity/sleep/screen recommendations
+- Checked: 2026-10-09
+
+### S583 - NHS What to feed young children
+- URL: https://www.nhs.uk/baby/weaning-and-feeding/what-to-feed-young-children/
+- Region: UK
+- Reading status: HTML food groups/milk/iron/fat sections inspected
+- Purpose: Age-specific energy/fat/milk/iron and alternative drinks
+- Checked: 2026-10-09
+
+### S584 - NHS Fussy eaters
+- URL: https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/
+- Region: UK
+- Reading status: Full short HTML text inspected; video not viewed
+- Purpose: Repeated offers, calm family meals and no forcing
+- Checked: 2026-10-09
+
+### S585 - NHS Preparing food safely
+- URL: https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/
+- Region: UK
+- Reading status: HTML choking and food-preparation sections inspected
+- Purpose: Upright supervised eating; shapes/textures; grapes/nuts/butter
+- Checked: 2026-10-09
+
+### S586 - NHS Children's teeth
+- URL: https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/
+- Region: UK
+- Reading status: HTML brushing age groups and attendance sections inspected
+- Purpose: Smear/pea at three; actual fluoride ppm; help and attendance
+- Checked: 2026-10-09
+
+### S587 - AAP Corrected Age For Preemies
+- URL: https://www.healthychildren.org/English/ages-stages/baby/preemie/pages/Corrected-Age-For-Preemies.aspx
+- Region: US
+- Reading status: HTML definition/calculation/age scope inspected; underlying book not read
+- Purpose: Corrected developmental age during first two years
+- Checked: 2026-10-09
+
+### S588 - CDC About Hearing Loss in Children
+- URL: https://www.cdc.gov/hearing-loss-children/about/index.html
+- Region: US
+- Reading status: HTML signs and screening/diagnosis sections inspected
+- Purpose: Later hearing concerns despite prior screen; prompt fuller testing
+- Checked: 2026-10-09
+
+### S589 - AAPOS Vision Screening Recommendations
+- URL: https://www.aapos.org/syndicated/vision-screening
+- Region: US
+- Reading status: HTML age groups and referral criteria inspected
+- Purpose: 12-36 versus 36-47 and 48-59 month screening groups
+- Checked: 2026-10-09
+
+### S590 - NHS Potty training your child
+- URL: https://www.nhs.uk/best-start-in-life/toddler/potty-training-your-child/
+- Region: UK
+- Reading status: HTML preparation, five steps, night dryness and support sections inspected
+- Purpose: Practice around 18-30 months without waiting for signs; supportive routines and constipation check
+- Checked: 2026-10-09
+
+### S591 - NIDDK Symptoms & Causes of Constipation in Children
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/constipation-children/symptoms-causes
+- Region: US
+- Reading status: HTML symptoms, clinician thresholds and causes inspected
+- Purpose: Withholding/soiling and prompt assessment signs
+- Checked: 2026-10-09
+
+### S592 - NHS Baby and toddler safety
+- URL: https://www.nhs.uk/baby/first-aid-and-safety/safety/baby-and-toddler-safety/
+- Region: UK
+- Reading status: HTML choking, falls/toddler injuries, poisoning, burns and drowning sections inspected
+- Purpose: Childproofing, batteries/magnets, burns and water supervision
+- Checked: 2026-10-09
+
+### S593 - NHS Newborn physical examination
+- URL: https://www.nhs.uk/baby/newborn-screening/physical-examination/
+- Region: UK
+- Reading status: Relevant HTML sections inspected
+- Purpose: 72 h/6-8 w examination; trained roles, selected components and immediate results
+- Checked: 2026-10-09
+
+### S594 - NHS Newborn blood spot test
+- URL: https://www.nhs.uk/baby/newborn-screening/blood-spot-test/
+- Region: UK
+- Reading status: Relevant HTML sections inspected
+- Purpose: Day 5 sample, results by 6 w, repeat/positive/carrier distinctions; SMA local limitation
+- Checked: 2026-10-09
+
+### S595 - England Repeat blood spot samples
+- URL: https://www.gov.uk/government/publications/health-professional-handbook-newborn-blood-spot-screening/4-repeat-blood-samples
+- Region: UK
+- Reading status: HTML repeat reasons, preterm/transfusion and follow-up sections inspected
+- Purpose: Prematurity/transfusion repeat pathways; explain reason and service ownership
+- Checked: 2026-10-09
+
+### S596 - NHS Newborn hearing screening
+- URL: https://www.nhs.uk/baby/newborn-screening/hearing-test/
+- Region: UK
+- Reading status: Relevant HTML sections inspected
+- Purpose: Earpiece screen, unclear result, audiology 4 w example and later-loss limit
+- Checked: 2026-10-09
+
+### S597 - CDC Screening for Critical Congenital Heart Defects
+- URL: https://www.cdc.gov/heart-defects/screening/index.html
+- Region: US
+- Reading status: Relevant HTML sections inspected
+- Purpose: 24 h/discharge timing, pulse-ox function, pass/fail limits and further tests
+- Checked: 2026-10-09
+
+### S598 - NICE NG 194 Postnatal care recommendations
+- URL: https://www.nice.org.uk/guidance/ng194/chapter/Recommendations
+- Region: UK
+- Reading status: Indexed official detailed excerpts inspected:1.1.14-16,1.3.1-3,1.5.12-15; direct HTML failed
+- Purpose: First midwife 36 h, baby contact review and breastfeeding assessment
+- Checked: 2026-10-09
+
+### S599 - NHS Washing and bathing your baby
+- URL: https://www.nhs.uk/baby/caring-for-a-newborn/washing-and-bathing-your-baby/
+- Region: UK
+- Reading status: HTML topping/tailing and bathing sections inspected
+- Purpose: Cleaning soiled cord and safe bathing
+- Checked: 2026-10-09
+
+### S600 - NHS How to make up baby formula
+- URL: https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/bottle-feeding/making-up-baby-formula/
+- Region: UK
+- Reading status: HTML preparation procedure, machine and dos/donts inspected
+- Purpose: Safe preparation, temperature, ratio, water first, no additions
+- Checked: 2026-10-09
+
+### S601 - NHS Your baby's first solid foods
+- URL: https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/
+- Region: UK
+- Reading status: HTML readiness, texture, milk and 6-12 m feeding sections inspected
+- Purpose: Around 6 m readiness, milk continuation, texture progression and cowmilk distinction
+- Checked: 2026-10-09
+
+### S602 - NHS Introducing foods that could trigger an allergic reaction
+- URL: https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-allergies/
+- Region: UK
+- Reading status: Full short HTML inspected
+- Purpose: Around 6 m introduction, ongoing tolerated foods, allergy/eczema caution
+- Checked: 2026-10-09
+
+### S603 - NHS Sudden infant death syndrome
+- URL: https://www.nhs.uk/baby/caring-for-a-newborn/sudden-infant-death-syndrome-sids/
+- Region: UK
+- Reading status: HTML safer sleep and co-sleeping risk sections inspected
+- Purpose: Back/firm-flat/clear-cot sleep, room sharing and prematurity/substance safeguards
+- Checked: 2026-10-09
+
+### S604 - UKHSA Routine childhood immunisations from 1 July 2026
+- URL: https://www.gov.uk/government/publications/routine-childhood-immunisation-schedule/routine-childhood-immunisations-from-1-july-2026
+- Region: UK
+- Reading status: HTML 0-59 m rows and selected selective-programme entries inspected; annual flu letter not read; publication hub change log/version inspected
+- Purpose: Selected 0-59 m antigen purposes/cohort distinctions/selective programmes; original publication hub tracks 2026 MMRV/18 m and HibMenC removal
+- Checked: 2026-10-09
+
+### S605 - CDC Milestones by 2 Months
+- URL: https://www.cdc.gov/act-early/milestones/2-months.html
+- Region: US
+- Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
+- Purpose: Selected original age-specific infant observation prompts; no score or full checklist
+- Checked: 2026-10-09
+
+### S606 - CDC Milestones by 4 Months
+- URL: https://www.cdc.gov/act-early/milestones/4-months.html
+- Region: US
+- Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
+- Purpose: Selected original age-specific infant observation prompts; no score or full checklist
+- Checked: 2026-10-09
+
+### S607 - CDC Milestones by 6 Months
+- URL: https://www.cdc.gov/act-early/milestones/6-months.html
+- Region: US
+- Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
+- Purpose: Selected original age-specific infant observation prompts; no score or full checklist
+- Checked: 2026-10-09
+
+### S608 - CDC Milestones by 9 Months
+- URL: https://www.cdc.gov/act-early/milestones/9-months.html
+- Region: US
+- Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
+- Purpose: Selected original age-specific infant observation prompts; no score or full checklist
+- Checked: 2026-10-09
+
+### S609 - Suspected neurological conditions NG127: head shape or size
+- URL: https://www.nice.org.uk/guidance/ng127/chapter/recommendations-for-children-aged-under-16
+- Region: UK
+- Reading status: Recommendation text inspected in indexed search result; direct open returned internal error.
+- Purpose: Measurement, growth trend, referral and pressure signs.
+- Checked: 2026-10-09
+
+### S610 - Anterior fontanelle closure and size in full-term children based on head computed tomography
+- URL: https://pubmed.ncbi.nlm.nih.gov/24920348/
+- Region: US
+- Reading status: PubMed abstract inspected; no full-text claim.
+- Purpose: 464-scan CT cohort and variation.
+- Checked: 2026-10-09
+
+### S611 - Anterior fontanelle closure and diagnosis of non-syndromic craniosynostosis: a comparative study using computed tomography
+- URL: https://pubmed.ncbi.nlm.nih.gov/34861206/
+- Region: Brazil
+- Reading status: PubMed abstract and indexed methods/results inspected; PMC direct open captcha.
+- Purpose: Closed or open fontanel is insufficient to diagnose or exclude fusion.
+- Checked: 2026-10-09
+
+### S612 - Difference in anterior fontanelle closure between non-syndromic craniosynostosis and normal controls
+- URL: https://pubmed.ncbi.nlm.nih.gov/41126260/
+- Region: Study region requires full-text confirmation
+- Reading status: PubMed abstract inspected.
+- Purpose: Newer retrospective comparison; adjunct markers not diagnosis.
+- Checked: 2026-10-09
+
+### S613 - Updated Guideline on Treatment and Management of Craniosynostosis
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7769187/
+- Region: Netherlands
+- Reading status: Full HTML accessible; relevant referral/diagnostics, MRI and treatment sections inspected, not all chapters.
+- Purpose: Prompt referral, specialist imaging, indication-specific MRI and treatment.
+- Checked: 2026-10-09
+
+### S614 - Your Baby's Head
+- URL: https://www.healthychildren.org/English/ages-stages/baby/Pages/Your-Babys-Head.aspx
+- Region: US
+- Reading status: Page soft-spot and shaping sections inspected.
+- Purpose: Gentle handling, molding, pulse and whole-child hydration.
+- Checked: 2026-10-09
+
+### S615 - Visiting The Pediatrician: The First Year
+- URL: https://www.healthychildren.org/English/family-life/health-management/Pages/visiting-the-pediatrician-the-first-year.aspx
+- Region: US
+- Reading status: Indexed head examination text inspected.
+- Purpose: Approximate posterior/anterior closure orientation.
+- Checked: 2026-10-09
+
+### S616 - Head circumference for age
+- URL: https://www.who.int/tools/child-growth-standards/standards/head-circumference-for-age
+- Region: Global
+- Reading status: Chart/table listing inspected; individual tables not copied or extracted.
+- Purpose: Sex-specific birth-through-five charts.
+- Checked: 2026-10-09
+
+### S617 - Clinical Practice Guidelines: Positional plagiocephaly
+- URL: https://www.rch.org.au/clinicalguide/guideline_index/Positional_plagiocephaly/
+- Region: Australia
+- Reading status: Indexed key points, examination and background inspected; direct open internal error.
+- Purpose: Clinical positional assessment, torticollis, usual lack of imaging.
+- Checked: 2026-10-09
+
+### S618 - Diarrhoea and vomiting caused by gastroenteritis in under 5s CG84
+- URL: https://www.nice.org.uk/guidance/cg84/chapter/Recommendations
+- Region: UK
+- Reading status: Section 1.2 clinical assessment inspected.
+- Purpose: Whole-child hydration and shock signs.
+- Checked: 2026-10-09
+
+### S619 - Providing Care for Babies to Sleep Safely
+- URL: https://www.cdc.gov/sudden-infant-death/sleep-safely/
+- Region: US
+- Reading status: Safe-sleep recommendations inspected.
+- Purpose: Supine sleep, firm flat surface, no soft bedding.
+- Checked: 2026-10-09
+
+### S620 - Flat head syndrome
+- URL: https://www.nhs.uk/conditions/flat-head-syndrome-plagiocephaly-brachycephaly/
+- Region: UK
+- Reading status: Causes and treatment sections inspected.
+- Purpose: Physiotherapy, positioning, NHS helmet policy.
+- Checked: 2026-10-09
+
+### S621 - Practical Computed Tomography Scan Findings for Distinguishing Metopic Craniosynostosis from Metopic Ridging
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6467624/
+- Region: US
+- Reading status: Full HTML accessible; methods/results/discussion relevant sections inspected.
+- Purpose: Physiological metopic fusion, ridge and diagnostic uncertainty.
+- Checked: 2026-10-09
+
+### S622 - Hydrocephalus: Symptoms
+- URL: https://www.nhs.uk/conditions/hydrocephalus/symptoms/
+- Region: UK
+- Reading status: Congenital symptoms section inspected.
+- Purpose: Head growth, tension, gaze and whole-infant symptoms.
+- Checked: 2026-10-09
+
+### S623 - Rickets: Kids Health Info
+- URL: https://www.rch.org.au/kidsinfo/fact_sheets/rickets/
+- Region: Australia
+- Reading status: Signs, causes and review-status sections inspected.
+- Purpose: Late closure as one feature of bone disease.
+- Checked: 2026-10-09
+
+### S624 - Vitamins for children
+- URL: https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/
+- Region: UK
+- Reading status: Vitamin supplements and D sections inspected.
+- Purpose: Local prophylaxis policy and duplicate-supplement warning.
+- Checked: 2026-10-09
+
+### S625 - Craniosynostosis
+- URL: https://www.seattlechildrens.org/conditions/craniosynostosis/
+- Region: US
+- Reading status: Diagnosis/treatment and surgery-options sections inspected.
+- Purpose: Center-specific surgery options and postoperative helmets.
+- Checked: 2026-10-09
+
+### S626 - Congenital Hypothyroidism: Genetic Fact Sheets for Parents
+- URL: https://www.newbornscreening.info/wp-content/uploads/2023/03/CH.pdf
+- Region: US multi-state newborn-screening project
+- Reading status: PDF accessible; pages 1-3 early-feature section inspected; treatment content excluded.
+- Purpose: Large late-closing fontanel as one possible thyroid feature.
+- Checked: 2026-10-09
+
+### S627 - Craniosynostosis
+- URL: https://www.nhs.uk/conditions/craniosynostosis/
+- Region: UK
+- Reading status: Symptoms, GP assessment, treatment and long-lasting effects inspected.
+- Purpose: Clinical assessment, surgery options and longer follow-up.
+- Checked: 2026-10-09
+
+### S628 - Craniofacial: skull sutures and growth
+- URL: https://bwc.nhs.uk/craniofacial/
+- Region: UK
+- Reading status: Indexed anatomy and growth-direction section inspected.
+- Purpose: Sutures versus fontanelles and compensatory growth.
+- Checked: 2026-10-09
+
+### S629 - Cranial Ultrasound
+- URL: https://www.radiologyinfo.org/en/info/ultrasound-cranial
+- Region: US: ACR and RSNA
+- Reading status: Head ultrasound, infant indications and benefits/limitations inspected.
+- Purpose: Brain ultrasound purpose, window and lack of ionizing radiation.
+- Checked: 2026-10-09
+
+### S630 - Special care: ill or premature babies
+- URL: https://www.nhs.uk/pregnancy/labour-and-birth/special-care-ill-or-premature-babies/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Same-day contact for jaundice after2weeks; premature duration context and professional phototherapy
+- Checked: 2026-10-09
+
+### S631 - Lumbar puncture
+- URL: https://www.nhs.uk/tests-and-treatments/lumbar-puncture/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Procedure-purpose literacy only; no young-infant indication thresholds or home technique
+- Checked: 2026-10-09
+
+### S632 - What are Jaundice and Kernicterus? - archived CDC background
+- URL: https://archive.cdc.gov/www_cdc_gov/ncbddd/jaundice/facts.html
+- Region: US
+- Reading status: archived_page_relevant_sections_opened_and_read
+- Purpose: Stable age-hours/risk-context literacy and sunlight not substitution; no timing/threshold algorithm
+- Checked: 2026-10-09
+
+### S633 - Jaundice and Breastfeeding
+- URL: https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/jaundice.html
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Current newborn/prematurity and clinician case-by-case feeding context
+- Checked: 2026-10-09
+
+### S634 - UK-WHO growth charts - guidance for health professionals
+- URL: https://www.rcpch.ac.uk/resources/uk-who-growth-charts-guidance-health-professionals
+- Region: UK
+- Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed.
+- Purpose: Trained measurement, suitable narrow tape, recording dates and checking plotting age errors.
+- Checked: 2026-10-09
+
+### S635 - Meningitis
+- URL: https://www.nhs.uk/conditions/meningitis/
+- Region: UK
+- Reading status: Direct NHS HTML inspected: symptoms in babies/under-five children, incomplete symptom presentation and emergency action.
+- Purpose: Bulging fontanel with illness; absence of complete classic symptom set does not clear meningitis.
+- Checked: 2026-10-09
+
+### S636 - What are babies like? (About babies): page 1
+- URL: https://dcj.nsw.gov.au/content/dam/dcj/dcj-website/documents/children-and-families/parenting/caring-for-babies-children-and-young-people/caring-for-babies/what-are-babies-like.pdf
+- Region: Australia: New South Wales
+- Reading status: Direct PDF page 1 soft-spot paragraph read (tool lines 15-24); direct DCJ copyright notice inspected.
+- Purpose: Transient crying-related swelling followed by return to flat appearance when crying ends.
+- Checked: 2026-10-09

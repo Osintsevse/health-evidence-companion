@@ -1,9 +1,11 @@
 """Validate the public clinical navigation graph; no patient input or medical decisions."""
 import json
 from pathlib import Path, PurePosixPath
+from urllib.parse import urlsplit
 from sync_references import CLINICAL_TOPICS, MAP
 
 ROOT = Path(__file__).resolve().parents[1]
+UNDER_FIVE_MODULES = {'PEDIATRICS.md', 'PEDIATRIC_CARE.md', 'FONTANELS.md'}
 
 
 def require(ok, message):
@@ -16,7 +18,24 @@ def read(root, name):
 
 
 def validate_clinical(root=ROOT):
-    sources = {s['id'] for s in read(root, 'knowledge/sources.json')}
+    source_rows = read(root, 'knowledge/sources.json')
+    sources = {s['id'] for s in source_rows}
+    use_policy = read(root, 'knowledge/clinical/source-use-policy.json')
+    require(use_policy.get('schema') == 'external-clinical-source-use-v1' and
+            use_policy.get('permission_assumed') is False and
+            use_policy.get('preserve_bibliographic_history') is True,
+            'Source catalog must not assume AI reuse permission')
+    rules = use_policy.get('rules', [])
+    require(rules and len({r['id'] for r in rules}) == len(rules) and
+            all(r.get('host_suffix') and r.get('path_prefix') and r.get('action') and
+                r.get('verified_permission_available') is False and r.get('basis_urls')
+                and r.get('limits') for r in rules), 'Missing source-use restriction provenance')
+    def restricted(url):
+        parsed = urlsplit(url)
+        host = (parsed.hostname or '').lower()
+        return any((host == r['host_suffix'] or host.endswith('.' + r['host_suffix']))
+                   and parsed.path.startswith(r['path_prefix']) for r in rules)
+    restricted_ids = {r['id'] for r in source_rows if restricted(r.get('url', ''))}
     navigation = read(root, 'knowledge/clinical/navigation.json')
     routes = read(root, 'knowledge/clinical/routes.json')
     evaluations = read(root, 'evals/medical-expansion/cases.json')
@@ -51,6 +70,7 @@ def validate_clinical(root=ROOT):
     require({t['module'] for t in topics} == {
         'knowledge/clinical/' + name + '.md' for name in CLINICAL_TOPICS},
         'Clinical coverage map is incomplete')
+    require(len(topics) == len(CLINICAL_TOPICS), 'Duplicate clinical module coverage')
     require(len({t['id'] for t in topics}) == len(topics), 'Duplicate clinical topic')
     require(routes.get('schema') == 'clinical-routes-v1', 'Unknown clinical route schema')
     require(evaluations.get('schema') == 'synthetic-clinical-cases-v1' and
@@ -74,6 +94,11 @@ def validate_clinical(root=ROOT):
         require(not path.is_absolute() and '..' not in path.parts and '\\' not in module and ':' not in module,
                 'Unsafe clinical module path')
         require((root / module).is_file(), 'Missing clinical module')
+        if path.name in UNDER_FIVE_MODULES:
+            scope = topic.get('age_scope', {})
+            require(scope.get('minimum_months') == 0 and scope.get('maximum_months') == 59
+                    and scope.get('routing_age') == 'chronological',
+                    'Under-five scope must include birth through 59 chronological months')
         require(topic.get('skills') and set(topic['skills']) <= set(MAP),
                 'Clinical topic has no valid skill')
         require(topic.get('source_ids') and set(topic['source_ids']) <= sources,
@@ -82,6 +107,17 @@ def validate_clinical(root=ROOT):
                 'Clinical topic has missing or unknown route')
         require(topic.get('evaluation_ids') and set(topic['evaluation_ids']) <= case_ids,
                 'Clinical topic has missing or unknown synthetic case')
+        if path.name in UNDER_FIVE_MODULES:
+            active_ids = set(topic['source_ids'])
+            for row in route_rows:
+                if row['id'] in topic['route_ids']:
+                    active_ids.update(row.get('source_ids', []))
+            for row in case_rows:
+                if row['id'] in topic['evaluation_ids']:
+                    active_ids.update(row.get('source_ids', []))
+            require(active_ids.isdisjoint(restricted_ids),
+                    'Under-five active evidence includes an AI-restricted source')
+
         require(topic.get('coverage_limits') and topic.get('reading_depth'),
                 'Clinical topic must disclose coverage limits')
         text = (root / module).read_text(encoding='utf-8')

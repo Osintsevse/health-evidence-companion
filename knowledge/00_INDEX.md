@@ -27,7 +27,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 547 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 636 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -74,4 +74,6 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 
 ## Expanded clinical navigation
 
-Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest relevant section of twelve topic modules. The graph links topics, skills, source IDs, 141 reference routes and 165 synthetic behavioural fixtures. Exact source access, jurisdiction, reading depth, limitations and rights are in `clinical/source-review.json`; the adaptive question bank contains prompts only. New skills cover lay first aid, nutrition, current-location care search and voluntary history intake. All source and fixture counts are metadata, not clinical validation.
+Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest relevant section of fifteen topic modules. The graph links topics, skills, source IDs, 189 reference routes and 214 synthetic behavioural fixtures. Exact source access, jurisdiction, reading depth, limitations and rights are in `clinical/source-review.json`; the adaptive question bank contains prompts only. New skills cover lay first aid, nutrition, current-location care search and voluntary history intake. All source and fixture counts are metadata, not clinical validation.
+
+Detailed birth-through-59-month navigation: [well-child care and local plans](clinical/PEDIATRIC_CARE.md), [illness and procedures](clinical/PEDIATRICS.md), and [fontanelles/skull/head growth](clinical/FONTANELS.md). Chronological age governs routing; prematurity correction is specific to the chart or developmental question.

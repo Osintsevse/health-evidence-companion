@@ -152,3 +152,7 @@ Agree on a review outcome that fits the goal: easier meals, adequate intake, bet
 - S338: [Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes—2026](https://doi.org/10.2337/dc26-S005). Indexed primary detailed excerpts read: meal planning, macro individualization, 5.26 SGLT/ketogenic warning; direct HTML/PDF failed/403
 - S339: [The American Heart Association Diet and Lifestyle Recommendations](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations). HTML entire short food-pattern section read; official 2026 statement hub verified
 - S340: [Healthy Living with Diabetes](https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes). HTML meal timing, medicine-related low glucose, carb counting and plate method read
+
+## Age-specific feeding extension
+
+For newborns, infants, toddlers and preschool children, read [under-five feeding and care](PEDIATRIC_CARE.md). Adult pattern and arithmetic examples above do not set child calorie, macro, fibre or salt targets. Match the developmental feeding stage, actual preparation/portions, growth, allergy and the professional/local supplementation plan; worsening feeding or hydration follows [pediatric illness](PEDIATRICS.md).

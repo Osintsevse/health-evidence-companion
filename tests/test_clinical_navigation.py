@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from clinical_navigation import validate_clinical
+from clinical_navigation import validate_clinical, UNDER_FIVE_MODULES
 from sync_references import CLINICAL_TOPICS
 
 class ClinicalNavigationTests(unittest.TestCase):
@@ -15,6 +15,7 @@ class ClinicalNavigationTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.put('knowledge/sources.json', [{'id': 'S01'}])
+        self.put('knowledge/clinical/source-use-policy.json', {'schema': 'external-clinical-source-use-v1', 'permission_assumed': False, 'preserve_bibliographic_history': True, 'rules': [{'id': 'restricted', 'host_suffix': 'nice.org.uk', 'path_prefix': '/', 'action': 'bibliographic_pointer_only', 'verified_permission_available': False, 'basis_urls': ['https://www.nice.org.uk/terms-and-conditions'], 'limits': 'AI permission not verified'}]})
         self.put('knowledge/clinical/intake-question-bank.json', {'schema': 'adaptive-history-question-bank-v1', 'contains_patient_answers': False, 'automatic_storage': False, 'questions': [{'id': 'goal', 'when': 'At start', 'question': 'What is your goal?', 'suggested_answers': [], 'unknown_and_decline_allowed': True}]})
         self.put('knowledge/clinical/terminology.json', {'schema': 'clinical-term-discovery-v1', 'entries': [{'id': 'lab.hb', 'domain': 'laboratory', 'english': ['hemoglobin'], 'serbian_latin': ['hemoglobin'], 'russian': ['hemoglobin alias'], 'limits': 'Discovery only; confirm specimen and original identity'}]})
         topics = []
@@ -24,6 +25,8 @@ class ClinicalNavigationTests(unittest.TestCase):
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text('Original generic reference S01.', encoding='utf-8')
             topics.append({'id': name.lower(), 'module': module, 'skills': ['health-explain'], 'source_ids': ['S01'], 'route_ids': ['route'], 'evaluation_ids': ['case'], 'coverage_limits': ['Reference map only'], 'reading_depth': 'Relevant section only'})
+            if name + '.md' in UNDER_FIVE_MODULES:
+                topics[-1]['age_scope'] = {'minimum_months': 0, 'maximum_months': 59, 'routing_age': 'chronological'}
         self.put('knowledge/clinical/navigation.json', {'schema': 'clinical-navigation-v1', 'purpose': 'reference_navigation_not_diagnostic_engine', 'topics': topics})
         self.put('knowledge/clinical/routes.json', {'schema': 'clinical-routes-v1', 'routes': [{'id': 'route', 'actions': ['Seek appropriate assessment'], 'avoid': ['Unverified diagnosis'], 'minimum_context': ['Current concern'], 'escalation': ['Deterioration'], 'source_ids': ['S01']}]})
         self.put('evals/medical-expansion/cases.json', {'schema': 'synthetic-clinical-cases-v1', 'synthetic': True, 'model_or_clinical_validation': False, 'cases': [{'id': 'case', 'prompt': 'Fictional scenario', 'criteria': ['Preserve uncertainty'], 'source_ids': ['S01'], 'execution_status': 'not_executed_fixture'}]})
@@ -63,6 +66,58 @@ class ClinicalNavigationTests(unittest.TestCase):
         result = validate_clinical(self.root)
         self.assertEqual(result['clinical_topics'], len(CLINICAL_TOPICS))
         self.assertFalse(result['clinical_validation'])
+
+    def test_source_index_cannot_grant_ai_permission(self):
+        self.alter('knowledge/clinical/source-use-policy.json', lambda d: d.update(permission_assumed=True))
+        with self.assertRaisesRegex(ValueError, 'must not assume AI'):
+            validate_clinical(self.root)
+
+    def test_restricted_source_cannot_guide_new_pediatric_topic(self):
+        self.put('knowledge/sources.json', [{'id': 'S01', 'url': 'https://www.nice.org.uk/guidance/example'}])
+        with self.assertRaisesRegex(ValueError, 'AI-restricted source'):
+            validate_clinical(self.root)
+
+    def test_restricted_source_cannot_hide_only_in_a_route(self):
+        self.put('knowledge/sources.json', [{'id': 'S01'}, {'id': 'S02', 'url': 'https://cks.nice.org.uk/example'}])
+        self.alter('knowledge/clinical/routes.json', lambda d: d['routes'][0].update(source_ids=['S01', 'S02']))
+        with self.assertRaisesRegex(ValueError, 'AI-restricted source'):
+            validate_clinical(self.root)
+
+    def test_restricted_source_cannot_hide_only_in_a_fixture(self):
+        self.put('knowledge/sources.json', [{'id': 'S01'}, {'id': 'S02', 'url': 'https://www.nice.org.uk/example'}])
+        self.alter('evals/medical-expansion/cases.json', lambda d: d['cases'][0].update(source_ids=['S01', 'S02']))
+        with self.assertRaisesRegex(ValueError, 'AI-restricted source'):
+            validate_clinical(self.root)
+
+    def test_under_five_scope_cannot_omit_infants(self):
+        def edit(d):
+            next(t for t in d['topics'] if t['module'].endswith('/PEDIATRICS.md'))['age_scope']['minimum_months'] = 12
+        self.alter('knowledge/clinical/navigation.json', edit)
+        with self.assertRaisesRegex(ValueError, 'include birth'):
+            validate_clinical(self.root)
+
+    def test_under_five_scope_includes_last_preschool_months(self):
+        def edit(d):
+            next(t for t in d['topics'] if t['module'].endswith('/PEDIATRIC_CARE.md'))['age_scope']['maximum_months'] = 48
+        self.alter('knowledge/clinical/navigation.json', edit)
+        with self.assertRaisesRegex(ValueError, '59 chronological'):
+            validate_clinical(self.root)
+
+    def test_developmental_correction_cannot_replace_routing_age(self):
+        def edit(d):
+            next(t for t in d['topics'] if t['module'].endswith('/FONTANELS.md'))['age_scope']['routing_age'] = 'corrected'
+        self.alter('knowledge/clinical/navigation.json', edit)
+        with self.assertRaisesRegex(ValueError, 'chronological'):
+            validate_clinical(self.root)
+
+    def test_duplicate_module_with_distinct_id_is_rejected(self):
+        def edit(d):
+            duplicate = d['topics'][0].copy()
+            duplicate['id'] = 'duplicate-module'
+            d['topics'].append(duplicate)
+        self.alter('knowledge/clinical/navigation.json', edit)
+        with self.assertRaisesRegex(ValueError, 'Duplicate clinical module'):
+            validate_clinical(self.root)
 
     def test_missing_topic_prevents_silent_loss_of_coverage(self):
         self.alter('knowledge/clinical/navigation.json', lambda d: d['topics'].pop())

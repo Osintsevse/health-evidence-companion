@@ -243,3 +243,7 @@ Distinguish accepted clinical testing from commercial or investigational claims.
 - S456: [Vitamin B12 Health Professional Fact Sheet](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/). read relevant rendered page sections
 - S408: [ACC/AHA issue updated guideline for managing lipids, cholesterol](https://newsroom.heart.org/news/accaha-issue-updated-guideline-for-managing-lipids-cholesterol). Read official announcement; full guideline manuscript not read for this packet
 - S457: [American Heart Association PREVENT Online Calculator](https://professional.heart.org/en/guidelines-and-statements/prevent-calculator). Read official landing page; embedded interactive calculator unavailable in text extraction
+
+## Pediatric interpretation and selected procedures
+
+For birth through 59 months, use [pediatric illness and procedure navigation](PEDIATRICS.md), [screening and scheduled care](PEDIATRIC_CARE.md) and [head/fontanel assessment](FONTANELS.md). Laboratory reference intervals depend on age, gestation where applicable, specimen and method; adult ranges cannot establish a child's abnormal result. Explain what a proposed investigation addresses, important limitations, preparation selected by the service, and who reviews the result. Do not prescribe a universal blood/urine/imaging panel from an age or a fontanel observation.
