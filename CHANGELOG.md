@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 - 2026-10-09
+
+- Add first-aid, nutrition, local-care navigation and voluntary history-intake skills, bringing the package to nineteen skills.
+- Add twelve indexed medical modules: emergencies, therapy classes, food review, anatomy, chronic care, neuropsychiatry, symptoms, diagnostics, travel care, ageing/rehabilitation, endometriosis and evidence architecture.
+- Preserve original source IDs and reading history; record new section/abstract access, dates, jurisdiction, limitations and rights separately. Distinguish established, approved, emerging, negative and discontinued evidence.
+- Add a reference graph, lay-action routes, multilingual discovery aliases and an adaptive prompt bank without patient answers or automatic storage.
+- Validate graph integrity and disclosure limits; ship synthetic behavioural fixtures separately from actually executed checks. Expand the archive ceiling to 100 MiB and report actual compressed/expanded sizes.
+- Retain existing psychology material and private-record workflows. Content expansion does not establish clinical validation, prescribing authority or host installation.
+
 ## 0.6.3 - 2026-10-09
 
 - Reject missing, mixed or mismatched medical archive owners before generating views.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical History and Review"
+  short_description: "Focused history, private summaries and clinician questions"
+  default_prompt: "Use $health-history-intake to help with this request in my language."

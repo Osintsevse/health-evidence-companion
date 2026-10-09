@@ -18,6 +18,8 @@ If blocked, seek the official PDF or another primary source. Label a search exce
 
 Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Modules 15-18 expand allergy, laboratory literacy, vaccination and treatment evidence. Secondary discovery lists are marked and do not support final efficacy classifications. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.
 
+The clinical navigation extension has additional reading records in knowledge/clinical/source-review.json, distributed as source-review.json in medical skill references. It preserves later section reviews and rights limits without rewriting historical IDs or claiming entire guidelines/textbooks were read. CLINICAL_INDEX.md connects topic, route and evidence scope; a navigation class atlas requires current exact-label retrieval before personal application.
+
 ## Entries
 
 ### S01 - WHO - ICD
@@ -1882,3 +1884,1969 @@ Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers r
 - Purpose: Manual navigation and licensed integration boundaries
 - Checked: 2026-10-09
 
+### S267 - Adult basic life support Guidelines
+- URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines
+- Region: UK translation of ERC/ILCOR
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Emergency call, gasps, adult CPR/AED
+- Checked: 2026-10-09
+
+### S268 - First Aid Guidelines
+- URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines
+- Region: UK translation of ERC/ILCOR
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Choking, anaphylaxis, bleeding, hypoglycemia, trauma; drowning, rescue breaths and safe water-rescue sections
+- Checked: 2026-10-09
+
+### S269 - Paediatric Life Support (basic and advanced)
+- URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines
+- Region: UK/ERC
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Paediatric BLS, choking, two-thumb infant thrusts, five initial breaths
+- Checked: 2026-10-09
+
+### S270 - Part 6: Pediatric Basic Life Support
+- URL: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support
+- Region: US AHA/AAP
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Infant CPR techniques; infant heel-hand choking thrust; compressions-first distinction
+- Checked: 2026-10-09
+
+### S271 - Infant CPR
+- URL: https://cpr.heart.org/en/training-programs/community-programs/community-resources/infant-cpr
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Lay paediatric compressions/breaths and AED
+- Checked: 2026-10-09
+
+### S272 - 2025 Guidelines Updates—Infant CPR Anytime
+- URL: https://cpr.heart.org/en/-/media/CPR-Files/Courses-and-Kits/CPR-Anytime/Infant-CPR-Anytime/KJ2004-2025-GL-Update-Infant-CPR-Anytime_260407_FINAL.pdf?sc_lang=en
+- Region: US
+- Reading status: PDF_text_extracted
+- Purpose: Explicit heel-of-hand infant choking thrust change
+- Checked: 2026-10-09
+
+### S273 - Adult & Child Choking: Symptoms and First Aid
+- URL: https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Effective cough, 5/5 sequence, pregnancy/body-size adaptations
+- Checked: 2026-10-09
+
+### S274 - Infant Choking: How To Help
+- URL: https://www.redcross.org/take-a-class/resources/learn-first-aid/infant-choking
+- Region: US
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Cough/cry assessment, infant positioning; comparison with current 2025 guidance
+- Checked: 2026-10-09
+
+### S275 - Symptoms of a stroke
+- URL: https://www.nhs.uk/conditions/stroke/symptoms/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: FAST plus other symptoms; symptoms resolved within 24h emergency
+- Checked: 2026-10-09
+
+### S276 - Heart attack
+- URL: https://www.nhs.uk/conditions/heart-attack/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Recognition, rest, no self-driving, aspirin context
+- Checked: 2026-10-09
+
+### S277 - Poisoning
+- URL: https://www.nhs.uk/conditions/poisoning/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Emergency symptoms, monitoring, no emesis/oral intake
+- Checked: 2026-10-09
+
+### S278 - First aid: Act fast!
+- URL: https://www.poison.org/first-aid-for-poisonings
+- Region: US National Capital Poison Center
+- Reading status: relevant_sections_opened_and_read
+- Purpose: US number; eye/skin irrigation; caustic exception
+- Checked: 2026-10-09
+
+### S279 - Paracetamol overdose
+- URL: https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/paracetamol-overdose
+- Region: UK NHS Trust
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Early wellness does not exclude poisoning; timing and combination medicines
+- Checked: 2026-10-09
+
+### S280 - What is naloxone?
+- URL: https://www.poison.org/articles/what-is-naloxone
+- Region: US National Capital Poison Center
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Temporary reversal; product/local instructions; emergency assessment after response
+- Checked: 2026-10-09
+
+### S281 - Low blood sugar (hypoglycaemia)
+- URL: https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Conscious oral glucose versus unconscious no oral intake and prescribed glucagon
+- Checked: 2026-10-09
+
+### S282 - What to do if someone has a seizure (fit)
+- URL: https://www.nhs.uk/symptoms/what-to-do-if-someone-has-a-seizure-fit/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Protection, timing, ambulance triggers, trained existing plan
+- Checked: 2026-10-09
+
+### S283 - Burns and scalds
+- URL: https://www.nhs.uk/conditions/burns-and-scalds/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: 20min cooling, coverings, severe/chemical/electrical routing
+- Checked: 2026-10-09
+
+### S284 - Broken bones and fractures
+- URL: https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/
+- Region: UK St John Ambulance
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Support, open injury, sensation, major fracture routing
+- Checked: 2026-10-09
+
+### S285 - Head injury and concussion
+- URL: https://www.nhs.uk/conditions/head-injury-and-concussion/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Emergency and urgent-assessment warnings
+- Checked: 2026-10-09
+
+### S286 - Sepsis
+- URL: https://www.nhs.uk/conditions/sepsis/
+- Region: UK
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Adults/children danger signs, temperature/rash limitations
+- Checked: 2026-10-09
+
+### S287 - Adrenaline Auto-Injectors (AAIs)
+- URL: https://www.gov.uk/government/publications/adrenaline-auto-injectors-aais-safety-campaign/adrenaline-auto-injectors-aais
+- Region: UK regulator
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Lay/carer auto-injector action, posture and urgency
+- Checked: 2026-10-09
+
+### S288 - EpiPen Adrenaline (Epinephrine) Auto-Injector 0.3mg SmPC
+- URL: https://www.medicines.org.uk/emc/medicine/26974
+- Region: UK product label
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Outer thigh, actual device instructions, 3-second hold
+- Checked: 2026-10-09
+
+### S289 - 112 – the EU's emergency phone number
+- URL: https://digital-strategy.ec.europa.eu/en/policies/112
+- Region: EU Commission
+- Reading status: search_excerpt_only; direct_open_error
+- Purpose: 112 throughout EU
+- Checked: 2026-10-09
+
+### S290 - New police and emergency-service numbers from 1 January
+- URL: https://www.srbija.gov.rs/vest/182468/od-1-januara-novi-brojevi-policije-i-hitnih-sluzbi.php
+- Region: Serbia government
+- Reading status: relevant_sections_opened_and_read
+- Purpose: 194 ambulance and 112 emergency intervention
+- Checked: 2026-10-09
+
+### S291 - Serbia Travel Advisory – emergency phone numbers
+- URL: https://travel.state.gov/en/international-travel/travel-advisories/serbia.html
+- Region: US government information on Serbia
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Independent current 194 ambulance corroboration
+- Checked: 2026-10-09
+
+### S292 - Part 7: Adult Basic Life Support
+- URL: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
+- Region: US AHA
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Recognition, no lay pulse delay, compressions-only fallback, CPR/AED sequence and quality
+- Checked: 2026-10-09
+
+### S293 - European Resuscitation Council Guidelines 2025 First Aid
+- URL: https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf
+- Region: ERC international European guidance
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Glucose route, glucagon training, naloxone and regional medicine options; heat stroke and hypothermia sections
+- Checked: 2026-10-09
+
+### S294 - Severe Bleeding First Aid
+- URL: https://www.sja.org.uk/first-aid-advice/severe-bleeding/
+- Region: UK St John Ambulance
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Pressure and bleeding first-aid context
+- Checked: 2026-10-09
+
+### S295 - Heat exhaustion and heatstroke
+- URL: https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/
+- Region: UK NHS
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Cooling, danger signs and mild heat-exhaustion contrast
+- Checked: 2026-10-09
+
+### S296 - Hypothermia
+- URL: https://www.nhs.uk/conditions/hypothermia/
+- Region: UK NHS
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Shelter/insulation, safe-swallow drink boundary, avoid direct intense heat
+- Checked: 2026-10-09
+
+### S297 - Asthma
+- URL: https://www.nhs.uk/conditions/asthma/
+- Region: UK NHS
+- Reading status: relevant_sections_opened_and_read
+- Purpose: Existing reliever plan, SABA versus AIR/MART distinction, emergency and post-attack review
+- Checked: 2026-10-09
+
+### S298 - ATC/DDD Index 2026
+- URL: https://atcddd.fhi.no/atc_ddd_index/
+- Region: Global
+- Reading status: Full index landing page inspected; individual classes not exhaustively opened
+- Purpose: Classification navigation and limits
+- Checked: 2026-10-09
+
+### S299 - WHO Model Lists of Essential Medicines
+- URL: https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists/
+- Region: Global
+- Reading status: Landing page and search excerpts inspected; list PDF not fully read
+- Purpose: Essential-medicine scope and adult/child distinction
+- Checked: 2026-10-09
+
+### S300 - EMA medicine finder
+- URL: https://www.ema.europa.eu/en/medicines
+- Region: EU/EEA
+- Reading status: Landing page inspected
+- Purpose: Central approval versus national registers and research/approval distinction
+- Checked: 2026-10-09
+
+### S301 - FDA Drug Approvals and Databases
+- URL: https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases
+- Region: US
+- Reading status: Search excerpts inspected
+- Purpose: Approval history and safety database navigation
+- Checked: 2026-10-09
+
+### S302 - FDA Online Label Repository
+- URL: https://labels.fda.gov/
+- Region: US
+- Reading status: Search-rendered disclaimer inspected
+- Purpose: Submitted label versus approved-label distinction
+- Checked: 2026-10-09
+
+### S303 - DailyMed
+- URL: https://dailymed.nlm.nih.gov/
+- Region: US
+- Reading status: Search-rendered landing information inspected; direct search URLs failed
+- Purpose: In-use labeling navigation
+- Checked: 2026-10-09
+
+### S304 - NICE NG238 cardiovascular risk and lipid modification
+- URL: https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3
+- Region: UK
+- Reading status: Direct standard URL 403; search-rendered recommendation/rationale sections inspected
+- Purpose: Primary/secondary prevention and additional-agent eligibility
+- Checked: 2026-10-09
+
+### S305 - NICE NG28 initial medicines
+- URL: https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines
+- Region: UK
+- Reading status: Search-rendered section 1.13 and rationale inspected
+- Purpose: Current regional cardiorenal-oriented type 2 treatment context
+- Checked: 2026-10-09
+
+### S306 - GOLD 2026 Report
+- URL: https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf
+- Region: Global
+- Reading status: Search PDF excerpt inspected only
+- Purpose: COPD-specific guideline route
+- Checked: 2026-10-09
+
+### S307 - WHO AWaRe antibiotic book
+- URL: https://www.who.int/publications/i/item/9789240062382
+- Region: Global
+- Reading status: Publication landing information inspected
+- Purpose: Site-specific antibiotic/stewardship route
+- Checked: 2026-10-09
+
+### S308 - NICE NG5 Medicines optimisation
+- URL: https://www.nice.org.uk/Guidance/NG5?print=true
+- Region: UK
+- Reading status: Overview and full-guideline structured-review search excerpts inspected; direct recommendations 403
+- Purpose: Reconciliation and structured medication review
+- Checked: 2026-10-09
+
+### S309 - NHS SPS Advising on missed or delayed doses
+- URL: https://sps.nhs.uk/articles/advising-on-missed-or-delayed-doses-of-medicines/
+- Region: UK
+- Reading status: Search-rendered page incl high-risk scope and general advice inspected
+- Purpose: Exact leaflet and high-risk missed-dose routing
+- Checked: 2026-10-09
+
+### S310 - NCCIH Using Dietary Supplements Wisely
+- URL: https://www.nccih.nih.gov/health/using-dietary-supplements-wisely
+- Region: US
+- Reading status: Web page retrieved; safety/interaction navigation inspected
+- Purpose: Include supplement exposures and do not infer natural safety
+- Checked: 2026-10-09
+
+### S311 - CDC Clinical Practice Guideline at a Glance
+- URL: https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html
+- Region: US
+- Reading status: Full at-a-glance web page inspected
+- Purpose: Adult outpatient scope, flexibility, exclusions and no abrupt policy withdrawal
+- Checked: 2026-10-09
+
+### S312 - WHO Rehabilitation fact sheet
+- URL: https://www.who.int/news-room/fact-sheets/detail/rehabilitation
+- Region: Global
+- Reading status: Full fact sheet inspected
+- Purpose: Function/participation and concurrent rehabilitation
+- Checked: 2026-10-09
+
+### S313 - NICE NG193 chronic primary pain recommendations
+- URL: https://www.nice.org.uk/guidance/ng193/chapter/recommendations
+- Region: UK
+- Reading status: Search-rendered sections 1.2.1-1.2.4 and rationale excerpts inspected; direct capitalized page 403
+- Purpose: Exercise and trained ACT/CBT for chronic primary pain
+- Checked: 2026-10-09
+
+### S314 - NCI Types of Cancer Treatment
+- URL: https://www.cancer.gov/about-cancer/treatment/types
+- Region: US
+- Reading status: Types landing page inspected
+- Purpose: Cancer method map and indication-specific treatment navigation
+- Checked: 2026-10-09
+
+### S315 - DailyMed lisinopril oral tablet label
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db5bfa2f-07b8-4f79-8a40-691da006e2ed
+- Region: US
+- Reading status: Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected
+- Purpose: Selected ACE safety example
+- Checked: 2026-10-09
+
+### S316 - DailyMed lithium carbonate tablets/capsules
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec
+- Region: US
+- Reading status: Search-rendered pretreatment/renal/toxicity sections inspected
+- Purpose: Lithium monitoring and clearance example
+- Checked: 2026-10-09
+
+### S317 - DailyMed methotrexate tablets
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=948e0bab-6524-4b87-9853-1799d4415558
+- Region: US
+- Reading status: Search-rendered indications and fatal schedule-error warning inspected
+- Purpose: Weekly inflammatory versus varying oncology schedules; urgent error routing
+- Checked: 2026-10-09
+
+### S318 - DailyMed metformin extended-release tablet
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e41818c-60e9-4bcf-9586-7bb8d33d5e89
+- Region: US
+- Reading status: Search-rendered lactic-acidosis risk-factor excerpt inspected
+- Purpose: Organ/illness modifiers example
+- Checked: 2026-10-09
+
+### S319 - DailyMed Jardiance empagliflozin tablet
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59ed43d9-b4e0-72a2-e063-6394a90a327d
+- Region: US
+- Reading status: Search-rendered ketoacidosis precipitating-factor and glucose-independent assessment excerpts inspected
+- Purpose: SGLT2 acute-risk example
+- Checked: 2026-10-09
+
+### S320 - DailyMed prednisone label PDF
+- URL: https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=2a053775-6f6a-455e-b9a8-8b60e6062db3&type=pdf
+- Region: US
+- Reading status: Search-rendered HPA suppression and infection excerpts inspected
+- Purpose: Systemic steroid cumulative/withdrawal example
+- Checked: 2026-10-09
+
+### S321 - DailyMed sertraline HCl capsules
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c8bcba9-eaeb-aa44-f9ea-b580de55a439
+- Region: US
+- Reading status: Search-rendered serotonin/bleeding/discontinuation warnings inspected
+- Purpose: Selected antidepressant interaction example
+- Checked: 2026-10-09
+
+### S322 - Healthy diet
+- URL: https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet
+- Region: Global
+- Reading status: HTML read: principles, carbohydrate/fibre, sugar, fat, salt/potassium
+- Purpose: Population reference targets and food pattern
+- Checked: 2026-10-09
+
+### S323 - Food energy: methods of analysis and conversion factors, chapter 4
+- URL: https://www.fao.org/4/y5022e/y5022e05.htm
+- Region: Global
+- Reading status: Full short HTML chapter read
+- Purpose: General factors, available carbohydrate, fibre, polyols and alcohol
+- Checked: 2026-10-09
+
+### S324 - Regulation (EU) No 1169/2011 consolidated 1 April 2025
+- URL: https://faolex.fao.org/docs/pdf/eur128444.pdf
+- Region: EU
+- Reading status: FAOLEX-hosted primary regulation PDF text: Annex I definitions, XIV factors, XV units read
+- Purpose: Carbohydrate/fibre, salt equivalent and energy factors
+- Checked: 2026-10-09
+
+### S325 - How to Understand and Use the Nutrition Facts Label
+- URL: https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label
+- Region: US
+- Reading status: HTML serving information, calorie, nutrient and sugar sections read
+- Purpose: Serving denominators, total/added sugars and label reference values
+- Checked: 2026-10-09
+
+### S326 - DASH: Following DASH
+- URL: https://www.nhlbi.nih.gov/health/dash/following-dash
+- Region: US
+- Reading status: HTML getting started, calorie-needs and serving-table context read
+- Purpose: Flexible DASH pattern and energy-dependent servings
+- Checked: 2026-10-09
+
+### S327 - ACC Consensus on ASCVD Risk Reduction in Hypertriglyceridemia: Key Points
+- URL: https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2021/07/27/21/04/2021-ACC-ECDP-Hypertriglyceridemia
+- Region: US
+- Reading status: Official society HTML key points read, especially 3-6 and severe triglycerides
+- Purpose: Secondary causes, referral, severity-dependent diets and medicine complementarity
+- Checked: 2026-10-09
+
+### S328 - Healthy Eating for Adults with Chronic Kidney Disease
+- URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease
+- Region: US
+- Reading status: HTML nutrition, potassium, protein, fluid and dietitian sections read
+- Purpose: No universal renal diet; stage, labs, dialysis and nutritional adequacy
+- Checked: 2026-10-09
+
+### S329 - Chronic heart failure in adults: diagnosis and management, recommendations
+- URL: https://www.nice.org.uk/guidance/ng106/chapter/recommendations
+- Region: England
+- Reading status: Indexed primary recommendation excerpts read: 1.9.10-1.9.11; direct HTML failed
+- Purpose: Do not routinely restrict fluid/sodium; avoid potassium salt substitutes
+- Checked: 2026-10-09
+
+### S330 - Eating disorders: recognition and treatment, recommendations
+- URL: https://www.nice.org.uk/guidance/ng69/chapter/recommendations
+- Region: England
+- Reading status: Indexed primary excerpts read: identification, 1.10.1-1.10.3; direct HTML and PDF failed/403
+- Purpose: Early referral, BMI/screening limits, compensatory behavior and emergency deterioration
+- Checked: 2026-10-09
+
+### S331 - Maternal and child nutrition: nutrition and weight management in pregnancy, and nutrition in children up to 5 years
+- URL: https://www.nice.org.uk/guidance/ng247/chapter/recommendations
+- Region: England
+- Reading status: Indexed primary excerpts read: vitamin/life-stage advice, breastfeeding, 1.2.15; direct HTML/PDF failed/403
+- Purpose: No intentional pregnancy weight loss; breastfeeding and age-specific safeguards
+- Checked: 2026-10-09
+
+### S332 - The vegan diet
+- URL: https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/
+- Region: UK
+- Reading status: HTML nutrient adequacy, fortification, B12, calcium/iron and life stages read
+- Purpose: Reliable nutrient sources and planning across life stages
+- Checked: 2026-10-09
+
+### S333 - Food allergy
+- URL: https://www.nhs.uk/conditions/food-allergy/
+- Region: UK
+- Reading status: HTML symptoms, emergency warning, investigation and specialist plan sections read
+- Purpose: Anaphylaxis routing, specialist diagnosis and exact rescue plan
+- Checked: 2026-10-09
+
+### S334 - Food intolerance
+- URL: https://www.nhs.uk/conditions/food-intolerance/
+- Region: UK
+- Reading status: HTML mechanisms, tests, home-test limitations and exclusion risks read
+- Purpose: Separate intolerance from allergy; avoid broad unsupported exclusions
+- Checked: 2026-10-09
+
+### S335 - Probiotics: Health Professional Fact Sheet
+- URL: https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/
+- Region: US
+- Reading status: HTML strain specificity, clinical evidence context and safety considerations read
+- Purpose: Strain/indication-specific evidence, immune compromise and premature infant safety
+- Checked: 2026-10-09
+
+### S336 - Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/
+- Region: US research
+- Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected
+- Purpose: 20-adult crossover, 14 days per diet, energy intake and weight; mechanism limits
+- Checked: 2026-10-09
+
+### S337 - Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition, recommendations
+- URL: https://www.nice.org.uk/guidance/cg32/chapter/recommendations
+- Region: England
+- Reading status: Indexed primary excerpts read: 1.2 screening, 1.3 risk, 1.4 refeeding; direct HTML/PDF failed/403
+- Purpose: Unintentional loss, low intake, swallowing and nutrition support referral
+- Checked: 2026-10-09
+
+### S338 - Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes—2026
+- URL: https://doi.org/10.2337/dc26-S005
+- Region: US
+- Reading status: Indexed primary detailed excerpts read: meal planning, macro individualization, 5.26 SGLT/ketogenic warning; direct HTML/PDF failed/403
+- Purpose: Individualized nutrition, no universal macro distribution and ketogenic SGLT caution
+- Checked: 2026-10-09
+
+### S339 - The American Heart Association Diet and Lifestyle Recommendations
+- URL: https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations
+- Region: US
+- Reading status: HTML entire short food-pattern section read; official 2026 statement hub verified
+- Purpose: Current food pattern and saturated-to-unsaturated substitutions
+- Checked: 2026-10-09
+
+### S340 - Healthy Living with Diabetes
+- URL: https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes
+- Region: US
+- Reading status: HTML meal timing, medicine-related low glucose, carb counting and plate method read
+- Purpose: Meal changes and insulin/sulfonylurea risks; existing care plan
+- Checked: 2026-10-09
+
+### S341 - Anatomy & Physiology Module Map
+- URL: https://training.seer.cancer.gov/anatomy/?map=&view=searchengine
+- Region: US
+- Reading status: Module map inspected
+- Purpose: system coverage
+- Checked: 2026-10-09
+
+### S342 - Introduction to the Nervous System
+- URL: https://training.seer.cancer.gov/anatomy/nervous/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: sensory integration motor and homeostasis
+- Checked: 2026-10-09
+
+### S343 - Introduction to the Endocrine System
+- URL: https://training.seer.cancer.gov/anatomy/endocrine/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: hormonal versus ductal signaling
+- Checked: 2026-10-09
+
+### S344 - Structure of the Heart
+- URL: https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html
+- Region: US
+- Reading status: Main organ section read
+- Purpose: chambers valves coronary supply
+- Checked: 2026-10-09
+
+### S345 - Circulatory Pathways
+- URL: https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html
+- Region: US
+- Reading status: Main pathway section read
+- Purpose: systemic pulmonary major arterial territories
+- Checked: 2026-10-09
+
+### S346 - Introduction to the Respiratory System
+- URL: https://training.seer.cancer.gov/anatomy/respiratory/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: ventilation transport gas exchange pH
+- Checked: 2026-10-09
+
+### S347 - Accessory Organs
+- URL: https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html
+- Region: US
+- Reading status: Main organ section read
+- Purpose: liver portal supply gallbladder pancreas
+- Checked: 2026-10-09
+
+### S348 - Kidneys
+- URL: https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html
+- Region: US
+- Reading status: Main organ section read
+- Purpose: location hilum nephron urinary drainage
+- Checked: 2026-10-09
+
+### S349 - Introduction to the Lymphatic System
+- URL: https://training.seer.cancer.gov/anatomy/lymphatic/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: fluid return fats immune connections
+- Checked: 2026-10-09
+
+### S350 - Introduction to the Reproductive System
+- URL: https://training.seer.cancer.gov/anatomy/reproductive/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: gametes gonads hormones
+- Checked: 2026-10-09
+
+### S351 - Introduction to the Skeletal System
+- URL: https://training.seer.cancer.gov/anatomy/skeletal/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: support protection calcium marrow
+- Checked: 2026-10-09
+
+### S352 - Introduction to the Muscular System
+- URL: https://training.seer.cancer.gov/anatomy/muscular/
+- Region: US
+- Reading status: Main introductory section read
+- Purpose: contraction movement posture heat
+- Checked: 2026-10-09
+
+### S353 - Epidermis, Dermis and Skin Senses Program
+- URL: https://www.niams.nih.gov/grants-funding/supported-scientific-areas/extracellular-matrix-biology-and-diseases
+- Region: US
+- Reading status: Accessible main research portfolio text read
+- Purpose: barrier matrix and sensory systems
+- Checked: 2026-10-09
+
+### S354 - Demographics & eGFR Accuracy
+- URL: https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics
+- Region: US
+- Reading status: Relevant equation and accuracy sections inspected
+- Purpose: race-free equations uncertainty combined estimate
+- Checked: 2026-10-09
+
+### S355 - Sex as a Biological Variable
+- URL: https://orwh.od.nih.gov/sex-as-biological-variable
+- Region: US
+- Reading status: Accessible policy overview inspected; linked report not fully read
+- Purpose: sex-aware research interpretation
+- Checked: 2026-10-09
+
+### S356 - Use of Population Descriptors in Genomics
+- URL: https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics
+- Region: US
+- Reading status: Definitions and proxy cautions read
+- Purpose: race ethnicity ancestry distinctions
+- Checked: 2026-10-09
+
+### S357 - Treatment of Uncomplicated Malaria
+- URL: https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html
+- Region: US
+- Reading status: Anti-relapse G6PD and pregnancy subsection inspected; no regimen copied
+- Purpose: quantitative G6PD testing medicine-specific example
+- Checked: 2026-10-09
+
+### S358 - Sickle Cell Disease Diagnosis
+- URL: https://www.nhlbi.nih.gov/health/sickle-cell-disease/diagnosis
+- Region: US
+- Reading status: Blood genetic and screening sections inspected
+- Purpose: individual testing and confirmation
+- Checked: 2026-10-09
+
+### S359 - Pulse Oximeters
+- URL: https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
+- Region: US
+- Reading status: Device limitations and FDA efforts sections inspected
+- Purpose: skin pigmentation limits and symptom context
+- Checked: 2026-10-09
+
+### S360 - Anatomy and Physiology 2e introduction: current rights restriction
+- URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
+- Region: US
+- Reading status: Introduction objectives and licensing inspected only; no chapters ingested
+- Purpose: rights restriction only
+- Checked: 2026-10-09
+
+### S361 - WHO: Endometriosis
+- URL: https://www.who.int/news-room/fact-sheets/detail/endometriosis
+- Region: Global
+- Reading status: Direct official full fact sheet inspected: overview, symptoms, causes, diagnosis, treatment, burden and WHO response.
+- Purpose: Definitions; approximate global prevalence and diagnostic delay; distinction between no universal cure and available effective care; inclusive population framing.
+- Checked: 2026-10-09
+
+### S362 - NICE NG73: Endometriosis—diagnosis and management, recommendations
+- URL: https://www.nice.org.uk/guidance/ng73/chapter/Recommendations
+- Region: United Kingdom
+- Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.
+- Purpose: Suspected disease pathway, normal-imaging limits, concurrent treatment/investigation, referral, laparoscopy, surgical and fertility distinctions, preoperative GnRH comparison.
+- Checked: 2026-10-09
+
+### S363 - ESHRE Guideline: Endometriosis (2022)
+- URL: https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf
+- Region: Europe / international professional guidance
+- Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read.
+- Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care; explicit NICE comparison.
+- Checked: 2026-10-09
+
+### S364 - ACOG publishes new endometriosis clinical guidance aiming to shorten time to diagnosis and improve access to care
+- URL: https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care
+- Region: United States
+- Reading status: Official announcement inspected through indexed text; direct article/guideline access failed. Full CPG was not read.
+- Purpose: Current official confirmation of presumptive clinical diagnosis and empirical management while evaluation proceeds; recognition and access barriers.
+- Checked: 2026-10-09
+
+### S365 - Non-invasive imaging techniques for diagnosis of pelvic deep endometriosis and endometriosis classification systems: an International Consensus Statement
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11366111/
+- Region: International multisociety consensus
+- Reading status: Accessible full article; introduction, site-specific ultrasound/MRI performance, recommendations, classification and limitations inspected. Co-publication not counted as an independent source.
+- Purpose: Trained-operator imaging; deep-lesion mapping; anatomical and technique-dependent limitations; distinction between imaging classification and symptoms.
+- Checked: 2026-10-09
+
+### S366 - ESGE/ESHRE/WES: Recommendations for the surgical treatment of endometriosis, Part 2: deep endometriosis
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7013143/
+- Region: European and world professional societies
+- Reading status: PMC direct view challenged; official journal/PMC indexed sections on ureteral disease, hydronephrosis, kidney assessment, bowel/bladder surgery and multidisciplinary planning inspected. Institutional PDF alternative failed.
+- Purpose: Silent urinary obstruction and renal risk; specialist organ assessment; deep-surgery selection, consent and complications.
+- Checked: 2026-10-09
+
+### S367 - The Asian Society of Endometriosis and Adenomyosis guidelines for managing adenomyosis
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10493363/
+- Region: Asia / international
+- Reading status: Direct PMC retrieval challenged; indexed introduction, diagnostic/imaging section 3.2 and selected management/fertility sections inspected.
+- Purpose: Adenomyosis versus extrauterine endometriosis; coexistence; imaging and uterine/fertility implications.
+- Checked: 2026-10-09
+
+### S368 - NHS: Pelvic pain
+- URL: https://www.nhs.uk/symptoms/pelvic-pain/
+- Region: United Kingdom; urgency principles transferable with local services
+- Reading status: Direct page fully inspected: causes, urgent and emergency action thresholds.
+- Purpose: Safety triage and alternatives; severe/worsening pain, pregnancy possibility, bleeding, faintness, fever, bowel/urinary problems.
+- Checked: 2026-10-09
+
+### S369 - CDC: U.S. Medical Eligibility Criteria for Contraceptive Use—summary classifications
+- URL: https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html
+- Region: United States
+- Reading status: Direct summary tables inspected for endometriosis, migraine, smoking, thrombosis, hypertension, breast cancer and liver disease.
+- Purpose: Method-specific contraceptive contraindication categories; avoid treating all hormones as a single safety category.
+- Checked: 2026-10-09
+
+### S370 - HALMED: Visanne (dienogest), Summary of Product Characteristics
+- URL: https://www.halmed.hr/upl/lijekovi/SPC/Visanne-SPC.pdf
+- Region: Croatia
+- Reading status: Direct PDF failed; official indexed sections 4.2–4.4, contraindications, contraception and adolescent bone discussion inspected.
+- Purpose: Dienogest endometriosis formulation is not a contraceptive; jurisdiction/formulation safety distinctions.
+- Checked: 2026-10-09
+
+### S371 - FDA: Lupron Depot 11.25 mg (leuprolide acetate) prescribing information
+- URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020708s040s041lbl.pdf
+- Region: United States
+- Reading status: Direct label PDF; indications, duration limits, contraindications, warnings, add-back, bone safety and clinical pharmacology inspected.
+- Purpose: GnRH agonist mechanism, initial flare, add-back purpose, restricted duration, formulation and safety distinctions.
+- Checked: 2026-10-09
+
+### S372 - DailyMed: Orilissa (elagolix), US prescribing information
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66
+- Region: United States
+- Reading status: Direct label; sections 1, 2, 4, 5 and 7 inspected for indication, duration, pregnancy, bone/mood/liver risks and interactions.
+- Purpose: US elagolix monotherapy indication and limits; avoid assuming contraceptive protection or arbitrary add-back.
+- Checked: 2026-10-09
+
+### S373 - FDA: Myfembree (relugolix, estradiol, norethindrone acetate) prescribing information
+- URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214846s012lbl.pdf
+- Region: United States
+- Reading status: Direct PDF; indication, duration, boxed warning, contraindications, bone/mood safety, interactions, contraception and endometriosis trials inspected.
+- Purpose: US fixed-combination indication, 24-month limit, baseline/annual endometriosis bone assessment, nonhormonal contraception and major safety categories.
+- Checked: 2026-10-09
+
+### S374 - EMA: Ryeqo, product information
+- URL: https://www.ema.europa.eu/en/documents/product-information/ryeqo-epar-product-information_en.pdf
+- Region: European Union
+- Reading status: Direct 42-page product-information PDF; SmPC sections 4.1–4.4, contraception, bone-density monitoring and 5.1 efficacy inspected; not every annex line read.
+- Purpose: EU indication after prior medical/surgical treatment, continuous-use wording, contraception after first month and monitoring/contraindication differences from US.
+- Checked: 2026-10-09
+
+### S375 - EMA: Yselty (linzagolix), European public assessment report overview
+- URL: https://www.ema.europa.eu/en/medicines/human/EPAR/yselty
+- Region: European Union
+- Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed.
+- Purpose: Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.
+- Checked: 2026-10-09
+
+### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
+- URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
+- Region: Multinational phase 3 trials
+- Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read.
+- Purpose: 24-week randomized pain efficacy; absolute comparator rates; distinction between response and cure.
+- Checked: 2026-10-09
+
+### S377 - Linzagolix therapy for endometriosis-associated pain: EDELWEISS 3 randomized phase 3 study
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11144970/
+- Region: Multinational phase 3 trial
+- Reading status: Accessible full article; selected methods, coprimary endpoints, results, safety, post-treatment observations and discussion inspected.
+- Purpose: 486-participant trial; three-month pain responses; lower-dose monotherapy did not meet both coprimary endpoints.
+- Checked: 2026-10-09
+
+### S378 - EDELWEISS 6: long-term efficacy and safety of linzagolix for endometriosis-associated pain
+- URL: https://pubmed.ncbi.nlm.nih.gov/42077502/
+- Region: Extension of multinational clinical trial
+- Reading status: PubMed abstract and declared conflicts inspected; full extension report/supplements not read.
+- Purpose: Twelve-month extension results, continued improvement among selected completers, and interpretation limits.
+- Checked: 2026-10-09
+
+### S379 - Long acting progestogens versus combined oral contraceptive pill for preventing recurrence of endometriosis-related pain: PRE-EMPT randomized controlled trial
+- URL: https://www.bmj.com/content/385/bmj-2023-079006
+- Region: United Kingdom
+- Reading status: Direct article blocked; extensive indexed methods, results, participant characteristics and limitations inspected.
+- Purpose: Pragmatic postoperative comparison, similar pain outcomes, retreatment differences and preference-sensitive choice.
+- Checked: 2026-10-09
+
+### S380 - Laparoscopic surgery in infertile women with minimal or mild endometriosis
+- URL: https://pubmed.ncbi.nlm.nih.gov/9227926/
+- Region: Canada / selected infertility population
+- Reading status: Indexed abstract methods, 341-participant randomization, continuing-pregnancy results and complications inspected.
+- Purpose: Original randomized evidence supporting selected mild-disease surgery; clearly distinguish continuing pregnancy from live birth.
+- Checked: 2026-10-09
+
+### S381 - Dichloroacetate for the treatment of endometriosis-associated pain (EPiC1): a single-arm feasibility study
+- URL: https://research.birmingham.ac.uk/en/publications/dichloroacetate-for-the-treatment-of-endometriosis-associated-pai/
+- Region: United Kingdom
+- Reading status: Publisher direct access blocked; complete original abstract directly read on the author-institution repository, including methods, recruitment, completion, neuropathy, interpretation and funding. Full article and supplements not read.
+- Purpose: Investigational nonhormonal approach, feasibility versus efficacy, completion and peripheral neuropathy findings.
+- Checked: 2026-10-09
+
+### S382 - Safety and pharmacokinetics of AMY109, an anti-interleukin-8 antibody, in healthy volunteers and patients with endometriosis: phase 1 study
+- URL: https://pubmed.ncbi.nlm.nih.gov/41054739/
+- Region: Japan and Taiwan
+- Reading status: Indexed original-study abstract inspected for design, participants, safety and pharmacokinetics; direct PubMed view did not return article content.
+- Purpose: Stage-appropriate interpretation of anti-IL-8 research; small endometriosis sample; not an approved therapy.
+- Checked: 2026-10-09
+
+### S383 - Chugai Pharmaceutical Annual Report 2025: development portfolio and July 2025 discontinuations
+- URL: https://www.chugai-pharm.co.jp/english/ir/reports_downloads/annual_reports/files/eAR2025_12_spread.pdf
+- Region: Manufacturer corporate report / Japan
+- Reading status: Direct PDF text inspected at printed pp. 40–41 and 48–49, PDF spreads 21 and 25. Explicit paragraph and project list identify July 2025 in-house AMY109 discontinuation. Screenshot attempt failed; textual statement was accessible.
+- Purpose: Correct outdated claims that AMY109 continues as an active in-house development program.
+- Checked: 2026-10-09
+
+### S384 - Validation of a Saliva Micro-RNA Signature for Endometriosis
+- URL: https://pubmed.ncbi.nlm.nih.gov/41147827/
+- Region: Multicenter French diagnostic population
+- Reading status: Indexed original abstract inspected: 971-participant validation, prevalence, sensitivity, specificity, predictive values and funding. Publisher metadata inspected; full protocol/supplements not read.
+- Purpose: Promising current diagnostic-accuracy evidence with population/clinical-utility limitations; supersedes relying solely on the earlier 200-participant interim analysis.
+- Checked: 2026-10-09
+
+### S385 - French Ministry of Health: experimental Endotest saliva-test access to improve endometriosis diagnosis
+- URL: https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/endometriose/article/experimentation-d-un-test-salivaire-endotest-r-pour-ameliorer-les-conditions-de
+- Region: France
+- Reading status: Official indexed page content inspected; direct page returned minimal nonarticle HTML. Selected-center trial/innovation-funding framework reviewed.
+- Purpose: Distinguish jurisdiction-specific innovation access and evaluation from universal routine screening or global approval.
+- Checked: 2026-10-09
+
+### S386 - Single-cell transcriptomic analysis of endometriosis
+- URL: https://www.nature.com/articles/s41588-022-01254-1
+- Region: Translational laboratory research
+- Reading status: Indexed abstract and selected methods/results descriptions inspected; publication details cross-checked. Full supplements and computational code not assessed.
+- Purpose: Cellular heterogeneity, immune/stromal/vascular microenvironments, research-to-clinic distinction.
+- Checked: 2026-10-09
+
+### S387 - Association of Central Sensitization Inventory Scores With Pain Outcomes After Endometriosis Surgery
+- URL: https://pubmed.ncbi.nlm.nih.gov/36848090/
+- Region: Canadian tertiary-center prospective cohort
+- Reading status: Indexed full abstract methods/results/limitations inspected: 239 participants, follow-up and adjusted associations.
+- Purpose: Persistent pain and need to assess multiple contributors; avoid equating lesion removal with guaranteed pain resolution.
+- Checked: 2026-10-09
+
+### S388 - AHA Home Blood Pressure Measurement Instructions
+- URL: https://professional.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/How_to_Measure_Your_Blood_Pressure_Letter_Size.pdf
+- Region: US
+- Reading status: Full one-page PDF inspected
+- Purpose: Preparation, posture, repeats and symptom-based severe pressure routing
+- Checked: 2026-10-09
+
+### S389 - 2025 AHA/ACC high blood pressure guideline: Top Things to Know
+- URL: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know
+- Region: US
+- Reading status: Official summary inspected; full guideline not read
+- Purpose: US categories, targets, combinations, cuffless limits, asymptomatic severe pathway
+- Checked: 2026-10-09
+
+### S390 - NICE NG133 recommendations
+- URL: https://www.nice.org.uk/guidance/ng133/chapter/recommendations
+- Region: England
+- Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403
+- Purpose: Pregnancy severe threshold and postpartum symptoms
+- Checked: 2026-10-09
+
+### S391 - NHS Low blood pressure
+- URL: https://www.nhs.uk/conditions/low-blood-pressure-hypotension/
+- Region: UK
+- Reading status: Page inspected
+- Purpose: Symptoms versus asymptomatic baseline and cause-directed review
+- Checked: 2026-10-09
+
+### S392 - ADA Diagnosis and Classification of Diabetes: Standards of Care 2026
+- URL: https://doi.org/10.2337/dc26-s002
+- Region: US
+- Reading status: Indexed diagnostic sections inspected; direct full page unavailable
+- Purpose: Confirmation, laboratory criteria and classification context
+- Checked: 2026-10-09
+
+### S393 - ADA Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises 2026
+- URL: https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic
+- Region: US
+- Reading status: Indexed relevant recommendations inspected; direct 403
+- Purpose: Individualized goals, recurrent/severe hypoglycemia and acute crisis route
+- Checked: 2026-10-09
+
+### S394 - DailyMed Lantus and Lantus SoloStar label
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5e07a0c-7e14-4756-9152-9fea485d654a
+- Region: US
+- Reading status: Administration, warnings, patient instructions inspected
+- Purpose: U-100 product, subcutaneous route, mixing/pump restrictions, rotation and sharing
+- Checked: 2026-10-09
+
+### S395 - NHS Diabetic ketoacidosis
+- URL: https://www.nhs.uk/conditions/diabetic-ketoacidosis/
+- Region: UK
+- Reading status: Symptoms and urgent/emergency sections inspected
+- Purpose: Symptoms without ketone availability and emergency pathway
+- Checked: 2026-10-09
+
+### S396 - KDIGO 2024 CKD Clinical Practice Guideline
+- URL: https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf
+- Region: Global
+- Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document
+- Purpose: Chronicity versus AKI, cardiorenal context and monitoring
+- Checked: 2026-10-09
+
+### S397 - GINA Summary Guide for Asthma Management and Prevention 2026
+- URL: https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf
+- Region: Global
+- Reading status: Relevant diagnosis, technique, review, ICS and action-plan sections inspected; not full guide
+- Purpose: Asthma diagnosis/plan/technique and regimen-specific controller/reliever distinction
+- Checked: 2026-10-09
+
+### S398 - NICE NG115 recommendations
+- URL: https://www.nice.org.uk/guidance/ng115/chapter/Recommendations
+- Region: England
+- Reading status: Indexed spirometry and inhaled-treatment sections inspected
+- Purpose: Spirometry confirmation, treatment roles, pneumonia risk and function
+- Checked: 2026-10-09
+
+### S399 - AHA official explanation of 2022 AHA/ACC/HFSA HF guideline
+- URL: https://newsroom.heart.org/news/acc-aha-hfsa-issue-heart-failure-guideline
+- Region: US
+- Reading status: Official explanation sections on stages, phenotype and medication classes inspected
+- Purpose: Complementary HFrEF drug classes, diuretics and coordinated care
+- Checked: 2026-10-09
+
+### S400 - ESC 2026 Heart Failure guideline landing page
+- URL: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure
+- Region: Europe
+- Reading status: Landing page and rights text only; full guideline not read
+- Purpose: Discovery and freshness metadata only; no clinical recommendation encoding
+- Checked: 2026-10-09
+
+### S401 - AHA Key Patient Messages: 2023 Chronic Coronary Disease Guideline
+- URL: https://professional.heart.org/en/science-news/patient-resources/key-patient-messages-2023-chronic-coronary-disease-guideline
+- Region: US
+- Reading status: Official patient messages inspected
+- Purpose: Secondary prevention, statins, monitoring and care team
+- Checked: 2026-10-09
+
+### S402 - AHA/ASA 2021 secondary stroke prevention: Top Things to Know
+- URL: https://professional.heart.org/en/science-news/2021-guideline-for-the-prevention-of-stroke-in-patients-with-stroke-and-transient-ischemic-attack/top-things-to-know
+- Region: US
+- Reading status: Official summary points 1-10 inspected
+- Purpose: Etiology, antithrombotic distinctions and vascular risk management
+- Checked: 2026-10-09
+
+### S403 - AHA 2023 AF guideline: Top Things to Know
+- URL: https://professional.heart.org/en/science-news/2023-acc-aha-accp-hrs-guideline-for-the-diagnosis-and-management-of-atrial-fibrillation/top-things-to-know
+- Region: US
+- Reading status: Official summary inspected; full guideline not read
+- Purpose: Risk reassessment, comorbidity and shared management
+- Checked: 2026-10-09
+
+### S404 - NICE NG56 recommendations
+- URL: https://www.nice.org.uk/guidance/ng56/chapter/recommendations
+- Region: England
+- Reading status: Indexed sections 1.1-1.6 inspected; direct 403
+- Purpose: Goals, treatment burden, frailty, reconciliation and coordinated plan
+- Checked: 2026-10-09
+
+### S405 - NICE NG226 recommendations
+- URL: https://www.nice.org.uk/guidance/ng226/chapter/Recommendations
+- Region: England
+- Reading status: Indexed exercise/function and pharmacological sections inspected
+- Purpose: Exercise, topical/oral NSAID distinction and comorbidity risk
+- Checked: 2026-10-09
+
+### S406 - NICE NG100 recommendations
+- URL: https://www.nice.org.uk/guidance/ng100/chapter/Recommendations
+- Region: England
+- Reading status: Indexed referral and urgent septic-arthritis recommendation inspected
+- Purpose: Persistent synovitis referral and urgent hot-joint distinction
+- Checked: 2026-10-09
+
+### S407 - NICE NG246 Medicines and surgery
+- URL: https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery
+- Region: England
+- Reading status: Indexed medicine section and eligibility table inspected
+- Purpose: Structured care, product-specific medicine options and local eligibility
+- Checked: 2026-10-09
+
+### S408 - AHA official explanation: ACC/AHA updated dyslipidemia guideline
+- URL: https://newsroom.heart.org/news/accaha-issue-updated-guideline-for-managing-lipids-cholesterol
+- Region: US
+- Reading status: Official news explanation inspected; professional Top Things to Know summary also inspected; full guideline not read
+- Purpose: Risk-specific LDL goals, primary versus secondary prevention and clinician-selected adjunct classes
+- Checked: 2026-10-09
+
+### S409 - NINDS Brain Basics
+- URL: https://www.ninds.nih.gov/health-information/public-education/brain-basics
+- Region: US
+- Reading status: Indexed official primer sections inspected; detail/PDF blocked
+- Purpose: Nervous networks and neurons
+- Checked: 2026-10-09
+
+### S410 - NINDS Peripheral Neuropathy
+- URL: https://www.ninds.nih.gov/health-information/disorders/peripheral-neuropathy
+- Region: US
+- Reading status: Indexed functional and symptom sections inspected; direct 403
+- Purpose: Motor sensory autonomic functions
+- Checked: 2026-10-09
+
+### S411 - NIMH Mental Health Medications
+- URL: https://www.nimh.nih.gov/health/topics/mental-health-medications
+- Region: US
+- Reading status: Web sections inspected: antidepressants and interactions
+- Purpose: Classes and monitoring
+- Checked: 2026-10-09
+
+### S412 - NIMH Psychotherapies
+- URL: https://www.nimh.nih.gov/health/topics/psychotherapies
+- Region: US
+- Reading status: Web elements and therapist-selection sections inspected
+- Purpose: Modalities and review goals
+- Checked: 2026-10-09
+
+### S413 - NIMH Brain Stimulation Therapies
+- URL: https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies
+- Region: US
+- Reading status: Web ECT memory, rTMS, MST sections inspected
+- Purpose: Distinct procedures and research-only MST
+- Checked: 2026-10-09
+
+### S414 - NIMH Bipolar Disorder
+- URL: https://www.nimh.nih.gov/health/publications/bipolar-disorder
+- Region: US
+- Reading status: Publication symptoms/diagnosis/treatment and rights sections inspected
+- Purpose: Mania and antidepressant monotherapy caution
+- Checked: 2026-10-09
+
+### S415 - NIMH Understanding Psychosis
+- URL: https://www.nimh.nih.gov/health/publications/understanding-psychosis
+- Region: US
+- Reading status: Web signs and assessment sections inspected
+- Purpose: First episode and danger
+- Checked: 2026-10-09
+
+### S416 - NICE CG103 Delirium
+- URL: https://www.nice.org.uk/guidance/cg103/chapter/Recommendations
+- Region: England
+- Reading status: Indexed official sections inspected; direct fetch failed
+- Purpose: Hours/days fluctuation and acute assessment
+- Checked: 2026-10-09
+
+### S417 - NIA What Is Dementia?
+- URL: https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis?services=81
+- Region: US
+- Reading status: Indexed subtype and assessment sections inspected; canonical direct fetch failed
+- Purpose: Subtype overlap and workup
+- Checked: 2026-10-09
+
+### S418 - NIA Memory Problems, Forgetfulness, and Aging
+- URL: https://www.nia.nih.gov/health/memory-forgetfulness-and-aging-whats-normal-and-whats-not
+- Region: US
+- Reading status: Indexed MCI, aging and function sections inspected
+- Purpose: MCI not inevitable dementia
+- Checked: 2026-10-09
+
+### S419 - NIA Cognitive Health and Older Adults
+- URL: https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults
+- Region: US
+- Reading status: Indexed exercise, medication and engagement sections inspected
+- Purpose: Contributors and prevention limits
+- Checked: 2026-10-09
+
+### S420 - NIA Caring for Older Patients With Cognitive Impairment
+- URL: https://www.nia.nih.gov/health/health-care-professionals-information/caring-older-patients-cognitive-impairment
+- Region: US
+- Reading status: Indexed care-partner/medicine review sections inspected
+- Purpose: Function, care and referral
+- Checked: 2026-10-09
+
+### S421 - NIA Alzheimer Disease Genetics Fact Sheet
+- URL: https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/alzheimers-disease-genetics-fact-sheet
+- Region: US
+- Reading status: Indexed official genetics sections inspected; full page unavailable
+- Purpose: Risk versus diagnosis
+- Checked: 2026-10-09
+
+### S422 - LEQEMBI US prescribing information
+- URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761375s001lbl.pdf
+- Region: US
+- Reading status: PDF sections 1,2.4,5.1,14 and trial table inspected
+- Purpose: SC initiation and month-based MRI; benefit and ARIA
+- Checked: 2026-10-09
+
+### S423 - LEQEMBI EU product information
+- URL: https://www.ema.europa.eu/en/documents/product-information/leqembi-epar-product-information_en.pdf
+- Region: EU
+- Reading status: PDF 4.1-4.4 and safety sections inspected
+- Purpose: Genotype eligibility, anticoagulant/MRI restrictions
+- Checked: 2026-10-09
+
+### S424 - KISUNLA US prescribing information via DailyMed
+- URL: https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa&type=pdf
+- Region: US
+- Reading status: Current DailyMed 29-page PDF inspected: sections 1,2.3,5.1,6.1,14; MRI schedule, revised regimen, anticoagulant warning and original study distinctions read. Integrating reviewer confirmed PDF revision 7/2025, distinct from effective date.
+- Purpose: Indication, MRI and revised initiation regimen
+- Checked: 2026-10-09
+
+### S425 - KISUNLA EU product information
+- URL: https://www.ema.europa.eu/en/documents/product-information/kisunla-epar-product-information_en.pdf
+- Region: EU
+- Reading status: PDF 4.1-4.4 MRI, contraindications and trial table inspected
+- Purpose: Restrictions and MRI monitoring
+- Checked: 2026-10-09
+
+### S426 - van Dyck et al. Lecanemab in Early Alzheimer Disease
+- URL: https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
+- Region: International trial
+- Reading status: Original indexed result read; full article 403; FDA clinical table read separately
+- Purpose: Absolute vs relative 18-month result
+- Checked: 2026-10-09
+
+### S427 - Sims et al. TRAILBLAZER-ALZ 2
+- URL: https://jamanetwork.com/journals/jama/fullarticle/2807533
+- Region: International trial
+- Reading status: Publisher HTML accessible with guest link; original results, tables and limitations inspected
+- Purpose: Absolute outcomes, subgroup, ARIA and representation
+- Checked: 2026-10-09
+
+### S428 - FDA clears first Alzheimer blood test
+- URL: https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease
+- Region: US
+- Reading status: Relevant full FDA paragraphs read
+- Purpose: Named assay symptomatic age 55+; not screening/standalone
+- Checked: 2026-10-09
+
+### S429 - FDA Class 2 Lumipulse calibrator recall
+- URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945
+- Region: US
+- Reading status: Product, lots, reason, actions inspected
+- Purpose: Lot-specific falsely elevated ratios and result review
+- Checked: 2026-10-09
+
+### S430 - MHRA lecanemab licensing
+- URL: https://www.gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease
+- Region: UK
+- Reading status: Official licensing announcement inspected
+- Purpose: National authorization separate from payer access
+- Checked: 2026-10-09
+
+### S431 - Original evoke and evoke+ phase 3 trials
+- URL: https://pubmed.ncbi.nlm.nih.gov/41865758/
+- Region: International trial
+- Reading status: Original indexed abstract inspected; direct page empty; full article not read
+- Purpose: Negative clinical outcome and discontinuation
+- Checked: 2026-10-09
+
+### S432 - NIA-Funded Active Alzheimer and Related Dementias Studies
+- URL: https://research.nih.gov/research/ongoing-AD-trials
+- Region: US
+- Reading status: HTML AHEAD entry and category sections inspected
+- Purpose: Genuine research questions and enrollment checks
+- Checked: 2026-10-09
+
+### S433 - NIA How Is Alzheimer Disease Treated?
+- URL: https://www.nia.nih.gov/health/alzheimers-treatment/how-alzheimers-disease-treated
+- Region: US
+- Reading status: Official indexed symptom-treatment/no-cure sections read; canonical fetch empty
+- Purpose: Symptoms versus disease modification
+- Checked: 2026-10-09
+
+### S434 - NICE NG97 dementia recommendations
+- URL: https://www.nice.org.uk/guidance/NG97/chapter/recommendations
+- Region: England
+- Reading status: Official indexed recommendations 1.5.2-1.5.15 and 1.6 inspected; direct page blocked
+- Purpose: Stage/subtype options and anticholinergic review
+- Checked: 2026-10-09
+
+### S435 - Comprehensive Metabolic Panel (CMP)
+- URL: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: BMP/CMP panel differences; chemistry class navigation.
+- Checked: 2026-10-09
+
+### S436 - How to approach elevated liver enzymes?
+- URL: https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Injury versus function; interpretation of liver chemistry pattern.
+- Checked: 2026-10-09
+
+### S437 - Chronic Kidney Disease Tests and Diagnosis
+- URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Complementary filtration and urine-albumin assessment.
+- Checked: 2026-10-09
+
+### S438 - Recommendations for Implementing the CKD-EPI 2021 Race-Free eGFR Calculation
+- URL: https://www.kidney.org/recommendations-implementing-ckd-epi-2021-race-free-egfr-calculation-guidelines-clinical
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Race-free CKD-EPI implementation, equation discontinuity and non-GFR influences.
+- Checked: 2026-10-09
+
+### S439 - Iron Tests
+- URL: https://medlineplus.gov/lab-tests/iron-tests/
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Iron studies as linked assessment; context rather than isolated value.
+- Checked: 2026-10-09
+
+### S440 - Thyroid Tests
+- URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Linked hormone testing and contextual interpretation.
+- Checked: 2026-10-09
+
+### S441 - High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain
+- URL: https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain
+- Region: US
+- Reading status: read ACC professional summary; underlying Circulation primer not read
+- Purpose: Assay identity, ng/L, serial timing and injury rather than automatic infarction.
+- Checked: 2026-10-09
+
+### S442 - UK Kidney Association Hyperkalaemia Guideline
+- URL: https://guidelines.ukkidney.org/hyperkalaemia/
+- Region: UK
+- Reading status: read relevant rendered page sections
+- Purpose: Urgency of severe hyperkalemia and clinical setting for treatment.
+- Checked: 2026-10-09
+
+### S443 - NICE NG158 Recommendations
+- URL: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
+- Region: UK
+- Reading status: read relevant rendered page sections
+- Purpose: Clinician assessment, selected PERC/Wells/D-dimer pathways.
+- Checked: 2026-10-09
+
+### S444 - IBIS Breast Cancer Risk Evaluation Tool
+- URL: https://ems-trials.org/riskevaluator/
+- Region: UK
+- Reading status: read relevant rendered page sections
+- Purpose: Exact tool name, v8, pedigree, research-only download and license restriction.
+- Checked: 2026-10-09
+
+### S445 - QRISK3 official demonstrator
+- URL: https://www.qrisk.org/
+- Region: UK
+- Reading status: read relevant rendered page sections
+- Purpose: Demonstrator eligibility, accredited clinical-system instruction and access restrictions.
+- Checked: 2026-10-09
+
+### S446 - ASCVD Risk Estimator Plus
+- URL: https://tools.acc.org/ASCVD-Risk-Estimator-Plus/
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: US tool navigation and input/algorithm identity.
+- Checked: 2026-10-09
+
+### S447 - SCORE2 and SCORE2-OP calculators
+- URL: https://www.escardio.org/guidelines/practice-tools/cvd-prevention-toolbox/score-risk-charts/
+- Region: Europe
+- Reading status: read relevant rendered page sections
+- Purpose: European fatal/nonfatal ten-year prevention tool navigation.
+- Checked: 2026-10-09
+
+### S448 - FRAXplus official home and FRAX navigation
+- URL: https://frax.shef.ac.uk/FRAX/
+- Region: International
+- Reading status: read relevant rendered page sections
+- Purpose: Country-calibrated fracture probabilities and beta adjustment distinction.
+- Checked: 2026-10-09
+
+### S449 - Depression and Suicide Risk in Adults: Screening
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Validated screening followed by diagnosis, treatment and follow-up systems.
+- Checked: 2026-10-09
+
+### S450 - Official STOP-Bang screening destination
+- URL: https://www.stopbang.ca/osa/screening.php
+- Region: International
+- Reading status: blocked: official screening and home pages returned tool errors; no content verification
+- Purpose: Official destination only; no scoring or questionnaire claims.
+- Checked: 2026-10-09
+
+### S451 - Urinalysis NIH summary
+- URL: https://medlineplus.gov/urinalysis.html
+- Region: US
+- Reading status: read NIH summary; linked A.D.A.M. encyclopedia inspected but excluded from reuse
+- Purpose: NIH summary of urine test components; no encyclopedia text reused.
+- Checked: 2026-10-09
+
+### S452 - Diagnosis of Diarrhea
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/diagnosis
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: History-directed diarrhea testing rather than an indiscriminate stool panel.
+- Checked: 2026-10-09
+
+### S453 - WHO laboratory manual for examination and processing of human semen, sixth edition
+- URL: https://www.who.int/publications/i/item/9789240030787
+- Region: International
+- Reading status: read official publication overview only; manual chapters not read
+- Purpose: WHO manual overview and standardization purpose only.
+- Checked: 2026-10-09
+
+### S454 - Pathology Reports
+- URL: https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Report structure, final diagnosis, adequacy, pending additions and clinical discussion.
+- Checked: 2026-10-09
+
+### S455 - Genetic Testing for Inherited Cancer Risk
+- URL: https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Germline risk testing, uncertainty, coverage and confirmation.
+- Checked: 2026-10-09
+
+### S456 - Vitamin B12 Health Professional Fact Sheet
+- URL: https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
+- Region: US
+- Reading status: read relevant rendered page sections
+- Purpose: Vitamin-B12 testing context and limitations.
+- Checked: 2026-10-09
+
+### S457 - American Heart Association PREVENT Online Calculator
+- URL: https://professional.heart.org/en/guidelines-and-statements/prevent-calculator
+- Region: US
+- Reading status: Read official landing page; embedded interactive calculator unavailable in text extraction
+- Purpose: Verified official navigation destination only.
+- Checked: 2026-10-09
+
+### S458 - NHS: Headaches
+- URL: https://www.nhs.uk/symptoms/headaches/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for headaches
+- Checked: 2026-10-09
+
+### S459 - NHS: High temperature in adults
+- URL: https://www.nhs.uk/symptoms/fever-in-adults/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for high temperature in adults
+- Checked: 2026-10-09
+
+### S460 - NHS: Chest pain
+- URL: https://www.nhs.uk/symptoms/chest-pain/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for chest pain
+- Checked: 2026-10-09
+
+### S461 - NHS: Stomach ache
+- URL: https://www.nhs.uk/symptoms/stomach-ache/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for stomach ache
+- Checked: 2026-10-09
+
+### S462 - NHS: Diarrhoea and vomiting
+- URL: https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for diarrhoea and vomiting
+- Checked: 2026-10-09
+
+### S463 - NHS: Constipation
+- URL: https://www.nhs.uk/conditions/constipation/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for constipation
+- Checked: 2026-10-09
+
+### S464 - NHS: Rectal bleeding
+- URL: https://www.nhs.uk/symptoms/bleeding-from-the-bottom-rectal-bleeding/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for rectal bleeding
+- Checked: 2026-10-09
+
+### S465 - NHS: Dizziness
+- URL: https://www.nhs.uk/symptoms/dizziness/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for dizziness
+- Checked: 2026-10-09
+
+### S466 - NHS: Fainting
+- URL: https://www.nhs.uk/symptoms/fainting/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for fainting
+- Checked: 2026-10-09
+
+### S467 - NHS: Heart palpitations
+- URL: https://www.nhs.uk/symptoms/heart-palpitations/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for heart palpitations
+- Checked: 2026-10-09
+
+### S468 - NHS: Tiredness and fatigue
+- URL: https://www.nhs.uk/symptoms/tiredness-and-fatigue/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for tiredness and fatigue
+- Checked: 2026-10-09
+
+### S469 - NHS: Shortness of breath
+- URL: https://www.nhs.uk/symptoms/shortness-of-breath/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for shortness of breath
+- Checked: 2026-10-09
+
+### S470 - NHS: Cough
+- URL: https://www.nhs.uk/symptoms/cough/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for cough
+- Checked: 2026-10-09
+
+### S471 - NHS: Urinary tract infections
+- URL: https://www.nhs.uk/conditions/urinary-tract-infections-utis/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for urinary tract infections
+- Checked: 2026-10-09
+
+### S472 - NHS: Blood in urine
+- URL: https://www.nhs.uk/symptoms/blood-in-urine/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for blood in urine
+- Checked: 2026-10-09
+
+### S473 - NHS: Earache
+- URL: https://www.nhs.uk/symptoms/earache/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for earache
+- Checked: 2026-10-09
+
+### S474 - NHS: Hearing loss
+- URL: https://www.nhs.uk/conditions/hearing-loss/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for hearing loss
+- Checked: 2026-10-09
+
+### S475 - NHS: Sore throat
+- URL: https://www.nhs.uk/symptoms/sore-throat/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for sore throat
+- Checked: 2026-10-09
+
+### S476 - NHS: Nosebleed
+- URL: https://www.nhs.uk/conditions/nosebleed/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for nosebleed
+- Checked: 2026-10-09
+
+### S477 - NHS: Sinusitis
+- URL: https://www.nhs.uk/conditions/sinusitis-sinus-infection/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for sinusitis
+- Checked: 2026-10-09
+
+### S478 - NHS: Red eye
+- URL: https://www.nhs.uk/symptoms/red-eye/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for red eye
+- Checked: 2026-10-09
+
+### S479 - NHS: Eye injuries
+- URL: https://www.nhs.uk/conditions/eye-injuries/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for eye injuries
+- Checked: 2026-10-09
+
+### S480 - NHS: Floaters and flashes
+- URL: https://www.nhs.uk/symptoms/floaters-and-flashes-in-the-eyes/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for floaters and flashes
+- Checked: 2026-10-09
+
+### S481 - NHS: Itchy skin
+- URL: https://www.nhs.uk/symptoms/itchy-skin/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for itchy skin
+- Checked: 2026-10-09
+
+### S482 - NHS: Cuts and grazes
+- URL: https://www.nhs.uk/conditions/cuts-and-grazes/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for cuts and grazes
+- Checked: 2026-10-09
+
+### S483 - NHS: Lumps
+- URL: https://www.nhs.uk/symptoms/lumps/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for lumps
+- Checked: 2026-10-09
+
+### S484 - NHS: Joint pain
+- URL: https://www.nhs.uk/symptoms/joint-pain/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for joint pain
+- Checked: 2026-10-09
+
+### S485 - NHS: Sprains and strains
+- URL: https://www.nhs.uk/conditions/sprains-and-strains/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for sprains and strains
+- Checked: 2026-10-09
+
+### S486 - NHS: Back pain
+- URL: https://www.nhs.uk/conditions/back-pain/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for back pain
+- Checked: 2026-10-09
+
+### S487 - NHS: Transient ischaemic attack
+- URL: https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/
+- Region: United Kingdom; local access pathways require adaptation
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Purpose: Decision-entry context and proportionate care navigation for transient ischaemic attack
+- Checked: 2026-10-09
+
+### S488 - Stevens-Johnson syndrome - NHS
+- URL: https://www.nhs.uk/conditions/stevens-johnson-syndrome/
+- Region: UK
+- Reading status: Parent read relevant HTML symptom, emergency action and treatment sections
+- Purpose: Emergency routing for spreading painful, blistering or peeling rash and mucosal symptoms after a new medicine
+- Checked: 2026-10-09
+
+### S489 - Emergency care
+- URL: https://www.who.int/health-topics/emergency-care
+- Region: Global
+- Reading status: Opened official page; relevant overview inspected
+- Purpose: Integrated emergency care as time-sensitive pathway, early recognition, treatment and referral; no universal facility directory.
+- Checked: 2026-10-09
+
+### S490 - WHO Emergency care system framework
+- URL: https://www.who.int/publications/i/item/who-emergency-care-system-framework
+- Region: Global
+- Reading status: Opened official WHO page; overview and pathway scope inspected
+- Purpose: Emergency care continuity from scene through transport and emergency unit to early inpatient care.
+- Checked: 2026-10-09
+
+### S491 - Urgent and emergency care services
+- URL: https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/
+- Region: England, United Kingdom
+- Reading status: Opened official NHS page; links to service definitions inspected
+- Purpose: Jurisdiction-specific service routing and official service discovery.
+- Checked: 2026-10-09
+
+### S492 - About urgent and emergency care
+- URL: https://www.england.nhs.uk/urgent-emergency-care/about-uec/
+- Region: England, United Kingdom
+- Reading status: Indexed excerpt inspected; direct page returned limited content
+- Purpose: Illustrative distinction between emergency and non-life-threatening urgent care.
+- Checked: 2026-10-09
+
+### S493 - Urgent treatment centres
+- URL: https://www.england.nhs.uk/urgent-emergency-%20care/urgent-treatment-centres/
+- Region: England, United Kingdom
+- Reading status: Search excerpt inspected; opened page presented anti-bot/JavaScript barrier
+- Purpose: Example of a defined urgent non-emergency service, booking pathway, and scope.
+- Checked: 2026-10-09
+
+### S494 - About NHS 111
+- URL: https://www.england.nhs.uk/urgent-emergency-care/nhs-111/accessing-nhs-111/
+- Region: England, United Kingdom
+- Reading status: Search excerpt inspected
+- Purpose: Example of jurisdiction-specific urgent advice service which can direct to locally suitable services or ambulance.
+- Checked: 2026-10-09
+
+### S495 - Directory of Services (DoS)
+- URL: https://digital.nhs.uk/services/directory-of-services-dos/
+- Region: England, United Kingdom
+- Reading status: Opened official NHS Digital page; directory and triage integration sections inspected
+- Purpose: Example of official service directory used with NHS Pathways/111, with factors including appropriate setting.
+- Checked: 2026-10-09
+
+### S496 - Health Resource Geographic Information System (GIS Health)
+- URL: https://gis-health.moph.go.th/healthmap/gmap.php
+- Region: Thailand
+- Reading status: Opened official directory; search filters/categories and facility-name search inspected
+- Purpose: Example official national facility discovery directory, including facility type filters.
+- Checked: 2026-10-09
+
+### S497 - Important phone numbers during your stay in Thailand
+- URL: https://thailand.go.th/issue-focus-detail/009_152
+- Region: Thailand
+- Reading status: Opened official Thai government information portal; emergency medical phone lines inspected
+- Purpose: Thai government listing of 1669 for emergency medical notification, alongside other numbers.
+- Checked: 2026-10-09
+
+### S498 - LTCH Hospital: contact and complaints
+- URL: https://lumhos.moph.go.th/en/contact
+- Region: Thailand
+- Reading status: Opened official MOPH hospital page; emergency contact listing, 24-hour emergency wording, and last-updated date inspected
+- Purpose: Current provider-level Thai government hospital corroboration that an emergency contact route lists 1669.
+- Checked: 2026-10-09
+
+### S499 - Thailand: health
+- URL: https://www.gov.uk/foreign-travel-advice/thailand/health
+- Region: Thailand / UK traveller guidance
+- Reading status: Opened GOV.UK page; emergency number and insurance paragraphs inspected
+- Purpose: Travel advice lists 191 asking for ambulance and 1669; advises prompt insurer/assistance contact when referred.
+- Checked: 2026-10-09
+
+### S500 - How to call an ambulance correctly
+- URL: https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/kak-pravilno-vyzvat-skoruyu_5
+- Region: Russia
+- Reading status: Opened official ministry page; number paragraph inspected
+- Purpose: Lists 112 as unified emergency number and 103 or regional numbers for ambulance.
+- Checked: 2026-10-09
+
+### S501 - Get healthcare cover for travelling abroad
+- URL: https://www.nhsbsa.nhs.uk/get-healthcare-cover-travelling-abroad
+- Region: United Kingdom and destination-specific eligible card regions
+- Reading status: Opened official NHSBSA page; covered care, territory check and insurance caveats inspected
+- Purpose: EHIC/GHIC scope example; state-provided care in applicable destinations; not travel insurance and no repatriation cover.
+- Checked: 2026-10-09
+
+### S502 - Report data or content errors on Google Maps
+- URL: https://support.google.com/maps/answer/3094088?hl=en-en
+- Region: Global product documentation
+- Reading status: Opened official product help; editable places, address, hours and data-error sections inspected
+- Purpose: Supports treating map facts as discovery leads requiring confirmation because place data can be edited/reported.
+- Checked: 2026-10-09
+
+### S503 - Object card | Yandex Maps
+- URL: https://www.yandex.com/support/maps/en/concept/object-kart
+- Region: Maps markets including Russia and nearby regions
+- Reading status: Opened official help; organization contacts, hours, directions and edit-information features inspected
+- Purpose: Supports map discovery for addresses, contacts, hours and routes, with cross-checking against official branch sources.
+- Checked: 2026-10-09
+
+### S504 - Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition
+- URL: https://www.who.int/publications/i/item/9789240103726
+- Region: Global
+- Reading status: Publication overview inspected; PDF fetch 403
+- Purpose: Functional domains and integrated care
+- Checked: 2026-10-09
+
+### S505 - Falls: assessment and prevention, NG249 recommendations
+- URL: https://www.nice.org.uk/guidance/ng249/chapter/Recommendations/
+- Region: England
+- Reading status: Substantive indexed recommendation excerpts inspected; direct fetch 403
+- Purpose: Falls assessment and tailored prevention
+- Checked: 2026-10-09
+
+### S506 - Stroke rehabilitation in adults, NG236
+- URL: https://www.nice.org.uk/guidance/ng236/chapter/Recommendations
+- Region: England
+- Reading status: Indexed sections 1.1 and 1.2 inspected; direct fetch 403
+- Purpose: Specialist service, goals and comprehensive rehabilitation
+- Checked: 2026-10-09
+
+### S507 - NOGG Section 5: Non-pharmacological management of osteoporosis
+- URL: https://www.nogg.org.uk/full-guideline/section-5-non-pharmacological-management-osteoporosis
+- Region: UK
+- Reading status: Full relevant web section inspected
+- Purpose: Adapted exercise, dietary adequacy, falls, evidence limits
+- Checked: 2026-10-09
+
+### S508 - Massage Therapy: What You Need To Know
+- URL: https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know
+- Region: US
+- Reading status: Pain, cancer, risk and provider sections inspected
+- Purpose: Indication-specific benefits, uncertainty and risk
+- Checked: 2026-10-09
+
+### S509 - Standard of Practice: Professional Boundaries, Draping, and Physical Privacy
+- URL: https://www.cmto.com/rules/standard-of-practice-professional-boundaries-draping-and-physical-privacy/
+- Region: Ontario Canada
+- Reading status: Full relevant standard inspected
+- Purpose: Consent, privacy, draping and ongoing comfort
+- Checked: 2026-10-09
+
+### S510 - The Effects of Massage Guns on Performance and Recovery: A Systematic Review
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10532323/
+- Region: International research
+- Reading status: Indexed abstract/method excerpts inspected; direct PMC browser challenge
+- Purpose: Short-term outcomes and bias limitations
+- Checked: 2026-10-09
+
+### S511 - Therabody Product Safety and Precautions: Theragun and Wave Devices
+- URL: https://www.therabody.com/pages/precautions
+- Region: US manufacturer/global product context
+- Reading status: Theragun/Wave section lines 305-339 inspected; Sense PDF failed
+- Purpose: Exact-device precaution examples
+- Checked: 2026-10-09
+
+### S512 - Hair loss: Who gets and causes
+- URL: https://www.aad.org/public/diseases/hair-loss/causes/18-causes
+- Region: US
+- Reading status: Causes, thyroid, nutrients and toxicity sections inspected
+- Purpose: Differential causes and excess-nutrient cautions
+- Checked: 2026-10-09
+
+### S513 - Hair loss: Diagnosis and treatment
+- URL: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat
+- Region: US
+- Reading status: Diagnosis and supplement sections inspected
+- Purpose: Targeted assessment, no automatic supplements
+- Checked: 2026-10-09
+
+### S514 - 12 nail changes a dermatologist should examine
+- URL: https://www.aad.org/public/everyday-care/nail-care-secrets/basics/nail-changes-dermatologist-should-examine
+- Region: US
+- Reading status: Relevant changes and uncertainty sections inspected
+- Purpose: Changing dark bands, inflammation and nonspecific findings
+- Checked: 2026-10-09
+
+### S515 - Lower urinary tract symptoms in men: management, CG97
+- URL: https://www.nice.org.uk/guidance/cg97/chapter/recommendations
+- Region: England
+- Reading status: Indexed specialist referral and retention sections inspected
+- Purpose: Uncomplicated versus complicated symptoms
+- Checked: 2026-10-09
+
+### S516 - Urinary incontinence and pelvic organ prolapse in women: management, NG123
+- URL: https://www.nice.org.uk/guidance/ng123/chapter/recommendations
+- Region: England
+- Reading status: Indexed assessment/conservative treatment inspected; fetch 403
+- Purpose: Supervised pelvic floor training, bladder training, referral
+- Checked: 2026-10-09
+
+### S517 - Menopause: identification and management, NG23
+- URL: https://www.nice.org.uk/guidance/ng23/chapter/recommendations
+- Region: England
+- Reading status: Indexed individual-care/genitourinary options and laser restriction inspected; fetch 403
+- Purpose: Local options and research-only laser status
+- Checked: 2026-10-09
+
+### S518 - Prostate Problems
+- URL: https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems
+- Region: US
+- Reading status: Symptoms, urgent retention, assessment and options inspected
+- Purpose: Basic causes, assessment and inability to void
+- Checked: 2026-10-09
+
+### S519 - Symptoms and Causes of Erectile Dysfunction
+- URL: https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes
+- Region: US
+- Reading status: Symptoms and causes section inspected
+- Purpose: Health, medicine and psychological causes
+- Checked: 2026-10-09
+
+### S520 - Deep vein thrombosis: UCLH NHS Foundation Trust
+- URL: https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/deep-vein-thrombosis
+- Region: UK
+- Reading status: Full symptom and immediate-attention sections inspected; national NHS symptoms/emergency page also inspected
+- Purpose: Warm swollen painful limb; chest/breathing escalation
+- Checked: 2026-10-09
+
+### S521 - NICE Terms and conditions: Notice of Rights
+- URL: https://www.nice.org.uk/terms-and-conditions
+- Region: UK and outside UK
+- Reading status: Notice of Rights inspected
+- Purpose: Publication rights audit
+- Checked: 2026-10-09
+
+### S522 - DVT (deep vein thrombosis) - NHS
+- URL: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/
+- Region: UK
+- Reading status: Parent read symptoms and urgent/emergency action HTML sections
+- Purpose: National corroboration of unilateral pain/swelling assessment and emergency chest/breathing symptoms
+- Checked: 2026-10-09
+
+### S523 - WHO SMART Guideline Publications catalogue
+- URL: https://smart.who.int/
+- Region: International
+- Reading status: Official catalogue page inspected; metadata and component listing only
+- Purpose: Discover DAK and FHIR implementation-guide sources; its component taxonomy shows that digital guidance needs data dictionaries, decision logic, indicators, and functional requirements.
+- Checked: 2026-10-09
+
+### S524 - SMART Guidelines—Digital Adaptation Kits: Implementation research and technical support
+- URL: https://www.who.int/publications/m/item/who-digital-accelerator-kits
+- Region: International
+- Reading status: Official landing-page overview and bibliographic metadata inspected; one-page brief not downloaded/read in full
+- Purpose: DAK design concept: workflow, data needs, algorithms, indicators, and functional requirements; emphasis on country implementation and validation.
+- Checked: 2026-10-09
+
+### S525 - Digital adaptation kit for child health (0–59 months) in humanitarian emergencies
+- URL: https://www.who.int/publications/i/item/9789240089907
+- Region: International; humanitarian primary care setting
+- Reading status: Official WHO landing page and described components inspected; publication/web annexes not read
+- Purpose: Example of a DAK's stated scope and decomposition into personas, workflows, core data elements, decision-support logic, scheduling, indicators, and requirements.
+- Checked: 2026-10-09
+
+### S526 - WHO SMART Guidelines Base Implementation Guide repository
+- URL: https://github.com/WorldHealthOrganization/smart-base
+- Region: International
+- Reading status: Repository README inspected; core profiles, DAK/FHIR distinction, publication links, and stated Creative Commons IGO license inspected; no code executed and no artifact extracted
+- Purpose: Reference for separating structured guideline content (L2 DAK) from computable FHIR profiles/implementation guides (L3), and for stable published versions versus changing continuous builds.
+- Checked: 2026-10-09
+
+### S527 - WHO SMART Guidelines Digital Adaptation Kit for Tuberculosis repository README and LICENSE.md
+- URL: https://github.com/WorldHealthOrganization/smart-dak-tb
+- Region: International; TB programme content requires localization
+- Reading status: README scope and LICENSE.md text inspected on GitHub; source code/data not downloaded or run
+- Purpose: Shows stated goals of common language, transparent review of health content, and generic content that requires local contextualization; verifies separate content and software licenses.
+- Checked: 2026-10-09
+
+### S528 - Using CQL With FHIR Implementation Guide
+- URL: https://hl7.org/fhir/uv/cql/
+- Region: International technical standard
+- Reading status: Official implementation-guide summary, version/status, scope, and intellectual-property navigation inspected
+- Purpose: Defines CQL as a language that can represent computable guideline, decision-support, public-health, and research-eligibility logic against FHIR resources; informs where executable knowledge belongs in a regulated system.
+- Checked: 2026-10-09
+
+### S529 - CDS Hooks Specification, Current Build
+- URL: https://cds-hooks.org/specification/current/
+- Region: International technical standard
+- Reading status: Specification sections on scope, hooks, services, cards, versioning and maturity inspected
+- Purpose: Reference for workflow-triggered support, contextual inputs, client/service responsibilities, and version/maturity discipline.
+- Checked: 2026-10-09
+
+### S530 - The SHARE Approach Essential Steps of Shared Decision Making
+- URL: https://www.ahrq.gov/health-literacy/professional-training/shared-decision/tools/share-poster.html
+- Region: United States
+- Reading status: Official AHRQ page and all five step headings/short descriptions inspected
+- Purpose: Interaction architecture for choice awareness, comparing benefits/harms, eliciting values, reaching a decision, and follow-up.
+- Checked: 2026-10-09
+
+### S531 - Reimagining Healthcare Teams: Patient-Clinician-AI Triad, Core Principles
+- URL: https://www.ahrq.gov/diagnostic-safety/resources/issue-briefs/dxsafety-reimagining-healthcare-teams-6.html
+- Region: United States; conceptual patient-safety resource
+- Reading status: Official page core-principles section and table inspected
+- Purpose: Supports explicit human roles, shared goals, trust, communication, patient values, clinician accountability, and ongoing evaluation when AI participates in diagnostic work.
+- Checked: 2026-10-09
+
+### S532 - Clinical Decision Support Software Guidance for Industry and FDA Staff
+- URL: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
+- Region: United States
+- Reading status: Official FDA summary, final status, date, and scope description inspected; linked PDF not read in full
+- Purpose: Regulatory discovery for distinctions FDA draws among some non-device CDS functions and device software functions, including patient/caregiver-intended software.
+- Checked: 2026-10-09
+
+### S533 - Guidances with Digital Health Content
+- URL: https://www.fda.gov/medical-devices/digital-health-center-excellence/guidances-digital-health-content
+- Region: United States
+- Reading status: Official FDA index and status/date rows inspected
+- Purpose: A source-update trigger and discovery index for relevant digital-health regulatory documents; demonstrates need to distinguish final and draft guidance.
+- Checked: 2026-10-09
+
+### S534 - Transparency for Machine Learning-Enabled Medical Devices: Guiding Principles
+- URL: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/transparency-machine-learning-enabled-medical-devices-guiding-principles
+- Region: United States, Health Canada, United Kingdom collaboration
+- Reading status: Official page sections on transparency, intended use, performance, human-AI team and communication inspected
+- Purpose: Supports a requirement to expose intended use, evidence limits, performance, context, and human responsibilities rather than presenting model output as authority.
+- Checked: 2026-10-09
+
+### S535 - NICE Guidance Surveillance Process and Methods
+- URL: https://www.nice.org.uk/process/pmg36/chapter/guidance-surveillance-2
+- Region: England and Wales; NICE process guidance
+- Reading status: Search-indexed official excerpt inspected; direct page retrieval returned HTTP 403
+- Purpose: Reference for update decisions that may amend, update, withdraw, or leave guidance unchanged after surveillance; event-driven surveillance matters as well as a calendar interval.
+- Checked: 2026-10-09
+
+### S536 - Outcomes for Graduates
+- URL: https://www.gmc-uk.org/education/standards-guidance-and-curricula/standards-and-outcomes/outcomes-for-graduates
+- Region: United Kingdom
+- Reading status: Official landing-page scope and link to practical skills/procedures inspected; full outcomes document not read
+- Purpose: Curriculum discovery for baseline knowledge, skills, professional behaviours and practical competence domains that an educational index might map.
+- Checked: 2026-10-09
+
+### S537 - Common Program Requirements (Residency) including FAQs
+- URL: https://www.acgme.org/globalassets/pfassets/programrequirements/2026-prs/cprresidency_2026.pdf
+- Region: United States
+- Reading status: PDF introduction and selected oversight/supervision requirements inspected; not a complete curriculum review
+- Purpose: Shows supervised, graded responsibility, local programme accountability, and lifelong-learning structure; useful for distinguishing educational scope from independent competence.
+- Checked: 2026-10-09
+
+### S538 - Continuing Professional Development: Guidance
+- URL: https://www.gmc-uk.org/education/standards-guidance-and-curricula/guidance/continuing-professional-development
+- Region: United Kingdom
+- Reading status: Official page overview and listed CPD planning, carrying-out, impact-evaluation, and recording topics inspected
+- Purpose: Curriculum/maintenance discovery for reflective learning and evaluating impact; informs how an evidence library can document review activity and identify learning gaps.
+- Checked: 2026-10-09
+
+### S539 - Information for Authors and Publishers—About NCBI Bookshelf
+- URL: https://www.ncbi.nlm.nih.gov/sites/books/NBK554841/
+- Region: United States; NLM platform policy
+- Reading status: Official NLM policy sections inspected
+- Purpose: Establishes that free Bookshelf access does not equal blanket reuse: Open Access subset is a distinct subset where rights are public domain or Creative Commons/similar; each title must be checked.
+- Checked: 2026-10-09
+
+### S540 - Nursing Pharmacology, 2nd edition (Open RN), NCBI Bookshelf
+- URL: https://www.ncbi.nlm.nih.gov/books/NBK595000/
+- Region: United States; prelicensure nursing education
+- Reading status: Official indexed title, edition, book description, license notice, and linked TOC metadata inspected; direct chapter reading blocked; no chapter content used
+- Purpose: Candidate for a later rights-checked, chapter-specific educational route; its own book page states CC BY 4.0 and warns it is not a drug-reference book.
+- Checked: 2026-10-09
+
+### S541 - ESC Guidelines Licensing for AI, LLMs, and CDS Tools
+- URL: https://www.escardio.org/guidelines/clinical-practice-guidelines/esc-guidelines-licensing-for-ai-llms-and-cds-tools/
+- Region: Europe; professional society licensing policy
+- Reading status: Official licensing page inspected; no clinical guideline content opened or extracted
+- Purpose: Rights-discovery example: public availability does not imply permission for AI training, extracted-data use, or CDS integration; licensing request pathway is explicit.
+- Checked: 2026-10-09
+
+### S542 - OpenMedSkills public repository README
+- URL: https://github.com/salikkhann/openmedskills
+- Region: International; community repository, not a regulator or professional society
+- Reading status: README taxonomy, package structure, stated limits, and code/content license distinction inspected; no skill files or code executed
+- Purpose: Discovery-only example of a public skill library that separates risk class, permissions, human review, dated references, examples, evaluation cases, and field-change notes.
+- Checked: 2026-10-09
+
+### S543 - MillerQA benchmark repository README and licensing notes
+- URL: https://github.com/KatherLab/MillerQA
+- Region: International; benchmark aggregation
+- Reading status: README evaluation dimensions, per-source license architecture, and exclusions inspected; no benchmark items copied or executed
+- Purpose: Discovery-only illustration that benchmark suites can be mixed-license, with source-level provenance and QC exclusion records; supports evaluating evidence citation and contradiction handling separately from domain knowledge.
+- Checked: 2026-10-09
+
+### S544 - Nursing Pharmacology-2e, Sections 1.2 Pharmacokinetics and 1.7 Pharmacodynamics
+- URL: https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-2-pharmacokinetics/
+- Region: United States; nursing education
+- Reading status: Publisher-hosted section bodies, individual figure credits/footnotes and section license statements inspected; two selected sections read, not full chapter/book
+- Purpose: Foundational learning route for ADME, time-dependent drug disposition, mechanism of action, receptor agonist/antagonist concepts, and the distinction between how a drug is handled and how it acts.
+- Checked: 2026-10-09
+
+### S545 - Core Curriculum on Tuberculosis: What the Clinician Should Know, Chapter 1 selected sections
+- URL: https://www.cdc.gov/tb/media/Core_Curriculum_TB_eBook.pdf
+- Region: United States; clinician education/reference
+- Reading status: PDF title/purpose and selected Chapter 1 sections read; full 211-page curriculum not read. The curriculum says it is a reference manual and not a substitute for specific guidelines.
+- Purpose: Clinician-learning map example linking stated learning objectives with a progression from topic introduction to mechanisms and related chapter topics. No treatment or diagnosis statement from the curriculum is used as current guidance.
+- Checked: 2026-10-09
+
+### S546 - CDC Core Curriculum on Tuberculosis Continuing Education Activity SS4444R
+- URL: https://www.cdc.gov/tb/hcp/education/core-curriculum-on-tuberculosis-continuing-education.html
+- Region: United States; physician, registered nurse, and health-professional continuing education
+- Reading status: Official course description, seven learning objectives, target audience, prerequisites, format, disclosures, accreditation outline and expiration dates inspected; course not completed and no credits claimed
+- Purpose: Course-outline example for mapping objectives across transmission/pathogenesis, testing, diagnosis, treatment, infection control, and team roles; supports recording the current/expired status of education artifacts.
+- Checked: 2026-10-09
+
+### S547 - Nursing Pharmacology-2e section 1.7 Pharmacodynamics
+- URL: https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-7-pharmacodynamics/
+- Region: United States; nursing education
+- Reading status: Agent read publisher section 1.7 and figure credit; parent checked main receptor vocabulary section
+- Purpose: Foundational mechanism and receptor vocabulary; no product efficacy, dosing or individual clinical inference
+- Checked: 2026-10-09

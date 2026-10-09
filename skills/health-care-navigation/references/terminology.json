@@ -1,0 +1,1056 @@
+{
+  "schema": "clinical-term-discovery-v1",
+  "purpose": "Label and test-name discovery; not equivalence, conversion or automatic patient-data merging",
+  "entries": [
+    {
+      "domain": "nutrition",
+      "english": [
+        "protein"
+      ],
+      "serbian_latin": [
+        "proteini"
+      ],
+      "russian": [
+        "\u0431\u0435\u043b\u043a\u0438"
+      ],
+      "id": "nutrition.protein",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "fat"
+      ],
+      "serbian_latin": [
+        "masti"
+      ],
+      "russian": [
+        "\u0436\u0438\u0440\u044b"
+      ],
+      "id": "nutrition.fat",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "carbohydrate"
+      ],
+      "serbian_latin": [
+        "ugljeni hidrati"
+      ],
+      "russian": [
+        "\u0443\u0433\u043b\u0435\u0432\u043e\u0434\u044b"
+      ],
+      "id": "nutrition.carbohydrate",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "sugars"
+      ],
+      "serbian_latin": [
+        "\u0161e\u0107eri"
+      ],
+      "russian": [
+        "\u0441\u0430\u0445\u0430\u0440\u0430"
+      ],
+      "id": "nutrition.sugars",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "salt"
+      ],
+      "serbian_latin": [
+        "so"
+      ],
+      "russian": [
+        "\u0441\u043e\u043b\u044c"
+      ],
+      "id": "nutrition.salt",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "sodium"
+      ],
+      "serbian_latin": [
+        "natrijum"
+      ],
+      "russian": [
+        "\u043d\u0430\u0442\u0440\u0438\u0439"
+      ],
+      "id": "nutrition.sodium",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "domain": "nutrition",
+      "english": [
+        "fibre"
+      ],
+      "serbian_latin": [
+        "vlakna"
+      ],
+      "russian": [
+        "\u043a\u043b\u0435\u0442\u0447\u0430\u0442\u043a\u0430"
+      ],
+      "id": "nutrition.fibre",
+      "limits": "Verify exact jurisdictional definition and denominator on the original label."
+    },
+    {
+      "id": "lab.cbc",
+      "domain": "laboratory",
+      "english": [
+        "CBC"
+      ],
+      "serbian_latin": [
+        "kompletna krvna slika"
+      ],
+      "russian": [
+        "\u043e\u0431\u0449\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043a\u0440\u043e\u0432\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.hemoglobin",
+      "domain": "laboratory",
+      "english": [
+        "hemoglobin"
+      ],
+      "serbian_latin": [
+        "hemoglobin"
+      ],
+      "russian": [
+        "\u0433\u0435\u043c\u043e\u0433\u043b\u043e\u0431\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.hematocrit",
+      "domain": "laboratory",
+      "english": [
+        "hematocrit"
+      ],
+      "serbian_latin": [
+        "hematokrit"
+      ],
+      "russian": [
+        "\u0433\u0435\u043c\u0430\u0442\u043e\u043a\u0440\u0438\u0442"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.rbc",
+      "domain": "laboratory",
+      "english": [
+        "RBC"
+      ],
+      "serbian_latin": [
+        "eritrociti"
+      ],
+      "russian": [
+        "\u044d\u0440\u0438\u0442\u0440\u043e\u0446\u0438\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.wbc",
+      "domain": "laboratory",
+      "english": [
+        "WBC"
+      ],
+      "serbian_latin": [
+        "leukociti"
+      ],
+      "russian": [
+        "\u043b\u0435\u0439\u043a\u043e\u0446\u0438\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.platelets",
+      "domain": "laboratory",
+      "english": [
+        "platelets"
+      ],
+      "serbian_latin": [
+        "trombociti"
+      ],
+      "russian": [
+        "\u0442\u0440\u043e\u043c\u0431\u043e\u0446\u0438\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.neutrophils",
+      "domain": "laboratory",
+      "english": [
+        "neutrophils"
+      ],
+      "serbian_latin": [
+        "neutrofili"
+      ],
+      "russian": [
+        "\u043d\u0435\u0439\u0442\u0440\u043e\u0444\u0438\u043b\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.lymphocytes",
+      "domain": "laboratory",
+      "english": [
+        "lymphocytes"
+      ],
+      "serbian_latin": [
+        "limfociti"
+      ],
+      "russian": [
+        "\u043b\u0438\u043c\u0444\u043e\u0446\u0438\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.eosinophils",
+      "domain": "laboratory",
+      "english": [
+        "eosinophils"
+      ],
+      "serbian_latin": [
+        "eozinofili"
+      ],
+      "russian": [
+        "\u044d\u043e\u0437\u0438\u043d\u043e\u0444\u0438\u043b\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.reticulocytes",
+      "domain": "laboratory",
+      "english": [
+        "reticulocytes"
+      ],
+      "serbian_latin": [
+        "retikulociti"
+      ],
+      "russian": [
+        "\u0440\u0435\u0442\u0438\u043a\u0443\u043b\u043e\u0446\u0438\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.pt",
+      "domain": "laboratory",
+      "english": [
+        "PT"
+      ],
+      "serbian_latin": [
+        "protrombinsko vreme"
+      ],
+      "russian": [
+        "\u043f\u0440\u043e\u0442\u0440\u043e\u043c\u0431\u0438\u043d\u043e\u0432\u043e\u0435 \u0432\u0440\u0435\u043c\u044f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.inr",
+      "domain": "laboratory",
+      "english": [
+        "INR"
+      ],
+      "serbian_latin": [
+        "INR"
+      ],
+      "russian": [
+        "\u041c\u041d\u041e"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.aptt",
+      "domain": "laboratory",
+      "english": [
+        "aPTT"
+      ],
+      "serbian_latin": [
+        "APTT"
+      ],
+      "russian": [
+        "\u0410\u0427\u0422\u0412"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.fibrinogen",
+      "domain": "laboratory",
+      "english": [
+        "fibrinogen"
+      ],
+      "serbian_latin": [
+        "fibrinogen"
+      ],
+      "russian": [
+        "\u0444\u0438\u0431\u0440\u0438\u043d\u043e\u0433\u0435\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.d-dimer",
+      "domain": "laboratory",
+      "english": [
+        "D-dimer"
+      ],
+      "serbian_latin": [
+        "D-dimer"
+      ],
+      "russian": [
+        "\u0414-\u0434\u0438\u043c\u0435\u0440"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.sodium",
+      "domain": "laboratory",
+      "english": [
+        "sodium"
+      ],
+      "serbian_latin": [
+        "natrijum"
+      ],
+      "russian": [
+        "\u043d\u0430\u0442\u0440\u0438\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.potassium",
+      "domain": "laboratory",
+      "english": [
+        "potassium"
+      ],
+      "serbian_latin": [
+        "kalijum"
+      ],
+      "russian": [
+        "\u043a\u0430\u043b\u0438\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.chloride",
+      "domain": "laboratory",
+      "english": [
+        "chloride"
+      ],
+      "serbian_latin": [
+        "hloridi"
+      ],
+      "russian": [
+        "\u0445\u043b\u043e\u0440\u0438\u0434\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.total-calcium",
+      "domain": "laboratory",
+      "english": [
+        "total calcium"
+      ],
+      "serbian_latin": [
+        "ukupni kalcijum"
+      ],
+      "russian": [
+        "\u043a\u0430\u043b\u044c\u0446\u0438\u0439 \u043e\u0431\u0449\u0438\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ionized-calcium",
+      "domain": "laboratory",
+      "english": [
+        "ionized calcium"
+      ],
+      "serbian_latin": [
+        "jonizovani kalcijum"
+      ],
+      "russian": [
+        "\u043a\u0430\u043b\u044c\u0446\u0438\u0439 \u0438\u043e\u043d\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.magnesium",
+      "domain": "laboratory",
+      "english": [
+        "magnesium"
+      ],
+      "serbian_latin": [
+        "magnezijum"
+      ],
+      "russian": [
+        "\u043c\u0430\u0433\u043d\u0438\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.phosphate",
+      "domain": "laboratory",
+      "english": [
+        "phosphate"
+      ],
+      "serbian_latin": [
+        "fosfati"
+      ],
+      "russian": [
+        "\u0444\u043e\u0441\u0444\u0430\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.urea",
+      "domain": "laboratory",
+      "english": [
+        "urea"
+      ],
+      "serbian_latin": [
+        "urea"
+      ],
+      "russian": [
+        "\u043c\u043e\u0447\u0435\u0432\u0438\u043d\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.bun",
+      "domain": "laboratory",
+      "english": [
+        "BUN"
+      ],
+      "serbian_latin": [
+        "azot uree"
+      ],
+      "russian": [
+        "\u0430\u0437\u043e\u0442 \u043c\u043e\u0447\u0435\u0432\u0438\u043d\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.creatinine",
+      "domain": "laboratory",
+      "english": [
+        "creatinine"
+      ],
+      "serbian_latin": [
+        "kreatinin"
+      ],
+      "russian": [
+        "\u043a\u0440\u0435\u0430\u0442\u0438\u043d\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.egfr",
+      "domain": "laboratory",
+      "english": [
+        "eGFR"
+      ],
+      "serbian_latin": [
+        "procenjena glomerularna filtracija"
+      ],
+      "russian": [
+        "\u0440\u0430\u0441\u0447\u0435\u0442\u043d\u0430\u044f \u0421\u041a\u0424"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.cystatin-c",
+      "domain": "laboratory",
+      "english": [
+        "cystatin C"
+      ],
+      "serbian_latin": [
+        "cistatin C"
+      ],
+      "russian": [
+        "\u0446\u0438\u0441\u0442\u0430\u0442\u0438\u043d C"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.urine-acr",
+      "domain": "laboratory",
+      "english": [
+        "urine ACR"
+      ],
+      "serbian_latin": [
+        "odnos albumina i kreatinina u urinu"
+      ],
+      "russian": [
+        "\u0430\u043b\u044c\u0431\u0443\u043c\u0438\u043d \u043a\u0440\u0435\u0430\u0442\u0438\u043d\u0438\u043d\u043e\u0432\u043e\u0435 \u0441\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u043c\u043e\u0447\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.alt",
+      "domain": "laboratory",
+      "english": [
+        "ALT"
+      ],
+      "serbian_latin": [
+        "alanin aminotransferaza"
+      ],
+      "russian": [
+        "\u0410\u041b\u0422"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ast",
+      "domain": "laboratory",
+      "english": [
+        "AST"
+      ],
+      "serbian_latin": [
+        "aspartat aminotransferaza"
+      ],
+      "russian": [
+        "\u0410\u0421\u0422"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.alp",
+      "domain": "laboratory",
+      "english": [
+        "ALP"
+      ],
+      "serbian_latin": [
+        "alkalna fosfataza"
+      ],
+      "russian": [
+        "\u0449\u0435\u043b\u043e\u0447\u043d\u0430\u044f \u0444\u043e\u0441\u0444\u0430\u0442\u0430\u0437\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ggt",
+      "domain": "laboratory",
+      "english": [
+        "GGT"
+      ],
+      "serbian_latin": [
+        "gama glutamil transferaza"
+      ],
+      "russian": [
+        "\u0413\u0413\u0422"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.total-bilirubin",
+      "domain": "laboratory",
+      "english": [
+        "total bilirubin"
+      ],
+      "serbian_latin": [
+        "ukupni bilirubin"
+      ],
+      "russian": [
+        "\u0431\u0438\u043b\u0438\u0440\u0443\u0431\u0438\u043d \u043e\u0431\u0449\u0438\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.direct-bilirubin",
+      "domain": "laboratory",
+      "english": [
+        "direct bilirubin"
+      ],
+      "serbian_latin": [
+        "direktni bilirubin"
+      ],
+      "russian": [
+        "\u0431\u0438\u043b\u0438\u0440\u0443\u0431\u0438\u043d \u043f\u0440\u044f\u043c\u043e\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.serum-albumin",
+      "domain": "laboratory",
+      "english": [
+        "serum albumin"
+      ],
+      "serbian_latin": [
+        "albumin u serumu"
+      ],
+      "russian": [
+        "\u0430\u043b\u044c\u0431\u0443\u043c\u0438\u043d \u0441\u044b\u0432\u043e\u0440\u043e\u0442\u043a\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.urine-albumin",
+      "domain": "laboratory",
+      "english": [
+        "urine albumin"
+      ],
+      "serbian_latin": [
+        "albumin u urinu"
+      ],
+      "russian": [
+        "\u0430\u043b\u044c\u0431\u0443\u043c\u0438\u043d \u043c\u043e\u0447\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.total-protein",
+      "domain": "laboratory",
+      "english": [
+        "total protein"
+      ],
+      "serbian_latin": [
+        "ukupni proteini"
+      ],
+      "russian": [
+        "\u043e\u0431\u0449\u0438\u0439 \u0431\u0435\u043b\u043e\u043a"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ck",
+      "domain": "laboratory",
+      "english": [
+        "CK"
+      ],
+      "serbian_latin": [
+        "kreatin kinaza"
+      ],
+      "russian": [
+        "\u043a\u0440\u0435\u0430\u0442\u0438\u043d\u043a\u0438\u043d\u0430\u0437\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ldh",
+      "domain": "laboratory",
+      "english": [
+        "LDH"
+      ],
+      "serbian_latin": [
+        "laktat dehidrogenaza"
+      ],
+      "russian": [
+        "\u043b\u0430\u043a\u0442\u0430\u0442\u0434\u0435\u0433\u0438\u0434\u0440\u043e\u0433\u0435\u043d\u0430\u0437\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.glucose",
+      "domain": "laboratory",
+      "english": [
+        "glucose"
+      ],
+      "serbian_latin": [
+        "glukoza"
+      ],
+      "russian": [
+        "\u0433\u043b\u044e\u043a\u043e\u0437\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.hba1c",
+      "domain": "laboratory",
+      "english": [
+        "HbA1c"
+      ],
+      "serbian_latin": [
+        "glikozilirani hemoglobin"
+      ],
+      "russian": [
+        "\u0433\u043b\u0438\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0433\u0435\u043c\u043e\u0433\u043b\u043e\u0431\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.total-cholesterol",
+      "domain": "laboratory",
+      "english": [
+        "total cholesterol"
+      ],
+      "serbian_latin": [
+        "ukupni holesterol"
+      ],
+      "russian": [
+        "\u043e\u0431\u0449\u0438\u0439 \u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ldl-cholesterol",
+      "domain": "laboratory",
+      "english": [
+        "LDL cholesterol"
+      ],
+      "serbian_latin": [
+        "LDL holesterol"
+      ],
+      "russian": [
+        "\u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d \u041b\u041f\u041d\u041f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.hdl-cholesterol",
+      "domain": "laboratory",
+      "english": [
+        "HDL cholesterol"
+      ],
+      "serbian_latin": [
+        "HDL holesterol"
+      ],
+      "russian": [
+        "\u0445\u043e\u043b\u0435\u0441\u0442\u0435\u0440\u0438\u043d \u041b\u041f\u0412\u041f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.triglycerides",
+      "domain": "laboratory",
+      "english": [
+        "triglycerides"
+      ],
+      "serbian_latin": [
+        "trigliceridi"
+      ],
+      "russian": [
+        "\u0442\u0440\u0438\u0433\u043b\u0438\u0446\u0435\u0440\u0438\u0434\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.ferritin",
+      "domain": "laboratory",
+      "english": [
+        "ferritin"
+      ],
+      "serbian_latin": [
+        "feritin"
+      ],
+      "russian": [
+        "\u0444\u0435\u0440\u0440\u0438\u0442\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.serum-iron",
+      "domain": "laboratory",
+      "english": [
+        "serum iron"
+      ],
+      "serbian_latin": [
+        "gvozdje"
+      ],
+      "russian": [
+        "\u0436\u0435\u043b\u0435\u0437\u043e \u0441\u044b\u0432\u043e\u0440\u043e\u0442\u043a\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.transferrin",
+      "domain": "laboratory",
+      "english": [
+        "transferrin"
+      ],
+      "serbian_latin": [
+        "transferin"
+      ],
+      "russian": [
+        "\u0442\u0440\u0430\u043d\u0441\u0444\u0435\u0440\u0440\u0438\u043d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.tsat",
+      "domain": "laboratory",
+      "english": [
+        "TSAT"
+      ],
+      "serbian_latin": [
+        "saturacija transferina"
+      ],
+      "russian": [
+        "\u043d\u0430\u0441\u044b\u0449\u0435\u043d\u0438\u0435 \u0442\u0440\u0430\u043d\u0441\u0444\u0435\u0440\u0440\u0438\u043d\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.tsh",
+      "domain": "laboratory",
+      "english": [
+        "TSH"
+      ],
+      "serbian_latin": [
+        "tireostimulirajuci hormon"
+      ],
+      "russian": [
+        "\u0422\u0422\u0413"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.free-t4",
+      "domain": "laboratory",
+      "english": [
+        "free T4"
+      ],
+      "serbian_latin": [
+        "slobodni T4"
+      ],
+      "russian": [
+        "\u04224 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.free-t3",
+      "domain": "laboratory",
+      "english": [
+        "free T3"
+      ],
+      "serbian_latin": [
+        "slobodni T3"
+      ],
+      "russian": [
+        "\u04223 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.crp",
+      "domain": "laboratory",
+      "english": [
+        "CRP"
+      ],
+      "serbian_latin": [
+        "C reaktivni protein"
+      ],
+      "russian": [
+        "\u0421 \u0440\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u0435\u043b\u043e\u043a"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.esr",
+      "domain": "laboratory",
+      "english": [
+        "ESR"
+      ],
+      "serbian_latin": [
+        "sedimentacija eritrocita"
+      ],
+      "russian": [
+        "\u0421\u041e\u042d"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.vitamin-b12",
+      "domain": "laboratory",
+      "english": [
+        "vitamin B12"
+      ],
+      "serbian_latin": [
+        "vitamin B12"
+      ],
+      "russian": [
+        "\u0432\u0438\u0442\u0430\u043c\u0438\u043d B12"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.folate",
+      "domain": "laboratory",
+      "english": [
+        "folate"
+      ],
+      "serbian_latin": [
+        "folati"
+      ],
+      "russian": [
+        "\u0444\u043e\u043b\u0430\u0442\u044b"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.25-hydroxyvitamin-d",
+      "domain": "laboratory",
+      "english": [
+        "25 hydroxyvitamin D"
+      ],
+      "serbian_latin": [
+        "25 OH vitamin D"
+      ],
+      "russian": [
+        "25 \u0433\u0438\u0434\u0440\u043e\u043a\u0441\u0438\u0432\u0438\u0442\u0430\u043c\u0438\u043d D"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.troponin-i",
+      "domain": "laboratory",
+      "english": [
+        "troponin I"
+      ],
+      "serbian_latin": [
+        "troponin I"
+      ],
+      "russian": [
+        "\u0442\u0440\u043e\u043f\u043e\u043d\u0438\u043d I"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.troponin-t",
+      "domain": "laboratory",
+      "english": [
+        "troponin T"
+      ],
+      "serbian_latin": [
+        "troponin T"
+      ],
+      "russian": [
+        "\u0442\u0440\u043e\u043f\u043e\u043d\u0438\u043d T"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.nt-probnp",
+      "domain": "laboratory",
+      "english": [
+        "NT-proBNP"
+      ],
+      "serbian_latin": [
+        "NT-proBNP"
+      ],
+      "russian": [
+        "NT-proBNP"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.urinalysis",
+      "domain": "laboratory",
+      "english": [
+        "urinalysis"
+      ],
+      "serbian_latin": [
+        "pregled urina"
+      ],
+      "russian": [
+        "\u043e\u0431\u0449\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043c\u043e\u0447\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.urine-culture",
+      "domain": "laboratory",
+      "english": [
+        "urine culture"
+      ],
+      "serbian_latin": [
+        "urinokultura"
+      ],
+      "russian": [
+        "\u043f\u043e\u0441\u0435\u0432 \u043c\u043e\u0447\u0438"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.stool-analysis",
+      "domain": "laboratory",
+      "english": [
+        "stool analysis"
+      ],
+      "serbian_latin": [
+        "analiza stolice"
+      ],
+      "russian": [
+        "\u0430\u043d\u0430\u043b\u0438\u0437 \u043a\u0430\u043b\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.semen-analysis",
+      "domain": "laboratory",
+      "english": [
+        "semen analysis"
+      ],
+      "serbian_latin": [
+        "spermogram"
+      ],
+      "russian": [
+        "\u0441\u043f\u0435\u0440\u043c\u043e\u0433\u0440\u0430\u043c\u043c\u0430"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.cytology",
+      "domain": "laboratory",
+      "english": [
+        "cytology"
+      ],
+      "serbian_latin": [
+        "citologija"
+      ],
+      "russian": [
+        "\u0446\u0438\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.histology",
+      "domain": "laboratory",
+      "english": [
+        "histology"
+      ],
+      "serbian_latin": [
+        "histologija"
+      ],
+      "russian": [
+        "\u0433\u0438\u0441\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.biopsy",
+      "domain": "laboratory",
+      "english": [
+        "biopsy"
+      ],
+      "serbian_latin": [
+        "biopsija"
+      ],
+      "russian": [
+        "\u0431\u0438\u043e\u043f\u0441\u0438\u044f"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    },
+    {
+      "id": "lab.hbsag",
+      "domain": "laboratory",
+      "english": [
+        "HBsAg"
+      ],
+      "serbian_latin": [
+        "HBsAg"
+      ],
+      "russian": [
+        "\u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u043d\u044b\u0439 \u0430\u043d\u0442\u0438\u0433\u0435\u043d \u0433\u0435\u043f\u0430\u0442\u0438\u0442\u0430 B"
+      ],
+      "limits": "Discovery alias only; confirm original analyte, specimen, method and units. No automatic identity mapping or conversion."
+    }
+  ]
+}

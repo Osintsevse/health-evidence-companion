@@ -1,0 +1,4481 @@
+{
+  "schema": "clinical-routes-v1",
+  "purpose": "Informational retrieval and lay-action cards; no automated diagnosis/prescribing",
+  "routes": [
+    {
+      "id": "emergency.recognise_act",
+      "title": "Emergency response format and dispatch",
+      "triggers": [
+        "Potential immediate threat",
+        "Unknown current location"
+      ],
+      "minimum_context": [
+        "Current country/location if available",
+        "Responsiveness and normal versus abnormal breathing",
+        "Age category when it changes care"
+      ],
+      "actions": [
+        "Lead with 3\u20135 actions, approximately 60\u2013120 words as editorial target",
+        "Call local emergency service now; give location first; speakerphone",
+        "Scene safety, appropriate immediate first aid, observe changes",
+        "Live dispatcher overrides generic sequence; clarify inability/conflict"
+      ],
+      "avoid": [
+        "Photo, long interview, diagnosis or web search before action",
+        "Assuming nationality equals current location",
+        "Worldwide silent-call location promises"
+      ],
+      "escalation": "Emergency service now for immediate threats; number verification in parallel, never before care.",
+      "source_ids": [
+        "S267",
+        "S268",
+        "S289",
+        "S291",
+        "S290"
+      ]
+    },
+    {
+      "id": "emergency.stroke_tia",
+      "title": "Sudden neurological symptoms, including resolved",
+      "triggers": [
+        "Sudden face/arm/speech change",
+        "Sudden vision/balance deficit",
+        "Recent deficits resolved"
+      ],
+      "minimum_context": [
+        "Onset or last known well if readily available",
+        "Current symptoms and breathing"
+      ],
+      "actions": [
+        "Call ambulance now",
+        "Note last known well/onset without delay",
+        "Rest and monitor; tell dispatcher symptoms resolved",
+        "Communicate relevant medicines to responders"
+      ],
+      "avoid": [
+        "Aspirin universal order",
+        "Rapid BP manipulation",
+        "Food/drink with uncertain swallowing",
+        "FAST or home reading used to exclude stroke",
+        "Video/balance testing before call"
+      ],
+      "escalation": "Recent stroke-like deficits emergency even after resolution; older resolved episodes prompt clinical assessment, no invented safe waiting period.",
+      "source_ids": [
+        "S275"
+      ]
+    },
+    {
+      "id": "emergency.chest",
+      "title": "Suspected cardiac chest symptoms",
+      "triggers": [
+        "New pressure/squeezing or spreading discomfort",
+        "Severe breathlessness",
+        "Chest symptoms with collapse"
+      ],
+      "minimum_context": [
+        "Responsiveness/breathing",
+        "Onset and relevant accompanying warnings, without delaying call"
+      ],
+      "actions": [
+        "Emergency call for concerning pattern",
+        "Stop exertion; supported comfortable rest",
+        "No self-driving; observe",
+        "Ask dispatcher about aspirin; own prescribed angina plan only"
+      ],
+      "avoid": [
+        "Universal aspirin",
+        "Someone else's nitrate",
+        "Extra BP medicine",
+        "Reassurance from smartwatch or anxiety history"
+      ],
+      "escalation": "Emergency for concerning acute pattern; new/recurrent less severe symptoms clinical assessment.",
+      "source_ids": [
+        "S276"
+      ]
+    },
+    {
+      "id": "emergency.arrest_adult",
+      "title": "Unresponsive adult with abnormal breathing",
+      "triggers": [
+        "Unresponsive",
+        "Absent/abnormal breathing or only gasps"
+      ],
+      "minimum_context": [
+        "Scene safe",
+        "Adult versus paediatric category"
+      ],
+      "actions": [
+        "Call on speakerphone immediately",
+        "Brief breathing assessment, max 10 seconds",
+        "Chest compressions 100\u2013120/min, 5\u20136 cm; recoil",
+        "30:2 if trained/able, otherwise continuous compressions",
+        "AED prompts and dispatcher; keep clear for analysis/shock"
+      ],
+      "avoid": [
+        "Pulse-check delay",
+        "Gasping treated as normal",
+        "Lengthy AED search alone",
+        "Mixing professional respiratory-arrest algorithm into lay care"
+      ],
+      "escalation": "Emergency and CPR/AED until appropriate stopping condition or professional takeover.",
+      "source_ids": [
+        "S267",
+        "S292"
+      ]
+    },
+    {
+      "id": "emergency.arrest_pediatric",
+      "title": "Paediatric arrest with regional algorithm intact",
+      "triggers": [
+        "Infant/child unresponsive and abnormal breathing"
+      ],
+      "minimum_context": [
+        "Age/size",
+        "Rescuer training",
+        "Dispatcher protocol"
+      ],
+      "actions": [
+        "Call and start CPR with breaths if able",
+        "ERC/RCUK 2025: five initial breaths; 15:2 paediatric trained, otherwise 30:2",
+        "AHA 2025: compressions first, lone lay 30 compressions with breaths",
+        "Depth one-third chest; child ~5 cm, infant ~4 cm; 100\u2013120/min",
+        "AHA infant technique heel of hand or two-thumb encircling; AED pediatric settings if available"
+      ],
+      "avoid": [
+        "Hybrid start sequence",
+        "Two-finger infant CPR promoted as current AHA",
+        "Birth resuscitation extrapolation",
+        "Withholding available AED solely for missing pediatric pads"
+      ],
+      "escalation": "Immediate emergency service; dispatcher/local training precedence.",
+      "source_ids": [
+        "S269",
+        "S270",
+        "S271"
+      ]
+    },
+    {
+      "id": "emergency.choking",
+      "title": "Choking by effective cough and age",
+      "triggers": [
+        "Food/object episode",
+        "Cannot speak/cry, weak/silent cough or cannot breathe"
+      ],
+      "minimum_context": [
+        "Effective cough versus ineffective",
+        "Under one year versus child/adult",
+        "Pregnancy or cannot encircle abdomen"
+      ],
+      "actions": [
+        "Effective cough: encourage cough and observe",
+        "Severe: emergency call in parallel; adult/child up to five back blows then five abdominal thrusts",
+        "Pregnancy/body-size adaptation: chest thrusts",
+        "Infant: supported head-low back blows then chest thrusts; no abdominal thrusts",
+        "ERC/RCUK two-thumb infant thrust versus AHA heel-of-hand; dispatcher/local current training",
+        "Unresponsive: appropriate CPR pathway; visible object only"
+      ],
+      "avoid": [
+        "Blind sweeps",
+        "Water",
+        "Hang/shake infant",
+        "Suction gadget delays",
+        "Mix current CPR and old choking hand techniques without explaining"
+      ],
+      "escalation": "Immediate help for severe obstruction; assessment after abdominal thrusts/chest compressions or persistent symptoms.",
+      "source_ids": [
+        "S273",
+        "S274",
+        "S269",
+        "S270",
+        "S272",
+        "S268"
+      ]
+    },
+    {
+      "id": "emergency.bleeding",
+      "title": "Life-threatening bleeding",
+      "triggers": [
+        "Rapid/pooling blood",
+        "Amputation",
+        "Bleeding with collapse"
+      ],
+      "minimum_context": [
+        "Scene safety",
+        "Limb versus torso/other site",
+        "Embedded object/open fracture"
+      ],
+      "actions": [
+        "Emergency call",
+        "Firm uninterrupted direct pressure",
+        "Purpose-made tourniquet for uncontrolled life-threatening limb bleeding under training/product/dispatcher",
+        "Note time; do not loosen; warmth and monitor"
+      ],
+      "avoid": [
+        "Invented blood-volume threshold",
+        "Object removal",
+        "Chest/abdominal probing",
+        "Tourniquet on neck/torso",
+        "Cleaning/photo before pressure"
+      ],
+      "escalation": "Emergency now.",
+      "source_ids": [
+        "S268",
+        "S284",
+        "S294"
+      ]
+    },
+    {
+      "id": "emergency.anaphylaxis",
+      "title": "Anaphylaxis and prescribed injector",
+      "triggers": [
+        "Airway/breathing/circulation symptoms after allergen",
+        "Rapid throat/tongue swelling or faintness"
+      ],
+      "minimum_context": [
+        "Actual prescribed injector device",
+        "Breathing/responsiveness",
+        "Time of first injection"
+      ],
+      "actions": [
+        "Prescribed auto-injector outer thigh promptly under label",
+        "Emergency call; say suspected anaphylaxis",
+        "Lie down; breathing difficulty sit with legs extended; pregnancy left side",
+        "Second prescribed injector after five minutes persistent severe symptoms under dispatcher/plan",
+        "Monitor and arrest pathway if needed"
+      ],
+      "avoid": [
+        "Waiting for rash",
+        "Antihistamine substitution",
+        "Standing/walking after improvement",
+        "Universal cap/hold time",
+        "Child dose/strength calculation or ampoules"
+      ],
+      "escalation": "Emergency even after improvement.",
+      "source_ids": [
+        "S268",
+        "S177",
+        "S287",
+        "S288"
+      ]
+    },
+    {
+      "id": "emergency.seizure",
+      "title": "Seizure protection and routing",
+      "triggers": [
+        "Convulsions",
+        "First/prolonged/repeated seizure",
+        "Recovery uncertainty"
+      ],
+      "minimum_context": [
+        "Start/duration if known",
+        "Known plan",
+        "Breathing after movements stop"
+      ],
+      "actions": [
+        "Clear hazards; cushion head; time",
+        "No restraint/mouth objects",
+        "Emergency for first, five-minute/prolonged, repeat without recovery, injury or breathing concern",
+        "After convulsions assess breathing; side if normal, CPR if abnormal",
+        "Trained existing prescribed rescue plan only"
+      ],
+      "avoid": [
+        "Waiting another five minutes when onset unknown",
+        "Food/drink before full recovery",
+        "Tongue-swallowing myth",
+        "Assuming brief jerking excludes cardiac arrest"
+      ],
+      "escalation": "Known typical seizure with full recovery may follow established plan; danger signs emergency.",
+      "source_ids": [
+        "S282",
+        "S267"
+      ]
+    },
+    {
+      "id": "emergency.poison",
+      "title": "Poisoning and overdose",
+      "triggers": [
+        "Possible harmful exposure",
+        "Possible paracetamol excess without symptoms",
+        "Unresponsive possible opioid exposure"
+      ],
+      "minimum_context": [
+        "Substance/formulation and timing if available",
+        "Age, amount uncertainty, symptoms",
+        "Rescue product"
+      ],
+      "actions": [
+        "Danger signs: emergency, CPR/airway",
+        "Otherwise immediate local poison/urgent medical advice",
+        "Packaging and times, no delay",
+        "Paracetamol excess needs immediate expert assessment despite wellness",
+        "Naloxone actual product/local instructions alongside CPR; emergency after response",
+        "Safe exposure removal/irrigation"
+      ],
+      "avoid": [
+        "Induced vomiting",
+        "Home antidote/charcoal",
+        "Toxicity arithmetic reassurance",
+        "Wait for symptoms or timed blood test",
+        "Coffee/shower/forced walking",
+        "Oral intake if impaired; universal dilution"
+      ],
+      "escalation": "Immediate expert assessment for possible poisoning; ambulance for impaired responsiveness/breathing/seizure.",
+      "source_ids": [
+        "S277",
+        "S278",
+        "S279",
+        "S280",
+        "S293"
+      ]
+    },
+    {
+      "id": "emergency.hypoglycemia",
+      "title": "Low glucose and safe swallowing",
+      "triggers": [
+        "Diabetes with low reading or shaking/confusion",
+        "Impaired consciousness/unsafe swallow"
+      ],
+      "minimum_context": [
+        "Awake and safe swallowing",
+        "Glucose if ready",
+        "Prescribed diabetes/rescue plan"
+      ],
+      "actions": [
+        "Awake safe swallow: fast glucose; adult 15\u201320 g under standard plan",
+        "Recheck 10\u201315min, repeat under plan; help if no improvement",
+        "Unsafe swallow: emergency, no oral intake; airway/CPR",
+        "Trained prescribed glucagon actual device",
+        "Child amount belongs to individual plan"
+      ],
+      "avoid": [
+        "Insulin for low reading",
+        "Gel/honey/sugar in unconscious mouth",
+        "Adult dose scaled to child",
+        "Ignoring focal deficits or trauma"
+      ],
+      "escalation": "Unsafe swallowing/poor recovery emergency; persistent/recurrent lows need clinical review.",
+      "source_ids": [
+        "S281",
+        "S293"
+      ]
+    },
+    {
+      "id": "emergency.burns",
+      "title": "Thermal burns and chemical/electrical injuries",
+      "triggers": [
+        "Heat burn/scald",
+        "Chemical/electrical exposure",
+        "Major/deep/face burn or breathing concern"
+      ],
+      "minimum_context": [
+        "Safe exposure isolation",
+        "Mechanism, site, approximate extent",
+        "Breathing"
+      ],
+      "actions": [
+        "Stop exposure safely",
+        "Thermal cool running water 20min; remove unstuck clothing/jewelry",
+        "Keep remainder warm; loose non-adherent cover",
+        "Chemical/electrical specific instructions and urgent emergency assessment"
+      ],
+      "avoid": [
+        "Ice/butter/oils/cream",
+        "Burst blisters",
+        "Peel stuck material",
+        "Cooling delays emergency call",
+        "Photo clears depth"
+      ],
+      "escalation": "Emergency assessment for major/deep, face, electrical/chemical or breathing concerns; advice for uncertain minor injuries.",
+      "source_ids": [
+        "S283",
+        "S278"
+      ]
+    },
+    {
+      "id": "emergency.fracture_head",
+      "title": "Fracture and head injury",
+      "triggers": [
+        "Injury with deformity/pain",
+        "Open fracture/numb/cold limb",
+        "Head injury with neurological/drowsiness signs"
+      ],
+      "minimum_context": [
+        "Mechanism and site",
+        "Breathing/responsiveness",
+        "Blood thinners if readily known"
+      ],
+      "actions": [
+        "Support in found position; keep still",
+        "Emergency for open/major/spine/pelvic fracture, shock or sensation change",
+        "Cover wound without pushing bone",
+        "Head danger signs emergency; vomiting/persistent headache/blood thinners urgent advice",
+        "Airway takes priority over spine restriction"
+      ],
+      "avoid": [
+        "Straighten/test weight bearing",
+        "Photo/pupil/chat clearance",
+        "Return to sport with concussion symptoms",
+        "Routine recovery-position movement ignoring major trauma"
+      ],
+      "escalation": "Emergency danger signs; smaller stable injuries timely assessment/local supported transport.",
+      "source_ids": [
+        "S284",
+        "S285",
+        "S268"
+      ]
+    },
+    {
+      "id": "emergency.sepsis",
+      "title": "Infection with dangerous deterioration",
+      "triggers": [
+        "Infection-like illness with confusion",
+        "Very fast/severe breathing",
+        "Abnormal colour/unresponsiveness",
+        "Infant poor feeding/abnormal cry/respiratory distress"
+      ],
+      "minimum_context": [
+        "Age",
+        "Responsiveness/breathing",
+        "Trajectory and relevant immune suppression/pregnancy"
+      ],
+      "actions": [
+        "Emergency call for danger signs",
+        "Observe breathing/responsiveness",
+        "Tell dispatcher infection concern and rapid changes",
+        "Prompt clinical assessment for high-risk infant fever"
+      ],
+      "avoid": [
+        "Wait for fever/rash/BP/score",
+        "Diagnose from fever alone",
+        "Home antibiotics/regimen",
+        "Normal reading clears serious illness"
+      ],
+      "escalation": "Emergency danger signs; mild stable illness appropriate clinical advice and explicit worsening triggers.",
+      "source_ids": [
+        "S286"
+      ]
+    },
+    {
+      "id": "emergency.drowning_environment_asthma",
+      "title": "Drowning, heat/cold exposure and existing asthma rescue plan",
+      "triggers": [
+        "Water distress or submersion",
+        "Heat exposure with neurological/respiratory danger",
+        "Suspected hypothermia",
+        "Severe asthma symptoms"
+      ],
+      "minimum_context": [
+        "Scene safe",
+        "Responsiveness and breathing",
+        "Actual asthma inhaler/plan if relevant"
+      ],
+      "actions": [
+        "Drowning: call/lifeguard, safe reach/flotation; no untrained dangerous entry",
+        "Once safe: breathing/CPR; ERC/RCUK five initial breaths; local training/dispatcher sequence intact",
+        "Heat danger: emergency and active cooling immediately; mild alert exhaustion cool and safe-swallow drinks",
+        "Cold danger: emergency, gentle shelter and dry insulation; monitor",
+        "Asthma severe: call, upright, own prescribed reliever under plan, device-specific spacer if appropriate"
+      ],
+      "avoid": [
+        "Water expulsion manoeuvres",
+        "Await temperature/dry skin or 30min with heat danger",
+        "Hot bath/alcohol/limb rubbing",
+        "Unsafe-swallow drinks",
+        "Generic SABA/MART puff count or oral steroid prescription",
+        "Multiple competing algorithms in live first reply"
+      ],
+      "escalation": "Emergency for neurological/respiratory danger, suspected hypothermia, submersion breathing concerns or severe asthma; clinical review after asthma recovery.",
+      "source_ids": [
+        "S268",
+        "S293",
+        "S295",
+        "S296",
+        "S297"
+      ]
+    },
+    {
+      "id": "medicines.medicine-identity",
+      "title": "Identify product before interpreting it",
+      "triggers": [
+        "Unknown brand",
+        "Formulation/route change",
+        "Cross-country label"
+      ],
+      "minimum_context": [
+        "INN/all ingredients",
+        "Form/strength/concentration/route",
+        "Country",
+        "Relevant indication"
+      ],
+      "actions": [
+        "Preserve unknown identity",
+        "Retrieve exact national label and revision",
+        "Use ATC for classification only"
+      ],
+      "avoid": [
+        "Guessing brand from transcription",
+        "DDD as patient dose",
+        "Transferring Forte/MR/liquid doses"
+      ],
+      "escalation": [
+        "Pharmacist for unresolved identity",
+        "Emergency/poison pathway when exposure may be harmful"
+      ],
+      "source_ids": [
+        "S298",
+        "S12",
+        "S300",
+        "S303",
+        "S302"
+      ]
+    },
+    {
+      "id": "medicines.medicine-review",
+      "title": "Structured prescription information review",
+      "triggers": [
+        "Review a prescription",
+        "Multiple medicines",
+        "Care transition"
+      ],
+      "minimum_context": [
+        "Exact products including OTC/PRN/herbs",
+        "Indications",
+        "Prescribed versus reported use",
+        "Relevant kidney/liver/life-stage facts"
+      ],
+      "actions": [
+        "Check duplication then pairs and cumulative effects",
+        "Compare label and indication guideline",
+        "Explain benefit/burden and monitoring questions",
+        "Label conclusions and access uncertainty"
+      ],
+      "avoid": [
+        "Whole-regimen clearance from partial list",
+        "Automatic stopping",
+        "Inventing absent current use"
+      ],
+      "escalation": [
+        "Pharmacist/prescriber for discrepancies or monitoring",
+        "Urgent help for serious reaction"
+      ],
+      "source_ids": [
+        "S308",
+        "S69",
+        "S310",
+        "S97"
+      ]
+    },
+    {
+      "id": "medicines.medicine-missed",
+      "title": "Missed or interrupted medicine",
+      "triggers": [
+        "Late dose",
+        "Several doses missed",
+        "Restart request"
+      ],
+      "minimum_context": [
+        "Exact product",
+        "Prescribed schedule",
+        "Last confirmed use",
+        "Delay and next dose",
+        "Symptoms and high-risk context"
+      ],
+      "actions": [
+        "Retrieve exact leaflet or team plan",
+        "Identify time-critical medicines",
+        "Seek prompt professional advice when uncertainty or interruption matters"
+      ],
+      "avoid": [
+        "Automatically double",
+        "Universal missed-dose window",
+        "Chat reload/restart/titration"
+      ],
+      "escalation": [
+        "Same-day pharmacist/team for time-critical uncertainty",
+        "Emergency response for acute deterioration"
+      ],
+      "source_ids": [
+        "S309",
+        "S316",
+        "S317",
+        "S26"
+      ]
+    },
+    {
+      "id": "medicines.medicine-extra",
+      "title": "Extra dose or duplicate ingredient exposure",
+      "triggers": [
+        "Extra dose",
+        "Two cold products",
+        "Uncertain quantity",
+        "Daily versus weekly error"
+      ],
+      "minimum_context": [
+        "Ingredient and concentration",
+        "Amount/timing",
+        "Relevant age/life stage",
+        "Current symptoms"
+      ],
+      "actions": [
+        "Treat as poisoning question",
+        "Obtain poison-service or emergency advice promptly",
+        "Use packaging/timeline without delaying help"
+      ],
+      "avoid": [
+        "Wait for symptoms",
+        "Induce vomiting",
+        "Reassuring threshold from incomplete history",
+        "Only adjust next dose"
+      ],
+      "escalation": [
+        "Emergency for collapse/seizure/breathing difficulty/marked confusion/severe bleeding",
+        "Urgent poison/professional advice for potentially toxic asymptomatic exposure"
+      ],
+      "source_ids": [
+        "S309",
+        "S317",
+        "S303",
+        "S277",
+        "S278",
+        "S279"
+      ]
+    },
+    {
+      "id": "medicines.medicine-reaction",
+      "title": "Adverse effect, intolerance or suspected allergy",
+      "triggers": [
+        "Rash after medicine",
+        "Nausea called allergy",
+        "Remove allergy label"
+      ],
+      "minimum_context": [
+        "Reaction description/severity",
+        "Timing",
+        "Exact product/route",
+        "Other explanations"
+      ],
+      "actions": [
+        "Urgency first",
+        "Separate adverse reaction from suspected immune allergy",
+        "Record source/date and uncertainty",
+        "Prepare specialist questions"
+      ],
+      "avoid": [
+        "Home rechallenge",
+        "Diagnosing photo",
+        "Erasing unconfirmed label",
+        "Delaying severe-reaction help"
+      ],
+      "escalation": [
+        "Emergency airway/collapse/severe mucocutaneous reaction",
+        "Allergy/prescriber assessment for label reconciliation"
+      ],
+      "source_ids": [
+        "S94",
+        "S315",
+        "S287",
+        "S177"
+      ]
+    },
+    {
+      "id": "medicines.medicine-rescue",
+      "title": "Already prescribed emergency plan",
+      "triggers": [
+        "Existing adrenaline/asthma/seizure/adrenal plan",
+        "Rescue device question"
+      ],
+      "minimum_context": [
+        "Plan/device identity if available without delay",
+        "Current severity"
+      ],
+      "actions": [
+        "Support clear existing clinician instructions",
+        "Call emergency help when indicated",
+        "Verify device label if time permits"
+      ],
+      "avoid": [
+        "Invent rescue prescription",
+        "Treat antihistamine as adrenaline replacement",
+        "Convert maintenance drug to rescue"
+      ],
+      "escalation": [
+        "Emergency for serious symptoms",
+        "Treating team for unclear or missing plan"
+      ],
+      "source_ids": [
+        "S24",
+        "S94",
+        "S320",
+        "S303",
+        "S268",
+        "S287",
+        "S288"
+      ]
+    },
+    {
+      "id": "medicines.medicine-guideline-choice",
+      "title": "Explain standard classes before clinician decision",
+      "triggers": [
+        "Which class is usually used",
+        "Why this prescription",
+        "Options discussion"
+      ],
+      "minimum_context": [
+        "Diagnosis/indication",
+        "Region",
+        "Severity/previous treatment",
+        "Relevant organ/life-stage modifiers"
+      ],
+      "actions": [
+        "Retrieve current indication-specific guideline",
+        "Distinguish standard/conditional/new/referral options",
+        "Explain clinician-required facts and patient questions"
+      ],
+      "avoid": [
+        "Personal Rx or dosing",
+        "BP/glucose treatment from a bare value",
+        "Mechanism as proof"
+      ],
+      "escalation": [
+        "Clinician for diagnosis and selection",
+        "Emergency for severe acute symptoms"
+      ],
+      "source_ids": [
+        "S29",
+        "S305",
+        "S304",
+        "S97",
+        "S24",
+        "S306",
+        "S307"
+      ]
+    },
+    {
+      "id": "medicines.medicine-organ-stage",
+      "title": "Organ function and life-stage modifiers",
+      "triggers": [
+        "Renal/liver impairment",
+        "Pregnancy/breastfeeding",
+        "Child/older adult",
+        "Dehydration/procedure"
+      ],
+      "minimum_context": [
+        "Exact product/route",
+        "Relevant stage",
+        "Dated relevant clinical data",
+        "Existing plan"
+      ],
+      "actions": [
+        "Read exact label population sections",
+        "Distinguish eGFR from required clearance measure",
+        "Explain monitoring/acute-context uncertainty"
+      ],
+      "avoid": [
+        "Adult extrapolation",
+        "Chat renal/pediatric dosing",
+        "Universal sick-day hold list"
+      ],
+      "escalation": [
+        "Pharmacist/prescriber for plans",
+        "Urgent suspected ketoacidosis/toxicity"
+      ],
+      "source_ids": [
+        "S97",
+        "S318",
+        "S319",
+        "S316",
+        "S315"
+      ]
+    },
+    {
+      "id": "medicines.medicine-evidence-new",
+      "title": "Evidence, approval and investigational status",
+      "triggers": [
+        "Homeopathy",
+        "Breakthrough drug",
+        "Trial versus approved",
+        "Immune booster"
+      ],
+      "minimum_context": [
+        "Exact intervention",
+        "Indication/population",
+        "Country",
+        "Claim/outcome"
+      ],
+      "actions": [
+        "Separate mechanism/evidence/approval/access",
+        "Inspect guideline and outcomes",
+        "State supported/conditional/against/unestablished/pending",
+        "Verify exact dated authorization"
+      ],
+      "avoid": [
+        "Popularity proof",
+        "Trial listing as approval",
+        "Permanent brand blacklist",
+        "Automatic withdrawal"
+      ],
+      "escalation": [
+        "Specialist/clinical trial team for research eligibility",
+        "Urgent care must not be replaced by unproven treatment"
+      ],
+      "source_ids": [
+        "S112",
+        "S300",
+        "S301",
+        "S299"
+      ]
+    },
+    {
+      "id": "medicines.medicine-treatment-method",
+      "title": "Non-drug treatment preparation",
+      "triggers": [
+        "Surgery/radiotherapy/device/rehabilitation choices",
+        "Nutrition/psychotherapy options"
+      ],
+      "minimum_context": [
+        "Working diagnosis",
+        "Goals/function",
+        "Severity and prior treatments",
+        "Preferences/access"
+      ],
+      "actions": [
+        "Compare indication-specific outcomes/harms",
+        "Explain combination/supportive roles",
+        "Prepare consent/recovery/monitoring questions"
+      ],
+      "avoid": [
+        "Technical novelty as benefit",
+        "Procedure clearance",
+        "Unsupervised device settings"
+      ],
+      "escalation": [
+        "Relevant specialist/team",
+        "Urgent red flags"
+      ],
+      "source_ids": [
+        "S314",
+        "S312",
+        "S313",
+        "S308"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-diary",
+      "title": "Review reported eating with explicit gaps",
+      "triggers": [
+        "food diary",
+        "meal review",
+        "calories",
+        "macros"
+      ],
+      "minimum_context": [
+        "goal and whether tracking desired",
+        "age/life stage and relevant diseases/medicines",
+        "actual entries, dates, portions, raw/cooked status",
+        "typicality, completeness, budget and preferences"
+      ],
+      "actions": [
+        "Separate reported facts, assumptions and interpretation",
+        "Use matching product/state denominators and show arithmetic",
+        "Mark missing entries not recorded",
+        "Offer two feasible nonjudgmental changes and a review format"
+      ],
+      "avoid": [
+        "Inventing meals or oils",
+        "Universal deficit or macro ratio",
+        "Diagnosing deficiency from diary"
+      ],
+      "escalation": [
+        "Unintentional loss or low intake: clinician/dietitian",
+        "Distress or restriction: eating-disorder route"
+      ],
+      "source_ids": [
+        "S323",
+        "S325",
+        "S322",
+        "S338",
+        "S330"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-label",
+      "title": "Interpret exact market label",
+      "triggers": [
+        "label",
+        "kJ",
+        "salt sodium",
+        "net carbs",
+        "Serbian Russian food"
+      ],
+      "minimum_context": [
+        "country",
+        "original wording and units",
+        "per100g/per serving",
+        "portion and preparation"
+      ],
+      "actions": [
+        "Preserve native headings beside translation",
+        "Verify total versus available carbohydrate",
+        "Distinguish total/added/free sugar",
+        "Convert salt/sodium with original values retained"
+      ],
+      "avoid": [
+        "Automatic fibre subtraction",
+        "Adding sugar to total carbohydrate",
+        "Assuming EU law identical in all markets"
+      ],
+      "escalation": [
+        "Unreadable critical values: request optional clarification",
+        "Insulin dosing: existing taught plan and team"
+      ],
+      "source_ids": [
+        "S324",
+        "S325",
+        "S323",
+        "S322"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-ldl",
+      "title": "Diet pattern with elevated LDL",
+      "triggers": [
+        "LDL",
+        "cholesterol",
+        "saturated fat"
+      ],
+      "minimum_context": [
+        "clinician diagnosis and treatment",
+        "diet pattern",
+        "allergy, CKD, triglyceride status"
+      ],
+      "actions": [
+        "Explain replacement nutrient matters",
+        "Offer suitable unsaturated fat and fibre-rich food substitutions",
+        "Prepare dietitian/clinician questions"
+      ],
+      "avoid": [
+        "Stopping indicated lipid medicines",
+        "Blanket fat elimination",
+        "Claiming guaranteed LDL normalization"
+      ],
+      "escalation": [
+        "Complex disease or restricted intake: dietitian",
+        "Symptoms suggesting acute cardiovascular illness: urgent clinical route"
+      ],
+      "source_ids": [
+        "S339",
+        "S322",
+        "S328",
+        "S327"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-tg",
+      "title": "Triglyceride severity changes dietary advice",
+      "triggers": [
+        "triglycerides",
+        "alcohol calories",
+        "very low fat"
+      ],
+      "minimum_context": [
+        "value and unit",
+        "fasting/repeat context",
+        "symptoms",
+        "medicines and secondary conditions"
+      ],
+      "actions": [
+        "Distinguish moderate and severe approaches",
+        "Review alcohol/sweetened drinks neutrally",
+        "Arrange timely clinical/dietitian review for severe results"
+      ],
+      "avoid": [
+        "Generic add-oils-and-nuts advice for severe TG",
+        "Prescribing therapeutic fat grams",
+        "Replacing treatment with supplements"
+      ],
+      "escalation": [
+        "TG>=500 mg/dL: timely clinical review",
+        "Severe abdominal pain or persistent vomiting: urgent assessment"
+      ],
+      "source_ids": [
+        "S327",
+        "S339"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-bp-hf",
+      "title": "DASH and heart-failure exceptions",
+      "triggers": [
+        "blood pressure diet",
+        "DASH",
+        "fluid restriction",
+        "heart failure"
+      ],
+      "minimum_context": [
+        "diagnosis and existing plan",
+        "salt/fluid habits",
+        "CKD and potassium medicines",
+        "deterioration symptoms"
+      ],
+      "actions": [
+        "Discuss food pattern and lower-sodium comparisons",
+        "Ask before suggesting potassium salts",
+        "Explain no automatic HF fluid restriction"
+      ],
+      "avoid": [
+        "BP medication change based on bare number",
+        "Universal fluid limit",
+        "Potassium salt substitute in HF"
+      ],
+      "escalation": [
+        "Breathlessness at rest or rapid deterioration: urgent assessment",
+        "Complex prescribed restrictions: treating team"
+      ],
+      "source_ids": [
+        "S326",
+        "S329",
+        "S328",
+        "S322"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-diabetes",
+      "title": "Meal change with diabetes treatment",
+      "triggers": [
+        "diabetes macros",
+        "carb counting",
+        "keto",
+        "fasting"
+      ],
+      "minimum_context": [
+        "diabetes type",
+        "medicines",
+        "existing glucose/rescue plan",
+        "food label definition",
+        "goal"
+      ],
+      "actions": [
+        "Individualize pattern and assess meal-change risks",
+        "Preserve taught carbohydrate method",
+        "Discourage ketogenic changes with SGLT without team review",
+        "Follow verified existing rescue pathway where applicable"
+      ],
+      "avoid": [
+        "Chat-generated insulin dose",
+        "Fixed macros for all diabetes",
+        "Initiating fasting with insulin/sulfonylurea risks ignored"
+      ],
+      "escalation": [
+        "Acute severe hypoglycemia or ketoacidosis concern: urgent route",
+        "Major changes: diabetes team/dietitian"
+      ],
+      "source_ids": [
+        "S338",
+        "S340",
+        "S325",
+        "S324"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-ckd",
+      "title": "Individual renal nutrition",
+      "triggers": [
+        "CKD",
+        "renal diet",
+        "potassium",
+        "protein restriction"
+      ],
+      "minimum_context": [
+        "stage/current labs",
+        "dialysis",
+        "existing diet",
+        "medicines",
+        "adequacy and loss"
+      ],
+      "actions": [
+        "Explain changing needs and dialysis contrast",
+        "Refer renal dietitian",
+        "Review potassium salts and supplements"
+      ],
+      "avoid": [
+        "Generic potassium/protein/fluid prescription",
+        "Banning all fruit/pulses",
+        "Ignoring malnutrition"
+      ],
+      "escalation": [
+        "Rapid deterioration/swelling: clinical review",
+        "Severe symptoms: emergency medical pathway"
+      ],
+      "source_ids": [
+        "S328",
+        "S337"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-life-stage",
+      "title": "Children, pregnancy, lactation and plant-based diets",
+      "triggers": [
+        "child diet",
+        "pregnancy calories",
+        "breastfeeding",
+        "vegan"
+      ],
+      "minimum_context": [
+        "age/life stage",
+        "growth/weight trend if appropriate",
+        "excluded foods",
+        "fortified products/supplements",
+        "feeding symptoms"
+      ],
+      "actions": [
+        "Avoid adult deficits for children and pregnancy",
+        "Verify nutrient sources including B12",
+        "Explain local fortification and dietitian role"
+      ],
+      "avoid": [
+        "Diagnosing adequacy from plant-based label",
+        "Promising increased milk supply",
+        "Unverified high-dose supplements"
+      ],
+      "escalation": [
+        "Child growth concern or feeding difficulty: pediatric assessment",
+        "Pregnancy persistent vomiting/poor intake: maternity assessment"
+      ],
+      "source_ids": [
+        "S331",
+        "S332",
+        "S337"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-allergy",
+      "title": "Allergy versus intolerance",
+      "triggers": [
+        "food reaction",
+        "bloating after milk",
+        "allergy panel",
+        "elimination diet"
+      ],
+      "minimum_context": [
+        "food/amount",
+        "timing and reproducibility",
+        "symptoms",
+        "known allergy and exact rescue plan"
+      ],
+      "actions": [
+        "Emergency routing precedes diary if breathing/circulation affected",
+        "Separate intolerance and immune allergy",
+        "Discuss supervised evaluation and symptom diary"
+      ],
+      "avoid": [
+        "Home allergen challenge",
+        "Diagnosing from panel alone",
+        "Broad exclusions from commercial intolerance tests"
+      ],
+      "escalation": [
+        "Anaphylaxis concern: emergency services and prescribed plan",
+        "Nonurgent repeated symptoms: clinician/dietitian"
+      ],
+      "source_ids": [
+        "S333",
+        "S334"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-restriction",
+      "title": "Restriction and malnutrition concerns",
+      "triggers": [
+        "very low intake",
+        "rapid weight loss",
+        "purging",
+        "fainting",
+        "calorie anxiety"
+      ],
+      "minimum_context": [
+        "current stability",
+        "duration of little/no intake",
+        "weight changes",
+        "compensatory behaviors",
+        "ability to drink/swallow"
+      ],
+      "actions": [
+        "Pause deficit optimization",
+        "Support prompt medical/eating-disorder assessment",
+        "Explain refeeding requires team when at risk"
+      ],
+      "avoid": [
+        "BMI-only reassurance",
+        "Home electrolyte/refeeding regimen",
+        "Praise for rapid weight loss"
+      ],
+      "escalation": [
+        "Severe dehydration, fainting, marked weakness/deterioration: urgent care",
+        "Little/no intake>5 days: clinical nutrition support assessment"
+      ],
+      "source_ids": [
+        "S330",
+        "S337"
+      ]
+    },
+    {
+      "id": "nutrition.nutrition-evidence",
+      "title": "Processing, supplements and microbiome claims",
+      "triggers": [
+        "ultra processed",
+        "probiotic",
+        "microbiome diet",
+        "supplement replaces drug"
+      ],
+      "minimum_context": [
+        "exact intervention",
+        "indication and intended outcome",
+        "population, immune compromise",
+        "supporting evidence"
+      ],
+      "actions": [
+        "Distinguish short trial intake outcome from long-term disease",
+        "Explain strain/condition specificity",
+        "Assess adequacy and product details before supplementation"
+      ],
+      "avoid": [
+        "All additives cause disease",
+        "Microbiome score as diagnosis",
+        "Generic probiotics in high-risk groups",
+        "Nutrition/supplement replacing indicated medicine"
+      ],
+      "escalation": [
+        "Immune compromise or preterm infant: treating team",
+        "Persistent symptoms: relevant medical assessment"
+      ],
+      "source_ids": [
+        "S336",
+        "S335",
+        "S339"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-location",
+      "title": "Locate a symptom without diagnosing",
+      "triggers": [
+        "where is",
+        "organ",
+        "referred pain"
+      ],
+      "minimum_context": [
+        "location",
+        "onset",
+        "progression",
+        "function"
+      ],
+      "actions": [
+        "Check urgency first",
+        "Explain overlapping structures and referred/systemic mechanisms",
+        "Retrieve condition-specific guidance"
+      ],
+      "avoid": [
+        "Surface location equals diagnosis",
+        "All-organ imaging"
+      ],
+      "escalation": "Emergency assessment for acute major functional loss",
+      "source_ids": [
+        "S341",
+        "S345"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-connections",
+      "title": "Cross-system physiology",
+      "triggers": [
+        "breathlessness",
+        "edema",
+        "fatigue"
+      ],
+      "minimum_context": [
+        "trajectory",
+        "associated symptoms",
+        "medicines",
+        "measurements"
+      ],
+      "actions": [
+        "Explain selected pathway",
+        "Keep multiple mechanisms open",
+        "Define question for clinical assessment"
+      ],
+      "avoid": [
+        "Single normal test excludes all disease"
+      ],
+      "escalation": "Rapid deterioration needs urgent assessment",
+      "source_ids": [
+        "S346",
+        "S348",
+        "S349"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-medicine_targets",
+      "title": "Medicine target and organ vulnerability",
+      "triggers": [
+        "how medicine works",
+        "drug organ"
+      ],
+      "minimum_context": [
+        "exact ingredient",
+        "route",
+        "market",
+        "indication",
+        "organ function"
+      ],
+      "actions": [
+        "Retrieve current local label and disease guidance",
+        "Distinguish target from elimination and adverse effects"
+      ],
+      "avoid": [
+        "Individual prescribing or titration",
+        "Class-level approval inference"
+      ],
+      "escalation": "Suspected serious adverse reaction routes to urgent care",
+      "source_ids": [
+        "S343",
+        "S347",
+        "S348"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-inventory",
+      "title": "Individual organ and life-stage context",
+      "triggers": [
+        "transgender",
+        "intersex",
+        "pregnancy",
+        "menopause"
+      ],
+      "minimum_context": [
+        "relevant organs present",
+        "operations",
+        "hormone exposure",
+        "life stage"
+      ],
+      "actions": [
+        "Explain why context is relevant",
+        "Use respectful organ-specific questions",
+        "Retrieve screening or reproductive guidance"
+      ],
+      "avoid": [
+        "Infer anatomy from identity",
+        "Assume pregnancy impossible"
+      ],
+      "escalation": "Acute pelvic symptoms or pregnancy-related danger routes to dedicated triage",
+      "source_ids": [
+        "S350",
+        "S355"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-ancestry",
+      "title": "Population descriptors and testing",
+      "triggers": [
+        "race",
+        "ancestry",
+        "G6PD",
+        "sickle cell"
+      ],
+      "minimum_context": [
+        "actual variant/test",
+        "family history",
+        "exposure",
+        "planned medicine"
+      ],
+      "actions": [
+        "Separate race ethnicity ancestry environment and inequity",
+        "Use individual testing and applicable guidance"
+      ],
+      "avoid": [
+        "Infer genotype from category",
+        "Exclude testing by appearance"
+      ],
+      "escalation": "Hemolysis or severe febrile travel illness requires urgent assessment",
+      "source_ids": [
+        "S356",
+        "S357",
+        "S358"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-measurement",
+      "title": "eGFR and oximetry model limitations",
+      "triggers": [
+        "eGFR",
+        "oxygen saturation",
+        "skin tone"
+      ],
+      "minimum_context": [
+        "method",
+        "device/equation",
+        "units",
+        "timing",
+        "symptoms",
+        "trend"
+      ],
+      "actions": [
+        "Use race-free eGFR in intended context",
+        "Explain uncertainty",
+        "Do not let display override severe symptoms"
+      ],
+      "avoid": [
+        "Race coefficient",
+        "Invented skin-tone correction",
+        "Renal dosing from number"
+      ],
+      "escalation": "Breathing difficulty or deterioration escalates regardless of display",
+      "source_ids": [
+        "S354",
+        "S359"
+      ]
+    },
+    {
+      "id": "anatomy.anatomy-rights",
+      "title": "Foundational reference reuse",
+      "triggers": [
+        "OpenStax",
+        "atlas source"
+      ],
+      "minimum_context": [
+        "intended reuse",
+        "current license",
+        "permission"
+      ],
+      "actions": [
+        "Record current restriction",
+        "Use authorized sources and original synthesis"
+      ],
+      "avoid": [
+        "Open access implies AI ingestion permission"
+      ],
+      "escalation": "Rights ambiguity goes to maintainer",
+      "source_ids": [
+        "S360"
+      ]
+    },
+    {
+      "id": "chronic.bp_quality",
+      "title": "Blood-pressure measurement quality",
+      "triggers": [
+        "home pressure",
+        "clinic/home disagreement"
+      ],
+      "minimum_context": [
+        "symptoms",
+        "pregnancy/postpartum",
+        "device/cuff",
+        "units",
+        "position/rest/repeats",
+        "diary"
+      ],
+      "actions": [
+        "Check emergency symptoms first",
+        "Explain validated upper-arm technique",
+        "Preserve values and distinguish home/office/ambulatory",
+        "Use regional confirmation protocol"
+      ],
+      "avoid": [
+        "Diagnosis from one value",
+        "Universal target",
+        "Cuffless value equivalence"
+      ],
+      "escalation": [
+        "Organ-injury symptoms emergency",
+        "Persistent severe reading prompt professional pathway"
+      ],
+      "source_ids": [
+        "S388",
+        "S389",
+        "S29"
+      ]
+    },
+    {
+      "id": "chronic.bp_severe",
+      "title": "Severe pressure routing",
+      "triggers": [
+        "180 systolic",
+        "120 diastolic",
+        "severe pressure"
+      ],
+      "minimum_context": [
+        "symptoms",
+        "pregnancy/postpartum",
+        "repeat if safe",
+        "baseline",
+        "medicines"
+      ],
+      "actions": [
+        "Emergency response for target-organ symptoms without waiting",
+        "If stable asymptomatic repeat correctly and contact clinician promptly",
+        "Use maternity route in pregnancy"
+      ],
+      "avoid": [
+        "Rapid home lowering",
+        "Extra tablets",
+        "Automatic ambulance for every asymptomatic value",
+        "Reassurance from no symptoms alone"
+      ],
+      "escalation": [
+        "Emergency organ-injury symptoms",
+        "Urgent maternity severe threshold"
+      ],
+      "source_ids": [
+        "S388",
+        "S389",
+        "S390"
+      ]
+    },
+    {
+      "id": "chronic.bp_low",
+      "title": "Low and postural pressure",
+      "triggers": [
+        "low pressure",
+        "standing dizziness",
+        "fainting"
+      ],
+      "minimum_context": [
+        "onset/baseline",
+        "bleeding/dehydration",
+        "symptoms",
+        "posture/protocol",
+        "medicines",
+        "fluid restrictions"
+      ],
+      "actions": [
+        "Route shock/bleeding symptoms urgently",
+        "Explain symptom versus baseline distinction",
+        "Arrange recurrent-symptom and medicine review",
+        "Postural measurement only if safe"
+      ],
+      "avoid": [
+        "Universal caffeine/salt/pressor plan",
+        "Unsafely standing alone",
+        "Calling negative seated test exclusion"
+      ],
+      "escalation": [
+        "Collapse, major bleeding or altered awareness emergency"
+      ],
+      "source_ids": [
+        "S391",
+        "S29"
+      ]
+    },
+    {
+      "id": "chronic.diabetes_confirm",
+      "title": "Diabetes diagnosis and classification",
+      "triggers": [
+        "high glucose",
+        "HbA1c",
+        "family diabetes risk"
+      ],
+      "minimum_context": [
+        "units",
+        "laboratory/device",
+        "fasting",
+        "symptoms",
+        "pregnancy",
+        "confirmation",
+        "red-cell context"
+      ],
+      "actions": [
+        "Screen acute crisis first",
+        "Explain applicable laboratory criteria and confirmation",
+        "Keep family risk distinct from diagnosis",
+        "Prepare classification questions"
+      ],
+      "avoid": [
+        "Meter-only diagnosis",
+        "Type inferred from age/weight",
+        "Deterministic genetic prediction"
+      ],
+      "escalation": [
+        "DKA/HHS symptoms emergency"
+      ],
+      "source_ids": [
+        "S392",
+        "S393"
+      ]
+    },
+    {
+      "id": "chronic.diabetes_existing",
+      "title": "Existing insulin and medicine understanding",
+      "triggers": [
+        "insulin technique",
+        "treatment choices"
+      ],
+      "minimum_context": [
+        "exact product/concentration/device/route",
+        "written prescription/plan",
+        "possible error",
+        "renal function",
+        "pregnancy"
+      ],
+      "actions": [
+        "Explain classes and intended benefits",
+        "Navigate exact local label",
+        "Use teach-back and educator/pharmacist review",
+        "Support established plan"
+      ],
+      "avoid": [
+        "Initiating/titrating/correction doses",
+        "Concentration conversions",
+        "Universal pen steps",
+        "Shared pen"
+      ],
+      "escalation": [
+        "Possible wrong product/excess dose urgent advice",
+        "Unsafe-swallow hypoglycemia emergency route"
+      ],
+      "source_ids": [
+        "S305",
+        "S394",
+        "S393"
+      ]
+    },
+    {
+      "id": "chronic.diabetes_illness",
+      "title": "Sick days and hyperglycemic crisis",
+      "triggers": [
+        "illness with diabetes",
+        "ketones",
+        "SGLT2 vomiting"
+      ],
+      "minimum_context": [
+        "symptoms",
+        "glucose/ketone units if available",
+        "exact medicines",
+        "insulin dependence",
+        "written plan",
+        "intake/pump status"
+      ],
+      "actions": [
+        "Emergency routing before detailed history for crisis",
+        "Do not dismiss SGLT2 DKA with near-normal glucose",
+        "Support verified sick-day plan and insulin continuity",
+        "Explain exact label safety instruction with immediate assessment"
+      ],
+      "avoid": [
+        "Universal hold/continue list",
+        "Stopping basal insulin because not eating",
+        "Invented correction dosing",
+        "Waiting for ketone kit when critically unwell"
+      ],
+      "escalation": [
+        "Suspected DKA/HHS emergency",
+        "Ketones or persistent unwell state urgent team contact"
+      ],
+      "source_ids": [
+        "S395",
+        "S393",
+        "S319"
+      ]
+    },
+    {
+      "id": "chronic.respiratory",
+      "title": "Asthma and COPD review",
+      "triggers": [
+        "inhaler",
+        "asthma",
+        "COPD",
+        "breathlessness"
+      ],
+      "minimum_context": [
+        "severity",
+        "diagnostic status",
+        "exact device",
+        "written plan",
+        "reliever use",
+        "attacks",
+        "technique"
+      ],
+      "actions": [
+        "Emergency route severe deterioration",
+        "Explain diagnosis confirmation and differing treatment roles",
+        "Check technique/access",
+        "Prepare rehabilitation and plan review"
+      ],
+      "avoid": [
+        "Universal inhaler/steroid regimen",
+        "Scan-only COPD diagnosis",
+        "Assume every combination is rescue",
+        "Start oxygen from one consumer value"
+      ],
+      "escalation": [
+        "Severe breathlessness, exhaustion or altered awareness emergency"
+      ],
+      "source_ids": [
+        "S397",
+        "S398"
+      ]
+    },
+    {
+      "id": "chronic.kidney",
+      "title": "CKD and changing renal trajectory",
+      "triggers": [
+        "eGFR",
+        "albuminuria",
+        "kidney disease"
+      ],
+      "minimum_context": [
+        "dates/trend",
+        "eGFR/ACR units",
+        "illness/urine",
+        "medicines",
+        "potassium",
+        "cause"
+      ],
+      "actions": [
+        "Distinguish CKD chronicity from possible AKI",
+        "Explain complementary eGFR/ACR",
+        "Prepare cause and cardiorenal monitoring questions"
+      ],
+      "avoid": [
+        "CKD from single value",
+        "Wait three months despite acute decline",
+        "Kidney failure date from score",
+        "Personal renal dosing"
+      ],
+      "escalation": [
+        "Reduced urine/acute illness or rapid decline urgent assessment"
+      ],
+      "source_ids": [
+        "S396"
+      ]
+    },
+    {
+      "id": "chronic.cardiovascular",
+      "title": "Secondary prevention, AF and heart failure",
+      "triggers": [
+        "prior MI/stroke",
+        "AF",
+        "heart failure"
+      ],
+      "minimum_context": [
+        "acute symptoms",
+        "confirmed cause/phenotype",
+        "exact medicines",
+        "renal function",
+        "bleeding",
+        "authorized plan"
+      ],
+      "actions": [
+        "Explain purpose and combinations without selection",
+        "Differentiate antiplatelet/anticoagulant",
+        "Prepare rehabilitation and monitoring questions",
+        "Identify current regional guideline and access limits"
+      ],
+      "avoid": [
+        "Risk score as diagnosis",
+        "Stop anticoagulation after rhythm improvement",
+        "Automatic antithrombotic combinations",
+        "Diuretic titration from weight"
+      ],
+      "escalation": [
+        "Chest pain, focal deficit, collapse or rest breathlessness emergency"
+      ],
+      "source_ids": [
+        "S401",
+        "S402",
+        "S403",
+        "S399",
+        "S408"
+      ]
+    },
+    {
+      "id": "chronic.other_chronic",
+      "title": "Thyroid, obesity and joint care",
+      "triggers": [
+        "thyroid",
+        "weight medicine",
+        "arthritis"
+      ],
+      "minimum_context": [
+        "diagnostic status",
+        "tests/context",
+        "pregnancy",
+        "product",
+        "function",
+        "systemic symptoms",
+        "renal/bleeding risks"
+      ],
+      "actions": [
+        "Explain guideline options and referral",
+        "Prepare product-specific and function-focused review",
+        "Distinguish inflammatory swelling from presumed osteoarthritis"
+      ],
+      "avoid": [
+        "Dose changes from daily symptoms",
+        "Brand/indication equivalence",
+        "Negative blood test excludes synovitis",
+        "Universal oral NSAID"
+      ],
+      "escalation": [
+        "Hot joint with systemic illness urgent",
+        "Antithyroid warning symptoms urgent"
+      ],
+      "source_ids": [
+        "S101",
+        "S407",
+        "S405",
+        "S406"
+      ]
+    },
+    {
+      "id": "chronic.multimorbidity",
+      "title": "Coordinated chronic-care plan",
+      "triggers": [
+        "multiple conditions",
+        "drug burden",
+        "frailty",
+        "conflicting advice"
+      ],
+      "minimum_context": [
+        "goals",
+        "function",
+        "organ function",
+        "medicine reconciliation",
+        "coordinator",
+        "trajectory"
+      ],
+      "actions": [
+        "Clarify priorities and treatment burden",
+        "Build blank plan with target setting and responsibilities",
+        "Identify test/result ownership",
+        "Arrange pharmacist/clinician review"
+      ],
+      "avoid": [
+        "Autonomous deprescribing",
+        "Single-condition targets for everyone",
+        "Assume sent diary reviewed"
+      ],
+      "escalation": [
+        "New acute deterioration overrides stable plan"
+      ],
+      "source_ids": [
+        "S404"
+      ]
+    },
+    {
+      "id": "neuro.acute-change",
+      "title": "Sudden cognitive or neurological change",
+      "triggers": [
+        "confusion in hours/days",
+        "new focal symptoms"
+      ],
+      "minimum_context": [
+        "last usual state",
+        "danger; no delay"
+      ],
+      "actions": [
+        "Urgent assessment; emergency severe/focal symptoms",
+        "Disclose antiamyloid treatment to responders"
+      ],
+      "avoid": [
+        "Quiz/photo before help",
+        "Assume dementia progression"
+      ],
+      "escalation": [
+        "Emergency reduced responsiveness, seizure, focal change"
+      ],
+      "source_ids": [
+        "S416",
+        "S422",
+        "S424"
+      ]
+    },
+    {
+      "id": "neuro.psychiatric-danger",
+      "title": "Suicidal, manic or psychotic danger",
+      "triggers": [
+        "suicidal intent",
+        "unsafe hallucinations",
+        "impaired judgment"
+      ],
+      "minimum_context": [
+        "immediate safety",
+        "country"
+      ],
+      "actions": [
+        "Direct calm questions",
+        "Local emergency/crisis support; nearby trusted help if safe"
+      ],
+      "avoid": [
+        "Debate/affirm delusions",
+        "Reassure from score",
+        "US numbers worldwide"
+      ],
+      "escalation": [
+        "Immediate danger/basic-care failure"
+      ],
+      "source_ids": [
+        "S25",
+        "S414",
+        "S415"
+      ]
+    },
+    {
+      "id": "neuro.medicine-change",
+      "title": "Medicine effect or withdrawal",
+      "triggers": [
+        "symptoms after start/change/missed doses",
+        "taper request"
+      ],
+      "minimum_context": [
+        "exact formulation",
+        "timeline",
+        "other drugs",
+        "danger"
+      ],
+      "actions": [
+        "Preserve chronology",
+        "Clinician/pharmacist review",
+        "Explain uncertainty"
+      ],
+      "avoid": [
+        "Personal taper/restart/switch",
+        "Chemical imbalance diagnosis"
+      ],
+      "escalation": [
+        "Urgent activation; emergency toxicity or suicidal danger"
+      ],
+      "source_ids": [
+        "S411",
+        "S25",
+        "S414"
+      ]
+    },
+    {
+      "id": "neuro.therapy-choice",
+      "title": "Prepare psychiatric treatment discussion",
+      "triggers": [
+        "antidepressants",
+        "psychotherapy",
+        "ECT/TMS"
+      ],
+      "minimum_context": [
+        "assessed condition",
+        "prior response/goals",
+        "country/indication"
+      ],
+      "actions": [
+        "Distinct modalities and harms",
+        "Preferences and access",
+        "Current label/device check"
+      ],
+      "avoid": [
+        "Universal success rate",
+        "Home brain stimulation",
+        "Choose drug by class"
+      ],
+      "escalation": [
+        "Danger overrides choice discussion"
+      ],
+      "source_ids": [
+        "S411",
+        "S412",
+        "S413",
+        "S25"
+      ]
+    },
+    {
+      "id": "neuro.cognitive-assessment",
+      "title": "Persistent cognitive complaints",
+      "triggers": [
+        "gradual memory change",
+        "quiz",
+        "care partner concern"
+      ],
+      "minimum_context": [
+        "course",
+        "functional examples",
+        "sleep/sensory/medicines"
+      ],
+      "actions": [
+        "Planned assessment",
+        "Collateral history with consent",
+        "Targeted clinical questions"
+      ],
+      "avoid": [
+        "Quiz diagnosis",
+        "Universal lab panel",
+        "Assume aging"
+      ],
+      "escalation": [
+        "Sudden route first; rapid progression specialist"
+      ],
+      "source_ids": [
+        "S418",
+        "S417",
+        "S419",
+        "S420"
+      ]
+    },
+    {
+      "id": "neuro.alzheimer-drugs",
+      "title": "Alzheimer treatment discussion",
+      "triggers": [
+        "lecanemab",
+        "donanemab",
+        "donepezil",
+        "memantine"
+      ],
+      "minimum_context": [
+        "jurisdiction/product/route",
+        "clinical stage and amyloid if known",
+        "MRI/anticoagulation for clinician"
+      ],
+      "actions": [
+        "Separate symptoms, slowing, cure",
+        "Absolute outcomes",
+        "Specialist eligibility/MRI with current label"
+      ],
+      "avoid": [
+        "Positive biomarker equals eligibility",
+        "Stop anticoagulant",
+        "Copy IV schedule to SC",
+        "Guaranteed individual months"
+      ],
+      "escalation": [
+        "Suspected ARIA assessed urgently; severe/focal emergency"
+      ],
+      "source_ids": [
+        "S433",
+        "S434",
+        "S422",
+        "S423",
+        "S424",
+        "S425",
+        "S426",
+        "S427"
+      ]
+    },
+    {
+      "id": "neuro.biomarker-genetics",
+      "title": "Blood biomarkers and genetic risk",
+      "triggers": [
+        "positive p-tau",
+        "healthy screening",
+        "APOE"
+      ],
+      "minimum_context": [
+        "assay and symptoms",
+        "intended purpose/country",
+        "existing interpretation"
+      ],
+      "actions": [
+        "Assay-specific authorization",
+        "Lab check lot correction when relevant",
+        "Counseling and clinical assessment"
+      ],
+      "avoid": [
+        "Diagnosis from genotype",
+        "Risk by race",
+        "Unsolicited genetic upload"
+      ],
+      "escalation": [
+        "Sudden/danger bypass testing discussion"
+      ],
+      "source_ids": [
+        "S428",
+        "S429",
+        "S421",
+        "S417"
+      ]
+    },
+    {
+      "id": "neuro.media-research",
+      "title": "Novel therapy or access headline",
+      "triggers": [
+        "Alzheimer cure",
+        "trial vs approval",
+        "national access"
+      ],
+      "minimum_context": [
+        "product/indication/country",
+        "date/primary claim"
+      ],
+      "actions": [
+        "Regulator/current label check",
+        "Trial phase/results/recruitment versus approval",
+        "Absolute outcomes/access limits"
+      ],
+      "avoid": [
+        "Draft as final coverage",
+        "Exploratory as successful primary result",
+        "Listing guarantees enrollment"
+      ],
+      "escalation": [
+        "Symptoms follow clinical routes"
+      ],
+      "source_ids": [
+        "S422",
+        "S425",
+        "S430",
+        "S431",
+        "S432",
+        "S427"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-headache",
+      "title": "Headache",
+      "triggers": [
+        "headache",
+        "migraine",
+        "head pain"
+      ],
+      "minimum_context": "Is this familiar or a first/change in pattern? Establish sudden versus gradual onset, injury, fever, vomiting, vision changes, pregnancy/postpartum status and any weakness, speech or walking change.",
+      "actions": [
+        "Apply this module's 'Headache' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S458",
+        "S487"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-fever",
+      "title": "Fever and feeling acutely unwell",
+      "triggers": [
+        "fever",
+        "temperature",
+        "chills"
+      ],
+      "minimum_context": "Age and baseline vulnerability matter before interpreting temperature. Ask duration, reliable measurement, drinking/urine, breathing, alertness, rash, focal pain, medicines and a prescribed immunosuppression or postoperative emergency plan.",
+      "actions": [
+        "Apply this module's 'Fever and feeling acutely unwell' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S459",
+        "S458",
+        "S469",
+        "S471"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-chest",
+      "title": "Chest pain or pressure",
+      "triggers": [
+        "chest pain",
+        "pressure",
+        "indigestion chest"
+      ],
+      "minimum_context": "Ask whether discomfort is present now, onset, duration, radiation, breathlessness, sweating, nausea, faintness, exertion, recent injury and cardiovascular history. Do not wait to finish this list when emergency features are already present.",
+      "actions": [
+        "Apply this module's 'Chest pain or pressure' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S460",
+        "S469",
+        "S467"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-abdomen",
+      "title": "Abdominal pain",
+      "triggers": [
+        "stomach pain",
+        "abdominal pain",
+        "belly pain"
+      ],
+      "minimum_context": "Locate pain and timing, severity and change, last stool/gas and urine, vomiting, blood, fever, pregnancy possibility, recent surgery and medicines. Ask about ability to eat, drink and carry out usual activity.",
+      "actions": [
+        "Apply this module's 'Abdominal pain' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S461"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-pelvic",
+      "title": "Pelvic pain and pregnancy possibility",
+      "triggers": [
+        "pelvic pain",
+        "lower abdominal pain",
+        "period pain"
+      ],
+      "minimum_context": "Clarify current reproductive anatomy without assumptions, pregnancy possibility and timing, period/bleeding pattern, discharge, urinary/bowel symptoms, fever and pain during sex. Ask only relevant sensitive details and explain their purpose.",
+      "actions": [
+        "Apply this module's 'Pelvic pain and pregnancy possibility' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S368"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-vomit",
+      "title": "Nausea, vomiting and diarrhoea",
+      "triggers": [
+        "nausea",
+        "vomiting",
+        "diarrhea",
+        "diarrhoea"
+      ],
+      "minimum_context": "Ask age, onset, frequency, fluid tolerance, last urine/wet nappies, blood or green vomit, abdominal pain, poisoning possibility and relevant illness. Separate mild nausea from repeated vomiting that prevents hydration.",
+      "actions": [
+        "Apply this module's 'Nausea, vomiting and diarrhoea' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S462"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-constipation",
+      "title": "Constipation and altered bowel habit",
+      "triggers": [
+        "constipation",
+        "hard stool",
+        "can't poo"
+      ],
+      "minimum_context": "Compare with usual pattern; ask stool consistency, straining, duration, gas, abdominal swelling/pain, vomiting, blood, weight loss, new medicines and mobility. Watery leakage can coexist with retained stool.",
+      "actions": [
+        "Apply this module's 'Constipation and altered bowel habit' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S463",
+        "S461"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-gi-blood",
+      "title": "Blood in stool or vomit",
+      "triggers": [
+        "rectal bleeding",
+        "black stool",
+        "vomiting blood"
+      ],
+      "minimum_context": "Ask where blood appeared, amount and ongoing versus stopped bleeding, colour/texture, clots, abdominal pain, dizziness, weakness and anticoagulants. Clarify food/medicine colour effects without assuming they explain bleeding.",
+      "actions": [
+        "Apply this module's 'Blood in stool or vomit' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S464",
+        "S462",
+        "S461"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-dizzy",
+      "title": "Dizziness, vertigo, imbalance and fainting",
+      "triggers": [
+        "dizziness",
+        "vertigo",
+        "lightheaded",
+        "fainting",
+        "syncope",
+        "blackout"
+      ],
+      "minimum_context": "Distinguish spinning, near-fainting and imbalance; ask sudden onset, persistence, standing relationship, hearing symptoms, medicines, hydration and new vision, speech, weakness or walking changes. If consciousness was lost, ask recovery, exercise/lying-down onset, injury and witnesses.",
+      "actions": [
+        "Apply this module's 'Dizziness, vertigo, imbalance and fainting' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S465",
+        "S487",
+        "S466"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-palpitations",
+      "title": "Racing, pounding or irregular heartbeat",
+      "triggers": [
+        "palpitations",
+        "racing heart",
+        "skipped beats"
+      ],
+      "minimum_context": "Ask present versus resolved, duration, recurrence, exercise relation, chest pain, breathlessness, faintness, known heart disease, family history, stimulants and new medicines.",
+      "actions": [
+        "Apply this module's 'Racing, pounding or irregular heartbeat' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S467"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-fatigue",
+      "title": "Fatigue and reduced stamina",
+      "triggers": [
+        "fatigue",
+        "tiredness",
+        "low energy"
+      ],
+      "minimum_context": "Ask duration and functional change, sleep/snoring, mood, diet, medicines, infection, weight change, thirst/urination, bleeding, breathlessness and pregnancy context. Distinguish chronic fatigue from sudden collapse or weakness.",
+      "actions": [
+        "Apply this module's 'Fatigue and reduced stamina' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S468",
+        "S469",
+        "S487"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-breath",
+      "title": "Breathlessness",
+      "triggers": [
+        "shortness of breath",
+        "dyspnea",
+        "can't breathe"
+      ],
+      "minimum_context": "Assess ability to speak and usual function before detailed questions. Ask onset, at rest versus activity, chest symptoms, fever, wheeze, leg swelling, recent operation/immobility and existing respiratory rescue plan.",
+      "actions": [
+        "Apply this module's 'Breathlessness' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S469"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-cough",
+      "title": "Cough and coughing blood",
+      "triggers": [
+        "cough",
+        "sputum",
+        "phlegm",
+        "coughing blood"
+      ],
+      "minimum_context": "Ask duration, deterioration, breathing, fever, chest pain, actual blood amount, immune status, smoking, medicines and impact on sleep/activity.",
+      "actions": [
+        "Apply this module's 'Cough and coughing blood' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S470",
+        "S469"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-uti",
+      "title": "Burning, frequency or urgency when urinating",
+      "triggers": [
+        "dysuria",
+        "burning pee",
+        "urinary frequency"
+      ],
+      "minimum_context": "Ask anatomy, pregnancy, age, duration, fever/rigors, flank pain, visible blood, discharge or relevant sexual exposure, catheter, immune status and ability to pass urine.",
+      "actions": [
+        "Apply this module's 'Burning, frequency or urgency when urinating' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S471"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-urine-blood",
+      "title": "Visible urinary blood and retention",
+      "triggers": [
+        "hematuria",
+        "blood in urine",
+        "urinary retention",
+        "can't pee"
+      ],
+      "minimum_context": "Clarify whether urine itself is discoloured, first versus repeated episode, clots, pain, fever, last void, bladder discomfort and relevant medicines/procedure. Ask about possible vaginal contamination without dismissing the report.",
+      "actions": [
+        "Apply this module's 'Visible urinary blood and retention' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S472",
+        "S461",
+        "S471",
+        "S486"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-testicle",
+      "title": "Testicular pain, swelling or lump",
+      "triggers": [
+        "testicular pain",
+        "scrotal pain",
+        "testicle lump"
+      ],
+      "minimum_context": "Ask onset, severity, persistence at rest, nausea/vomiting, abdominal pain, trauma, fever, urinary symptoms and new swelling/lump. Keep questioning brief when sudden pain is reported.",
+      "actions": [
+        "Apply this module's 'Testicular pain, swelling or lump' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S168"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-ear",
+      "title": "Ear pain and discharge",
+      "triggers": [
+        "ear pain",
+        "earache",
+        "ear discharge"
+      ],
+      "minimum_context": "Ask age, one or both ears, duration, fever/general condition, discharge, swelling, hearing change, foreign object, trauma and tooth/throat symptoms.",
+      "actions": [
+        "Apply this module's 'Ear pain and discharge' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S473",
+        "S474"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-hearing",
+      "title": "Sudden or progressive hearing loss",
+      "triggers": [
+        "hearing loss",
+        "blocked ear",
+        "tinnitus"
+      ],
+      "minimum_context": "Identify sudden versus gradual and one versus both ears, days/weeks of worsening, tinnitus, vertigo, pain/discharge, noise exposure or injury. Ask what the person can no longer hear compared with baseline.",
+      "actions": [
+        "Apply this module's 'Sudden or progressive hearing loss' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S474",
+        "S473",
+        "S487"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-throat",
+      "title": "Sore throat and swallowing difficulty",
+      "triggers": [
+        "sore throat",
+        "pain swallowing",
+        "drooling"
+      ],
+      "minimum_context": "Ask ability to breathe, swallow fluids/saliva and speak, rapid change, fever, dehydration, age, immune status and persistent lump or ulcer. Do not request an intrusive throat examination.",
+      "actions": [
+        "Apply this module's 'Sore throat and swallowing difficulty' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S475"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-nose-sinus",
+      "title": "Nosebleed and sinus/facial symptoms",
+      "triggers": [
+        "nosebleed",
+        "sinus pain",
+        "blocked nose",
+        "facial pressure"
+      ],
+      "minimum_context": "For bleeding ask duration, amount, trauma, dizziness, breathing and anticoagulation. For congestion ask course, fever, unilateral/recurrent symptoms, immune status and associated eye/neurological symptoms.",
+      "actions": [
+        "Apply this module's 'Nosebleed and sinus/facial symptoms' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S476",
+        "S477",
+        "S478",
+        "S487"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-red-eye",
+      "title": "Red eye, eye pain and contact lenses",
+      "triggers": [
+        "red eye",
+        "eye pain",
+        "photophobia",
+        "contact lens"
+      ],
+      "minimum_context": "Ask pain, light sensitivity, any visual change, headache/nausea, contact lenses, trauma/chemical exposure, recent surgery and age. Do not use photographs to decide that vision is safe.",
+      "actions": [
+        "Apply this module's 'Red eye, eye pain and contact lenses' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S478"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-vision",
+      "title": "Vision loss, flashes and floaters",
+      "triggers": [
+        "vision loss",
+        "floaters",
+        "flashes",
+        "curtain vision"
+      ],
+      "minimum_context": "Ask sudden versus longstanding, one/both eyes, loss or blurring, curtain/shadow, first/new/increasing floaters, pain, injury or recent eye surgery. Timing matters even if symptoms improve.",
+      "actions": [
+        "Apply this module's 'Vision loss, flashes and floaters' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S480",
+        "S478",
+        "S487"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-eye-injury",
+      "title": "Eye trauma or chemical exposure",
+      "triggers": [
+        "chemical eye",
+        "eye injury",
+        "foreign body eye"
+      ],
+      "minimum_context": "Establish product/exposure and time, high-speed impact or piercing, pain and vision change. Ask minimal questions while arranging urgent action. Package information is useful if safely available.",
+      "actions": [
+        "Apply this module's 'Eye trauma or chemical exposure' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S479"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-skin",
+      "title": "Rash, itch and sudden swelling",
+      "triggers": [
+        "rash",
+        "itch",
+        "hives",
+        "swelling"
+      ],
+      "minimum_context": "Ask onset/spread, itch versus pain, illness/fever, new products/medicines, mouth/eye symptoms, breathing/swallowing, pregnancy, immune status and skin appearance across the person's usual tone.",
+      "actions": [
+        "Apply this module's 'Rash, itch and sudden swelling' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation. New widespread painful, blistering or peeling rash or mucosal sores after a new medicine: immediate emergency assessment.",
+      "source_ids": [
+        "S481",
+        "S177",
+        "S458",
+        "S488"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-wound",
+      "title": "Wounds and postoperative changes",
+      "triggers": [
+        "wound",
+        "cut",
+        "surgical wound",
+        "postoperative pain"
+      ],
+      "minimum_context": "Ask mechanism, depth if known, ongoing bleeding, contamination/bite, sensation/movement, fever, increasing pain/redness/swelling and procedure/date. Obtain the actual discharge warnings and surgical contact route rather than inventing a universal recovery timetable.",
+      "actions": [
+        "Apply this module's 'Wounds and postoperative changes' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S482",
+        "S460",
+        "S469"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-lumps",
+      "title": "Lumps, hair/nail change and local swelling",
+      "triggers": [
+        "lump",
+        "skin growth",
+        "hair loss",
+        "nail change"
+      ],
+      "minimum_context": "Ask site, duration, growth, pain/heat/redness, recurrence, fever, nearby infection, medicines and effect on function. For hair/nails describe sudden/gradual or local/widespread change and associated skin symptoms.",
+      "actions": [
+        "Apply this module's 'Lumps, hair/nail change and local swelling' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S483",
+        "S481",
+        "S482"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-joint-injury",
+      "title": "Joint inflammation, injury and possible fracture",
+      "triggers": [
+        "joint pain",
+        "swollen joint",
+        "sprain",
+        "fracture"
+      ],
+      "minimum_context": "Ask injury mechanism/time, pain/function, swelling, deformity, sensation/colour/temperature, fever, morning stiffness, multiple joints and any postoperative restrictions. Avoid repeated forced movement or weight-bearing tests.",
+      "actions": [
+        "Apply this module's 'Joint inflammation, injury and possible fracture' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S484",
+        "S485"
+      ]
+    },
+    {
+      "id": "symptoms.symptoms-back",
+      "title": "Back/neck pain and neurological red flags",
+      "triggers": [
+        "back pain",
+        "neck pain",
+        "saddle numbness"
+      ],
+      "minimum_context": "Ask trauma, sudden/severe or progressive pattern, fever/illness, cancer/immune history, limb weakness/numbness, walking, bladder/bowel change and altered genital/saddle sensation. For neck symptoms avoid forced motion or manipulation.",
+      "actions": [
+        "Apply this module's 'Back/neck pain and neurological red flags' card.",
+        "State a proportionate next step and explicit change-triggered safety net."
+      ],
+      "avoid": [
+        "Definitive remote diagnosis or clearance.",
+        "Long questioning/media collection before indicated emergency help."
+      ],
+      "escalation": "Use the named card's warning features; reassess when new data conflicts with an earlier benign explanation.",
+      "source_ids": [
+        "S486",
+        "S487"
+      ]
+    },
+    {
+      "id": "diagnostics.critical-result",
+      "title": "Critical laboratory result",
+      "triggers": [
+        "critical laboratory alert",
+        "lab called urgently",
+        "potassium with hemolysis"
+      ],
+      "minimum_context": [
+        "Reported result and unit",
+        "Collection time",
+        "Critical message",
+        "Current symptoms",
+        "Contact instruction"
+      ],
+      "actions": [
+        "State immediate contact/urgent pathway even if feeling well",
+        "Retain hemolysis note; team determines confirmation",
+        "Identify responsible ordering service"
+      ],
+      "avoid": [
+        "Dismiss as artifact",
+        "Fluid/electrolyte/insulin/binder dosing",
+        "Delay for photo"
+      ],
+      "escalation": "Immediate ordering-team contact or urgent local assessment if unreachable",
+      "source_ids": [
+        "S442",
+        "S28"
+      ]
+    },
+    {
+      "id": "diagnostics.acute-troponin",
+      "title": "Troponin and acute symptoms",
+      "triggers": [
+        "chest pressure",
+        "new breathlessness",
+        "troponin result"
+      ],
+      "minimum_context": [
+        "Symptoms and onset",
+        "Assay I/T and sensitivity",
+        "Unit",
+        "Collection times",
+        "Clinician plan"
+      ],
+      "actions": [
+        "Route acute symptoms urgently",
+        "Explain injury versus infarction",
+        "Keep assays separate"
+      ],
+      "avoid": [
+        "Home clearance from early low result",
+        "Average assays",
+        "Infer myocardial infarction from isolated elevation"
+      ],
+      "escalation": "Emergency assessment for current concerning acute symptoms",
+      "source_ids": [
+        "S441"
+      ]
+    },
+    {
+      "id": "diagnostics.lab-identity",
+      "title": "Uncertain identity or OCR",
+      "triggers": [
+        "unreadable result",
+        "unit missing",
+        "mixed laboratories"
+      ],
+      "minimum_context": [
+        "Original label",
+        "Specimen",
+        "Unit",
+        "Reference interval",
+        "Method",
+        "Source page"
+      ],
+      "actions": [
+        "Mark unknown",
+        "Request focused clarification",
+        "Keep original and converted result separate"
+      ],
+      "avoid": [
+        "Guess OCR digits",
+        "Apply generic molar conversion",
+        "Merge serum and urine"
+      ],
+      "escalation": "Critical message or symptoms override extraction workflow",
+      "source_ids": [
+        "S28",
+        "S441",
+        "S443"
+      ]
+    },
+    {
+      "id": "diagnostics.cbc-pattern",
+      "title": "CBC explanation",
+      "triggers": [
+        "anemia",
+        "WBC flag",
+        "platelet flag"
+      ],
+      "minimum_context": [
+        "Actual counts",
+        "Absolute differential",
+        "Symptoms",
+        "Age/pregnancy if relevant",
+        "Medication",
+        "Quality notes"
+      ],
+      "actions": [
+        "Explain linked patterns",
+        "Prepare clinician questions",
+        "Review critical message first"
+      ],
+      "avoid": [
+        "Diagnose leukemia/infection/iron deficiency from one flag",
+        "Use percent differential alone"
+      ],
+      "escalation": "Urgent clinician pathway for critical counts, major bleeding or severe symptoms",
+      "source_ids": [
+        "S102"
+      ]
+    },
+    {
+      "id": "diagnostics.liver-pattern",
+      "title": "Liver chemistry explanation",
+      "triggers": [
+        "ALT",
+        "AST",
+        "ALP",
+        "GGT",
+        "bilirubin"
+      ],
+      "minimum_context": [
+        "Individual results and intervals",
+        "Symptoms",
+        "Drugs/supplements",
+        "Exercise/alcohol context",
+        "Albumin/INR if available"
+      ],
+      "actions": [
+        "Separate injury, cholestasis, excretion and synthesis",
+        "Explain plausible nonliver contributors",
+        "Assign clinician review"
+      ],
+      "avoid": [
+        "Liver failure from ALT alone",
+        "Alcohol diagnosis from ratio",
+        "Detox treatment"
+      ],
+      "escalation": "Urgent assessment for jaundice with confusion or major bleeding",
+      "source_ids": [
+        "S436"
+      ]
+    },
+    {
+      "id": "diagnostics.renal-pattern",
+      "title": "Kidney chemistry and urine ACR",
+      "triggers": [
+        "creatinine",
+        "eGFR",
+        "albuminuria"
+      ],
+      "minimum_context": [
+        "Equation",
+        "Collection date",
+        "Prior compatible results",
+        "Urine ACR",
+        "Illness/muscle/drug context"
+      ],
+      "actions": [
+        "Explain estimate and chronicity",
+        "Mark equation changes",
+        "Link urinary damage assessment"
+      ],
+      "avoid": [
+        "Race coefficient addition",
+        "CKD diagnosis from one acute sample",
+        "Medication dose changes"
+      ],
+      "escalation": "Urgent pathway for critical chemistry, acute deterioration or markedly reduced urine with illness",
+      "source_ids": [
+        "S437",
+        "S438",
+        "S442"
+      ]
+    },
+    {
+      "id": "diagnostics.glycemia-context",
+      "title": "Glucose and HbA1c",
+      "triggers": [
+        "glucose",
+        "HbA1c",
+        "discordant diabetes tests"
+      ],
+      "minimum_context": [
+        "Fasting/timing",
+        "Unit",
+        "Symptoms",
+        "Pregnancy",
+        "Red-cell/transfusion history"
+      ],
+      "actions": [
+        "Separate acute and longer-term evidence",
+        "Explain confirmation and discordance",
+        "Support clinician review"
+      ],
+      "avoid": [
+        "Average incompatible tests",
+        "Insulin initiation",
+        "Dismiss acute illness due to HbA1c"
+      ],
+      "escalation": "Urgent assessment for severe acute symptoms or critical instruction",
+      "source_ids": [
+        "S99"
+      ]
+    },
+    {
+      "id": "diagnostics.urine-stool",
+      "title": "Urine/culture and stool interpretation",
+      "triggers": [
+        "urine culture",
+        "urinalysis",
+        "FIT",
+        "stool panel"
+      ],
+      "minimum_context": [
+        "Symptoms",
+        "Specimen/collection",
+        "Exact assay",
+        "Pregnancy if relevant",
+        "Prior antibiotics",
+        "Time course"
+      ],
+      "actions": [
+        "Explain screening versus diagnosis",
+        "Review contamination and indication",
+        "Assign responsible follow-up"
+      ],
+      "avoid": [
+        "Treat growth as automatic infection",
+        "Antibiotic selection",
+        "Universal stool panel"
+      ],
+      "escalation": "Urgent assessment for systemic illness, severe pain or bleeding",
+      "source_ids": [
+        "S451",
+        "S452"
+      ]
+    },
+    {
+      "id": "diagnostics.pathology-genetics",
+      "title": "Pathology or genetic report",
+      "triggers": [
+        "biopsy",
+        "cytology",
+        "VUS",
+        "genetic negative"
+      ],
+      "minimum_context": [
+        "Site",
+        "Adequacy",
+        "Final status",
+        "Exact wording",
+        "Addenda",
+        "Variant coverage",
+        "Family context"
+      ],
+      "actions": [
+        "Preserve certainty category",
+        "Explain germline versus tumor testing",
+        "Prepare specialist questions"
+      ],
+      "avoid": [
+        "Upgrade suspicious to malignant",
+        "VUS as pathogenic",
+        "Negative as no inherited risk"
+      ],
+      "escalation": "Timely ordering/specialist review; acute symptoms separately triaged",
+      "source_ids": [
+        "S454",
+        "S455"
+      ]
+    },
+    {
+      "id": "diagnostics.focused-history",
+      "title": "Adaptive voluntary history",
+      "triggers": [
+        "prepare appointment",
+        "history form",
+        "anamnesis"
+      ],
+      "minimum_context": [
+        "Concern and desired decision",
+        "Relevant timeline",
+        "Current symptoms",
+        "Actual medicines",
+        "Consent for sensitive topics"
+      ],
+      "actions": [
+        "Ask few decision-changing questions",
+        "Offer skip/unknown",
+        "Read back and invite correction"
+      ],
+      "avoid": [
+        "Unknown as absent",
+        "Past Rx as current use",
+        "Unrequested public/private persistence"
+      ],
+      "escalation": "Stop routine form for new acute red flags",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "id": "diagnostics.breast-risk-tool",
+      "title": "Confirm breast-risk tool identity",
+      "triggers": [
+        "misheard tool name",
+        "IBIS",
+        "Tyrer-Cuzick"
+      ],
+      "minimum_context": [
+        "Original report/link",
+        "Tool version",
+        "Personal cancer context",
+        "Maternal/paternal pedigree",
+        "Ages at diagnosis",
+        "Density if available",
+        "Local use"
+      ],
+      "actions": [
+        "Offer probable match tentatively",
+        "Use official navigation",
+        "Explain research-only download and licensing",
+        "Prepare risk-clinic questions"
+      ],
+      "avoid": [
+        "Silently substitute name",
+        "Unknown as no cancer",
+        "Invent probability",
+        "Recurrence prediction"
+      ],
+      "escalation": "Specialist/genetics discussion for concerning pedigree; current lump has diagnostic pathway",
+      "source_ids": [
+        "S444",
+        "S455"
+      ]
+    },
+    {
+      "id": "diagnostics.cardiovascular-tools",
+      "title": "Select prevention risk framework",
+      "triggers": [
+        "ASCVD",
+        "QRISK",
+        "SCORE2",
+        "PREVENT",
+        "Pooled Cohort Equations"
+      ],
+      "minimum_context": [
+        "Country",
+        "Age",
+        "Existing disease",
+        "Tool/version",
+        "Measured inputs",
+        "Missing information"
+      ],
+      "actions": [
+        "Explain endpoints/calibration",
+        "Navigate verified appropriate implementation",
+        "Retain uncertainty",
+        "Distinguish 2026 PREVENT-ASCVD primary-prevention pathway from older PCE; verify age, population, endpoint and actual inputs"
+      ],
+      "avoid": [
+        "Treat percentages as interchangeable",
+        "Automate QRISK website",
+        "Start drugs from score"
+      ],
+      "escalation": "Existing disease and acute symptoms use their own care pathways",
+      "source_ids": [
+        "S446",
+        "S445",
+        "S447",
+        "S408",
+        "S457"
+      ]
+    },
+    {
+      "id": "diagnostics.screening-tools",
+      "title": "Mental health and sleep screening",
+      "triggers": [
+        "PHQ",
+        "GAD",
+        "STOP-Bang"
+      ],
+      "minimum_context": [
+        "Reason",
+        "Validated version/language",
+        "Timeframe",
+        "Impairment",
+        "Safety concerns",
+        "Consent"
+      ],
+      "actions": [
+        "Distinguish screening from diagnosis",
+        "Use original validated version",
+        "Arrange clinical assessment",
+        "Disclose STOP-Bang source limitation"
+      ],
+      "avoid": [
+        "Reproduce unverified restricted questionnaire",
+        "Diagnose from total",
+        "Clear suicide risk from low score"
+      ],
+      "escalation": "Immediate safety route for current intent/plan or inability to remain safe; urgent symptoms separately",
+      "source_ids": [
+        "S449",
+        "S450"
+      ]
+    },
+    {
+      "id": "diagnostics.fracture-semen",
+      "title": "Fracture risk or fertility navigation",
+      "triggers": [
+        "FRAX",
+        "semen analysis"
+      ],
+      "minimum_context": [
+        "Country and clinical factors for FRAX",
+        "Complete semen report and collection context for fertility"
+      ],
+      "actions": [
+        "Explain each tool/test purpose",
+        "Distinguish FRAXplus beta adjustments",
+        "Arrange qualified review"
+      ],
+      "avoid": [
+        "Substitute spine BMD in femoral-neck field",
+        "Fertility certainty from one marker"
+      ],
+      "escalation": "New fracture or acute genital symptoms use symptom-specific clinical assessment",
+      "source_ids": [
+        "S448",
+        "S453"
+      ]
+    },
+    {
+      "id": "navigation.emergency_local_dispatch",
+      "title": "Immediate danger: use local emergency dispatch",
+      "triggers": [
+        "Suspected stroke or heart attack",
+        "Severe breathing trouble, collapse, major injury, dangerous bleeding, severe allergic reaction, acute pregnancy emergency, or rapid deterioration",
+        "User asks which emergency hospital to select while unstable"
+      ],
+      "minimum_context": [
+        "Current physical location if known; if unknown, ask country/city while giving immediate action",
+        "Person's exact dispatch location should be shared with dispatcher",
+        "Current symptoms and immediate change, only enough to communicate urgency"
+      ],
+      "actions": [
+        "Say to call local emergency services now; give local-number example only when the country is verified",
+        "Tell caller to provide exact location first and follow dispatcher",
+        "Dispatcher chooses transport/destination based on condition and local system",
+        "A companion may check insurance or documents in parallel if it does not delay care",
+        "If already in clinician care, follow instructions and referral"
+      ],
+      "avoid": [
+        "Facility comparison before call",
+        "Waiting for insurer approval, map search, photos, web translation, or records",
+        "Self-driving for unstable patient",
+        "Promising preferred hospital, language, or ambulance destination"
+      ],
+      "escalation": "Immediate local emergency dispatch. Any worsening while waiting: update dispatcher and follow instructions.",
+      "source_ids": [
+        "S489",
+        "S490",
+        "S289"
+      ]
+    },
+    {
+      "id": "navigation.nonemergency_service_search",
+      "title": "Find and verify appropriate local care",
+      "triggers": [
+        "Stable non-life-threatening concern needing an appointment or same-day advice",
+        "User wants a nearby clinic, GP, pharmacy, diagnostic or specialty service"
+      ],
+      "minimum_context": [
+        "Country and current city/area or nearby landmark; ask permission before using location",
+        "Urgency and trajectory",
+        "Age group and pregnancy if relevant",
+        "Exact service/capability and time needed",
+        "Language, access needs, transport, walk-in/appointment preference"
+      ],
+      "actions": [
+        "Identify official health advice route/regulator/ministry/provider directory",
+        "Use maps/general search only to discover candidates",
+        "Confirm exact branch, service, hours, phone, eligibility, language and entrance on official branch source or verified call",
+        "Report evidence, timestamp, uncertainties, and next verification step",
+        "Escalate if symptoms worsen or fit emergency criteria"
+      ],
+      "avoid": [
+        "Assume residence is current location",
+        "Use reviews/rating or tourism marketing as quality proxy",
+        "Invent capability, distance, cost, hours, or interpreter support",
+        "Collect unnecessary identifiers or medical records"
+      ],
+      "escalation": "If danger signs emerge or uncertainty indicates possible emergency, call local emergency services. For unresolved stable uncertainty, use official local health advice line.",
+      "source_ids": [
+        "S496",
+        "S491",
+        "S495",
+        "S502",
+        "S503"
+      ]
+    },
+    {
+      "id": "navigation.facility_capability",
+      "title": "Verify a specialty or time-sensitive capability",
+      "triggers": [
+        "User asks for stroke, cardiac, paediatric, obstetric, imaging, dialysis, ICU or other specific capability",
+        "Search result claims a specialized centre"
+      ],
+      "minimum_context": [
+        "Stable versus emergency status",
+        "Exact needed service, age group, timing, referral requirements",
+        "Whether a clinician or dispatcher already recommended a destination"
+      ],
+      "actions": [
+        "For emergency, defer destination to dispatcher/local clinical system",
+        "For stable care, verify capability from official provider/regulator source and exact branch",
+        "Call verified facility contact where appropriate to confirm current operation and eligibility",
+        "Distinguish listed specialty from availability at this hour"
+      ],
+      "avoid": [
+        "Choose based on title, badge, reviews or hospital size alone",
+        "Override active referral",
+        "Claim live capacity from static directory"
+      ],
+      "escalation": "Emergency condition: dispatch. Stable but service cannot be verified: call local health advice service or referring clinician.",
+      "source_ids": [
+        "S490",
+        "S489",
+        "S495"
+      ]
+    },
+    {
+      "id": "navigation.travel_insurance",
+      "title": "Travel insurance alongside necessary care",
+      "triggers": [
+        "User asks whether insurance should be called first",
+        "Travel insurer, network, preauthorization, direct billing, or cost uncertainty"
+      ],
+      "minimum_context": [
+        "Emergency now or stable",
+        "Destination and insurer/policy if voluntarily known",
+        "Whether assistance number is available"
+      ],
+      "actions": [
+        "Emergency: call dispatch first; companion may call insurer in parallel",
+        "Stable: use insurer's own policy/app/card contact",
+        "Ask about suitable facility, preauthorization, direct billing, deductible, exclusions, receipts and deadlines",
+        "Record reference and instructions if practical",
+        "State that policy and local practice determine coverage"
+      ],
+      "avoid": [
+        "Guarantee approval or reimbursement",
+        "Delay care for insurer permission",
+        "Recommend unsuitable facility for network status",
+        "Assume EHIC/GHIC is global or covers repatriation"
+      ],
+      "escalation": "Clinical urgency takes precedence; insurer follow-up can occur once immediate care is underway.",
+      "source_ids": [
+        "S499",
+        "S501"
+      ]
+    },
+    {
+      "id": "navigation.number_verification",
+      "title": "Verify emergency number for current jurisdiction",
+      "triggers": [
+        "Country known but number uncertain",
+        "User is abroad or has conflicting search results"
+      ],
+      "minimum_context": [
+        "Current country and region",
+        "Medical emergency versus nonmedical emergency",
+        "Phone/network context if available without delay"
+      ],
+      "actions": [
+        "Use current official government/emergency-service source",
+        "Give number labeled with jurisdiction and checked date",
+        "Explain coverage limits and known conflicts",
+        "If immediate danger, ask nearby trusted person/local authority to call while user provides exact location"
+      ],
+      "avoid": [
+        "Give a global static number list",
+        "Assume EU 112 works universally",
+        "Promise English-language dispatcher",
+        "Test emergency number with a call"
+      ],
+      "escalation": "Immediate danger: local emergency call; do not keep user waiting for research.",
+      "source_ids": [
+        "S289",
+        "S497",
+        "S499",
+        "S290",
+        "S500"
+      ]
+    },
+    {
+      "id": "navigation.map_official_conflict",
+      "title": "Map listing conflicts with official facility information",
+      "triggers": [
+        "Map says open but facility site says closed",
+        "Two branches have similar names",
+        "Phone/address/hours differ between sources"
+      ],
+      "minimum_context": [
+        "Exact branch and current location",
+        "Urgency",
+        "Which source states each conflicting fact and its check time"
+      ],
+      "actions": [
+        "Show conflict instead of silently selecting one",
+        "Prefer responsible health authority and exact branch's own current source",
+        "For stable need, call verified official branch contact or health advice line",
+        "If emergency, use dispatch without waiting to settle map metadata"
+      ],
+      "avoid": [
+        "Treat map rating or edit as authoritative clinical information",
+        "Use old screenshots or an unrelated chain branch",
+        "Invent a reconciliation"
+      ],
+      "escalation": "Emergency dispatch if urgent/deteriorating; otherwise official health line/provider confirmation.",
+      "source_ids": [
+        "S502",
+        "S503",
+        "S496",
+        "S495"
+      ]
+    },
+    {
+      "id": "navigation.language_access",
+      "title": "Language and communication support",
+      "triggers": [
+        "User cannot communicate easily in local language",
+        "User requests a facility or dispatcher with a particular language"
+      ],
+      "minimum_context": [
+        "Preferred language",
+        "Emergency versus stable",
+        "Need for interpreter, hearing or communication access"
+      ],
+      "actions": [
+        "Emergency: call first; give exact location and plain symptoms",
+        "Offer a concise phrase to read/show in local language when useful",
+        "For stable care, verify interpreter/language access directly with official facility contact",
+        "Mark language as unconfirmed unless official source states it"
+      ],
+      "avoid": [
+        "Assume tourism-oriented English means clinical interpretation",
+        "Delay emergency for translation",
+        "Present machine translation as clinical diagnosis"
+      ],
+      "escalation": "Emergency dispatch remains first; ask a trusted nearby helper to communicate if needed.",
+      "source_ids": [
+        "S289",
+        "S499",
+        "S495"
+      ]
+    },
+    {
+      "id": "navigation.candidate_results_table",
+      "title": "Report verified facility candidates",
+      "triggers": [
+        "User requests actual facility recommendations or comparison"
+      ],
+      "minimum_context": [
+        "Consent to use location; exact current area",
+        "Stable status and service need",
+        "Travel mode if distance is requested"
+      ],
+      "actions": [
+        "Provide exact facility and branch",
+        "Give address and distance only with stated origin/mode/source",
+        "State service fit with source-backed wording",
+        "Give hours/phone only when official source supports; mark unknown otherwise",
+        "Include source checked time and uncertainties"
+      ],
+      "avoid": [
+        "Rank by ratings, marketing, size, or proximity as clinical quality",
+        "Fabricate distance, availability, prices, coverage, appointment or capacity",
+        "Present search snippets as direct confirmation"
+      ],
+      "escalation": "For danger signs, lead with emergency action and omit pre-call comparison.",
+      "source_ids": [
+        "S495",
+        "S496",
+        "S502",
+        "S503",
+        "S490"
+      ]
+    },
+    {
+      "id": "ageing-rehab.function",
+      "title": "Function, frailty and goals",
+      "triggers": [
+        "functional decline",
+        "frailty",
+        "multiple conditions"
+      ],
+      "minimum_context": [
+        "baseline and rate of change",
+        "daily tasks",
+        "goals, support, medicines"
+      ],
+      "actions": [
+        "Describe change without diagnosing",
+        "Prepare coordinated assessment",
+        "Consider sensory/nutritional/social barriers"
+      ],
+      "avoid": [
+        "Age cutoff for care",
+        "Chat frailty diagnosis",
+        "Caregiver preference substituted for patient"
+      ],
+      "escalation": [
+        "Acute confusion or new deficits to NEURO/EMERGENCY"
+      ],
+      "source_ids": [
+        "S504",
+        "S404"
+      ]
+    },
+    {
+      "id": "ageing-rehab.falls",
+      "title": "Falls and bone health",
+      "triggers": [
+        "fall",
+        "fear of falling",
+        "fragility fracture"
+      ],
+      "minimum_context": [
+        "circumstances and preceding symptoms",
+        "injury/consciousness",
+        "balance, medicines and fractures"
+      ],
+      "actions": [
+        "Prepare cause assessment",
+        "Discuss adapted balance/strength and home assessment",
+        "Ask about bone prevention"
+      ],
+      "avoid": [
+        "Prediction score clearance",
+        "Vitamin megadoses",
+        "Remote fracture clearance"
+      ],
+      "escalation": [
+        "Collapse, serious injury or deterioration to EMERGENCY; new severe back pain with fragility urgent assessment"
+      ],
+      "source_ids": [
+        "S505",
+        "S507"
+      ]
+    },
+    {
+      "id": "ageing-rehab.medburden",
+      "title": "Treatment burden and medication review",
+      "triggers": [
+        "many medicines",
+        "dizziness after change"
+      ],
+      "minimum_context": [
+        "complete actual use",
+        "changes/symptoms",
+        "goals and diagnoses",
+        "prescriber"
+      ],
+      "actions": [
+        "Prepare clinician/pharmacist review",
+        "Discuss benefits, harms, alternatives, monitoring",
+        "Identify coordinator"
+      ],
+      "avoid": [
+        "Stop all medicines",
+        "Independent anticoagulant/BP changes",
+        "Generic taper"
+      ],
+      "escalation": [
+        "Severe acute adverse-event symptoms to relevant urgent route"
+      ],
+      "source_ids": [
+        "S404",
+        "S505"
+      ]
+    },
+    {
+      "id": "ageing-rehab.rehab",
+      "title": "Injury/postoperative rehabilitation",
+      "triggers": [
+        "return to activity",
+        "exercise after surgery",
+        "conflicting restrictions"
+      ],
+      "minimum_context": [
+        "diagnosis and dates",
+        "written restrictions",
+        "symptoms",
+        "team follow-up"
+      ],
+      "actions": [
+        "Verify restrictions with team",
+        "Prepare functional goals",
+        "Record discrepancy"
+      ],
+      "avoid": [
+        "Calendar clearance",
+        "Forceful manipulation",
+        "Fracture/wound clearance",
+        "Generic loading progression"
+      ],
+      "escalation": [
+        "Severe pain, wound illness, new deficits or unexpected swelling urgent assessment"
+      ],
+      "source_ids": [
+        "S179",
+        "S507",
+        "S520",
+        "S522"
+      ]
+    },
+    {
+      "id": "ageing-rehab.stroke-rehab",
+      "title": "Stroke rehabilitation and swallowing",
+      "triggers": [
+        "stroke recovery",
+        "swallowing/communication difficulty"
+      ],
+      "minimum_context": [
+        "confirmed stroke/stage",
+        "specialist plan",
+        "baseline versus new deficits"
+      ],
+      "actions": [
+        "Prepare multidisciplinary goals",
+        "Support accessible communication",
+        "Verify swallowing plan"
+      ],
+      "avoid": [
+        "Home swallowing recipe",
+        "Forced intensity",
+        "New deficits dismissed as old stroke"
+      ],
+      "escalation": [
+        "New stroke signs or severe choking to EMERGENCY"
+      ],
+      "source_ids": [
+        "S506"
+      ]
+    },
+    {
+      "id": "ageing-rehab.chronic-pain",
+      "title": "Function in chronic pain",
+      "triggers": [
+        "persistent pain",
+        "activity flare"
+      ],
+      "minimum_context": [
+        "duration and diagnosis",
+        "changed symptoms",
+        "goals",
+        "treatments/restrictions"
+      ],
+      "actions": [
+        "Explain primary/secondary distinction",
+        "Discuss adapted supervised activity",
+        "Prepare review goals"
+      ],
+      "avoid": [
+        "Pain imaginary",
+        "Generic medication taper",
+        "Fixed progression despite changes"
+      ],
+      "escalation": [
+        "New neurological/systemic/injury features to urgent pathway"
+      ],
+      "source_ids": [
+        "S313",
+        "S179"
+      ]
+    },
+    {
+      "id": "ageing-rehab.urology",
+      "title": "Continence, LUTS and sexual function",
+      "triggers": [
+        "leakage",
+        "urgency",
+        "weak stream",
+        "sexual difficulty",
+        "dryness"
+      ],
+      "minimum_context": [
+        "onset/pattern",
+        "pain,blood,fever,retention",
+        "relevant anatomy and surgery",
+        "medicines/goals"
+      ],
+      "actions": [
+        "Describe patterns without diagnosis",
+        "Prepare urology/pelvic floor/primary care assessment",
+        "Explain conservative and clinician-selected options"
+      ],
+      "avoid": [
+        "Prostate inferred from identity",
+        "Universal squeezing",
+        "Fluid starvation",
+        "Prescribing hormones/erectile medicines",
+        "Research laser as standard"
+      ],
+      "escalation": [
+        "Retention urgent; sudden severe testicular pain emergency; haematuria assessment, urgent with heavy bleeding/clot retention/illness"
+      ],
+      "source_ids": [
+        "S515",
+        "S516",
+        "S517",
+        "S518",
+        "S519",
+        "S168"
+      ]
+    },
+    {
+      "id": "ageing-rehab.hair-nails",
+      "title": "Hair and nail changes",
+      "triggers": [
+        "shedding",
+        "brittle nail",
+        "dark band",
+        "photo supplement request"
+      ],
+      "minimum_context": [
+        "onset/distribution",
+        "rapid change/inflammation",
+        "illness, medicines, exposures",
+        "products"
+      ],
+      "actions": [
+        "Describe uncertainty",
+        "Prepare targeted examination",
+        "Deficiency requires evidence"
+      ],
+      "avoid": [
+        "Photo diagnosis",
+        "Disease-colour table",
+        "Automatic supplement/megadose",
+        "Abrupt medicine cessation"
+      ],
+      "escalation": [
+        "Changing dark band or rapid inflammatory change prompt examination; severe infection/systemic illness urgent"
+      ],
+      "source_ids": [
+        "S512",
+        "S513",
+        "S514"
+      ]
+    },
+    {
+      "id": "ageing-rehab.massage",
+      "title": "Massage benefit, suitability and consent",
+      "triggers": [
+        "massage for pain",
+        "endure pain claim",
+        "boundaries"
+      ],
+      "minimum_context": [
+        "goal,technique,area",
+        "injury,surgery,clot,bleeding,bones",
+        "jurisdiction/credentials"
+      ],
+      "actions": [
+        "Explain indication-specific limited evidence",
+        "Verify local regulation/training",
+        "Agree draping and continuing consent",
+        "Seek matching professional advice"
+      ],
+      "avoid": [
+        "Structural cure",
+        "Forced neck manipulation",
+        "Ignore withdrawn consent",
+        "Permanent all-massage ban from label"
+      ],
+      "escalation": [
+        "Warm swollen painful limb urgent; chest/breathing symptoms emergency; new severe/neurological symptoms assessed"
+      ],
+      "source_ids": [
+        "S508",
+        "S509",
+        "S520",
+        "S522"
+      ]
+    },
+    {
+      "id": "ageing-rehab.devices",
+      "title": "Percussion or rotating devices",
+      "triggers": [
+        "massage gun",
+        "rotating roller",
+        "postoperative device use"
+      ],
+      "minimum_context": [
+        "exact model/mechanism",
+        "manufacturer warnings",
+        "cause/restrictions",
+        "clot,bleeding,sensation,bones"
+      ],
+      "actions": [
+        "Separate short-term outcomes from healing",
+        "Check exact current instructions",
+        "Stop worsening/new symptoms"
+      ],
+      "avoid": [
+        "Universal force/time/depth",
+        "Head/cervical/anterior neck/major vessel use",
+        "Acute injury application",
+        "Gun evidence transferred to roller",
+        "Endorsement"
+      ],
+      "escalation": [
+        "Unexplained swelling, injury or postoperative worsening assessed"
+      ],
+      "source_ids": [
+        "S510",
+        "S511",
+        "S520",
+        "S179",
+        "S522"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_suspected",
+      "title": "Possible endometriosis with stable symptoms",
+      "triggers": [
+        "Disabling menstrual pain, chronic pelvic pain, deep sexual pain or cyclic bowel/urinary symptoms",
+        "Normal ultrasound with persistent clinically significant symptoms",
+        "Claim that laparoscopy is mandatory before any initial treatment"
+      ],
+      "minimum_context": [
+        "Age/life stage; symptoms, timing, severity and effect on daily life",
+        "Pregnancy possibility and urgent features before routine discussion",
+        "Relevant anatomy, previous imaging/operations and treatments when volunteered or clinically needed",
+        "Current reproductive goals and jurisdiction"
+      ],
+      "actions": [
+        "Explain a working clinical diagnosis and planned evaluation without diagnosing through chat. A normal routine ultrasound does not exclude superficial disease. S362 S364",
+        "Help prepare a symptom/impact summary, prior-treatment history and questions about appropriate ultrasound, specialist imaging and referral.",
+        "Present initial symptom treatment and investigation as potentially concurrent. Discuss alternatives rather than creating a mandatory invasive diagnostic ladder."
+      ],
+      "avoid": [
+        "Declaring disease from a symptom checklist",
+        "Dismissing disease after one normal scan or normal examination",
+        "Using CA125, a classification stage or a symptom diary as a diagnostic test",
+        "Requiring an intolerable internal examination or assuming pregnancy intentions"
+      ],
+      "escalation": [
+        "Use the acute-pain route immediately for red flags.",
+        "Arrange clinical assessment for persistent symptoms, impaired daily function or treatment failure/intolerance; suspected deep disease or endometrioma warrants specialist discussion."
+      ],
+      "source_ids": [
+        "S362",
+        "S364",
+        "S365"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_acute_alternative",
+      "title": "New severe pain or possible pregnancy complication",
+      "triggers": [
+        "Sudden severe or rapidly worsening pelvic/abdominal pain",
+        "Faintness/collapse, major bleeding, shoulder-tip pain with pregnancy possibility",
+        "Breathlessness/chest pain or severe illness despite an existing endometriosis label"
+      ],
+      "minimum_context": [
+        "Only information needed for immediate urgency: onset, severity, collapse/bleeding/breathing, pregnancy possibility and location for local help"
+      ],
+      "actions": [
+        "Prioritize emergency assessment when severe pain, collapse, significant bleeding or breathing difficulty is present. Do not wait to prove a relation to menstruation. S368",
+        "Mention urgent alternatives such as ectopic pregnancy, torsion, cyst complication or infection as reasons for assessment, without claiming a diagnosis.",
+        "If immediate danger is not apparent but fever, vomiting, urinary/stool blood or difficulty passing urine/stool is present, recommend prompt clinical triage.",
+        "Use any existing clinician-provided emergency plan as a separate established pathway; do not invent a prescription rescue regimen."
+      ],
+      "avoid": [
+        "Calling the episode an endometriosis flare based only on history",
+        "Delaying urgent care for a photograph, pregnancy test result, symptom diary or extended questioning",
+        "Using pain relief or a negative biomarker to rule out an emergency"
+      ],
+      "escalation": [
+        "Emergency services/department for severe or unstable features; adapt contact details to the person's location.",
+        "Prompt clinician assessment for concerning but nonunstable associated symptoms."
+      ],
+      "source_ids": [
+        "S368"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_deep_organs",
+      "title": "Possible deep urinary, bowel or extrapelvic disease",
+      "triggers": [
+        "Suspected ureteral involvement or hydronephrosis",
+        "Cyclic dyschezia, hematuria, scar swelling or recurrent thoracic symptoms",
+        "Imaging suggests bowel, bladder or ureteral deep disease"
+      ],
+      "minimum_context": [
+        "Exact symptoms and scan/report wording, if available",
+        "Known obstruction, kidney function concerns or acute chest/breathing symptoms",
+        "Previous operations and relevant specialist involvement"
+      ],
+      "actions": [
+        "Explain that modest pain does not exclude significant ureteral obstruction and renal risk; suspected obstruction needs specialist organ assessment. S366",
+        "Discuss specialist imaging for anatomical mapping and multidisciplinary expertise, without converting an imaging label into an automatic operation. S365",
+        "Recognize extrapelvic patterns while retaining alternative diagnoses. S363"
+      ],
+      "avoid": [
+        "Reassurance based only on tolerable pain",
+        "Claim that all cyclic rectal/urinary bleeding is endometriosis",
+        "Providing bowel/ureter surgical technique instructions or a universal excision recommendation"
+      ],
+      "escalation": [
+        "Urgent specialist assessment for suspected obstruction or threatened organ function.",
+        "Emergency assessment for acute dyspnea, chest pain, severe abdominal pain, retention or other unstable features."
+      ],
+      "source_ids": [
+        "S366",
+        "S365",
+        "S363",
+        "S368"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_treatment_choices",
+      "title": "Compare established pain and hormonal options",
+      "triggers": [
+        "Claim that no treatment exists",
+        "Request to compare nonhormonal, combined hormonal, progestin or GnRH approaches",
+        "Previous medicine inadequate or poorly tolerated"
+      ],
+      "minimum_context": [
+        "Main treatment goal and pregnancy intention",
+        "Exact prior/current products, use, response and adverse effects",
+        "Relevant thrombotic, migraine, liver, cancer, bone and mood history",
+        "Country and access constraints"
+      ],
+      "actions": [
+        "Distinguish no universal cure from meaningful symptom and functional benefit. S361",
+        "Explain class purposes, usual place in care, burdens and major safety categories; compare benefits with the person's stated goal.",
+        "Use method-specific contraindication assessment; estrogen contraindication does not make every hormonal method equivalent. S369",
+        "Explain add-back as a clinician-selected component with its own safety requirements; offer questions for a review rather than a personalized regimen.",
+        "Include multidisciplinary pain care and assessment of overlapping contributors when appropriate. S387"
+      ],
+      "avoid": [
+        "Choosing a prescription, dose, taper or add-back combination for the person",
+        "Promising lesion eradication, fertility improvement or permanent cure from pain treatment",
+        "Treating a progestogen endometriosis product as contraception without verifying its label",
+        "Calling persistent pain psychogenic"
+      ],
+      "escalation": [
+        "Clinician or specialist review for inadequate control, intolerance, complex contraindications or bone-affecting therapy.",
+        "Urgent help for severe mood deterioration or suicidal thoughts; emergency assessment for acute physical red flags."
+      ],
+      "source_ids": [
+        "S361",
+        "S369",
+        "S371",
+        "S373",
+        "S370",
+        "S387"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_exact_product_market",
+      "title": "Verify a GnRH product, contraception and monitoring",
+      "triggers": [
+        "Conflicting Myfembree versus Ryeqo instructions",
+        "Question about Orilissa, Yselty or a depot agonist",
+        "Assumption that a fibroid dose or another country's product label transfers directly"
+      ],
+      "minimum_context": [
+        "Exact brand, ingredients, route/formulation, market and current label",
+        "Prescriber's intended indication and plan",
+        "Contraception needs, co-medicines and relevant safety history"
+      ],
+      "actions": [
+        "Compare the precise jurisdiction-specific label and distinguish authorization, reimbursement and stock.",
+        "Identify US Myfembree nonhormonal contraception wording versus EU Ryeqo first-month and subsequent-use wording; do not blend them. S373 S374",
+        "Explain duration limits, bone monitoring, pregnancy and interaction issues at a category level; defer personal changes to the treating clinician.",
+        "State that the reviewed Yselty overview supports the endometriosis add-back indication but is not a complete SmPC check. S375"
+      ],
+      "avoid": [
+        "Self-directed conversion between products, depot formulations or add-back regimens",
+        "Declaring pregnancy impossible because bleeding stopped",
+        "Claiming Serbian/Russian approval without a verified local source",
+        "Presenting trial arms as automatically approved alternatives"
+      ],
+      "escalation": [
+        "Pharmacist/prescriber verification before applying conflicting instructions.",
+        "Prompt assessment for suspected pregnancy, major adverse effects or acute symptoms."
+      ],
+      "source_ids": [
+        "S373",
+        "S374",
+        "S372",
+        "S375",
+        "S371"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_surgery_followup",
+      "title": "Consider surgery or persistent postoperative symptoms",
+      "triggers": [
+        "Request for excision or hysterectomy as a guaranteed cure",
+        "Pain persists or recurs after surgery",
+        "Proposed deep surgery or repeat endometrioma operation"
+      ],
+      "minimum_context": [
+        "Specific operative goal, lesion location, previous procedures and reports",
+        "Pain/organ/bleeding symptoms and change since surgery",
+        "Pregnancy plans, ovarian reserve concerns and current suppression"
+      ],
+      "actions": [
+        "Separate diagnostic, pain, organ-protection and fertility objectives.",
+        "Explain relevant organ complications, reserve effects and the possibility of persistent pain; specialist expertise matters. S366",
+        "Clarify that hysterectomy and ovary removal are separate decisions and neither guarantees removal of all pain contributors. S363",
+        "Discuss postoperative options and reassess overlapping pain causes; use PRE-EMPT without claiming one hormone universally prevents recurrence. S379",
+        "Flag the NICE/ESHRE difference about the objective of preoperative GnRH treatment instead of issuing a universal medication rule."
+      ],
+      "avoid": [
+        "Guaranteeing cure from complete excision or hysterectomy",
+        "Assuming recurrence is the only cause of postoperative pain",
+        "Automatic repeat ovarian surgery based on size alone",
+        "Telling the person to start or stop prescribed preoperative hormones"
+      ],
+      "escalation": [
+        "Specialist review for deep disease, suspected organ compromise or repeated surgery.",
+        "Acute postoperative/severe new symptoms require urgent clinical assessment."
+      ],
+      "source_ids": [
+        "S366",
+        "S363",
+        "S362",
+        "S379",
+        "S387"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_fertility",
+      "title": "Coordinate endometriosis care with fertility goals",
+      "triggers": [
+        "Trying to conceive with suspected/confirmed endometriosis",
+        "Endometrioma removal proposed before IVF",
+        "Question about egg freezing, ovarian reserve or fertility benefit of suppression"
+      ],
+      "minimum_context": [
+        "Age, time trying and intended route to parenthood when relevant",
+        "Known tubal/ovulatory/semen factors and previous fertility care",
+        "Prior ovarian surgery, bilateral disease and available reserve assessment",
+        "Pain, suspicious imaging or organ risk that could create a separate indication"
+      ],
+      "actions": [
+        "Explain that pain-directed ovarian suppression does not improve pregnancy rates while attempting conception. S363",
+        "Present selected mild-disease surgical evidence with its narrow population and continuing-pregnancy outcome. S380",
+        "Avoid routine endometrioma surgery solely to improve ART live birth; discuss ovarian harm, pain and follicle-access exceptions with specialists.",
+        "Discuss fertility preservation as an option with uncertain eventual benefit, rather than a universal requirement or guarantee."
+      ],
+      "avoid": [
+        "Predicting infertility from stage or a diagnosis alone",
+        "Treating AMH as a definitive natural-fertility forecast",
+        "Claiming deep surgery or repeated cystectomy always improves live birth",
+        "Prescribing hormones to enhance conception"
+      ],
+      "escalation": [
+        "Fertility and endometriosis specialist coordination where surgery may compromise reserve or plans are time-sensitive.",
+        "Urgent organ/symptom pathway takes priority if red flags emerge."
+      ],
+      "source_ids": [
+        "S363",
+        "S380",
+        "S362"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_life_stage_anatomy",
+      "title": "Adolescent, menopausal or gender-diverse presentation",
+      "triggers": [
+        "Adolescent symptoms interfere with school or daily activity",
+        "Postmenopausal new pain, bleeding or mass",
+        "Trans man/nonbinary person with pelvic pain or prior hysterectomy"
+      ],
+      "minimum_context": [
+        "Life stage, relevant organs/surgeries and hormones only as clinically needed",
+        "Symptom pattern, examination preferences and consent",
+        "Urgent symptoms and pregnancy possibility without assumptions"
+      ],
+      "actions": [
+        "Take adolescent disabling or noncyclic symptoms seriously and discuss age-appropriate specialist care. S362",
+        "Do not transfer adult antagonist data to pediatric dosing; consider bone-development implications with specialists.",
+        "Evaluate new menopausal bleeding/mass for alternatives, including malignancy, rather than attributing it to previous endometriosis.",
+        "Use respectful anatomy-based reasoning and coordinate with existing gender-affirming or menopausal treatment; do not recommend abrupt hormone changes.",
+        "Explain the limited evidence behind menopausal regimen decisions and population-specific evidence gaps. S363"
+      ],
+      "avoid": [
+        "Assuming gender identity, lack of bleeding or hysterectomy rules out all endometriosis-related or other pelvic pathology",
+        "Inferring sexual activity, fertility intention or examination consent",
+        "Calling severe adolescent period pain normal by age alone"
+      ],
+      "escalation": [
+        "Prompt assessment for new postmenopausal bleeding/mass.",
+        "Specialist care for adolescent refractory symptoms; urgent route for severe pain or instability."
+      ],
+      "source_ids": [
+        "S362",
+        "S363",
+        "S361",
+        "S364"
+      ]
+    },
+    {
+      "id": "endometriosis.endometriosis_new_evidence",
+      "title": "Assess a novel drug, biomarker or AI claim",
+      "triggers": [
+        "Dichloroacetate or AMY109 advertised as a cure",
+        "Saliva test described as perfect rule-out or general screening",
+        "AI accuracy presented as clinical utility"
+      ],
+      "minimum_context": [
+        "Exact intervention/test and source/date",
+        "Intended clinical use, country and approval/funding claim",
+        "Study stage, comparator, population and relevant patient outcome"
+      ],
+      "actions": [
+        "Separate preclinical rationale, phase 1 safety, feasibility, diagnostic accuracy, clinical utility and authorization.",
+        "For EPiC1, explain the single-arm feasibility design, small sample and neuropathy; no DIY use or cure claim. S381",
+        "For AMY109, report the small phase 1 study and subsequent in-house development discontinuation; do not invent its cause. S382 S383",
+        "For saliva testing, report selected-population accuracy and imperfect negative predictive value; distinguish the French innovation pathway from universal endorsement. S384 S385",
+        "State access limitations and request a full protocol/regulatory source before making a stronger claim."
+      ],
+      "avoid": [
+        "Equating a biomarker association or machine-learning score with a diagnosis",
+        "Converting small uncontrolled symptom changes into efficacy",
+        "Assuming a press release proves approval, access, cure or fertility safety",
+        "Using a negative test to dismiss urgent symptoms"
+      ],
+      "escalation": [
+        "Clinical evaluation continues according to symptoms and organ risk regardless of research-test enthusiasm.",
+        "Research participation discussion belongs with an authorized study team; no acquisition or self-dosing instructions."
+      ],
+      "source_ids": [
+        "S381",
+        "S382",
+        "S383",
+        "S384",
+        "S385",
+        "S386"
+      ]
+    },
+    {
+      "id": "architecture.architecture-map-coverage",
+      "title": "Map a new knowledge gap",
+      "triggers": [
+        "A topic is requested but has no clear destination in the existing navigation graph",
+        "Maintainer asks what an existing topic or module covers"
+      ],
+      "minimum_context": [
+        "Topic or user question",
+        "Whether the request is foundational education, evidence comparison, source discovery, patient-facing preparation, or system architecture",
+        "Known population and jurisdiction if clinical guidance is implicated"
+      ],
+      "actions": [
+        "Map the topic across anatomy/system, symptoms/conditions, tests, medicines, procedures/devices, population/life-stage, care setting, and urgency where relevant",
+        "Identify prerequisite concepts and adjacent topics; record explicit unknowns and missing current local sources",
+        "Use the existing navigation graph as entry/cross-link layer and add reference pointers as an overlay",
+        "Keep curriculum sources as learning-scope evidence and clinical guidelines as recommendation evidence"
+      ],
+      "avoid": [
+        "Claiming that topic presence or library size proves completeness or safety",
+        "Creating a parallel diagnostic decision tree or score engine",
+        "Using an unreviewed source inventory as evidence of clinical claims"
+      ],
+      "escalation": [
+        "If an urgent or safety-critical route has no verified current source and reviewed boundary, route to qualified care or an established emergency resource",
+        "If the request is asking for patient-specific diagnosis or treatment, use the applicable clinical-safety guidance rather than the architecture map"
+      ],
+      "source_ids": [
+        "S523",
+        "S525",
+        "S536",
+        "S537"
+      ]
+    },
+    {
+      "id": "architecture.architecture-source-rights",
+      "title": "Screen a source before adding it to a public knowledge set",
+      "triggers": [
+        "A textbook, guideline, dataset, repository, lecture, or benchmark is proposed for reuse",
+        "A source is described as open or free but license scope is unclear"
+      ],
+      "minimum_context": [
+        "Exact title and URL or repository path",
+        "Intended action: link, read, quote, summarize, download, index, ingest, adapt, or redistribute",
+        "Source version and any third-party components"
+      ],
+      "actions": [
+        "Inspect exact publisher/title license and any AI-ingestion clause, exclusions, third-party credits, and jurisdictional terms",
+        "Record rights metadata independently from reading depth and clinical evidentiary value",
+        "For composite repositories, inspect per-file or per-dataset licenses and separately licensed software/content",
+        "When permission is unclear, retain only metadata and link to the source while seeking a rights review"
+      ],
+      "avoid": [
+        "Treating free access, a platform collection, an MIT code license, or a repository-wide label as permission for every asset",
+        "Reading or deriving from OpenStax textbook chapters under the stated no-AI-ingestion restriction without written permission",
+        "Ingesting ESC guideline content into AI/CDS based on public availability",
+        "Copying benchmark items or using a top-level repo license to override upstream licenses"
+      ],
+      "escalation": [
+        "Refer uncertain legal interpretation to qualified counsel or the rights holder",
+        "Do not add content to a retrieval index until the rights route is clear"
+      ],
+      "source_ids": [
+        "S539",
+        "S540",
+        "S84",
+        "S541",
+        "S527",
+        "S543"
+      ]
+    },
+    {
+      "id": "architecture.architecture-evidence-record",
+      "title": "Create a provenance record for a clinical claim",
+      "triggers": [
+        "A maintainer drafts, changes, or reviews a consequential health statement"
+      ],
+      "minimum_context": [
+        "Exact claim and intended audience",
+        "Population, setting, jurisdiction, date/version, outcome, and decision context",
+        "Exact supporting source section and actual reading status"
+      ],
+      "actions": [
+        "Type the claim as mechanism, empirical finding, guideline recommendation, approval/status, availability, or uncertainty",
+        "Record study/guideline population, comparator/outcome, certainty/limitations, locator, source version, reviewer and date",
+        "Link credible disagreement, corrections, retractions, or superseding sources",
+        "Keep approval, recommendation, evidence, and availability fields independent"
+      ],
+      "avoid": [
+        "Treating a curriculum, regulator landing page, mechanism, trial registration, or abstract as proof of clinical efficacy",
+        "Claiming a full source was read when only metadata, abstract, table of contents, or search excerpt was seen",
+        "Silently replacing a source behind a stable reference"
+      ],
+      "escalation": [
+        "If a material claim has no applicable primary or authoritative support, label it unknown or remove it pending review",
+        "If patient-specific treatment is requested, keep the knowledge record separate from advice"
+      ],
+      "source_ids": [
+        "S524",
+        "S532",
+        "S536",
+        "S539",
+        "S535"
+      ]
+    },
+    {
+      "id": "architecture.architecture-source-refresh",
+      "title": "Review a source or recommendation after a change trigger",
+      "triggers": [
+        "New guideline version, correction, retraction, regulator label, recall, major study, safety signal, local policy change, or rights change is detected",
+        "Scheduled review comes due"
+      ],
+      "minimum_context": [
+        "Old and new source versions or exact event",
+        "Affected claim IDs, populations, settings and jurisdictions",
+        "Date trigger was detected and reviewer"
+      ],
+      "actions": [
+        "Open the authoritative new version and inspect the relevant sections; record literal reading depth",
+        "Compare old/new recommendation, outcome, population, harms, certainty, product status and rights",
+        "Determine whether to add, narrow, supersede, withdraw, or leave a claim unchanged",
+        "Update affected navigation pointers and synthetic evaluations; preserve previous version and rationale",
+        "Prioritize event-driven review for safety alerts and high-impact topics; treat calendar intervals as queue planning only"
+      ],
+      "avoid": [
+        "Changing clinical content solely because the web page timestamp changed",
+        "Assuming newer automatically means better or applicable",
+        "Marking a source current because a fetch succeeded, when it was a login/error or an index excerpt",
+        "Automatically rewriting downstream guidance without review"
+      ],
+      "escalation": [
+        "For a possible serious safety alert or conflicting current guidance, pause unsupported claims and seek a qualified reviewer",
+        "If the authoritative source is inaccessible, record the access failure and do not claim review"
+      ],
+      "source_ids": [
+        "S535",
+        "S533",
+        "S532",
+        "S541"
+      ]
+    },
+    {
+      "id": "architecture.architecture-progressive-retrieval",
+      "title": "Retrieve a compact, applicable evidence bundle",
+      "triggers": [
+        "A user asks for an explanation, evidence comparison, test meaning, treatment options, or source provenance"
+      ],
+      "minimum_context": [
+        "Question type and topic",
+        "Relevant age/life-stage, jurisdiction, care setting, and exact product/route when they change the evidence",
+        "A clear statement of what remains unknown"
+      ],
+      "actions": [
+        "Resolve topic through existing navigation destinations, then retrieve sources attached to the best-matching claim",
+        "Prefer current applicable official guidance and regulator/label for practice/status; add systematic evidence or study for benefit/harms and a foundation source only for mechanism",
+        "Include credible competing guidance when relevant",
+        "Show close citations with exact title, version, section, population, jurisdiction and limitations",
+        "Say when only landing-page/abstract/index text was actually inspected"
+      ],
+      "avoid": [
+        "Searching broadly and mixing unrelated jurisdictions or populations",
+        "Returning many documents without explaining applicability",
+        "Filling a missing context gap by guessing",
+        "Treating tools or retrieval as a diagnosis"
+      ],
+      "escalation": [
+        "If urgent warning signs arise, stop ordinary retrieval and direct to emergency help under the reviewed emergency route",
+        "If exact label or local guidance cannot be verified, state that limit and direct the person to a pharmacist/clinician"
+      ],
+      "source_ids": [
+        "S523",
+        "S528",
+        "S529",
+        "S532",
+        "S530"
+      ]
+    },
+    {
+      "id": "architecture.architecture-choice-discussion",
+      "title": "Explain treatment choices for clinician discussion",
+      "triggers": [
+        "User asks what options are commonly discussed for a condition, how they compare, or what questions to ask a clinician"
+      ],
+      "minimum_context": [
+        "Clinical question and relevant jurisdiction",
+        "Known life-stage, exact product/formulation/route if raised, and what the user wants to understand",
+        "Whether the request asks for general options or an individualized decision"
+      ],
+      "actions": [
+        "Summarize guideline-supported options and evidence limits for the matching population",
+        "Describe likely benefits, harms, burdens, uncertainty, and patient preference factors in balanced terms",
+        "Separate established recommendations from newly issued guidance, authorized product status, investigational intervention, negative evidence, or discontinued product",
+        "Offer questions for a clinician and identify what local verification is needed"
+      ],
+      "avoid": [
+        "Selecting a treatment for the individual, prescribing, titrating, starting/stopping/tapering, or calculating renal/pediatric doses",
+        "Equating new, approved, available, guideline-supported, and effective",
+        "Changing insulin or blood-pressure treatment based on a bare number"
+      ],
+      "escalation": [
+        "Direct to the prescriber/pharmacist for a personal medicine change or product-specific question",
+        "If the question concerns a current emergency, use the reviewed emergency pathway"
+      ],
+      "source_ids": [
+        "S530",
+        "S532",
+        "S533",
+        "S541"
+      ]
+    },
+    {
+      "id": "architecture.architecture-urgent-boundary",
+      "title": "Keep urgent pathways separate from ordinary knowledge retrieval",
+      "triggers": [
+        "User mentions a possible emergency, rapid worsening, danger sign, or asks for immediate action"
+      ],
+      "minimum_context": [
+        "Only the minimum details needed to communicate urgency safely; do not delay emergency care to gather a complete history"
+      ],
+      "actions": [
+        "Use an independently reviewed urgent-care source and concise escalation language",
+        "Preserve the separate pathway for verified lay first aid and an already-prescribed rescue plan",
+        "For non-urgent continuation after safety is addressed, return to ordinary evidence discovery"
+      ],
+      "avoid": [
+        "Allowing missing data, source lookup, a photograph, a score, or an AI response to postpone emergency help",
+        "Giving medication changes from an isolated measurement",
+        "Turning a symptom matcher into a probability or diagnosis engine"
+      ],
+      "escalation": [
+        "When a potentially time-critical emergency is described, tell the user to contact local emergency services or seek immediate in-person care",
+        "Do not improvise first aid or rescue-plan directions; use only separately reviewed instructions"
+      ],
+      "source_ids": [
+        "S531",
+        "S534"
+      ]
+    },
+    {
+      "id": "architecture.architecture-evaluation-review",
+      "title": "Evaluate behavior across synthetic multi-turn cases",
+      "triggers": [
+        "New route, source mapping, retrieval change, or user-facing behavior is proposed"
+      ],
+      "minimum_context": [
+        "Intended educational scope and forbidden behaviors",
+        "Synthetic fixture, expected criteria, applicable source keys, and version under review"
+      ],
+      "actions": [
+        "Test missing and contradictory context, updated sources, changes in age/jurisdiction/product, source access failure, and an urgent pivot",
+        "Check citation entailment, applicability, version, rights status, and whether limitations are reported",
+        "Test that the assistant asks only for context that changes the answer, abstains when unsupported, and does not cross into diagnosis or dosing",
+        "Review with qualified maintainers; monitor changes after release"
+      ],
+      "avoid": [
+        "Treating passing text checks, benchmark scores, volume of sources, or disclaimer presence as clinical validation",
+        "Using real patient records, transcripts, identifiers or genetics as public fixtures",
+        "Copying benchmark items or inferring a benchmark's license from repository-level code terms"
+      ],
+      "escalation": [
+        "If an evaluation reveals a safety-branch bypass or unsupported action, block that route until reviewed",
+        "If intended product use crosses into diagnosis, triage, or treatment, require a separate validation and regulatory workstream"
+      ],
+      "source_ids": [
+        "S534",
+        "S531",
+        "S542",
+        "S543",
+        "S526"
+      ]
+    },
+    {
+      "id": "architecture.architecture-foundation-pharmacology",
+      "title": "Find a foundational pharmacology learning section",
+      "triggers": [
+        "The user asks for a plain-language explanation of pharmacokinetics, ADME, pharmacodynamics, or mechanism-of-action terminology"
+      ],
+      "minimum_context": [
+        "Whether the request is for a basic concept or a specific medicine/product decision",
+        "Audience and jurisdiction if the user asks for a professional education source"
+      ],
+      "actions": [
+        "Link to Open RN Nursing Pharmacology-2e sections 1.2 and 1.7 as US nursing-education resources",
+        "Label actual section titles, edition, CC BY 4.0 license with section-specific figure/third-party credits, and educational scope",
+        "For a product or treatment question, separately retrieve current exact product labeling and applicable guideline evidence"
+      ],
+      "avoid": [
+        "Treating foundation sections as efficacy, safety, approval, interaction, contraindication, or dose evidence",
+        "Implying that reading the textbook qualifies the user to administer or prescribe medicines",
+        "Copying chapter text, figures, learning activities, or answer keys without the required attribution and asset-level rights review"
+      ],
+      "escalation": [
+        "Route personal medicine changes or product safety questions to the prescriber or pharmacist and current local product information",
+        "If there is an urgent reaction or immediate danger, use the separately reviewed urgent-care route"
+      ],
+      "source_ids": [
+        "S544",
+        "S547"
+      ]
+    },
+    {
+      "id": "architecture.architecture-cdc-clinician-course-outline",
+      "title": "Use the CDC TB curriculum and course outline as learning-navigation sources",
+      "triggers": [
+        "A clinician-education request concerns TB learning objectives or chapter organization",
+        "A maintainer needs an example of linking course outcomes to a subject map"
+      ],
+      "minimum_context": [
+        "Whether the request is about education or current clinical care",
+        "Audience, jurisdiction and requested edition/date"
+      ],
+      "actions": [
+        "Link the CDC Core Curriculum 7th edition and identify the inspected Chapter 1 sections and limits",
+        "Show the CE activity's objectives, target audience and expiration date; state that SS4444R expired 2025-03-19",
+        "For current practice questions, route to the current CDC TB guideline page and jurisdiction-specific TB program source"
+      ],
+      "avoid": [
+        "Calling the expired activity currently creditable",
+        "Treating course objectives or completion as proof of competence",
+        "Treating the 2021 manual as a substitute for current guidelines",
+        "Using course questions or copied figures as public evaluation data"
+      ],
+      "escalation": [
+        "For a patient-care TB question, use a current clinical guidance route and local public-health consultation where appropriate",
+        "For CE credit, verify the provider's current course catalog because the listed activity has expired"
+      ],
+      "source_ids": [
+        "S545",
+        "S546"
+      ]
+    }
+  ]
+}

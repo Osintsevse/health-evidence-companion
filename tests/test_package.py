@@ -217,6 +217,26 @@ class PackageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Unexpected extension'):
             validate(self.root)
 
+    def test_compressed_archive_size_limit_is_enforced(self):
+        from unittest.mock import patch
+        path = Path(self.temp.name) / 'oversized.zip'
+        with zipfile.ZipFile(path, 'w') as archive:
+            archive.writestr('plugin.json', '{}')
+        with patch('validate.MAX_ARCHIVE_BYTES', 1):
+            with self.assertRaisesRegex(ValueError, 'Compressed archive exceeds'):
+                validate_zip(path)
+
+    def test_expansion_limit_rejects_highly_compressed_payload(self):
+        from unittest.mock import patch
+        path = Path(self.temp.name) / 'compressed.zip'
+        with zipfile.ZipFile(path, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
+            archive.writestr('plugin.json', '{}')
+            archive.writestr('assets/large.txt', 'x' * 10000)
+        self.assertLess(path.stat().st_size, 1000)
+        with patch('validate.MAX_ARCHIVE_BYTES', 1000):
+            with self.assertRaisesRegex(ValueError, 'Archive exceeds project size limit'):
+                validate_zip(path)
+
     def test_archive_path_traversal_is_rejected(self):
         path = Path(self.temp.name) / 'bad.zip'
         with zipfile.ZipFile(path, 'w') as z:

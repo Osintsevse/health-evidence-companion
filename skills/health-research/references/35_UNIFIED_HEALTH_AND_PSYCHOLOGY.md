@@ -6,7 +6,11 @@ One Health Evidence Companion package includes medical education and the adult p
 
 | Request | Route |
 |---|---|
-| Physical symptoms, tests or immediate medical urgency | health-explain; health-family-care for children, pregnancy and reproductive contexts |
+| Current suspected life-threatening emergency | health-first-aid: immediate actions before research, then explanation |
+| Physical symptoms and tests | health-explain; health-family-care for children, pregnancy and reproductive contexts |
+| Food diary, calories/macros and practical diet review | health-nutrition |
+| Find suitable local care or travel/insurance assistance | health-care-navigation, after immediate emergency actions |
+| Voluntary history interview and dated health summary | health-history-intake; persistence uses separately authorized private-record workflow |
 | Medicine ingredients, interactions or label checks | health-medicine-info |
 | Psychiatric diagnosis concepts, medication monitoring or clinician preparation | health-mental-health; use current primary clinical sources |
 | Adult emotions, meaning, everyday difficulties and supportive reflection | psyops-dialogue |

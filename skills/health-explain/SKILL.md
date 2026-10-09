@@ -52,3 +52,13 @@ For psychological dialogue, relationships, sport or cross-domain private sharing
 
 
 For a save from a chat without safe accepted-ledger access, read [private intake queues](references/36_PRIVATE_INTAKE_QUEUE.md). Use an authorized private inbox with source/content readback; report queued, ledger-verified and view-verified stages separately. If upload is unavailable, provide a downloadable file and name the remaining manual placement step. Reuse the import skill's bundled `intake_queue.py` and `accept_owner_report.py` in an authorized local host; no wearable, smart home, home server or new ledger is required. Preserve relatives as family reports rather than the owner's diagnoses/allergies.
+
+## Expanded clinical navigation
+
+For a current dangerous situation, use health-first-aid when available and the relevant [lay emergency card](references/EMERGENCY.md) before research or documentation. Risky exposures and suspected overdose may require urgent action even without obvious symptoms. For nonurgent requests use the [clinical navigation index](references/CLINICAL_INDEX.md): it connects organ systems, symptoms, medicines, tests, life stages and current source routes.
+
+Use the relevant card for [common symptoms](references/SYMPTOMS.md), [anatomy and physiology](references/ANATOMY.md), [chronic conditions and blood pressure](references/CHRONIC.md), [tests and focused history](references/DIAGNOSTICS.md), [neuropsychiatry and dementia](references/NEURO.md) or [ageing and rehabilitation](references/AGEING_REHAB.md). These cards provide bounded entry points, not a complete examination or clinical qualification.
+
+When useful, explain standard guideline options that a clinician may consider: the problem each option addresses, the facts that would support it, important contraindications, alternatives and questions to take to the visit. Distinguish established use, authorized-but-new treatments, off-label choices and investigational approaches. Do not turn a disclaimer into evidence or give an individualized prescription/titration.
+
+Use health-nutrition for a food diary or practical nutrient/food review, health-history-intake for a voluntary focused interview and health-care-navigation for finding a suitable local service when those skills are available. A photo may help a relevant nonurgent visible/label/report description; it must not delay emergency help or establish absence of disease.

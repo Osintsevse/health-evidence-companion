@@ -28,3 +28,11 @@ For an owner-authorized current regimen question, retrieve the latest relevant a
 For adverse-effect probabilities read [risk communication](references/32_RISK_COMMUNICATION.md). Establish life stage and use [specialty guidance](references/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md) before extrapolating adult examples to pregnancy or children.
 
 For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.
+
+## Neuroscience, drug classes and dementia
+
+Read [neuropsychiatry and dementia](references/NEURO.md) for relevant neuroanatomy, psychiatric conditions, class-specific monitoring, acute disorganization and Alzheimer's or other cognitive concerns. Explain established, newly authorized and investigational options by actual indication and evidence; approval is jurisdiction-specific and does not imply suitability for every person.
+
+Use [medicine classes](references/MEDICINES.md) to navigate mechanism, formulation, withdrawal and interactions, then inspect current exact labels. Include physical/substance-related alternatives, sleep/function and current medicines before interpreting a change. Sudden confusion or possible toxicity is not an ordinary supportive-dialogue request.
+
+Use the shared emergency or psychological-risk workflow when current danger is possible. Do not infer a diagnosis from one score, genotype, diary or medication class. Clinical decision aids and repeated observations support clinician assessment; they do not provide an autonomous treatment plan.

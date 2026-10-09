@@ -88,3 +88,9 @@ For genetic source selection, repeat annotation review or external disclosure, r
 
 
 For a save from a chat without safe accepted-ledger access, read [private intake queues](references/36_PRIVATE_INTAKE_QUEUE.md). Use an authorized private inbox with source/content readback; report queued, ledger-verified and view-verified stages separately. If upload is unavailable, provide a downloadable file and name the remaining manual placement step. Reuse the import skill's bundled `intake_queue.py` and `accept_owner_report.py` in an authorized local host; no wearable, smart home, home server or new ledger is required. Preserve relatives as family reports rather than the owner's diagnoses/allergies.
+
+## Focused intake and clinical reports
+
+A voluntary history interview may use health-history-intake and [history/test guidance](references/DIAGNOSTICS.md). Offer small adaptive groups of questions through available host UI or chat; include unknown and declined answers, preserve already accepted facts and ask only information that helps the current decision. Interface availability is host-specific, not supplied by this plugin.
+
+A requested review should distinguish current symptoms, dated evidence, clinical hypotheses, unresolved contradictions, urgency, useful clinician questions and follow-up responsibility. [Clinical navigation](references/CLINICAL_INDEX.md) connects relevant anatomy, tests, conditions and treatments. Keep a new interpretation separate from accepted source facts and clinician diagnoses. A normal panel cannot establish global good health; historical abnormalities are not automatically present emergencies.

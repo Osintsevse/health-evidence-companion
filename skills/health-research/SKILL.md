@@ -30,3 +30,9 @@ For foundations, books and public lecture notes use [the learning index](referen
 For psychological dialogue, relationships, sport or cross-domain private sharing, consult [unified routing](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). Select the relevant psyops-* skill when available; keep full psychological notes separate and load only explicitly authorized, selected summaries. Medical archive authorization alone does not grant psychological-journal access.
 
 For genetic source selection, repeat annotation review or external disclosure, read [genetic evidence and consent](references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md). Use the bundled offline evidence helper for a public ClinGen cache, gene-level context, same-input annotation comparison and a private minimal transfer plan. No transmission or consent approval is implemented; preserve the owner's exact authorization scope and verify any new recipient before using a separate host adapter.
+
+## Expanded evidence routes
+
+Use [clinical navigation](references/CLINICAL_INDEX.md) for the relevant organ, symptom, treatment, life-stage or diagnostic question. In a current emergency, route immediate lay actions before evidence comparison. Broad class or anatomy maps orient a search; the relevant current guideline and product label still determine consequential details.
+
+Separate new authorized care from an experimental intervention, a trial registration, a surrogate/biomarker finding and a discovery lead from a forum or another AI package. Review actual clinical outcomes, harms, comparator, population and practical access. Open-source code, popularity or a large knowledge archive is not clinical validation.

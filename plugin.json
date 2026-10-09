@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "health-evidence-companion",
-  "version": "0.6.3",
+  "version": "0.7.0",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -26,7 +26,7 @@
       "interface": {
         "displayName": "Health Evidence Companion",
         "shortDescription": "Health and psychology evidence",
-        "longDescription": "Fifteen skills combine medical education, medicines, prevention, family care, research and private medical history with adult psychological dialogue, CBT/ACT/MCT self-help, relationships, sport preparation and separate psychological notes. Existing health-* and psyops-* skill names are retained. The library preserves 266 medical and 102 psychology source records, their original IDs, reading dates and access limitations; a domain-qualified catalog links overlaps. Optional offline imports, graphs, genetics and owner-selected Psychology summaries reuse bundled helpers. Full medical records and psychological journals remain separate; neither installation nor authorization for one archive grants access to the other. No publisher backend, patient telemetry, automatic account access, therapist qualification, medical clearance or validated AI treatment is provided. Host and chosen storage controls apply. Clinical guidance and consequential genetic findings need current sources and clinical confirmation.",
+        "longDescription": "Medical and adult psychological education with separate owner-authorized private-record workflows. Nineteen skills add lay first aid, nutrition review, verified care navigation and focused history to the existing medical and psychological routes. The clinical navigation library connects anatomy, common symptoms, medicine/therapy classes, chronic conditions, tests, life stages, endometriosis, neuroscience and ageing to current source searches. Source records preserve actual reading depth, jurisdiction and uncertainty. Standard treatment options prepare clinician questions; no individualized prescription, remote diagnosis or clinical clearance is provided. First-aid cards prioritize immediate lay actions and local dispatch. Existing records and psychological journals remain separate. The package has no publisher backend, patient telemetry, automatic account access or validated clinical engine. New therapeutic approvals, trial evidence and remaining gaps are distinguished. Host capabilities and chosen storage controls apply.",
         "developerName": "Osintsevse",
         "category": "Healthcare",
         "capabilities": [
@@ -43,7 +43,11 @@
           "Support adult psychological reflection",
           "Discuss optional CBT, ACT and MCT practices",
           "Prepare sport and relationship discussions",
-          "Maintain separately authorized psychological notes"
+          "Maintain separately authorized psychological notes",
+          "Explain lay first-aid actions",
+          "Review food diaries and nutrition",
+          "Find appropriate local care",
+          "Collect a focused voluntary history"
         ],
         "websiteURL": "https://github.com/Osintsevse/health-evidence-companion",
         "supportURL": "https://github.com/Osintsevse/health-evidence-companion/issues",
@@ -60,7 +64,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.6.3 binds archive views to the selected owner and one SQLite read snapshot, adds WAL-aware logical fingerprints and atomic file replacement, and separates reader-data verification from browser UI verification. No clinical or cloud validation is implied."
+        "release_notes": "Version 0.7.0 expands source-linked clinical navigation, medicine and therapy classes, nutrition, lay first aid, chronic conditions, diagnostics, life-stage anatomy, endometriosis, neuropsychiatry, ageing and care-service search. Added skills and synthetic evaluations do not constitute clinical validation."
       }
     }
   }

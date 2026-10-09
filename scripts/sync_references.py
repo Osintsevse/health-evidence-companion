@@ -90,6 +90,20 @@ for _skill in ['health-record-import','health-record-design','health-research','
     MAP[_skill] += ['knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md']
 
 
+
+CLINICAL_TOPICS = ['EMERGENCY','MEDICINES','NUTRITION','ANATOMY','CHRONIC','NEURO',
+                   'SYMPTOMS','DIAGNOSTICS','NAVIGATION','AGEING_REHAB','ENDOMETRIOSIS','ARCHITECTURE']
+CLINICAL_PACK = ['knowledge/clinical/'+name+'.md' for name in CLINICAL_TOPICS] + [
+    'knowledge/clinical/CLINICAL_INDEX.md','knowledge/clinical/navigation.json',
+    'knowledge/clinical/routes.json','knowledge/clinical/source-review.json',
+    'knowledge/clinical/intake-question-bank.json','knowledge/clinical/terminology.json']
+for _skill in ['health-first-aid','health-nutrition','health-care-navigation','health-history-intake']:
+    MAP[_skill] = COMMON + ['knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md',
+        'knowledge/32_RISK_COMMUNICATION.md','knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']
+for _skill in MAP:
+    if _skill.startswith('health-'):
+        MAP[_skill] = list(dict.fromkeys(MAP[_skill] + CLINICAL_PACK))
+
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
             for skill, sources in MAP.items() for src in sources}

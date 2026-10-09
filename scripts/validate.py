@@ -16,6 +16,8 @@ ROOT_FILES = {'.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'plugin
 TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs', '.css'}
 SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
 SOURCE_MANIFEST = Path('scripts/source-files.txt')
+# Both stored and expanded size stay bounded despite per-skill reference copies.
+MAX_ARCHIVE_BYTES = 100 * 1024 * 1024
 # Only reviewed, entirely blank Markdown forms may be distributed. A layout
 # change requires reviewing the new blank form and updating its digest here.
 BLANK_MARKDOWN_SHA256 = {
@@ -296,16 +298,22 @@ def validate(root=ROOT):
     for rel in plugin_files(root):
         if rel.suffix == '.md':
             relative_links((root / rel).read_text(encoding='utf-8'), rel.as_posix(), installed)
-    return {'version': manifest['version'], 'skills': len(MAP), 'sources': len(sources)+len(psychological_ids), 'medical_sources': len(sources), 'psychology_sources': len(psychological_ids), 'source_files': len(files),
+    from clinical_navigation import validate_clinical
+    clinical = validate_clinical(root)
+    from update_clinical_index import render as clinical_index
+    require((root / 'knowledge/clinical/CLINICAL_INDEX.md').read_text(encoding='utf-8') == clinical_index(root),
+            'Stale clinical reading index')
+    return {**clinical, 'version': manifest['version'], 'skills': len(MAP), 'sources': len(sources)+len(psychological_ids), 'medical_sources': len(sources), 'psychology_sources': len(psychological_ids), 'source_files': len(files),
             'validation': 'local structure/content checks only; not clinical or platform certification'}
 
 
 def validate_zip(path):
+    require(Path(path).stat().st_size <= MAX_ARCHIVE_BYTES, 'Compressed archive exceeds project size limit')
     with zipfile.ZipFile(path) as z:
         names = z.namelist()
         require(len(names) == len(set(names)), 'Duplicate archive members')
         require('plugin.json' in names, 'Manifest must be at archive root')
-        require(sum(i.file_size for i in z.infolist()) <= 16 * 1024 * 1024, 'Archive exceeds project size limit')
+        require(sum(i.file_size for i in z.infolist()) <= MAX_ARCHIVE_BYTES, 'Archive exceeds project size limit')
         for i in z.infolist():
             p = PurePosixPath(i.filename)
             require(not p.is_absolute() and '..' not in p.parts and '\\' not in i.filename, 'Unsafe archive path')

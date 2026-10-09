@@ -42,6 +42,13 @@ def build(root=ROOT, output=None):
     report['platform_sha256']=platforms
     report['sha256'] = hashes
     report['plugin_members'] = len(plugin_files(root))
+    with zipfile.ZipFile(plugin) as built_zip:
+        report['archive_bytes'] = {'plugin_compressed': plugin.stat().st_size,
+            'plugin_expanded': sum(item.file_size for item in built_zip.infolist()),
+            'source_compressed': source.stat().st_size}
+    clinical_dir = root / 'knowledge/clinical'
+    report['clinical_reference_words'] = sum(len(path.read_text(encoding='utf-8').split())
+        for path in clinical_dir.glob('*.md'))
     report['contains_patient_data'] = 'prohibited; heuristic checks and blank-template checks passed, human review still required'
     (dest / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
     return report
