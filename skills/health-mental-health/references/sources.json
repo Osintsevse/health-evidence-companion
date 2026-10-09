@@ -5722,5 +5722,41 @@
     "retrieval_status": "Direct PDF page 1 soft-spot paragraph read (tool lines 15-24); direct DCJ copyright notice inspected.",
     "use": "Transient crying-related swelling followed by return to flat appearance when crying ends.",
     "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S637",
+    "title": "AHA Measurement of Blood Pressure in Humans (2019 statement; PMC author manuscript available 2024)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11409525/",
+    "region": "US / adult and measurement science",
+    "retrieval_status": "Selected BP components, auscultatory/oscillometric and technique sections inspected; not full statement",
+    "use": "Explain BP components and measurement principles; no device-specific accuracy claim",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S638",
+    "title": "NHS Blood pressure test",
+    "url": "https://www.nhs.uk/tests-and-treatments/blood-pressure-test/",
+    "region": "UK / general adult education",
+    "retrieval_status": "Public test and setting-specific threshold sections inspected",
+    "use": "Explain clinic/home thresholds; no NICE clinical-content reuse",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S639",
+    "title": "AHA All About Heart Rate (reviewed May 13, 2024)",
+    "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse",
+    "region": "US / general adult education",
+    "retrieval_status": "Resting pulse, modifiers and clinical-contact sections inspected",
+    "use": "Separate pulse rate from blood pressure and avoid universal danger categories",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "id": "S640",
+    "title": "AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)",
+    "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+    "region": "US / general adult education",
+    "retrieval_status": "Device choice, home technique, repeat readings and severe-pressure action sections inspected",
+    "use": "Source-linked guide; historical points are not current emergencies",
+    "checked_on": "2026-10-09"
   }
 ]

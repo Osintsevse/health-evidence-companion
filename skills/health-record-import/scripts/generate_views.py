@@ -16,6 +16,9 @@ def helper(name):
     module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);return module
 
 
+BLOOD_PRESSURE = helper('blood_pressure')
+
+
 FACT_TABLES = ('observations', 'clinical_entries', 'medication_orders', 'medication_use_events')
 REVIEWED = {'verified_from_source', 'user_confirmed'}
 
@@ -41,7 +44,7 @@ def observation_category(row):
     if row.get('unit_raw') in ('kg','cm','\u043a\u0433','\u0441\u043c','\xb0C'):return 'vitals'
     method=(row.get('method_raw') or '').lower()
     specimen=(row.get('specimen_raw') or '').lower()
-    if 'abpm' in method or row.get('unit_raw') in ('mmHg','bpm'):
+    if BLOOD_PRESSURE.component(row) or 'abpm' in method or row.get('unit_raw') in ('mmHg','bpm'):
         return 'vitals'
     if any(x in method for x in ('\u0443\u0437\u0438','ultrasound','spirom')):
         return 'investigations'
@@ -234,6 +237,7 @@ def _generate(db, config, output, template):
         model['psychology']=psychology
         model['labels']={**psychology_tools.ui_labels(config.get('locale','en')),**model.get('labels',{})}
     helper('lab_dashboard').attach_assessment(model,config)
+    model['blood_pressure']=BLOOD_PRESSURE.build_dashboard(model,config)
     model['lab_dashboard']=helper('lab_dashboard').build_dashboard(model,config)
     model['medication_timeline']=helper('medication_timeline').build_timeline(model['tables'],config)
     model['medication_chart']=helper('medication_chart').build_chart(model['medication_timeline'],config,model.get('as_of'))
@@ -258,7 +262,7 @@ def _generate(db, config, output, template):
     data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     template=Path(template)
     text=template.read_text(encoding='utf-8').replace('__PRIVATE_MODEL__',data)
-    for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs'),('__LAB_DASHBOARD_CSS__','lab_dashboard.css'),('__LAB_DASHBOARD_JS__','lab_dashboard_ui.mjs')]:
+    for marker,name in [('__MEDICATION_CHART_CSS__','medication_chart.css'),('__MEDICATION_CHART_JS__','medication_chart_ui.mjs'),('__BLOOD_PRESSURE_CSS__','blood_pressure.css'),('__BLOOD_PRESSURE_JS__','blood_pressure_ui.mjs'),('__LAB_DASHBOARD_CSS__','lab_dashboard.css'),('__LAB_DASHBOARD_JS__','lab_dashboard_ui.mjs')]:
         if marker in text:text=text.replace(marker,(template.parent/name).read_text(encoding='utf-8'))
     if '__PRIVATE_MODEL__' in text:
         raise ValueError('Unresolved private model template marker')

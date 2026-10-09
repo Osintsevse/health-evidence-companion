@@ -10,7 +10,7 @@ class FullGenerationTests(unittest.TestCase):
    for name,table in contract['tables'].items():
     columns=([] if name=='imports' else contract['common_columns'])+(contract['fact_columns'] if table['fact'] else [])+table['columns'];c.execute('create table '+name+' ('+','.join(x+' TEXT' for x in columns)+')')
    c.execute("INSERT INTO imports(import_id,record_id,state,ledger_readback_status) VALUES('SYN-BASE','synthetic-owner','committed','rows_verified')");c.commit();c.close();before=hashlib.sha256(db.read_bytes()).hexdigest();out=root/'views';views.generate(db,{'record_id':'synthetic-owner'},out,ROOT/'skills/health-record-import/assets/archive-view.html');self.assertEqual(hashlib.sha256(db.read_bytes()).hexdigest(),before)
-   model=json.loads((out/'view_data.json').read_text());self.assertEqual(model['medication_timeline'],[]);self.assertEqual(model['review_questions'],[]);self.assertTrue(model['feedback_storage_key']);self.assertNotIn('__PRIVATE_MODEL__',(out/'index.html').read_text())
+   model=json.loads((out/'view_data.json').read_text());self.assertEqual(model['blood_pressure']['measurements'],[]);self.assertNotIn('__BLOOD_PRESSURE_', (out/'index.html').read_text());self.assertEqual(model['medication_timeline'],[]);self.assertEqual(model['review_questions'],[]);self.assertTrue(model['feedback_storage_key']);self.assertNotIn('__PRIVATE_MODEL__',(out/'index.html').read_text())
    first={p.name:(p.read_bytes(),p.stat().st_mtime_ns) for p in out.iterdir() if p.is_file()}
    views.generate(db,{'record_id':'synthetic-owner'},out,ROOT/'skills/health-record-import/assets/archive-view.html')
    self.assertEqual(first,{p.name:(p.read_bytes(),p.stat().st_mtime_ns) for p in out.iterdir() if p.is_file()})

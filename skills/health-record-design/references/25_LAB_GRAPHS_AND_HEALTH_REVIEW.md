@@ -29,3 +29,7 @@ Offer a short optional questionnaire only for identifiable gaps relevant to the 
 Reuse stable private review-question IDs, source links, browser-draft warnings, downloads at both ends and reviewed acceptance. A static HTML file does not automatically submit feedback or save accepted facts. A packet export downloads an aggregate file locally; it does not transmit to an AI. Preserve owner-selected privacy and ask no new sharing permission when none is needed.
 
 Optional helpers under health-record-import: `scripts/lab_dashboard.py`, `assets/lab_dashboard_ui.mjs` and `assets/lab_dashboard.css`. They provide deterministic offline projections and rendering, not interpretation by an autonomous agent. Actual reports, configuration, private packets, assessment versions and QA screenshots stay in the chosen private archive.
+
+## BP source-order exception
+
+The exact-date requirement above applies to quantitative time plots. [Module 38](38_BLOOD_PRESSURE_AND_MEASUREMENT.md) permits a separate, explicitly ordinal blood-pressure display when dates are unknown, partial or unusable. Its x-axis is source order, never calendar time or elapsed duration. This does not relax the dated laboratory graph gate or establish temporal trends.

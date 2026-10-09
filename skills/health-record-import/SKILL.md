@@ -94,3 +94,7 @@ For a save from a chat without safe accepted-ledger access, read [private intake
 A voluntary history interview may use health-history-intake and [history/test guidance](references/DIAGNOSTICS.md). Offer small adaptive groups of questions through available host UI or chat; include unknown and declined answers, preserve already accepted facts and ask only information that helps the current decision. Interface availability is host-specific, not supplied by this plugin.
 
 A requested review should distinguish current symptoms, dated evidence, clinical hypotheses, unresolved contradictions, urgency, useful clinician questions and follow-up responsibility. [Clinical navigation](references/CLINICAL_INDEX.md) connects relevant anatomy, tests, conditions and treatments. Keep a new interpretation separate from accepted source facts and clinician diagnoses. A normal panel cannot establish global good health; historical abnormalities are not automatically present emergencies.
+
+## Blood pressure and measurement
+
+For BP parameters, manual versus electronic cuffs or requested BP views, read [blood pressure and measurement](references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md). Preserve complete source-local readings and unknown date/time; never guess pairs from repeated same-day components. Colours are optional named adult educational categories, not a universal good/bad health score. Keep pulse separate, show the full pair and source in a tooltip, and distinguish historical observations from present urgency.

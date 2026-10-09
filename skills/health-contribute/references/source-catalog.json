@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 738,
-  "unique_url_count": 735,
+  "record_count": 742,
+  "unique_url_count": 739,
   "records": [
     {
       "namespace": "medical",
@@ -8269,6 +8269,58 @@
       "limitations": "Direct PDF page 1 soft-spot paragraph read (tool lines 15-24); direct DCJ copyright notice inspected.",
       "purpose": "Transient crying-related swelling followed by return to flat appearance when crying ends.",
       "region": "Australia: New South Wales",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S637",
+      "qualified_id": "medical:S637",
+      "title": "AHA Measurement of Blood Pressure in Humans (2019 statement; PMC author manuscript available 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11409525/",
+      "checked_on": "2026-10-09",
+      "reading_status": "Selected BP components, auscultatory/oscillometric and technique sections inspected; not full statement",
+      "limitations": "Selected BP components, auscultatory/oscillometric and technique sections inspected; not full statement",
+      "purpose": "Explain BP components and measurement principles; no device-specific accuracy claim",
+      "region": "US / adult and measurement science",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S638",
+      "qualified_id": "medical:S638",
+      "title": "NHS Blood pressure test",
+      "url": "https://www.nhs.uk/tests-and-treatments/blood-pressure-test/",
+      "checked_on": "2026-10-09",
+      "reading_status": "Public test and setting-specific threshold sections inspected",
+      "limitations": "Public test and setting-specific threshold sections inspected",
+      "purpose": "Explain clinic/home thresholds; no NICE clinical-content reuse",
+      "region": "UK / general adult education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S639",
+      "qualified_id": "medical:S639",
+      "title": "AHA All About Heart Rate (reviewed May 13, 2024)",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse",
+      "checked_on": "2026-10-09",
+      "reading_status": "Resting pulse, modifiers and clinical-contact sections inspected",
+      "limitations": "Resting pulse, modifiers and clinical-contact sections inspected",
+      "purpose": "Separate pulse rate from blood pressure and avoid universal danger categories",
+      "region": "US / general adult education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S640",
+      "qualified_id": "medical:S640",
+      "title": "AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+      "checked_on": "2026-10-09",
+      "reading_status": "Device choice, home technique, repeat readings and severe-pressure action sections inspected",
+      "limitations": "Device choice, home technique, repeat readings and severe-pressure action sections inspected",
+      "purpose": "Source-linked guide; historical points are not current emergencies",
+      "region": "US / general adult education",
       "canonical_path": "knowledge/sources.json"
     },
     {

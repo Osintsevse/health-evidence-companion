@@ -77,3 +77,5 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest relevant section of fifteen topic modules. The graph links topics, skills, source IDs, 189 reference routes and 214 synthetic behavioural fixtures. Exact source access, jurisdiction, reading depth, limitations and rights are in `clinical/source-review.json`; the adaptive question bank contains prompts only. New skills cover lay first aid, nutrition, current-location care search and voluntary history intake. All source and fixture counts are metadata, not clinical validation.
 
 Detailed birth-through-59-month navigation: [well-child care and local plans](clinical/PEDIATRIC_CARE.md), [illness and procedures](clinical/PEDIATRICS.md), and [fontanelles/skull/head growth](clinical/FONTANELS.md). Chronological age governs routing; prematurity correction is specific to the chart or developmental question.
+
+- [38 - Blood pressure, cuff principles and complete measurement views](38_BLOOD_PRESSURE_AND_MEASUREMENT.md).

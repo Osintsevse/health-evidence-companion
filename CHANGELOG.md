@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.2 - 2026-10-09
+
+- Fix repeated same-day BP grouping and English/Russian component aliases; preserve unclear pairing, missing values and source provenance.
+- Add an offline pressure/pulse plot and date/time/triple table, up/down/lightning markers, default All filter and whole-reading accessible details.
+- Add a framed collapsed adult guide at the top of Measurements, cuff-mechanism explanations, source links and explicit limits. Clinical colours are an optional AHA 2025 adult display scheme; ABPM and incomplete pairs remain unclassified.
+- Add source-order views for unknown dates and synthetic model/browser regression checks, without copying patient records or adding network transmission.
+
 ## 0.8.1 - 2026-10-09
 
 - Add `health-feedback`, bringing the package to twenty skills, with public-draft preparation and explicit GitHub submission/readback boundaries.

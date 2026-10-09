@@ -73,3 +73,7 @@ Show document-photo previews immediately beside questions, with a click target f
 The optional local preview helper needs an explicitly configured private `originals_root`, `embed_question_originals: true`, and available Pillow for image thumbnails. It makes no network requests and requires matching source checksums. Hosts may implement equivalent local rendering with available tools. Never make a private image public to satisfy a spreadsheet IMAGE formula. Native question sheets can use rich original links while the offline HTML supplies immediate previews. Preserve owner answer cells during these changes and verify full-original URLs, source hashes, image loading and standalone HTML behavior.
 
 For incremental refresh, compare output hashes and follow [module 24](24_INCREMENTAL_ARCHIVE_SAVES.md). Avoid embedding a fresh generation timestamp in an otherwise unchanged view solely to force its upload; retain its last generation timestamp when source rows/configuration are unchanged. A refresh failure does not undo a separately verified ledger commit, and it must remain explicit.
+
+## Blood pressure views
+
+Use [module 38](38_BLOOD_PRESSURE_AND_MEASUREMENT.md) and the bundled BP projection/assets for complete source-local readings, default All filter, explicit date/time gaps and separately labelled pulse scale. This optional educational layer preserves original rows and does not turn historical measurements into present clinical decisions.
