@@ -112,6 +112,19 @@ MAP['health-contribute'] += ['docs/feedback.md']
 for _skill in ['health-explain','health-record-design','health-record-import','health-research','health-contribute']:
     MAP[_skill] += ['knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md']
 
+
+GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
+                   'health-family-care', 'health-medicine-info',
+                   'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct']
+GROUNDED_REFERENCES = ['knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
+    'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
+    'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',
+    'knowledge/clinical/source-use-policy.json', 'knowledge/sources.json',
+    'knowledge/psychology/14_FOUNDATIONS.md', 'knowledge/psychology/30_EVIDENCE_TRIAGE.md',
+    'knowledge/psychology/sources.json']
+for _skill in GROUNDED_SKILLS:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + GROUNDED_REFERENCES))
+
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
             for skill, sources in MAP.items() for src in sources}

@@ -2552,16 +2552,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S362 - NICE NG73: Endometriosis—diagnosis and management, recommendations
 - URL: https://www.nice.org.uk/guidance/ng73/chapter/Recommendations
 - Region: United Kingdom
-- Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.
-- Purpose: Suspected disease pathway, normal-imaging limits, concurrent treatment/investigation, referral, laparoscopy, surgical and fertility distinctions, preoperative GnRH comparison.
-- Checked: 2026-10-09
+- Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility. Historical reading on 2026-10-09 retained. On 2026-10-17 only policy status was reviewed; no clinical content newly retrieved.
+- Purpose: Bibliographic only under current source-use policy until separate AI-use permission is verified. Not active clinical evidence for the revised endometriosis passages.
+- Checked: 2026-10-17
 
 ### S363 - ESHRE Guideline: Endometriosis (2022)
 - URL: https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf
 - Region: Europe / international professional guidance
-- Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read.
-- Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care; explicit NICE comparison.
-- Checked: 2026-10-09
+- Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read. Additional reading on 2026-10-17: PDF/printed pp. 9, 11, 21-22, 27, 29, 31-32, 35-36, 67-68 and 125-126; pages 29, 35, 67 and 125 visually checked. Source papers cited within those pages were not independently appraised.
+- Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care.
+- Checked: 2026-10-17
 
 ### S364 - ACOG publishes new endometriosis clinical guidance aiming to shorten time to diagnosis and improve access to care
 - URL: https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care
@@ -4501,3 +4501,24 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Device choice, home technique, repeat readings and severe-pressure action sections inspected
 - Purpose: Source-linked guide; historical points are not current emergencies
 - Checked: 2026-10-09
+
+### S641 - Abbas, Lichtman and Pillai: Cellular and Molecular Immunology, 7th edition (2012), ISBN 9781437715286
+- URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101552179
+- Region: Foundational textbook; not current jurisdiction-specific clinical guidance
+- Reading status: Book identity and copyright checked. Chapter 1, printed pp. 2-3 (PDF pp. 11-12), read 2026-10-16; Chapter 19, printed pp. 426-428 (PDF pp. 434-436), read 2026-10-17, including visual inspection of the opening sequence diagram. NLM catalogue metadata verified 2026-10-17; the catalogue is not the source of textbook claims. Remaining book unread.
+- Purpose: Short original explanation of connected innate/adaptive responses and IgE sensitization mechanisms only. No copied figures/tables, diagnostic thresholds, immune treatment or current efficacy inference.
+- Checked: 2026-10-17
+
+### S642 - Kliegman et al.: Nelson Textbook of Pediatrics, 19th edition (2011), ISBN 9781437707557
+- URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101555489
+- Region: Historical pediatric foundations; not current clinical standards
+- Reading status: Book title/edition checked. Chapter 91, The High-Risk Infant, printed pp. 552-553 (PDF pp. 624-625), read 2026-10-16 and historical figure inspected. NLM catalogue metadata verified 2026-10-17; not a reading of the catalogue as clinical evidence. Remaining book unread.
+- Purpose: Short original distinction between gestational age at birth and birthweight. No 1995-1996 cohort graph, thresholds, current classifications, individual risk estimates or treatment rules reproduced.
+- Checked: 2026-10-17
+
+### S643 - Greenhawt et al.: Peanut allergy diagnosis—a 2020 practice parameter update, systematic review, and GRADE analysis
+- URL: https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/PIIS0091674920311374.pdf
+- Region: AAAAI; IgE-mediated peanut allergy in children and adults
+- Reading status: Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.
+- Purpose: Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.
+- Checked: 2026-10-17

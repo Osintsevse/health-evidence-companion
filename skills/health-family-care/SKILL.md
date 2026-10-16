@@ -40,3 +40,7 @@ For consequential pediatric research, check the source's actual author/provider 
 Name the jurisdiction alongside a programme's procedure or visit timing. If the country of care is unknown, provide a general appointment agenda and ask the country before assigning routine visit ages; do not silently turn an illustrative NHS 6-8-week examination into the family's local schedule.
 
 Before consequential external medical reading or knowledge contribution, consult [source-use policy](references/source-use-policy.json). NICE clinical text requires separately verified AI-use permission; without it keep the link bibliographic and use independent usable primary evidence. Do not bypass restrictions through an indexed excerpt or mirror. Historical source records do not override this current policy. Read [source attribution](references/medical-source-attribution.md) before public export.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.

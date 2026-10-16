@@ -1,0 +1,29 @@
+{
+  "schema": "psychology-post-import-amendments-v1",
+  "amendments": [
+    {
+      "path": "knowledge/psychology/10_RESEARCH_AND_MAINTENANCE.md",
+      "original_import_sha256": "f73277ffd21072f2d62c9823354ad0bf81e0e4224e40d114ceca8da299b51c2f",
+      "current_sha256": "e10242b9fbf4355b44bf44230fc208b2b23fffda04b383ecad571f0593ecb9d0",
+      "date": "2026-10-17",
+      "reason": "Document scoped foundational reading, inference limits and maintenance practices without claiming a completed curriculum.",
+      "review_document": "docs/grounded-knowledge-review.md"
+    },
+    {
+      "path": "knowledge/psychology/14_FOUNDATIONS.md",
+      "original_import_sha256": "89e86dd7e563b27e5536f8e8a7f2d7d5c66f1a72c2525a5c1720b7a262bfe6aa",
+      "current_sha256": "ec35b964ab8f9675a212262766336f0f98745f866029ee81dadcf226bd9fb280",
+      "date": "2026-10-17",
+      "reason": "Add measurement-versus-construct reasoning from the inspected Goldstein sections, retaining limits on motives and diagnosis.",
+      "review_document": "docs/grounded-knowledge-review.md"
+    },
+    {
+      "path": "knowledge/psychology/sources.json",
+      "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
+      "current_sha256": "768615d1e8d654a5c6c54e099ed4ab237e84365c7090ed4a17d68d921dfac1da",
+      "date": "2026-10-17",
+      "reason": "Register precisely scoped Goldstein and OpenIntro reading with edition, source-use and interpretation limits; retain original source IDs and history.",
+      "review_document": "docs/grounded-knowledge-review.md"
+    }
+  ]
+}

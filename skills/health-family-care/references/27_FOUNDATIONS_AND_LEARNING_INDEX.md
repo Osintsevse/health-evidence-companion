@@ -1,6 +1,6 @@
 # Foundations and learning index
 
-Checked 2026-10-08. Educational scope only: these selected concepts do not represent a completed medical curriculum, practical training, diagnosis, or treatment advice. Clinical questions require current, applicable guidelines and local medicine labels.
+Original index checked 2026-10-08; selected immune and newborn concepts added 2026-10-17 with section-level reading records below. Educational scope only: these selected concepts do not represent a completed medical curriculum, practical training, diagnosis, or treatment advice. Clinical questions require current, applicable guidelines and local medicine labels.
 
 ## Selected concepts
 
@@ -30,6 +30,18 @@ A test result updates a probability estimated before testing; it does not have t
 
 ### Synthetic Bayesian example
 With an assumed pretest probability of 10% and an assumed positive likelihood ratio of 5, prior odds are 1/9 and updated odds are 5/9, giving a posttest probability of approximately 36%. These invented inputs illustrate why a positive result need not establish a diagnosis; they are not performance estimates for a real test. Formula sources: [S162, S163]; arithmetic is an original synthetic exercise.
+
+## Immune response concepts
+
+Innate defenses can respond early through barriers, phagocytes, dendritic and natural killer cells, complement and inflammatory mediators. Their recognition commonly concerns shared microbial or damage-associated patterns. Adaptive responses involve lymphocytes with more specific recognition and can show enhanced responses on later exposure. These are connected processes: innate responses help initiate and shape adaptive responses, while adaptive responses can strengthen innate effector functions. [S641]
+
+This is a bounded background framework, not a test of an individual's immunity. It cannot identify an immune defect, diagnose allergy, establish vaccine performance or justify an immune treatment. The source is a 2012 edition; current molecular questions and clinical choices need their own evidence. Actual reading: Abbas, Lichtman and Pillai, seventh edition, Chapter 1, "Innate and Adaptive Immunity," printed pp. 2-3. [S641]
+
+## Gestational age and birthweight
+
+Gestational age at birth describes pregnancy duration; birthweight is measured mass. They are related but are not substitutes: infants with the same weight can have different gestational ages, and infants at the same gestational age can have different weights. Describing both dimensions is more informative than treating one value as a complete account of maturity or growth. [S642]
+
+This concept comes from the opening of Nelson's "The High-Risk Infant," nineteenth edition, printed pp. 552-553. Its accompanying graph uses historical 1995-1996 cohort data. No graph, threshold, numerical risk estimate or current classification rule is reproduced here. Current assessment requires age-specific clinical information and contemporary standards; the concept alone supplies no individual prognosis. [S642]
 
 ## Curriculum comparison
 
@@ -71,6 +83,9 @@ The following are learning routes and inspected sections. A book or lecture inde
 - [S161] NHGRI VUS glossary: Definition and narration.
 - [S162] Merck Manual: selected pretest probability, Bayesian calculation and sequential-testing sections. Nearby problematic explanations of LR as direct patient odds are not adopted.
 - [S163] Deeks and Altman, BMJ Statistics Notes (2004): likelihood-ratio definition and Bayesian-update discussion. Used as an independent methods check; not a new validation study.
+
+- [S641] Abbas, Lichtman and Pillai, *Cellular and Molecular Immunology*, seventh edition (2012), Chapter 1, printed pp. 2-3; read 2026-10-16. Chapter 19, printed pp. 426-428, read 2026-10-17 for mechanism only. The rest of the book is not recorded as read.
+- [S642] Kliegman et al., *Nelson Textbook of Pediatrics*, nineteenth edition (2011), Chapter 91, printed pp. 552-553; read 2026-10-16. Historical background only, without current thresholds or risk estimates.
 
 ### Indexed resources and access limits
 

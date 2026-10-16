@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 742,
-  "unique_url_count": 739,
+  "record_count": 747,
+  "unique_url_count": 744,
   "records": [
     {
       "namespace": "medical",
@@ -4702,10 +4702,10 @@
       "qualified_id": "medical:S362",
       "title": "NICE NG73: Endometriosis\u2014diagnosis and management, recommendations",
       "url": "https://www.nice.org.uk/guidance/ng73/chapter/Recommendations",
-      "checked_on": "2026-10-09",
-      "reading_status": "Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.",
-      "limitations": "Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.",
-      "purpose": "Suspected disease pathway, normal-imaging limits, concurrent treatment/investigation, referral, laparoscopy, surgical and fertility distinctions, preoperative GnRH comparison.",
+      "checked_on": "2026-10-17",
+      "reading_status": "Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility. Historical reading on 2026-10-09 retained. On 2026-10-17 only policy status was reviewed; no clinical content newly retrieved.",
+      "limitations": "Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility. Historical reading on 2026-10-09 retained. On 2026-10-17 only policy status was reviewed; no clinical content newly retrieved.",
+      "purpose": "Bibliographic only under current source-use policy until separate AI-use permission is verified. Not active clinical evidence for the revised endometriosis passages.",
       "region": "United Kingdom",
       "canonical_path": "knowledge/sources.json"
     },
@@ -4715,10 +4715,10 @@
       "qualified_id": "medical:S363",
       "title": "ESHRE Guideline: Endometriosis (2022)",
       "url": "https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf",
-      "checked_on": "2026-10-09",
-      "reading_status": "Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9\u201317, diagnosis and pain, surgery pp. 53\u201361, pre/postoperative treatment pp. 67\u201368, infertility pp. 81\u2013105, adolescence pp. 123\u2013135, menopause pp. 137\u2013147, extrapelvic disease pp. 148\u2013153. Not all 192 pages read.",
-      "limitations": "Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9\u201317, diagnosis and pain, surgery pp. 53\u201361, pre/postoperative treatment pp. 67\u201368, infertility pp. 81\u2013105, adolescence pp. 123\u2013135, menopause pp. 137\u2013147, extrapelvic disease pp. 148\u2013153. Not all 192 pages read.",
-      "purpose": "Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care; explicit NICE comparison.",
+      "checked_on": "2026-10-17",
+      "reading_status": "Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9\u201317, diagnosis and pain, surgery pp. 53\u201361, pre/postoperative treatment pp. 67\u201368, infertility pp. 81\u2013105, adolescence pp. 123\u2013135, menopause pp. 137\u2013147, extrapelvic disease pp. 148\u2013153. Not all 192 pages read. Additional reading on 2026-10-17: PDF/printed pp. 9, 11, 21-22, 27, 29, 31-32, 35-36, 67-68 and 125-126; pages 29, 35, 67 and 125 visually checked. Source papers cited within those pages were not independently appraised.",
+      "limitations": "Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9\u201317, diagnosis and pain, surgery pp. 53\u201361, pre/postoperative treatment pp. 67\u201368, infertility pp. 81\u2013105, adolescence pp. 123\u2013135, menopause pp. 137\u2013147, extrapelvic disease pp. 148\u2013153. Not all 192 pages read. Additional reading on 2026-10-17: PDF/printed pp. 9, 11, 21-22, 27, 29, 31-32, 35-36, 67-68 and 125-126; pages 29, 35, 67 and 125 visually checked. Source papers cited within those pages were not independently appraised.",
+      "purpose": "Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care.",
       "region": "Europe / international professional guidance",
       "canonical_path": "knowledge/sources.json"
     },
@@ -8324,6 +8324,45 @@
       "canonical_path": "knowledge/sources.json"
     },
     {
+      "namespace": "medical",
+      "id": "S641",
+      "qualified_id": "medical:S641",
+      "title": "Abbas, Lichtman and Pillai: Cellular and Molecular Immunology, 7th edition (2012), ISBN 9781437715286",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101552179",
+      "checked_on": "2026-10-17",
+      "reading_status": "Book identity and copyright checked. Chapter 1, printed pp. 2-3 (PDF pp. 11-12), read 2026-10-16; Chapter 19, printed pp. 426-428 (PDF pp. 434-436), read 2026-10-17, including visual inspection of the opening sequence diagram. NLM catalogue metadata verified 2026-10-17; the catalogue is not the source of textbook claims. Remaining book unread.",
+      "limitations": "Book identity and copyright checked. Chapter 1, printed pp. 2-3 (PDF pp. 11-12), read 2026-10-16; Chapter 19, printed pp. 426-428 (PDF pp. 434-436), read 2026-10-17, including visual inspection of the opening sequence diagram. NLM catalogue metadata verified 2026-10-17; the catalogue is not the source of textbook claims. Remaining book unread.",
+      "purpose": "Short original explanation of connected innate/adaptive responses and IgE sensitization mechanisms only. No copied figures/tables, diagnostic thresholds, immune treatment or current efficacy inference.",
+      "region": "Foundational textbook; not current jurisdiction-specific clinical guidance",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S642",
+      "qualified_id": "medical:S642",
+      "title": "Kliegman et al.: Nelson Textbook of Pediatrics, 19th edition (2011), ISBN 9781437707557",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101555489",
+      "checked_on": "2026-10-17",
+      "reading_status": "Book title/edition checked. Chapter 91, The High-Risk Infant, printed pp. 552-553 (PDF pp. 624-625), read 2026-10-16 and historical figure inspected. NLM catalogue metadata verified 2026-10-17; not a reading of the catalogue as clinical evidence. Remaining book unread.",
+      "limitations": "Book title/edition checked. Chapter 91, The High-Risk Infant, printed pp. 552-553 (PDF pp. 624-625), read 2026-10-16 and historical figure inspected. NLM catalogue metadata verified 2026-10-17; not a reading of the catalogue as clinical evidence. Remaining book unread.",
+      "purpose": "Short original distinction between gestational age at birth and birthweight. No 1995-1996 cohort graph, thresholds, current classifications, individual risk estimates or treatment rules reproduced.",
+      "region": "Historical pediatric foundations; not current clinical standards",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S643",
+      "qualified_id": "medical:S643",
+      "title": "Greenhawt et al.: Peanut allergy diagnosis\u2014a 2020 practice parameter update, systematic review, and GRADE analysis",
+      "url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/PIIS0091674920311374.pdf",
+      "checked_on": "2026-10-17",
+      "reading_status": "Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.",
+      "limitations": "Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.",
+      "purpose": "Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.",
+      "region": "AAAAI; IgE-mediated peanut allergy in children and adults",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
       "namespace": "psychology",
       "id": "S01",
       "qualified_id": "psychology:S01",
@@ -9646,6 +9685,32 @@
       "reading_status": "pubmed_abstract_and_indexed_primary_text",
       "limitations": "Old search; full contemporary evidence review not completed. Insufficient evidence is not robust proof of no possible effect.",
       "purpose": "Evidence watchlist without endorsing NLP as established treatment.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S103",
+      "qualified_id": "psychology:S103",
+      "title": "E. Bruce Goldstein \u2014 Cognitive Psychology: Connecting Mind, Research, and Everyday Experience (5th ed.), selected Chapter 1 sections",
+      "url": "https://www.cengage.com/c/isbn/9781337408271/?filterBy=Student",
+      "checked_on": "2026-10-17",
+      "reading_status": "selected_chapter_1_sections_text_and_figures_read",
+      "limitations": "Only Chapter 1 sections on printed pp. 5\u20139 and 10\u201312 were read (PDF viewer pp. 39\u201343 and 44\u201346); title, copyright, text, and relevant figures were checked. This fifth edition is a historical conceptual introduction, not a current methods or diagnostic standard. No blanket permission to reproduce the copyrighted text or figures is inferred.",
+      "purpose": "Background for separating observed behavior from a tentative construct interpretation; not evidence for a diagnosis or treatment.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S104",
+      "qualified_id": "psychology:S104",
+      "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+      "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+      "checked_on": "2026-10-17",
+      "reading_status": "six_selected_sections_fully_read_text_and_selected_figures_checked",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here.",
+      "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     }

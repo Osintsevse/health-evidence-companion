@@ -22,6 +22,14 @@ An isolated total-IgE elevation does not identify a clinical food allergy. Histo
 
 Sources: S91, S94-S95. A supervised oral food challenge can resolve uncertainty in selected cases; it belongs in a medically equipped setting. A negative test is not permission for a home challenge after a serious reaction. Patch testing addresses a different, delayed contact-allergy question and does not substitute for immediate food-allergy assessment. [S91, S94]
 
+## A peanut-specific example of test interpretation
+
+The 2020 AAAAI peanut parameter illustrates why a test result needs a clinical context. Published decision thresholds depend on the study population and baseline prevalence; a skin-prick or specific-IgE value alone does not establish peanut allergy. These tests also should not be used to predict reaction severity. A number can therefore change an assessment without settling either diagnosis or future severity. [S643]
+
+Keep this example limited to IgE-mediated peanut allergy. The parameter has conditional recommendations with low or very low certainty, and the selected sections are not a current review of every food or newer test. No threshold, avoidance list or home exposure/challenge follows from this explanation. Mechanistic reading about IgE sensitization is background rather than independent diagnostic validation. [S641, S643]
+
+Added 2026-10-17. Actual parameter reading: PDF pp. 1-3 and 30 (journal pp. 1302-1304 and 1331); other sections not recorded as read. Original concise synthesis only; no source table, figure or test algorithm is reproduced.
+
 ## Rhinitis and medicine classes
 
 Explain allergen/irritant measures and correct nasal-device technique alongside medicine evidence. Intranasal corticosteroids and antihistamines address different symptoms and routes; oral, nasal and eye formulations are not interchangeable. ARIA-EAACI 2024-2025 Part I, published online in 2025 and in print in 2026, conditionally favours an intranasal antihistamine/corticosteroid combination over either alone and corticosteroids over intranasal antihistamines in its comparisons. This is not a command for every person to use a combination. Severity, preferences, availability, technique and the exact label matter. Only the publication abstract was inspected here, not all recommendation tables. [S21, S90]

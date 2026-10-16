@@ -6,6 +6,16 @@ Record design, sample, baseline risk, comparator, follow-up, patient-relevant ou
 
 Randomized evidence can support many efficacy questions; observational studies can inform rare harms with confounding limits. Evidence level does not resolve a population mismatch. Do not combine incompatible endpoints or invent numbers from qualitative abstracts.
 
+## Sampling, assignment and the inference being made
+
+Sampling determines which cases enter a study from a target population. Random selection can reduce some selection bias, but an incomplete sampling frame or selective nonresponse can still limit generalization. Random assignment allocates enrolled cases to experimental conditions and helps make groups comparable on average. It does not make the recruited sample representative; representative sampling does not itself assign exposure or establish causation. [psychology:S104]
+
+In observational data, an exposure-outcome association can reflect several processes. A factor related to both can create or distort the relationship, including when that factor was not measured. Association alone therefore does not identify a causal effect. Describe what the design supports before making a causal explanation; simply naming a possible confounder does not establish that it explains the result. [psychology:S104]
+
+For a wholly synthetic example, imagine volunteers randomized between two learning tasks. Random allocation can support an experimental comparison within those volunteers, but it does not establish that the volunteers represent every age or clinical population. Conversely, a representative survey that records task choice does not randomize that choice. These invented scenarios illustrate different inferential questions; they contain no observed treatment effect. Source for the underlying distinctions: [psychology:S104].
+
+Reading scope: *OpenIntro Statistics*, fourth edition, screen-reader version updated 21 October 2022, sections 1.2.5, 1.3.1, 1.3.3-1.3.4 and 1.4-1.4.1. Only the listed introductory sections were read; this is not a complete causal-inference method or a review of an intervention.
+
 Preserve URL, publication/version, section actually read, check date and limits. Identify conflicts, corrections/retractions and uncertainty. A source merely mentioning a topic cannot substantiate a specific outcome claim.
 
 Create original cards: question, scope, explanation, benefits/harms, exceptions, sources and remaining uncertainty. Do not reproduce articles, commercial chapters or datasets without permission. These procedures do not claim a completed systematic review or clinical validation.

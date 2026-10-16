@@ -9,6 +9,8 @@ Load only relevant material. A full corpus is not needed for every question. For
 ## Recording knowledge
 ID; Name; date of publication and review; URL/DOI; source type; level of access actually obtained; population/indication; comparison; outcome/term; what is supported; restrictions; practical application. Mark missing data as unknown, do not invent missing details.
 
+For psychological measures, distinguish the observed response from the construct used to explain it. Record the task and context, the operational measure, and the assumptions needed to interpret it; consider plausible alternatives and whether other observations converge. One behavior or score is not enough to infer a unique mental process or diagnose a person. [S103]
+
 The guide helps you choose a practice; RCT evaluates a specific comparison; the code describes the responsibilities; A skill README describes its design. These are different types of evidence. Meta-analysis is not automatically more reliable than a high-quality RCT: composition, risk of bias, and relevance to the question are important. Do not count republications of the same trial as independent confirmation.
 
 ## Adding new topics

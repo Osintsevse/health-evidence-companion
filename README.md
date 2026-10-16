@@ -4,6 +4,8 @@ A community-maintained medical and adult psychology knowledge base and twenty AI
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
+Selected [foundational concepts](knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md) and [source-grounded reasoning](knowledge/39_GROUNDED_REASONING.md) distinguish mechanisms, measurements and outcome evidence. See the [dated reading and response-check report](docs/grounded-knowledge-review.md) for exact scope and remaining limits.
+
 ## Install or send to a friend
 
 **[Download plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip)** · **[Quick setup](docs/quick-start.md)** · **[Setup prompt](docs/setup-prompt.txt)** · **[Releases](https://github.com/Osintsevse/health-evidence-companion/releases)**

@@ -34,3 +34,7 @@ For substantial clinical additions, use [clinical navigation](references/CLINICA
 Review first-aid actions, treatment choices, risk instruments and unit transforms at their applicable population/product/setting. New clinical content needs substantive maintainer and suitable clinical review; software tests and synthetic forward checks do not approve it. Communities and other AI skills can identify research leads but never replace primary evidence.
 
 Before consequential external medical reading or knowledge contribution, consult [source-use policy](references/source-use-policy.json). NICE clinical text requires separately verified AI-use permission; without it keep the link bibliographic and use independent usable primary evidence. Do not bypass restrictions through an indexed excerpt or mirror. Historical source records do not override this current policy. Read [source attribution](references/medical-source-attribution.md) before public export.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.

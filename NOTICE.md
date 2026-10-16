@@ -13,3 +13,7 @@ The package icon is an original vector book symbol. No Red Cross, medical-provid
 ## PsyOps incorporation
 
 Original PsyOps Evidence Companion instructions and notes by Osintsevse are incorporated from the MIT-licensed public repository snapshot recorded in docs/psychology/import-provenance.json. Canonical text and source histories are preserved; references and skill routing are adapted to the combined package. Rights in external studies, guidelines, instruments and quoted material remain with their respective owners. No textbook, licensed scale or third-party dataset is relicensed by this transfer.
+
+## Selected foundational reading
+
+The bounded concepts documented in docs/grounded-knowledge-review.md are original factual explanations with source-specific attribution and reading limits. No textbook file, chapter, source figure, table or extracted full text is included. Their publication does not sublicense the cited sources or establish permission for other uses.
