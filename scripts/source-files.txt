@@ -124,6 +124,8 @@ knowledge/36_PRIVATE_INTAKE_QUEUE.md
 knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
 knowledge/39_GROUNDED_REASONING.md
+knowledge/40_BROAD_HEALTH_LEARNING_MAP.md
+knowledge/41_EVERYDAY_HEALTH_NOTES.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -231,6 +233,8 @@ skills/health-care-navigation/references/31_SOURCE_MAINTENANCE.md
 skills/health-care-navigation/references/32_RISK_COMMUNICATION.md
 skills/health-care-navigation/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-care-navigation/references/39_GROUNDED_REASONING.md
+skills/health-care-navigation/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-care-navigation/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -279,6 +283,8 @@ skills/health-contribute/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-contribute/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-contribute/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
 skills/health-contribute/references/39_GROUNDED_REASONING.md
+skills/health-contribute/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-contribute/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -356,6 +362,8 @@ skills/health-explain/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-explain/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-explain/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
 skills/health-explain/references/39_GROUNDED_REASONING.md
+skills/health-explain/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-explain/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -403,6 +411,8 @@ skills/health-family-care/references/32_RISK_COMMUNICATION.md
 skills/health-family-care/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-family-care/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-family-care/references/39_GROUNDED_REASONING.md
+skills/health-family-care/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-family-care/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -442,6 +452,7 @@ skills/health-first-aid/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 skills/health-first-aid/references/26_CLINICAL_ROUTING_AND_SCOPE.md
 skills/health-first-aid/references/32_RISK_COMMUNICATION.md
 skills/health-first-aid/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/health-first-aid/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-first-aid/references/AGEING_REHAB.md
 skills/health-first-aid/references/ANATOMY.md
 skills/health-first-aid/references/ARCHITECTURE.md
@@ -523,6 +534,8 @@ skills/health-medicine-info/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-medicine-info/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-medicine-info/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-medicine-info/references/39_GROUNDED_REASONING.md
+skills/health-medicine-info/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-medicine-info/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -572,6 +585,8 @@ skills/health-mental-health/references/32_RISK_COMMUNICATION.md
 skills/health-mental-health/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-mental-health/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-mental-health/references/39_GROUNDED_REASONING.md
+skills/health-mental-health/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-mental-health/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -612,6 +627,8 @@ skills/health-nutrition/references/31_SOURCE_MAINTENANCE.md
 skills/health-nutrition/references/32_RISK_COMMUNICATION.md
 skills/health-nutrition/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-nutrition/references/39_GROUNDED_REASONING.md
+skills/health-nutrition/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-nutrition/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -659,6 +676,8 @@ skills/health-prevention/references/32_RISK_COMMUNICATION.md
 skills/health-prevention/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-prevention/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-prevention/references/39_GROUNDED_REASONING.md
+skills/health-prevention/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-prevention/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -857,6 +876,8 @@ skills/health-research/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-research/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-research/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
 skills/health-research/references/39_GROUNDED_REASONING.md
+skills/health-research/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/health-research/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -896,6 +917,8 @@ skills/psyops-cbt-act-mct/references/27_FOUNDATIONS_AND_LEARNING_INDEX.md
 skills/psyops-cbt-act-mct/references/31_SOURCE_MAINTENANCE.md
 skills/psyops-cbt-act-mct/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/psyops-cbt-act-mct/references/39_GROUNDED_REASONING.md
+skills/psyops-cbt-act-mct/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/psyops-cbt-act-mct/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -945,6 +968,8 @@ skills/psyops-dialogue/references/27_FOUNDATIONS_AND_LEARNING_INDEX.md
 skills/psyops-dialogue/references/31_SOURCE_MAINTENANCE.md
 skills/psyops-dialogue/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/psyops-dialogue/references/39_GROUNDED_REASONING.md
+skills/psyops-dialogue/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/psyops-dialogue/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1080,6 +1105,8 @@ skills/psyops-research/references/27_FOUNDATIONS_AND_LEARNING_INDEX.md
 skills/psyops-research/references/31_SOURCE_MAINTENANCE.md
 skills/psyops-research/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/psyops-research/references/39_GROUNDED_REASONING.md
+skills/psyops-research/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/psyops-research/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md

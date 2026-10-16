@@ -118,7 +118,8 @@ GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
                    'health-prevention', 'health-mental-health',
                    'health-nutrition', 'health-care-navigation',
                    'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct']
-GROUNDED_REFERENCES = ['knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
+GROUNDED_REFERENCES = ['knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
+    'knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
     'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
     'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',
     'knowledge/clinical/source-use-policy.json', 'knowledge/sources.json',
@@ -126,6 +127,9 @@ GROUNDED_REFERENCES = ['knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE
     'knowledge/psychology/sources.json']
 for _skill in GROUNDED_SKILLS:
     MAP[_skill] = list(dict.fromkeys(MAP[_skill] + GROUNDED_REFERENCES))
+
+# Bounded bite notes are available to first aid without the full research pack.
+MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md']
 
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()

@@ -35,3 +35,9 @@ The evidence and scope rules come from **evidence methods**, **medical source ma
 Use `medical:Snn` or `psychology:Snn` for cross-domain citations: the same numeric ID can identify different sources in the two registers. An unqualified ID inherits the document's domain and must not silently switch registers. Bibliographic metadata, abstract-only reading, selected sections and full-text reading remain distinct. A newly read section extends only that section's recorded scope.
 
 Store short original explanations with a question, scope, source edition/section, actual reading date, uncertainty and a recheck trigger. Do not reconstruct chapters, reproduce protected figures/tables or infer that technical validation is substantive scientific review. Changes remain subject to maintainer review; these instructions do not train model weights or establish improved patient outcomes.
+
+## Broad topic selection
+
+Use the [broad learning map](40_BROAD_HEALTH_LEARNING_MAP.md) for everyday health and wider organ/life-stage questions. Read the relevant section of [selected everyday-health notes](41_EVERYDAY_HEALTH_NOTES.md) for adult reflux, sleep habits, convergence insufficiency, scalp symptoms and bites. Priority topics are not an exclusive curriculum. Check recorded gaps and current primary evidence; a queued topic is not completed knowledge. Medical questions in a psychological conversation still require the appropriate health workflow.
+
+Do not fill an unreviewed guideline's recommendations with older overview text or general medical recall. State what is not established by the inspected source. Lack of support here is not proof of universal ineffectiveness, and it does not itself establish a recommendation against an intervention. Check the actual outcome-specific source before adding such claims.

@@ -5794,5 +5794,113 @@
     "retrieval_status": "Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.",
     "use": "Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S645",
+    "title": "NIDDK: Symptoms & Causes of GER & GERD",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes",
+    "region": "Adult US patient education",
+    "retrieval_status": "Symptoms and assessment-warning sections inspected; causes not fully appraised. Read 2026-10-17.",
+    "use": "Adult reflux symptoms and assessment context.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S646",
+    "title": "NIDDK: Treatment for GER & GERD",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment",
+    "region": "Adult US patient education",
+    "retrieval_status": "Lifestyle and antacid/H2-blocker/PPI overview inspected; surgery/procedure evidence not appraised. Read 2026-10-17.",
+    "use": "Class-level explanation and persistent-symptom assessment.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S647",
+    "title": "NIDDK: Eating, Diet, & Nutrition for GER & GERD",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition",
+    "region": "Adults; US educational source",
+    "retrieval_status": "Meal timing and possible individual food/drink triggers inspected; underlying cited paper not appraised. Read 2026-10-17.",
+    "use": "Bounded lifestyle explanation.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S648",
+    "title": "NHLBI: Sleep Deprivation and Deficiency—Healthy Sleep Habits",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "region": "General habits; adult note scope",
+    "retrieval_status": "Habit and shift-work sections inspected; only general habits incorporated. Read 2026-10-17.",
+    "use": "Sleep opportunity, regularity, environment and contextual habits.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S649",
+    "title": "NHLBI: Insomnia—Treatment",
+    "url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+    "region": "Adult insomnia education; US source",
+    "retrieval_status": "Healthy-habit and CBT-I sections inspected; drug comparisons not independently appraised. Read 2026-10-17.",
+    "use": "Multicomponent CBT-I versus habits alone.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S650",
+    "title": "NEI: Convergence Insufficiency",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency",
+    "region": "Condition-specific educational overview",
+    "retrieval_status": "Definition, symptoms, diagnosis, treatment and scope inspected; linked trials/news not appraised. Read 2026-10-17.",
+    "use": "Named binocular-vision indication and exercise-claim limits.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S651",
+    "title": "MedlinePlus: Dandruff, Cradle Cap, and Other Scalp Conditions",
+    "url": "https://medlineplus.gov/dandruffcradlecapandotherscalpconditions.html",
+    "region": "Federal health-topic summary, not A.D.A.M. encyclopedia",
+    "retrieval_status": "Federal summary, attribution and linked-source boundaries inspected; linked third-party treatment text not incorporated. Read 2026-10-17.",
+    "use": "Scalp alternatives and review if dandruff shampoo fails.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S652",
+    "title": "CDC: What to Do After a Tick Bite",
+    "url": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+    "region": "US public-health advice; local application needs checking",
+    "retrieval_status": "Removal, caution, avoid-tick-testing and follow-up text inspected; interactive guide not executed. Read 2026-10-17.",
+    "use": "Prompt removal, follow-up and limits of tick-test inference.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S653",
+    "title": "ECDC: Personal protective measures against tick bites",
+    "url": "https://www.ecdc.europa.eu/en/disease-vectors/prevention-and-control/protective-measures-ticks",
+    "region": "European prevention overview",
+    "retrieval_status": "Prevention and prompt-removal text inspected; posters/leaflets not incorporated. Read 2026-10-17.",
+    "use": "European exposure prevention and prompt removal.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S654",
+    "title": "WHO: Snakebite envenoming—health topic",
+    "url": "https://www.who.int/health-topics/snakebite",
+    "region": "Global public-health overview",
+    "retrieval_status": "Symptoms and first-aid/treatment overview inspected; linked publications not appraised. Read 2026-10-17.",
+    "use": "Urgent care, stillness, tight-item removal, breathing attention.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S655",
+    "title": "WHO: Snakebite envenoming—questions and answers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming",
+    "region": "Global overview; region/species-dependent effects",
+    "retrieval_status": "First-aid, effective-treatment and venom-variation sections inspected; other costs/statistics not imported. Read 2026-10-17.",
+    "use": "Harmful methods, pressure-technique limits and region/species variation.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S656",
+    "title": "CDC/NIOSH: Venomous Snakes at Work",
+    "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html",
+    "region": "US outdoor-worker source; limited scene-safety use",
+    "retrieval_status": "Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.",
+    "use": "No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.",
+    "checked_on": "2026-10-17"
   }
 ]

@@ -4529,3 +4529,87 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.
 - Purpose: Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.
 - Checked: 2026-10-17
+
+### S645 - NIDDK: Symptoms & Causes of GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes
+- Region: Adult US patient education
+- Reading status: Symptoms and assessment-warning sections inspected; causes not fully appraised. Read 2026-10-17.
+- Purpose: Adult reflux symptoms and assessment context.
+- Checked: 2026-10-17
+
+### S646 - NIDDK: Treatment for GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment
+- Region: Adult US patient education
+- Reading status: Lifestyle and antacid/H2-blocker/PPI overview inspected; surgery/procedure evidence not appraised. Read 2026-10-17.
+- Purpose: Class-level explanation and persistent-symptom assessment.
+- Checked: 2026-10-17
+
+### S647 - NIDDK: Eating, Diet, & Nutrition for GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition
+- Region: Adults; US educational source
+- Reading status: Meal timing and possible individual food/drink triggers inspected; underlying cited paper not appraised. Read 2026-10-17.
+- Purpose: Bounded lifestyle explanation.
+- Checked: 2026-10-17
+
+### S648 - NHLBI: Sleep Deprivation and Deficiency—Healthy Sleep Habits
+- URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits
+- Region: General habits; adult note scope
+- Reading status: Habit and shift-work sections inspected; only general habits incorporated. Read 2026-10-17.
+- Purpose: Sleep opportunity, regularity, environment and contextual habits.
+- Checked: 2026-10-17
+
+### S649 - NHLBI: Insomnia—Treatment
+- URL: https://www.nhlbi.nih.gov/health/insomnia/treatment
+- Region: Adult insomnia education; US source
+- Reading status: Healthy-habit and CBT-I sections inspected; drug comparisons not independently appraised. Read 2026-10-17.
+- Purpose: Multicomponent CBT-I versus habits alone.
+- Checked: 2026-10-17
+
+### S650 - NEI: Convergence Insufficiency
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency
+- Region: Condition-specific educational overview
+- Reading status: Definition, symptoms, diagnosis, treatment and scope inspected; linked trials/news not appraised. Read 2026-10-17.
+- Purpose: Named binocular-vision indication and exercise-claim limits.
+- Checked: 2026-10-17
+
+### S651 - MedlinePlus: Dandruff, Cradle Cap, and Other Scalp Conditions
+- URL: https://medlineplus.gov/dandruffcradlecapandotherscalpconditions.html
+- Region: Federal health-topic summary, not A.D.A.M. encyclopedia
+- Reading status: Federal summary, attribution and linked-source boundaries inspected; linked third-party treatment text not incorporated. Read 2026-10-17.
+- Purpose: Scalp alternatives and review if dandruff shampoo fails.
+- Checked: 2026-10-17
+
+### S652 - CDC: What to Do After a Tick Bite
+- URL: https://www.cdc.gov/ticks/after-a-tick-bite/
+- Region: US public-health advice; local application needs checking
+- Reading status: Removal, caution, avoid-tick-testing and follow-up text inspected; interactive guide not executed. Read 2026-10-17.
+- Purpose: Prompt removal, follow-up and limits of tick-test inference.
+- Checked: 2026-10-17
+
+### S653 - ECDC: Personal protective measures against tick bites
+- URL: https://www.ecdc.europa.eu/en/disease-vectors/prevention-and-control/protective-measures-ticks
+- Region: European prevention overview
+- Reading status: Prevention and prompt-removal text inspected; posters/leaflets not incorporated. Read 2026-10-17.
+- Purpose: European exposure prevention and prompt removal.
+- Checked: 2026-10-17
+
+### S654 - WHO: Snakebite envenoming—health topic
+- URL: https://www.who.int/health-topics/snakebite
+- Region: Global public-health overview
+- Reading status: Symptoms and first-aid/treatment overview inspected; linked publications not appraised. Read 2026-10-17.
+- Purpose: Urgent care, stillness, tight-item removal, breathing attention.
+- Checked: 2026-10-17
+
+### S655 - WHO: Snakebite envenoming—questions and answers
+- URL: https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming
+- Region: Global overview; region/species-dependent effects
+- Reading status: First-aid, effective-treatment and venom-variation sections inspected; other costs/statistics not imported. Read 2026-10-17.
+- Purpose: Harmful methods, pressure-technique limits and region/species variation.
+- Checked: 2026-10-17
+
+### S656 - CDC/NIOSH: Venomous Snakes at Work
+- URL: https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html
+- Region: US outdoor-worker source; limited scene-safety use
+- Reading status: Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.
+- Purpose: No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.
+- Checked: 2026-10-17

@@ -2,6 +2,8 @@
 
 ## 0.9.0 - 2026-10-17
 
+- Preserve a broad organ-system/life-stage curriculum and explicit gaps; add selected official reflux, sleep, vision, scalp and bite notes with first-aid routing and reading provenance.
+
 - Connect twelve skills to an explicit source-grounded reasoning workflow: distinguish observations, measurements, interpretations, mechanisms and outcome evidence.
 - Add brief original concepts from selected statistics, cognitive psychology, immunology and pediatric sections, with exact editions, actual reading scope and limits.
 - Re-ground selected endometriosis passages in ESHRE, make dated uncertainty explicit and retire active NICE NG73 use under the current source-use policy. Add a scoped peanut-test probability example without clinical thresholds.
