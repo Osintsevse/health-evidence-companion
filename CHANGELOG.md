@@ -2,6 +2,8 @@
 
 ## 0.9.0 - 2026-10-17
 
+- Define a question-level breadth/depth programme; add selected statistical inference, adult GI diagnostic and sleep/function cards, preserving guideline strength/certainty/update distinctions and actual reading scope.
+
 - Preserve a broad organ-system/life-stage curriculum and explicit gaps; add selected official reflux, sleep, vision, scalp and bite notes with first-aid routing and reading provenance.
 
 - Connect twelve skills to an explicit source-grounded reasoning workflow: distinguish observations, measurements, interpretations, mechanisms and outcome evidence.

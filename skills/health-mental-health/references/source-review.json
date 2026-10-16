@@ -4980,6 +4980,66 @@
       "use": "No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.",
       "limitations": "Only limited scene-safety and emergency-care facts used; no US antivenom regimen or global transfer of washing/compression advice.",
       "rights": "Source: CDC/NIOSH. Agency-material policy inspected at https://www.cdc.gov/other/agencymaterials.html ; original brief factual summary and link, freely available original; no images/logo/reposting or CDC/HHS/US Government endorsement."
+    },
+    {
+      "topic": "studied_questions",
+      "local_key": "s657",
+      "source_id": "S657",
+      "url": "https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf",
+      "publication_version": "January2025; evidence through2024-03-31",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.",
+      "use": "Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.",
+      "limitations": "No restriction schedule, diagnostic instrument or medicine/OSA regimen; recommendation5 not newly systematically reviewed.",
+      "rights": "VA/DoD federal text; https://department.va.gov/copyright-policy/ inspected. Original brief factual synthesis; third-party instruments/algorithms/assets excluded; no endorsement."
+    },
+    {
+      "topic": "studied_questions",
+      "local_key": "s658",
+      "source_id": "S658",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "publication_version": "Updated2022-06-15",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.",
+      "use": "Sleep deficiency and function; limits on cognitive-enhancement inference.",
+      "limitations": "Educational overview, not a cognitive-intervention systematic review or fitness-to-drive decision.",
+      "rights": "NHLBI/NIH/HHS first-party public-domain-default text, with exceptions per https://www.nhlbi.nih.gov/about/contact/trademark-branding-and-logo ; original summary/attribution, no assets/endorsement."
+    },
+    {
+      "topic": "studied_questions",
+      "local_key": "s659",
+      "source_id": "S659",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis",
+      "publication_version": "ReviewedJuly2020",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.",
+      "use": "Different questions answered by lining inspection/biopsy versus reflux monitoring.",
+      "limitations": "Not full current diagnostic guideline, thresholds, test-preparation protocol or personal test sequence.",
+      "rights": "NIDDK/NIH first-party text; https://www.niddk.nih.gov/copyright inspected; original factual summary, no photographs/procedures reproduced."
+    },
+    {
+      "topic": "studied_questions",
+      "local_key": "s660",
+      "source_id": "S660",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis",
+      "publication_version": "ReviewedMarch2025",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.",
+      "use": "Dyspepsia assessment, alternative causes and test-purpose distinctions.",
+      "limitations": "No individual functional-dyspepsia diagnosis or H.pylori treatment/test-preparation regimen.",
+      "rights": "NIDDK/NIH first-party summary; https://www.niddk.nih.gov/copyright ; original factual synthesis; cited third-party Rome criteria, assets and instruments excluded."
+    },
+    {
+      "topic": "studied_questions",
+      "local_key": "s661",
+      "source_id": "S661",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/",
+      "publication_version": "ReviewedJuly2024",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.",
+      "use": "Visible GI bleeding and deterioration require prompt/emergency care.",
+      "limitations": "Not a remote bleeding diagnosis, severity score or treatment protocol.",
+      "rights": "NIDDK/NIH first-party text; https://www.niddk.nih.gov/copyright ; brief original factual summary, no images or copied clinical algorithm."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

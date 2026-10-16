@@ -4613,3 +4613,38 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.
 - Purpose: No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.
 - Checked: 2026-10-17
+
+### S657 - VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)
+- URL: https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf
+- Region: Adult VA/DoD clinician guidance; external use needs local context
+- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.
+- Purpose: Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.
+- Checked: 2026-10-17
+
+### S658 - NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health
+- URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects
+- Region: General education; adult note scope
+- Reading status: Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.
+- Purpose: Sleep deficiency and function; limits on cognitive-enhancement inference.
+- Checked: 2026-10-17
+
+### S659 - NIDDK: Diagnosis of GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis
+- Region: Adult US education
+- Reading status: Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.
+- Purpose: Different questions answered by lining inspection/biopsy versus reflux monitoring.
+- Checked: 2026-10-17
+
+### S660 - NIDDK: Diagnosis of Indigestion
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis
+- Region: Adult educational overview
+- Reading status: Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.
+- Purpose: Dyspepsia assessment, alternative causes and test-purpose distinctions.
+- Checked: 2026-10-17
+
+### S661 - NIDDK: Symptoms & Causes of GI Bleeding
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/
+- Region: Public educational safety context
+- Reading status: Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.
+- Purpose: Visible GI bleeding and deterioration require prompt/emergency care.
+- Checked: 2026-10-17

@@ -5902,5 +5902,50 @@
     "retrieval_status": "Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.",
     "use": "No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S657",
+    "title": "VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)",
+    "url": "https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf",
+    "region": "Adult VA/DoD clinician guidance; external use needs local context",
+    "retrieval_status": "Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.",
+    "use": "Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S658",
+    "title": "NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+    "region": "General education; adult note scope",
+    "retrieval_status": "Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.",
+    "use": "Sleep deficiency and function; limits on cognitive-enhancement inference.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S659",
+    "title": "NIDDK: Diagnosis of GER & GERD",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis",
+    "region": "Adult US education",
+    "retrieval_status": "Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.",
+    "use": "Different questions answered by lining inspection/biopsy versus reflux monitoring.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S660",
+    "title": "NIDDK: Diagnosis of Indigestion",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis",
+    "region": "Adult educational overview",
+    "retrieval_status": "Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.",
+    "use": "Dyspepsia assessment, alternative causes and test-purpose distinctions.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S661",
+    "title": "NIDDK: Symptoms & Causes of GI Bleeding",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/",
+    "region": "Public educational safety context",
+    "retrieval_status": "Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.",
+    "use": "Visible GI bleeding and deterioration require prompt/emergency care.",
+    "checked_on": "2026-10-17"
   }
 ]

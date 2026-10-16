@@ -52,3 +52,7 @@ Each study batch should include a foundational question, a currently relevant cl
 For each question preserve population/setting; observations/mechanism; alternatives; diagnostic meaning/test limits; outcome-specific benefits/harms; source edition and exact section/page; actual reading date/scope; uncertainty and recheck trigger; skill and response-check status. Store a readable original explanation and source-linked study record.
 
 Bibliography, indexing, section reading, reviewed note, bundled reference and observed model response are distinct states. A book or specialty does not become learned from indexing or inclusion here. Publish concise original general knowledge and evidence metadata. Protected instruments/tables and exact clinical regimens require separate applicable evidence/rights review. Keep unexecuted checks and substantive maintainer review visibly pending.
+
+## Question-level depth follow-up
+
+The initial deeper cards are in [studied questions](42_STUDIED_QUESTIONS.md): confidence intervals, p-values/practical importance, adult recurrent heartburn, diagnostic-test purposes, insomnia/CBT-I and sleep/function. Selected VA/DoD2025 sections now extend the older sleep overview; this does not complete the sleep-apnea or cognitive-outcome review. The public learning programme defines an initial38-question breadth/depth audit. Coverage not separately checked remains open.

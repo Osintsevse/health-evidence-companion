@@ -20,10 +20,10 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "768615d1e8d654a5c6c54e099ed4ab237e84365c7090ed4a17d68d921dfac1da",
+      "current_sha256": "f5724ec8de1db1e85831b5e5a0a8d02ea22f597089591019451ac0dbe4e97222",
       "date": "2026-10-17",
-      "reason": "Register precisely scoped Goldstein and OpenIntro reading with edition, source-use and interpretation limits; retain original source IDs and history.",
-      "review_document": "docs/grounded-knowledge-review.md"
+      "reason": "Preserve source IDs and original import pin; extend OpenIntro104 with exact selected inference reading, visual scope and interpretation/rights limits.",
+      "review_document": "docs/goal-study-review-2026-10-17.md"
     }
   ]
 }

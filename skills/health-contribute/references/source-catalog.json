@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 760,
-  "unique_url_count": 757,
+  "record_count": 765,
+  "unique_url_count": 762,
   "records": [
     {
       "namespace": "medical",
@@ -8532,6 +8532,71 @@
       "canonical_path": "knowledge/sources.json"
     },
     {
+      "namespace": "medical",
+      "id": "S657",
+      "qualified_id": "medical:S657",
+      "title": "VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)",
+      "url": "https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf",
+      "checked_on": "2026-10-17",
+      "reading_status": "Selected printed/physical pp7\u20138,30\u201331,34,44\u201350 inspected on2026-10-17; not full guideline/trials/instrument appendices.",
+      "limitations": "Selected printed/physical pp7\u20138,30\u201331,34,44\u201350 inspected on2026-10-17; not full guideline/trials/instrument appendices.",
+      "purpose": "Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.",
+      "region": "Adult VA/DoD clinician guidance; external use needs local context",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S658",
+      "qualified_id": "medical:S658",
+      "title": "NHLBI: Sleep Deprivation and Deficiency\u2014How Sleep Affects Your Health",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "checked_on": "2026-10-17",
+      "reading_status": "Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.",
+      "limitations": "Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.",
+      "purpose": "Sleep deficiency and function; limits on cognitive-enhancement inference.",
+      "region": "General education; adult note scope",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S659",
+      "qualified_id": "medical:S659",
+      "title": "NIDDK: Diagnosis of GER & GERD",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis",
+      "checked_on": "2026-10-17",
+      "reading_status": "Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.",
+      "limitations": "Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.",
+      "purpose": "Different questions answered by lining inspection/biopsy versus reflux monitoring.",
+      "region": "Adult US education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S660",
+      "qualified_id": "medical:S660",
+      "title": "NIDDK: Diagnosis of Indigestion",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis",
+      "checked_on": "2026-10-17",
+      "reading_status": "Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.",
+      "limitations": "Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.",
+      "purpose": "Dyspepsia assessment, alternative causes and test-purpose distinctions.",
+      "region": "Adult educational overview",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S661",
+      "qualified_id": "medical:S661",
+      "title": "NIDDK: Symptoms & Causes of GI Bleeding",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.",
+      "limitations": "Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.",
+      "purpose": "Visible GI bleeding and deterioration require prompt/emergency care.",
+      "region": "Public educational safety context",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
       "namespace": "psychology",
       "id": "S01",
       "qualified_id": "psychology:S01",
@@ -9877,8 +9942,8 @@
       "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
       "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
       "checked_on": "2026-10-17",
-      "reading_status": "six_selected_sections_fully_read_text_and_selected_figures_checked",
-      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here.",
+      "reading_status": "previous_selected_introductory_sections_and_selected_inference_pages_read",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations.",
       "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
