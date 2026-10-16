@@ -15,7 +15,7 @@
         "Age category when it changes care"
       ],
       "actions": [
-        "Lead with 3\u20135 actions, approximately 60\u2013120 words as editorial target",
+        "Lead with 3–5 actions, approximately 60–120 words as editorial target",
         "Call local emergency service now; give location first; speakerphone",
         "Scene safety, appropriate immediate first aid, observe changes",
         "Live dispatcher overrides generic sequence; clarify inability/conflict"
@@ -107,7 +107,7 @@
       "actions": [
         "Call on speakerphone immediately",
         "Brief breathing assessment, max 10 seconds",
-        "Chest compressions 100\u2013120/min, 5\u20136 cm; recoil",
+        "Chest compressions 100–120/min, 5–6 cm; recoil",
         "30:2 if trained/able, otherwise continuous compressions",
         "AED prompts and dispatcher; keep clear for analysis/shock"
       ],
@@ -138,7 +138,7 @@
         "Call and start CPR with breaths if able",
         "ERC/RCUK 2025: five initial breaths; 15:2 paediatric trained, otherwise 30:2",
         "AHA 2025: compressions first, lone lay 30 compressions with breaths",
-        "Depth one-third chest; child ~5 cm, infant ~4 cm; 100\u2013120/min",
+        "Depth one-third chest; child ~5 cm, infant ~4 cm; 100–120/min",
         "AHA infant technique heel of hand or two-thumb encircling; AED pediatric settings if available"
       ],
       "avoid": [
@@ -341,8 +341,8 @@
         "Prescribed diabetes/rescue plan"
       ],
       "actions": [
-        "Awake safe swallow: fast glucose; adult 15\u201320 g under standard plan",
-        "Recheck 10\u201315min, repeat under plan; help if no improvement",
+        "Awake safe swallow: fast glucose; adult 15–20 g under standard plan",
+        "Recheck 10–15min, repeat under plan; help if no improvement",
         "Unsafe swallow: emergency, no oral intake; airway/CPR",
         "Trained prescribed glucagon actual device",
         "Child amount belongs to individual plan"
@@ -3851,7 +3851,7 @@
         "Arrange clinical assessment for persistent symptoms, impaired daily function or treatment failure/intolerance; suspected deep disease or endometrioma warrants specialist discussion."
       ],
       "source_ids": [
-        "S362",
+        "S363",
         "S364",
         "S365"
       ]
@@ -4030,7 +4030,6 @@
       "source_ids": [
         "S366",
         "S363",
-        "S362",
         "S379",
         "S387"
       ]
@@ -4067,8 +4066,7 @@
       ],
       "source_ids": [
         "S363",
-        "S380",
-        "S362"
+        "S380"
       ]
     },
     {
@@ -4101,7 +4099,6 @@
         "Specialist care for adolescent refractory symptoms; urgent route for severe pain or instability."
       ],
       "source_ids": [
-        "S362",
         "S363",
         "S361",
         "S364"
@@ -4143,7 +4140,8 @@
         "S383",
         "S384",
         "S385",
-        "S386"
+        "S386",
+        "S644"
       ]
     },
     {

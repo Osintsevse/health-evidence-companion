@@ -45,7 +45,7 @@ Statuses: source identified -> section read -> note checked -> application exami
 
 ## Resources
 
-MSD Professional provides open clinical chapters. OpenStax Anatomy and Physiology 2e is an introductory textbook, not an entire medical degree. WHO, NICE and local sources address particular questions. [S05-S06, S80-S84]
+MSD Professional has publicly readable clinical chapters; public access is not a blanket reuse licence. WHO and local sources address particular questions. NICE and OpenStax remain bibliographic pointers under the current source-use policy unless matching AI-use permission is verified. [S05-S06, S80-S84, S360]
 
 Harrison, Davidson, Katzung and Stahl remain candidates with lawful access to an appropriate edition; they are not claimed as read. Changing doses, interactions and guidance still require fresh verification.
 

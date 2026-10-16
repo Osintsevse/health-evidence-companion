@@ -115,6 +115,8 @@ for _skill in ['health-explain','health-record-design','health-record-import','h
 
 GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
                    'health-family-care', 'health-medicine-info',
+                   'health-prevention', 'health-mental-health',
+                   'health-nutrition', 'health-care-navigation',
                    'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct']
 GROUNDED_REFERENCES = ['knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
     'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',

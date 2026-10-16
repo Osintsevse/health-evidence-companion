@@ -2,9 +2,10 @@
 
 ## 0.9.0 - 2026-10-17
 
-- Connect eight skills to an explicit source-grounded reasoning workflow: distinguish observations, measurements, interpretations, mechanisms and outcome evidence.
+- Connect twelve skills to an explicit source-grounded reasoning workflow: distinguish observations, measurements, interpretations, mechanisms and outcome evidence.
 - Add brief original concepts from selected statistics, cognitive psychology, immunology and pediatric sections, with exact editions, actual reading scope and limits.
 - Re-ground selected endometriosis passages in ESHRE, make dated uncertainty explicit and retire active NICE NG73 use under the current source-use policy. Add a scoped peanut-test probability example without clinical thresholds.
+- Add a dated open-source shortlist with document-specific rights and reading limits; explicitly exclude unpermitted OpenStax ingestion and distinguish internal serum-model validation from saliva evidence.
 - Validate explicit medical/psychology citation namespaces and add synthetic inference fixtures. Preserve historical reading records and separate technical checks from substantive clinical review.
 
 ## 0.8.2 - 2026-10-09

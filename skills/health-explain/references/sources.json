@@ -751,9 +751,9 @@
     "title": "OpenStax - Anatomy and Physiology 2e preface",
     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
     "region": "International",
-    "retrieval_status": "Open textbook/scope found; chapters not yet studied",
-    "use": "Introductory anatomy/physiology, not a complete medical degree",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Open textbook/scope found; chapters not yet studied On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.",
+    "use": "Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S85",
@@ -3235,9 +3235,9 @@
     "title": "Anatomy and Physiology 2e introduction: current rights restriction",
     "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
     "region": "US",
-    "retrieval_status": "Introduction objectives and licensing inspected only; no chapters ingested",
-    "use": "rights restriction only",
-    "checked_on": "2026-10-09"
+    "retrieval_status": "Introduction objectives and licensing inspected only; no chapters ingested On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.",
+    "use": "Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S361",
@@ -5784,6 +5784,15 @@
     "region": "AAAAI; IgE-mediated peanut allergy in children and adults",
     "retrieval_status": "Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.",
     "use": "Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S644",
+    "title": "Ravaggi et al.: Serum miRNA-based diagnostic models for endometriosis: from discovery to validation (online 2025; issue 2026)",
+    "url": "https://doi.org/10.1093/humrep/deaf221",
+    "region": "Two Italian surgical centers; serum biomarker research",
+    "retrieval_status": "Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.",
+    "use": "Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.",
     "checked_on": "2026-10-17"
   }
 ]

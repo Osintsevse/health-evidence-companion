@@ -1,6 +1,6 @@
 # Grounded knowledge review — 2026-10-17
 
-Candidate version 0.9.0. The change adds bounded original explanations and an answer-construction workflow; it does not establish a completed curriculum, learned model weights or improved clinical outcomes. Eight skills explicitly load the workflow and its supporting references.
+Candidate version 0.9.0. The change adds bounded original explanations and an answer-construction workflow; it does not establish a completed curriculum, learned model weights or improved clinical outcomes. Twelve skills explicitly load the workflow and its supporting references. The initial eight were extended after a static loading audit to prevention, mental-health information, nutrition and care navigation.
 
 ## Question, reading scope and recheck trigger
 
@@ -73,4 +73,8 @@ Maintainer review remains required before merge. The next literature work should
 
 ## Technical validation
 
-Final local run: 288 repository tests, 285 passed and 3 skipped (two unavailable Windows symlink privileges and one optional browser runtime); 8 offline adapter tests passed separately. Structure/content validation and the release-candidate build passed. The citation and amendment tests use synthetic registers/files and check real rejection paths. Generated references, qualified source metadata and the explicit package manifest were synchronized. These results establish software checks only; they do not convert the four response checks or the authored fixtures into clinical validation.
+Initial candidate full run: 288 repository tests, 285 passed and 3 skipped (two unavailable Windows symlink privileges and one optional browser runtime); 8 offline adapter tests passed separately. Structure/content validation and the release-candidate build passed. The citation and amendment tests use synthetic registers/files and check real rejection paths. Generated references, qualified source metadata and the explicit package manifest were synchronized. These results establish software checks only; they do not convert the four response checks or the authored fixtures into clinical validation.
+
+## Follow-up source and loading audit
+
+See [the open-source shortlist](open-source-audit-2026-10-17.md). The four additional entrypoints have an explicit reading hook and matching bundled references; one follow-up context exercised prevention with two fictional questions recorded in the shortlist report; the other three additions have static checks only. The original four observed responses remain the initial response evidence. A brief separately sourced serum-model example was added to distinguish internal validation from external clinical validation and from saliva-test evidence. OpenStax is now an explicit bibliographic-only rule in the source-use policy.

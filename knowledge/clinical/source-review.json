@@ -1231,9 +1231,9 @@
       "source_id": "S360",
       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
       "publication_version": "2e 2022; current copyright June 12 2026",
-      "checked_on": "2026-10-09",
-      "retrieval_status": "Introduction objectives and licensing inspected only; no chapters ingested",
-      "use": "rights restriction only",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Introduction objectives and licensing inspected only; no chapters ingested On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.",
+      "use": "Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.",
       "limitations": "Not used for atlas derivation; permission required for AI ingestion",
       "rights": "Current page: CC BY-NC-SA; explicitly prohibits ingestion into LLM/generative AI offerings without prior written permission. No content reuse."
     },
@@ -4824,6 +4824,18 @@
       "use": "Transient crying-related swelling followed by return to flat appearance when crying ends.",
       "limitations": "Only crying component supported; no lying-down/upright clearance rule or emergency threshold attributed to PDF. No individual author/publication date displayed; no third-party attribution identified in extracted PDF text.",
       "rights": "DCJ site default CC BY 4.0 unless otherwise stated; third-party/photos/logos excluded. No contrary notice identified for text. Attribution: (c) State of New South Wales (Department of Communities and Justice), accessed 2026-10-09; original brief summary, not source wording; https://dcj.nsw.gov.au/statements/copyright-and-disclaimer.html ; no endorsement implied. No PDF or images reproduced."
+    },
+    {
+      "topic": "endometriosis",
+      "local_key": "serum_mirna_internal_validation",
+      "source_id": "S644",
+      "url": "https://doi.org/10.1093/humrep/deaf221",
+      "publication_version": "Online 21 November 2025; Human Reproduction 41(2), February 2026",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Selected abstract, methods and limitations read; supplements not appraised.",
+      "use": "Bounded validation-method example.",
+      "limitations": "Independent external cohort absent; no clinical adoption or saliva-test inference.",
+      "rights": "Article-specific CC BY 4.0 verified; original brief synthesis with attribution, no reproduced figure/table."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

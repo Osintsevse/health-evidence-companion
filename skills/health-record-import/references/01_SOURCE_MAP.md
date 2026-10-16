@@ -606,9 +606,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S84 - OpenStax - Anatomy and Physiology 2e preface
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/preface
 - Region: International
-- Reading status: Open textbook/scope found; chapters not yet studied
-- Purpose: Introductory anatomy/physiology, not a complete medical degree
-- Checked: 2026-10-06
+- Reading status: Open textbook/scope found; chapters not yet studied On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
+- Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
+- Checked: 2026-10-17
 
 ### S85 - HL7 FHIR R4 - MedicationStatement
 - URL: https://hl7.org/fhir/R4/medicationstatement.html
@@ -2538,9 +2538,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S360 - Anatomy and Physiology 2e introduction: current rights restriction
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
 - Region: US
-- Reading status: Introduction objectives and licensing inspected only; no chapters ingested
-- Purpose: rights restriction only
-- Checked: 2026-10-09
+- Reading status: Introduction objectives and licensing inspected only; no chapters ingested On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
+- Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
+- Checked: 2026-10-17
 
 ### S361 - WHO: Endometriosis
 - URL: https://www.who.int/news-room/fact-sheets/detail/endometriosis
@@ -4521,4 +4521,11 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: AAAAI; IgE-mediated peanut allergy in children and adults
 - Reading status: Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.
 - Purpose: Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.
+- Checked: 2026-10-17
+
+### S644 - Ravaggi et al.: Serum miRNA-based diagnostic models for endometriosis: from discovery to validation (online 2025; issue 2026)
+- URL: https://doi.org/10.1093/humrep/deaf221
+- Region: Two Italian surgical centers; serum biomarker research
+- Reading status: Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.
+- Purpose: Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.
 - Checked: 2026-10-17

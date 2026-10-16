@@ -16,3 +16,7 @@ Present a few candidates with observed evidence, the suitable care level, contac
 For travel insurance, inspect the actual policy/assistance instructions if supplied. Separate medical need, network membership, payment guarantee/preauthorization and reimbursement. Explain what to ask the assistance service and preserve receipts where requested; do not guarantee coverage or recommend delaying care to secure it. Contacting a provider, insurer or another person requires explicit user authorization and an available tool.
 
 Use current official local numbers and language terms. State when the search supports a candidate only and whether telephone confirmation is needed. Do not claim a booking/call/referral occurred from a search result.
+
+## Source-grounded inference
+
+For consequential claims about care services or insurance, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Match each claim to the current source and its actual scope; distinguish verified capability or availability from directory listings, marketing or inference, and state what remains unconfirmed.

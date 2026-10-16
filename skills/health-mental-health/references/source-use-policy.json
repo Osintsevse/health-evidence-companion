@@ -1,6 +1,6 @@
 {
   "schema": "external-clinical-source-use-v1",
-  "checked_on": "2026-10-09",
+  "checked_on": "2026-10-17",
   "purpose": "Source selection and rights provenance, not a legal clearance or medical rule engine",
   "permission_assumed": false,
   "preserve_bibliographic_history": true,
@@ -38,6 +38,18 @@
         "https://www.childrenscolorado.org/terms-of-use/"
       ],
       "limits": "Targeted terms review for this contribution; no broader legal conclusion about every ordinary human use is made."
+    },
+    {
+      "id": "openstax-ai-permission",
+      "host_suffix": "openstax.org",
+      "path_prefix": "/",
+      "action": "bibliographic_and_rights_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+        "https://openstax.org/books/psychology-2e/pages/index"
+      ],
+      "limits": "Current book footers require prior written permission for LLM/generative-AI ingestion. No matching permission verified. Do not bypass through older PDFs or other copies; retained historical metadata is not current permission."
     }
   ],
   "instructions": [
