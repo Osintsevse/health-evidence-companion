@@ -6012,6 +6012,90 @@
       "use": "Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.",
       "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
       "rights": "NLM-authored Medical Test content public-domain category directly verified. Source: MedlinePlus, National Library of Medicine. Not restricted third-party /ency/ content; no linked source or graphics adopted."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s760",
+      "source_id": "S760",
+      "url": "https://medlineplus.gov/genetics/condition/gilbert-syndrome/",
+      "publication_version": "Displayed updated2012-02-01",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.",
+      "use": "Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "NLM-authored Genetics/Medical Test public-domain category directly verified. Source: MedlinePlus, National Library of Medicine. No images, restricted encyclopedia or cited third-party works adopted."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s761",
+      "source_id": "S761",
+      "url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "publication_version": "Displayed updated2024-10-27",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.",
+      "use": "Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "NLM-authored Genetics/Medical Test public-domain category directly verified. Source: MedlinePlus, National Library of Medicine. No images, restricted encyclopedia or cited third-party works adopted."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s762",
+      "source_id": "S762",
+      "url": "https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/",
+      "publication_version": "Displayed updated2026-01-22",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.",
+      "use": "Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "Copyright retained; brief original factual synthesis and citation only. Current provider-linked policy/footer/exact notices inspected; no matching explicit AI restriction identified in that bounded check. No open-licence grant, source expression, tables/charts/formulas, operational algorithm or blanket provider clearance asserted."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s763",
+      "source_id": "S763",
+      "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes",
+      "publication_version": "Reviewed2021-06-21",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.",
+      "use": "GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "Exact NICHD official text category/public-domain notice inspected; requested credit retained. External copyrighted works, images/logos and original staging publications excluded."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s764",
+      "source_id": "S764",
+      "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed",
+      "publication_version": "Reviewed2021-06-21",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.",
+      "use": "Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "Exact NICHD official text category/public-domain notice inspected; requested credit retained. External copyrighted works, images/logos and original staging publications excluded."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s765",
+      "source_id": "S765",
+      "url": "https://pedsendo.org/patient-resource/constitutional-growth-delay/",
+      "publication_version": "Posted2020-06-17; copyright2018",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.",
+      "use": "Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "Copyright retained; brief original factual synthesis and citation only. Current provider-linked policy/footer/exact notices inspected; no matching explicit AI restriction identified in that bounded check. No open-licence grant, source expression, tables/charts/formulas, operational algorithm or blanket provider clearance asserted."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle015-s766",
+      "source_id": "S766",
+      "url": "https://pedsendo.org/patient-resource/short-stature/",
+      "publication_version": "Posted2020-06-17; copyright2018",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.",
+      "use": "Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.",
+      "limitations": "Exact question and actor/section/source-age limits in docs/goal-study-cycle-015-review.md; no full-source or clinical-validation claim.",
+      "rights": "Copyright retained; brief original factual synthesis and citation only. Current provider-linked policy/footer/exact notices inspected; no matching explicit AI restriction identified in that bounded check. No open-licence grant, source expression, tables/charts/formulas, operational algorithm or blanket provider clearance asserted."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

@@ -4,7 +4,7 @@
   "review_type": "targeted_narrative_review",
   "language": "en",
   "not_a_systematic_review": true,
-  "source_count": 111,
+  "source_count": 112,
   "independent_study_count": null,
   "notes": [
     "Entries include guides, descriptions, codes, studies, and project pages; the number of records is not equal to the number of independent trials.",
@@ -16,7 +16,8 @@
     "2026-10-08: full package content audit; targeted primary-source rechecks and five additions. Earlier source dates preserved; not 102 independent trials or 102 new full-text reviews.",
     "Public package translated into English in version 0.1.1. Translation does not refresh source check dates or establish efficacy in any language. Runtime answers follow the user’s language.",
     "2026-10-17: Two textbooks were added for bounded background reading; this does not indicate whole-book review or clinical evidence updates.",
-    "2026-10-17 cycle009: one selected primary cognitive-training trial and linked supplementary/protocol scope added; counts remain records, not independent replications or full-field appraisal."
+    "2026-10-17 cycle009: one selected primary cognitive-training trial and linked supplementary/protocol scope added; counts remain records, not independent replications or full-field appraisal.",
+    "2026-10-17 cycle015: selected official social-connection constructs added;112 records are not112 independent trials or full-text appraisals. Original source dates and import pins preserved."
   ],
   "sources": [
     {
@@ -1451,6 +1452,18 @@
       "supported": "Compulsions may include mental actions; CBT/ERP educational explanation, initial anxiety/dropout and professional assessment context.",
       "limitations": "Root read selected signs, diagnosis and psychotherapy sections, identity and specific reuse notice. NIMH text is public domain unless otherwise indicated; images excluded, attribution/no endorsement retained. No ritual/neutralization protocol, drug dose, efficacy comparison or individual plan inferred.",
       "use": "Independent bounded OCD/ERP explanation; full protocol and specialist review remain separate."
+    },
+    {
+      "id": "S112",
+      "title": "Office of the U.S. Surgeon General: Social Connection advisory, selected constructs and limitations",
+      "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf",
+      "type": "official_public_health_advisory_selected_concepts",
+      "published": "2023; official landing last reviewed2025-02-19",
+      "access": "researcher_and_root_selected_original_pdf_text_read_no_visual_review",
+      "checked_at": "2026-10-17",
+      "supported": "Distinct subjective experience, network structure, support function and relationship quality; optional editorial clarification is separately identified.",
+      "limitations": "Researcher/root selected printed6–7,10,opening12,selected67–68 and69–70 notices. Official synthesis with English/expert-led selection, not full systematic review, primary efficacy study or validated dialogue. Current HHS disclaimer inspected; no explicit matching AI restriction found in that scope. Ordinary copyright/nonfederal editing is not an automatic processing ban; no all-report public-domain or broad licence claim. Figures/stock images/source expression/cited works excluded. Root native download403; no visual pixels inspected.",
+      "use": "General adult construct explanation in SOC-C1; no disease-risk estimate, minimum-contact prescription, absent-person diagnosis or intervention benefit."
     }
   ]
 }

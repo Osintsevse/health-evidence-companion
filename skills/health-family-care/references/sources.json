@@ -6829,5 +6829,68 @@
     "retrieval_status": "Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.",
     "use": "Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S760",
+    "title": "MedlinePlus Genetics: Gilbert syndrome, selected bilirubin mechanism",
+    "url": "https://medlineplus.gov/genetics/condition/gilbert-syndrome/",
+    "region": "NLM official educational genetics summary",
+    "retrieval_status": "Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.",
+    "use": "Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S761",
+    "title": "MedlinePlus Medical Test: Bilirubin Blood Test",
+    "url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+    "region": "NLM official laboratory education",
+    "retrieval_status": "Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.",
+    "use": "Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S762",
+    "title": "Newcastle Hospitals Laboratories: Bilirubin (conjugated), serum",
+    "url": "https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/",
+    "region": "UK institutional laboratory test-directory guidance",
+    "retrieval_status": "Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.",
+    "use": "Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S763",
+    "title": "NICHD: causes of normal and delayed puberty, selected physiology",
+    "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes",
+    "region": "US official Office of Communications education",
+    "retrieval_status": "Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.",
+    "use": "GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S764",
+    "title": "NICHD: puberty assessment, selected test purposes",
+    "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed",
+    "region": "US official Office of Communications education",
+    "retrieval_status": "Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.",
+    "use": "Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S765",
+    "title": "PES/AAP: Constitutional Growth Delay and Familial Short Stature, selected growth concepts",
+    "url": "https://pedsendo.org/patient-resource/constitutional-growth-delay/",
+    "region": "US jointly authored family educational guide",
+    "retrieval_status": "Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.",
+    "use": "Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S766",
+    "title": "PES/AAP: Short Stature, selected measurement and assessment concepts",
+    "url": "https://pedsendo.org/patient-resource/short-stature/",
+    "region": "US jointly authored family educational guide",
+    "retrieval_status": "Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.",
+    "use": "Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.",
+    "checked_on": "2026-10-17"
   }
 ]

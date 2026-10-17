@@ -48,6 +48,7 @@ docs/goal-study-cycle-011-review.md
 docs/goal-study-cycle-012-review.md
 docs/goal-study-cycle-013-review.md
 docs/goal-study-cycle-014-review.md
+docs/goal-study-cycle-015-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -157,6 +158,7 @@ knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 knowledge/55_VOLUME_INFECTION_AND_PREGNANCY.md
+knowledge/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -215,6 +217,7 @@ knowledge/psychology/31_MOTORSPORT_CONSULTING.md
 knowledge/psychology/32_OUTCOMES_AND_REVIEW.md
 knowledge/psychology/33_ASSESSMENT_AND_REFERRAL.md
 knowledge/psychology/34_PSYCHOLOGY_CURRICULUM.md
+knowledge/psychology/35_SOCIAL_CONNECTION.md
 knowledge/psychology/CHANGELOG.md
 knowledge/psychology/QUALITY_REVIEW.md
 knowledge/psychology/SOURCES.md
@@ -280,6 +283,7 @@ skills/health-care-navigation/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-care-navigation/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-care-navigation/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-care-navigation/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-care-navigation/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -302,6 +306,7 @@ skills/health-care-navigation/references/medical-source-attribution.md
 skills/health-care-navigation/references/navigation.json
 skills/health-care-navigation/references/psychology/14_FOUNDATIONS.md
 skills/health-care-navigation/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-care-navigation/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-care-navigation/references/psychology/sources.json
 skills/health-care-navigation/references/routes.json
 skills/health-care-navigation/references/source-review.json
@@ -344,6 +349,7 @@ skills/health-contribute/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-contribute/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-contribute/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-contribute/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-contribute/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -370,6 +376,7 @@ skills/health-contribute/references/medical-source-attribution.md
 skills/health-contribute/references/navigation.json
 skills/health-contribute/references/psychology/14_FOUNDATIONS.md
 skills/health-contribute/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-contribute/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-contribute/references/psychology/SOURCES.md
 skills/health-contribute/references/psychology/sources.json
 skills/health-contribute/references/routes.json
@@ -437,6 +444,7 @@ skills/health-explain/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-explain/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-explain/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-explain/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-explain/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -461,6 +469,7 @@ skills/health-explain/references/medical-source-attribution.md
 skills/health-explain/references/navigation.json
 skills/health-explain/references/psychology/14_FOUNDATIONS.md
 skills/health-explain/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-explain/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-explain/references/psychology/sources.json
 skills/health-explain/references/routes.json
 skills/health-explain/references/source-review.json
@@ -500,6 +509,7 @@ skills/health-family-care/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-family-care/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-family-care/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-family-care/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-family-care/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -522,6 +532,7 @@ skills/health-family-care/references/medical-source-attribution.md
 skills/health-family-care/references/navigation.json
 skills/health-family-care/references/psychology/14_FOUNDATIONS.md
 skills/health-family-care/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-family-care/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-family-care/references/psychology/sources.json
 skills/health-family-care/references/routes.json
 skills/health-family-care/references/source-review.json
@@ -640,6 +651,7 @@ skills/health-medicine-info/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-medicine-info/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-medicine-info/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-medicine-info/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-medicine-info/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -664,6 +676,7 @@ skills/health-medicine-info/references/medical-source-attribution.md
 skills/health-medicine-info/references/navigation.json
 skills/health-medicine-info/references/psychology/14_FOUNDATIONS.md
 skills/health-medicine-info/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-medicine-info/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-medicine-info/references/psychology/sources.json
 skills/health-medicine-info/references/routes.json
 skills/health-medicine-info/references/source-review.json
@@ -705,6 +718,7 @@ skills/health-mental-health/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-mental-health/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-mental-health/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-mental-health/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-mental-health/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -727,6 +741,7 @@ skills/health-mental-health/references/medical-source-attribution.md
 skills/health-mental-health/references/navigation.json
 skills/health-mental-health/references/psychology/14_FOUNDATIONS.md
 skills/health-mental-health/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-mental-health/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-mental-health/references/psychology/sources.json
 skills/health-mental-health/references/routes.json
 skills/health-mental-health/references/source-review.json
@@ -761,6 +776,7 @@ skills/health-nutrition/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-nutrition/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-nutrition/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-nutrition/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-nutrition/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -783,6 +799,7 @@ skills/health-nutrition/references/medical-source-attribution.md
 skills/health-nutrition/references/navigation.json
 skills/health-nutrition/references/psychology/14_FOUNDATIONS.md
 skills/health-nutrition/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-nutrition/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-nutrition/references/psychology/sources.json
 skills/health-nutrition/references/routes.json
 skills/health-nutrition/references/source-review.json
@@ -824,6 +841,7 @@ skills/health-prevention/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-prevention/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-prevention/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-prevention/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-prevention/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -846,6 +864,7 @@ skills/health-prevention/references/medical-source-attribution.md
 skills/health-prevention/references/navigation.json
 skills/health-prevention/references/psychology/14_FOUNDATIONS.md
 skills/health-prevention/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-prevention/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-prevention/references/psychology/sources.json
 skills/health-prevention/references/routes.json
 skills/health-prevention/references/source-review.json
@@ -1040,6 +1059,7 @@ skills/health-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-research/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/health-research/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/health-research/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -1064,6 +1084,7 @@ skills/health-research/references/medical-source-attribution.md
 skills/health-research/references/navigation.json
 skills/health-research/references/psychology/14_FOUNDATIONS.md
 skills/health-research/references/psychology/30_EVIDENCE_TRIAGE.md
+skills/health-research/references/psychology/35_SOCIAL_CONNECTION.md
 skills/health-research/references/psychology/SOURCES.md
 skills/health-research/references/psychology/sources.json
 skills/health-research/references/routes.json
@@ -1095,6 +1116,7 @@ skills/psyops-cbt-act-mct/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-cbt-act-mct/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-cbt-act-mct/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/psyops-cbt-act-mct/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/psyops-cbt-act-mct/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -1131,6 +1153,7 @@ skills/psyops-cbt-act-mct/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-cbt-act-mct/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-cbt-act-mct/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-cbt-act-mct/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-cbt-act-mct/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-cbt-act-mct/references/psychology/CHANGELOG.md
 skills/psyops-cbt-act-mct/references/psychology/QUALITY_REVIEW.md
 skills/psyops-cbt-act-mct/references/psychology/SOURCES.md
@@ -1160,6 +1183,7 @@ skills/psyops-dialogue/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-dialogue/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-dialogue/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/psyops-dialogue/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/psyops-dialogue/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1196,6 +1220,7 @@ skills/psyops-dialogue/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-dialogue/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-dialogue/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-dialogue/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-dialogue/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-dialogue/references/psychology/CHANGELOG.md
 skills/psyops-dialogue/references/psychology/QUALITY_REVIEW.md
 skills/psyops-dialogue/references/psychology/SOURCES.md
@@ -1240,6 +1265,7 @@ skills/psyops-private-records/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-private-records/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-private-records/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-private-records/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-private-records/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-private-records/references/psychology/CHANGELOG.md
 skills/psyops-private-records/references/psychology/QUALITY_REVIEW.md
 skills/psyops-private-records/references/psychology/SOURCES.md
@@ -1284,6 +1310,7 @@ skills/psyops-relationships/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-relationships/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-relationships/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-relationships/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-relationships/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-relationships/references/psychology/CHANGELOG.md
 skills/psyops-relationships/references/psychology/QUALITY_REVIEW.md
 skills/psyops-relationships/references/psychology/SOURCES.md
@@ -1311,6 +1338,7 @@ skills/psyops-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-research/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/psyops-research/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/psyops-research/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md
@@ -1347,6 +1375,7 @@ skills/psyops-research/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-research/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-research/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-research/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-research/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-research/references/psychology/CHANGELOG.md
 skills/psyops-research/references/psychology/QUALITY_REVIEW.md
 skills/psyops-research/references/psychology/SOURCES.md
@@ -1376,6 +1405,7 @@ skills/psyops-sport/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-sport/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-sport/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
 skills/psyops-sport/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
+skills/psyops-sport/references/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md
 skills/psyops-sport/references/ENDOMETRIOSIS.md
 skills/psyops-sport/references/evidence-methods.md
 skills/psyops-sport/references/psychology/00_COMMON_INDEX.md
@@ -1412,6 +1442,7 @@ skills/psyops-sport/references/psychology/31_MOTORSPORT_CONSULTING.md
 skills/psyops-sport/references/psychology/32_OUTCOMES_AND_REVIEW.md
 skills/psyops-sport/references/psychology/33_ASSESSMENT_AND_REFERRAL.md
 skills/psyops-sport/references/psychology/34_PSYCHOLOGY_CURRICULUM.md
+skills/psyops-sport/references/psychology/35_SOCIAL_CONNECTION.md
 skills/psyops-sport/references/psychology/CHANGELOG.md
 skills/psyops-sport/references/psychology/QUALITY_REVIEW.md
 skills/psyops-sport/references/psychology/SOURCES.md

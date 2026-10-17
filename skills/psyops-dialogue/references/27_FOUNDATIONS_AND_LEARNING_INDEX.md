@@ -89,7 +89,7 @@ The following are learning routes and inspected sections. A book or lecture inde
 
 - [psychology:S103] Goldstein, fifth edition: selected cognitive-inference and learning/transfer sections, with exact reading scope in the register; not a current clinical enhancement claim.
 - [psychology:S104] OpenIntro Statistics, fourth edition: selected study-design and inference pages; exact screen-reader pagination and licensing scope retained in the register.
-- [psychology:S105] Judith S. Beck, third edition, release2020/copyright2021: selected chapter5 printed71–73, chapter9 printed160–163 and chapter22 printed365–367. Clinician-practice concepts, not comparative efficacy or a complete therapy protocol; see [method/outcome notes](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md).
+- [psychology:S105] Judith S. Beck, third edition, release2020/copyright 2021: selected chapter5 printed 71–73, chapter9 printed 160–163 and chapter22 printed 365–367. Clinician-practice concepts, not comparative efficacy or a complete therapy protocol; see [method/outcome notes](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md).
 
 ### Indexed resources and access limits
 
@@ -133,3 +133,5 @@ Cycle011 adds STAT-F4 sampling-model/estimator distinctions from seven additiona
 Cycle013 adds STAT-F5 from selected OpenIntro regression sections8.2.3/8.2.5/8.2.6: fitted averages, model diagnostics and unsupported extrapolation. Three distinct source pages were read across researcher/root roles; this is not a full regression, prediction or causal-inference course. See the dated cycle013 review.
 
 Cycle014 adds VOLUME-F1 and MAT-F1, with MICRO-D1, in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). Two narrative reviews connect kidney, cardiac and hormonal regulation; selected primary research distinguishes microbial targets/host response and gestational blood concentrations/reference populations. These are bounded source studies, not completed physiology, microbiology or obstetric courses. No additional book pages are claimed this cycle.
+
+Cycle015 adds HEP-B1/ADO-P1 in [bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md) and SOC-C1 in [social connection](psychology/35_SOCIAL_CONNECTION.md). These three bounded foundation questions add named biochemical/HPG mechanisms and a social-construct explanation, with exact source types/dates and inference limits. No new book-page or primary-trial reading is claimed this cycle.

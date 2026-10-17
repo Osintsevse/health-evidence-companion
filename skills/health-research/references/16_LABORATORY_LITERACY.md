@@ -49,3 +49,5 @@ Apply [module 22](22_LAB_IDENTITY_AND_FEEDBACK.md) before joining results across
 For a concrete primary-study comparison beyond the general inflammatory-confounding caution, read HAEM-D1 in [models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md). It distinguishes measured/modelled references and repeated samples from individual diagnostic validation; it supplies no personal correction formula or iron regimen.
 
 For cross-organ fluid regulation, culture/genomic targets versus host injury and gestational CBC context, read VOLUME-F1/MICRO-D1/MAT-F1 in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). These selected sources do not supply personal correction formulas, antimicrobial decisions or pregnancy treatment thresholds.
+
+For bilirubin production, conjugation and removal and what fraction information adds to a total result, read HEP-B1 in [bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md). Preserve analyte/method identity; it supplies no arithmetic conversion, diagnostic fraction rule or neonatal pathway.

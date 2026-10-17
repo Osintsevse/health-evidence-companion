@@ -5334,3 +5334,52 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.
 - Purpose: Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.
 - Checked: 2026-10-17
+
+### S760 - MedlinePlus Genetics: Gilbert syndrome, selected bilirubin mechanism
+- URL: https://medlineplus.gov/genetics/condition/gilbert-syndrome/
+- Region: NLM official educational genetics summary
+- Reading status: Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.
+- Purpose: Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.
+- Checked: 2026-10-17
+
+### S761 - MedlinePlus Medical Test: Bilirubin Blood Test
+- URL: https://medlineplus.gov/lab-tests/bilirubin-blood-test/
+- Region: NLM official laboratory education
+- Reading status: Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.
+- Purpose: Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.
+- Checked: 2026-10-17
+
+### S762 - Newcastle Hospitals Laboratories: Bilirubin (conjugated), serum
+- URL: https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/
+- Region: UK institutional laboratory test-directory guidance
+- Reading status: Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.
+- Purpose: Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.
+- Checked: 2026-10-17
+
+### S763 - NICHD: causes of normal and delayed puberty, selected physiology
+- URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes
+- Region: US official Office of Communications education
+- Reading status: Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.
+- Purpose: GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.
+- Checked: 2026-10-17
+
+### S764 - NICHD: puberty assessment, selected test purposes
+- URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed
+- Region: US official Office of Communications education
+- Reading status: Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.
+- Purpose: Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.
+- Checked: 2026-10-17
+
+### S765 - PES/AAP: Constitutional Growth Delay and Familial Short Stature, selected growth concepts
+- URL: https://pedsendo.org/patient-resource/constitutional-growth-delay/
+- Region: US jointly authored family educational guide
+- Reading status: Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.
+- Purpose: Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.
+- Checked: 2026-10-17
+
+### S766 - PES/AAP: Short Stature, selected measurement and assessment concepts
+- URL: https://pedsendo.org/patient-resource/short-stature/
+- Region: US jointly authored family educational guide
+- Reading status: Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.
+- Purpose: Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.
+- Checked: 2026-10-17

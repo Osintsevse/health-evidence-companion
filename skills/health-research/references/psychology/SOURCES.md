@@ -1,6 +1,6 @@
 # Source register
 
-102 entries. Counts are not independent trials. Reading depth and dates are preserved.
+The canonical psychology register now contains 112 records. Counts are not independent trials. This document preserves original entries and dated reading amendments; reading depth and source dates remain distinct.
 
 ## S01 — APA — Policy statement on evidence-based practice in psychology
 - URL: https://www.apa.org/practice/guidelines/evidence-based-statement
@@ -719,15 +719,15 @@
 
 ## Cycle004–005 selected-study update (2026-10-17)
 
-psychology:S01 policy access now full-page selected scope; psychology:S02 actual mhGAP ANX2/ANX3 PDF viewer52–54 and copyright4 read after initial access failure. This does not refresh other guideline chapters.
+psychology:S01 policy access now full-page selected scope; psychology:S02 actual mhGAP ANX2/ANX3 PDF viewer52–54 and copyright 4 read after initial access failure. This does not refresh other guideline chapters.
 
 ## S105 — Judith S. Beck: Cognitive Behavior Therapy, Basics and Beyond, third edition
 
 - URL: https://www.guilford.com/books/Cognitive-Behavior-Therapy/Judith-Beck/9781462544196
-- Version: Release2020-10-07; copyright2021; ISBN9781462544196
+- Version: Release2020-10-07; copyright 2021; ISBN9781462544196
 - Actual access: selected_chapter5_9_22_openings_read; checked 2026-10-17
 - Supports: Selected assessment, individualized goals/fit, progress/feedback and treatment-plan revision concepts.
-- Limits: Researcher read printed71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.
+- Limits: Researcher read printed 71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.
 
 ## S106 — A-Tjak et al.: One year follow-up of ACT and CBT for adult depression
 
@@ -748,3 +748,10 @@ psychology:S01 policy access now full-page selected scope; psychology:S02 actual
 ## Cycle013 selected regression update (2026-10-17)
 
 psychology:S104 retains all prior reading. Researcher read selected OpenIntro4e screen-reader8.2.3/8.2.5 on356/360; root rechecked these and additionally8.2.6 on361, with visual verification of all three pages. These are three distinct pages across reading actors, not a full regression course. Source CC BY-SA3.0 and current terms checked; attribution/ShareAlike for expressive adaptations retained. Original factual notes only; no source examples, quotation, exercises, figures or data. Robust inference, prediction intervals and clinical model validation remain unappraised.
+
+## S112 — Office of the U.S. Surgeon General: Social Connection advisory
+
+- URL: https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf
+- Published/version:2023; official landing reviewed 2025-02-19.
+- Read: researcher/root selected original PDF text, printed 6–7,10,opening12,selected67–68 and69–70 notices; no whole-report or visual review claim.
+- Use/limits: SOC-C1 in [social connection](35_SOCIAL_CONNECTION.md) provides a bounded adult construct explanation; original optional questions are not validated therapy. No quantified risk, intervention efficacy, source figures/stock images/scales or cited third-party text adopted. HHS notices directly checked; copyright preserved without inventing a blanket AI ban or public-domain grant. Exact scope in the cycle015 review.

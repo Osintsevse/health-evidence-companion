@@ -18,3 +18,5 @@ Offer an optional specific request, boundary or check-in rather than a verdict a
 Persist a joint summary only within participants' agreed scope and an authorized private destination; existing individual memory permission does not authorize shared records. Public examples must be independently synthetic.
 
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
+
+For loneliness, contact frequency, unmet support and relationship quality, read [social connection](references/psychology/35_SOCIAL_CONNECTION.md). Preserve subjective experience and practical constraints; optional clarification is not a validated therapy or a prescription for more contacts.

@@ -66,3 +66,5 @@ For supervised penicillin-assessment follow-up read AR3 in [the allergy packet](
 Cycle013 adds STAT-F5 fitted-average/model/range reasoning, plus SLEEP-D2 and HAEM-D1 in [models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md). These deepen existing sleep and laboratory coverage rather than treating those families as previously absent. Exact reading, correction and evidence limits remain explicit.
 
 Cycle014 adds integrated fluid/perfusion physiology, a specimen/population-specific microbial finding and routine gestational CBC explanation in [packet55](55_VOLUME_INFECTION_AND_PREGNANCY.md). Current depth is the exact selected question, not every organ mechanism, pathogen, pregnancy or postpartum stage.
+
+Cycle015 adds source-grounded bilirubin processing/test purpose, older-child/adolescent maturation and adult social constructs in [bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md) and [social connection](psychology/35_SOCIAL_CONNECTION.md). These representative questions improve thinner branches; they do not establish whole-domain coverage or personal diagnostic accuracy.

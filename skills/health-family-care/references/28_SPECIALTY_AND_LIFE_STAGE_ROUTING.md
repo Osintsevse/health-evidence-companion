@@ -93,3 +93,5 @@ For birth to 59 completed months, consult illness and selected procedures (`PEDI
 The repository stores these modules in `knowledge/clinical/`; installed health skills provide the same files in their flat `references/` directory. Open them through the skill or clinical index.
 
 For a studied routine gestational CBC question, use MAT-F1 in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). It explains concentration, stage and reference-population limits; existing maternity urgency and local-service guidance still applies.
+
+For older-child/adolescent growth and puberty, read ADO-P1 in [bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md). It connects the hypothalamic-pituitary-gonadal axis, serial growth history and skeletal maturation while preserving age/source/test-purpose limits. Do not scale an under-five chart or adult hormone interpretation into a pubertal diagnosis.

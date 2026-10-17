@@ -20,10 +20,10 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "f2b4c05d9f72bf31bab9f23a7d3849905a99c499b3695195ea3351b2c9884b50",
+      "current_sha256": "d048b33c0f80ab2e5fdd23dded2e4ad74efba6fb4678abbfeb30207ea3f0a392",
       "date": "2026-10-17",
-      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle008 adds exact four-page OpenIntro paired-data scope, attribution/terms determination and limits; original import fingerprint retained. Cycle009 adds selected cognitive-training trial/supplement and precise MCT follow-up clarification; import fingerprint retained. Cycle011 extends sampling-model reading, sport primary appraisal and independent NIMH source scope; bibliographic policy holds retained. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits.",
-      "review_document": "docs/goal-study-cycle-013-review.md"
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle008 adds exact four-page OpenIntro paired-data scope, attribution/terms determination and limits; original import fingerprint retained. Cycle009 adds selected cognitive-training trial/supplement and precise MCT follow-up clarification; import fingerprint retained. Cycle011 extends sampling-model reading, sport primary appraisal and independent NIMH source scope; bibliographic policy holds retained. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained.",
+      "review_document": "docs/goal-study-cycle-015-review.md"
     },
     {
       "path": "knowledge/psychology/01_EVIDENCE_MAP.md",
@@ -36,10 +36,10 @@
     {
       "path": "knowledge/psychology/SOURCES.md",
       "original_import_sha256": "2ef2c531c1f5a7d386b0f4c67f2283831c1b944d22f81a81aa6981ea73716598",
-      "current_sha256": "870353c24063a2a9465b558c6b7192c2c9a742460cb9348af9ebfb96fbc459cb",
+      "current_sha256": "0443cf1ee1e70f605dd70625172922f06ed419d561a661b2c3f08d1809fc5202",
       "date": "2026-10-17",
-      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits.",
-      "review_document": "docs/goal-study-cycle-013-review.md"
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained.",
+      "review_document": "docs/goal-study-cycle-015-review.md"
     },
     {
       "path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",

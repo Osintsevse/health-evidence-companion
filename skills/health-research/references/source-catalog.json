@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 870,
-  "unique_url_count": 866,
+  "record_count": 878,
+  "unique_url_count": 874,
   "records": [
     {
       "namespace": "medical",
@@ -9871,6 +9871,97 @@
       "canonical_path": "knowledge/sources.json"
     },
     {
+      "namespace": "medical",
+      "id": "S760",
+      "qualified_id": "medical:S760",
+      "title": "MedlinePlus Genetics: Gilbert syndrome, selected bilirubin mechanism",
+      "url": "https://medlineplus.gov/genetics/condition/gilbert-syndrome/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.",
+      "limitations": "Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.",
+      "purpose": "Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.",
+      "region": "NLM official educational genetics summary",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S761",
+      "qualified_id": "medical:S761",
+      "title": "MedlinePlus Medical Test: Bilirubin Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.",
+      "limitations": "Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.",
+      "purpose": "Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.",
+      "region": "NLM official laboratory education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S762",
+      "qualified_id": "medical:S762",
+      "title": "Newcastle Hospitals Laboratories: Bilirubin (conjugated), serum",
+      "url": "https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.",
+      "limitations": "Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.",
+      "purpose": "Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.",
+      "region": "UK institutional laboratory test-directory guidance",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S763",
+      "qualified_id": "medical:S763",
+      "title": "NICHD: causes of normal and delayed puberty, selected physiology",
+      "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes",
+      "checked_on": "2026-10-17",
+      "reading_status": "Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.",
+      "limitations": "Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.",
+      "purpose": "GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.",
+      "region": "US official Office of Communications education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S764",
+      "qualified_id": "medical:S764",
+      "title": "NICHD: puberty assessment, selected test purposes",
+      "url": "https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed",
+      "checked_on": "2026-10-17",
+      "reading_status": "Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.",
+      "limitations": "Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.",
+      "purpose": "Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.",
+      "region": "US official Office of Communications education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S765",
+      "qualified_id": "medical:S765",
+      "title": "PES/AAP: Constitutional Growth Delay and Familial Short Stature, selected growth concepts",
+      "url": "https://pedsendo.org/patient-resource/constitutional-growth-delay/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.",
+      "limitations": "Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.",
+      "purpose": "Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.",
+      "region": "US jointly authored family educational guide",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S766",
+      "qualified_id": "medical:S766",
+      "title": "PES/AAP: Short Stature, selected measurement and assessment concepts",
+      "url": "https://pedsendo.org/patient-resource/short-stature/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.",
+      "limitations": "Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.",
+      "purpose": "Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.",
+      "region": "US jointly authored family educational guide",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
       "namespace": "psychology",
       "id": "S01",
       "qualified_id": "psychology:S01",
@@ -11310,6 +11401,19 @@
       "reading_status": "selected_symptom_diagnosis_psychotherapy_sections_read",
       "limitations": "Root read selected signs, diagnosis and psychotherapy sections, identity and specific reuse notice. NIMH text is public domain unless otherwise indicated; images excluded, attribution/no endorsement retained. No ritual/neutralization protocol, drug dose, efficacy comparison or individual plan inferred.",
       "purpose": "Independent bounded OCD/ERP explanation; full protocol and specialist review remain separate.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S112",
+      "qualified_id": "psychology:S112",
+      "title": "Office of the U.S. Surgeon General: Social Connection advisory, selected constructs and limitations",
+      "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf",
+      "checked_on": "2026-10-17",
+      "reading_status": "researcher_and_root_selected_original_pdf_text_read_no_visual_review",
+      "limitations": "Researcher/root selected printed6\u20137,10,opening12,selected67\u201368 and69\u201370 notices. Official synthesis with English/expert-led selection, not full systematic review, primary efficacy study or validated dialogue. Current HHS disclaimer inspected; no explicit matching AI restriction found in that scope. Ordinary copyright/nonfederal editing is not an automatic processing ban; no all-report public-domain or broad licence claim. Figures/stock images/source expression/cited works excluded. Root native download403; no visual pixels inspected.",
+      "purpose": "General adult construct explanation in SOC-C1; no disease-risk estimate, minimum-contact prescription, absent-person diagnosis or intervention benefit.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     }
