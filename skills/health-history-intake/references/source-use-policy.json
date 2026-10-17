@@ -50,6 +50,17 @@
         "https://openstax.org/books/psychology-2e/pages/index"
       ],
       "limits": "Current book footers require prior written permission for LLM/generative-AI ingestion. No matching permission verified. Do not bypass through older PDFs or other copies; retained historical metadata is not current permission."
+    },
+    {
+      "id": "cochrane-site-ai-restriction",
+      "host_suffix": "cochrane.org",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.cochrane.org/website-terms-and-conditions"
+      ],
+      "limits": "Terms updated2024-08-07, clauses5.2–5.4 explicitly restrict automated analysis and AI development/validation; no matching permission verified. Do not bypass through mirrors, snippets or another host of the same restricted content. This is a targeted source-selection decision, not an audit of all publisher-hosted literature."
     }
   ],
   "instructions": [

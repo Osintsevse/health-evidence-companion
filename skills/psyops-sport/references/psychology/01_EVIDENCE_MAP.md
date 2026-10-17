@@ -15,8 +15,8 @@ Evidence-based practice takes into account research, the competence of the speci
 | Trauma-focused CBT, CPT, PE | Recommended approaches for PTSD [S07] | Specialist training and support; not the usual self-disclosure | Psychoeducation, preparing questions for a specialist |
 | EMDR | Included in PTSD recommendations [S07] | Effect in PTSD does not demonstrate benefit for any difficulty | Do not process trauma on your own |
 | ACT | A review of meta-analyses supports a range of applications; NICE considers ACT for chronic primary pain [S12–S13] | Superiority over CBT has not been established; selection by task and preference | Defusion, readiness for feelings, values, actions |
-| Dialectical behavior therapy / DBT | There is evidence in borderline disorder including self-harm; Confidence in a number of estimates is low [S10] | Full DBT - a package of treatments, not a few skills | Pause, chain analysis, emotion regulation; without the statement “we perform DBT” |
-| MBT | Data for borderline disorder in specialized therapy [S10] | Limitations of study quality; not mind reading | Acknowledge uncertainty about other people’s intentions |
+| Dialectical behavior therapy / DBT | Independent current indication-specific appraisal pending; historical S10 is a bibliographic pointer only | Do not infer efficacy from the excluded review or equate a few skills with full DBT | Voluntary low-risk skills do not represent a specialist treatment course |
+| MBT | Independent current appraisal pending; historical S10 is a bibliographic pointer only | No efficacy estimate adopted from that pointer; do not infer a personality diagnosis | Acknowledge uncertainty about other people’s intentions |
 | Schema therapy | RCT of combined individual/group treatment for BPD [S11] | Do not transfer to any character trait or format | Cautious hypotheses about repeated expectations; no personality labels |
 | IPT | Depression; WHO offers structured guidance [S16] | Not every conversation about relationships is IPT | Role transitions, losses, conflicts as working topics |
 | CBT for insomnia/CBT-I | Recommended by AASM for chronic insomnia [S09] | This is not just “sleep hygiene”; sleep restriction requires consideration of risks | Monitoring sleep and preparing for specialized help |
@@ -25,7 +25,7 @@ Evidence-based practice takes into account research, the competence of the speci
 | Humanistic/Person-Centered Methods | Some structured forms of counseling for depression [S03] | The broad name does not define the protocol and its evidence | Empathy, autonomy and respect - principles of contact |
 | Behavioral couples therapy / IBCT and related forms | Supporting Couple Behavioral Interventions for Distress [S24–S26] | Data relates to working with a couple rather than a single storyteller | Interaction cycle, requests, agreements |
 | Emotionally Focused Couples Therapy / EFCT | Meta-analysis of RCT in relationship distress [S24] | Direct superiority over BCT has not been demonstrated; publication bias possible | The needs and vulnerabilities behind the protest; not an inference about attachment style |
-| Motivational Interviewing/MI | Studied, in particular, in the use of substances [S34] | The effects depend on the comparison; not a universal method of persuasion | Explore ambivalence without forcing a solution |
+| Motivational interviewing / MI | Independent current substance-use appraisal pending; historical S34 is a bibliographic pointer only | No effect or comparator conclusion adopted from the excluded pointer | Explore ambivalence voluntarily without forcing a decision; not a complete addiction treatment |
 | Existential/meaning-centered therapy | Small and heterogeneous base; certain populations, especially severe diseases [S31–S33] | Philosophical meaning is not measured by a single symptom scale | Values, choice, finitude, regret |
 | Psychosexual interventions | Data vary by problem and population [S27–S30] | Don’t promise that talking can “restore libido” | Consent, communication, context, seeking specialized help |
 
@@ -55,3 +55,5 @@ Gestalt, somatic experiencing, narrative therapy, hypnotherapy, logotherapy as a
 
 ## Choice without brand loyalty
 Define the task and the process maintaining the difficulty; consider safety, preference, past response, and approach availability. Then choose a minimally sufficient practice and check its effect. Good previous experience is important, but should not turn all of the following tasks into CBT or ACT. Route - 16_AUTO_ROUTING.md.
+
+Source-use correction2026-10-17: Cochrane.org pointers S10/S34 are not active evidence under source-use-policy.json. Historical bibliography remains; independent current appraisals are queued. An excluded source is not evidence of ineffectiveness. The legacy map also contains older NICE references; source-use policy takes precedence over its classifications pending an independent current audit.

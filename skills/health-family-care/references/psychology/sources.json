@@ -132,11 +132,11 @@
       "url": "https://www.cochrane.org/evidence/CD012955_psychological-therapies-people-borderline-personality-disorder",
       "type": "systematic_review",
       "published": "2020",
-      "access": "indexed_excerpt",
-      "checked_at": "2026-09-26",
-      "supported": "There is support for specialized therapy, including DBT/MBT, for selected outcomes; confidence is often low.",
-      "limitations": "Do not equate multiple skills with a complete cure and do not diagnose BPD.",
-      "use": "Map of DBT/MBT and restrictions."
+      "access": "historical_record_bibliographic_pointer_only_under_current_source_use_policy",
+      "checked_at": "2026-10-17",
+      "supported": "No active evidence conclusion adopted from this record pending matching AI-use permission.",
+      "limitations": "Explicit Cochrane.org terms clauses5.2–5.4; historical reading metadata is not current permission. No mirror or search-snippet bypass.",
+      "use": "Bibliographic/permission pointer only; independent indication-specific appraisal pending."
     },
     {
       "id": "S11",
@@ -420,11 +420,11 @@
       "url": "https://www.cochrane.org/evidence/CD008063_does-motivational-interviewing-help-people-reduce-their-use-alcohol-drugs-or-both",
       "type": "systematic_review",
       "published": "2023",
-      "access": "full_web_text",
-      "checked_at": "2026-09-26",
-      "supported": "93 studies; the result depends on the control group; there may be little or no benefit over active assistance.",
-      "limitations": "Moderate to very low confidence; It's substance use, not a marriage decision.",
-      "use": "MI as a way to explore ambivalence is not a one-size-fits-all remedy."
+      "access": "historical_record_bibliographic_pointer_only_under_current_source_use_policy",
+      "checked_at": "2026-10-17",
+      "supported": "No active evidence conclusion adopted from this record pending matching AI-use permission.",
+      "limitations": "Explicit Cochrane.org terms clauses5.2–5.4; historical reading metadata is not current permission. No mirror or search-snippet bypass.",
+      "use": "Bibliographic/permission pointer only; independent indication-specific appraisal pending."
     },
     {
       "id": "S35",
@@ -1345,15 +1345,15 @@
     },
     {
       "id": "S103",
-      "title": "E. Bruce Goldstein — Cognitive Psychology: Connecting Mind, Research, and Everyday Experience (5th ed.), selected Chapter 1 sections",
+      "title": "E. Bruce Goldstein — Cognitive Psychology: Connecting Mind, Research, and Everyday Experience (5th ed.), selected Chapter 1 and 7 sections",
       "url": "https://www.cengage.com/c/isbn/9781337408271/?filterBy=Student",
       "type": "textbook_selected_sections",
       "published": "2018; copyright 2019",
-      "access": "selected_chapter_1_sections_text_and_figures_read",
+      "access": "selected_chapter_1_and_7_sections_text_and_selected_figures_read",
       "checked_at": "2026-10-17",
-      "supported": "Selected sections introduce inference about mental processes from response-time contrasts and relearning, describe limits of introspection, and compare behaviorist and cognitive interpretations of behavior.",
-      "limitations": "Only Chapter 1 sections on printed pp. 5–9 and 10–12 were read (PDF viewer pp. 39–43 and 44–46); title, copyright, text, and relevant figures were checked. This fifth edition is a historical conceptual introduction, not a current methods or diagnostic standard. No blanket permission to reproduce the copyrighted text or figures is inferred.",
-      "use": "Background for separating observed behavior from a tentative construct interpretation; not evidence for a diagnosis or treatment."
+      "supported": "Selected sections introduce inference about mental processes from response-time contrasts and relearning, describe limits of introspection, and compare behaviorist and cognitive interpretations of behavior. Selected Chapter7 reading introduces retrieval practice, familiarity versus recall, spacing and task-dependent transfer; it does not establish general cognitive or clinical enhancement.",
+      "limitations": "Only Chapter 1 sections on printed pp. 5–9 and 10–12 were read (PDF viewer pp. 39–43 and 44–46); title, copyright, text, and relevant figures were checked. This fifth edition is a historical conceptual introduction, not a current methods or diagnostic standard. No blanket permission to reproduce the copyrighted text or figures is inferred. On2026-10-17 also read selected Chapter7 printed197–201(PDF231–235),206–207(PDF240–241); visually checked PDF232,234,241 against text. Named subsections only; full chapter, original experiments and contemporary replications not independently appraised. Source SHA verified before rendering; originals unchanged. No tables, figures, exercises or extended paraphrase reproduced.",
+      "use": "Background for separating observed behavior from a tentative construct interpretation; not evidence for a diagnosis or treatment. Bounded learning/transfer concepts, cited as psychology:S103."
     },
     {
       "id": "S104",

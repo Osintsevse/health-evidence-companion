@@ -42,6 +42,8 @@ Use the [broad learning map](40_BROAD_HEALTH_LEARNING_MAP.md) for everyday healt
 
 Do not fill an unreviewed guideline's recommendations with older overview text or general medical recall. State what is not established by the inspected source. Lack of support here is not proof of universal ineffectiveness, and it does not itself establish a recommendation against an intervention. Check the actual outcome-specific source before adding such claims.
 
-For uncertainty, statistical significance, recurrent heartburn/test purposes and sleep/function questions, read the applicable [studied question card](42_STUDIED_QUESTIONS.md). Card-specific reading and current-guideline gaps limit the claim. A strong recommendation need not mean high certainty or a newly reviewed evidence base; inspect each attribute separately.
+For uncertainty, statistical significance, recurrent heartburn/test purposes, sleep/function, learning/transfer, laboratory identity, BP measurement, neck/shoulder symptoms, massage, convergence and scalp questions, read the applicable [studied question card](42_STUDIED_QUESTIONS.md). Card-specific reading and current-guideline gaps limit the claim. A strong recommendation need not mean high certainty or a newly reviewed evidence base; inspect each attribute separately.
 
 When reporting reading, distinguish current-session source access from the project's inherited reading ledger. Say that the record documents selected study when relying on stored notes. Reading a card is not opening its cited PDF or rereading the original paper; do not say you just read that original unless you actually did.
+
+Use targeted heading/section retrieval for the studied-question file. If tool output is truncated, retrieve the complete relevant section before treating it as read; do not count a title or partial file as source access. Urgent care instructions take priority over this retrieval step.

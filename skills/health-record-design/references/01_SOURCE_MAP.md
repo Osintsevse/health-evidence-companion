@@ -214,9 +214,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S28 - MedlinePlus - Understanding lab results
 - URL: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
 - Region: United States
-- Reading status: Selected result/context and reference-interval sections rechecked; patient-education page, not assay harmonization validation
+- Reading status: Result purpose/context, reference ranges, units, false results and preparation sections rechecked2026-10-17; not assay equivalence or full decision-limit standard.
 - Purpose: Units, references, false results and clinical context
-- Checked: 2026-10-07
+- Checked: 2026-10-17
 
 ### S29 - NICE - NG136 Hypertension in adults
 - URL: https://www.nice.org.uk/guidance/ng136/chapter/recommendations
@@ -298,9 +298,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S40 - Cochrane - Zinc for common cold, 2024
 - URL: https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold
 - Region: Systematic review
-- Reading status: Review page opened
-- Purpose: Possible shorter duration, uncertainty and adverse effects
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S41 - NHS - Cetirizine side effects
 - URL: https://www.nhs.uk/medicines/cetirizine/side-effects-of-cetirizine/
@@ -823,23 +823,23 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S115 - Cochrane - Oscillococcinum for influenza-like illness, 2015
 - URL: https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness
 - Region: International
-- Reading status: Review summary and conclusions read; underlying search current to 2014, not a new 2026 review.
-- Purpose: Low-quality evidence does not justify a proven efficacy claim.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S116 - Cochrane - Vitamin C for common colds, 2013
 - URL: https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold
 - Region: International
-- Reading status: Summary/conclusions on regular supplementation versus treatment after onset read; older review.
-- Purpose: Do not conflate post-onset treatment with other vitamin C indications.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S117 - Cochrane - Echinacea for common colds, 2014
 - URL: https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold
 - Region: International
-- Reading status: Summary on heterogeneous preparations, bias and uncertain treatment effects read; older review.
-- Purpose: Product-specific evidence rather than an herbal-class verdict.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S118 - Ergoferon paediatric respiratory-infection RCT, 2021
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8608533/
@@ -893,9 +893,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S125 - Cochrane - Cerebrolysin for acute ischaemic stroke, 2023
 - URL: https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
 - Region: International
-- Reading status: Review summary and conclusions on mortality, missing functional outcomes and serious adverse events read; not all trial reports.
-- Purpose: Indication-specific outcome and harm appraisal, including Cortexin mortality data.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S126 - EMA - Restricted trimetazidine use, 2012 regulatory review
 - URL: https://www.ema.europa.eu/en/documents/press-release/european-medicines-agency-recommends-restricting-use-trimetazidine-containing-medicines_en.pdf
@@ -1327,9 +1327,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S187 - General health checks in adults for reducing morbidity and mortality, Cochrane 2019
 - URL: https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality
 - Region: International
-- Reading status: Plain-language summary and complete abstract read; search ended 2018-01-31; underlying trials not read.
-- Purpose: Multi-disease checkups in unselected adults; not targeted screening.
-- Checked: 2026-10-08
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S188 - WHO Healthy diet
 - URL: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
@@ -3574,9 +3574,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S508 - Massage Therapy: What You Need To Know
 - URL: https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know
 - Region: US
-- Reading status: Pain, cancer, risk and provider sections inspected
+- Reading status: Neck/shoulder evidence, harms and practical advice rechecked2026-10-17; underlying publication May2019, no newer-trial appraisal.
 - Purpose: Indication-specific benefits, uncertainty and risk
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S509 - Standard of Practice: Professional Boundaries, Draping, and Physical Privacy
 - URL: https://www.cmto.com/rules/standard-of-practice-professional-boundaries-draping-and-physical-privacy/
@@ -4498,9 +4498,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S640 - AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)
 - URL: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home
 - Region: US / general adult education
-- Reading status: Device choice, home technique, repeat readings and severe-pressure action sections inspected
+- Reading status: Home device, cuff, technique, repeated readings and urgency sections rechecked2026-10-17; source reviewed2025-08-14, adult US education.
 - Purpose: Source-linked guide; historical points are not current emergencies
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S641 - Abbas, Lichtman and Pillai: Cellular and Molecular Immunology, 7th edition (2012), ISBN 9781437715286
 - URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101552179
@@ -4647,4 +4647,74 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: Public educational safety context
 - Reading status: Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.
 - Purpose: Visible GI bleeding and deterioration require prompt/emergency care.
+- Checked: 2026-10-17
+
+### S662 - MedlinePlus: How to Prepare for a Lab Test
+- URL: https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/
+- Region: Source-specific educational scope
+- Reading status: Preparation, medicine and fasting sections read; not a universal preparation protocol.
+- Purpose: Test-specific preparation and reporting departures.
+- Checked: 2026-10-17
+
+### S663 - NHS: Neck pain
+- URL: https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/
+- Region: Source-specific educational scope
+- Reading status: Causes, self-care and review sections read.
+- Purpose: Adult symptom context and review boundaries.
+- Checked: 2026-10-17
+
+### S664 - NHS: Shoulder pain
+- URL: https://www.nhs.uk/symptoms/shoulder-pain/
+- Region: Source-specific educational scope
+- Reading status: Self-care, review and urgent-help sections read.
+- Purpose: Adult shoulder context and urgency clues, local equivalents required.
+- Checked: 2026-10-17
+
+### S665 - University Hospitals Sussex: Self treatment of acute neck pain
+- URL: https://www.uhsussex.nhs.uk/resources/self-treatment-of-acute-neck-pain-2/
+- Region: Source-specific educational scope
+- Reading status: Context, symptoms and urgent-help sections read; exercise sequence not adopted.
+- Purpose: Neurological warning signs; leaflet population already assessed in emergency department.
+- Checked: 2026-10-17
+
+### S666 - NIAMS: Polymyalgia Rheumatica and Giant Cell Arteritis
+- URL: https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis
+- Region: Source-specific educational scope
+- Reading status: Overview and symptom sections read.
+- Purpose: Inflammatory alternatives and urgent visual symptoms; not diagnostic criteria.
+- Checked: 2026-10-17
+
+### S667 - NIAMS: Spinal Stenosis
+- URL: https://www.niams.nih.gov/health-topics/spinal-stenosis
+- Region: Source-specific educational scope
+- Reading status: Selected cervical symptoms/causes inspected by packet researcher; no complete condition review.
+- Purpose: Background source lead for cervical neurological symptoms.
+- Checked: 2026-10-17
+
+### S668 - NHS: Cradle cap
+- URL: https://www.nhs.uk/conditions/cradle-cap/
+- Region: Source-specific educational scope
+- Reading status: Symptoms, age-specific gentle care and review/escalation sections read.
+- Purpose: Infant scalp symptoms and avoiding adult-regimen transfer.
+- Checked: 2026-10-17
+
+### S669 - CITT Study Group: Randomized clinical trial of treatments for symptomatic convergence insufficiency in children
+- URL: https://pubmed.ncbi.nlm.nih.gov/18852411/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; full paper and instruments not independently appraised.
+- Purpose: Child population, defined intervention/comparator and 12-week convergence/symptom outcomes.
+- Checked: 2026-10-17
+
+### S670 - CITT-ART: Treatment of Symptomatic Convergence Insufficiency in Children
+- URL: https://pubmed.ncbi.nlm.nih.gov/31651593/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; not full-trial appraisal.
+- Purpose: Different convergence and symptom outcomes; linked cohort with S671, not independent replication.
+- Checked: 2026-10-17
+
+### S671 - CITT-ART: Effect of Vergence/Accommodative Therapy on Reading in Children with Convergence Insufficiency
+- URL: https://pubmed.ncbi.nlm.nih.gov/31651592/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; no full-text appraisal.
+- Purpose: Standardized reading outcome versus office placebo at16weeks; same trial as S670.
 - Checked: 2026-10-17

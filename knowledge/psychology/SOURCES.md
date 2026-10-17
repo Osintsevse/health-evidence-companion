@@ -68,9 +68,9 @@
 ## S10 — Cochrane — Psychological therapies for people with borderline personality disorder
 - URL: https://www.cochrane.org/evidence/CD012955_psychological-therapies-people-borderline-personality-disorder
 - Published/version: 2020
-- Read: indexed_excerpt; checked 2026-09-26
-- Supports: There is support for specialized therapy, including DBT/MBT, for selected outcomes; confidence is often low.
-- Limits: Do not equate multiple skills with a complete cure and do not diagnose BPD.
+- Read: historical record; current use bibliographic pointer only, checked2026-10-17
+- Supports: no active evidence conclusion adopted pending matching AI-use permission.
+- Limits: Cochrane.org source-use policy applies; no mirror/snippet bypass. Independent current appraisal pending.
 
 ## S11 — Arntz et al. — Effectiveness of predominantly group and combined schema therapy for BPD
 - URL: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2789694
@@ -236,9 +236,9 @@
 ## S34 — Cochrane — Motivational interviewing for substance use reduction
 - URL: https://www.cochrane.org/evidence/CD008063_does-motivational-interviewing-help-people-reduce-their-use-alcohol-drugs-or-both
 - Published/version: 2023
-- Read: full_web_text; checked 2026-09-26
-- Supports: 93 studies; the result depends on the control group; there may be little or no benefit over active assistance.
-- Limits: Moderate to very low confidence; It's substance use, not a marriage decision.
+- Read: historical record; current use bibliographic pointer only, checked2026-10-17
+- Supports: no active evidence conclusion adopted pending matching AI-use permission.
+- Limits: Cochrane.org source-use policy applies; no mirror/snippet bypass. Independent current appraisal pending.
 
 ## S35 — Farias et al. — Adverse events in meditation practices and meditation-based therapies
 - URL: https://pubmed.ncbi.nlm.nih.gov/32820538/

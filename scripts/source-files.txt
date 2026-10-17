@@ -1243,3 +1243,4 @@ tests/test_source_review.py
 tests/test_unified_catalog.py
 tests/test_view_integration.py
 tests/test_views.py
+docs/goal-study-cycle-002-review.md

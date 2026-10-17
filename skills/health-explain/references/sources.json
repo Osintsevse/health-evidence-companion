@@ -247,9 +247,9 @@
     "title": "MedlinePlus - Understanding lab results",
     "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
     "region": "United States",
-    "retrieval_status": "Selected result/context and reference-interval sections rechecked; patient-education page, not assay harmonization validation",
+    "retrieval_status": "Result purpose/context, reference ranges, units, false results and preparation sections rechecked2026-10-17; not assay equivalence or full decision-limit standard.",
     "use": "Units, references, false results and clinical context",
-    "checked_on": "2026-10-07"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S29",
@@ -355,9 +355,9 @@
     "title": "Cochrane - Zinc for common cold, 2024",
     "url": "https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold",
     "region": "Systematic review",
-    "retrieval_status": "Review page opened",
-    "use": "Possible shorter duration, uncertainty and adverse effects",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S41",
@@ -1030,27 +1030,27 @@
     "title": "Cochrane - Oscillococcinum for influenza-like illness, 2015",
     "url": "https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness",
     "region": "International",
-    "retrieval_status": "Review summary and conclusions read; underlying search current to 2014, not a new 2026 review.",
-    "use": "Low-quality evidence does not justify a proven efficacy claim.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S116",
     "title": "Cochrane - Vitamin C for common colds, 2013",
     "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
     "region": "International",
-    "retrieval_status": "Summary/conclusions on regular supplementation versus treatment after onset read; older review.",
-    "use": "Do not conflate post-onset treatment with other vitamin C indications.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S117",
     "title": "Cochrane - Echinacea for common colds, 2014",
     "url": "https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold",
     "region": "International",
-    "retrieval_status": "Summary on heterogeneous preparations, bias and uncertain treatment effects read; older review.",
-    "use": "Product-specific evidence rather than an herbal-class verdict.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S118",
@@ -1120,9 +1120,9 @@
     "title": "Cochrane - Cerebrolysin for acute ischaemic stroke, 2023",
     "url": "https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke",
     "region": "International",
-    "retrieval_status": "Review summary and conclusions on mortality, missing functional outcomes and serious adverse events read; not all trial reports.",
-    "use": "Indication-specific outcome and harm appraisal, including Cortexin mortality data.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S126",
@@ -1678,9 +1678,9 @@
     "title": "General health checks in adults for reducing morbidity and mortality, Cochrane 2019",
     "url": "https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality",
     "region": "International",
-    "retrieval_status": "Plain-language summary and complete abstract read; search ended 2018-01-31; underlying trials not read.",
-    "use": "Multi-disease checkups in unselected adults; not targeted screening.",
-    "checked_on": "2026-10-08"
+    "retrieval_status": "Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.",
+    "use": "Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S188",
@@ -4567,9 +4567,9 @@
     "title": "Massage Therapy: What You Need To Know",
     "url": "https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know",
     "region": "US",
-    "retrieval_status": "Pain, cancer, risk and provider sections inspected",
+    "retrieval_status": "Neck/shoulder evidence, harms and practical advice rechecked2026-10-17; underlying publication May2019, no newer-trial appraisal.",
     "use": "Indication-specific benefits, uncertainty and risk",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S509",
@@ -5755,9 +5755,9 @@
     "title": "AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)",
     "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
     "region": "US / general adult education",
-    "retrieval_status": "Device choice, home technique, repeat readings and severe-pressure action sections inspected",
+    "retrieval_status": "Home device, cuff, technique, repeated readings and urgency sections rechecked2026-10-17; source reviewed2025-08-14, adult US education.",
     "use": "Source-linked guide; historical points are not current emergencies",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S641",
@@ -5946,6 +5946,96 @@
     "region": "Public educational safety context",
     "retrieval_status": "Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.",
     "use": "Visible GI bleeding and deterioration require prompt/emergency care.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S662",
+    "title": "MedlinePlus: How to Prepare for a Lab Test",
+    "url": "https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Preparation, medicine and fasting sections read; not a universal preparation protocol.",
+    "use": "Test-specific preparation and reporting departures.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S663",
+    "title": "NHS: Neck pain",
+    "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Causes, self-care and review sections read.",
+    "use": "Adult symptom context and review boundaries.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S664",
+    "title": "NHS: Shoulder pain",
+    "url": "https://www.nhs.uk/symptoms/shoulder-pain/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Self-care, review and urgent-help sections read.",
+    "use": "Adult shoulder context and urgency clues, local equivalents required.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S665",
+    "title": "University Hospitals Sussex: Self treatment of acute neck pain",
+    "url": "https://www.uhsussex.nhs.uk/resources/self-treatment-of-acute-neck-pain-2/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Context, symptoms and urgent-help sections read; exercise sequence not adopted.",
+    "use": "Neurological warning signs; leaflet population already assessed in emergency department.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S666",
+    "title": "NIAMS: Polymyalgia Rheumatica and Giant Cell Arteritis",
+    "url": "https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Overview and symptom sections read.",
+    "use": "Inflammatory alternatives and urgent visual symptoms; not diagnostic criteria.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S667",
+    "title": "NIAMS: Spinal Stenosis",
+    "url": "https://www.niams.nih.gov/health-topics/spinal-stenosis",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Selected cervical symptoms/causes inspected by packet researcher; no complete condition review.",
+    "use": "Background source lead for cervical neurological symptoms.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S668",
+    "title": "NHS: Cradle cap",
+    "url": "https://www.nhs.uk/conditions/cradle-cap/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Symptoms, age-specific gentle care and review/escalation sections read.",
+    "use": "Infant scalp symptoms and avoiding adult-regimen transfer.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S669",
+    "title": "CITT Study Group: Randomized clinical trial of treatments for symptomatic convergence insufficiency in children",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18852411/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "PubMed abstract read; full paper and instruments not independently appraised.",
+    "use": "Child population, defined intervention/comparator and 12-week convergence/symptom outcomes.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S670",
+    "title": "CITT-ART: Treatment of Symptomatic Convergence Insufficiency in Children",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31651593/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "PubMed abstract read; not full-trial appraisal.",
+    "use": "Different convergence and symptom outcomes; linked cohort with S671, not independent replication.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S671",
+    "title": "CITT-ART: Effect of Vergence/Accommodative Therapy on Reading in Children with Convergence Insufficiency",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31651592/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "PubMed abstract read; no full-text appraisal.",
+    "use": "Standardized reading outcome versus office placebo at16weeks; same trial as S670.",
     "checked_on": "2026-10-17"
   }
 ]
