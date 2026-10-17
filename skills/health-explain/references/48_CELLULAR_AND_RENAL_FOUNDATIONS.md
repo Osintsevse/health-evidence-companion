@@ -47,3 +47,5 @@ Apparent drug distribution volume is a different model quantity: see S159 in the
 ## Limits and continuation
 
 These selected concepts add substantive foundation study while retaining consequential gaps. They are not completed renal physiology, pathology, oncology or clinical training. New treatment, cause, molecular-pathway, image or special-population claims require applicable source review. Substantive maintainer review and current clinical validation remain separate.
+
+For the next cross-organ step beyond REN-F1/FLUID-M1, read VOLUME-F1 in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). Selected independent reviews now connect concentration, effective perfusion, renal handling and cardiac/endocrine signals. Earlier detailed transport and personal fluid-assessment gaps are not silently filled.

@@ -47,6 +47,7 @@ docs/goal-study-cycle-010-review.md
 docs/goal-study-cycle-011-review.md
 docs/goal-study-cycle-012-review.md
 docs/goal-study-cycle-013-review.md
+docs/goal-study-cycle-014-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -155,6 +156,7 @@ knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+knowledge/55_VOLUME_INFECTION_AND_PREGNANCY.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -277,6 +279,7 @@ skills/health-care-navigation/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-care-navigation/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-care-navigation/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-care-navigation/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-care-navigation/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -340,6 +343,7 @@ skills/health-contribute/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-contribute/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-contribute/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-contribute/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-contribute/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -432,6 +436,7 @@ skills/health-explain/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-explain/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-explain/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-explain/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-explain/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -494,6 +499,7 @@ skills/health-family-care/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-family-care/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-family-care/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-family-care/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-family-care/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -633,6 +639,7 @@ skills/health-medicine-info/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-medicine-info/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-medicine-info/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-medicine-info/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-medicine-info/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -697,6 +704,7 @@ skills/health-mental-health/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-mental-health/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-mental-health/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-mental-health/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-mental-health/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -752,6 +760,7 @@ skills/health-nutrition/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-nutrition/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-nutrition/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-nutrition/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-nutrition/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -814,6 +823,7 @@ skills/health-prevention/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-prevention/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-prevention/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-prevention/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-prevention/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -1029,6 +1039,7 @@ skills/health-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-research/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/health-research/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -1083,6 +1094,7 @@ skills/psyops-cbt-act-mct/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-cbt-act-mct/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-cbt-act-mct/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-cbt-act-mct/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/psyops-cbt-act-mct/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -1147,6 +1159,7 @@ skills/psyops-dialogue/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-dialogue/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-dialogue/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-dialogue/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/psyops-dialogue/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1297,6 +1310,7 @@ skills/psyops-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-research/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/psyops-research/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md
@@ -1361,6 +1375,7 @@ skills/psyops-sport/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-sport/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-sport/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-sport/references/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md
+skills/psyops-sport/references/55_VOLUME_INFECTION_AND_PREGNANCY.md
 skills/psyops-sport/references/ENDOMETRIOSIS.md
 skills/psyops-sport/references/evidence-methods.md
 skills/psyops-sport/references/psychology/00_COMMON_INDEX.md

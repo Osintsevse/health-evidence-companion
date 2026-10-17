@@ -725,8 +725,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S101 - NICE - NG145 Thyroid disease
 - URL: https://www.nice.org.uk/guidance/NG145/chapter/recommendations
 - Region: UK
-- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
-- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
+- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
 
 ### S102 - MedlinePlus - Complete blood count
@@ -760,8 +760,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S106 - NICE - NG158 Venous thromboembolic diseases
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 - Region: UK
-- Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline.
-- Purpose: Explain a diagnostic pathway rather than D-dimer screening.
+- Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
 
 ### S107 - Batut - Immunization instructions for 2026, full PDF
@@ -3098,9 +3098,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S440 - Thyroid Tests
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid
 - Region: US
-- Reading status: read relevant rendered page sections
+- Reading status: NIDDK page last reviewed May 2017. Cycle014 researcher/root rechecked introduction and TSH/T4/T3 blood-test/context paragraphs and current content-use policy; imaging/biopsy instructions not adopted.
 - Purpose: Linked hormone testing and contextual interpretation.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S441 - High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain
 - URL: https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain
@@ -3119,8 +3119,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S443 - NICE NG158 Recommendations
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 - Region: UK
-- Reading status: read relevant rendered page sections
-- Purpose: Clinician assessment, selected PERC/Wells/D-dimer pathways.
+- Reading status: read relevant rendered page sections Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-09
 
 ### S444 - IBIS Breast Cancer Risk Evaluation Tool
@@ -4883,7 +4883,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S695 - Johnston et al. 2021: Workplace ergonomics and neck-specific exercise trial
 - URL: https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-021-03945-y
 - Region: Australian adult office workers; selected workplace package
-- Reading status: Researcher full article; root selected methods, outcomes, missing data, harms and CC BY4.0 notice.
+- Reading status: Researcher full article; root selected methods, outcomes, missing data, harms and CC BY 4.0 notice.
 - Purpose: Secondary neck-pain outcome; no daily-function benefit established; no home protocol.
 - Checked: 2026-10-17
 
@@ -5254,7 +5254,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S748 - Kanzler et al.: focused ACT for chronic pain, pilot RCT (2022)
 - URL: https://link.springer.com/article/10.1186/s12875-022-01690-2
 - Region: US single clinic
-- Reading status: 2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY4. No scales/protocol/figures/supplement reused; no independent correction search completed.
+- Reading status: 2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY 4. No scales/protocol/figures/supplement reused; no independent correction search completed.
 - Purpose: Preserve positive acceptance result while distinguishing comparative disability, pain and QoL evidence.
 - Checked: 2026-10-17
 
@@ -5282,7 +5282,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S752 - Hui et al.: Author Correction to the2017 OSA pathway trial (2019)
 - URL: https://www.nature.com/articles/s41598-019-41389-6
 - Region: Correction to S751; not an independent trial
-- Reading status: 2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.
+- Reading status: 2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY 4 verified. Supersedes original adherence cells/denominator wording.
 - Purpose: Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.
 - Checked: 2026-10-17
 
@@ -5291,4 +5291,46 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: US selected adult research cohort
 - Reading status: 2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.
 - Purpose: Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.
+- Checked: 2026-10-17
+
+### S754 - Bernal et al.: Sodium Homeostasis, a Balance Necessary for Life (2023)
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9862583/
+- Region: Mechanistic narrative review; selected mammalian/human physiology
+- Reading status: 2023-01-12; Nutrients 15:395, DOI10.3390/nu15020395. Researcher/root selected Introduction and kidney sections4.1–4.6, article-specific CC BY 4 licence. Underlying experiments and figures not independently appraised.
+- Purpose: Renal sympathetic/renin/angiotensin/aldosterone, vasopressin/AQP2 and cardiac natriuretic connections; no new outcome or treatment evidence.
+- Checked: 2026-10-17
+
+### S755 - Roumelioti et al.: Fluid balance concepts in medicine (2018)
+- URL: https://www.wjgnet.com/2220-6124/full/v7/i1/1.htm
+- Region: Narrative physiological/clinical review
+- Reading status: 2018-01-06; World J Nephrol 7:1–28, DOI10.5527/wjn.v7.i1.1. Researcher/root selected water/tonicity, extracellular-volume and effective-perfusion sections through progressive CHF illustration; exact article CC BY-NC 4.0 and current publisher terms/AI-policy scope directly checked. No PDF pagination or underlying experiments verified.
+- Purpose: Concentration/inventory versus extracellular volume/effective organ perfusion; no bedside formula, fluid regimen or efficacy claim. Source noncommercial conditions retained.
+- Checked: 2026-10-17
+
+### S756 - Eyre et al.: Asymptomatic C. difficile colonisation and onward transmission (2013)
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078445
+- Region: UK selected predominantly older adult acute inpatients
+- Reading status: 2013-11-12; PLOS ONE 8:e78445. Researcher main Methods/Results/Discussion; root selected target/selection/sampling and relevant results/discussion plus exact publisher PDF Figure 1 on 5 visual. 230 enrolled/227 eligible reconciled; Figure 2 caption 118 versus Figure 1 114 remains inconsistent. Article CC Attribution, historical version not asserted.
+- Purpose: Culture and isolate toxin genes versus toxin activity/host injury; symptom-threshold and sampling limits. No modern NAAT accuracy, prevalence estimate, treatment or infection-control rule.
+- Checked: 2026-10-17
+
+### S757 - Tozzo et al.: Hematologic dynamics during pregnancy and obstetric complications (2026)
+- URL: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004747
+- Region: US selected singleton live-birth EHR cohorts
+- Reading status: 2026-05-20; PLOS Medicine 23:e1004747. Researcher/root selected cohort/CBC/reference/longitudinal methods, relevant Results and Discussion.37,709 reference pregnancies differ from2,791 all-four-timepoint subset. Supplements/visualfigures/rawrecords unread; early-delivery wording inconsistent. Exact CC BY 4 licence verified.
+- Purpose: Gestational concentration trends, reference interval versus diagnosis and observational outcome limits; no new threshold, prospective implementation benefit or postpartum transfer.
+- Checked: 2026-10-17
+
+### S758 - Randall et al.: Early-pregnancy hemoglobin study, selected physiological background (2019)
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225123
+- Region: Pregnancy physiology background in Australian observational report
+- Reading status: 2019-11-13; PLOS ONE 14:e0225123. Researcher/root Introduction physiological paragraph, citation/copyright and exact CC BY 4 link only. Outcome methods/results and underlying physiology experiments not independently appraised.
+- Purpose: Relative plasma/red-cell volume expansion as background; no outcome estimate, historical guideline cutoff or treatment benefit adopted.
+- Checked: 2026-10-17
+
+### S759 - MedlinePlus Medical Test: TSH (thyroid-stimulating hormone)
+- URL: https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/
+- Region: NLM official patient laboratory education
+- Reading status: Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.
+- Purpose: Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.
 - Checked: 2026-10-17

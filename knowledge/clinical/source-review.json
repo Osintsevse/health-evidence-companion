@@ -1484,10 +1484,10 @@
       "url": "https://www.nice.org.uk/guidance/NG145/chapter/recommendations",
       "publication_version": "2019; current indexed recommendations",
       "checked_on": "2026-10-09",
-      "retrieval_status": "Indexed management and follow-up sections inspected; direct 403",
-      "use": "Levothyroxine, monitoring, alternatives and safety context",
+      "retrieval_status": "Indexed management and follow-up sections inspected; direct 403 Cycle014: historical retrieval only; current source-use policy holds this identified NICE work pending matching permission. No new clinical reading.",
+      "use": "Historical bibliography only while matching permission is unverified; selected module16 support replaced with independent usable sources.",
       "limitations": "Regional applicability, clinical judgment and exact product labels matter. Reading limited to stated sections; retrieval date does not establish edition date.",
-      "rights": "Source copyrighted or subject to publisher terms; original brief synthesis only, no reproduced tables, PDFs or figures; public reuse review required."
+      "rights": "NICE source-use hold applies. Do not process this identified work through mirrors or snippets; historical records do not grant permission."
     },
     {
       "topic": "chronic",
@@ -2370,12 +2370,12 @@
       "local_key": "thyroid",
       "source_id": "S440",
       "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid",
-      "publication_version": "Live official page; publication date not asserted",
-      "checked_on": "2026-10-09",
-      "retrieval_status": "read relevant rendered page sections",
+      "publication_version": "Last reviewed May 2017; current live source",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "NIDDK page last reviewed May 2017. Cycle014 researcher/root rechecked introduction and TSH/T4/T3 blood-test/context paragraphs and current content-use policy; imaging/biopsy instructions not adopted.",
       "use": "Linked hormone testing and contextual interpretation.",
-      "limitations": "General education; assay, population and local clinical pathway may differ. No full clinical guideline audit claimed.",
-      "rights": "Original paraphrase and citation only; no full text, images or questionnaire reproduction."
+      "limitations": "Selected thyroid physiology and context only. Not biotin-specific evidence or full pituitary/testing pathway; cited studies and imaging instructions not adopted.",
+      "rights": "NIDDK-authored explanatory text; current copyright policy directly read, majority information reusable with exceptions. No graphics/logos, third-party works or endorsement."
     },
     {
       "topic": "diagnostics",
@@ -2408,10 +2408,10 @@
       "url": "https://www.nice.org.uk/guidance/ng158/chapter/Recommendations",
       "publication_version": "NG158, 2023 amendments inspected",
       "checked_on": "2026-10-09",
-      "retrieval_status": "read relevant rendered page sections",
-      "use": "Clinician assessment, selected PERC/Wells/D-dimer pathways.",
+      "retrieval_status": "read relevant rendered page sections Cycle014: historical retrieval only; current source-use policy holds this identified NICE work pending matching permission. No new clinical reading.",
+      "use": "Historical bibliography only while matching permission is unverified; selected module16 support replaced with independent usable sources.",
       "limitations": "General education; assay, population and local clinical pathway may differ. No full clinical guideline audit claimed.",
-      "rights": "Original paraphrase and citation only; no full text, images or questionnaire reproduction."
+      "rights": "NICE source-use hold applies. Do not process this identified work through mirrors or snippets; historical records do not grant permission."
     },
     {
       "topic": "diagnostics",
@@ -5339,7 +5339,7 @@
       "retrieval_status": "Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.",
       "use": "Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.",
       "limitations": "Bounded question-card scope; no whole-source, individual clinical or substantive maintainer validation. See cycle003 review and card gaps.",
-      "rights": "Article-specific CC BY4.0 verified; original factual summary, no tables/figures/datasets copied. Third-party components excluded."
+      "rights": "Article-specific CC BY 4.0 verified; original factual summary, no tables/figures/datasets copied. Third-party components excluded."
     },
     {
       "topic": "goal_cycle003",
@@ -5351,7 +5351,7 @@
       "retrieval_status": "Correction paragraph and licence inspected; correction concerns author affiliation.",
       "use": "Bibliographic correction provenance; no independent efficacy claim.",
       "limitations": "Bounded question-card scope; no whole-source, individual clinical or substantive maintainer validation. See cycle003 review and card gaps.",
-      "rights": "Article-specific CC BY4.0 notice read; original concise metadata only."
+      "rights": "Article-specific CC BY 4.0 notice read; original concise metadata only."
     },
     {
       "topic": "goal_cycle003",
@@ -5876,10 +5876,10 @@
       "url": "https://link.springer.com/article/10.1186/s12875-022-01690-2",
       "publication_version": "2022-04-14; BMC Primary Care23:77",
       "checked_on": "2026-10-17",
-      "retrieval_status": "2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY4. No scales/protocol/figures/supplement reused; no independent correction search completed.",
+      "retrieval_status": "2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY 4. No scales/protocol/figures/supplement reused; no independent correction search completed.",
       "use": "Preserve positive acceptance result while distinguishing comparative disability, pain and QoL evidence.",
       "limitations": "Selected original reading, population and unresolved details in docs/goal-study-cycle-012-review.md; no full-source or clinical-validation claim.",
-      "rights": "Article-specific CC BY4; original factual synthesis, author/source/licence attribution; no instruments or figures reused."
+      "rights": "Article-specific CC BY 4; original factual synthesis, author/source/licence attribution; no instruments or figures reused."
     },
     {
       "topic": "diagnostics",
@@ -5888,7 +5888,7 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6258916/",
       "publication_version": "2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828",
       "checked_on": "2026-10-17",
-      "retrieval_status": "2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828. Root selected scope, PE remarks/recommendations, methods/indirectness footnotes and limitations; evidence search through2017-10-01. Live status page reports February2022 limited-search review, not verified2026 refresh.",
+      "retrieval_status": "2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828. Root selected scope, PE remarks/recommendations, methods/indirectness footnotes and limitations; evidence search through2017-10-01. Live status page reports February2022 limited-search review, not verified2026 refresh. Cycle014 root/researcher selected probability/assay and PE remarks rechecked for module16; no whole-guideline or2026evidence refresh.",
       "use": "Eligible probability/assay context and sequential-pathway modeling limits; no reproduced decision rule, table, formula or algorithm.",
       "limitations": "Selected original reading, population and unresolved details in docs/goal-study-cycle-012-review.md; no full-source or clinical-validation claim.",
       "rights": "Copyrighted source; brief original factual synthesis/citation only. No open-licence claim; provider/section scope and encountered terms recorded in dated review."
@@ -5915,7 +5915,7 @@
       "retrieval_status": "2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4–6, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.",
       "use": "Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.",
       "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
-      "rights": "Article-specific CC BY4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
+      "rights": "Article-specific CC BY 4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
     },
     {
       "topic": "diagnostics",
@@ -5924,10 +5924,10 @@
       "url": "https://www.nature.com/articles/s41598-019-41389-6",
       "publication_version": "2019-04-02; Scientific Reports9:5595",
       "checked_on": "2026-10-17",
-      "retrieval_status": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.",
+      "retrieval_status": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY 4 verified. Supersedes original adherence cells/denominator wording.",
       "use": "Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.",
       "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
-      "rights": "Article-specific CC BY4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
+      "rights": "Article-specific CC BY 4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
     },
     {
       "topic": "diagnostics",
@@ -5940,6 +5940,78 @@
       "use": "Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.",
       "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
       "rights": "Article-specific CC-BY directly verified; current PLOS policy permits reuse/mining with attribution. Original factual synthesis; no table/figure/dataset/protocol reused."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s754",
+      "source_id": "S754",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9862583/",
+      "publication_version": "2023-01-12; Nutrients 15:395, DOI10.3390/nu15020395",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2023-01-12; Nutrients 15:395, DOI10.3390/nu15020395. Researcher/root selected Introduction and kidney sections4.1–4.6, article-specific CC BY 4 licence. Underlying experiments and figures not independently appraised.",
+      "use": "Renal sympathetic/renin/angiotensin/aldosterone, vasopressin/AQP2 and cardiac natriuretic connections; no new outcome or treatment evidence.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "Article-specific CC BY 4.0 directly verified; attribution retained, no source text/figures/tables/data/instruments or third-party content redistributed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s755",
+      "source_id": "S755",
+      "url": "https://www.wjgnet.com/2220-6124/full/v7/i1/1.htm",
+      "publication_version": "2018-01-06; World J Nephrol 7:1–28, DOI10.5527/wjn.v7.i1.1",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2018-01-06; World J Nephrol 7:1–28, DOI10.5527/wjn.v7.i1.1. Researcher/root selected water/tonicity, extracellular-volume and effective-perfusion sections through progressive CHF illustration; exact article CC BY-NC 4.0 and current publisher terms/AI-policy scope directly checked. No PDF pagination or underlying experiments verified.",
+      "use": "Concentration/inventory versus extracellular volume/effective organ perfusion; no bedside formula, fluid regimen or efficacy claim. Source noncommercial conditions retained.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "Article-specific CC BY-NC 4.0; source noncommercial/attribution conditions remain. Only original factual synthesis; no source expression, figures, tables, formulas or MIT/commercial relicensing. Current provider terms and manuscript-policy scope directly inspected."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s756",
+      "source_id": "S756",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078445",
+      "publication_version": "2013-11-12; PLOS ONE 8:e78445",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2013-11-12; PLOS ONE 8:e78445. Researcher main Methods/Results/Discussion; root selected target/selection/sampling and relevant results/discussion plus exact publisher PDF Figure 1 on 5 visual. 230 enrolled/227 eligible reconciled; Figure 2 caption 118 versus Figure 1 114 remains inconsistent. Article CC Attribution, historical version not asserted.",
+      "use": "Culture and isolate toxin genes versus toxin activity/host injury; symptom-threshold and sampling limits. No modern NAAT accuracy, prevalence estimate, treatment or infection-control rule.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "Article-specific CC Attribution; exact historical version not asserted. Current PLOS terms/reuse policy checked; attribution retained, third-party exceptions respected; no source tables/figures/sequences reproduced."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s757",
+      "source_id": "S757",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004747",
+      "publication_version": "2026-05-20; PLOS Medicine 23:e1004747",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2026-05-20; PLOS Medicine 23:e1004747. Researcher/root selected cohort/CBC/reference/longitudinal methods, relevant Results and Discussion.37,709 reference pregnancies differ from2,791 all-four-timepoint subset. Supplements/visualfigures/rawrecords unread; early-delivery wording inconsistent. Exact CC BY 4 licence verified.",
+      "use": "Gestational concentration trends, reference interval versus diagnosis and observational outcome limits; no new threshold, prospective implementation benefit or postpartum transfer.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "Article-specific CC BY 4.0 directly verified; attribution retained, no source text/figures/tables/data/instruments or third-party content redistributed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s758",
+      "source_id": "S758",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225123",
+      "publication_version": "2019-11-13; PLOS ONE 14:e0225123",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2019-11-13; PLOS ONE 14:e0225123. Researcher/root Introduction physiological paragraph, citation/copyright and exact CC BY 4 link only. Outcome methods/results and underlying physiology experiments not independently appraised.",
+      "use": "Relative plasma/red-cell volume expansion as background; no outcome estimate, historical guideline cutoff or treatment benefit adopted.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "Article-specific CC BY 4.0 directly verified; attribution retained, no source text/figures/tables/data/instruments or third-party content redistributed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle014-s759",
+      "source_id": "S759",
+      "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/",
+      "publication_version": "Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.",
+      "use": "Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.",
+      "limitations": "Exact actor/section, selection and remaining gaps in docs/goal-study-cycle-014-review.md; no whole-source or clinical-validation claim.",
+      "rights": "NLM-authored Medical Test content public-domain category directly verified. Source: MedlinePlus, National Library of Medicine. Not restricted third-party /ency/ content; no linked source or graphics adopted."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

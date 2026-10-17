@@ -91,3 +91,5 @@ This is a routing/navigation module, not a systematic review or clinically valid
 For birth to 59 completed months, consult illness and selected procedures (`PEDIATRICS.md`), feeding, preventive plans and development (`PEDIATRIC_CARE.md`) and fontanels, sutures and head growth (`FONTANELS.md`). Preserve chronological age separately from gestational/corrected age; age-specific source applicability determines which is used. These references expand the brief pediatric entry above and do not imply comprehensive newborn intensive care or all pediatric specialties.
 
 The repository stores these modules in `knowledge/clinical/`; installed health skills provide the same files in their flat `references/` directory. Open them through the skill or clinical index.
+
+For a studied routine gestational CBC question, use MAT-F1 in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). It explains concentration, stage and reference-population limits; existing maternity urgency and local-service guidance still applies.
