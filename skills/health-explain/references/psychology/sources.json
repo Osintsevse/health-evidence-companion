@@ -504,14 +504,14 @@
       "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
       "type": "randomized_trial",
       "published": "2025",
-      "access": "indexed_excerpt",
-      "checked_at": "2026-09-26",
-      "supported": "Therabot: 210 adults, 4 weeks, compared to waitlist and followed up to 8 weeks.",
-      "limitations": "The full text of the publisher was not revealed; details are compared with material from the research center S42.",
-      "use": "Do not transfer the effect of a specialized controlled product to general chat.",
+      "access": "historical_record_bibliographic_context_only_under_current_source_use_policy",
+      "checked_at": "2026-10-17",
+      "supported": "No trial-result claim adopted from this restricted NEJM work or its linked author/centre summaries.",
+      "limitations": "Explicit NEJM Group AI-output/processing restriction; no matching permission verified. Linked summaries are not independent replications and are not used to bypass the content restriction.",
+      "use": "Bibliographic/source-discovery context only; independently usable appraisal pending.",
       "additional_url": "https://www.nicholasjacobson.com/publication/heinz-mackin-trudeau-bhattacharya-wang-et-al-2025/",
       "rechecked_at": "2026-09-28",
-      "recheck_access": "author_abstract"
+      "recheck_access": "Historical author-abstract access is not current AI-use permission."
     },
     {
       "id": "S42",
@@ -519,11 +519,11 @@
       "url": "https://www.c4tbh.org/research-brief/randomized-trial-of-a-generative-ai-chatbot-for-mental-health-treatment/",
       "type": "research_center_summary",
       "published": "2025",
-      "access": "full_web_text",
-      "checked_at": "2026-09-26",
-      "supported": "Describes the protocol, results, and staff interventions for safety and remediation responses.",
-      "limitations": "Study site presentation, non-independent replication of trial S41.",
-      "use": "Consider human supervision as part of the intervention."
+      "access": "historical_record_bibliographic_context_only_under_current_source_use_policy",
+      "checked_at": "2026-10-17",
+      "supported": "No trial-result claim adopted from this restricted NEJM work or its linked author/centre summaries.",
+      "limitations": "Explicit NEJM Group AI-output/processing restriction; no matching permission verified. Linked summaries are not independent replications and are not used to bypass the content restriction.",
+      "use": "Bibliographic/source-discovery context only; independently usable appraisal pending."
     },
     {
       "id": "S43",

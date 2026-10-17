@@ -2218,9 +2218,9 @@
     "title": "WHO cognitive decline and dementia risk reduction second edition2026",
     "url": "https://www.who.int/publications/i/item/9789240123557",
     "region": "International",
-    "retrieval_status": "Official publication overview read; guideline sections not yet all reviewed",
-    "use": "Prefer current second edition to2019 and check exact recommendation at use",
-    "checked_on": "2026-10-08"
+    "retrieval_status": "Actual official168-page PDF SHA matched. Selected viewer12–15(printedx–xiii),44–49(printed18–23) text read by packet researcher; root viewer1–5 and visual13,15 checked. Not full guideline/trials.",
+    "use": "Scope, update method, physical-activity cognitive-decline recommendation strength/certainty and validated status; not guaranteed dementia prevention.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S248",
@@ -3451,9 +3451,9 @@
     "title": "Validation of a Saliva Micro-RNA Signature for Endometriosis",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41147827/",
     "region": "Multicenter French diagnostic population",
-    "retrieval_status": "Indexed original abstract inspected: 971-participant validation, prevalence, sensitivity, specificity, predictive values and funding. Publisher metadata inspected; full protocol/supplements not read.",
-    "use": "Promising current diagnostic-accuracy evidence with population/clinical-utility limitations; supersedes relying solely on the earlier 200-participant interim analysis.",
-    "checked_on": "2026-10-09"
+    "retrieval_status": "Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.",
+    "use": "Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S385",
@@ -3829,9 +3829,9 @@
     "title": "van Dyck et al. Lecanemab in Early Alzheimer Disease",
     "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2212948",
     "region": "International trial",
-    "retrieval_status": "Original indexed result read; full article 403; FDA clinical table read separately",
-    "use": "Absolute vs relative 18-month result",
-    "checked_on": "2026-10-09"
+    "retrieval_status": "Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.",
+    "use": "Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S427",
@@ -3847,18 +3847,18 @@
     "title": "FDA clears first Alzheimer blood test",
     "url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
     "region": "US",
-    "retrieval_status": "Relevant full FDA paragraphs read",
+    "retrieval_status": "FDA2025-05-16 announcement intended-use/population/interpretation and no-screening/standalone paragraphs rechecked; no device-study reanalysis.",
     "use": "Named assay symptomatic age 55+; not screening/standalone",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S429",
     "title": "FDA Class 2 Lumipulse calibrator recall",
     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945",
     "region": "US",
-    "retrieval_status": "Product, lots, reason, actions inspected",
+    "retrieval_status": "Recall record product/calibrator lots, reason/actions and open/classified status rechecked; site last-updated2026-10-15, no universal assay-invalidity claim.",
     "use": "Lot-specific falsely elevated ratios and result review",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S430",
@@ -3901,9 +3901,9 @@
     "title": "NICE NG97 dementia recommendations",
     "url": "https://www.nice.org.uk/guidance/NG97/chapter/recommendations",
     "region": "England",
-    "retrieval_status": "Official indexed recommendations 1.5.2-1.5.15 and 1.6 inspected; direct page blocked",
-    "use": "Stage/subtype options and anticholinergic review",
-    "checked_on": "2026-10-09"
+    "retrieval_status": "Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.",
+    "use": "Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S435",
@@ -4531,9 +4531,9 @@
     "title": "Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition",
     "url": "https://www.who.int/publications/i/item/9789240103726",
     "region": "Global",
-    "retrieval_status": "Publication overview inspected; PDF fetch 403",
-    "use": "Functional domains and integrated care",
-    "checked_on": "2026-10-09"
+    "retrieval_status": "Actual PDF SHA matched. Packet researcher read viewer4–5(frontmatter),8–10(glossaryvi–viii),13–16(printed1–4),21–23(printed9–11). Root visual4,8,15 checked. Not full handbook/instruments/pathways.",
+    "use": "Functional ability/capacity/environment, goals, autonomy, local multidisciplinary and longitudinal care.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S505",
@@ -6036,6 +6036,114 @@
     "region": "Source-specific educational scope",
     "retrieval_status": "PubMed abstract read; no full-text appraisal.",
     "use": "Standardized reading outcome versus office placebo at16weeks; same trial as S670.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S672",
+    "title": "NHLBI: What Is Insomnia?",
+    "url": "https://www.nhlbi.nih.gov/health/insomnia",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Overview definition, opportunity/environment and diary paragraphs read; not all linked sections.",
+    "use": "Sleep opportunity versus insomnia; clinical context.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S673",
+    "title": "NHLBI: Sleep Apnea Symptoms",
+    "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Symptom and possible sleep-study sections read.",
+    "use": "Breathing/sleepiness clues prompt assessment, not diagnosis.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S674",
+    "title": "NHLBI: Circadian Rhythm Disorders",
+    "url": "https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Definition, environment/timing, symptoms and assessment overview read; not treatment plan.",
+    "use": "Sleep timing mismatch and type/cause-specific evaluation.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S675",
+    "title": "WHO: Healthy ageing and functional ability",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Healthy-ageing, functional-ability, intrinsic-capacity/environment and diversity sections read.",
+    "use": "Ageing goals concern valued function, capacity and environment; not absence of every disease.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S676",
+    "title": "WHO: Ageing and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Ageing explained, conditions, healthy-ageing factors and environment sections read.",
+    "use": "Heterogeneity and multiple determinants of later-life function.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S677",
+    "title": "Waziry et al.: CALERIE DNA methylation measures of biological ageing",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.",
+    "use": "Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S678",
+    "title": "Author correction to CALERIE DNA methylation report",
+    "url": "https://www.nature.com/articles/s43587-023-00432-y",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Correction paragraph and licence inspected; correction concerns author affiliation.",
+    "use": "Bibliographic correction provenance; no independent efficacy claim.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S679",
+    "title": "FDA: Unproven Alzheimer Disease Products",
+    "url": "https://www.fda.gov/consumers/health-fraud-scams/unproven-alzheimers-disease-products",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "General warning/risks paragraphs read; product list not reproduced or independently checked.",
+    "use": "Unsupported prevention/cure marketing is not evidence; avoid delay of appropriate evaluation.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S680",
+    "title": "WHO: Call for experts for a new endometriosis guideline",
+    "url": "https://www.who.int/news-room/articles-detail/call-for-experts-for-the-new-who-guideline-on-endometriosis",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Development-status and background sections read; not a completed guideline.",
+    "use": "Preserve2026 development status without inventing new recommendations.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S681",
+    "title": "FDA: Table of Surrogate Endpoints That Were the Basis of Drug Approval or Licensure",
+    "url": "https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Definition, key considerations and limitations read; individual disease/table rows not appraised or reproduced.",
+    "use": "Surrogate use is context dependent and case by case; biomarker change is not automatically clinical benefit.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S682",
+    "title": "FDA: PFDD Guidance3, Fit-for-Purpose Clinical Outcome Assessments",
+    "url": "https://www.fda.gov/media/159500/download",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Final2025 guidance II.B–C, IV.B,IV.G–H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.",
+    "use": "Construct/context/fit-for-purpose, reliability and score interpretation; guidance is nonbinding.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S683",
+    "title": "Patient-Reported Outcomes: OBSSR-hosted e-Source chapter",
+    "url": "https://obssr.od.nih.gov/sites/obssr/files/Patient-Reported-Outcomes.pdf",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.",
+    "use": "Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.",
     "checked_on": "2026-10-17"
   }
 ]

@@ -217,3 +217,5 @@ Infant cradle cap is a different age context. NHS describes greasy scales that u
 **Reading:** federal MedlinePlus topic summary only, not linked A.D.A.M./AAD/other third-party pages; NHS Cradle cap, symptoms, care and seek-help sections, reviewed 2025-10-03. Checked 2026-10-17. NHS/OGL attribution applies to text, not its credited stock images.
 
 **Currency gap:** the NHS dandruff page displays 2029 as both review and next-review dates on a 2026 check. That anomaly is retained and the page is not used here as current treatment evidence. Do not silently change the date or treat a future date as freshness.
+
+Further questions on mechanisms/measurement, sleep causes/tests, ageing/function, dementia and endometriosis are in [the extended packet](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md).

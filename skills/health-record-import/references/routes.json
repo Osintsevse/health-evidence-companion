@@ -2043,12 +2043,10 @@
       ],
       "source_ids": [
         "S433",
-        "S434",
         "S422",
         "S423",
         "S424",
         "S425",
-        "S426",
         "S427"
       ]
     },
@@ -4121,7 +4119,7 @@
         "Separate preclinical rationale, phase 1 safety, feasibility, diagnostic accuracy, clinical utility and authorization.",
         "For EPiC1, explain the single-arm feasibility design, small sample and neuropathy; no DIY use or cure claim. S381",
         "For AMY109, report the small phase 1 study and subsequent in-house development discontinuation; do not invent its cause. S382 S383",
-        "For saliva testing, report selected-population accuracy and imperfect negative predictive value; distinguish the French innovation pathway from universal endorsement. S384 S385",
+        "For proposed saliva testing, keep current independent validation/applicability unresolved; do not quote restricted-report metrics. Distinguish local innovation access from universal endorsement. S361 S385",
         "State access limitations and request a full protocol/regulatory source before making a stronger claim."
       ],
       "avoid": [
@@ -4138,10 +4136,10 @@
         "S381",
         "S382",
         "S383",
-        "S384",
         "S385",
         "S386",
-        "S644"
+        "S644",
+        "S681"
       ]
     },
     {

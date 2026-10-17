@@ -20,10 +20,10 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "fbb80e7a5dbc65769e5bd1b93f55af545c1bdb07a950a9eef61197c190fbb902",
+      "current_sha256": "8718c6257bb979bf08e1cec4d34f9200c5a74f9777685da9c50d58395511e6b7",
       "date": "2026-10-17",
-      "reason": "Extend exact selected Goldstein reading and retain original source IDs; apply current Cochrane use restriction without rewriting original import pins.",
-      "review_document": "docs/goal-study-cycle-002-review.md"
+      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
+      "review_document": "docs/goal-study-cycle-003-review.md"
     },
     {
       "path": "knowledge/psychology/01_EVIDENCE_MAP.md",
@@ -36,10 +36,18 @@
     {
       "path": "knowledge/psychology/SOURCES.md",
       "original_import_sha256": "2ef2c531c1f5a7d386b0f4c67f2283831c1b944d22f81a81aa6981ea73716598",
-      "current_sha256": "66dfd99b380e4147d41296eb3d8b1c0e6e0b73fb3fabd4122dd44853e6060eeb",
+      "current_sha256": "b276eb8620469b4738cee680832947822759f4549bdef2992bf129e4f2467bc2",
       "date": "2026-10-17",
-      "reason": "Align historical Cochrane bibliography with current pointer-only source-use status; no clinical findings adopted from blocked providers.",
-      "review_document": "docs/goal-study-cycle-002-review.md"
+      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
+      "review_document": "docs/goal-study-cycle-003-review.md"
+    },
+    {
+      "path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",
+      "original_import_sha256": "27cfba907de402d13afe48e36c61eac9685ed225f9cde5403f92e2be085bf2bf",
+      "current_sha256": "c6ada3858a4e106dad28f519b4d3a39a779b023b54d4465c16c0bc5ff0ac42e7",
+      "date": "2026-10-17",
+      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
+      "review_document": "docs/goal-study-cycle-003-review.md"
     }
   ]
 }

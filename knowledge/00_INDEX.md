@@ -79,3 +79,11 @@ Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest 
 Detailed birth-through-59-month navigation: [well-child care and local plans](clinical/PEDIATRIC_CARE.md), [illness and procedures](clinical/PEDIATRICS.md), and [fontanelles/skull/head growth](clinical/FONTANELS.md). Chronological age governs routing; prematurity correction is specific to the chart or developmental question.
 
 - [38 - Blood pressure, cuff principles and complete measurement views](38_BLOOD_PRESSURE_AND_MEASUREMENT.md).
+
+## Studied question packets
+
+- [Grounded reasoning](39_GROUNDED_REASONING.md), [broad learning map](40_BROAD_HEALTH_LEARNING_MAP.md) and [everyday notes](41_EVERYDAY_HEALTH_NOTES.md).
+- [Methods, GI, sleep and other first studied questions](42_STUDIED_QUESTIONS.md).
+- [Evidence, sleep, ageing, dementia and endometriosis questions](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md).
+
+Read only the relevant complete section; publication and indexing are not whole-source study or clinical validation.

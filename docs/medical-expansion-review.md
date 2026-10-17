@@ -277,7 +277,7 @@ All references outside the source register use the requested topic-key token for
 4. Medical pain control is not a treatment to enhance conception while trying. Ovarian surgery and ART discussions must account for reserve and prior procedures. S363
 5. US Myfembree and EU Ryeqo contraception instructions differ. One market's label cannot be substituted for the other; oral-antagonist trial arms are not all licensed alternatives. S373 S374 S377
 6. AMY109's phase 1 publication must be paired with Chugai's later report of July 2025 in-house development discontinuation. The report does not prove a particular toxicity or single reason. S382 S383
-7. The 2025 saliva validation involved 971 participants, beyond the earlier interim sample. Accuracy in a selected population does not establish population screening, clinical utility, organ mapping or perfect rule-out. S384
+7. Historical saliva-report metrics are suspended under current NEJM source-use restrictions. A usable independent accuracy/clinical-utility appraisal remains pending; no numerical rule-out or screening claim follows from the retained bibliography. S384 (bibliographic only)
 8. EPiC1 is feasibility research with meaningful neuropathy findings, not evidence for self-treatment or a nonhormonal cure. S381
 
 ## Reading audit
@@ -303,7 +303,7 @@ Yselty's current endometriosis indication was verified through the EMA overview,
 
 **US versus EU combination labels:** Differences in contraception, duration wording and monitoring are jurisdictional regulatory instructions, not a reason to construct a hybrid regimen. S373 S374
 
-**New biomarkers versus older guidance:** Stronger 2025 accuracy results should not be erased by saying that no biomarker evidence exists. They also do not automatically overturn a whole diagnostic pathway or establish population screening. S384 S385
+**New biomarkers versus older guidance:** Emerging research and local innovation access do not automatically revise a diagnostic pathway. The restricted NEJM saliva record is a permission pointer; use independent current evidence for accuracy and clinical utility. S361 S385
 
 ## Uncertainty and publication limits
 
@@ -385,3 +385,5 @@ Integrity checks passed: supplement.md is 770 words; supplement-sources.json con
 Remaining limits: the Open RN book was not read as a whole, only two sections were inspected, and neither section is a current drug reference. Only Chapter 1 selected material was read in the CDC curriculum; its later diagnostic, treatment, and infection-control chapters were not reviewed. The linked CE activity is expired. This supplement does not validate clinical content or imply a complete nursing/pharmacology/TB curriculum.
 
 Parent review adds a distinct section-1.7 source record and direct link, explicit attribution and introductory/simplification limitations. No clinical efficacy or dosing inference is derived from the textbook.
+
+Source-use correction2026-10-17: S384/S426 NEJM content is bibliographic only under current explicit terms. Historical access descriptions above are not permission or active evidence. Saliva metrics have been removed; regulator-label evidence remains separately scoped.

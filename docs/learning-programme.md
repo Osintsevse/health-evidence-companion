@@ -39,7 +39,7 @@ The first coverage audit uses two defined questions for each of the seventeen fa
 | Newborn/child | P1 age-specific illness/assessment; P2 feeding, development and preventive follow-up |
 | Psychology | PS1 method selection and applicability; PS2 outcomes, harms and measurement for CBT/ACT/MCT |
 
-Existing modules remain available; every listed question still needs its own current depth audit. Do not reset a useful older note to 'absent', or mark it checked merely because its topic is present. Thirteen deeper cards (F1,F2,G1,G2,S1,C1,C2,L1,B1,M1,R1,V1,H1) are in knowledge/42_STUDIED_QUESTIONS.md. The initial six and cycle002 seven passed separately recorded bounded source/inference and fictional response checks; substantive maintainer review remains pending. Remaining questions are open unless separately evidenced. Counts refer to initial-question coverage, not medical completeness.
+Existing modules remain available; every listed question still needs its own current depth audit. Do not reset a useful older note to 'absent', or mark it checked merely because its topic is present. Twenty-two question cards now have bounded selected-source/inference and fictional-response checks: thirteen in knowledge/42_STUDIED_QUESTIONS.md and nine in knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md. Cycle003 adds F3,F4,S3,A1,A2,D1,D2,EN1,EN2; sixteen initial questions remain pending. Substantive maintainer review remains pending. Counts refer to initial-question coverage, not medical completeness.
 
 ## A useful question card
 

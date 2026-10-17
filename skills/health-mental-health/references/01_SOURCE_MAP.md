@@ -1747,9 +1747,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S247 - WHO cognitive decline and dementia risk reduction second edition2026
 - URL: https://www.who.int/publications/i/item/9789240123557
 - Region: International
-- Reading status: Official publication overview read; guideline sections not yet all reviewed
-- Purpose: Prefer current second edition to2019 and check exact recommendation at use
-- Checked: 2026-10-08
+- Reading status: Actual official168-page PDF SHA matched. Selected viewer12–15(printedx–xiii),44–49(printed18–23) text read by packet researcher; root viewer1–5 and visual13,15 checked. Not full guideline/trials.
+- Purpose: Scope, update method, physical-activity cognitive-decline recommendation strength/certainty and validated status; not guaranteed dementia prevention.
+- Checked: 2026-10-17
 
 ### S248 - WHO2026 dementia guideline official announcement
 - URL: https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed
@@ -2706,9 +2706,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S384 - Validation of a Saliva Micro-RNA Signature for Endometriosis
 - URL: https://pubmed.ncbi.nlm.nih.gov/41147827/
 - Region: Multicenter French diagnostic population
-- Reading status: Indexed original abstract inspected: 971-participant validation, prevalence, sensitivity, specificity, predictive values and funding. Publisher metadata inspected; full protocol/supplements not read.
-- Purpose: Promising current diagnostic-accuracy evidence with population/clinical-utility limitations; supersedes relying solely on the earlier 200-participant interim analysis.
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S385 - French Ministry of Health: experimental Endotest saliva-test access to improve endometriosis diagnosis
 - URL: https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/endometriose/article/experimentation-d-un-test-salivaire-endotest-r-pour-ameliorer-les-conditions-de
@@ -3000,9 +3000,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S426 - van Dyck et al. Lecanemab in Early Alzheimer Disease
 - URL: https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
 - Region: International trial
-- Reading status: Original indexed result read; full article 403; FDA clinical table read separately
-- Purpose: Absolute vs relative 18-month result
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S427 - Sims et al. TRAILBLAZER-ALZ 2
 - URL: https://jamanetwork.com/journals/jama/fullarticle/2807533
@@ -3014,16 +3014,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S428 - FDA clears first Alzheimer blood test
 - URL: https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease
 - Region: US
-- Reading status: Relevant full FDA paragraphs read
+- Reading status: FDA2025-05-16 announcement intended-use/population/interpretation and no-screening/standalone paragraphs rechecked; no device-study reanalysis.
 - Purpose: Named assay symptomatic age 55+; not screening/standalone
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S429 - FDA Class 2 Lumipulse calibrator recall
 - URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945
 - Region: US
-- Reading status: Product, lots, reason, actions inspected
+- Reading status: Recall record product/calibrator lots, reason/actions and open/classified status rechecked; site last-updated2026-10-15, no universal assay-invalidity claim.
 - Purpose: Lot-specific falsely elevated ratios and result review
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S430 - MHRA lecanemab licensing
 - URL: https://www.gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease
@@ -3056,9 +3056,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S434 - NICE NG97 dementia recommendations
 - URL: https://www.nice.org.uk/guidance/NG97/chapter/recommendations
 - Region: England
-- Reading status: Official indexed recommendations 1.5.2-1.5.15 and 1.6 inspected; direct page blocked
-- Purpose: Stage/subtype options and anticholinergic review
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S435 - Comprehensive Metabolic Panel (CMP)
 - URL: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/
@@ -3546,9 +3546,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S504 - Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition
 - URL: https://www.who.int/publications/i/item/9789240103726
 - Region: Global
-- Reading status: Publication overview inspected; PDF fetch 403
-- Purpose: Functional domains and integrated care
-- Checked: 2026-10-09
+- Reading status: Actual PDF SHA matched. Packet researcher read viewer4–5(frontmatter),8–10(glossaryvi–viii),13–16(printed1–4),21–23(printed9–11). Root visual4,8,15 checked. Not full handbook/instruments/pathways.
+- Purpose: Functional ability/capacity/environment, goals, autonomy, local multidisciplinary and longitudinal care.
+- Checked: 2026-10-17
 
 ### S505 - Falls: assessment and prevention, NG249 recommendations
 - URL: https://www.nice.org.uk/guidance/ng249/chapter/Recommendations/
@@ -4717,4 +4717,88 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: Source-specific educational scope
 - Reading status: PubMed abstract read; no full-text appraisal.
 - Purpose: Standardized reading outcome versus office placebo at16weeks; same trial as S670.
+- Checked: 2026-10-17
+
+### S672 - NHLBI: What Is Insomnia?
+- URL: https://www.nhlbi.nih.gov/health/insomnia
+- Region: Source-specific educational scope
+- Reading status: Overview definition, opportunity/environment and diary paragraphs read; not all linked sections.
+- Purpose: Sleep opportunity versus insomnia; clinical context.
+- Checked: 2026-10-17
+
+### S673 - NHLBI: Sleep Apnea Symptoms
+- URL: https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms
+- Region: Source-specific educational scope
+- Reading status: Symptom and possible sleep-study sections read.
+- Purpose: Breathing/sleepiness clues prompt assessment, not diagnosis.
+- Checked: 2026-10-17
+
+### S674 - NHLBI: Circadian Rhythm Disorders
+- URL: https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders
+- Region: Source-specific educational scope
+- Reading status: Definition, environment/timing, symptoms and assessment overview read; not treatment plan.
+- Purpose: Sleep timing mismatch and type/cause-specific evaluation.
+- Checked: 2026-10-17
+
+### S675 - WHO: Healthy ageing and functional ability
+- URL: https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability
+- Region: Source-specific educational scope
+- Reading status: Healthy-ageing, functional-ability, intrinsic-capacity/environment and diversity sections read.
+- Purpose: Ageing goals concern valued function, capacity and environment; not absence of every disease.
+- Checked: 2026-10-17
+
+### S676 - WHO: Ageing and health
+- URL: https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+- Region: Source-specific educational scope
+- Reading status: Ageing explained, conditions, healthy-ageing factors and environment sections read.
+- Purpose: Heterogeneity and multiple determinants of later-life function.
+- Checked: 2026-10-17
+
+### S677 - Waziry et al.: CALERIE DNA methylation measures of biological ageing
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/
+- Region: Source-specific educational scope
+- Reading status: Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.
+- Purpose: Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.
+- Checked: 2026-10-17
+
+### S678 - Author correction to CALERIE DNA methylation report
+- URL: https://www.nature.com/articles/s43587-023-00432-y
+- Region: Source-specific educational scope
+- Reading status: Correction paragraph and licence inspected; correction concerns author affiliation.
+- Purpose: Bibliographic correction provenance; no independent efficacy claim.
+- Checked: 2026-10-17
+
+### S679 - FDA: Unproven Alzheimer Disease Products
+- URL: https://www.fda.gov/consumers/health-fraud-scams/unproven-alzheimers-disease-products
+- Region: Source-specific educational scope
+- Reading status: General warning/risks paragraphs read; product list not reproduced or independently checked.
+- Purpose: Unsupported prevention/cure marketing is not evidence; avoid delay of appropriate evaluation.
+- Checked: 2026-10-17
+
+### S680 - WHO: Call for experts for a new endometriosis guideline
+- URL: https://www.who.int/news-room/articles-detail/call-for-experts-for-the-new-who-guideline-on-endometriosis
+- Region: Source-specific educational scope
+- Reading status: Development-status and background sections read; not a completed guideline.
+- Purpose: Preserve2026 development status without inventing new recommendations.
+- Checked: 2026-10-17
+
+### S681 - FDA: Table of Surrogate Endpoints That Were the Basis of Drug Approval or Licensure
+- URL: https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure
+- Region: Source-specific educational scope
+- Reading status: Definition, key considerations and limitations read; individual disease/table rows not appraised or reproduced.
+- Purpose: Surrogate use is context dependent and case by case; biomarker change is not automatically clinical benefit.
+- Checked: 2026-10-17
+
+### S682 - FDA: PFDD Guidance3, Fit-for-Purpose Clinical Outcome Assessments
+- URL: https://www.fda.gov/media/159500/download
+- Region: Source-specific educational scope
+- Reading status: Final2025 guidance II.B–C, IV.B,IV.G–H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.
+- Purpose: Construct/context/fit-for-purpose, reliability and score interpretation; guidance is nonbinding.
+- Checked: 2026-10-17
+
+### S683 - Patient-Reported Outcomes: OBSSR-hosted e-Source chapter
+- URL: https://obssr.od.nih.gov/sites/obssr/files/Patient-Reported-Outcomes.pdf
+- Region: Source-specific educational scope
+- Reading status: Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.
+- Purpose: Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.
 - Checked: 2026-10-17

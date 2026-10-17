@@ -47,3 +47,5 @@ For uncertainty, statistical significance, recurrent heartburn/test purposes, sl
 When reporting reading, distinguish current-session source access from the project's inherited reading ledger. Say that the record documents selected study when relying on stored notes. Reading a card is not opening its cited PDF or rereading the original paper; do not say you just read that original unless you actually did.
 
 Use targeted heading/section retrieval for the studied-question file. If tool output is truncated, retrieve the complete relevant section before treating it as read; do not count a title or partial file as source access. Urgent care instructions take priority over this retrieval step.
+
+For mechanisms versus outcomes, measurement properties, sleep differential/testing, ageing/function, dementia tools and endometriosis inference/outcomes, read the relevant heading in [the extended studied questions](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md). Keep recommendation strength, certainty, population, endpoint and update status separate. A validated carried-forward recommendation is not necessarily a newly synthesized evidence body.

@@ -285,16 +285,16 @@
 ## S41 — Heinz et al. — Randomized Trial of a Generative AI Chatbot for Mental Health Treatment
 - URL: https://ai.nejm.org/doi/full/10.1056/AIoa2400802
 - Published/version: 2025
-- Read: indexed_excerpt; checked 2026-09-26
-- Supports: Therabot: 210 adults, 4 weeks, compared to waitlist and followed up to 8 weeks.
-- Limits: The full text of the publisher was not revealed; details are compared with material from the research center S42.
+- Read: historical access, current bibliographic context only; checked2026-10-17
+- Supports: no active trial-result claim adopted from the restricted work or linked summary.
+- Limits: NEJM AI-use restriction applies to the identified work; no mirror/author-summary bypass. Independent usable appraisal pending.
 
 ## S42 — Dartmouth CTBH — Research brief on the Therabot randomized trial
 - URL: https://www.c4tbh.org/research-brief/randomized-trial-of-a-generative-ai-chatbot-for-mental-health-treatment/
 - Published/version: 2025
-- Read: full_web_text; checked 2026-09-26
-- Supports: Describes the protocol, results, and staff interventions for safety and remediation responses.
-- Limits: Study site presentation, non-independent replication of trial S41.
+- Read: historical access, current bibliographic context only; checked2026-10-17
+- Supports: no active trial-result claim adopted from the restricted work or linked summary.
+- Limits: NEJM AI-use restriction applies to the identified work; no mirror/author-summary bypass. Independent usable appraisal pending.
 
 ## S43 — Fitzpatrick et al. — Woebot randomized controlled trial
 - URL: https://mental.jmir.org/2017/2/e19

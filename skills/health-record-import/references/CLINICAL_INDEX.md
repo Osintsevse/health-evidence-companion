@@ -27,7 +27,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | [Nutrition and food-diary review](NUTRITION.md) | calories/macros, food labels, LDL/triglycerides, diabetes/renal diets, restricted intake | 19 / 11 / 12 |
 | [Anatomy, physiology and disease families](ANATOMY.md) | organ networks, disease mechanisms, sex/life stages, ancestry, measurement bias | 20 / 7 / 12 |
 | [Chronic conditions and multimorbidity](CHRONIC.md) | blood pressure, diabetes/insulin plans, asthma/COPD, CKD, vascular disease, care plans | 25 / 11 / 14 |
-| [Neuropsychiatry and dementia](NEURO.md) | brain physiology, psychiatry, withdrawal, delirium, Alzheimer, antiamyloid/biomarkers | 27 / 8 / 14 |
+| [Neuropsychiatry and dementia](NEURO.md) | brain physiology, psychiatry, withdrawal, delirium, Alzheimer, antiamyloid/biomarkers | 25 / 8 / 14 |
 | [Symptom and specialty entry cards](SYMPTOMS.md) | head/chest/abdominal pain, dizziness, GI/urinary, eyes/ENT, skin, trauma/surgery | 34 / 28 / 17 |
 | [Tests, reports, history and risk tools](DIAGNOSTICS.md) | blood/urine/stool/semen, pathology, units/assays, critical results, risk scores, anamnesis | 27 / 14 / 16 |
 | [Local care and travel assistance](NAVIGATION.md) | current location, service capability, official directories, local language, insurance | 17 / 8 / 12 |

@@ -33,6 +33,8 @@ docs/contribution-workflow.md
 docs/feedback.md
 docs/genetic-analysis-workflow.md
 docs/genetic-import-review.md
+docs/goal-study-cycle-002-review.md
+docs/goal-study-cycle-003-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -129,6 +131,7 @@ knowledge/39_GROUNDED_REASONING.md
 knowledge/40_BROAD_HEALTH_LEARNING_MAP.md
 knowledge/41_EVERYDAY_HEALTH_NOTES.md
 knowledge/42_STUDIED_QUESTIONS.md
+knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -239,6 +242,7 @@ skills/health-care-navigation/references/39_GROUNDED_REASONING.md
 skills/health-care-navigation/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-care-navigation/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-care-navigation/references/42_STUDIED_QUESTIONS.md
+skills/health-care-navigation/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -290,6 +294,7 @@ skills/health-contribute/references/39_GROUNDED_REASONING.md
 skills/health-contribute/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-contribute/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-contribute/references/42_STUDIED_QUESTIONS.md
+skills/health-contribute/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -370,6 +375,7 @@ skills/health-explain/references/39_GROUNDED_REASONING.md
 skills/health-explain/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-explain/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-explain/references/42_STUDIED_QUESTIONS.md
+skills/health-explain/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -420,6 +426,7 @@ skills/health-family-care/references/39_GROUNDED_REASONING.md
 skills/health-family-care/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-family-care/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-family-care/references/42_STUDIED_QUESTIONS.md
+skills/health-family-care/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -544,6 +551,7 @@ skills/health-medicine-info/references/39_GROUNDED_REASONING.md
 skills/health-medicine-info/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-medicine-info/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-medicine-info/references/42_STUDIED_QUESTIONS.md
+skills/health-medicine-info/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -596,6 +604,7 @@ skills/health-mental-health/references/39_GROUNDED_REASONING.md
 skills/health-mental-health/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-mental-health/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-mental-health/references/42_STUDIED_QUESTIONS.md
+skills/health-mental-health/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -639,6 +648,7 @@ skills/health-nutrition/references/39_GROUNDED_REASONING.md
 skills/health-nutrition/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-nutrition/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-nutrition/references/42_STUDIED_QUESTIONS.md
+skills/health-nutrition/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -689,6 +699,7 @@ skills/health-prevention/references/39_GROUNDED_REASONING.md
 skills/health-prevention/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-prevention/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-prevention/references/42_STUDIED_QUESTIONS.md
+skills/health-prevention/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -890,6 +901,7 @@ skills/health-research/references/39_GROUNDED_REASONING.md
 skills/health-research/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/health-research/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-research/references/42_STUDIED_QUESTIONS.md
+skills/health-research/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -932,6 +944,7 @@ skills/psyops-cbt-act-mct/references/39_GROUNDED_REASONING.md
 skills/psyops-cbt-act-mct/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/psyops-cbt-act-mct/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-cbt-act-mct/references/42_STUDIED_QUESTIONS.md
+skills/psyops-cbt-act-mct/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -984,6 +997,7 @@ skills/psyops-dialogue/references/39_GROUNDED_REASONING.md
 skills/psyops-dialogue/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/psyops-dialogue/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-dialogue/references/42_STUDIED_QUESTIONS.md
+skills/psyops-dialogue/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1122,6 +1136,7 @@ skills/psyops-research/references/39_GROUNDED_REASONING.md
 skills/psyops-research/references/40_BROAD_HEALTH_LEARNING_MAP.md
 skills/psyops-research/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/psyops-research/references/42_STUDIED_QUESTIONS.md
+skills/psyops-research/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md
@@ -1243,4 +1258,3 @@ tests/test_source_review.py
 tests/test_unified_catalog.py
 tests/test_view_integration.py
 tests/test_views.py
-docs/goal-study-cycle-002-review.md

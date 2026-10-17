@@ -446,15 +446,13 @@
         "S423",
         "S424",
         "S425",
-        "S426",
         "S427",
         "S428",
         "S429",
         "S430",
         "S431",
         "S432",
-        "S433",
-        "S434"
+        "S433"
       ],
       "route_ids": [
         "neuro.acute-change",
@@ -865,11 +863,11 @@
         "S381",
         "S382",
         "S383",
-        "S384",
         "S385",
         "S386",
         "S387",
-        "S644"
+        "S644",
+        "S681"
       ],
       "route_ids": [
         "endometriosis.endometriosis_suspected",

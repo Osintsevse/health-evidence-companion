@@ -61,6 +61,39 @@
         "https://www.cochrane.org/website-terms-and-conditions"
       ],
       "limits": "Terms updated2024-08-07, clauses5.2–5.4 explicitly restrict automated analysis and AI development/validation; no matching permission verified. Do not bypass through mirrors, snippets or another host of the same restricted content. This is a targeted source-selection decision, not an audit of all publisher-hosted literature."
+    },
+    {
+      "id": "nejm-group-ai-output",
+      "host_suffix": "nejm.org",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "nejm-doi-content",
+      "host_suffix": "doi.org",
+      "path_prefix": "/10.1056/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "nejm-saliva-pubmed-record",
+      "host_suffix": "pubmed.ncbi.nlm.nih.gov",
+      "path_prefix": "/41147827",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
     }
   ],
   "instructions": [

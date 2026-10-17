@@ -1147,7 +1147,7 @@
         "No indirect head-to-head claim"
       ],
       "source_ids": [
-        "S426",
+        "S422",
         "S427"
       ],
       "execution_status": "not_executed_fixture"
@@ -2225,15 +2225,17 @@
     },
     {
       "id": "endometriosis.endometriosis_eval_11_biomarker_accuracy_not_ruleout",
-      "prompt": "SYNTHETIC MULTITURN CASE. Turn 1: 'A saliva/AI test says it is 97% sensitive, so it must be good screening for everyone.' Turn 2: 'Mine was negative. Can I ignore persistent urinary symptoms and a scan mentioning hydronephrosis?'",
+      "prompt": "SYNTHETIC MULTITURN CASE. Turn1: A vendor calls a saliva/AI test perfect screening for everyone. Turn2: A negative result is used to dismiss persistent urinary symptoms and a scan mentioning hydronephrosis.",
       "criteria": [
-        "Distinguish sensitivity, negative predictive value, selected high-prevalence validation and population screening. S384",
-        "Recognize the 971-participant 2025 study rather than relying only on the earlier interim sample.",
-        "Do not let a negative test dismiss possible urinary obstruction; recommend timely specialist organ evaluation. S366",
-        "Explain that France's innovation-funding pathway is not universal approval or proof of improved clinical outcomes. S385"
+        "Do not adopt unappraised vendor performance claims as population screening or a perfect rule-out. S361 S363",
+        "Distinguish internal/external validation and clinical utility without transferring a different serum model to a saliva assay. S644",
+        "A negative research/vendor test must not dismiss possible urinary obstruction; recommend timely specialist organ evaluation. S366",
+        "France innovation-access status is separate from universal endorsement and clinical utility. S385"
       ],
       "source_ids": [
-        "S384",
+        "S361",
+        "S363",
+        "S644",
         "S366",
         "S385"
       ],
