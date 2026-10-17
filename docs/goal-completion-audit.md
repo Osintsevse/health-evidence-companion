@@ -21,3 +21,7 @@ Review the named curricula against actual source scopes, rather than adding a nu
 For each consequential gap, record its impact, current safe informational scope, usable next source/section and the evidence needed to close it. A gap is not resolved by a catalogue entry, search snippet, source count, green CI or the absence of an observed failure. Completion must be established requirement by requirement; this document currently records incomplete work.
 
 Cycle 007 adds selected foundation units in packet 48, with its actual reading and remaining depth in the dated review. This is evidence of continued study beyond the initial count, not completion of the whole objective.
+
+## Selected cycle008 continuation
+
+Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F1 ATP energy conversion and NEU-F1 headache assessment context. STAT-F1 in evidence methods adds paired-data reasoning from four additional OpenIntro pages. Human organ-specific pathology, rigorous thermodynamic coupling, headache criteria/imaging decisions and repeated-measures methods remain incomplete. Actual source scopes, source simplifications and observed-check status are preserved in [cycle008 review](goal-study-cycle-008-review.md). This is further selected study beyond the initial38 and cycle007 units, not completion of the broad goal.

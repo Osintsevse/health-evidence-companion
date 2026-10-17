@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 826,
-  "unique_url_count": 823,
+  "record_count": 831,
+  "unique_url_count": 828,
   "records": [
     {
       "namespace": "medical",
@@ -1348,9 +1348,9 @@
       "qualified_id": "medical:S104",
       "title": "MedlinePlus - C-reactive protein test",
       "url": "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/",
-      "checked_on": "2026-10-06",
-      "reading_status": "Inflammation causes and result-interpretation sections inspected.",
-      "limitations": "Inflammation causes and result-interpretation sections inspected.",
+      "checked_on": "2026-10-17",
+      "reading_status": "Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.",
+      "limitations": "Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.",
       "purpose": "CRP is not a stand-alone antibiotic or diagnostic decision.",
       "region": "US",
       "canonical_path": "knowledge/sources.json"
@@ -5950,9 +5950,9 @@
       "qualified_id": "medical:S458",
       "title": "NHS: Headaches",
       "url": "https://www.nhs.uk/symptoms/headaches/",
-      "checked_on": "2026-10-09",
-      "reading_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
-      "limitations": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+      "checked_on": "2026-10-17",
+      "reading_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.",
+      "limitations": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.",
       "purpose": "Decision-entry context and proportionate care navigation for headaches",
       "region": "United Kingdom; local access pathways require adaptation",
       "canonical_path": "knowledge/sources.json"
@@ -9266,8 +9266,8 @@
       "title": "NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity",
       "url": "https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf",
       "checked_on": "2026-10-17",
-      "reading_status": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.",
-      "limitations": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.",
+      "reading_status": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.",
+      "limitations": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.",
       "purpose": "Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.",
       "region": "Institutional toxicologic-pathology training with animal examples",
       "canonical_path": "knowledge/sources.json"
@@ -9348,6 +9348,71 @@
       "limitations": "Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.",
       "purpose": "Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.",
       "region": "NLM-authored Medical Test education; displayed update2024-12-02",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S720",
+      "qualified_id": "medical:S720",
+      "title": "NHS: Migraine (page reviewed2026-03-10)",
+      "url": "https://www.nhs.uk/conditions/migraine/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.",
+      "limitations": "Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.",
+      "purpose": "Attack change and pregnancy/postpartum context; no individual migraine diagnosis, diagnostic criteria or imaging algorithm.",
+      "region": "England; local care routes require adaptation",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S721",
+      "qualified_id": "medical:S721",
+      "title": "NHS: CT scan (page reviewed2023-11-08)",
+      "url": "https://www.nhs.uk/tests-and-treatments/ct-scan/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Selected purpose and professional-results sections directly read; third-party stock image excluded.",
+      "limitations": "Selected purpose and professional-results sections directly read; third-party stock image excluded.",
+      "purpose": "General test-purpose literacy, not headache-imaging indications, CT/MRI comparison or normal-image exclusion claims.",
+      "region": "England; institutional patient education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S722",
+      "qualified_id": "medical:S722",
+      "title": "WHO: Migraine and other headache disorders (2025-10-24), selected categories",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+      "checked_on": "2026-10-17",
+      "reading_status": "Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.",
+      "limitations": "Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.",
+      "purpose": "Brief original factual distinction between primary headache examples and secondary headache; no copied classification or treatment passage.",
+      "region": "Global public-health overview, not local access policy",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S723",
+      "qualified_id": "medical:S723",
+      "title": "NIGMS, Abbey Bigler: Science Snippet: ATP\u2019s Amazing Power (2022-11-16)",
+      "url": "https://www.nigms.nih.gov/biobeat/2022/11/science-snippet-atps-amazing-power",
+      "checked_on": "2026-10-17",
+      "reading_status": "Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.",
+      "limitations": "Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.",
+      "purpose": "Bounded ATP production/use concepts; no precise yield, bond-cleavage energy assertion, human intervention benefit or rigorous thermodynamic derivation.",
+      "region": "US institutional biochemistry education",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S724",
+      "qualified_id": "medical:S724",
+      "title": "US DOE: Harvesting Energy from Light using Bio-inspired Artificial Cells (2019-11-05)",
+      "url": "https://www.energy.gov/science/bes/articles/harvesting-energy-light-using-bio-inspired-artificial-cells",
+      "checked_on": "2026-10-17",
+      "reading_status": "The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.",
+      "limitations": "The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.",
+      "purpose": "Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.",
+      "region": "Institutional summary of engineered protocell research",
       "canonical_path": "knowledge/sources.json"
     },
     {
@@ -10697,7 +10762,7 @@
       "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
       "checked_on": "2026-10-17",
       "reading_status": "previous_selected_introductory_sections_and_selected_inference_pages_read",
-      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations.",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed.",
       "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"

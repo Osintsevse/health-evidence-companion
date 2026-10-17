@@ -66,3 +66,7 @@ The [work-in-progress completion audit](goal-completion-audit.md) separates the 
 ## Foundation study beyond the first pass
 
 Packet 48 adds five bounded units: PATH-F1 adaptation/injury, PATH-F2 morphology/mechanism, ONC-F1 tissue-change labels, REN-F1 renal processes/estimates, FLUID-M1 concentration/volume inference. These are separate from the 38 initial questions. Exact source reading, permission/access gaps and observed-check status are in docs/goal-study-cycle-007-review.md. Inflammation/repair, complete fluid regulation and current clinical application remain further work.
+
+## Selected cycle008 continuation
+
+Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F1 ATP energy conversion and NEU-F1 headache assessment context. STAT-F1 in evidence methods adds paired-data reasoning from four additional OpenIntro pages. Human organ-specific pathology, rigorous thermodynamic coupling, headache criteria/imaging decisions and repeated-measures methods remain incomplete. Actual source scopes, source simplifications and observed-check status are preserved in [cycle008 review](goal-study-cycle-008-review.md). This is further selected study beyond the initial38 and cycle007 units, not completion of the broad goal.

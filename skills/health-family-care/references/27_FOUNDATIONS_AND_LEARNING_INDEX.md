@@ -60,9 +60,9 @@ Curricula establish educational scope, not evidence for treatment efficacy. Thes
 |---|---|---|
 | Anatomy | NCI organization of cells, tissues, organs and systems | Organ-system sections, terminology and anatomical variation; no practical competence claimed. |
 | Physiology | NCI homeostasis/feedback; selected NIDDK renal-process and concentration/estimate concepts in 48 | Fluid compartments, detailed transport/hormonal loops and organ integration remain incomplete. |
-| Biochemistry | NCI metabolism; selected MIT catalysis notes | Enzyme regulation, energy coupling and individual metabolic pathways. |
+| Biochemistry | NCI metabolism; selected MIT catalysis notes and bounded NIGMS/DOE ATP-conversion example in49 | Rigorous thermodynamic coupling, enzyme regulation and individual metabolic pathways remain incomplete. |
 | Pharmacology | Selected MIT PK/PD and distribution slides | Current clinical PK examples; local labels and outcome evidence for each medicine claim. |
-| Pathology | Selected NIEHS toxicologic adaptation/injury and NCCD nomenclature; NCI tissue-change concepts in 48 | Human/organ-specific disease mechanisms, inflammation/repair and current clinical evidence remain incomplete. |
+| Pathology | Selected NIEHS toxicologic adaptation/injury and NCCD nomenclature; NCI tissue-change concepts in 48 | Selected toxicologic inflammation/repair concepts are in49; human/organ-specific disease mechanisms, repair outcomes and current clinical evidence remain incomplete. |
 | Genetics | MedlinePlus penetrance/expressivity; NHGRI VUS | Updated disease-specific chapters, variant interpretation standards and counseling limits. |
 | Epidemiology | Bayesian update and test-context sections | Study designs, bias, absolute risk and causal inference with separate source appraisal. |
 | Family medicine | WONCA framework landing page only | Full competencies and current Serbian/Russian primary-care guidance. |
@@ -121,3 +121,5 @@ A source failure remains a failure, not full-text appraisal. Recheck current sou
 - S718/S719: NLM-authored Medical Test concentration and result-interpretation sections; no formal osmolality units or full fluid-volume model inferred.
 
 Selected Robbins/Guyton chapters remain bibliographic study candidates while applicable source-use permission/scope is unverified. Current Elsevier content/print terms were inspected; author/editor AI-writing guidance is not reader permission. Edition metadata and a contents/bookmark locator do not constitute chapter study. This is a bounded source-selection decision, not a global legal conclusion.
+
+[Inflammation, energy and headache foundations](49_INFLAMMATION_ENERGY_AND_HEADACHE.md) adds PATH-F3/F4, BIO-F1 and NEU-F1. The paired-data unit STAT-F1 in **evidence methods** extends selected OpenIntro reading by four pages. Exact study and remaining depth are in docs/goal-study-cycle-008-review.md; these units do not complete their disciplines.

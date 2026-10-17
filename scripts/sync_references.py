@@ -118,7 +118,7 @@ GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
                    'health-prevention', 'health-mental-health',
                    'health-nutrition', 'health-care-navigation',
                    'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct']
-GROUNDED_REFERENCES = ['knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md', 'knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
+GROUNDED_REFERENCES = ['knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md', 'knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md', 'knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
     'knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
     'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
     'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',

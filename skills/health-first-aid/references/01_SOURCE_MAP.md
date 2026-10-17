@@ -746,9 +746,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S104 - MedlinePlus - C-reactive protein test
 - URL: https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/
 - Region: US
-- Reading status: Inflammation causes and result-interpretation sections inspected.
+- Reading status: Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.
 - Purpose: CRP is not a stand-alone antibiotic or diagnostic decision.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S105 - MedlinePlus - Liver function tests
 - URL: https://medlineplus.gov/lab-tests/liver-function-tests/
@@ -3224,9 +3224,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S458 - NHS: Headaches
 - URL: https://www.nhs.uk/symptoms/headaches/
 - Region: United Kingdom; local access pathways require adaptation
-- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.
 - Purpose: Decision-entry context and proportionate care navigation for headaches
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S459 - NHS: High temperature in adults
 - URL: https://www.nhs.uk/symptoms/fever-in-adults/
@@ -5009,7 +5009,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S713 - NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity
 - URL: https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf
 - Region: Institutional toxicologic-pathology training with animal examples
-- Reading status: Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.
+- Reading status: Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.
 - Purpose: Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.
 - Checked: 2026-10-17
 
@@ -5053,4 +5053,39 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: NLM-authored Medical Test education; displayed update2024-12-02
 - Reading status: Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.
 - Purpose: Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.
+- Checked: 2026-10-17
+
+### S720 - NHS: Migraine (page reviewed2026-03-10)
+- URL: https://www.nhs.uk/conditions/migraine/
+- Region: England; local care routes require adaptation
+- Reading status: Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.
+- Purpose: Attack change and pregnancy/postpartum context; no individual migraine diagnosis, diagnostic criteria or imaging algorithm.
+- Checked: 2026-10-17
+
+### S721 - NHS: CT scan (page reviewed2023-11-08)
+- URL: https://www.nhs.uk/tests-and-treatments/ct-scan/
+- Region: England; institutional patient education
+- Reading status: Selected purpose and professional-results sections directly read; third-party stock image excluded.
+- Purpose: General test-purpose literacy, not headache-imaging indications, CT/MRI comparison or normal-image exclusion claims.
+- Checked: 2026-10-17
+
+### S722 - WHO: Migraine and other headache disorders (2025-10-24), selected categories
+- URL: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+- Region: Global public-health overview, not local access policy
+- Reading status: Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.
+- Purpose: Brief original factual distinction between primary headache examples and secondary headache; no copied classification or treatment passage.
+- Checked: 2026-10-17
+
+### S723 - NIGMS, Abbey Bigler: Science Snippet: ATP’s Amazing Power (2022-11-16)
+- URL: https://www.nigms.nih.gov/biobeat/2022/11/science-snippet-atps-amazing-power
+- Region: US institutional biochemistry education
+- Reading status: Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.
+- Purpose: Bounded ATP production/use concepts; no precise yield, bond-cleavage energy assertion, human intervention benefit or rigorous thermodynamic derivation.
+- Checked: 2026-10-17
+
+### S724 - US DOE: Harvesting Energy from Light using Bio-inspired Artificial Cells (2019-11-05)
+- URL: https://www.energy.gov/science/bes/articles/harvesting-energy-light-using-bio-inspired-artificial-cells
+- Region: Institutional summary of engineered protocell research
+- Reading status: The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.
+- Purpose: Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.
 - Checked: 2026-10-17

@@ -20,10 +20,10 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "2464b3b166f185a97875b94cbc90d91c8107c6a4394e28f8cdceecf3770e3485",
+      "current_sha256": "514d0d419af6d75c55e32fdc41e0c06e7a77d55178d645328eefd436136110ff",
       "date": "2026-10-17",
-      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits.",
-      "review_document": "docs/goal-study-cycle-004-005-review.md"
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle008 adds exact four-page OpenIntro paired-data scope, attribution/terms determination and limits; original import fingerprint retained.",
+      "review_document": "docs/goal-study-cycle-008-review.md"
     },
     {
       "path": "knowledge/psychology/01_EVIDENCE_MAP.md",

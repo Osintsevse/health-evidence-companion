@@ -931,9 +931,9 @@
     "title": "MedlinePlus - C-reactive protein test",
     "url": "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/",
     "region": "US",
-    "retrieval_status": "Inflammation causes and result-interpretation sections inspected.",
+    "retrieval_status": "Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.",
     "use": "CRP is not a stand-alone antibiotic or diagnostic decision.",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S105",
@@ -4117,9 +4117,9 @@
     "title": "NHS: Headaches",
     "url": "https://www.nhs.uk/symptoms/headaches/",
     "region": "United Kingdom; local access pathways require adaptation",
-    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.",
     "use": "Decision-entry context and proportionate care navigation for headaches",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S459",
@@ -6412,7 +6412,7 @@
     "title": "NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity",
     "url": "https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf",
     "region": "Institutional toxicologic-pathology training with animal examples",
-    "retrieval_status": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.",
+    "retrieval_status": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.",
     "use": "Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.",
     "checked_on": "2026-10-17"
   },
@@ -6468,6 +6468,51 @@
     "region": "NLM-authored Medical Test education; displayed update2024-12-02",
     "retrieval_status": "Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.",
     "use": "Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S720",
+    "title": "NHS: Migraine (page reviewed2026-03-10)",
+    "url": "https://www.nhs.uk/conditions/migraine/",
+    "region": "England; local care routes require adaptation",
+    "retrieval_status": "Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.",
+    "use": "Attack change and pregnancy/postpartum context; no individual migraine diagnosis, diagnostic criteria or imaging algorithm.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S721",
+    "title": "NHS: CT scan (page reviewed2023-11-08)",
+    "url": "https://www.nhs.uk/tests-and-treatments/ct-scan/",
+    "region": "England; institutional patient education",
+    "retrieval_status": "Selected purpose and professional-results sections directly read; third-party stock image excluded.",
+    "use": "General test-purpose literacy, not headache-imaging indications, CT/MRI comparison or normal-image exclusion claims.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S722",
+    "title": "WHO: Migraine and other headache disorders (2025-10-24), selected categories",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+    "region": "Global public-health overview, not local access policy",
+    "retrieval_status": "Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.",
+    "use": "Brief original factual distinction between primary headache examples and secondary headache; no copied classification or treatment passage.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S723",
+    "title": "NIGMS, Abbey Bigler: Science Snippet: ATP’s Amazing Power (2022-11-16)",
+    "url": "https://www.nigms.nih.gov/biobeat/2022/11/science-snippet-atps-amazing-power",
+    "region": "US institutional biochemistry education",
+    "retrieval_status": "Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.",
+    "use": "Bounded ATP production/use concepts; no precise yield, bond-cleavage energy assertion, human intervention benefit or rigorous thermodynamic derivation.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S724",
+    "title": "US DOE: Harvesting Energy from Light using Bio-inspired Artificial Cells (2019-11-05)",
+    "url": "https://www.energy.gov/science/bes/articles/harvesting-energy-light-using-bio-inspired-artificial-cells",
+    "region": "Institutional summary of engineered protocell research",
+    "retrieval_status": "The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.",
+    "use": "Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.",
     "checked_on": "2026-10-17"
   }
 ]

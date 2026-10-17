@@ -62,3 +62,7 @@ For each next unit, identify a permitted primary/official source and exact secti
 ## Selected foundation update 2026-10-17, cycle 007
 
 Packet 48 adds selected cellular adaptation/injury, morphology/mechanism, noncancer tissue-change, renal-process and concentration/estimate explanations. This updates the earlier pointer-only pathology snapshot and expands renal foundations; it does not establish full human pathology, inflammation/repair, complete fluid physiology or clinical application. Exact source/access boundaries and observed-check state are in the cycle 007 review. Selected textbook chapter study remains deferred under the current source-use policy; independent institutional/committee sources were read instead.
+
+## Selected cycle008 continuation
+
+Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F1 ATP energy conversion and NEU-F1 headache assessment context. STAT-F1 in evidence methods adds paired-data reasoning from four additional OpenIntro pages. Human organ-specific pathology, rigorous thermodynamic coupling, headache criteria/imaging decisions and repeated-measures methods remain incomplete. Actual source scopes, source simplifications and observed-check status are preserved in [cycle008 review](goal-study-cycle-008-review.md). This is further selected study beyond the initial38 and cycle007 units, not completion of the broad goal.
