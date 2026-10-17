@@ -1,6 +1,6 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -54,7 +54,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.9.0 adds source-grounded inference, bounded textbook concepts and dated evidence checks for endometriosis and allergy. Domain-qualified source checks prevent citation collisions. Technical and limited synthetic response checks do not establish clinical validation."
+        "release_notes": "Version 0.9.1 adds offline bilingual retrieval of packaged project notes with exact section locators, source reading and restriction metadata, installed-skill support and reproducible retrieval checks. It does not search private records, download sources or claim clinical validation."
       }
     }
   }

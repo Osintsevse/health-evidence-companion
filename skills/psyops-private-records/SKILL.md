@@ -20,3 +20,7 @@ Verify writes by read-back and state precisely what was saved. Do not promise gu
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
 
 For a requested cross-domain reader or clinician export, read [selected-summary sharing](references/private-record-sharing.md). Reuse the [local summary helper](scripts/psychology_records.py) with already owner-selected text, an explicit owner key and private paths. It does not load or convert a full diary. A projection config is not proof of consent; omit it for medical-only exports.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

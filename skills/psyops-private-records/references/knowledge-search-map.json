@@ -1,0 +1,150 @@
+{
+  "schema": "knowledge-search-map-v1",
+  "scope": "packaged_project_notes_only",
+  "entries": [
+    {
+      "canonical_path": "knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md",
+      "local_path": "35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/00_COMMON_INDEX.md",
+      "local_path": "psychology/00_COMMON_INDEX.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/01_EVIDENCE_MAP.md",
+      "local_path": "psychology/01_EVIDENCE_MAP.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/02_ETHICS_AND_DIALOGUE.md",
+      "local_path": "psychology/02_ETHICS_AND_DIALOGUE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/03_CBT_ACT_WORKFLOW.md",
+      "local_path": "psychology/03_CBT_ACT_WORKFLOW.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/04_RELATIONSHIPS.md",
+      "local_path": "psychology/04_RELATIONSHIPS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/05_SEXUALITY.md",
+      "local_path": "psychology/05_SEXUALITY.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/06_MEANING_MORTALITY_TIME.md",
+      "local_path": "psychology/06_MEANING_MORTALITY_TIME.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/07_TOOLBOX.md",
+      "local_path": "psychology/07_TOOLBOX.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/08_RISK_AND_REFERRAL.md",
+      "local_path": "psychology/08_RISK_AND_REFERRAL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",
+      "local_path": "psychology/09_AI_EVIDENCE_AND_TOOLKITS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/10_RESEARCH_AND_MAINTENANCE.md",
+      "local_path": "psychology/10_RESEARCH_AND_MAINTENANCE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/12_SESSION_TEMPLATES.md",
+      "local_path": "psychology/12_SESSION_TEMPLATES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/13_START_INSTRUCTIONS.md",
+      "local_path": "psychology/13_START_INSTRUCTIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/14_FOUNDATIONS.md",
+      "local_path": "psychology/14_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/15_MODERN_APPROACHES.md",
+      "local_path": "psychology/15_MODERN_APPROACHES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/16_AUTO_ROUTING.md",
+      "local_path": "psychology/16_AUTO_ROUTING.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/17_COUPLE_FAMILY_APPROACHES.md",
+      "local_path": "psychology/17_COUPLE_FAMILY_APPROACHES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/18_JOINT_CONVERSATION_PROTOCOL.md",
+      "local_path": "psychology/18_JOINT_CONVERSATION_PROTOCOL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/19_PREVENTIVE_CHECKIN.md",
+      "local_path": "psychology/19_PREVENTIVE_CHECKIN.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/20_DATA_BOUNDARIES.md",
+      "local_path": "psychology/20_DATA_BOUNDARIES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/21_SHARING_GUIDE.md",
+      "local_path": "psychology/21_SHARING_GUIDE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/22_GLOBAL_AND_CULTURAL_CONTEXT.md",
+      "local_path": "psychology/22_GLOBAL_AND_CULTURAL_CONTEXT.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/23_SPORT_PSYCHOLOGY.md",
+      "local_path": "psychology/23_SPORT_PSYCHOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/24_MOTORSPORT_PRACTICES.md",
+      "local_path": "psychology/24_MOTORSPORT_PRACTICES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/25_SPORT_PRACTITIONER_PROTOCOL.md",
+      "local_path": "psychology/25_SPORT_PRACTITIONER_PROTOCOL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/26_HELPING_COMPETENCIES.md",
+      "local_path": "psychology/26_HELPING_COMPETENCIES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/27_CBT_SYSTEM.md",
+      "local_path": "psychology/27_CBT_SYSTEM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/28_ACT_SYSTEM.md",
+      "local_path": "psychology/28_ACT_SYSTEM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/29_MCT_AND_MODERN_EVIDENCE.md",
+      "local_path": "psychology/29_MCT_AND_MODERN_EVIDENCE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/30_EVIDENCE_TRIAGE.md",
+      "local_path": "psychology/30_EVIDENCE_TRIAGE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/31_MOTORSPORT_CONSULTING.md",
+      "local_path": "psychology/31_MOTORSPORT_CONSULTING.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/32_OUTCOMES_AND_REVIEW.md",
+      "local_path": "psychology/32_OUTCOMES_AND_REVIEW.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/33_ASSESSMENT_AND_REFERRAL.md",
+      "local_path": "psychology/33_ASSESSMENT_AND_REFERRAL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/34_PSYCHOLOGY_CURRICULUM.md",
+      "local_path": "psychology/34_PSYCHOLOGY_CURRICULUM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/35_SOCIAL_CONNECTION.md",
+      "local_path": "psychology/35_SOCIAL_CONNECTION.md"
+    }
+  ]
+}

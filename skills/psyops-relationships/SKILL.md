@@ -20,3 +20,7 @@ Persist a joint summary only within participants' agreed scope and an authorized
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
 
 For loneliness, contact frequency, unmet support and relationship quality, read [social connection](references/psychology/35_SOCIAL_CONNECTION.md). Preserve subjective experience and practical constraints; optional clarification is not a validated therapy or a prescription for more contacts.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

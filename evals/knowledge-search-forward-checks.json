@@ -1,0 +1,1981 @@
+{
+  "schema": "knowledge-search-forward-checks-v1",
+  "date": "2026-10-17",
+  "synthetic": true,
+  "clinical_validation": false,
+  "independent_fresh_contexts": 3,
+  "method": "Two fresh agents used self-contained skills without canonical checkout, tests, eval labels or internet. The integrating reviewer inspected their actual responses and reference outputs. Selected commands were replayed after a narrow scaffold-word/cache-path correction; these replays are not additional independent model responses. A third fresh agent then used the final installed helper with a host-authored English alternate; exact selected commands were replayed by the integrator.",
+  "helper_sha256": "7354c2dc93ec0fd8ea43288e2005eb38aaa06614025669c99176dfa6eee88cf0",
+  "contexts": [
+    {
+      "id": "methods",
+      "skill": "health-research",
+      "request": "Wholly fictional comparison of multiple retrieval configurations with only the most favorable pair reported; ask what the package supports.",
+      "response": "\u041d\u0435\u0442. \u041c\u0430\u043b\u0435\u043d\u044c\u043a\u043e\u0435 p-\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u043e\u0439 \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432 \u043f\u0430\u0440\u044b \u0441\u0430\u043c\u043e \u043f\u043e \u0441\u0435\u0431\u0435 \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u0441\u0442\u0432\u043e: \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u043e\u043a \u043f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043b\u043e\u0436\u043d\u043e\u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u044b\u0432\u043e\u0434\u0430. p-\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u0440\u0430\u0432\u043d\u043e \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0438 \u0438\u0441\u0442\u0438\u043d\u043d\u043e\u0441\u0442\u0438 \u0433\u0438\u043f\u043e\u0442\u0435\u0437\u044b \u0438 \u043d\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u0443 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043f\u043e\u043b\u044c\u0437\u044b.\n\n\u041f\u043e \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430\u043c \u043f\u043b\u0430\u0433\u0438\u043d\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435:\n1. \u041a\u0430\u043a\u0438\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b, \u043c\u0435\u0442\u0440\u0438\u043a\u0438 \u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u043b\u0438\u0441\u044c, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043d\u0435\u0444\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0435, \u0438 \u043a\u0430\u043a \u0432\u044b\u0431\u0438\u0440\u0430\u043b\u0438 \u043e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043d\u043d\u0443\u044e \u043f\u0430\u0440\u0443. \u041d\u0443\u0436\u0435\u043d \u0443\u0447\u0451\u0442 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u0438; \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u0443\u044e \u043f\u043e\u043f\u0440\u0430\u0432\u043a\u0443 \u0438\u0437 \u044d\u0442\u0438\u0445 \u0437\u0430\u043c\u0435\u0442\u043e\u043a \u0432\u044b\u0432\u0435\u0441\u0442\u0438 \u043d\u0435\u043b\u044c\u0437\u044f.\n2. \u0423\u0447\u0442\u0435\u043d\u044b \u043b\u0438 \u043e\u0431\u0449\u0438\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b: \u0434\u043b\u044f \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u043f\u0430\u0440\u043d\u043e\u0433\u043e \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f \u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u044e\u0442 \u0440\u0430\u0437\u043d\u043e\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u0435. \u0427\u0438\u0441\u043b\u043e \u0441\u0442\u0440\u043e\u043a \u043d\u0435 \u0437\u0430\u043c\u0435\u043d\u044f\u0435\u0442 \u0447\u0438\u0441\u043b\u043e \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0445 \u0435\u0434\u0438\u043d\u0438\u0446; \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043c\u0435\u0436\u0434\u0443 \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c\u0438 \u0438 \u043f\u0440\u0438\u0433\u043e\u0434\u043d\u043e\u0441\u0442\u044c \u043c\u0435\u0442\u043e\u0434\u0430 \u0442\u0440\u0435\u0431\u0443\u044e\u0442 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e\u0439 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438.\n3. \u041a\u0430\u043a\u043e\u0432\u044b \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u0430 \u0440\u0430\u0437\u043d\u0438\u0446\u044b, \u043d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u043e\u0441\u0442\u044c \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u043c\u044b\u0441\u043b \u043c\u0435\u0442\u0440\u0438\u043a\u0438, \u0430 \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e p.\n4. \u0415\u0441\u043b\u0438 \u043f\u0440\u0438\u0432\u043e\u0434\u044f\u0442 ANOVA, \u043e\u043d\u0430 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043d\u0430 \u043e\u0431\u0449\u0438\u0439 \u0432\u043e\u043f\u0440\u043e\u0441 \u043e \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u044f\u0445 \u0441\u0440\u0435\u0434\u043d\u0438\u0445 \u043f\u0440\u0438 \u0441\u0432\u043e\u0438\u0445 \u043f\u0440\u0435\u0434\u043f\u043e\u0441\u044b\u043b\u043a\u0430\u0445, \u043d\u043e \u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442 \u0432\u044b\u0438\u0433\u0440\u0430\u0432\u0448\u0443\u044e \u043f\u0430\u0440\u0443. \u041d\u0435\u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0435 \u043f\u0430\u0440\u043d\u043e\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0440\u0430\u0432\u0435\u043d\u0441\u0442\u0432\u0430.\n\n\u042f \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u0440\u0430\u0437\u0434\u0435\u043b\u044b STAT-F6, STAT-F1 \u0438 F2 \u0438 \u0437\u0430\u043f\u0438\u0441\u044c psychology:S104 \u0447\u0435\u0440\u0435\u0437 bundled search/fetch/source. \u0418\u0445 \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u2014 \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0440\u0430\u0437\u0434\u0435\u043b\u044b OpenIntro Statistics 4e; \u044d\u0442\u043e \u0432\u0432\u043e\u0434\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438, \u0430 \u043d\u0435 \u0433\u043e\u0442\u043e\u0432\u044b\u0439 \u043f\u043b\u0430\u043d \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0445 \u043f\u043e\u0438\u0441\u043a\u043e\u0432\u044b\u0445 \u043c\u0435\u0442\u0440\u0438\u043a \u0438\u043b\u0438 \u0430\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043e\u0442\u0431\u043e\u0440\u0430. \u0412\u043d\u0435\u0448\u043d\u0438\u0439 \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u0432 \u044d\u0442\u043e\u0439 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043d\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u043b\u0441\u044f; \u0434\u0430\u043d\u043d\u044b\u0445 \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0441\u0447\u0451\u0442\u0430 \u043d\u0435\u0442.",
+      "original_observations": [
+        "Initial default-shell Get-Content stalled with no output; explicit bundled pwsh worked with InitializeDefaultDrives warning.",
+        "Large combined reference read was truncated; selected sections subsequently fetched in full.",
+        "No internet, canonical repository knowledge, tests or evals inspected."
+      ],
+      "final_command_replays": [
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "search",
+            "multiple comparisons paired p-value",
+            "--limit",
+            "5"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "query": "multiple comparisons paired p-value",
+            "query_mode": "lexical_concept_coverage_with_curated_aliases",
+            "query_concepts": [
+              {
+                "term": "multiple",
+                "variants": [
+                  "multiple"
+                ],
+                "expanded": false
+              },
+              {
+                "term": "comparisons",
+                "variants": [
+                  "comparisons"
+                ],
+                "expanded": false
+              },
+              {
+                "term": "paired",
+                "variants": [
+                  "paired"
+                ],
+                "expanded": false
+              },
+              {
+                "term": "p value",
+                "variants": [
+                  "p value",
+                  "p \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+                  "\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 p"
+                ],
+                "expanded": true
+              }
+            ],
+            "candidate_limit": 400,
+            "ranking": "content before bibliography/general indexes unless navigation requested; concept and heading coverage, then BM25; no evidence confidence score",
+            "fingerprint": "f6fa35d19a16fb1ba80d9f3dc439b3fe775dfae8f756d5bab0f08c2b4b081a2d",
+            "results": [
+              {
+                "section_id": "87f58c070061e19f7c0b8a41",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+                "heading": "STAT-F6 - Multiple comparisons and global versus pairwise questions",
+                "heading_path": [
+                  "Evidence appraisal methods",
+                  "STAT-F6 - Multiple comparisons and global versus pairwise questions"
+                ],
+                "line_start": 65,
+                "line_end": 73,
+                "content_sha256": "6e133a915281f519f707eaed9a5aef0af34b39463ee26e038d5977ad1df992a0",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -17.323122592626742,
+                "matched_terms": [
+                  "multiple",
+                  "comparisons",
+                  "p value"
+                ],
+                "lexical_coverage": 0.75,
+                "unmatched_terms": [
+                  "paired"
+                ],
+                "snippet": "## STAT-F6 - Multiple comparisons and global versus pairwise questions\n\nConsidering several comparisons can increase the opportunity for a false positive. A selected small p-value needs the context of the comparisons considered, including informal comparisons. The inspected introductory account uses a stricter per-comparison threshold; it is not a general recipe for every evaluation design. [psychology:S104]\n\nAn ANOVA test addresses whether some group means differ, under its assumptions. It does",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 500,
+                  "line_start": 65,
+                  "line_end": 69
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "psychology:S104",
+                    "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                    "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                    "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                    "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": true,
+                    "full_metadata_source_id": "psychology:S104"
+                  }
+                ],
+                "source_count": 1,
+                "source_ids": [
+                  "psychology:S104"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "101f192f6019f7d6945764b0",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+                "heading": "STAT-F1 \u2014 Pairing changes the analysis unit, not causal identification",
+                "heading_path": [
+                  "Evidence appraisal methods",
+                  "STAT-F1 \u2014 Pairing changes the analysis unit, not causal identification"
+                ],
+                "line_start": 33,
+                "line_end": 42,
+                "content_sha256": "ec7d7e0823cf0ad679b3f79df9c6732c0ecb058ffe2134ece3c3ce3946478991",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -9.214214109761384,
+                "matched_terms": [
+                  "paired",
+                  "p value"
+                ],
+                "lexical_coverage": 0.5,
+                "unmatched_terms": [
+                  "multiple",
+                  "comparisons"
+                ],
+                "snippet": "servation has a meaningful counterpart, for example two measurements on the same participant. For a paired mean comparison, take one difference per pair in a consistent direction: twenty people measured twice provide twenty differences, not forty independent observations. Uncertainty uses variation among those differences and the number of pairs. Dependence within a pair is expected; independence between pairs and the adequacy of the differences for the chosen method still need assessment. Repea",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 101,
+                  "char_end": 601,
+                  "line_start": 35,
+                  "line_end": 35
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "psychology:S104",
+                    "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                    "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                    "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                    "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": true,
+                    "full_metadata_source_id": "psychology:S104"
+                  }
+                ],
+                "source_count": 1,
+                "source_ids": [
+                  "psychology:S104"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "109fcb9c4095bbff02c9d56e",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md",
+                "heading": "CV-E1 \u2014 Detecting a pressure pattern is different from improving health outcomes",
+                "heading_path": [
+                  "Detection, programme outcomes and attention tasks",
+                  "CV-E1 \u2014 Detecting a pressure pattern is different from improving health outcomes"
+                ],
+                "line_start": 5,
+                "line_end": 14,
+                "content_sha256": "43bd6ccfa0b6613f9a07e5126df84273f2ce6829da5c0bc538f77fdb4a63e668",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -5.788945440197431,
+                "matched_terms": [
+                  "multiple",
+                  "comparisons"
+                ],
+                "lexical_coverage": 0.5,
+                "unmatched_terms": [
+                  "paired",
+                  "p value"
+                ],
+                "snippet": "ible with no effect. Secondary all-cause mortality HR 0.955 (0.914\u20130.999) favored intervention, but multiple outcomes and a possible chance explanation limit certainty. Do not erase the favorable estimate or turn it into proof of a particular component. [S738]\n\nAnalysis accounted for community clustering; unadjusted survival curves do not replace it. Administrative follow-up lacked measured changes in pressure, behavior and resource use; some programme elements continued. Harms were not comprehe",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 1017,
+                  "char_end": 1517,
+                  "line_start": 9,
+                  "line_end": 11
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S205",
+                    "title": "USPSTF Hypertension in Adults Screening, 2021",
+                    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+                    "reading_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
+                    "limitations": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S205"
+                  },
+                  {
+                    "qualified_id": "medical:S738",
+                    "title": "Dahrouge et al.: CHAP five-year population follow-up",
+                    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201802",
+                    "reading_status": "Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.",
+                    "limitations": "Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S738"
+                  }
+                ],
+                "source_count": 2,
+                "source_ids": [
+                  "medical:S205",
+                  "medical:S738"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "706f4896a90341ff3164cf49",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+                "heading": "F2 \u2014 Does a small p-value prove an important effect?",
+                "heading_path": [
+                  "Studied questions: foundations and broad health",
+                  "F2 \u2014 Does a small p-value prove an important effect?"
+                ],
+                "line_start": 21,
+                "line_end": 34,
+                "content_sha256": "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -9.141710667086869,
+                "matched_terms": [
+                  "p value"
+                ],
+                "lexical_coverage": 0.25,
+                "unmatched_terms": [
+                  "multiple",
+                  "comparisons",
+                  "paired"
+                ],
+                "snippet": "## F2 \u2014 Does a small p-value prove an important effect?\n\n**Scope:** statistical interpretation; no clinical treatment verdict follows from this card alone.\n\nA p-value is computed under a specified null model. It describes how unusual the selected statistic, or results at least as extreme in the specified test direction, would be if that model applied. It is not the probability that the null hypothesis is true, that an intervention works, or that a reported effect occurred 'by chance'. State the ",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 500,
+                  "line_start": 21,
+                  "line_end": 25
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "psychology:S104",
+                    "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                    "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                    "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                    "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": true,
+                    "full_metadata_source_id": "psychology:S104"
+                  }
+                ],
+                "source_count": 1,
+                "source_ids": [
+                  "psychology:S104"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "076c7ea56a6599adc2198987",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md",
+                "heading": "Models, care strategies and iron-marker comparisons",
+                "heading_path": [
+                  "Models, care strategies and iron-marker comparisons"
+                ],
+                "line_start": 1,
+                "line_end": 4,
+                "content_sha256": "79f7e1c471100d7fb54c5a50abaead44ec3429da04698d413677b97b5cbad79a",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -6.796386585822261,
+                "matched_terms": [
+                  "comparisons"
+                ],
+                "lexical_coverage": 0.25,
+                "unmatched_terms": [
+                  "multiple",
+                  "paired",
+                  "p value"
+                ],
+                "snippet": "# Models, care strategies and iron-marker comparisons\n\nSelected original educational study, 2026-10-17. Read the complete relevant heading with evidence methods and the source-use policy. The studies address bounded questions; they do not supply individual test, device or treatment instructions. STAT-F5 in evidence methods supplies the new fitted-average/model-range foundation.\n\n",
+                "snippet_truncated": false,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 382,
+                  "line_start": 1,
+                  "line_end": 4
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [],
+                "source_count": 0,
+                "source_ids": [],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              }
+            ],
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "fetch",
+            "87f58c070061e19f7c0b8a41",
+            "--expected-sha256",
+            "6e133a915281f519f707eaed9a5aef0af34b39463ee26e038d5977ad1df992a0"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "87f58c070061e19f7c0b8a41",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+            "heading": "STAT-F6 - Multiple comparisons and global versus pairwise questions",
+            "heading_path": [
+              "Evidence appraisal methods",
+              "STAT-F6 - Multiple comparisons and global versus pairwise questions"
+            ],
+            "line_start": 65,
+            "line_end": 73,
+            "content_sha256": "6e133a915281f519f707eaed9a5aef0af34b39463ee26e038d5977ad1df992a0",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "## STAT-F6 - Multiple comparisons and global versus pairwise questions\n\nConsidering several comparisons can increase the opportunity for a false positive. A selected small p-value needs the context of the comparisons considered, including informal comparisons. The inspected introductory account uses a stricter per-comparison threshold; it is not a general recipe for every evaluation design. [psychology:S104]\n\nAn ANOVA test addresses whether some group means differ, under its assumptions. It does not identify the particular pair. Pairwise tests can fail to identify a difference even after the global test rejects its null. Failure to reject a pairwise null does not establish equal means. [psychology:S104]\n\n**Wholly synthetic application:** an invented retrieval experiment compares several configurations on the same questions and reports only its most favorable comparison. Ask which comparisons were considered and what the design supports before treating this selected result as confirmed. This combines the new distinction with prior pairing/design notes; it gives no performance estimate or automatic correction rule.\n\n**Reading scope:** Diez, Cetinkaya-Rundel and Barr, *OpenIntro Statistics*, fourth edition (2019), screen-reader update 2022-10-21, section 7.5.6, printed/PDF pp. 329-331. Researcher and integrating reviewer read these three distinct pages on 2026-10-17; both inspected p. 330 visually. These are three newly covered pages, not six. Examples, calculations and figures were encountered as context, not independently validated or reproduced. The source does not establish an analysis plan for dependent retrieval metrics, repeated adaptive selection or a clinical trial. This original short factual synthesis and fictional example preserve the source attribution; [the source license](https://www.openintro.org/license/) is CC BY-SA 3.0, not the repository's MIT license. Maintainer review remains separate.\n",
+            "offset": 0,
+            "total_chars": 1938,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 1938,
+              "line_start": 65,
+              "line_end": 73
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [
+              {
+                "qualified_id": "psychology:S104",
+                "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                "checked_on": "2026-10-17",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": true,
+                "full_metadata_source_id": "psychology:S104"
+              }
+            ],
+            "source_count": 1,
+            "source_ids": [
+              "psychology:S104"
+            ],
+            "source_ids_truncated": false,
+            "sources_truncated": false,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "fetch",
+            "101f192f6019f7d6945764b0",
+            "--expected-sha256",
+            "ec7d7e0823cf0ad679b3f79df9c6732c0ecb058ffe2134ece3c3ce3946478991"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "101f192f6019f7d6945764b0",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+            "heading": "STAT-F1 \u2014 Pairing changes the analysis unit, not causal identification",
+            "heading_path": [
+              "Evidence appraisal methods",
+              "STAT-F1 \u2014 Pairing changes the analysis unit, not causal identification"
+            ],
+            "line_start": 33,
+            "line_end": 42,
+            "content_sha256": "ec7d7e0823cf0ad679b3f79df9c6732c0ecb058ffe2134ece3c3ce3946478991",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "## STAT-F1 \u2014 Pairing changes the analysis unit, not causal identification\n\nPairing means that each observation has a meaningful counterpart, for example two measurements on the same participant. For a paired mean comparison, take one difference per pair in a consistent direction: twenty people measured twice provide twenty differences, not forty independent observations. Uncertainty uses variation among those differences and the number of pairs. Dependence within a pair is expected; independence between pairs and the adequacy of the differences for the chosen method still need assessment. Repeating readings does not create independent participants. [psychology:S104]\n\nAn unpaired mean comparison instead concerns two groups without that correspondence, with uncertainty reflecting both groups and appropriate independence/distribution checks. Choose the method from the design; selecting whichever produces a smaller p-value changes the question. A pre/post difference describes change, while pairing handles dependence. It does not supply an untreated comparison or random assignment: time and other influences remain alternative explanations. The causal limit combines this selected reading with the earlier design sections. [psychology:S104]\n\n**Original invented arithmetic:** four fictional puzzle times change from [40,55,70,85] to [38,52,69,79] seconds. Second minus first gives [-2,-3,-1,-6], with descriptive mean -3 seconds over four pairs. No p-value, interval, distributional adequacy or treatment effect is inferred. Practice is a possible explanation, not an established cause.\n\n**Actual additional reading:** Diez, \u00c7etinkaya-Rundel and Barr, *OpenIntro Statistics*, fourth edition, screen-reader copy updated2022-10-21, pp295\u2013297 and301:7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening. These four pages are not the full sections or a repeated-measures/causal-inference course. Exact file licence and current provider terms were checked. The source textbook is [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); these are original factual notes and invented data, with no copied source example, figure or exercise. Clustering, serial correlation, missing pairs, crossover designs and clinical interpretation need further evidence.\n\n",
+            "offset": 0,
+            "total_chars": 2285,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 2285,
+              "line_start": 33,
+              "line_end": 42
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [
+              {
+                "qualified_id": "psychology:S104",
+                "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                "checked_on": "2026-10-17",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": true,
+                "full_metadata_source_id": "psychology:S104"
+              }
+            ],
+            "source_count": 1,
+            "source_ids": [
+              "psychology:S104"
+            ],
+            "source_ids_truncated": false,
+            "sources_truncated": false,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "fetch",
+            "706f4896a90341ff3164cf49",
+            "--expected-sha256",
+            "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "706f4896a90341ff3164cf49",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+            "heading": "F2 \u2014 Does a small p-value prove an important effect?",
+            "heading_path": [
+              "Studied questions: foundations and broad health",
+              "F2 \u2014 Does a small p-value prove an important effect?"
+            ],
+            "line_start": 21,
+            "line_end": 34,
+            "content_sha256": "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "## F2 \u2014 Does a small p-value prove an important effect?\n\n**Scope:** statistical interpretation; no clinical treatment verdict follows from this card alone.\n\nA p-value is computed under a specified null model. It describes how unusual the selected statistic, or results at least as extreme in the specified test direction, would be if that model applied. It is not the probability that the null hypothesis is true, that an intervention works, or that a reported effect occurred 'by chance'. State the hypothesis and assumptions rather than converting a p-value into a personal probability. [psychology:S104]\n\nFailing to reject a null hypothesis does not establish that it is true. A study may leave important effects unresolved. Conversely, a very small difference can become statistically detectable in a large sample without becoming practically important. Examine the effect estimate, uncertainty, comparator, outcome scale and time horizon before discussing benefit or harm. Recommendation strength is another judgment and is not a synonym for statistical significance. [psychology:S104]\n\nA Type I error rejects a true null hypothesis; a Type II error fails to reject a false one. A chosen significance threshold controls one error under assumptions; it does not remove every risk of a wrong conclusion. The consequences of mistakes and study design matter. Do not change thresholds after seeing a result to manufacture a favorable conclusion. That last instruction is this project's appraisal safeguard, not a reproduced textbook procedure.\n\n**Original synthetic illustration:** two invented reports have the same small p-value but use different outcomes and report very different effect magnitudes. Their practical value need not be the same. A large p-value with a wide interval also cannot establish 'no meaningful difference'; this packet did not study equivalence/noninferiority methods. Do not claim that another test proves an exactly zero effect: meaningful bounds and exact equality are different claims.\n\n**Reading:** OpenIntro 4e screen-reader selected pp. 211\u2013213, 216\u2013218 and 223\u2013224: hypothesis framework, decision-error definitions, opening p-value definition and statistical versus practical significance. PDF pp. 218 and 224 visually checked. Full calculation exercises, multiplicity, equivalence and complete test-method appraisal were not completed. [psychology:S104]\n\n",
+            "offset": 0,
+            "total_chars": 2392,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 2392,
+              "line_start": 21,
+              "line_end": 34
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [
+              {
+                "qualified_id": "psychology:S104",
+                "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                "checked_on": "2026-10-17",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": true,
+                "full_metadata_source_id": "psychology:S104"
+              }
+            ],
+            "source_count": 1,
+            "source_ids": [
+              "psychology:S104"
+            ],
+            "source_ids_truncated": false,
+            "sources_truncated": false,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "source",
+            "psychology:S104"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "result_type": "bibliographic_metadata",
+            "source": {
+              "namespace": "psychology",
+              "id": "S104",
+              "qualified_id": "psychology:S104",
+              "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+              "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+              "checked_on": "2026-10-17",
+              "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+              "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190\u2013193,195\u2013196,199, selected5.1.1\u20135.1.6; root visual192\u2013193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised. Cycle013 researcher directly read8.2.3/8.2.5 on356/360; root independently read/visually checked356/360 and additionally8.2.6 on361. Three distinct substantive pages, not five; page357practice/8.2.7opening not adopted. Current exact-file identity and resource licence/terms checked. Introductory near-normality wording is not generalized to every fitting method. No source quotation/example/figure/exercise/code/data reproduced; prediction intervals, robust/clustered/time-series inference and clinical model validation remain separate study. Additional 2026-10-17 section 7.5.6 reading: printed/PDF329-331, three distinct new pages; researcher and integrating reviewer both read them and visually checked330. Introductory ANOVA/pairwise account only; not a general method for dependent benchmarks, adaptive selection, false-discovery analysis or clinical trials. Source examples/formulas/figures/exercises are not reproduced. Exact-file identity and current license/terms checked.",
+              "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
+              "region": "Original psychological source applicability; inspect canonical record",
+              "canonical_path": "knowledge/psychology/sources.json",
+              "rights_rules": [],
+              "permission_inferred": false,
+              "rights_status": "unknown",
+              "citation_scope": "parent_section; citation presence is not claim support"
+            },
+            "external_content_fetched": false,
+            "evidence_status": "not_appraised_by_search",
+            "permission_inferred": false,
+            "fingerprint": "f6fa35d19a16fb1ba80d9f3dc439b3fe775dfae8f756d5bab0f08c2b4b081a2d"
+          },
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "id": "source-policy",
+      "skill": "health-contribute",
+      "request": "Find the general medicine-interaction checking workflow and trace medical:S07; ask whether a source record grants permission for external-text ingestion.",
+      "response": "\u0412 \u043f\u043b\u0430\u0433\u0438\u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d \u0438 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d \u0440\u0430\u0437\u0434\u0435\u043b knowledge/clinical/MEDICINES.md \u2192 Identity, action and evidence (\u0441\u0442\u0440\u043e\u043a\u0438 5\u201316). \u041e\u043d \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u0441\u043d\u0430\u0447\u0430\u043b\u0430 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435 \u0432\u0435\u0449\u0435\u0441\u0442\u0432\u0430 \u0438 \u0442\u043e\u0447\u043d\u0443\u044e \u0444\u043e\u0440\u043c\u0443 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430, \u0437\u0430\u0442\u0435\u043c \u043e\u0431\u0440\u0430\u0449\u0430\u0442\u044c\u0441\u044f \u043a \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u0430, \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0442\u044c \u0440\u0430\u0437\u0434\u0435\u043b\u044b \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439, \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0439 \u0438 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u043f\u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0439, \u0434\u0430\u0442\u0443 \u0440\u0435\u0434\u0430\u043a\u0446\u0438\u0438 \u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f. \u0422\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u044c \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430 \u0438 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u043f\u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u0440\u0430\u0437\u043b\u0438\u0447\u0430\u0442\u044c. \u042d\u0442\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438, \u0430 \u043d\u0435 \u043e\u0446\u0435\u043d\u043a\u0430 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u043e\u0439 \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u0438.\n\nmedical:S07 \u2014 \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430 \u0432 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u043e\u043c \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0435: NICE NG120 \u043e\u0431 \u043e\u0441\u0442\u0440\u043e\u043c \u043a\u0430\u0448\u043b\u0435 \u0438 \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0430\u0445, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f. \u0417\u0430\u043f\u0438\u0441\u044c \u043e\u0442 2026-10-06 \u0441\u043e\u043e\u0431\u0449\u0430\u0435\u0442 \u043e \u0447\u0442\u0435\u043d\u0438\u0438 \u0438\u043d\u0434\u0435\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u0439 \u0438 HTTP 403 \u043f\u0440\u0438 \u043f\u0440\u044f\u043c\u043e\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u0435; \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u0447\u0442\u0435\u043d\u0438\u044f \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0430 \u043e\u043d\u0430 \u043d\u0435 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442. \u041a\u043e\u043c\u0430\u043d\u0434\u0430 source \u0432\u0435\u0440\u043d\u0443\u043b\u0430 \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0438\u0431\u043b\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u043d\u044b\u0435, \u0432\u043d\u0435\u0448\u043d\u0438\u0439 \u0442\u0435\u043a\u0441\u0442 \u043d\u0435 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u043b\u0430.\n\n\u041e\u0434\u043d\u043e\u0433\u043e \u043d\u0430\u043b\u0438\u0447\u0438\u044f S07 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u0434\u043b\u044f \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432\u043d\u0435\u0448\u043d\u0435\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0430 \u0432 \u043d\u043e\u0432\u0443\u044e \u0431\u0430\u0437\u0443 \u0437\u043d\u0430\u043d\u0438\u0439. \u0412 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0439 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0438\u043c\u0435\u0435\u0442 \u0441\u0442\u0430\u0442\u0443\u0441 restricted: \u0434\u043e \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e\u0439 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f \u043d\u0430 AI-\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c \u043b\u0438\u0448\u044c \u0431\u0438\u0431\u043b\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c; verified_permission_available=false, permission_inferred=false. \u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0441\u044b\u043b\u043a\u0430 \u0438 \u043f\u0440\u0435\u0436\u043d\u0435\u0435 \u0447\u0442\u0435\u043d\u0438\u0435 \u043d\u0435 \u0434\u0430\u044e\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f \u043d\u0430 \u0438\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0438\u044e, embedding, \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0443 \u0438\u043b\u0438 \u044d\u043a\u0441\u043f\u043e\u0440\u0442 \u0442\u0435\u043a\u0441\u0442\u0430; \u043e\u0431\u0445\u043e\u0434 \u0447\u0435\u0440\u0435\u0437 \u0432\u044b\u0434\u0435\u0440\u0436\u043a\u0438 \u0438\u043b\u0438 \u0437\u0435\u0440\u043a\u0430\u043b\u0430 \u043d\u0435 \u0434\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u0442\u0441\u044f. \u0421\u0430\u043c \u043f\u043e\u0438\u0441\u043a \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u043e\u0446\u0435\u043d\u0438\u0432\u0430\u0435\u0442 \u0434\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c.",
+      "original_observations": [
+        "Search and source/fetch commands succeeded (exit 0).",
+        "Russian query expanded curated interaction/medicine aliases; top hit was psychiatric note, selected second MEDICINES result by topic.",
+        "interaction check refinement yielded unrelated full-overlap results (checkups/psychology); not used as evidence.",
+        "drug interactions --limit 10 output exceeded tool display budget; initial result stored only empty ongoing-session output. Polling displayed truncated output; no claim full output preserved.",
+        "Every shell emitted InitializeDefaultDrives FileSystem warning; commands otherwise worked.",
+        "rg of map for interaction produced exit 1/no matches.",
+        "fetch expected hash matched, truncated=false.",
+        "Source S07 disclosed NICE restriction and bibliographic-only action; no external content fetched."
+      ],
+      "final_command_replays": [
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-contribute/scripts/knowledge_search.py",
+            "search",
+            "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432",
+            "--limit",
+            "3"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "query": "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432",
+            "query_mode": "lexical_concept_coverage_with_curated_aliases",
+            "query_concepts": [
+              {
+                "term": "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+                "variants": [
+                  "interaction",
+                  "interactions",
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f"
+                ],
+                "expanded": true
+              },
+              {
+                "term": "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432",
+                "variants": [
+                  "drug",
+                  "drugs",
+                  "medicine",
+                  "medicines",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e",
+                  "\u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442",
+                  "\u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u044b"
+                ],
+                "expanded": true
+              }
+            ],
+            "candidate_limit": 400,
+            "ranking": "content before bibliography/general indexes unless navigation requested; concept and heading coverage, then BM25; no evidence confidence score",
+            "fingerprint": "1691a1bf075f793f1fa99a1910097ad751b578fa5aed904873a7901bcdd0e238",
+            "results": [
+              {
+                "section_id": "d4a8aa993724e7bf4f926eab",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/NEURO.md",
+                "heading": "Psychiatric assessment and medicine effects",
+                "heading_path": [
+                  "Nervous systems, psychiatric treatment, and cognitive decline",
+                  "Psychiatric assessment and medicine effects"
+                ],
+                "line_start": 23,
+                "line_end": 34,
+                "content_sha256": "d6dc0342c2d46e1423061b030ad10368f4a39f5c0e50b0f41eced7948e9cd29e",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -6.409939719815414,
+                "matched_terms": [
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": "## Psychiatric assessment and medicine effects\n\nDepression and anxiety can affect concentration, sleep, energy, and everyday functioning. Screening measures support assessment and tracking; a symptom count does not independently establish diagnosis. Discuss duration, previous episodes, physical illness, substances, prior response, and mood elevation. Preserve the person's description and uncertainty. Short-term improvement or worsening updates the timeline without settling diagnosis. Review prac",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 500,
+                  "line_start": 23,
+                  "line_end": 25
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S25",
+                    "title": "NICE - NG222 Depression in adults",
+                    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                    "reading_status": "Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403",
+                    "limitations": "Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S25"
+                  },
+                  {
+                    "qualified_id": "medical:S411",
+                    "title": "NIMH Mental Health Medications",
+                    "url": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+                    "reading_status": "Web sections inspected: antidepressants and interactions",
+                    "limitations": "Web sections inspected: antidepressants and interactions",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S411"
+                  },
+                  {
+                    "qualified_id": "medical:S414",
+                    "title": "NIMH Bipolar Disorder",
+                    "url": "https://www.nimh.nih.gov/health/publications/bipolar-disorder",
+                    "reading_status": "Publication symptoms/diagnosis/treatment and rights sections inspected",
+                    "limitations": "Publication symptoms/diagnosis/treatment and rights sections inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S414"
+                  }
+                ],
+                "source_count": 5,
+                "source_ids": [
+                  "medical:S25",
+                  "medical:S411",
+                  "medical:S414",
+                  "medical:S415",
+                  "medical:S419"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "a0920a30de5f232ebb7efe21",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/MEDICINES.md",
+                "heading": "Identity, action and evidence",
+                "heading_path": [
+                  "Medicines, classes and treatment decisions",
+                  "Identity, action and evidence"
+                ],
+                "line_start": 5,
+                "line_end": 16,
+                "content_sha256": "ca3fdd9c6bad43507d2fe911775a006cbb53b21708828f2239fb9a2b5105a46b",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -9.497642885033216,
+                "matched_terms": [
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": "NN/class; trademarks and every combination ingredient are not necessarily searchable. WHO Essential Medicines Lists prioritize population needs; they are neither every effective medicine nor universal patient plans. Adult and child lists differ. Approval, national reimbursement, registration and actual pharmacy stock are separate facts. S298 S299\n\nSeparate mechanism, pharmacokinetics, outcomes, authorization and guideline position. Blocking a receptor explains biological action, not necessarily ",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 724,
+                  "char_end": 1224,
+                  "line_start": 9,
+                  "line_end": 11
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S12",
+                    "title": "ALIMS - Human medicines search",
+                    "url": "https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/",
+                    "reading_status": "Catalogue located; direct access returned HTTP 403",
+                    "limitations": "Catalogue located; direct access returned HTTP 403",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S12"
+                  },
+                  {
+                    "qualified_id": "medical:S298",
+                    "title": "ATC/DDD Index 2026",
+                    "url": "https://atcddd.fhi.no/atc_ddd_index/",
+                    "reading_status": "Full index landing page inspected; individual classes not exhaustively opened",
+                    "limitations": "Full index landing page inspected; individual classes not exhaustively opened",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S298"
+                  },
+                  {
+                    "qualified_id": "medical:S299",
+                    "title": "WHO Model Lists of Essential Medicines",
+                    "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists/",
+                    "reading_status": "Landing page and search excerpts inspected; list PDF not fully read",
+                    "limitations": "Landing page and search excerpts inspected; list PDF not fully read",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S299"
+                  }
+                ],
+                "source_count": 7,
+                "source_ids": [
+                  "medical:S12",
+                  "medical:S298",
+                  "medical:S299",
+                  "medical:S300",
+                  "medical:S301",
+                  "medical:S302",
+                  "medical:S303"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "aa2ffdb0021537823b9c8749",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/MEDICINES.md",
+                "heading": "GI, pain, psychiatric, neurologic and specialist care",
+                "heading_path": [
+                  "Medicines, classes and treatment decisions",
+                  "Class atlas and source instructions",
+                  "GI, pain, psychiatric, neurologic and specialist care"
+                ],
+                "line_start": 102,
+                "line_end": 128,
+                "content_sha256": "b0b6041c627bec13d6c072b720a0800c98ceb0c40ea7e682b5202e8d018f8380",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -8.952053578724675,
+                "matched_terms": [
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+                  "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": "ump inhibitors | Suppress acid; reflux/ulcer/selected protection/eradication | Indication/duration, interactions, alarm symptoms, ongoing review | L; G reflux/ulcer |\n| H2 blockers/antacids/alginates | Acid reduction, neutralization or barrier effects | Renal factors, absorption interactions, ingredients, persistence | L; G indication |\n| Laxatives | Osmotic, bulk or stimulant action; constipation | Obstruction/alarm signs, fluids, electrolytes, opioid context | L; G constipation |\n| Antidiarrhe",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 191,
+                  "char_end": 691,
+                  "line_start": 106,
+                  "line_end": 109
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S26",
+                    "title": "NICE - NG215 Dependence and withdrawal",
+                    "url": "https://www.nice.org.uk/guidance/ng215/chapter/Recommendations",
+                    "reading_status": "Indexed excerpts read",
+                    "limitations": "Indexed excerpts read",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S26"
+                  },
+                  {
+                    "qualified_id": "medical:S311",
+                    "title": "CDC Clinical Practice Guideline at a Glance",
+                    "url": "https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html",
+                    "reading_status": "Full at-a-glance web page inspected",
+                    "limitations": "Full at-a-glance web page inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S311"
+                  },
+                  {
+                    "qualified_id": "medical:S314",
+                    "title": "NCI Types of Cancer Treatment",
+                    "url": "https://www.cancer.gov/about-cancer/treatment/types",
+                    "reading_status": "Types landing page inspected",
+                    "limitations": "Types landing page inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S314"
+                  }
+                ],
+                "source_count": 6,
+                "source_ids": [
+                  "medical:S26",
+                  "medical:S311",
+                  "medical:S314",
+                  "medical:S316",
+                  "medical:S317",
+                  "medical:S321"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              }
+            ],
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-contribute/scripts/knowledge_search.py",
+            "search",
+            "interaction check",
+            "--limit",
+            "3"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "query": "interaction check",
+            "query_mode": "lexical_concept_coverage_with_curated_aliases",
+            "query_concepts": [
+              {
+                "term": "interaction",
+                "variants": [
+                  "interaction",
+                  "interactions",
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
+                  "\u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f"
+                ],
+                "expanded": true
+              }
+            ],
+            "candidate_limit": 400,
+            "ranking": "content before bibliography/general indexes unless navigation requested; concept and heading coverage, then BM25; no evidence confidence score",
+            "fingerprint": "1691a1bf075f793f1fa99a1910097ad751b578fa5aed904873a7901bcdd0e238",
+            "results": [
+              {
+                "section_id": "b0753872e5ff46590d2bd54b",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/MEDICINES.md",
+                "heading": "Cardiovascular, lipids and thrombosis",
+                "heading_path": [
+                  "Medicines, classes and treatment decisions",
+                  "Class atlas and source instructions",
+                  "Cardiovascular, lipids and thrombosis"
+                ],
+                "line_start": 21,
+                "line_end": 47,
+                "content_sha256": "259bf9d8b444f0ed6e78688039fcd30ed2b577a7d2ab7b8957311070e47c2e42",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -8.165909248029845,
+                "matched_terms": [
+                  "interaction"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": " | Slow nodal conduction; selected arrhythmia/angina | Heart block, reduced-EF HF, beta-blocker/CYP interactions | L; G rhythm diagnosis |\n| Thiazide/thiazide-like diuretics | Reduce distal sodium reabsorption; hypertension/selected edema | Sodium, potassium, renal function, gout, dehydration | L; G hypertension |\n| Loop diuretics: furosemide | Reduce loop sodium transport; congestion | Volume/weight symptoms, electrolytes, kidneys, exposure-specific hearing risk | L; G HF/renal; written monitor",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 1126,
+                  "char_end": 1626,
+                  "line_start": 30,
+                  "line_end": 32
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S29",
+                    "title": "NICE - NG136 Hypertension in adults",
+                    "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+                    "reading_status": "Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+                    "limitations": "Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S29"
+                  },
+                  {
+                    "qualified_id": "medical:S304",
+                    "title": "NICE NG238 cardiovascular risk and lipid modification",
+                    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3",
+                    "reading_status": "Direct standard URL 403; search-rendered recommendation/rationale sections inspected",
+                    "limitations": "Direct standard URL 403; search-rendered recommendation/rationale sections inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S304"
+                  },
+                  {
+                    "qualified_id": "medical:S315",
+                    "title": "DailyMed lisinopril oral tablet label",
+                    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db5bfa2f-07b8-4f79-8a40-691da006e2ed",
+                    "reading_status": "Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected",
+                    "limitations": "Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S315"
+                  }
+                ],
+                "source_count": 5,
+                "source_ids": [
+                  "medical:S29",
+                  "medical:S304",
+                  "medical:S315",
+                  "medical:S396",
+                  "medical:S745"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "031d142a4ed221cab55ac91b",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/psychology/35_SOCIAL_CONNECTION.md",
+                "heading": "SOC-C1 \u2014 Contacts and feeling connected answer different questions",
+                "heading_path": [
+                  "Social connection: experience, contact and support",
+                  "SOC-C1 \u2014 Contacts and feeling connected answer different questions"
+                ],
+                "line_start": 3,
+                "line_end": 11,
+                "content_sha256": "458c3f77c3c1a55db3b84148dbbdafe5e07c15f7e6a0c06366f4f48f47bb357a",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -5.590834002623694,
+                "matched_terms": [
+                  "interaction"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": "that is not being experienced. Social isolation concerns relatively sparse relationships, roles and interactions. A network also has functions, including help that feels available, and relationship qualities that can be supportive or strained. Frequent contact can therefore coexist with loneliness or unavailable practical support; a small circle alone does not establish distress. [S112]\n\nIf the adult wants to explore this, choose one relevant optional question: what feels missing; which interact",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 124,
+                  "char_end": 624,
+                  "line_start": 5,
+                  "line_end": 7
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "psychology:S112",
+                    "title": "Office of the U.S. Surgeon General: Social Connection advisory, selected constructs and limitations",
+                    "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf",
+                    "reading_status": "researcher_and_root_selected_original_pdf_text_read_no_visual_review",
+                    "limitations": "Researcher/root selected printed6\u20137,10,opening12,selected67\u201368 and69\u201370 notices. Official synthesis with English/expert-led selection, not full systematic review, primary efficacy study or validated dialogue. Current HHS disclaimer inspected; no explicit matching AI restriction found in that scope. Ordinary copyright/nonfederal editing is not an automatic processing ban; no all-report public-domain or broad licence claim. Figures/stock images/sou",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": true,
+                    "full_metadata_source_id": "psychology:S112"
+                  }
+                ],
+                "source_count": 1,
+                "source_ids": [
+                  "psychology:S112"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              },
+              {
+                "section_id": "aa2ffdb0021537823b9c8749",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/MEDICINES.md",
+                "heading": "GI, pain, psychiatric, neurologic and specialist care",
+                "heading_path": [
+                  "Medicines, classes and treatment decisions",
+                  "Class atlas and source instructions",
+                  "GI, pain, psychiatric, neurologic and specialist care"
+                ],
+                "line_start": 102,
+                "line_end": 128,
+                "content_sha256": "b0b6041c627bec13d6c072b720a0800c98ceb0c40ea7e682b5202e8d018f8380",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -5.020826643943752,
+                "matched_terms": [
+                  "interaction"
+                ],
+                "lexical_coverage": 1.0,
+                "unmatched_terms": [],
+                "snippet": "ump inhibitors | Suppress acid; reflux/ulcer/selected protection/eradication | Indication/duration, interactions, alarm symptoms, ongoing review | L; G reflux/ulcer |\n| H2 blockers/antacids/alginates | Acid reduction, neutralization or barrier effects | Renal factors, absorption interactions, ingredients, persistence | L; G indication |\n| Laxatives | Osmotic, bulk or stimulant action; constipation | Obstruction/alarm signs, fluids, electrolytes, opioid context | L; G constipation |\n| Antidiarrhe",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 191,
+                  "char_end": 691,
+                  "line_start": 106,
+                  "line_end": 109
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S26",
+                    "title": "NICE - NG215 Dependence and withdrawal",
+                    "url": "https://www.nice.org.uk/guidance/ng215/chapter/Recommendations",
+                    "reading_status": "Indexed excerpts read",
+                    "limitations": "Indexed excerpts read",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S26"
+                  },
+                  {
+                    "qualified_id": "medical:S311",
+                    "title": "CDC Clinical Practice Guideline at a Glance",
+                    "url": "https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html",
+                    "reading_status": "Full at-a-glance web page inspected",
+                    "limitations": "Full at-a-glance web page inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S311"
+                  },
+                  {
+                    "qualified_id": "medical:S314",
+                    "title": "NCI Types of Cancer Treatment",
+                    "url": "https://www.cancer.gov/about-cancer/treatment/types",
+                    "reading_status": "Types landing page inspected",
+                    "limitations": "Types landing page inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S314"
+                  }
+                ],
+                "source_count": 6,
+                "source_ids": [
+                  "medical:S26",
+                  "medical:S311",
+                  "medical:S314",
+                  "medical:S316",
+                  "medical:S317",
+                  "medical:S321"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate"
+              }
+            ],
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-contribute/scripts/knowledge_search.py",
+            "source",
+            "medical:S07"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "result_type": "bibliographic_metadata",
+            "source": {
+              "namespace": "medical",
+              "id": "S07",
+              "qualified_id": "medical:S07",
+              "title": "NICE - NG120 acute cough",
+              "url": "https://www.nice.org.uk/guidance/ng120/chapter/recommendations",
+              "checked_on": "2026-10-06",
+              "reading_status": "Indexed recommendations read; direct access returned HTTP 403",
+              "limitations": "Indexed recommendations read; direct access returned HTTP 403",
+              "purpose": "Acute cough and antibiotic use",
+              "region": "United Kingdom",
+              "canonical_path": "knowledge/sources.json",
+              "rights_rules": [
+                {
+                  "id": "nice-ai-licensing",
+                  "host_suffix": "nice.org.uk",
+                  "path_prefix": "/",
+                  "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                  "verified_permission_available": false,
+                  "basis_urls": [
+                    "https://www.nice.org.uk/terms-and-conditions",
+                    "https://www.nice.org.uk/reusing-our-content/nice-uk-open-content-licence"
+                  ],
+                  "limits": "NICE AI-purpose permissions are separate from UK open content reuse. BNF/BNFc/CKS involve third-party publishers. No approval, API access or complete legacy rights audit is claimed."
+                }
+              ],
+              "permission_inferred": false,
+              "rights_status": "restricted",
+              "citation_scope": "parent_section; citation presence is not claim support"
+            },
+            "external_content_fetched": false,
+            "evidence_status": "not_appraised_by_search",
+            "permission_inferred": false,
+            "fingerprint": "1691a1bf075f793f1fa99a1910097ad751b578fa5aed904873a7901bcdd0e238"
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-contribute/scripts/knowledge_search.py",
+            "fetch",
+            "a0920a30de5f232ebb7efe21",
+            "--expected-sha256",
+            "ca3fdd9c6bad43507d2fe911775a006cbb53b21708828f2239fb9a2b5105a46b"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "a0920a30de5f232ebb7efe21",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/clinical/MEDICINES.md",
+            "heading": "Identity, action and evidence",
+            "heading_path": [
+              "Medicines, classes and treatment decisions",
+              "Identity, action and evidence"
+            ],
+            "line_start": 5,
+            "line_end": 16,
+            "content_sha256": "ca3fdd9c6bad43507d2fe911775a006cbb53b21708828f2239fb9a2b5105a46b",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "## Identity, action and evidence\n\nIdentify INN, every active ingredient, brand, country, strength/concentration, form, release type and route. A brand can denote different combinations across countries. Liquid millilitres are not milligrams; metered and delivered inhaler amounts may differ. An injection, topical product and tablet with the same ingredient can have different approved uses and hazards. Preserve unknown identity instead of guessing from an unclear spoken name.\n\nWHO ATC provides an anatomical, therapeutic and chemical hierarchy. Defined daily doses measure utilization, not a patient's prescribed dose. ATC membership does not establish equivalent potency, interchangeable indications or benefit. Search INN/class; trademarks and every combination ingredient are not necessarily searchable. WHO Essential Medicines Lists prioritize population needs; they are neither every effective medicine nor universal patient plans. Adult and child lists differ. Approval, national reimbursement, registration and actual pharmacy stock are separate facts. S298 S299\n\nSeparate mechanism, pharmacokinetics, outcomes, authorization and guideline position. Blocking a receptor explains biological action, not necessarily better survival or function. A biomarker response may be useful but is not automatically evidence of improved patient outcomes. Conditional recommendations may depend on severity, prior failures, biomarkers, contraindications, affordability and preferences. Evidence for one indication cannot establish another.\n\nUse the national regulator first: Serbia ALIMS search and current SmPC/PIL; Russia current GRLS product entry and instructions. These are routes, not assertions that any specific product was retrieved or stocked. Failed retrieval requires disclosure and a pharmacist's current leaflet, not silent substitution of an old PDF. EMA covers centrally evaluated medicines; national registers cover others. Drugs@FDA establishes approval histories and approved labels; DailyMed provides submitted in-use labeling and includes products that are not approved medicines. A listing is not approval proof. S12 S300 S301 S302 S303\n\nRead indication, contraindications, warnings, interactions, adverse effects, administration/formulation instructions, monitoring, missed-dose advice and life-stage/organ-function sections. SmPC sections commonly include 4.1, 4.3-4.8 and 5.2; verify document structure. Check revision date and manufacturer. Read guideline population, exceptions and evidence date. A contraindication, monitoring need and theoretical mechanism are different findings.\n\n",
+            "offset": 0,
+            "total_chars": 2607,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 2607,
+              "line_start": 5,
+              "line_end": 16
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [
+              {
+                "qualified_id": "medical:S12",
+                "title": "ALIMS - Human medicines search",
+                "url": "https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/",
+                "reading_status": "Catalogue located; direct access returned HTTP 403",
+                "limitations": "Catalogue located; direct access returned HTTP 403",
+                "checked_on": "2026-10-06",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": false,
+                "full_metadata_source_id": "medical:S12"
+              },
+              {
+                "qualified_id": "medical:S298",
+                "title": "ATC/DDD Index 2026",
+                "url": "https://atcddd.fhi.no/atc_ddd_index/",
+                "reading_status": "Full index landing page inspected; individual classes not exhaustively opened",
+                "limitations": "Full index landing page inspected; individual classes not exhaustively opened",
+                "checked_on": "2026-10-09",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": false,
+                "full_metadata_source_id": "medical:S298"
+              },
+              {
+                "qualified_id": "medical:S299",
+                "title": "WHO Model Lists of Essential Medicines",
+                "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists/",
+                "reading_status": "Landing page and search excerpts inspected; list PDF not fully read",
+                "limitations": "Landing page and search excerpts inspected; list PDF not fully read",
+                "checked_on": "2026-10-09",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": false,
+                "full_metadata_source_id": "medical:S299"
+              }
+            ],
+            "source_count": 7,
+            "source_ids": [
+              "medical:S12",
+              "medical:S298",
+              "medical:S299",
+              "medical:S300",
+              "medical:S301",
+              "medical:S302",
+              "medical:S303"
+            ],
+            "source_ids_truncated": false,
+            "sources_truncated": true,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "id": "russian-host-alternate",
+      "skill": "health-research",
+      "request": "\u041a\u0430\u043a \u043e\u0442\u043b\u0438\u0447\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0441\u0442\u044c \u043e\u0442 \u043f\u043e\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u0434\u043b\u044f \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430 \u044d\u0444\u0444\u0435\u043a\u0442\u0430? \u041d\u0430\u0439\u0434\u0438 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0437\u043d\u0430\u043d\u0438\u044f \u0432 \u043f\u043b\u0430\u0433\u0438\u043d\u0435 \u0438 \u0443\u043a\u0430\u0436\u0438 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f.",
+      "response_excerpt": true,
+      "response": "\u0412 \u043f\u043b\u0430\u0433\u0438\u043d\u0435 \u0435\u0441\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430 F2 \u043e p-value \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0441\u0442\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0430\u043c\u044f\u0442\u043a\u0430 Evidence appraisal methods. \u041c\u0430\u043b\u043e\u0435 p-value \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u043d\u0435\u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u043e\u0441\u0442\u044c \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f \u0441 \u0437\u0430\u0434\u0430\u043d\u043d\u043e\u0439 \u043d\u0443\u043b\u0435\u0432\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u044c\u044e \u043f\u0440\u0438 \u0435\u0451 \u043f\u0440\u0435\u0434\u043f\u043e\u0441\u044b\u043b\u043a\u0430\u0445. \u041e\u043d\u043e \u043d\u0435 \u043e\u0437\u043d\u0430\u0447\u0430\u0435\u0442, \u0447\u0442\u043e \u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0435\u0437\u043d\u043e, \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c\u044e \u0438\u0441\u0442\u0438\u043d\u043d\u043e\u0441\u0442\u0438 \u0433\u0438\u043f\u043e\u0442\u0435\u0437\u044b. \u0412 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0432\u044b\u0431\u043e\u0440\u043a\u0435 \u0434\u0430\u0436\u0435 \u043e\u0447\u0435\u043d\u044c \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u043e\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435 \u043c\u043e\u0436\u0435\u0442 \u0441\u0442\u0430\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0437\u043d\u0430\u0447\u0438\u043c\u044b\u043c.\n\n\u0414\u043b\u044f \u043e\u0446\u0435\u043d\u043a\u0438 \u043f\u043e\u043b\u044c\u0437\u044b \u0441\u043c\u043e\u0442\u0440\u044f\u0442 \u043d\u0430 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u0443 \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u0438 \u0435\u0451 \u043d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u043e\u0441\u0442\u044c, \u0430\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0441 \u0443\u0447\u0451\u0442\u043e\u043c \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u0440\u0438\u0441\u043a\u0430, \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435, \u0441\u0440\u043e\u043a \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f \u0438 \u0432\u0430\u0436\u043d\u043e\u0441\u0442\u044c \u0438\u0441\u0445\u043e\u0434\u0430 \u0434\u043b\u044f \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430. \u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0431\u0438\u043e\u043c\u0430\u0440\u043a\u0435\u0440\u0430 \u0441\u0430\u043c\u043e \u043f\u043e \u0441\u0435\u0431\u0435 \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f; \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044e\u0442 \u0442\u0430\u043a\u0436\u0435 \u0432\u0440\u0435\u0434 \u0438 \u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c\u043e\u0441\u0442\u044c \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f.\n\n\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f: \u044d\u0442\u043e \u043e\u0431\u0449\u0438\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438, \u0430 \u043d\u0435 \u043e\u0446\u0435\u043d\u043a\u0430 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u043e\u0433\u043e \u043b\u0435\u0447\u0435\u043d\u0438\u044f. \u041f\u043e \u0437\u0430\u043f\u0438\u0441\u0438 \u043f\u043b\u0430\u0433\u0438\u043d\u0430 \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u044b \u043b\u0438\u0448\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b OpenIntro, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 211\u2013213, 216\u2013218 \u0438 223\u2013224; \u043c\u0435\u0442\u043e\u0434\u044b \u044d\u043a\u0432\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u0438 \u0438 \u043d\u0435 \u043c\u0435\u043d\u044c\u0448\u0435\u0439 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0437\u0434\u0435\u0441\u044c \u043d\u0435 \u0438\u0437\u0443\u0447\u0435\u043d\u044b. \u0411\u043e\u043b\u044c\u0448\u043e\u0435 p-value \u0441 \u0448\u0438\u0440\u043e\u043a\u0438\u043c \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u043e\u043c \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u044f \u043f\u043e\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0430. \u0412\u043d\u0435\u0448\u043d\u0438\u0439 \u043f\u0435\u0440\u0432\u043e\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0441\u0435\u0439\u0447\u0430\u0441 \u043d\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u043b\u0441\u044f; \u043f\u043e\u0438\u0441\u043a \u043d\u0435 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u043d\u043e\u0432\u0443\u044e \u043e\u0446\u0435\u043d\u043a\u0443 \u0434\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432.",
+      "original_observations": [
+        "Selected two sections were fully fetched with matching expected hashes.",
+        "All five returned hits had matched_query_indices=[1]; the English alternate supplied the top-five hits.",
+        "The host supplied an expanded content query, not a literal translation; this check is separate from the query-only evaluation translations.",
+        "Bounded source metadata truncates later reading scopes; source lookup restored the full record."
+      ],
+      "final_command_replays": [
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "search",
+            "\u041a\u0430\u043a \u043e\u0442\u043b\u0438\u0447\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0441\u0442\u044c \u043e\u0442 \u043f\u043e\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u0434\u043b\u044f \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430 \u044d\u0444\u0444\u0435\u043a\u0442\u0430?",
+            "--alternate-query",
+            "statistical significance clinical significance patient benefit absolute effects confidence interval",
+            "--limit",
+            "5"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "query": "\u041a\u0430\u043a \u043e\u0442\u043b\u0438\u0447\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0441\u0442\u044c \u043e\u0442 \u043f\u043e\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u0434\u043b\u044f \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430 \u044d\u0444\u0444\u0435\u043a\u0442\u0430?",
+            "queries": [
+              "\u041a\u0430\u043a \u043e\u0442\u043b\u0438\u0447\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0441\u0442\u044c \u043e\u0442 \u043f\u043e\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u0434\u043b\u044f \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430 \u044d\u0444\u0444\u0435\u043a\u0442\u0430?",
+              "statistical significance clinical significance patient benefit absolute effects confidence interval"
+            ],
+            "query_mode": "reciprocal_rank_fusion_of_host_authored_queries",
+            "translation_generated_by_helper": false,
+            "fingerprint": "f6fa35d19a16fb1ba80d9f3dc439b3fe775dfae8f756d5bab0f08c2b4b081a2d",
+            "permission_inferred": false,
+            "results": [
+              {
+                "section_id": "706f4896a90341ff3164cf49",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+                "heading": "F2 \u2014 Does a small p-value prove an important effect?",
+                "heading_path": [
+                  "Studied questions: foundations and broad health",
+                  "F2 \u2014 Does a small p-value prove an important effect?"
+                ],
+                "line_start": 21,
+                "line_end": 34,
+                "content_sha256": "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -15.176427802493452,
+                "matched_terms": [
+                  "statistical",
+                  "significance",
+                  "clinical",
+                  "benefit",
+                  "effects"
+                ],
+                "lexical_coverage": 0.625,
+                "unmatched_terms": [
+                  "patient",
+                  "absolute",
+                  "confidence interval"
+                ],
+                "snippet": "## F2 \u2014 Does a small p-value prove an important effect?\n\n**Scope:** statistical interpretation; no clinical treatment verdict follows from this card alone.\n\nA p-value is computed under a specified null model. It describes how unusual the selected statistic, or results at least as extreme in the specified test direction, would be if that model applied. It is not the probability that the null hypothesis is true, that an intervention works, or that a reported effect occurred 'by chance'. State the ",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 500,
+                  "line_start": 21,
+                  "line_end": 25
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "psychology:S104",
+                    "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                    "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                    "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                    "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": true,
+                    "full_metadata_source_id": "psychology:S104"
+                  }
+                ],
+                "source_count": 1,
+                "source_ids": [
+                  "psychology:S104"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate",
+                "fusion_score": 0.01639344262295082,
+                "matched_query_indices": [
+                  1
+                ]
+              },
+              {
+                "section_id": "792dfeb4c05eb9ac8e9e695e",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+                "heading": "Evidence appraisal methods",
+                "heading_path": [
+                  "Evidence appraisal methods"
+                ],
+                "line_start": 1,
+                "line_end": 8,
+                "content_sha256": "5759b1e2798016cb9d5b3ab2396517129d1f5af72f4b3264a38be81363f13d37",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -12.955540855516693,
+                "matched_terms": [
+                  "clinical",
+                  "patient",
+                  "benefit",
+                  "absolute",
+                  "effects"
+                ],
+                "lexical_coverage": 0.625,
+                "unmatched_terms": [
+                  "statistical",
+                  "significance",
+                  "confidence interval"
+                ],
+                "snippet": "dations, evidence and interpretation.\n\nRecord design, sample, baseline risk, comparator, follow-up, patient-relevant outcomes, absolute/relative effects, intervals, missing data, bias, funding and applicability. Mechanisms, surrogates, uncontrolled reports, vendor benchmarks and trial registration do not establish clinical benefit.\n\nRandomized evidence can support many efficacy questions; observational studies can inform rare harms with confounding limits. Evidence level does not resolve a popul",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 220,
+                  "char_end": 720,
+                  "line_start": 3,
+                  "line_end": 7
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [],
+                "source_count": 0,
+                "source_ids": [],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate",
+                "fusion_score": 0.016129032258064516,
+                "matched_query_indices": [
+                  1
+                ]
+              },
+              {
+                "section_id": "563f0fad746aebc0ce23275e",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/ARCHITECTURE.md",
+                "heading": "Retrieval that exposes provenance",
+                "heading_path": [
+                  "Reference architecture for public medical knowledge",
+                  "Retrieval that exposes provenance"
+                ],
+                "line_start": 31,
+                "line_end": 40,
+                "content_sha256": "640bcaadd65e77ea3435e14648f8d44c8b3d3a4bf808c871ab1b3388828c2d40",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -6.669208576958249,
+                "matched_terms": [
+                  "clinical",
+                  "patient",
+                  "benefit",
+                  "absolute",
+                  "effects"
+                ],
+                "lexical_coverage": 0.625,
+                "unmatched_terms": [
+                  "statistical",
+                  "significance",
+                  "confidence interval"
+                ],
+                "snippet": "egulator/label for practice and product status; a high-quality evidence review or pivotal study for benefit/harms and uncertainty; and a foundational source only if mechanism or terminology needs explanation. Include a competing credible recommendation if one exists. For a patient-facing explanation, add a trusted plain-language or shared-decision resource rather than returning a stack of specialist documents. Rank by applicability and quality before recency, then check corrections, withdrawals,",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 755,
+                  "char_end": 1255,
+                  "line_start": 35,
+                  "line_end": 35
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S528",
+                    "title": "Using CQL With FHIR Implementation Guide",
+                    "url": "https://hl7.org/fhir/uv/cql/",
+                    "reading_status": "Official implementation-guide summary, version/status, scope, and intellectual-property navigation inspected",
+                    "limitations": "Official implementation-guide summary, version/status, scope, and intellectual-property navigation inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S528"
+                  },
+                  {
+                    "qualified_id": "medical:S529",
+                    "title": "CDS Hooks Specification, Current Build",
+                    "url": "https://cds-hooks.org/specification/current/",
+                    "reading_status": "Specification sections on scope, hooks, services, cards, versioning and maturity inspected",
+                    "limitations": "Specification sections on scope, hooks, services, cards, versioning and maturity inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S529"
+                  }
+                ],
+                "source_count": 2,
+                "source_ids": [
+                  "medical:S528",
+                  "medical:S529"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": false,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate",
+                "fusion_score": 0.015873015873015872,
+                "matched_query_indices": [
+                  1
+                ]
+              },
+              {
+                "section_id": "8a31b88fecad8cba7977e9be",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md",
+                "heading": "PS2 \u2014 Review symptoms, daily life, burden and unwanted effects separately",
+                "heading_path": [
+                  "Studied questions: psychological method fit and outcome interpretation",
+                  "PS2 \u2014 Review symptoms, daily life, burden and unwanted effects separately"
+                ],
+                "line_start": 19,
+                "line_end": 31,
+                "content_sha256": "d2cb9eeaacb863f539d5a75bd3ca0f5ea0696add4887b1fb221eec3b12c2d747",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -11.825624799185709,
+                "matched_terms": [
+                  "statistical",
+                  "significance",
+                  "benefit",
+                  "effects"
+                ],
+                "lexical_coverage": 0.5,
+                "unmatched_terms": [
+                  "clinical",
+                  "patient",
+                  "absolute",
+                  "confidence interval"
+                ],
+                "snippet": "## PS2 \u2014 Review symptoms, daily life, burden and unwanted effects separately\n\n**Scope:** questions for reviewing psychological care; no diagnostic or outcome-measure administration.\n\nA lower symptom score can coexist with persistent difficulty at work, in relationships or in valued activities. Agree on relevant goals and review the person's account, function, acceptability and burden, including worsening or new problems. Progress review should inform discussion with the clinician and possible re",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 0,
+                  "char_end": 500,
+                  "line_start": 19,
+                  "line_end": 23
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S682",
+                    "title": "FDA: PFDD Guidance3, Fit-for-Purpose Clinical Outcome Assessments",
+                    "url": "https://www.fda.gov/media/159500/download",
+                    "reading_status": "Final2025 guidance II.B\u2013C, IV.B,IV.G\u2013H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.",
+                    "limitations": "Final2025 guidance II.B\u2013C, IV.B,IV.G\u2013H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S682"
+                  },
+                  {
+                    "qualified_id": "psychology:S01",
+                    "title": "APA \u2014 Policy statement on evidence-based practice in psychology",
+                    "url": "https://www.apa.org/practice/guidelines/evidence-based-statement",
+                    "reading_status": "full_policy_webpage_read_by_researcher_selected_clinical_implications_rechecked_by_integrator",
+                    "limitations": "Policy/methodology, not efficacy of a particular therapy. Full page read in cycle005, superseding previous access gap only for this source.",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "psychology:S01"
+                  },
+                  {
+                    "qualified_id": "psychology:S105",
+                    "title": "Judith S. Beck: Cognitive Behavior Therapy, Basics and Beyond, third edition",
+                    "url": "https://www.guilford.com/books/Cognitive-Behavior-Therapy/Judith-Beck/9781462544196",
+                    "reading_status": "selected_chapter5_9_22_openings_read",
+                    "limitations": "Researcher read printed71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.",
+                    "checked_on": "2026-10-17",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "psychology:S105"
+                  }
+                ],
+                "source_count": 5,
+                "source_ids": [
+                  "medical:S682",
+                  "psychology:S01",
+                  "psychology:S105",
+                  "psychology:S106",
+                  "psychology:S107"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate",
+                "fusion_score": 0.015625,
+                "matched_query_indices": [
+                  1
+                ]
+              },
+              {
+                "section_id": "d1311ae23bd6e8b43554e9e2",
+                "parent_section_id": null,
+                "canonical_path": "knowledge/clinical/NEURO.md",
+                "heading": "Treatment choices and monitoring",
+                "heading_path": [
+                  "Nervous systems, psychiatric treatment, and cognitive decline",
+                  "Treatment choices and monitoring"
+                ],
+                "line_start": 35,
+                "line_end": 48,
+                "content_sha256": "908b61156b4314d9cdb8de1f2e71cfb991b25a64ffc8a02dec31c2f0610252bf",
+                "kind": "section",
+                "result_type": "project_note",
+                "rank": -7.363936055942511,
+                "matched_terms": [
+                  "clinical",
+                  "benefit",
+                  "absolute",
+                  "effects"
+                ],
+                "lexical_coverage": 0.5,
+                "unmatched_terms": [
+                  "statistical",
+                  "significance",
+                  "patient",
+                  "confidence interval"
+                ],
+                "snippet": "t individual drug. Previous response, comorbidity, medicines, tolerability, and preferences matter. Benefit often takes weeks while adverse effects may appear earlier. Early energy or sleep improvement alone does not prove recovery. Agitation, suicidality, and mood elevation require prompt review, not simply waiting for the usual benefit window. S411\n\nMonitoring connects treatment with meaningful goals such as eating, personal care, work, sleep, or engagement. Review harms, barriers, suicidal th",
+                "snippet_truncated": true,
+                "snippet_range": {
+                  "char_start": 301,
+                  "char_end": 801,
+                  "line_start": 37,
+                  "line_end": 39
+                },
+                "evidence_status": "not_appraised_by_search",
+                "sources": [
+                  {
+                    "qualified_id": "medical:S25",
+                    "title": "NICE - NG222 Depression in adults",
+                    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                    "reading_status": "Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403",
+                    "limitations": "Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403",
+                    "checked_on": "2026-10-06",
+                    "rights_status": "restricted",
+                    "rights_rules": [
+                      {
+                        "id": "nice-ai-licensing",
+                        "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+                        "verified_permission_available": false
+                      }
+                    ],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S25"
+                  },
+                  {
+                    "qualified_id": "medical:S411",
+                    "title": "NIMH Mental Health Medications",
+                    "url": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+                    "reading_status": "Web sections inspected: antidepressants and interactions",
+                    "limitations": "Web sections inspected: antidepressants and interactions",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S411"
+                  },
+                  {
+                    "qualified_id": "medical:S412",
+                    "title": "NIMH Psychotherapies",
+                    "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+                    "reading_status": "Web elements and therapist-selection sections inspected",
+                    "limitations": "Web elements and therapist-selection sections inspected",
+                    "checked_on": "2026-10-09",
+                    "rights_status": "unknown",
+                    "rights_rules": [],
+                    "citation_scope": "parent_section; citation presence is not claim support",
+                    "permission_inferred": false,
+                    "metadata_truncated": false,
+                    "full_metadata_source_id": "medical:S412"
+                  }
+                ],
+                "source_count": 4,
+                "source_ids": [
+                  "medical:S25",
+                  "medical:S411",
+                  "medical:S412",
+                  "medical:S413"
+                ],
+                "source_ids_truncated": false,
+                "sources_truncated": true,
+                "source_metadata_level": "bounded summary; use source command for a selected full record",
+                "reading_status": "project_note; original-source access is separate",
+                "fusion_score": 0.015384615384615385,
+                "matched_query_indices": [
+                  1
+                ]
+              }
+            ],
+            "ranking": "RRF with constant 60 over bounded lexical lists; no evidence confidence score"
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "fetch",
+            "706f4896a90341ff3164cf49",
+            "--expected-sha256",
+            "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920",
+            "--max-chars",
+            "12000"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "706f4896a90341ff3164cf49",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+            "heading": "F2 \u2014 Does a small p-value prove an important effect?",
+            "heading_path": [
+              "Studied questions: foundations and broad health",
+              "F2 \u2014 Does a small p-value prove an important effect?"
+            ],
+            "line_start": 21,
+            "line_end": 34,
+            "content_sha256": "7033211cb49555ab104f74f9195c561fa3459af8f5868261a2dd6a616e26d920",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "## F2 \u2014 Does a small p-value prove an important effect?\n\n**Scope:** statistical interpretation; no clinical treatment verdict follows from this card alone.\n\nA p-value is computed under a specified null model. It describes how unusual the selected statistic, or results at least as extreme in the specified test direction, would be if that model applied. It is not the probability that the null hypothesis is true, that an intervention works, or that a reported effect occurred 'by chance'. State the hypothesis and assumptions rather than converting a p-value into a personal probability. [psychology:S104]\n\nFailing to reject a null hypothesis does not establish that it is true. A study may leave important effects unresolved. Conversely, a very small difference can become statistically detectable in a large sample without becoming practically important. Examine the effect estimate, uncertainty, comparator, outcome scale and time horizon before discussing benefit or harm. Recommendation strength is another judgment and is not a synonym for statistical significance. [psychology:S104]\n\nA Type I error rejects a true null hypothesis; a Type II error fails to reject a false one. A chosen significance threshold controls one error under assumptions; it does not remove every risk of a wrong conclusion. The consequences of mistakes and study design matter. Do not change thresholds after seeing a result to manufacture a favorable conclusion. That last instruction is this project's appraisal safeguard, not a reproduced textbook procedure.\n\n**Original synthetic illustration:** two invented reports have the same small p-value but use different outcomes and report very different effect magnitudes. Their practical value need not be the same. A large p-value with a wide interval also cannot establish 'no meaningful difference'; this packet did not study equivalence/noninferiority methods. Do not claim that another test proves an exactly zero effect: meaningful bounds and exact equality are different claims.\n\n**Reading:** OpenIntro 4e screen-reader selected pp. 211\u2013213, 216\u2013218 and 223\u2013224: hypothesis framework, decision-error definitions, opening p-value definition and statistical versus practical significance. PDF pp. 218 and 224 visually checked. Full calculation exercises, multiplicity, equivalence and complete test-method appraisal were not completed. [psychology:S104]\n\n",
+            "offset": 0,
+            "total_chars": 2392,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 2392,
+              "line_start": 21,
+              "line_end": 34
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [
+              {
+                "qualified_id": "psychology:S104",
+                "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+                "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+                "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+                "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source",
+                "checked_on": "2026-10-17",
+                "rights_status": "unknown",
+                "rights_rules": [],
+                "citation_scope": "parent_section; citation presence is not claim support",
+                "permission_inferred": false,
+                "metadata_truncated": true,
+                "full_metadata_source_id": "psychology:S104"
+              }
+            ],
+            "source_count": 1,
+            "source_ids": [
+              "psychology:S104"
+            ],
+            "source_ids_truncated": false,
+            "sources_truncated": false,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "fetch",
+            "792dfeb4c05eb9ac8e9e695e",
+            "--expected-sha256",
+            "5759b1e2798016cb9d5b3ab2396517129d1f5af72f4b3264a38be81363f13d37",
+            "--max-chars",
+            "12000"
+          ],
+          "exit_code": 0,
+          "output": {
+            "section_id": "792dfeb4c05eb9ac8e9e695e",
+            "parent_section_id": null,
+            "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+            "heading": "Evidence appraisal methods",
+            "heading_path": [
+              "Evidence appraisal methods"
+            ],
+            "line_start": 1,
+            "line_end": 8,
+            "content_sha256": "5759b1e2798016cb9d5b3ab2396517129d1f5af72f4b3264a38be81363f13d37",
+            "kind": "section",
+            "schema": "knowledge-search-v1",
+            "text": "# Evidence appraisal methods\n\nFrame population, intervention, comparator and outcomes. Start with applicable current guidelines, then systematic reviews and primary research for unresolved questions. Distinguish recommendations, evidence and interpretation.\n\nRecord design, sample, baseline risk, comparator, follow-up, patient-relevant outcomes, absolute/relative effects, intervals, missing data, bias, funding and applicability. Mechanisms, surrogates, uncontrolled reports, vendor benchmarks and trial registration do not establish clinical benefit.\n\nRandomized evidence can support many efficacy questions; observational studies can inform rare harms with confounding limits. Evidence level does not resolve a population mismatch. Do not combine incompatible endpoints or invent numbers from qualitative abstracts.\n\n",
+            "offset": 0,
+            "total_chars": 821,
+            "truncated": false,
+            "next_offset": null,
+            "text_range": {
+              "char_start": 0,
+              "char_end": 821,
+              "line_start": 1,
+              "line_end": 8
+            },
+            "evidence_status": "not_appraised_by_search",
+            "sources": [],
+            "source_count": 0,
+            "source_ids": [],
+            "source_ids_truncated": false,
+            "sources_truncated": false,
+            "source_metadata_level": "bounded summary; use source command for a selected full record",
+            "permission_inferred": false
+          },
+          "stderr": ""
+        },
+        {
+          "command": [
+            "python",
+            "-X",
+            "utf8",
+            "skills/health-research/scripts/knowledge_search.py",
+            "source",
+            "psychology:S104"
+          ],
+          "exit_code": 0,
+          "output": {
+            "schema": "knowledge-search-v1",
+            "result_type": "bibliographic_metadata",
+            "source": {
+              "namespace": "psychology",
+              "id": "S104",
+              "qualified_id": "psychology:S104",
+              "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
+              "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
+              "checked_on": "2026-10-17",
+              "reading_status": "previous_selected_foundations_regression_and_multiple_comparisons_sections_read",
+              "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190\u2013193,195\u2013196,199, selected5.1.1\u20135.1.6; root visual192\u2013193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised. Cycle013 researcher directly read8.2.3/8.2.5 on356/360; root independently read/visually checked356/360 and additionally8.2.6 on361. Three distinct substantive pages, not five; page357practice/8.2.7opening not adopted. Current exact-file identity and resource licence/terms checked. Introductory near-normality wording is not generalized to every fitting method. No source quotation/example/figure/exercise/code/data reproduced; prediction intervals, robust/clustered/time-series inference and clinical model validation remain separate study. Additional 2026-10-17 section 7.5.6 reading: printed/PDF329-331, three distinct new pages; researcher and integrating reviewer both read them and visually checked330. Introductory ANOVA/pairwise account only; not a general method for dependent benchmarks, adaptive selection, false-discovery analysis or clinical trials. Source examples/formulas/figures/exercises are not reproduced. Exact-file identity and current license/terms checked.",
+              "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
+              "region": "Original psychological source applicability; inspect canonical record",
+              "canonical_path": "knowledge/psychology/sources.json",
+              "rights_rules": [],
+              "permission_inferred": false,
+              "rights_status": "unknown",
+              "citation_scope": "parent_section; citation presence is not claim support"
+            },
+            "external_content_fetched": false,
+            "evidence_status": "not_appraised_by_search",
+            "permission_inferred": false,
+            "fingerprint": "f6fa35d19a16fb1ba80d9f3dc439b3fe775dfae8f756d5bab0f08c2b4b081a2d"
+          },
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Authored response observations are not independent clinical review.",
+    "Short ambiguous queries can retrieve a related but unsuitable sense; read and refine rather than infer relevance from rank.",
+    "Initial large tool output was truncated in one context; only selected full final command outputs are exported.",
+    "Commands are represented with portable paths; no private runtime or library path is published."
+  ]
+}

@@ -24,3 +24,7 @@ Review supplement evidence by ingredient, indication, deficiency evidence, dose/
 If the user requests recording, route the selected diary/summary to the authorized private archive. Do not export a real diary into general knowledge or web search. Offer text-based or available host question UI; never claim a specific interactive interface is universally installed.
 
 For birth through 59 months, use [feeding and preventive pediatric care](references/PEDIATRIC_CARE.md). Distinguish exclusive milk feeding, complementary feeding and toddler/preschool meals. Verify formula preparation, food texture, allergy/exclusion context, growth and age-specific supplementation; do not transfer adult deficits, fixed macros, salt targets or restrictive diets. Review feeding deterioration through [pediatric illness](references/PEDIATRICS.md) before calculating intake.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

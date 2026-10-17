@@ -9,7 +9,7 @@ import zipfile
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlparse
 
-from sync_references import MAP, destination, expected
+from sync_references import MAP, SEARCH_SKILLS, destination, expected
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {'.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
@@ -128,6 +128,8 @@ def plugin_paths():
     for skill, sources in MAP.items():
         paths.update({f'skills/{skill}/SKILL.md', f'skills/{skill}/agents/openai.yaml'})
         paths.update(f'skills/{skill}/references/{destination(src)}' for src in sources)
+    paths.update(f'skills/{skill}/scripts/knowledge_search.py' for skill in SEARCH_SKILLS)
+    paths.update(f'skills/{skill}/references/knowledge-search-map.json' for skill in SEARCH_SKILLS)
     return paths
 
 
@@ -272,6 +274,9 @@ def validate(root=ROOT):
     validate_import_amendments(root)
     require(json.loads((root/'knowledge/source-catalog.json').read_text(encoding='utf-8'))==catalog(root),'Stale unified source catalog')
     require((root/'skills/health-contribute/scripts/source_review.py').read_bytes()==(root/'scripts/source_review.py').read_bytes(),'Stale bundled source review helper')
+    for skill in SEARCH_SKILLS:
+        require((root/'skills'/skill/'scripts/knowledge_search.py').read_bytes() == (root/'scripts/knowledge_search.py').read_bytes(),
+                f'Stale bundled knowledge search helper: {skill}')
     with (root / 'knowledge/sources.csv').open(newline='',encoding='utf-8') as f:
         require(list(csv.DictReader(f)) == sources, 'CSV differs from canonical JSON')
     for rel, wanted in expected(root).items():

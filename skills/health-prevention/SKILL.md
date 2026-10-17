@@ -30,3 +30,7 @@ Use [chronic conditions](references/CHRONIC.md), [ageing and function](reference
 For newer therapies and prevention claims, separate demonstrated clinical benefit, approved indications and jurisdictions, availability, investigational options and unsupported marketing. Give balanced alternatives and the next decision or follow-up, not a global health verdict.
 
 For care from birth to the fifth birthday, use [pediatric preventive care and plans](references/PEDIATRIC_CARE.md). Match examination, newborn screening, growth/development, vaccination and dental/vision recommendations to exact age, country, birth risks and completed records. Explain what a procedure can answer and who follows up the result; no universal screening or catch-up bundle.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.
