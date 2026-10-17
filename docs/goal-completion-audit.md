@@ -37,3 +37,7 @@ Packet51 adds GI-M1 test-purpose/method context, REPRO-M1 selected extension pop
 ## Selected cycle011 continuation
 
 STAT-F4 adds sampling-distribution/standard-error/model distinctions; CV-E1 separates confirmation, prognostic association and programme outcomes; SPORT-D1 appraises a primary attention-task comparison and its reporting inconsistencies. See [cycle011 review](goal-study-cycle-011-review.md). A bounded source-support audit also found active NICE-dependent claims in CHRONIC and CBT27 despite current bibliographic-only policy. Selected independent official sources replace or narrow those claims; exact unsupported details remain an explicit research queue. No whole-corpus clearance or broad-goal completion follows.
+
+## Selected cycle012 continuation
+
+AR3 distinguishes supervised penicillin assessment from later understanding, exposure and record correction. DX-E1 separates diagnostic probability, modeled sequential testing and severity; PAIN-E1 preserves a favorable acceptance result without claiming every pain outcome improved. See [cycle012 review](goal-study-cycle-012-review.md). Scoped CKD/medicine and legacy-source repairs are recorded separately, without counting each repair as new study. The initial38 and23 additional bounded units (15 foundational,8 applied) remain selected coverage, not medical completeness. Exact local pathways, deeper efficacy/harms, foundational book study and wider specialty/life-stage depth remain open.

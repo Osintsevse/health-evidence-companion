@@ -36,7 +36,7 @@ Clinical decisions about avoidance, immunotherapy, biologics, medicine challenge
 
 Hives have several possible explanations; a recurring rash is not automatically a food allergy. The NHS overview can support general signposting, with immediate airway/circulatory danger taking precedence. A full current urticaria treatment algorithm remains further study. [S96]
 
-For a reported medicine reaction, preserve exact product/formulation, route, timing, symptoms, source and uncertainty as an information workflow. Do not silently convert an uncertain report into a confirmed immune allergy or erase a label. Current severe symptoms route to urgent care; specific diagnostic/challenge criteria need independently inspected applicable guidance.
+For a reported medicine reaction, preserve the source and uncertainty. Penicillin-specific evidence supports explaining supervised evaluation and its severe-delayed-reaction boundary; it does not provide a universal drug-allergy algorithm. [S746] Read AR3 in [the allergy packet](44_LABS_BP_ALLERGY_CHILDREN.md) for follow-up after assessment. Preserve emergency action guidance.
 
 ## Source workflow and remaining gaps
 

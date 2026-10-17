@@ -1,0 +1,33 @@
+# Cycle012: medication indications, allergy follow-up, pain outcomes and diagnostic inference
+
+Study date: 2026-10-17. Goal active. Three additional applied study units are AR3 in packet 44 and DX-E1/PAIN-E1 in packet 53. Targeted older-claim repairs and source counts are not additional study units or clinical validation.
+
+## Actual source reading and rights
+
+| Source | Researcher and integrating review | Limits |
+|---|---|---|
+| S97/S396, KDIGO 2024 | Researcher/root read current portal status and selected combined-RAS, SGLT2 and GLP1 recommendations/practice points; root directly rechecked text and article-specific CC BY-NC-ND 4.0 notice. | Same2024 edition despite 2026 upload path. Text-only root check: web screenshot pixels unavailable; native PDF request returned403. No visual table/formula verification or primary-trial reread. Public-review2027 chapter is not adopted. Brief original facts, no adapted source expression/algorithms. |
+| S745, exact losartan SPL | Researcher/root read section7.4 and July2026 provider/revision metadata; NLM rights checked. | Third-party labels are not automatically public domain. VA NEPHRON-D results are label reporting, not original-trial appraisal; no Serbian approval or product-interchangeability claim. |
+| S746, CDC 2025 penicillin overview | Researcher/root selected history, phenotype, professional testing and severe delayed reaction boundary; CDC agency-material notice read. | No universal drug algorithm, diagnostic-accuracy estimate or home protocol. Inconsistent headline prevalence denominators omitted. Source freely available at CDC; no endorsement. |
+| S747, Copaescu 2024 original follow-up | Researcher/root selected main methods/results/discussion/limitations and article-specific CC-BY notice; linked permissions and AMA terms section4 rechecked. | Low-risk adults, mostly White; 26/377 unreachable, self-report, incomplete re-exposure, no record audit. Supplements and distinct 2023 trial unappraised. Incorrect printed percentage for 11/351 is omitted. No causal predictor or zero-risk inference. |
+| S748, Kanzler 2022 pilot RCT | Researcher/root selected methods, detailed results, limitations/disclosures and explicit CC BY 4.0; researcher inspected provider terms after initial rights lookup exposed clinical text. | Small single-clinic pilot, retrospective registration, expert delivery and unequal contact. No protocol/scale/figure/supplement reuse or comprehensive harms appraisal. Detailed contrasts preferred over broader discussion wording. |
+| S749, ASH 2018 VTE diagnosis | Root scope/abstract, PE recommendations/remarks, selected evidence-method/indirectness footnotes and limitations; actual general terms and source copyright read. | Evidence search through 2017-10-01. Current official status page describes February 2022 limited searches; no verified2026 evidence update. Meeting-abstract and confidential-peer-review AI rules do not by themselves apply to this published guideline. No open licence asserted or decision rule/flowchart/table reproduced. |
+| S750, AHA 2026 acute PE | Root official summary and Top Things to Know; current general terms of service inspected. | Copyrighted brief original facts only; full Circulation guideline and separate tools/PDFs unread. Management/severity summary is not a complete diagnostic or disposition protocol. |
+
+Rights checks distinguish explicit article licences, ordinary copyright, restricted identified works and unrelated meeting/submission policies. Current AHA terms protect website content without an identified specific AI-input clause in the inspected text; no source expression is republished. The separate 2023 PALACE publication was not adopted after rights review; no mirror workaround used. KDIGO terms endpoint could not be inspected comprehensively, and its article licence does not permit repackaging an adapted guideline. This is selected-source review, not legal advice or a whole-provider clearance.
+
+## What changed and why
+
+MEDICINES replaces active S29/S304/S305/S94/S313 dependence at the identified paragraphs with actually inspected independent support or explicit gaps. The kidney/diabetes replacement preserves indication-specific useful knowledge; it does not reconstruct a removed uncomplicated-diabetes regimen. Combined-RAS harms need their own outcome evidence rather than an additive-mechanism story. General hypertension selection and lipid eligibility remain separate questions.
+
+DIAGNOSTICS separates independently supported troponin identity from an unverified exact FEU/DDU conversion, then routes PE reasoning to DX-E1. Probability, diagnosis and severity/disposition answer different questions; model-based pathway estimates are not the same evidence as prospective sequential-pathway validation. No Wells/PERC tool or age formula is reproduced. Existing emergency action and independent co-support are preserved.
+
+AR3 distinguishes later self-report/avoidance from assessed tolerance and record correction. PAIN-E1 preserves positive acceptance evidence while leaving comparative disability, pain-intensity and quantitative QoL benefit unresolved. No result is generalized to a complete psychotherapy course or this plugin.
+
+## Integration and checks
+
+Canonical notes route through source-grounded reasoning, direct medicine/CBT skill entrypoints and deterministic reference generation. Ten actual Russian answers were produced in three fresh contexts: three diagnostic, three pain-outcome and four allergy/medicine answers. Root read all10 and verified assigned full-file hashes against frozen inputs and the canonical candidate; no consequential unsupported addition was identified in these selected outputs. Responders used stored notes and did not reopen originals. These are explicitly routed checks, not autonomous routing or clinical validation. Local validation, build and47 targeted source/review, catalog/import and navigation tests passed. Staged-boundary and submitted-head CI are recorded separately.
+
+## Remaining work
+
+Applicable initial uncomplicated-diabetes and lipid comparisons; general hypertension selection; exact local labels and unit conversions; contemporary diagnostic-pathway validation; larger chronic-pain interference/function/QoL trials and systematic harms; other-drug and pediatric/severe-allergy pathways; and wider source-dependency review remain open. The legacy reconciliation paragraph S308 and mixed insulin support need separate appraisal. Broad foundational, organ/life-stage and psychology study remains incomplete. Maintainer/clinical review remains pending; no merge, release or installed-plugin update.

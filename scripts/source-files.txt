@@ -44,6 +44,7 @@ docs/goal-study-cycle-008-review.md
 docs/goal-study-cycle-009-review.md
 docs/goal-study-cycle-010-review.md
 docs/goal-study-cycle-011-review.md
+docs/goal-study-cycle-012-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -150,6 +151,7 @@ knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -270,6 +272,7 @@ skills/health-care-navigation/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-care-navigation/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-care-navigation/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-care-navigation/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-care-navigation/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -331,6 +334,7 @@ skills/health-contribute/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-contribute/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-contribute/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-contribute/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-contribute/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -421,6 +425,7 @@ skills/health-explain/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-explain/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-explain/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-explain/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-explain/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -481,6 +486,7 @@ skills/health-family-care/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-family-care/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-family-care/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-family-care/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-family-care/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -522,6 +528,7 @@ skills/health-first-aid/references/32_RISK_COMMUNICATION.md
 skills/health-first-aid/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-first-aid/references/41_EVERYDAY_HEALTH_NOTES.md
 skills/health-first-aid/references/47_TICKS_AND_SNAKEBITES.md
+skills/health-first-aid/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-first-aid/references/AGEING_REHAB.md
 skills/health-first-aid/references/ANATOMY.md
 skills/health-first-aid/references/ARCHITECTURE.md
@@ -554,6 +561,7 @@ skills/health-history-intake/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md
 skills/health-history-intake/references/26_CLINICAL_ROUTING_AND_SCOPE.md
 skills/health-history-intake/references/32_RISK_COMMUNICATION.md
 skills/health-history-intake/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/health-history-intake/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-history-intake/references/AGEING_REHAB.md
 skills/health-history-intake/references/ANATOMY.md
 skills/health-history-intake/references/ARCHITECTURE.md
@@ -616,6 +624,7 @@ skills/health-medicine-info/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-medicine-info/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-medicine-info/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-medicine-info/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-medicine-info/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -678,6 +687,7 @@ skills/health-mental-health/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-mental-health/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-mental-health/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-mental-health/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-mental-health/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -731,6 +741,7 @@ skills/health-nutrition/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-nutrition/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-nutrition/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-nutrition/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-nutrition/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -791,6 +802,7 @@ skills/health-prevention/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-prevention/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-prevention/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-prevention/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-prevention/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -838,6 +850,7 @@ skills/health-record-design/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-record-design/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-record-design/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-record-design/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-record-design/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-record-design/references/AGEING_REHAB.md
 skills/health-record-design/references/ANATOMY.md
 skills/health-record-design/references/ARCHITECTURE.md
@@ -904,6 +917,7 @@ skills/health-record-import/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
 skills/health-record-import/references/36_PRIVATE_INTAKE_QUEUE.md
 skills/health-record-import/references/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md
 skills/health-record-import/references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md
+skills/health-record-import/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-record-import/references/AGEING_REHAB.md
 skills/health-record-import/references/ANATOMY.md
 skills/health-record-import/references/ARCHITECTURE.md
@@ -1002,6 +1016,7 @@ skills/health-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/health-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -1054,6 +1069,7 @@ skills/psyops-cbt-act-mct/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-cbt-act-mct/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-cbt-act-mct/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-cbt-act-mct/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/psyops-cbt-act-mct/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -1116,6 +1132,7 @@ skills/psyops-dialogue/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-dialogue/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-dialogue/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-dialogue/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/psyops-dialogue/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1264,6 +1281,7 @@ skills/psyops-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/psyops-research/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md
@@ -1326,6 +1344,7 @@ skills/psyops-sport/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-sport/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-sport/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-sport/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/psyops-sport/references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md
 skills/psyops-sport/references/ENDOMETRIOSIS.md
 skills/psyops-sport/references/evidence-methods.md
 skills/psyops-sport/references/psychology/00_COMMON_INDEX.md

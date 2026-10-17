@@ -40,3 +40,5 @@ Read [condition support](references/CHRONIC.md), [neuropsychiatry](references/NE
 ## Source-grounded inference
 
 For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.
+
+For chronic-pain therapy evidence, read the complete PAIN-E1 heading in [outcomes and diagnostic reasoning](references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md). Distinguish acceptance, pain, interference, function and quality of life, and preserve the actual comparator and uncertainty.

@@ -697,9 +697,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S97 - KDIGO - CKD evaluation and management, 2024 guideline portal
 - URL: https://kdigo.org/guidelines/ckd-evaluation-and-management/
 - Region: International
-- Reading status: Current guideline status and focused-update notice inspected; complete guideline not read.
+- Reading status: 2026-10-17: researcher/root read live status notice:2027 medication-management focused update public review through2026-11-04;2024 is published framework. Draft content not studied/adopted.
 - Purpose: Version tracking and acute/chronic kidney assessment source route.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S98 - KDIGO - Selected 2024 CKD evaluation takeaways presentation
 - URL: https://kdigo.org/wp-content/uploads/2024/07/07232024-KDIGO-CKD.pdf
@@ -2788,11 +2788,11 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Checked: 2026-10-09
 
 ### S396 - KDIGO 2024 CKD Clinical Practice Guideline
-- URL: https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf
+- URL: https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2024-CKD-Guideline.pdf
 - Region: Global
-- Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document
+- Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document 2026-10-17: researcher/root additionally selected recommendations3.6.4,3.7.1,3.9.1 and related practice points from the same2024 edition; root text and licence notice read, web screenshot pixels not available and native PDF download returned403. No claim of visual/page-complete review or primary-trial appraisal.
 - Purpose: Chronicity versus AKI, cardiorenal context and monitoring
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S397 - GINA Summary Guide for Asthma Management and Prevention 2026
 - URL: https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf
@@ -5228,4 +5228,46 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: US
 - Reading status: Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.
 - Purpose: Diagnostic purpose and main spirometry test; not exact obstruction threshold, full protocol or treatment-selection algorithm.
+- Checked: 2026-10-17
+
+### S745 - DailyMed: losartan potassium, REMEDYREPACK INC., exact SPL
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f39f7f9-edac-45ca-9ee2-c2ecad0915ab
+- Region: US
+- Reading status: Revised July 2026; published 2026-07-13, version1. Researcher/root selected section7.4, revision/provider metadata and NLM rights. Label reports VA NEPHRON-D; original trial not appraised.
+- Purpose: Dual RAS blockade safety and regulatory-label versus original-trial evidence.
+- Checked: 2026-10-17
+
+### S746 - CDC: Clinical Features of Penicillin Allergy
+- URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html
+- Region: US
+- Reading status: 2025-08-25. Researcher selected overview, assessment and supervised-testing/severe-delayed-reaction sections; root independently rechecked these and current CDC material policy. References are unread locators.
+- Purpose: Penicillin-specific professional evaluation and severe delayed reaction boundary; no home protocol or prevalence estimate.
+- Checked: 2026-10-17
+
+### S747 - Copaescu et al.: six-month penicillin allergy self-report after delabeling (2024)
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822413
+- Region: International adult low-risk cohort
+- Reading status: 2024-08-15; JAMA Network Open7:e2429621, DOI10.1001/jamanetworkopen.2024.29621. Researcher/root selected main methods/results/discussion/limitations and article-specific CC-BY permissions. Supplements/2023 trial not appraised.
+- Purpose: Assessed tolerance, later self-report and record correction are different outcomes; arithmetic inconsistency omitted.
+- Checked: 2026-10-17
+
+### S748 - Kanzler et al.: focused ACT for chronic pain, pilot RCT (2022)
+- URL: https://link.springer.com/article/10.1186/s12875-022-01690-2
+- Region: US single clinic
+- Reading status: 2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY4. No scales/protocol/figures/supplement reused; no independent correction search completed.
+- Purpose: Preserve positive acceptance result while distinguishing comparative disability, pain and QoL evidence.
+- Checked: 2026-10-17
+
+### S749 - ASH2018 VTE diagnosis guideline: selected PE and evidence-method sections
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6258916/
+- Region: International adult clinical guidance
+- Reading status: 2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828. Root selected scope, PE remarks/recommendations, methods/indirectness footnotes and limitations; evidence search through2017-10-01. Live status page reports February2022 limited-search review, not verified2026 refresh.
+- Purpose: Eligible probability/assay context and sequential-pathway modeling limits; no reproduced decision rule, table, formula or algorithm.
+- Checked: 2026-10-17
+
+### S750 - AHA2026 acute PE: official summary and Top Things to Know
+- URL: https://professional.heart.org/en/science-news/2026-guideline-for-the-evaluation-and-management-of-acute-pulmonary-embolism-in-adults/top-things-to-know
+- Region: US adult guidance summary
+- Reading status: 2026-02-19. Root read official summary/Top Things to Know and current AHA terms; not full Circulation article, slide set, patient PDFs or tools.
+- Purpose: Severity/management after acute PE differs from diagnostic probability; no personal disposition or drug-selection algorithm.
 - Checked: 2026-10-17

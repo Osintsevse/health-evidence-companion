@@ -98,7 +98,8 @@ CLINICAL_PACK = ['knowledge/clinical/'+name+'.md' for name in CLINICAL_TOPICS] +
     'knowledge/clinical/CLINICAL_INDEX.md','knowledge/clinical/navigation.json',
     'knowledge/clinical/routes.json','knowledge/clinical/source-review.json',
     'knowledge/clinical/intake-question-bank.json','knowledge/clinical/terminology.json',
-    'knowledge/clinical/source-use-policy.json','docs/medical-source-attribution.md']
+    'knowledge/clinical/source-use-policy.json','docs/medical-source-attribution.md',
+    'knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md']
 for _skill in ['health-first-aid','health-nutrition','health-care-navigation','health-history-intake']:
     MAP[_skill] = COMMON + ['knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md',
         'knowledge/32_RISK_COMMUNICATION.md','knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']
@@ -118,7 +119,7 @@ GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
                    'health-prevention', 'health-mental-health',
                    'health-nutrition', 'health-care-navigation',
                    'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct', 'psyops-sport']
-GROUNDED_REFERENCES = ['knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md', 'knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md', 'knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md', 'knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md', 'knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md', 'knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
+GROUNDED_REFERENCES = ['knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md', 'knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md', 'knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md', 'knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md', 'knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md', 'knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md', 'knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
     'knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
     'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
     'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',

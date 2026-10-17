@@ -60,3 +60,5 @@ The initial deeper cards are in [studied questions](42_STUDIED_QUESTIONS.md): co
 The [extended question packet](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md) adds F3,F4,S3,A1,A2,D1,D2,EN1,EN2, each with selected-reading and depth limits. See the programme/review for current check status; presence is not a completed specialty.
 
 The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.
+
+For supervised penicillin-assessment follow-up read AR3 in [the allergy packet](44_LABS_BP_ALLERGY_CHILDREN.md). For diagnostic probability versus pathway validation/severity, and acceptance versus comparative pain outcomes, read DX-E1/PAIN-E1 in [treatment outcomes and diagnostic reasoning](53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md). These three applied additions preserve exact reading, population and remaining-evidence limits.

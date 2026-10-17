@@ -77,3 +77,11 @@ England's health/development review page describes planned early contacts and th
 ## Attribution and use
 
 These are original educational explanations with bibliographic source links in the registers. Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). No provider endorsement or clinical approval of these notes is claimed. Third-party images, protected instruments, source tables and treatment algorithms are excluded. External works retain their own rights; the repository licence does not relicense them.
+
+## AR3 — A tested tolerance result, understanding and record correction are different outcomes
+
+In a six-month telephone follow-up of low-risk adults delabeled in PALACE, 351/377 were reached; 23/351 still considered themselves allergic and 34/351 avoided penicillin. Records were not audited, reasons for avoidance were unstudied and not everyone had subsequent exposure. These findings neither prove permanent record correction nor zero future reaction risk; secondary associations are not causal predictors. One printed adverse-event percentage is arithmetically inconsistent and is not adopted. [S747]
+
+**Original preparation example:** a specialist letter and an older pharmacy label disagree. Ask the evaluating team which drug/result was established, what documentation should reach other services and how to report later reactions. Do not change the label independently or take a test dose. These are information-continuity prompts, not a validated intervention.
+
+**Actual reading/limits:** Copaescu et al., JAMA Network Open 2024;7:e2429621; researcher/root selected main methods, results, discussion/limitations and article-specific CC-BY notice; supplements and underlying2023 trial were not appraised. Adult low-risk, predominantly White cohort; 26 unreachable, self-report and incomplete re-exposure limit transfer. No child, pregnancy, severe-delayed-reaction or other-drug pathway. Original synthesis, author/journal attribution and [CC-BY permissions](https://jamanetwork.com/pages/cc-by-license-permissions); no questionnaire or table reproduced.
