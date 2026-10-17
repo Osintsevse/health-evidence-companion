@@ -716,3 +716,31 @@
 - Read: pubmed_abstract_and_indexed_primary_text; checked 2026-10-08
 - Supports: Limited quantity and quality of research do not establish NLP as an effective health intervention.
 - Limits: Old search; full contemporary evidence review not completed. Insufficient evidence is not robust proof of no possible effect.
+
+## Cycle004–005 selected-study update (2026-10-17)
+
+psychology:S01 policy access now full-page selected scope; psychology:S02 actual mhGAP ANX2/ANX3 PDF viewer52–54 and copyright4 read after initial access failure. This does not refresh other guideline chapters.
+
+## S105 — Judith S. Beck: Cognitive Behavior Therapy, Basics and Beyond, third edition
+
+- URL: https://www.guilford.com/books/Cognitive-Behavior-Therapy/Judith-Beck/9781462544196
+- Version: Release2020-10-07; copyright2021; ISBN9781462544196
+- Actual access: selected_chapter5_9_22_openings_read; checked 2026-10-17
+- Supports: Selected assessment, individualized goals/fit, progress/feedback and treatment-plan revision concepts.
+- Limits: Researcher read printed71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.
+
+## S106 — A-Tjak et al.: One year follow-up of ACT and CBT for adult depression
+
+- URL: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-020-03020-1
+- Version: 2021-01-14;BMC Psychiatry21:41
+- Actual access: full_article_read_by_researcher_selected_methods_outcomes_limits_rechecked; checked 2026-10-17
+- Supports: Defined adult depression trial/followup comparing ACT and CBT; nonsignificant differences do not establish equivalence.
+- Limits: One82person trial;2021 report is follow-up, not independent replication. Substantial missing follow-up observations and selected population; mediation does not by itself establish unique causal mechanism. CC BY4 article-specific notice checked; source tables/instrument rules not copied.
+
+## S107 — Nordahl et al.: MCT versus CBT for adult generalized anxiety disorder
+
+- URL: https://www.cambridge.org/core/journals/bjpsych-open/article/metacognitive-therapy-versus-cognitivebehavioural-therapy-in-adults-with-generalised-anxiety-disorder/D0099CA2C0936984F4C3BCCE41234511
+- Version: 2018;BJPsych Open
+- Actual access: full_article_read_by_researcher_selected_limits_and_license_rechecked; checked 2026-10-17
+- Supports: Selected GAD sample/protocol comparison favourable to MCT on worry/recovery; not universal superiority.
+- Limits: Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, missing one-year assessment window; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied.

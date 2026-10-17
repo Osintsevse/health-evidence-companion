@@ -1,6 +1,6 @@
 # Allergy information and diagnostic limits
 
-General adult education; reviewed 2026-10-06. This module covers information workflows, not individual diagnoses or unsupervised challenges. It complements module 05.
+General adult education; reviewed 2026-10-06. This module covers information workflows, not individual diagnoses or unsupervised challenges. It complements module 05. Scoped source-use/test-interpretation amendment2026-10-17 follows; other historical sections are not thereby refreshed.
 
 ## Recognize urgency before discussing tests
 
@@ -8,19 +8,13 @@ Rapid breathing difficulty, throat/tongue swelling, collapse or circulatory comp
 
 ## Terms that change interpretation
 
-Allergy involves an immune response; intolerance, predictable adverse effects and irritation are different possibilities. Sensitization means a test detects an immune response, not that exposure necessarily causes clinical illness. Establish the exposure, route, timing, reproducibility and symptom pattern before interpreting a test. [S91, S94-S95]
+For food allergy, sensitization and a reproducible adverse reaction on exposure are distinct. Total IgE does not identify an allergen; allergen-specific IgE alone does not determine clinical causality or reaction severity. Interpret the test with symptoms, exposure history and purpose. False results are possible; do not infer a universal error rate. [S690, S691]
 
-An isolated total-IgE elevation does not identify a clinical food allergy. History-directed testing addresses a particular allergen/exposure question; do not infer a food-avoidance list or severity from a general marker. [S91, S95]
+FDA's food-allergen framework is regulatory population evidence, not an individual diagnostic algorithm or guidance for drug/contact allergy. Its separate food-skin-test safety notice means a negative test cannot serve as permission for a home food challenge. Keep the particular test, food/route, timing and reproducibility visible. [S691, S692]
 
-| Question | Appropriate distinction | Avoid |
-|---|---|---|
-| Seasonal sneezing, itching and watery discharge | Allergic rhinitis versus infection, irritant exposure and other causes | Diagnosing from a pollen season or one blood result alone |
-| Suspected immediate food reaction | History-directed skin-prick or specific-IgE testing; selected component tests where useful | Broad panels as an automatic food-avoidance list |
-| Positive food-specific IgE | Sensitization interpreted with the exposure history | Equating the number with reaction severity or guaranteed allergy |
-| Food IgG/IgG4 panel | These tests are not recommended to diagnose food allergy/intolerance | Restrictive diets or an allergy diagnosis from IgG positivity |
-| Possible medicine reaction | Substance, formulation, timing, symptoms, severity and alternative causes | Calling every nausea or drowsiness episode an allergy |
+Food IgG/IgG4 panels remain a different question from IgE-mediated food allergy; the stored AAAAI source does not recommend them as a diagnostic basis for food-allergy/intolerance diets. This statement retains its earlier source scope and is not a fresh guideline review. [S95]
 
-Sources: S91, S94-S95. A supervised oral food challenge can resolve uncertainty in selected cases; it belongs in a medically equipped setting. A negative test is not permission for a home challenge after a serious reaction. Patch testing addresses a different, delayed contact-allergy question and does not substitute for immediate food-allergy assessment. [S91, S94]
+For targeted-test selection, named cutoffs, drug/contact allergy, supervised challenge eligibility and current treatment comparisons, retrieve usable applicable clinical guidance. The present packet does not supply these algorithms. Read AR1/AR2 in [the studied allergy and child-care packet](44_LABS_BP_ALLERGY_CHILDREN.md) for exact new reading scopes and gaps.
 
 ## A peanut-specific example of test interpretation
 
@@ -32,18 +26,18 @@ Added 2026-10-17. Actual parameter reading: PDF pp. 1-3 and 30 (journal pp. 1302
 
 ## Rhinitis and medicine classes
 
-Explain allergen/irritant measures and correct nasal-device technique alongside medicine evidence. Intranasal corticosteroids and antihistamines address different symptoms and routes; oral, nasal and eye formulations are not interchangeable. ARIA-EAACI 2024-2025 Part I, published online in 2025 and in print in 2026, conditionally favours an intranasal antihistamine/corticosteroid combination over either alone and corticosteroids over intranasal antihistamines in its comparisons. This is not a command for every person to use a combination. Severity, preferences, availability, technique and the exact label matter. Only the publication abstract was inspected here, not all recommendation tables. [S21, S90]
+Allergic-rhinitis symptoms can overlap with a cold or nonallergic triggers. Exposure timing and symptom course support assessment questions; they do not establish a diagnosis. The independently inspected NHS overview does not provide a comparative efficacy ranking. Earlier ARIA abstract-derived rankings are suspended pending verification of applicable source-use rights and adequate current evidence. [S21]
 
 First-generation antihistamines can impair alertness; some second-generation agents can still cause drowsiness. Alcohol and other sedatives matter. Nasal decongestants are different drugs with duration limits and rebound-congestion concerns; verify the local label. Wheeze or ongoing breathing symptoms require an asthma assessment rather than a rhinitis-only explanation. Do not give driving clearance or recommend stepping up prescription treatment. [S15, S23-S24, S41, S73]
 
 ## Food allergy, hives and medicine allergy
 
-Confirmed food allergy can require focused avoidance, nutrition support, a written emergency plan and appropriate rescue medication. Do not expand avoidance to unrelated foods solely on a panel or prescribe oral immunotherapy/biologics. Specialist options in EAACI management guidance are not DIY desensitization. [S92]
+Clinical decisions about avoidance, immunotherapy, biologics, medicine challenges and removing an allergy label require appropriate assessment and usable current evidence. This module provides no home desensitization, challenge or label-removal protocol. Historical EAACI/ARIA/NICE/urticaria locators are retained as bibliographic history rather than permission or completed clinical appraisal.
 
-Hives and angioedema have several causes; a recurring rash is not automatically a food allergy. The international urticaria guideline was updated in 2026. Its abstract and diagnostic figure descriptions were inspected; the complete treatment algorithm was not accessible in this review. Pharmacists can explain label-appropriate antihistamines, but this package does not invent dose escalation or biologic eligibility from an abstract. Prioritize airway/circulatory symptoms and seek assessment for persistent or unusual symptoms. [S93, S96]
+Hives have several possible explanations; a recurring rash is not automatically a food allergy. The NHS overview can support general signposting, with immediate airway/circulatory danger taking precedence. A full current urticaria treatment algorithm remains further study. [S96]
 
-For suspected medicine allergy, explain documentation and specialist assessment: exact product, reaction, timing, number of doses, route and source certainty. Keep allergy separate from non-allergic adverse reactions and preserve unknown status. Do not remove an allergy label or suggest a penicillin/NSAID challenge at home. A severe reaction history changes the assessment even when a later test is negative. [S94]
+For a reported medicine reaction, preserve exact product/formulation, route, timing, symptoms, source and uncertainty as an information workflow. Do not silently convert an uncertain report into a confirmed immune allergy or erase a label. Current severe symptoms route to urgent care; specific diagnostic/challenge criteria need independently inspected applicable guidance.
 
 ## Source workflow and remaining gaps
 
-Use current EAACI/ARIA/WAO guidance for the question and ALIMS or GRLS for the exact local medicine. The diagnostic, management and emergency documents address different tasks. Record the actual section read and conflicts between international and local documents. Full 2026 urticaria treatment tables, specialist immunotherapy protocols, occupational allergy and detailed contact-allergy guidance remain further reading, not completed training.
+Select usable current primary guidance for the actual question, checking provider-specific terms and reading scope; consult ALIMS or GRLS for the exact local medicine. The diagnostic, management and emergency documents address different tasks. Record the actual section read and conflicts between international and local documents. Full 2026 urticaria treatment tables, specialist immunotherapy protocols, occupational allergy and detailed contact-allergy guidance remain further reading, not completed training.

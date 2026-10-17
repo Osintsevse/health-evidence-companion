@@ -87,6 +87,10 @@ The following are learning routes and inspected sections. A book or lecture inde
 - [S641] Abbas, Lichtman and Pillai, *Cellular and Molecular Immunology*, seventh edition (2012), Chapter 1, printed pp. 2-3; read 2026-10-16. Chapter 19, printed pp. 426-428, read 2026-10-17 for mechanism only. The rest of the book is not recorded as read.
 - [S642] Kliegman et al., *Nelson Textbook of Pediatrics*, nineteenth edition (2011), Chapter 91, printed pp. 552-553; read 2026-10-16. Historical background only, without current thresholds or risk estimates.
 
+- [psychology:S103] Goldstein, fifth edition: selected cognitive-inference and learning/transfer sections, with exact reading scope in the register; not a current clinical enhancement claim.
+- [psychology:S104] OpenIntro Statistics, fourth edition: selected study-design and inference pages; exact screen-reader pagination and licensing scope retained in the register.
+- [psychology:S105] Judith S. Beck, third edition, release2020/copyright2021: selected chapter5 printed71–73, chapter9 printed160–163 and chapter22 printed365–367. Clinician-practice concepts, not comparative efficacy or a complete therapy protocol; see [method/outcome notes](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md).
+
 ### Indexed resources and access limits
 
 | Resource | Reading status | Permitted role here |

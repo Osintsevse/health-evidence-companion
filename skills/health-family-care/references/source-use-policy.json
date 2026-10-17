@@ -94,6 +94,17 @@
         "https://www.nejmgroup.org/legal/terms-of-use.htm"
       ],
       "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "wiley-allergy-content-review",
+      "host_suffix": "onlinelibrary.wiley.com",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_applicable_permission_or_licence_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://onlinelibrary.wiley.com/terms-and-conditions"
+      ],
+      "limits": "Cycle004 researcher inspected current Rules B,C,G,H, including explicit AI processing/output restrictions and licensing provisions. Integrating reviewer direct reopen403, not an independent full terms audit. Identified allergy guideline/abstract-derived claims are suspended pending applicable permission/licence verification; no same-work mirror bypass. Check article-specific licences separately; this is source selection, not a blanket legal conclusion about every Wiley work."
     }
   ],
   "instructions": [

@@ -20,10 +20,10 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "8718c6257bb979bf08e1cec4d34f9200c5a74f9777685da9c50d58395511e6b7",
+      "current_sha256": "2464b3b166f185a97875b94cbc90d91c8107c6a4394e28f8cdceecf3770e3485",
       "date": "2026-10-17",
-      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
-      "review_document": "docs/goal-study-cycle-003-review.md"
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits.",
+      "review_document": "docs/goal-study-cycle-004-005-review.md"
     },
     {
       "path": "knowledge/psychology/01_EVIDENCE_MAP.md",
@@ -36,10 +36,10 @@
     {
       "path": "knowledge/psychology/SOURCES.md",
       "original_import_sha256": "2ef2c531c1f5a7d386b0f4c67f2283831c1b944d22f81a81aa6981ea73716598",
-      "current_sha256": "b276eb8620469b4738cee680832947822759f4549bdef2992bf129e4f2467bc2",
+      "current_sha256": "64b07b4e41ac629f67d79ead5360755eee7acb6418d7a3f66517f3c04f970b8b",
       "date": "2026-10-17",
-      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
-      "review_document": "docs/goal-study-cycle-003-review.md"
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits.",
+      "review_document": "docs/goal-study-cycle-004-005-review.md"
     },
     {
       "path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",

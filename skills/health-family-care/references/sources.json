@@ -67,18 +67,18 @@
     "title": "CDC - Manage Common Cold, 2026-03-11",
     "url": "https://www.cdc.gov/common-cold/treatment/index.html",
     "region": "United States",
-    "retrieval_status": "Treatment sections opened",
+    "retrieval_status": "Researcher keypoints/comfort/temporary-relief/harms/risk/warning sections.",
     "use": "Cold symptoms, supportive measures and assessment thresholds",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S09",
     "title": "CDC - Adult Outpatient Clinical Care",
     "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
     "region": "United States",
-    "retrieval_status": "Indexed clinical sections read",
+    "retrieval_status": "Researcher adult-outpatient keypoints/scope/OTC evidence limitation.",
     "use": "Antibiotic use in bronchitis, sinusitis and pharyngitis",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S10",
@@ -184,18 +184,18 @@
     "title": "NHS - Allergic rhinitis",
     "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
     "region": "United Kingdom",
-    "retrieval_status": "Indexed sections read",
+    "retrieval_status": "Researcher symptom/cause/nonallergic distinction sections; not full comparative treatment evidence.",
     "use": "Allergic nasal symptoms, antihistamines and nasal steroids",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S22",
     "title": "EAACI - IgE-mediated food allergy diagnosis, 2023",
     "url": "https://doi.org/10.1111/all.15902",
     "region": "International",
-    "retrieval_status": "Indexed diagnostic recommendations read",
-    "use": "History plus tests; sensitization is not a proven food reaction",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S23",
@@ -805,45 +805,45 @@
     "title": "ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/",
     "region": "International",
-    "retrieval_status": "Publication abstract and dates read; full recommendation tables not accessible.",
-    "use": "Current rhinitis drug-class comparisons, with conditional scope.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S91",
     "title": "EAACI - Food allergy diagnosis guideline overview, 2023",
     "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/",
     "region": "International",
-    "retrieval_status": "Official overview read: history, sensitization, targeted tests and supervised challenge; not full guideline text.",
-    "use": "Diagnostic-test interpretation without home challenges.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S92",
     "title": "EAACI - IgE-mediated food allergy management, 2024",
     "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/",
     "region": "International",
-    "retrieval_status": "Official guideline abstract/overview read; full specialist protocols not studied.",
-    "use": "Confirmed food-allergy management concepts and specialist boundaries.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S93",
     "title": "International urticaria guideline, 2026",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41649409/",
     "region": "International",
-    "retrieval_status": "Publication dates, abstract and diagnostic figure descriptions read; linked PMC full text blocked by browser challenge.",
-    "use": "Latest guideline locator; no invented full treatment algorithm.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S94",
     "title": "NICE - CG183 Drug allergy",
     "url": "https://www.nice.org.uk/guidance/cg183/chapter/recommendations",
     "region": "UK",
-    "retrieval_status": "Indexed recommendations on reaction history, documentation and assessment inspected; direct full-page retrieval limited.",
-    "use": "Distinguish allergy, adverse effects and unknown status.",
-    "checked_on": "2026-10-06"
+    "retrieval_status": "bibliographic_pointer_only_current_permission_and_independent_claim_support_pending",
+    "use": "Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.",
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S95",
@@ -1840,9 +1840,9 @@
     "title": "USPSTF Hypertension in Adults Screening, 2021",
     "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
     "region": "US",
-    "retrieval_status": "Recommendation, intervals, confirmation and measurement paragraphs read.",
+    "retrieval_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice.",
     "use": "Adults without known hypertension; routine screening not acute-care guidance.",
-    "checked_on": "2026-10-08"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S206",
@@ -5080,9 +5080,9 @@
     "title": "When to get urgent medical help for babies and children under 5",
     "url": "https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/",
     "region": "UK",
-    "retrieval_status": "relevant_sections_opened_and_read",
+    "retrieval_status": "Researcher immediate-action/age-fever/breathing/behaviour/feeding sections; root selected actual text.",
     "use": "Afebrile/lower-temperature illness, feeding/responsiveness, young-infant thresholds; source urgency difference",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S566",
@@ -5206,9 +5206,9 @@
     "title": "CDC Developmental Monitoring and Screening",
     "url": "https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html",
     "region": "US",
-    "retrieval_status": "Relevant HTML sections inspected",
+    "retrieval_status": "Researcher monitoring/screening/follow-up sections; root actual screening ages/concern text.",
     "use": "Surveillance versus validated screening; AAP timing; early support navigation",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S580",
@@ -6144,6 +6144,87 @@
     "region": "Source-specific educational scope",
     "retrieval_status": "Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.",
     "use": "Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S684",
+    "title": "NHLBI: High Blood Pressure Diagnosis",
+    "url": "https://www.nhlbi.nih.gov/health/high-blood-pressure/diagnosis",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher full page; root selected measurement context/history/confirmation text.",
+    "use": "US public education: repeated/outside-office patterns and question-led assessment, not universal thresholds or panel.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S685",
+    "title": "Henny et al.: EFLM reference-interval review recommendation",
+    "url": "https://www.eflm.eu/files/efcc/CCLM%20Recommendation%20for%20the%20review%20of%20biological%20reference%20intervals.pdf",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher full8viewerpages; root selected terminology/transfer text.",
+    "use": "Dated conceptual methods; not current full verification standard or clinical cutoffs.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S686",
+    "title": "Ceriotti and Henny: Reference intervals and decision limits",
+    "url": "https://cms.ifcc.org/media/476879/ejifcc2008vol19no2pp106-114.pdf",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher full9viewerpages; root selected conceptual/critical-value/trend passages.",
+    "use": "Dated methods discussion; historical numerical examples not adopted.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S687",
+    "title": "NHS: Breastfeeding and enough milk",
+    "url": "https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-problems/enough-milk/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher selected attachment/intake/weight/nappy/early-help sections; root rechecked selected text.",
+    "use": "England-facing breastfeeding education, not individual intake diagnosis or premature-infant plan.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S688",
+    "title": "NHS: Baby health and development reviews",
+    "url": "https://www.nhs.uk/baby/babys-development/height-weight-and-reviews/baby-reviews/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher selected early-review and contact-with-concerns sections.",
+    "use": "England service schedule only; not a universal preventive schedule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S689",
+    "title": "WHO: Feeding an infant or young child",
+    "url": "https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/feeding-an-infant-or-young-child",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher selected tips/information read; root checked source identity.",
+    "use": "Global public-facing summary, not full current feeding guideline or individual plan.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S690",
+    "title": "NLM MedlinePlus Medical Test: Allergy Blood Test",
+    "url": "https://medlineplus.gov/lab-tests/allergy-blood-test/",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher relevant identity/results/limitations sections; root actual relevant text recheck.",
+    "use": "Consumer IgE test literacy, no universal error rate or clinical selection algorithm.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S691",
+    "title": "FDA: Public health importance of non-listed food allergens",
+    "url": "https://www.fda.gov/media/157637/download",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher selected title/definitions/II.A,III.A,IV.A; root selected sensitization/reactivity and evidence passages. Not full52pages.",
+    "use": "Regulatory food-allergen evidence framework, not an individual food/drug/contact diagnostic algorithm.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S692",
+    "title": "FDA: Food-allergen skin-test false-negative safety communication",
+    "url": "https://www.fda.gov/safety/medical-product-safety-information/all-allergenic-extracts-diagnosis-food-allergy-fda-safety-communication-fda-requires-warning-about",
+    "region": "Source-specific educational scope",
+    "retrieval_status": "Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.",
+    "use": "Specific US food-allergen extract warning, no universal assay false-negative rate.",
     "checked_on": "2026-10-17"
   }
 ]

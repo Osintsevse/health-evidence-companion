@@ -23,7 +23,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | Module | Question families | Evidence records / routes / synthetic cases |
 |---|---|
 | [Lay emergencies and first aid](EMERGENCY.md) | stroke/TIA, chest symptoms, CPR/AED, choking, bleeding, anaphylaxis, poisoning, heat/cold | 32 / 15 / 19 |
-| [Medicine and therapy class navigation](MEDICINES.md) | classes/mechanisms, exact products, prescription review, errors, monitoring, new therapies | 39 / 10 / 12 |
+| [Medicine and therapy class navigation](MEDICINES.md) | classes/mechanisms, exact products, prescription review, errors, monitoring, new therapies | 38 / 10 / 12 |
 | [Nutrition and food-diary review](NUTRITION.md) | calories/macros, food labels, LDL/triglycerides, diabetes/renal diets, restricted intake | 19 / 11 / 12 |
 | [Anatomy, physiology and disease families](ANATOMY.md) | organ networks, disease mechanisms, sex/life stages, ancestry, measurement bias | 20 / 7 / 12 |
 | [Chronic conditions and multimorbidity](CHRONIC.md) | blood pressure, diabetes/insulin plans, asthma/COPD, CKD, vascular disease, care plans | 25 / 11 / 14 |

@@ -219,3 +219,5 @@ Infant cradle cap is a different age context. NHS describes greasy scales that u
 **Currency gap:** the NHS dandruff page displays 2029 as both review and next-review dates on a 2026 check. That anomaly is retained and the page is not used here as current treatment evidence. Do not silently change the date or treat a future date as freshness.
 
 Further questions on mechanisms/measurement, sleep causes/tests, ageing/function, dementia and endometriosis are in [the extended packet](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md).
+
+The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.

@@ -1,10 +1,10 @@
 {
   "version": "3.0-public-0.1.1",
-  "review_date": "2026-10-08",
+  "review_date": "2026-10-17",
   "review_type": "targeted_narrative_review",
   "language": "en",
   "not_a_systematic_review": true,
-  "source_count": 104,
+  "source_count": 107,
   "independent_study_count": null,
   "notes": [
     "Entries include guides, descriptions, codes, studies, and project pages; the number of records is not equal to the number of independent trials.",
@@ -23,11 +23,11 @@
       "title": "APA — Policy statement on evidence-based practice in psychology",
       "url": "https://www.apa.org/practice/guidelines/evidence-based-statement",
       "type": "policy",
-      "published": "2005; page updated later",
-      "access": "indexed_excerpt",
-      "checked_at": "2026-09-26",
+      "published": "2005 policy; page updated April2021",
+      "access": "full_policy_webpage_read_by_researcher_selected_clinical_implications_rechecked_by_integrator",
+      "checked_at": "2026-10-17",
       "supported": "Evidence-based practice combines research, professional competence, and individual characteristics/preferences.",
-      "limitations": "Not proof of the effectiveness of a single method; The full text of the page did not open.",
+      "limitations": "Policy/methodology, not efficacy of a particular therapy. Full page read in cycle005, superseding previous access gap only for this source.",
       "use": "Basis of the review methodology."
     },
     {
@@ -36,10 +36,10 @@
       "url": "https://www.who.int/publications/i/item/9789240084278",
       "type": "guideline",
       "published": "2023",
-      "access": "landing_page",
-      "checked_at": "2026-09-26",
-      "supported": "An official comprehensive framework of care for mental health, neurological and substance use disorders.",
-      "limitations": "Read the card and review; The entire 184-page manual was not retrieved.",
+      "access": "landing_and_selected_original_PDF_ANX2_ANX3_sections_read",
+      "checked_at": "2026-10-17",
+      "supported": "Selected ANX2 and ANX3 preserve adult GAD/panic population, separate strength/certainty and delivery-format context. Not a universal method ranking or evidence for arbitrary chat delivery.",
+      "limitations": "After initial403/search-only gap, original official184page PDF downloaded and viewer4,52-54 actually read by integrating reviewer; printed20-22 only, not whole guideline or underlying reviews. CC BY-NC-SA3.0IGO; no tables/tools/algorithm copied or MIT relicensing.",
       "use": "Map of profile recommendations and boundaries of competence."
     },
     {
@@ -1366,6 +1366,42 @@
       "supported": "Selected sections distinguish observational studies from experiments, random sampling from random assignment, and discuss selection bias, non-response, confounding, and basic experimental design. Additional selected inference reading explains confidence-interval interpretation, p-values, decision errors, and statistical versus practical significance.",
       "limitations": "Sections 1.2.5, 1.3.1, 1.3.3–1.3.4, and 1.4–1.4.1 were read; screen-reader PDF pp. 20, 24–28, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207–208,211–213,216–218,223–224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations.",
       "use": "General study-design background; cite as psychology:S104 when referenced across namespaces."
+    },
+    {
+      "id": "S105",
+      "title": "Judith S. Beck: Cognitive Behavior Therapy, Basics and Beyond, third edition",
+      "url": "https://www.guilford.com/books/Cognitive-Behavior-Therapy/Judith-Beck/9781462544196",
+      "type": "textbook_selected_sections",
+      "published": "Release2020-10-07; copyright2021; ISBN9781462544196",
+      "access": "selected_chapter5_9_22_openings_read",
+      "checked_at": "2026-10-17",
+      "supported": "Selected assessment, individualized goals/fit, progress/feedback and treatment-plan revision concepts.",
+      "limitations": "Researcher read printed71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.",
+      "use": "Bounded clinical-practice concepts, with current evidence separately appraised."
+    },
+    {
+      "id": "S106",
+      "title": "A-Tjak et al.: One year follow-up of ACT and CBT for adult depression",
+      "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-020-03020-1",
+      "type": "randomized_trial_followup",
+      "published": "2021-01-14;BMC Psychiatry21:41",
+      "access": "full_article_read_by_researcher_selected_methods_outcomes_limits_rechecked",
+      "checked_at": "2026-10-17",
+      "supported": "Defined adult depression trial/followup comparing ACT and CBT; nonsignificant differences do not establish equivalence.",
+      "limitations": "One82person trial;2021 report is follow-up, not independent replication. Substantial missing follow-up observations and selected population; mediation does not by itself establish unique causal mechanism. CC BY4 article-specific notice checked; source tables/instrument rules not copied.",
+      "use": "Bounded comparator/outcome/application example; no universal equivalence or personal treatment choice."
+    },
+    {
+      "id": "S107",
+      "title": "Nordahl et al.: MCT versus CBT for adult generalized anxiety disorder",
+      "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/metacognitive-therapy-versus-cognitivebehavioural-therapy-in-adults-with-generalised-anxiety-disorder/D0099CA2C0936984F4C3BCCE41234511",
+      "type": "randomized_controlled_trial",
+      "published": "2018;BJPsych Open",
+      "access": "full_article_read_by_researcher_selected_limits_and_license_rechecked",
+      "checked_at": "2026-10-17",
+      "supported": "Selected GAD sample/protocol comparison favourable to MCT on worry/recovery; not universal superiority.",
+      "limitations": "Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, missing one-year assessment window; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied.",
+      "use": "Condition/protocol-specific active-comparator interpretation, not a complete comparative evidence map."
     }
   ]
 }

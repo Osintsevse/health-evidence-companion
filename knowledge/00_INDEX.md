@@ -87,3 +87,5 @@ Detailed birth-through-59-month navigation: [well-child care and local plans](cl
 - [Evidence, sleep, ageing, dementia and endometriosis questions](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md).
 
 Read only the relevant complete section; publication and indexing are not whole-source study or clinical validation.
+
+The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.

@@ -1,0 +1,35 @@
+# Goal study cycles004–005: integration and depth review
+
+Selected study2026-10-17. Eight cards L2,B2,AR1,AR2,P1,P2,PS1,PS2 are integrated for review. Bounded source/inference and observed-response checks are now recorded below; these are not independent clinical validation.
+
+## Actual study and corrections
+
+Researcher drafts preserve source/date/section/rights and genuine failures. B2 now uses actual USPSTF2021 recommendation and NHLBI2025 diagnosis text; initial ESC contents/WHO overview did not support a workup algorithm. An initial worker assumption that all AHA material was prohibited was corrected: no AHA-specific rule/terms prohibition was established. Local workup and special-population gaps remain.
+
+L2 EFLM2016 eight-page and IFCC2008 nine-page PDFs were read by researcher; integrating reviewer inspected relevant conceptual/transfer/critical/trend text and archived official copies with hashes. Dated numerical examples and full-standard claims were excluded. The EFLM copy is organization-hosted, not a publisher-platform access claim.
+
+AR1 uses independently inspected NLM Medical Test and FDA2025 definitions/evidence, with a separately scoped2023 skin-test warning. A specific target is not a claim that multiplex testing is impossible; the consumer page does not establish universal error rates. FDA population/regulatory evidence is not an individual diagnostic algorithm. AR2 keeps NHS context and dated CDC symptom-relief/evidence limits; it does not supply a comparative rhinitis regimen.
+
+P1/P2 were deepened beyond WHO public tips using actual NHS urgency/feeding/review and CDC monitoring/screening sections. Age and England/US service scopes remain explicit, and a nappy count/checklist is not a diagnosis. The WHO2022 postnatal full recommendation remained inaccessible; it was not reconstructed. NHS terms/OGL exclusions were checked, no provider endorsement or clinical approval of these original notes is implied, and images/tools/linked UNICEF material were excluded.
+
+PS1/PS2 include actual selected Beck third-edition openings (printed71–73,160–163,365–367), title/copyright/contents and selected visual checks. Publisher release2020-10-07 differs from copyright2021; an integrating-reviewer initial year conflation was corrected in the private bibliography before public contribution. No book cases/dialogues/forms/scales were reproduced. The two ACT/CBT and MCT/CBT articles were read by researcher; integrator checked selected methods/outcomes/limitations and article-specific CC BY4 licences. Follow-up reporting is not a new independent trial; nonsignificance is not equivalence. Mediation results are not adopted as proof of unique causal mechanisms. The discovered harms review remains abstract-only, with no risk rate derived.
+
+WHO mhGAP initially failed PDF access and appeared in indexed excerpts. Those excerpts were not accepted as actual recommendation reading. The official bitstream was subsequently archived with verified PDF/SHA, and the integrator actually read copyright4 plus ANX2/ANX3 viewer52–54 (printed20–22). Strength, certainty, adult GAD/panic scope, format/resource/preferences and training/privacy limitations are retained. Other184-page guideline chapters and underlying reviews are not thereby appraised. WHO CC BY-NC-SA3.0IGO notices remain external rights; no table, tool or algorithm is copied or relicensed by repository MIT.
+
+## Source-use and retrieval boundaries
+
+Researcher inspected Wiley Rules B,C,G,H including AI-processing provisions; integrator reopen returned403. Applicable article-specific permission/licence is not assumed. Known allergy guideline/abstract-dependent comparisons are suspended; independent NLM/FDA/CDC/NHS support is separately scoped. Historical IDs/access are preserved in version history; no same-work summary/abstract is used as a permission bypass. Known NICE drug-allergy dependence is removed from active module/routes/fixtures, with administrative boundaries and independent emergency sources retained. This is a targeted correction, not a complete legacy-source rights audit.
+
+Some research contexts initially could not see the managed worktree and selected older checkout/staged notes. These failures are retained and do not prove authoritative files absent. Root verified the current head and created exact canonical input copies with hashes; affected remaining-cycle drafts are being reconciled before acceptance. Research study and observed runtime reference access remain different checks.
+
+## Observed answers and focused repair
+
+Three fresh low-effort contexts read exact hashed copies of candidate entrypoints, shared reasoning and complete relevant bundled-reference sections. The copies were byte-matched to current generated references; this was a selected-reference test, not autonomous routing or installed-plugin evaluation. Eleven initial fictional answers covered laboratory flags/critical messages, BP confirmation/panel/country transfer, trends, food-IgE and negative skin tests, cold care/honey age, newborn illness, feeding, development, therapy comparisons and score/function/burden. Responders did not open the original clinical sources.
+
+The first newborn answer said urgent assessment now and not to wait for fever, but left the emergency route less explicit than intended. P1 was clarified to name immediate assessment through the local emergency service for the described constellation. A fourth fresh context read the updated complete P1/entrypoint/shared reasoning and hash-verified them; its actual answer called local emergency help immediately, did not wait for temperature and deferred to dispatch. The original weaker wording and focused repair are retained, rather than counting the first answer as a complete pass. Other relevant card sections were unchanged. Twelve observed responses therefore include one focused rerun across eight questions.
+
+Other answers preserved the intended limits: no diagnosis from a range flag or office readings, no universal panel/country transfer, no IgE-derived avoidance/severity claim or home challenge, no viral-cold antibiotic/OTC duration claim, no diagnosis from nappies/milestones, no universal therapy ranking or recovery from a score. No further unsafe inference was observed in this selected set. Assay workflow/multiplex details were correctly left unsupported by these cards rather than invented.
+
+## Technical status
+
+Local structure/content validation passed after removing an accidentally blank source-manifest entry. Forty-seven targeted source/review, navigation and immutable-import/amendment tests passed. A transient reference-write error was retried successfully without changing implementation; current generated copies were checked against canonical text before the newborn rerun. Candidate plugin/source/platform build and whitespace checks are recorded for the submitted head; full CI remains separate. The initial target is now30/38 checked within scope, not a completion claim for the broader curriculum.

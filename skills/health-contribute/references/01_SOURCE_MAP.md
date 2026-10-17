@@ -74,16 +74,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S08 - CDC - Manage Common Cold, 2026-03-11
 - URL: https://www.cdc.gov/common-cold/treatment/index.html
 - Region: United States
-- Reading status: Treatment sections opened
+- Reading status: Researcher keypoints/comfort/temporary-relief/harms/risk/warning sections.
 - Purpose: Cold symptoms, supportive measures and assessment thresholds
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S09 - CDC - Adult Outpatient Clinical Care
 - URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html
 - Region: United States
-- Reading status: Indexed clinical sections read
+- Reading status: Researcher adult-outpatient keypoints/scope/OTC evidence limitation.
 - Purpose: Antibiotic use in bronchitis, sinusitis and pharyngitis
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S10 - NHS - Paracetamol for adults
 - URL: https://www.nhs.uk/medicines/paracetamol-for-adults/
@@ -165,16 +165,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S21 - NHS - Allergic rhinitis
 - URL: https://www.nhs.uk/conditions/allergic-rhinitis/
 - Region: United Kingdom
-- Reading status: Indexed sections read
+- Reading status: Researcher symptom/cause/nonallergic distinction sections; not full comparative treatment evidence.
 - Purpose: Allergic nasal symptoms, antihistamines and nasal steroids
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S22 - EAACI - IgE-mediated food allergy diagnosis, 2023
 - URL: https://doi.org/10.1111/all.15902
 - Region: International
-- Reading status: Indexed diagnostic recommendations read
-- Purpose: History plus tests; sensitization is not a proven food reaction
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S23 - GINA - Asthma diagnosis FAQ
 - URL: https://ginasthma.org/faq/
@@ -648,37 +648,37 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S90 - ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)
 - URL: https://pubmed.ncbi.nlm.nih.gov/41324154/
 - Region: International
-- Reading status: Publication abstract and dates read; full recommendation tables not accessible.
-- Purpose: Current rhinitis drug-class comparisons, with conditional scope.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S91 - EAACI - Food allergy diagnosis guideline overview, 2023
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/
 - Region: International
-- Reading status: Official overview read: history, sensitization, targeted tests and supervised challenge; not full guideline text.
-- Purpose: Diagnostic-test interpretation without home challenges.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S92 - EAACI - IgE-mediated food allergy management, 2024
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/
 - Region: International
-- Reading status: Official guideline abstract/overview read; full specialist protocols not studied.
-- Purpose: Confirmed food-allergy management concepts and specialist boundaries.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S93 - International urticaria guideline, 2026
 - URL: https://pubmed.ncbi.nlm.nih.gov/41649409/
 - Region: International
-- Reading status: Publication dates, abstract and diagnostic figure descriptions read; linked PMC full text blocked by browser challenge.
-- Purpose: Latest guideline locator; no invented full treatment algorithm.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S94 - NICE - CG183 Drug allergy
 - URL: https://www.nice.org.uk/guidance/cg183/chapter/recommendations
 - Region: UK
-- Reading status: Indexed recommendations on reaction history, documentation and assessment inspected; direct full-page retrieval limited.
-- Purpose: Distinguish allergy, adverse effects and unknown status.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S95 - AAAAI - IgG food panel testing
 - URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test
@@ -1453,9 +1453,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S205 - USPSTF Hypertension in Adults Screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
 - Region: US
-- Reading status: Recommendation, intervals, confirmation and measurement paragraphs read.
+- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice.
 - Purpose: Adults without known hypertension; routine screening not acute-care guidance.
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S206 - USPSTF Tobacco Smoking Cessation in Adults Including Pregnant Persons, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
@@ -3973,9 +3973,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S565 - When to get urgent medical help for babies and children under 5
 - URL: https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/
 - Region: UK
-- Reading status: relevant_sections_opened_and_read
+- Reading status: Researcher immediate-action/age-fever/breathing/behaviour/feeding sections; root selected actual text.
 - Purpose: Afebrile/lower-temperature illness, feeding/responsiveness, young-infant thresholds; source urgency difference
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S566 - Jaundice in babies
 - URL: https://www.nhs.uk/conditions/jaundice-in-babies/
@@ -4071,9 +4071,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S579 - CDC Developmental Monitoring and Screening
 - URL: https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html
 - Region: US
-- Reading status: Relevant HTML sections inspected
+- Reading status: Researcher monitoring/screening/follow-up sections; root actual screening ages/concern text.
 - Purpose: Surveillance versus validated screening; AAP timing; early support navigation
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S580 - CDC Using WHO Growth Standard Charts
 - URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html
@@ -4801,4 +4801,67 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: Source-specific educational scope
 - Reading status: Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.
 - Purpose: Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.
+- Checked: 2026-10-17
+
+### S684 - NHLBI: High Blood Pressure Diagnosis
+- URL: https://www.nhlbi.nih.gov/health/high-blood-pressure/diagnosis
+- Region: Source-specific educational scope
+- Reading status: Researcher full page; root selected measurement context/history/confirmation text.
+- Purpose: US public education: repeated/outside-office patterns and question-led assessment, not universal thresholds or panel.
+- Checked: 2026-10-17
+
+### S685 - Henny et al.: EFLM reference-interval review recommendation
+- URL: https://www.eflm.eu/files/efcc/CCLM%20Recommendation%20for%20the%20review%20of%20biological%20reference%20intervals.pdf
+- Region: Source-specific educational scope
+- Reading status: Researcher full8viewerpages; root selected terminology/transfer text.
+- Purpose: Dated conceptual methods; not current full verification standard or clinical cutoffs.
+- Checked: 2026-10-17
+
+### S686 - Ceriotti and Henny: Reference intervals and decision limits
+- URL: https://cms.ifcc.org/media/476879/ejifcc2008vol19no2pp106-114.pdf
+- Region: Source-specific educational scope
+- Reading status: Researcher full9viewerpages; root selected conceptual/critical-value/trend passages.
+- Purpose: Dated methods discussion; historical numerical examples not adopted.
+- Checked: 2026-10-17
+
+### S687 - NHS: Breastfeeding and enough milk
+- URL: https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-problems/enough-milk/
+- Region: Source-specific educational scope
+- Reading status: Researcher selected attachment/intake/weight/nappy/early-help sections; root rechecked selected text.
+- Purpose: England-facing breastfeeding education, not individual intake diagnosis or premature-infant plan.
+- Checked: 2026-10-17
+
+### S688 - NHS: Baby health and development reviews
+- URL: https://www.nhs.uk/baby/babys-development/height-weight-and-reviews/baby-reviews/
+- Region: Source-specific educational scope
+- Reading status: Researcher selected early-review and contact-with-concerns sections.
+- Purpose: England service schedule only; not a universal preventive schedule.
+- Checked: 2026-10-17
+
+### S689 - WHO: Feeding an infant or young child
+- URL: https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/feeding-an-infant-or-young-child
+- Region: Source-specific educational scope
+- Reading status: Researcher selected tips/information read; root checked source identity.
+- Purpose: Global public-facing summary, not full current feeding guideline or individual plan.
+- Checked: 2026-10-17
+
+### S690 - NLM MedlinePlus Medical Test: Allergy Blood Test
+- URL: https://medlineplus.gov/lab-tests/allergy-blood-test/
+- Region: Source-specific educational scope
+- Reading status: Researcher relevant identity/results/limitations sections; root actual relevant text recheck.
+- Purpose: Consumer IgE test literacy, no universal error rate or clinical selection algorithm.
+- Checked: 2026-10-17
+
+### S691 - FDA: Public health importance of non-listed food allergens
+- URL: https://www.fda.gov/media/157637/download
+- Region: Source-specific educational scope
+- Reading status: Researcher selected title/definitions/II.A,III.A,IV.A; root selected sensitization/reactivity and evidence passages. Not full52pages.
+- Purpose: Regulatory food-allergen evidence framework, not an individual food/drug/contact diagnostic algorithm.
+- Checked: 2026-10-17
+
+### S692 - FDA: Food-allergen skin-test false-negative safety communication
+- URL: https://www.fda.gov/safety/medical-product-safety-information/all-allergenic-extracts-diagnosis-food-allergy-fda-safety-communication-fda-requires-warning-about
+- Region: Source-specific educational scope
+- Reading status: Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.
+- Purpose: Specific US food-allergen extract warning, no universal assay false-negative rate.
 - Checked: 2026-10-17

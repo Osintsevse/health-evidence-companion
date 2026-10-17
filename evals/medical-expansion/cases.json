@@ -384,7 +384,6 @@
         "Urgency if swelling currently present"
       ],
       "source_ids": [
-        "S94",
         "S287",
         "S177"
       ],
@@ -416,7 +415,6 @@
         "Do not delay for photos"
       ],
       "source_ids": [
-        "S94",
         "S303",
         "S268",
         "S287",
