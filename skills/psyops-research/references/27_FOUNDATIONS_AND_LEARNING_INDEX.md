@@ -59,10 +59,10 @@ Curricula establish educational scope, not evidence for treatment efficacy. Thes
 | Area | Material actually used | Remaining work |
 |---|---|---|
 | Anatomy | NCI organization of cells, tissues, organs and systems | Organ-system sections, terminology and anatomical variation; no practical competence claimed. |
-| Physiology | NCI homeostasis and endocrine feedback | Fluid balance and organ integration, with reviewed exceptions. |
+| Physiology | NCI homeostasis/feedback; selected NIDDK renal-process and concentration/estimate concepts in 48 | Fluid compartments, detailed transport/hormonal loops and organ integration remain incomplete. |
 | Biochemistry | NCI metabolism; selected MIT catalysis notes | Enzyme regulation, energy coupling and individual metabolic pathways. |
 | Pharmacology | Selected MIT PK/PD and distribution slides | Current clinical PK examples; local labels and outcome evidence for each medicine claim. |
-| Pathology | WebPath homepage and rights notice only | Read permissible topic-level sources before disease-mechanism cards. |
+| Pathology | Selected NIEHS toxicologic adaptation/injury and NCCD nomenclature; NCI tissue-change concepts in 48 | Human/organ-specific disease mechanisms, inflammation/repair and current clinical evidence remain incomplete. |
 | Genetics | MedlinePlus penetrance/expressivity; NHGRI VUS | Updated disease-specific chapters, variant interpretation standards and counseling limits. |
 | Epidemiology | Bayesian update and test-context sections | Study designs, bias, absolute risk and causal inference with separate source appraisal. |
 | Family medicine | WONCA framework landing page only | Full competencies and current Serbian/Russian primary-care guidance. |
@@ -109,3 +109,15 @@ For a new concept, identify one question, inspect its exact source section, then
 Store original prose and bibliographic metadata. Do not import full chapters, slides, images, recordings or question banks: public accessibility does not establish redistribution rights. MIT materials include third-party assets with separate restrictions; WebPath reserves redistribution rights; WONCA identifies noncommercial/share-alike terms. No OpenStax content is included in these concept cards or any source corpus.
 
 A source failure remains a failure, not full-text appraisal. Recheck current sources for consequential clinical questions. Keep actual patient information and private archive links outside this public learning index.
+
+## Broader selected foundation study 2026-10-17
+
+[Cellular and renal foundations](48_CELLULAR_AND_RENAL_FOUNDATIONS.md) adds PATH-F1/PATH-F2, ONC-F1, REN-F1 and FLUID-M1. These are bounded concepts beyond the initial 38 questions, with exact reading and source conflicts; they are not full chapters/courses.
+
+- S713: NIEHS DTT selected adaptation/injury passages, PDF indices 3,6–19,25–29; visual viewer 8,16,26. Animal examples do not establish human diagnostic criteria.
+- S714: NCCD 2018 introduction, morphology/mechanism and selected regulated-necrosis/necroptosis definitions; no underlying-trial or complete pathway appraisal.
+- S715: NCI selected cancer/benign-growth and noncancer tissue-change text; third-party illustration excluded.
+- S716/S717: NIDDK selected nephron-function and professional measurement limitations; S437 selected refresh preserves its older patient-page scope.
+- S718/S719: NLM-authored Medical Test concentration and result-interpretation sections; no formal osmolality units or full fluid-volume model inferred.
+
+Selected Robbins/Guyton chapters remain bibliographic study candidates while applicable source-use permission/scope is unverified. Current Elsevier content/print terms were inspected; author/editor AI-writing guidance is not reader permission. Edition metadata and a contents/bookmark locator do not constitute chapter study. This is a bounded source-selection decision, not a global legal conclusion.

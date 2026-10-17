@@ -62,3 +62,7 @@ Before describing the initial programme as sufficiently covered, verify all 38 q
 Prepare a reviewer-readable account of what is supported, still incomplete, inaccessible or restricted. Technical checks and observed responses must be current for the submitted candidate. Substantive maintainer review, merge, release and installed updates are separate actions; this programme cannot confer its own clinical approval.
 
 The [work-in-progress completion audit](goal-completion-audit.md) separates the initial questions from the broader foundational, organ-system and life-stage curriculum. The [bounded broad depth audit](broad-curriculum-depth-audit.md) reconciles existing modules and reading records; further source/claim work remains. Reaching 38 alone does not prove the full objective.
+
+## Foundation study beyond the first pass
+
+Packet 48 adds five bounded units: PATH-F1 adaptation/injury, PATH-F2 morphology/mechanism, ONC-F1 tissue-change labels, REN-F1 renal processes/estimates, FLUID-M1 concentration/volume inference. These are separate from the 38 initial questions. Exact source reading, permission/access gaps and observed-check status are in docs/goal-study-cycle-007-review.md. Inflammation/repair, complete fluid regulation and current clinical application remain further work.

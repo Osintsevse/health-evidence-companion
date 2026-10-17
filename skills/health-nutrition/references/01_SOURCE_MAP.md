@@ -3077,9 +3077,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S437 - Chronic Kidney Disease Tests and Diagnosis
 - URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis
 - Region: US
-- Reading status: read relevant rendered page sections
+- Reading status: read relevant rendered page sections; selected researcher refresh2026-10-17: GFR/creatinine and urine-albumin explanation only. Displayed reviewOctober2016; no current cutoffs or treatment protocol adopted.
 - Purpose: Complementary filtration and urine-albumin assessment.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S438 - Recommendations for Implementing the CKD-EPI 2021 Race-Free eGFR Calculation
 - URL: https://www.kidney.org/recommendations-implementing-ckd-epi-2021-race-free-egfr-calculation-guidelines-clinical
@@ -5004,4 +5004,53 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: First-aid educators; requires contextual adaptation
 - Reading status: Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.
 - Purpose: Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.
+- Checked: 2026-10-17
+
+### S713 - NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity
+- URL: https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf
+- Region: Institutional toxicologic-pathology training with animal examples
+- Reading status: Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.
+- Purpose: Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.
+- Checked: 2026-10-17
+
+### S714 - Galluzzi, Vitale et al. 2018: NCCD cell-death nomenclature recommendations
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/
+- Region: Committee nomenclature; article classified as review, not an intervention trial
+- Reading status: Selected introduction, morphology/mechanism distinction, MPT-driven necrosis and opening necroptosis text; CC BY-NC-SA4.0 notice. Publisher direct fetch failed; authorized PMC full text used. Other mechanisms/trials not appraised.
+- Purpose: Dated committee definitions counter an exhaustive apoptosis-versus-accident dichotomy; no clinical benefit claim.
+- Checked: 2026-10-17
+
+### S715 - NCI: What Is Cancer? — selected tissue-change concepts
+- URL: https://www.cancer.gov/about-cancer/understanding/what-is-cancer
+- Region: US public education, institution-authored prose
+- Reading status: Selected cancer/benign definitions and Tissue Changes That Are Not Cancer text read. Article review date not independently established; copyright policy reviewed2025-03-12. Copyrighted graphics excluded.
+- Purpose: Hyperplasia/dysplasia are not interchangeable with invasive cancer or inevitable progression; no organ-specific risk estimate.
+- Checked: 2026-10-17
+
+### S716 - NIDDK: Your Kidneys & How They Work
+- URL: https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work
+- Region: US general physiology education, reviewedJune2018
+- Reading status: Researcher and root selected roles, glomerular filtration, tubular handling and provider/date text; linked videos and clinical trials not read.
+- Purpose: Different renal processes; filtered fluid is not final urine or a complete fluid-status assessment.
+- Checked: 2026-10-17
+
+### S717 - NIDDK: Clinical Measurements & eGFR Accuracy
+- URL: https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/clinical-measurements
+- Region: US institutional laboratory guidance, reviewedMay2025
+- Reading status: Researcher direct relevant full page; root selected creatinine/non-GFR/unstable-function/assay text. Cited external papers were not opened or independently appraised.
+- Purpose: Marker concentration versus estimated filtration; population and method limits. No numerical accuracy, cutoff or dosing rule.
+- Checked: 2026-10-17
+
+### S718 - MedlinePlus Medical Test: Osmolality Tests
+- URL: https://medlineplus.gov/lab-tests/osmolality-tests/
+- Region: NLM-authored Medical Test education; not third-party encyclopedia
+- Reading status: Researcher selected purpose/meaning/context sections; root concentration text checked. Displayed update2024-07-31 and a2026 bibliography citation coexist; no whole-page edition/update inferred.
+- Purpose: Plain-language concentration and interpretation limits; technical denominator/units, osmolarity and tonicity not established by this reading.
+- Checked: 2026-10-17
+
+### S719 - MedlinePlus Medical Test: Sodium Blood Test
+- URL: https://medlineplus.gov/lab-tests/sodium-blood-test/
+- Region: NLM-authored Medical Test education; displayed update2024-12-02
+- Reading status: Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.
+- Purpose: Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.
 - Checked: 2026-10-17

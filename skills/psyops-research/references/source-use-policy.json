@@ -105,6 +105,19 @@
         "https://onlinelibrary.wiley.com/terms-and-conditions"
       ],
       "limits": "Cycle004 researcher inspected current Rules B,C,G,H, including explicit AI processing/output restrictions and licensing provisions. Integrating reviewer direct reopen403, not an independent full terms audit. Identified allergy guideline/abstract-derived claims are suspended pending applicable permission/licence verification; no same-work mirror bypass. Check article-specific licences separately; this is source selection, not a blanket legal conclusion about every Wiley work."
+    },
+    {
+      "id": "elsevier-content-and-identified-textbook-review",
+      "host_suffix": "elsevier.com",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_until_applicable_ai_use_permission_or_licence_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions",
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions/elsevier-print-terms-and-conditions",
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions/elsevier-terms-and-conditions-for-personal-digital-subscriptions-and-e-books"
+      ],
+      "limits": "Researcher directly read current website(2026-03-12), print(2025-12-16) and personal digital(2025-12-17) terms; root checked print scope and AI-restricted-use clause. Author/reviewer writing policy is not reader permission. Selected Robbins eighth-edition translation and Guyton14 chapter processing deferred pending applicable licence/permission scope; applicability to identified older editions remains unverified. Ordinary copyright is not an AI ban; this is source selection, not a global legal/enforceability conclusion. Do not bypass a matching restriction via another copy. Independently authored sources and article-specific licences require their own review."
     }
   ],
   "instructions": [

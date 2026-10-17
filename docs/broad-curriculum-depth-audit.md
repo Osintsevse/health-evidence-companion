@@ -58,3 +58,7 @@ The reviewer read psychology 14 and 34 completely for this audit and reconciled 
 - For high-impact gaps, preserve the narrower existing informational scope: explain the documented concept, distinguish observation from interpretation, route urgent concerns appropriately and retrieve current permitted source sections before extending diagnosis, treatment or local operational claims.
 
 For each next unit, identify a permitted primary/official source and exact section; read it; map claims to population, test purpose or meaningful outcome; appraise limitations/harms and contradictions; check a wholly fictional answer and record actual reference access. The programme's first 38 questions remain an initial breadth pass. A broader source/claim audit and substantive maintainer review remain open; no numerical medical-completeness score is assigned.
+
+## Selected foundation update 2026-10-17, cycle 007
+
+Packet 48 adds selected cellular adaptation/injury, morphology/mechanism, noncancer tissue-change, renal-process and concentration/estimate explanations. This updates the earlier pointer-only pathology snapshot and expands renal foundations; it does not establish full human pathology, inflammation/repair, complete fluid physiology or clinical application. Exact source/access boundaries and observed-check state are in the cycle 007 review. Selected textbook chapter study remains deferred under the current source-use policy; independent institutional/committee sources were read instead.

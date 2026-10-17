@@ -3928,9 +3928,9 @@
     "title": "Chronic Kidney Disease Tests and Diagnosis",
     "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis",
     "region": "US",
-    "retrieval_status": "read relevant rendered page sections",
+    "retrieval_status": "read relevant rendered page sections; selected researcher refresh2026-10-17: GFR/creatinine and urine-albumin explanation only. Displayed reviewOctober2016; no current cutoffs or treatment protocol adopted.",
     "use": "Complementary filtration and urine-albumin assessment.",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S438",
@@ -6405,6 +6405,69 @@
     "region": "First-aid educators; requires contextual adaptation",
     "retrieval_status": "Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.",
     "use": "Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S713",
+    "title": "NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity",
+    "url": "https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf",
+    "region": "Institutional toxicologic-pathology training with animal examples",
+    "retrieval_status": "Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date.",
+    "use": "Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S714",
+    "title": "Galluzzi, Vitale et al. 2018: NCCD cell-death nomenclature recommendations",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/",
+    "region": "Committee nomenclature; article classified as review, not an intervention trial",
+    "retrieval_status": "Selected introduction, morphology/mechanism distinction, MPT-driven necrosis and opening necroptosis text; CC BY-NC-SA4.0 notice. Publisher direct fetch failed; authorized PMC full text used. Other mechanisms/trials not appraised.",
+    "use": "Dated committee definitions counter an exhaustive apoptosis-versus-accident dichotomy; no clinical benefit claim.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S715",
+    "title": "NCI: What Is Cancer? — selected tissue-change concepts",
+    "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+    "region": "US public education, institution-authored prose",
+    "retrieval_status": "Selected cancer/benign definitions and Tissue Changes That Are Not Cancer text read. Article review date not independently established; copyright policy reviewed2025-03-12. Copyrighted graphics excluded.",
+    "use": "Hyperplasia/dysplasia are not interchangeable with invasive cancer or inevitable progression; no organ-specific risk estimate.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S716",
+    "title": "NIDDK: Your Kidneys & How They Work",
+    "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+    "region": "US general physiology education, reviewedJune2018",
+    "retrieval_status": "Researcher and root selected roles, glomerular filtration, tubular handling and provider/date text; linked videos and clinical trials not read.",
+    "use": "Different renal processes; filtered fluid is not final urine or a complete fluid-status assessment.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S717",
+    "title": "NIDDK: Clinical Measurements & eGFR Accuracy",
+    "url": "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/clinical-measurements",
+    "region": "US institutional laboratory guidance, reviewedMay2025",
+    "retrieval_status": "Researcher direct relevant full page; root selected creatinine/non-GFR/unstable-function/assay text. Cited external papers were not opened or independently appraised.",
+    "use": "Marker concentration versus estimated filtration; population and method limits. No numerical accuracy, cutoff or dosing rule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S718",
+    "title": "MedlinePlus Medical Test: Osmolality Tests",
+    "url": "https://medlineplus.gov/lab-tests/osmolality-tests/",
+    "region": "NLM-authored Medical Test education; not third-party encyclopedia",
+    "retrieval_status": "Researcher selected purpose/meaning/context sections; root concentration text checked. Displayed update2024-07-31 and a2026 bibliography citation coexist; no whole-page edition/update inferred.",
+    "use": "Plain-language concentration and interpretation limits; technical denominator/units, osmolarity and tonicity not established by this reading.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S719",
+    "title": "MedlinePlus Medical Test: Sodium Blood Test",
+    "url": "https://medlineplus.gov/lab-tests/sodium-blood-test/",
+    "region": "NLM-authored Medical Test education; displayed update2024-12-02",
+    "retrieval_status": "Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.",
+    "use": "Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.",
     "checked_on": "2026-10-17"
   }
 ]
