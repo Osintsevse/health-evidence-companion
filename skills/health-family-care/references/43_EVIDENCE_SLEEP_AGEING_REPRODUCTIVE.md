@@ -44,6 +44,8 @@ VA/DoD2025 recommends objective sleep testing for clinically suspected obstructi
 
 **Reading:** NHLBI selected overview/symptom sections; VA/DoD2025 selected pp30,34,40–41,43–44, including recommendations2–4 and their context; pp34,44 visually checked. Not the full guideline, diagnostic-criteria appendix or instrument validation. No screening items, thresholds or test-selection algorithm copied. Safety-threatening sleepiness takes priority over a routine sleep-plan discussion.
 
+For a selected primary comparison of supported testing/management strategies, read SLEEP-D2 in [models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md). Its2017 trial/correction appraisal does not replace the current, separately scoped test-selection guidance above.
+
 ## A1 — Healthy ageing concerns valued function, capacity and environment
 
 **Scope:** understanding goals and assessment, not labelling a person by age or administering ICOPE in chat.
@@ -70,7 +72,7 @@ The authors explicitly say follow-up did not extend beyond the intervention in t
 
 An intervention can have a useful clinical benefit without extending life, while a favourable laboratory change can coexist with harms. Assess direct outcomes and applicability separately; these cards do not endorse an anti-ageing medicine, supplement or restrictive diet. Suitability, nutrition and health conditions need their own evaluation.
 
-**Reading:** Waziry et al., Nature Aging2023, abstract, opening cohort account and selected outcome/limitations paragraphs through the official PMC author manuscript; article-specific CC BY4.0 notice and May2023 affiliation correction checked. This is selected original-report study, not full risk-of-bias appraisal, current treatment guidance or proof that ageing cannot be modified.
+**Reading:** Waziry et al., Nature Aging2023, abstract, opening cohort account and selected outcome/limitations paragraphs through the official PMC author manuscript; article-specific CC BY 4.0 notice and May2023 affiliation correction checked. This is selected original-report study, not full risk-of-bias appraisal, current treatment guidance or proof that ageing cannot be modified.
 
 ## D1 — Dementia risk guidance has population, outcome and update limits
 

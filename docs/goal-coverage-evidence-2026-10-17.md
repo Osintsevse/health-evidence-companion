@@ -1,0 +1,25 @@
+# Broad-goal evidence and next depth questions
+
+Snapshot2026-10-17, cycle013. Root reconciled a read-only requirement audit with the current programme, completion/depth audits, actual source scopes, organ/life-stage headings and selected study packets. This is a coverage audit, not independent rereading of every original source. Completion remains unproven. Adequacy concerns useful source-grounded educational explanations at the declared scope. Maintainer review is the separate gate before merge.
+
+| Goal requirement | Current evidence | Remaining proof or depth |
+|---|---|---|
+| Systematic source/selected-book study | Programme progress states; foundations index; selected-book scopes in dated reviews and source register | Preserve exact sections and actor/date provenance. Indexed, extracted, studied and checked remain different. Continue genuinely new foundational concepts. |
+| Broad medical foundations | ANATOMY atlas; packets48–50 cellular, renal, inflammatory, energetic, respiratory, endocrine and PK concepts; evidence-method units | Integrated cross-organ physiology and structure-function depth remain thinner than separate process explanations. Earlier pointer-only pathology labels must be read with subsequent updates. |
+| Broad organ-system knowledge | CHRONIC, SYMPTOMS, DIAGNOSTICS and NEURO; GI, endometriosis, movement/vision/scalp, allergy, laboratory and bite cards | Microbiology/infection, hepatic/haematological mechanisms, rheumatology and peripheral-neurology explanations need representative deeper source/answer evidence. Existing symptom navigation remains useful. |
+| Life-stage applicability | Under-five illness/development/growth modules; GROWTH-M1; ageing/function and reproductive cards; specialty routing | Routine pregnancy/postpartum physiology/test purpose and older-child/adolescent questions remain mostly routing at demonstrated depth. Preserve stage-specific urgency. |
+| Adult psychology and optional support | Psychology foundations and CBT/ACT/MCT modules; PS1/PS2, PSY-D1, SPORT-D1 and PAIN-E1 | Representative developmental/social/relationship claims need additional actual-source and answer checks; existing dialogue routes do not prove every claim read. |
+| Critical primary/official evidence | Selected outcome/population/missingness/correction appraisals in packets42–54 and dated reviews | For each consequential new claim, verify source fit, endpoint and applicability; preserve exact unresolved access or method gaps. |
+| Useful and appropriately bounded answers | Source-grounded reasoning; test purpose, alternative explanation and clinician-question workflows | Retain scientific substance and practical next questions while making unsupported exact actions explicit. A generic deferral alone does not establish question depth. |
+| Plugin integration and observed use | Shared reasoning, deterministic reference copies, actual explicitly routed fictional answers and hashed inputs in dated reviews | Verify each changed candidate’s relevant loading/build/response checks. Current observations do not establish autonomous routing, patient outcomes or installed-plugin superiority. |
+| Review-ready public contribution | Source-use policy, original English notes, source/import provenance, allowlist/boundary review and draft PR | Verify exact submitted head and CI; keep substantive maintainer/clinical review pending rather than infer it from tests. |
+
+The initial38 questions and26 further selected units (16 foundational,10 applied) organize the bounded reading/check records after cycle013; they do not score medical completeness. A correction notice or failed access attempt adds no study unit. The [cycle013 review](goal-study-cycle-013-review.md) supplies exact new source scopes and observed-check limits.
+
+## Next scientific priorities
+
+1. Connect renal, circulatory and hormonal regulation in one cross-organ volume/perfusion question. Existing concentration-versus-inventory and renal-process notes are the starting point; a new card must add actual mechanistic connections and applicable observations.
+2. Study pathogen detection versus active illness in one named specimen/population. Explain assay target, site, host response and pretest context using actual usable evidence; do not generalize one organism or assay to all infections.
+3. Add one routine pregnancy/postpartum physiology and test-purpose question. Establish stage, quantities, relevant alternatives and outcomes; avoid transferring adult reference assumptions or creating a universal schedule.
+
+These priorities are discovery questions, not sources already read. Exact sources, sections, current rights and meaningful response checks must be established before acceptance. Hepatic/rheumatology/peripheral-neurology, adolescent and non-method psychology depth stay in the broader queue. Missing exhaustive specialist protocols alone do not negate a supported bounded educational card; genuine missing scientific explanation or unsupported submitted claims still require work.

@@ -5904,6 +5904,42 @@
       "use": "Severity/management after acute PE differs from diagnostic probability; no personal disposition or drug-selection algorithm.",
       "limitations": "Selected original reading, population and unresolved details in docs/goal-study-cycle-012-review.md; no full-source or clinical-validation claim.",
       "rights": "Copyrighted source; brief original factual synthesis/citation only. No open-licence claim; provider/section scope and encountered terms recorded in dated review."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle013-s751",
+      "source_id": "S751",
+      "url": "https://www.nature.com/articles/srep45901",
+      "publication_version": "2017-04-04; Scientific Reports7:45901",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4–6, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.",
+      "use": "Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.",
+      "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
+      "rights": "Article-specific CC BY4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle013-s752",
+      "source_id": "S752",
+      "url": "https://www.nature.com/articles/s41598-019-41389-6",
+      "publication_version": "2019-04-02; Scientific Reports9:5595",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.",
+      "use": "Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.",
+      "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
+      "rights": "Article-specific CC BY4.0 directly verified; author/source/licence attribution retained. Original factual synthesis; no instruments, tables, figures, protocols or underlying datasets redistributed. Nature general-terms direct route failed cookie redirect; no full provider audit claimed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle013-s753",
+      "source_id": "S753",
+      "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003964",
+      "publication_version": "2024-12-19; PLOS Global Public Health4:e0003964",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.",
+      "use": "Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.",
+      "limitations": "Exact source actors, corrections, analysis populations and remaining gaps in docs/goal-study-cycle-013-review.md; no full-guideline or clinical-validation claim.",
+      "rights": "Article-specific CC-BY directly verified; current PLOS policy permits reuse/mining with attribution. Original factual synthesis; no table/figure/dataset/protocol reused."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

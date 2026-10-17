@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 861,
-  "unique_url_count": 857,
+  "record_count": 864,
+  "unique_url_count": 860,
   "records": [
     {
       "namespace": "medical",
@@ -9754,6 +9754,45 @@
       "canonical_path": "knowledge/sources.json"
     },
     {
+      "namespace": "medical",
+      "id": "S751",
+      "qualified_id": "medical:S751",
+      "title": "Hui et al.: supported home versus hospital OSA management trial (2017)",
+      "url": "https://www.nature.com/articles/srep45901",
+      "checked_on": "2026-10-17",
+      "reading_status": "2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4\u20136, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.",
+      "limitations": "2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4\u20136, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.",
+      "purpose": "Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.",
+      "region": "Hong Kong adult single-clinic study",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S752",
+      "qualified_id": "medical:S752",
+      "title": "Hui et al.: Author Correction to the2017 OSA pathway trial (2019)",
+      "url": "https://www.nature.com/articles/s41598-019-41389-6",
+      "checked_on": "2026-10-17",
+      "reading_status": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.",
+      "limitations": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.",
+      "purpose": "Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.",
+      "region": "Correction to S751; not an independent trial",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S753",
+      "qualified_id": "medical:S753",
+      "title": "Ko et al.: ferritin inflammation-adjustment comparisons using serial norovirus-challenge data (2024)",
+      "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003964",
+      "checked_on": "2026-10-17",
+      "reading_status": "2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.",
+      "limitations": "2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.",
+      "purpose": "Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.",
+      "region": "US selected adult research cohort",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
       "namespace": "psychology",
       "id": "S01",
       "qualified_id": "psychology:S01",
@@ -11099,8 +11138,8 @@
       "title": "Diez, \u00c7etinkaya-Rundel, and Barr \u2014 OpenIntro Statistics (4th ed., screen-reader PDF), selected sections",
       "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
       "checked_on": "2026-10-17",
-      "reading_status": "previous_selected_introductory_sections_and_selected_inference_pages_read",
-      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190\u2013193,195\u2013196,199, selected5.1.1\u20135.1.6; root visual192\u2013193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised.",
+      "reading_status": "previous_selected_foundations_and_additional_regression_sections_read",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190\u2013193,195\u2013196,199, selected5.1.1\u20135.1.6; root visual192\u2013193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised. Cycle013 researcher directly read8.2.3/8.2.5 on356/360; root independently read/visually checked356/360 and additionally8.2.6 on361. Three distinct substantive pages, not five; page357practice/8.2.7opening not adopted. Current exact-file identity and resource licence/terms checked. Introductory near-normality wording is not generalized to every fitting method. No source quotation/example/figure/exercise/code/data reproduced; prediction intervals, robust/clustered/time-series inference and clinical model validation remain separate study.",
       "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"

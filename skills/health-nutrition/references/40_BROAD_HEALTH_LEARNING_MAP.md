@@ -62,3 +62,5 @@ The [extended question packet](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md) adds F3
 The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.
 
 For supervised penicillin-assessment follow-up read AR3 in [the allergy packet](44_LABS_BP_ALLERGY_CHILDREN.md). For diagnostic probability versus pathway validation/severity, and acceptance versus comparative pain outcomes, read DX-E1/PAIN-E1 in [treatment outcomes and diagnostic reasoning](53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md). These three applied additions preserve exact reading, population and remaining-evidence limits.
+
+Cycle013 adds STAT-F5 fitted-average/model/range reasoning, plus SLEEP-D2 and HAEM-D1 in [models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md). These deepen existing sleep and laboratory coverage rather than treating those families as previously absent. Exact reading, correction and evidence limits remain explicit.

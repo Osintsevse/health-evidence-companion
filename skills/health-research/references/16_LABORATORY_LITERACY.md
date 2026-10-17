@@ -45,3 +45,5 @@ Further reading: coagulation disorders, specialist haematology, pregnancy/paedia
 ## Multilingual records
 
 Apply [module 22](22_LAB_IDENTITY_AND_FEEDBACK.md) before joining results across languages. It distinguishes translation, display grouping and quantitative harmonization, with a persistent source-linked clarification workflow. Unknown specimen, method or conditions do not become confirmed identity through name similarity.
+
+For a concrete primary-study comparison beyond the general inflammatory-confounding caution, read HAEM-D1 in [models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md). It distinguishes measured/modelled references and repeated samples from individual diagnostic validation; it supplies no personal correction formula or iron regimen.

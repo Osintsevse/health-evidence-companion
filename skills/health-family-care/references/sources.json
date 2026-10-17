@@ -6748,5 +6748,32 @@
     "retrieval_status": "2026-02-19. Root read official summary/Top Things to Know and current AHA terms; not full Circulation article, slide set, patient PDFs or tools.",
     "use": "Severity/management after acute PE differs from diagnostic probability; no personal disposition or drug-selection algorithm.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S751",
+    "title": "Hui et al.: supported home versus hospital OSA management trial (2017)",
+    "url": "https://www.nature.com/articles/srep45901",
+    "region": "Hong Kong adult single-clinic study",
+    "retrieval_status": "2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4–6, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.",
+    "use": "Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S752",
+    "title": "Hui et al.: Author Correction to the2017 OSA pathway trial (2019)",
+    "url": "https://www.nature.com/articles/s41598-019-41389-6",
+    "region": "Correction to S751; not an independent trial",
+    "retrieval_status": "2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY4 verified. Supersedes original adherence cells/denominator wording.",
+    "use": "Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S753",
+    "title": "Ko et al.: ferritin inflammation-adjustment comparisons using serial norovirus-challenge data (2024)",
+    "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003964",
+    "region": "US selected adult research cohort",
+    "retrieval_status": "2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.",
+    "use": "Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.",
+    "checked_on": "2026-10-17"
   }
 ]

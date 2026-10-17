@@ -744,3 +744,7 @@ psychology:S01 policy access now full-page selected scope; psychology:S02 actual
 - Actual access: full_article_read_by_researcher_selected_limits_and_license_rechecked; checked 2026-10-17
 - Supports: Selected GAD sample/protocol comparison favourable to MCT on worry/recovery; not universal superiority.
 - Limits: Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, missing one-year assessment window; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied.
+
+## Cycle013 selected regression update (2026-10-17)
+
+psychology:S104 retains all prior reading. Researcher read selected OpenIntro4e screen-reader8.2.3/8.2.5 on356/360; root rechecked these and additionally8.2.6 on361, with visual verification of all three pages. These are three distinct pages across reading actors, not a full regression course. Source CC BY-SA3.0 and current terms checked; attribution/ShareAlike for expressive adaptations retained. Original factual notes only; no source examples, quotation, exercises, figures or data. Robust inference, prediction intervals and clinical model validation remain unappraised.

@@ -41,3 +41,7 @@ STAT-F4 adds sampling-distribution/standard-error/model distinctions; CV-E1 sepa
 ## Selected cycle012 continuation
 
 AR3 distinguishes supervised penicillin assessment from later understanding, exposure and record correction. DX-E1 separates diagnostic probability, modeled sequential testing and severity; PAIN-E1 preserves a favorable acceptance result without claiming every pain outcome improved. See [cycle012 review](goal-study-cycle-012-review.md). Scoped CKD/medicine and legacy-source repairs are recorded separately, without counting each repair as new study. The initial38 and23 additional bounded units (15 foundational,8 applied) remain selected coverage, not medical completeness. Exact local pathways, deeper efficacy/harms, foundational book study and wider specialty/life-stage depth remain open.
+
+## Selected cycle013 continuation and requirement audit
+
+STAT-F5 adds fitted-average, diagnostic and supported-range reasoning from three distinct selected OpenIntro pages. SLEEP-D2 appraises an actual supported testing/management comparison with its published correction; HAEM-D1 examines measured/modelled ferritin references and repeated observations. See [cycle013 review](goal-study-cycle-013-review.md) and the [requirement-level evidence snapshot](goal-coverage-evidence-2026-10-17.md). The updated audit preserves useful existing navigation while prioritizing integrated physiology, pathogen-test meaning and routine pregnancy/postpartum test context. These additions and the initial-question count do not establish full-goal completion.

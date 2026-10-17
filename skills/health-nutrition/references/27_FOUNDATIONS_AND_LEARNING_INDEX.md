@@ -129,3 +129,5 @@ Selected Robbins/Guyton chapters remain bibliographic study candidates while app
 [Methods, populations and follow-up](51_METHODS_POPULATIONS_AND_FOLLOWUP.md) adds GI-M1, REPRO-M1 and GROWTH-M1. These applied questions deepen selected existing modules; they do not complete specialties or replace current local protocols. Exact source actors/scopes and remaining methods are in docs/goal-study-cycle-010-review.md.
 
 Cycle011 adds STAT-F4 sampling-model/estimator distinctions from seven additional OpenIntro pages, plus CV-E1 programme-outcome and SPORT-D1 attention-task appraisals in [packet52](52_DETECTION_OUTCOMES_AND_ATTENTION.md). These are three bounded units, not a complete statistics/cardiovascular/sport curriculum. The dated review retains exact sources, contradictions and repairs to selected older claims.
+
+Cycle013 adds STAT-F5 from selected OpenIntro regression sections8.2.3/8.2.5/8.2.6: fitted averages, model diagnostics and unsupported extrapolation. Three distinct source pages were read across researcher/root roles; this is not a full regression, prediction or causal-inference course. See the dated cycle013 review.
