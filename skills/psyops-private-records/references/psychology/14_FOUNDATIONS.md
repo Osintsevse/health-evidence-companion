@@ -21,6 +21,9 @@ Check several levels: current situation; sleep/stress/health; actions and habits
 
 For example, sexual difficulty may require interaction talk and medical evaluation. These explanations are not mutually exclusive. [S28]
 
+## Measurement and inference
+A behavior is observable; a mental process inferred from it is not. Cognitive psychology uses task measures such as response-time contrasts or relearning to test hypotheses about processes, but the inference depends on the task and the assumed link between measure and construct. Keep the steps separate: record what happened under which conditions, describe a pattern, then state a tentative interpretation and plausible alternatives. A single slow response, missed message, or memory error cannot establish a person's motive, attention problem, or diagnosis. Look for context and converging observations before strengthening an interpretation. Goldstein's examples are historical introductions to this logic, not diagnostic standards. [S103]
+
 ## Function and form of behavior
 The same action can have different functions: silence can be rest, confusion, avoidance, punishment or a way to maintain safety. You cannot infer function from form. Ask about context and consequences.
 

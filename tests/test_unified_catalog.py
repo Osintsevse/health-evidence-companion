@@ -8,7 +8,7 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from source_catalog import catalog
+from source_catalog import catalog, validate_import_amendments
 from source_review import combined_review_queue
 from validate import check_psychology_blank, check_source_citations, PSYCHOLOGY_BLANK_FORMS
 
@@ -52,11 +52,108 @@ class CatalogTests(unittest.TestCase):
             changed=copy.deepcopy(blank);changed['unexpected']='Synthetic extra field'
             with self.assertRaises(ValueError):check_psychology_blank(changed,name)
 
-    def test_imported_knowledge_and_source_bytes_are_preserved(self):
-        root=Path(__file__).resolve().parents[1]
-        provenance=json.loads((root/'docs/psychology/import-provenance.json').read_text(encoding='utf-8'))
-        for entry in provenance['files']:
-            if not entry['destination_path'].startswith('skills/'):
-                self.assertEqual(hashlib.sha256((root/entry['destination_path']).read_bytes()).hexdigest(),entry['sha256'],entry['destination_path'])
+    def test_imported_changes_preserve_original_pins_and_have_exact_amendments(self):
+        root = Path(__file__).resolve().parents[1]
+        path = root / 'docs/psychology/import-provenance.json'
+        before = path.read_bytes()
+        report = validate_import_amendments(root)
+        ledger = json.loads((root / 'docs/psychology/post-import-amendments.json').read_text(encoding='utf-8'))
+        self.assertEqual(report['amended_files'], len(ledger['amendments']))
+        self.assertEqual(path.read_bytes(), before)
+
+
+class ImportAmendmentTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.path = 'knowledge/psychology/fictional.md'
+        self.other = 'knowledge/psychology/another-fictional.md'
+        self.review = 'docs/synthetic-review.md'
+        for name, body in [(self.path, 'Synthetic original concept.\n'),
+                           (self.other, 'Another synthetic original.\n'),
+                           (self.review, '# Synthetic amendment review\n')]:
+            target = self.root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(body, encoding='utf-8')
+        self.provenance = self.root / 'docs/psychology/import-provenance.json'
+        self.provenance.parent.mkdir(parents=True)
+        self.originals = {name: self.sha(name) for name in (self.path, self.other)}
+        self.provenance.write_text(json.dumps({'files': [
+            {'destination_path': name, 'sha256': digest} for name, digest in self.originals.items()
+        ]}), encoding='utf-8')
+        self.ledger = self.provenance.with_name('post-import-amendments.json')
+
+    def sha(self, path):
+        return hashlib.sha256((self.root / path).read_bytes()).hexdigest()
+
+    def amendment(self):
+        (self.root / self.path).write_text('Synthetic clarified concept.\n', encoding='utf-8')
+        return {'path': self.path, 'original_import_sha256': self.originals[self.path],
+                'current_sha256': self.sha(self.path), 'date': '2026-10-17',
+                'reason': 'Clarify a wholly fictional inference example.', 'review_document': self.review}
+
+    def write_ledger(self, entries):
+        self.ledger.write_text(json.dumps({'schema': 'psychology-post-import-amendments-v1',
+                                          'amendments': entries}), encoding='utf-8')
+
+    def test_unchanged_import_needs_no_amendment(self):
+        self.assertEqual(validate_import_amendments(self.root)['amended_files'], 0)
+
+    def test_exact_amendment_preserves_original_provenance(self):
+        before = self.provenance.read_bytes()
+        self.write_ledger([self.amendment()])
+        self.assertEqual(validate_import_amendments(self.root),
+                         {'imported_files': 2, 'amended_files': 1, 'unchanged_files': 1})
+        self.assertEqual(self.provenance.read_bytes(), before)
+
+    def test_unrecorded_import_change_is_rejected(self):
+        self.amendment()
+        with self.assertRaisesRegex(ValueError, 'Undocumented imported source change'):
+            validate_import_amendments(self.root)
+
+    def test_original_hash_must_match_initial_pin(self):
+        entry = self.amendment()
+        entry['original_import_sha256'] = '0' * 64
+        self.write_ledger([entry])
+        with self.assertRaisesRegex(ValueError, 'Original import hash mismatch'):
+            validate_import_amendments(self.root)
+
+    def test_duplicate_and_unknown_paths_are_rejected(self):
+        entry = self.amendment()
+        self.write_ledger([entry, dict(entry)])
+        with self.assertRaisesRegex(ValueError, 'Duplicate amendment path'):
+            validate_import_amendments(self.root)
+        entry['path'] = 'knowledge/psychology/not-imported.md'
+        self.write_ledger([entry])
+        with self.assertRaisesRegex(ValueError, 'Unknown amendment path'):
+            validate_import_amendments(self.root)
+
+    def test_later_tampering_with_amended_bytes_is_rejected(self):
+        self.write_ledger([self.amendment()])
+        (self.root / self.path).write_text('Synthetic unreviewed replacement.\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'Current amendment hash mismatch'):
+            validate_import_amendments(self.root)
+
+    def test_unamended_file_stays_protected_when_another_is_amended(self):
+        self.write_ledger([self.amendment()])
+        (self.root / self.other).write_text('Synthetic hidden change.\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'Undocumented imported source change'):
+            validate_import_amendments(self.root)
+
+    def test_review_metadata_and_paths_are_required(self):
+        mutations = [
+            {'date': 'not-a-date'}, {'reason': ' '},
+            {'review_document': 'docs/missing-review.md'},
+            {'review_document': '../outside.md'}, {'path': '../outside.md'},
+            {'unexpected_allowance': True}
+        ]
+        for mutation in mutations:
+            with self.subTest(mutation=mutation):
+                entry = self.amendment()
+                entry.update(mutation)
+                self.write_ledger([entry])
+                with self.assertRaises(ValueError):
+                    validate_import_amendments(self.root)
 
 if __name__=='__main__':unittest.main()

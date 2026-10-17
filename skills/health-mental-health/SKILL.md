@@ -11,6 +11,10 @@ Distinguish general information from psychotherapy and a private record. Do not 
 
 For diagnostic concepts, inspect the relevant ICD-11 CDDR section and current guidance; explain duration, functional impact, physical/substance-related alternatives and screening limits. Do not diagnose the user or prescribe from conversation.
 
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate reported experiences and measured results from interpretations; match claims to actual source scope and population, preserve plausible alternatives, and state uncertainty.
+
 For medicine information, establish ingredient/form/market from non-identifying product text. Open the current local label and relevant guidance. Explain mechanism, supported indications, monitoring, adverse effects and interactions. Do not treat drugs as milligram-equivalent or apply SSRI rules to every psychiatric class.
 
 Apply [treatment-evidence appraisal](references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md) to nootropics, supplements and other psychiatric or cognitive-benefit claims. Discovery lists and unrelated positive trials do not justify efficacy claims or abrupt withdrawal. Do not automatically start/stop a medicine because it appears in a weak-evidence catalogue.

@@ -31,7 +31,7 @@ Batut published Serbia's mandatory and recommended immunization instruction for 
 
 More abnormalities detected does not establish better health outcomes. Before a test, ask: What decision will change? What happens after positive, negative or uncertain results? Can follow-up improve outcomes? What burdens and harms might follow?
 
-The 2019 Cochrane review of multi-disease health checks in unselected adults included 17 trials, 15 reporting outcome data (251,891 participants). Eleven trials assessing total mortality found RR 1.00 (95% CI 0.97–1.03), with high-certainty evidence of little or no effect. Its search ended 31 January 2018. This result concerns broad invitations to health checks; it does not invalidate symptom assessment, management of known risks or evidence-supported individual screening. Geriatric trials were excluded. [S187]
+The historical general-health-check review is retained as a bibliographic pointer only under the current source-use policy. Its numerical findings and certainty are not adopted here. A usable independent appraisal must distinguish broad untargeted check-ups from symptom assessment, management of known risks and separately indicated screening; this evidence gap does not settle any of those questions. [S187: bibliographic pointer only]
 
 Assess treatment claims by ingredient/formulation, indication, comparator, meaningful outcome, follow-up, uncertainty and harm. Keep “not adequately studied,” “uncertain benefit,” “little/no benefit demonstrated” and “recommended against” separate. Publication count, mechanism, marketing language or regulatory presence alone cannot establish benefit. Manufacturer funding is a reason to inspect bias and conflicts, not an automatic reason to discard a study.
 

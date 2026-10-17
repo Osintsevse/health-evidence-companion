@@ -18,3 +18,7 @@ Preserve positive results and limitations; distinguish insufficient evidence fro
 Contribute original general prose with stable source IDs, scope, use and actual reading depth. Never copy a user's history, even unnamed, into examples or public issues. Update canonical knowledge, regenerate references and run package/privacy checks. External publication needs the user's instruction; an existing request to publish is authorization within that scope. Do not merge/approve others' proposed clinical claims as independently verified. Passing technical checks proves structure, not clinical truth.
 
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.

@@ -98,12 +98,20 @@ def check_psychology_blank(template, path):
     require(expected_form is not None and template==expected_form, f'Filled or unexpected psychological template: {path}')
 
 def check_source_citations(text, path, medical_ids, psychology_ids):
-    path=str(path).replace('\\','/')
-    psychology=('knowledge/psychology/' in path or '/references/psychology/' in path or path.startswith(('docs/psychology/','evals/psychology/')))
-    ids=psychology_ids if psychology else medical_ids
-    text=re.sub(r'https?://[^\s)]+','',text)
-    for identifier in re.findall(r'\bS\d{2,}\b',text):
-        require(identifier in ids,f'Unknown source ID {identifier} in {path}')
+    path = str(path).replace('\\', '/')
+    psychology = ('knowledge/psychology/' in path or '/references/psychology/' in path
+                  or path.startswith(('docs/psychology/', 'evals/psychology/')))
+    registers = {'medical': medical_ids, 'psychology': psychology_ids}
+    default_namespace = 'psychology' if psychology else 'medical'
+    text = re.sub(r'https?://[^\s)]+', '', text)
+    # Consume qualified references together; collisions must not hide an invalid namespace or ID.
+    pattern = r'\b(?:(?P<namespace>[\w.:-]+):)?(?P<identifier>S\d{2,})\b'
+    for citation in re.finditer(pattern, text):
+        namespace = citation.group('namespace') or default_namespace
+        require(namespace in registers, f'Unknown source namespace {namespace} in {path}')
+        identifier = citation.group('identifier')
+        require(identifier in registers[namespace],
+                f'Unknown source ID {citation.group(0)} in {path}')
 
 def check_blank_markdown(text, path):
     digest = BLANK_MARKDOWN_SHA256.get(PurePosixPath(path).name)
@@ -260,7 +268,8 @@ def validate(root=ROOT):
         require(urlparse(source['url']).scheme=='https','Non-HTTPS psychology source')
         datetime.date.fromisoformat(source['checked_at'])
     require((root/'skills/psyops-private-records/scripts/psychology_records.py').read_bytes()==(root/'skills/health-record-import/scripts/psychology_records.py').read_bytes(),'Stale psychological summary helper')
-    from source_catalog import catalog
+    from source_catalog import catalog, validate_import_amendments
+    validate_import_amendments(root)
     require(json.loads((root/'knowledge/source-catalog.json').read_text(encoding='utf-8'))==catalog(root),'Stale unified source catalog')
     require((root/'skills/health-contribute/scripts/source_review.py').read_bytes()==(root/'scripts/source_review.py').read_bytes(),'Stale bundled source review helper')
     with (root / 'knowledge/sources.csv').open(newline='',encoding='utf-8') as f:

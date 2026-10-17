@@ -20,3 +20,9 @@ Do not claim to be a licensed psychologist, clinically validated therapist or su
 Public knowledge contains no personal archive. Never retrieve or persist records merely because this skill loaded. Existing explicit authorization remains scoped to the owner and private destination. No private details, filled forms or private links go into GitHub or general web searches. Be candid about available storage and memory.
 
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.
+
+For loneliness, contact frequency, unmet support and relationship quality, read [social connection](references/psychology/35_SOCIAL_CONNECTION.md). Preserve subjective experience and practical constraints; optional clarification is not a validated therapy or a prescription for more contacts.

@@ -59,7 +59,7 @@ for _skill in ['health-explain','health-record-design','health-record-import','h
     MAP[_skill]=list(dict.fromkeys(MAP[_skill]+['knowledge/34_GENETIC_ANNOTATION_AND_INTERPRETATION.md','docs/genetic-analysis-workflow.md']))
 
 
-PSYCHOLOGY_FILES = ["00_COMMON_INDEX.md","01_EVIDENCE_MAP.md","02_ETHICS_AND_DIALOGUE.md","03_CBT_ACT_WORKFLOW.md","04_RELATIONSHIPS.md","05_SEXUALITY.md","06_MEANING_MORTALITY_TIME.md","07_TOOLBOX.md","08_RISK_AND_REFERRAL.md","09_AI_EVIDENCE_AND_TOOLKITS.md","10_RESEARCH_AND_MAINTENANCE.md","12_SESSION_TEMPLATES.md","13_START_INSTRUCTIONS.md","14_FOUNDATIONS.md","15_MODERN_APPROACHES.md","16_AUTO_ROUTING.md","17_COUPLE_FAMILY_APPROACHES.md","18_JOINT_CONVERSATION_PROTOCOL.md","19_PREVENTIVE_CHECKIN.md","20_DATA_BOUNDARIES.md","21_SHARING_GUIDE.md","22_GLOBAL_AND_CULTURAL_CONTEXT.md","23_SPORT_PSYCHOLOGY.md","24_MOTORSPORT_PRACTICES.md","25_SPORT_PRACTITIONER_PROTOCOL.md","26_HELPING_COMPETENCIES.md","27_CBT_SYSTEM.md","28_ACT_SYSTEM.md","29_MCT_AND_MODERN_EVIDENCE.md","30_EVIDENCE_TRIAGE.md","31_MOTORSPORT_CONSULTING.md","32_OUTCOMES_AND_REVIEW.md","33_ASSESSMENT_AND_REFERRAL.md","34_PSYCHOLOGY_CURRICULUM.md","CHANGELOG.md","QUALITY_REVIEW.md","SOURCES.md","sources.json"]
+PSYCHOLOGY_FILES = ["00_COMMON_INDEX.md","01_EVIDENCE_MAP.md","02_ETHICS_AND_DIALOGUE.md","03_CBT_ACT_WORKFLOW.md","04_RELATIONSHIPS.md","05_SEXUALITY.md","06_MEANING_MORTALITY_TIME.md","07_TOOLBOX.md","08_RISK_AND_REFERRAL.md","09_AI_EVIDENCE_AND_TOOLKITS.md","10_RESEARCH_AND_MAINTENANCE.md","12_SESSION_TEMPLATES.md","13_START_INSTRUCTIONS.md","14_FOUNDATIONS.md","15_MODERN_APPROACHES.md","16_AUTO_ROUTING.md","17_COUPLE_FAMILY_APPROACHES.md","18_JOINT_CONVERSATION_PROTOCOL.md","19_PREVENTIVE_CHECKIN.md","20_DATA_BOUNDARIES.md","21_SHARING_GUIDE.md","22_GLOBAL_AND_CULTURAL_CONTEXT.md","23_SPORT_PSYCHOLOGY.md","24_MOTORSPORT_PRACTICES.md","25_SPORT_PRACTITIONER_PROTOCOL.md","26_HELPING_COMPETENCIES.md","27_CBT_SYSTEM.md","28_ACT_SYSTEM.md","29_MCT_AND_MODERN_EVIDENCE.md","30_EVIDENCE_TRIAGE.md","31_MOTORSPORT_CONSULTING.md","32_OUTCOMES_AND_REVIEW.md","33_ASSESSMENT_AND_REFERRAL.md","34_PSYCHOLOGY_CURRICULUM.md","35_SOCIAL_CONNECTION.md","CHANGELOG.md","QUALITY_REVIEW.md","SOURCES.md","sources.json"]
 PSYCHOLOGY_SKILLS = ["psyops-dialogue","psyops-cbt-act-mct","psyops-sport","psyops-relationships","psyops-research","psyops-private-records"]
 UNIFIED = ['knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']
 for _skill in list(MAP):
@@ -98,7 +98,8 @@ CLINICAL_PACK = ['knowledge/clinical/'+name+'.md' for name in CLINICAL_TOPICS] +
     'knowledge/clinical/CLINICAL_INDEX.md','knowledge/clinical/navigation.json',
     'knowledge/clinical/routes.json','knowledge/clinical/source-review.json',
     'knowledge/clinical/intake-question-bank.json','knowledge/clinical/terminology.json',
-    'knowledge/clinical/source-use-policy.json','docs/medical-source-attribution.md']
+    'knowledge/clinical/source-use-policy.json','docs/medical-source-attribution.md',
+    'knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md']
 for _skill in ['health-first-aid','health-nutrition','health-care-navigation','health-history-intake']:
     MAP[_skill] = COMMON + ['knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md',
         'knowledge/32_RISK_COMMUNICATION.md','knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md']
@@ -111,6 +112,25 @@ MAP['health-contribute'] += ['docs/feedback.md']
 
 for _skill in ['health-explain','health-record-design','health-record-import','health-research','health-contribute']:
     MAP[_skill] += ['knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md']
+
+
+GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
+                   'health-family-care', 'health-medicine-info',
+                   'health-prevention', 'health-mental-health',
+                   'health-nutrition', 'health-care-navigation',
+                   'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct', 'psyops-sport']
+GROUNDED_REFERENCES = ['knowledge/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md', 'knowledge/psychology/35_SOCIAL_CONNECTION.md', 'knowledge/55_VOLUME_INFECTION_AND_PREGNANCY.md', 'knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md', 'knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md', 'knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md', 'knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md', 'knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md', 'knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md', 'knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md', 'knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
+    'knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
+    'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
+    'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',
+    'knowledge/clinical/source-use-policy.json', 'knowledge/sources.json',
+    'knowledge/psychology/14_FOUNDATIONS.md', 'knowledge/psychology/30_EVIDENCE_TRIAGE.md',
+    'knowledge/psychology/sources.json']
+for _skill in GROUNDED_SKILLS:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + GROUNDED_REFERENCES))
+
+# Bounded bite notes are available to first aid without the full research pack.
+MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md']
 
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()

@@ -15,6 +15,10 @@ For high lipids, glycemia or other condition questions, identify which result/di
 
 Offer a small set of practical changes suited to the person's preferences and resources, with the reason, expected type of benefit and a review question. Show whole-pattern issues (adequacy, fibre, saturated fat, sodium, variety) where relevant without overinterpreting one meal. Distinguish food allergy from intolerance and avoid broad restrictive diets from unvalidated tests.
 
+## Source-grounded inference
+
+For consequential nutrition explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Match claims to the source's population, outcome and reading scope; distinguish plausible mechanisms and biomarkers from demonstrated clinical benefit, and state uncertainty and limits.
+
 Review supplement evidence by ingredient, indication, deficiency evidence, dose/form and interactions through health-medicine-info when needed. Promising mechanisms, microbiome marketing and biomarkers do not establish patient benefit.
 
 If the user requests recording, route the selected diary/summary to the authorized private archive. Do not export a real diary into general knowledge or web search. Offer text-based or available host question UI; never claim a specific interactive interface is universally installed.

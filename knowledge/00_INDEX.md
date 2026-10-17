@@ -27,7 +27,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 636 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 744 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -66,7 +66,7 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 
 ## Psychology and combined routing
 
-[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 102-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 111-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
 
 - [37: Genetic evidence sources, repeat review and external-data consent](37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md)
 
@@ -79,3 +79,26 @@ Start with [CLINICAL_INDEX](clinical/CLINICAL_INDEX.md), then read the smallest 
 Detailed birth-through-59-month navigation: [well-child care and local plans](clinical/PEDIATRIC_CARE.md), [illness and procedures](clinical/PEDIATRICS.md), and [fontanelles/skull/head growth](clinical/FONTANELS.md). Chronological age governs routing; prematurity correction is specific to the chart or developmental question.
 
 - [38 - Blood pressure, cuff principles and complete measurement views](38_BLOOD_PRESSURE_AND_MEASUREMENT.md).
+
+## Studied question packets
+
+- [Grounded reasoning](39_GROUNDED_REASONING.md), [broad learning map](40_BROAD_HEALTH_LEARNING_MAP.md) and [everyday notes](41_EVERYDAY_HEALTH_NOTES.md).
+- [Methods, GI, sleep and other first studied questions](42_STUDIED_QUESTIONS.md).
+- [Evidence, sleep, ageing, dementia and endometriosis questions](43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md).
+
+Read only the relevant complete section; publication and indexing are not whole-source study or clinical validation.
+
+The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.
+
+- [Movement, device safety, vision and scalp products](46_EXERCISE_VISION_AND_SCALP.md).
+- [Tick and snake exposures](47_TICKS_AND_SNAKEBITES.md), including the unresolved difference in official tick-removal advice.
+
+- [Cellular, renal and measurement foundations](48_CELLULAR_AND_RENAL_FOUNDATIONS.md): selected broader study with source conflicts and explicit depth limits.
+
+- [Inflammation, energy and headache foundations](49_INFLAMMATION_ENERGY_AND_HEADACHE.md): selected processes, inference limits and symptom-assessment context. Paired-measurement methods are in **evidence methods**.
+
+- [Measurement, kinetic-model and transfer study](50_MEASUREMENTS_MODELS_AND_TRANSFER.md): selected oxygen/acid-base, glucose-regulation, PK-model and cognitive-trial questions.
+
+- [Methods, populations and follow-up](51_METHODS_POPULATIONS_AND_FOLLOWUP.md): GI test purpose, selected endometriosis extension appraisal and chart-specific growth interpretation.
+
+- [Detection, programme outcomes and attention tasks](52_DETECTION_OUTCOMES_AND_ATTENTION.md): selected hypertension evidence and adult sport-task appraisal; sampling models are in evidence methods.

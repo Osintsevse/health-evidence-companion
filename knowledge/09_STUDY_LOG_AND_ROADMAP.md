@@ -60,3 +60,7 @@ The modules are translated and adapted for a general audience. Private-storage i
 ## 2026-10-08 expansion
 
 Selected NCI foundations, MIT lecture-note sections, genetics concepts, specialty guidance and prevention sources were inspected. Modules 26-32 record actual reading and unresolved areas. No full medical degree, textbook corpus, complete national screening schedule, diagnostic imaging validation or live fitness/genetics integration was completed. All new sources retain reading scope in the canonical register.
+
+## 2026-10-17 broad learning programme
+
+The earlier next-module table is historical. Module 40 preserves foundations, organ systems, life stages and psychology alongside changing priorities. It explicitly includes GI/heartburn, sleep, cognition, healthy ageing, neck/shoulder pain and massage, vision, labs, ticks, snakes, scalp conditions, blood pressure and dementia risk reduction. Module 41 adds selected official educational sections for six question families with actual reading scope and source dates. Other gaps remain queued. No comprehensive guideline refresh, full-book study, local bite protocol or clinical validation is claimed.

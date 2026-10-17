@@ -72,3 +72,7 @@ Before consequential external medical reading or knowledge contribution, consult
 ## Blood pressure and measurement
 
 For BP parameters, manual versus electronic cuffs or requested BP views, read [blood pressure and measurement](references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md). Preserve complete source-local readings and unknown date/time; never guess pairs from repeated same-day components. Colours are optional named adult educational categories, not a universal good/bad health score. Keep pulse separate, show the full pair and source in a tooltip, and distinguish historical observations from present urgency.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.

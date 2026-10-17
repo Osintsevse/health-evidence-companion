@@ -2,11 +2,11 @@
 
 Sources: S21-S24. Introductory navigation; detailed dermatology and ophthalmology treatment pathways are not yet developed.
 
-Continue with module 15 for targeted allergy testing, 2024-2025 ARIA comparisons, the 2026 urticaria guideline locator, medicine allergy and anaphylaxis distinctions. Its source reading limits remain explicit. This module's skin/eye sections are still introductory.
+Continue with module 15 for scoped allergy-test interpretation, source-use gaps, medicine-reaction information and anaphylaxis distinctions. Its source reading limits remain explicit. This module's skin/eye sections are still introductory.
 
 ## Different mechanisms
 
-A positive skin-prick test or specific IgE indicates sensitization. Clinical food allergy requires the reaction history and additional assessment; a test does not replace that history. Contact allergy evaluated by patch testing is a different question. Do not propose a restrictive diet solely from a positive test name or an unsupervised challenge with a potentially dangerous food. [S22]
+Food sensitization is distinct from a reproducible adverse reaction on exposure; total IgE does not identify an allergen, and a positive specific-IgE result alone does not determine cause or severity. Read the scoped food-only and regulatory limitations in module44; do not infer an avoidance list or conduct a home challenge. [S690, S691, S692]
 
 ## Rhinitis
 

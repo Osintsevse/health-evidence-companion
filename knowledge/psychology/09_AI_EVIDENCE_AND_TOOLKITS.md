@@ -10,13 +10,13 @@ Structured digital program; chatbot with fixed scripts; specially trained and co
 | Source | What was checked | Practical Conclusion and Limitation |
 |---|---|---|
 | Woebot, 2017 [S43] | 70 young adults, two weeks, comparison with information material | Historical data about a specific automated agent; not a test of current LLMs |
-| Therabot, 2025 [S41–S42] | 210 adults; 4 weeks of use, assessed at weeks 4 and 8; waiting list | Encouraging result of a special system; there was no active comparison with psychotherapy |
+| Therabot trial bibliography [S41–S42] | Historical NEJM report/linked summaries retained for permission/source discovery only | No trial-result or efficacy estimate adopted here pending a usable independent appraisal |
 | Sohn et al., 2026 [S44] | 39 RCT of different chatbots | Small average effects; high heterogeneity; applicability to this system is not established |
 | Moore et al., FAccT 2025 [S45] | Checking the responses of models/bots in situations of mental distress | Stigma and dangerous responses revealed; this is an assessment of responses, not an RCT of treatment |
 
 In the 2026 review: g=0.31 for depressive symptoms and g=0.28 for anxiety symptoms. In 35 of 39 studies, the overall risk of bias was rated as high; 23 reported no systematic safety data. You cannot turn these averages into the probability of helping a specific user. [S44]
 
-At Therabot, staff intervened 15 times for safety concerns and 13 times to correct inappropriate responses; We are talking about cases of intervention, not about the number of affected participants. This is an important part of the research setting. [S42]
+Human monitoring and response correction are components that need examination in any AI intervention study; a product result cannot be transferred to general chat. The historical Therabot details are not active evidence under current source-use restrictions. [S41–S42: bibliographic only]
 
 FAccT's work relates to systems studied at that time. It shows error classes for tests, but does not prove that all future models behave the same. [S45]
 

@@ -1,6 +1,6 @@
 # Source register
 
-102 entries. Counts are not independent trials. Reading depth and dates are preserved.
+The canonical psychology register now contains 112 records. Counts are not independent trials. This document preserves original entries and dated reading amendments; reading depth and source dates remain distinct.
 
 ## S01 — APA — Policy statement on evidence-based practice in psychology
 - URL: https://www.apa.org/practice/guidelines/evidence-based-statement
@@ -68,9 +68,9 @@
 ## S10 — Cochrane — Psychological therapies for people with borderline personality disorder
 - URL: https://www.cochrane.org/evidence/CD012955_psychological-therapies-people-borderline-personality-disorder
 - Published/version: 2020
-- Read: indexed_excerpt; checked 2026-09-26
-- Supports: There is support for specialized therapy, including DBT/MBT, for selected outcomes; confidence is often low.
-- Limits: Do not equate multiple skills with a complete cure and do not diagnose BPD.
+- Read: historical record; current use bibliographic pointer only, checked2026-10-17
+- Supports: no active evidence conclusion adopted pending matching AI-use permission.
+- Limits: Cochrane.org source-use policy applies; no mirror/snippet bypass. Independent current appraisal pending.
 
 ## S11 — Arntz et al. — Effectiveness of predominantly group and combined schema therapy for BPD
 - URL: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2789694
@@ -236,9 +236,9 @@
 ## S34 — Cochrane — Motivational interviewing for substance use reduction
 - URL: https://www.cochrane.org/evidence/CD008063_does-motivational-interviewing-help-people-reduce-their-use-alcohol-drugs-or-both
 - Published/version: 2023
-- Read: full_web_text; checked 2026-09-26
-- Supports: 93 studies; the result depends on the control group; there may be little or no benefit over active assistance.
-- Limits: Moderate to very low confidence; It's substance use, not a marriage decision.
+- Read: historical record; current use bibliographic pointer only, checked2026-10-17
+- Supports: no active evidence conclusion adopted pending matching AI-use permission.
+- Limits: Cochrane.org source-use policy applies; no mirror/snippet bypass. Independent current appraisal pending.
 
 ## S35 — Farias et al. — Adverse events in meditation practices and meditation-based therapies
 - URL: https://pubmed.ncbi.nlm.nih.gov/32820538/
@@ -285,16 +285,16 @@
 ## S41 — Heinz et al. — Randomized Trial of a Generative AI Chatbot for Mental Health Treatment
 - URL: https://ai.nejm.org/doi/full/10.1056/AIoa2400802
 - Published/version: 2025
-- Read: indexed_excerpt; checked 2026-09-26
-- Supports: Therabot: 210 adults, 4 weeks, compared to waitlist and followed up to 8 weeks.
-- Limits: The full text of the publisher was not revealed; details are compared with material from the research center S42.
+- Read: historical access, current bibliographic context only; checked2026-10-17
+- Supports: no active trial-result claim adopted from the restricted work or linked summary.
+- Limits: NEJM AI-use restriction applies to the identified work; no mirror/author-summary bypass. Independent usable appraisal pending.
 
 ## S42 — Dartmouth CTBH — Research brief on the Therabot randomized trial
 - URL: https://www.c4tbh.org/research-brief/randomized-trial-of-a-generative-ai-chatbot-for-mental-health-treatment/
 - Published/version: 2025
-- Read: full_web_text; checked 2026-09-26
-- Supports: Describes the protocol, results, and staff interventions for safety and remediation responses.
-- Limits: Study site presentation, non-independent replication of trial S41.
+- Read: historical access, current bibliographic context only; checked2026-10-17
+- Supports: no active trial-result claim adopted from the restricted work or linked summary.
+- Limits: NEJM AI-use restriction applies to the identified work; no mirror/author-summary bypass. Independent usable appraisal pending.
 
 ## S43 — Fitzpatrick et al. — Woebot randomized controlled trial
 - URL: https://mental.jmir.org/2017/2/e19
@@ -716,3 +716,42 @@
 - Read: pubmed_abstract_and_indexed_primary_text; checked 2026-10-08
 - Supports: Limited quantity and quality of research do not establish NLP as an effective health intervention.
 - Limits: Old search; full contemporary evidence review not completed. Insufficient evidence is not robust proof of no possible effect.
+
+## Cycle004–005 selected-study update (2026-10-17)
+
+psychology:S01 policy access now full-page selected scope; psychology:S02 actual mhGAP ANX2/ANX3 PDF viewer52–54 and copyright 4 read after initial access failure. This does not refresh other guideline chapters.
+
+## S105 — Judith S. Beck: Cognitive Behavior Therapy, Basics and Beyond, third edition
+
+- URL: https://www.guilford.com/books/Cognitive-Behavior-Therapy/Judith-Beck/9781462544196
+- Version: Release2020-10-07; copyright 2021; ISBN9781462544196
+- Actual access: selected_chapter5_9_22_openings_read; checked 2026-10-17
+- Supports: Selected assessment, individualized goals/fit, progress/feedback and treatment-plan revision concepts.
+- Limits: Researcher read printed 71-73,160-163,365-367 (viewer90-92,179-182,384-386); root title/copyright/contents and visual viewer179. Not whole chapters/book; clinician training text, not comparative efficacy or AI protocol. Original work year unverified. Publisher terms/permissions inspected, no AI-specific restriction found; source expression/cases/dialogues/forms excluded.
+
+## S106 — A-Tjak et al.: One year follow-up of ACT and CBT for adult depression
+
+- URL: https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-020-03020-1
+- Version: 2021-01-14;BMC Psychiatry21:41
+- Actual access: full_article_read_by_researcher_selected_methods_outcomes_limits_rechecked; checked 2026-10-17
+- Supports: Defined adult depression trial/followup comparing ACT and CBT; nonsignificant differences do not establish equivalence.
+- Limits: One82person trial;2021 report is follow-up, not independent replication. Substantial missing follow-up observations and selected population; mediation does not by itself establish unique causal mechanism. CC BY4 article-specific notice checked; source tables/instrument rules not copied.
+
+## S107 — Nordahl et al.: MCT versus CBT for adult generalized anxiety disorder
+
+- URL: https://www.cambridge.org/core/journals/bjpsych-open/article/metacognitive-therapy-versus-cognitivebehavioural-therapy-in-adults-with-generalised-anxiety-disorder/D0099CA2C0936984F4C3BCCE41234511
+- Version: 2018;BJPsych Open
+- Actual access: full_article_read_by_researcher_selected_limits_and_license_rechecked; checked 2026-10-17
+- Supports: Selected GAD sample/protocol comparison favourable to MCT on worry/recovery; not universal superiority.
+- Limits: Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, missing one-year assessment window; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied.
+
+## Cycle013 selected regression update (2026-10-17)
+
+psychology:S104 retains all prior reading. Researcher read selected OpenIntro4e screen-reader8.2.3/8.2.5 on356/360; root rechecked these and additionally8.2.6 on361, with visual verification of all three pages. These are three distinct pages across reading actors, not a full regression course. Source CC BY-SA3.0 and current terms checked; attribution/ShareAlike for expressive adaptations retained. Original factual notes only; no source examples, quotation, exercises, figures or data. Robust inference, prediction intervals and clinical model validation remain unappraised.
+
+## S112 — Office of the U.S. Surgeon General: Social Connection advisory
+
+- URL: https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf
+- Published/version:2023; official landing reviewed 2025-02-19.
+- Read: researcher/root selected original PDF text, printed 6–7,10,opening12,selected67–68 and69–70 notices; no whole-report or visual review claim.
+- Use/limits: SOC-C1 in [social connection](35_SOCIAL_CONNECTION.md) provides a bounded adult construct explanation; original optional questions are not validated therapy. No quantified risk, intervention efficacy, source figures/stock images/scales or cited third-party text adopted. HHS notices directly checked; copyright preserved without inventing a blanket AI ban or public-domain grant. Exact scope in the cycle015 review.

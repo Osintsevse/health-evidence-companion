@@ -74,16 +74,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S08 - CDC - Manage Common Cold, 2026-03-11
 - URL: https://www.cdc.gov/common-cold/treatment/index.html
 - Region: United States
-- Reading status: Treatment sections opened
+- Reading status: Researcher keypoints/comfort/temporary-relief/harms/risk/warning sections.
 - Purpose: Cold symptoms, supportive measures and assessment thresholds
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S09 - CDC - Adult Outpatient Clinical Care
 - URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html
 - Region: United States
-- Reading status: Indexed clinical sections read
+- Reading status: Researcher adult-outpatient keypoints/scope/OTC evidence limitation.
 - Purpose: Antibiotic use in bronchitis, sinusitis and pharyngitis
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S10 - NHS - Paracetamol for adults
 - URL: https://www.nhs.uk/medicines/paracetamol-for-adults/
@@ -165,16 +165,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S21 - NHS - Allergic rhinitis
 - URL: https://www.nhs.uk/conditions/allergic-rhinitis/
 - Region: United Kingdom
-- Reading status: Indexed sections read
+- Reading status: Researcher symptom/cause/nonallergic distinction sections; not full comparative treatment evidence.
 - Purpose: Allergic nasal symptoms, antihistamines and nasal steroids
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S22 - EAACI - IgE-mediated food allergy diagnosis, 2023
 - URL: https://doi.org/10.1111/all.15902
 - Region: International
-- Reading status: Indexed diagnostic recommendations read
-- Purpose: History plus tests; sensitization is not a proven food reaction
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S23 - GINA - Asthma diagnosis FAQ
 - URL: https://ginasthma.org/faq/
@@ -214,15 +214,15 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S28 - MedlinePlus - Understanding lab results
 - URL: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
 - Region: United States
-- Reading status: Selected result/context and reference-interval sections rechecked; patient-education page, not assay harmonization validation
+- Reading status: Result purpose/context, reference ranges, units, false results and preparation sections rechecked2026-10-17; not assay equivalence or full decision-limit standard.
 - Purpose: Units, references, false results and clinical context
-- Checked: 2026-10-07
+- Checked: 2026-10-17
 
 ### S29 - NICE - NG136 Hypertension in adults
 - URL: https://www.nice.org.uk/guidance/ng136/chapter/recommendations
 - Region: United Kingdom
-- Reading status: Indexed diagnostic confirmation recommendations read
-- Purpose: Home/ambulatory blood pressure monitoring
+- Reading status: Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-06
 
 ### S30 - USPSTF - Prediabetes and type 2 diabetes screening, 2021
@@ -298,9 +298,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S40 - Cochrane - Zinc for common cold, 2024
 - URL: https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold
 - Region: Systematic review
-- Reading status: Review page opened
-- Purpose: Possible shorter duration, uncertainty and adverse effects
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S41 - NHS - Cetirizine side effects
 - URL: https://www.nhs.uk/medicines/cetirizine/side-effects-of-cetirizine/
@@ -606,9 +606,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S84 - OpenStax - Anatomy and Physiology 2e preface
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/preface
 - Region: International
-- Reading status: Open textbook/scope found; chapters not yet studied
-- Purpose: Introductory anatomy/physiology, not a complete medical degree
-- Checked: 2026-10-06
+- Reading status: Open textbook/scope found; chapters not yet studied On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
+- Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
+- Checked: 2026-10-17
 
 ### S85 - HL7 FHIR R4 - MedicationStatement
 - URL: https://hl7.org/fhir/R4/medicationstatement.html
@@ -648,37 +648,37 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S90 - ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)
 - URL: https://pubmed.ncbi.nlm.nih.gov/41324154/
 - Region: International
-- Reading status: Publication abstract and dates read; full recommendation tables not accessible.
-- Purpose: Current rhinitis drug-class comparisons, with conditional scope.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S91 - EAACI - Food allergy diagnosis guideline overview, 2023
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/
 - Region: International
-- Reading status: Official overview read: history, sensitization, targeted tests and supervised challenge; not full guideline text.
-- Purpose: Diagnostic-test interpretation without home challenges.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S92 - EAACI - IgE-mediated food allergy management, 2024
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/
 - Region: International
-- Reading status: Official guideline abstract/overview read; full specialist protocols not studied.
-- Purpose: Confirmed food-allergy management concepts and specialist boundaries.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S93 - International urticaria guideline, 2026
 - URL: https://pubmed.ncbi.nlm.nih.gov/41649409/
 - Region: International
-- Reading status: Publication dates, abstract and diagnostic figure descriptions read; linked PMC full text blocked by browser challenge.
-- Purpose: Latest guideline locator; no invented full treatment algorithm.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S94 - NICE - CG183 Drug allergy
 - URL: https://www.nice.org.uk/guidance/cg183/chapter/recommendations
 - Region: UK
-- Reading status: Indexed recommendations on reaction history, documentation and assessment inspected; direct full-page retrieval limited.
-- Purpose: Distinguish allergy, adverse effects and unknown status.
-- Checked: 2026-10-06
+- Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
+- Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
+- Checked: 2026-10-17
 
 ### S95 - AAAAI - IgG food panel testing
 - URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test
@@ -697,9 +697,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S97 - KDIGO - CKD evaluation and management, 2024 guideline portal
 - URL: https://kdigo.org/guidelines/ckd-evaluation-and-management/
 - Region: International
-- Reading status: Current guideline status and focused-update notice inspected; complete guideline not read.
+- Reading status: 2026-10-17: researcher/root read live status notice:2027 medication-management focused update public review through2026-11-04;2024 is published framework. Draft content not studied/adopted.
 - Purpose: Version tracking and acute/chronic kidney assessment source route.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S98 - KDIGO - Selected 2024 CKD evaluation takeaways presentation
 - URL: https://kdigo.org/wp-content/uploads/2024/07/07232024-KDIGO-CKD.pdf
@@ -711,9 +711,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S99 - NIDDK - The A1C test and diabetes
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test
 - Region: US
-- Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read.
+- Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read. Selected definitions, timing/recent-month influence and red-cell/assay sections refreshed2026-10-17; displayed reviewApril2018 retained. No current diagnostic schedule or blanket point-of-care restriction adopted.
 - Purpose: HbA1c/glucose discordance and diagnostic confirmation.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S100 - WHO - Ferritin guideline, 2020
 - URL: https://iris.who.int/bitstream/handle/10665/331505/9789240000124-eng.pdf
@@ -725,8 +725,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S101 - NICE - NG145 Thyroid disease
 - URL: https://www.nice.org.uk/guidance/NG145/chapter/recommendations
 - Region: UK
-- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.
-- Purpose: Primary/secondary thyroid testing and biotin interference.
+- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
 
 ### S102 - MedlinePlus - Complete blood count
@@ -746,9 +746,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S104 - MedlinePlus - C-reactive protein test
 - URL: https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/
 - Region: US
-- Reading status: Inflammation causes and result-interpretation sections inspected.
+- Reading status: Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.
 - Purpose: CRP is not a stand-alone antibiotic or diagnostic decision.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S105 - MedlinePlus - Liver function tests
 - URL: https://medlineplus.gov/lab-tests/liver-function-tests/
@@ -760,8 +760,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S106 - NICE - NG158 Venous thromboembolic diseases
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/recommendations
 - Region: UK
-- Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline.
-- Purpose: Explain a diagnostic pathway rather than D-dimer screening.
+- Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
 
 ### S107 - Batut - Immunization instructions for 2026, full PDF
@@ -823,23 +823,23 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S115 - Cochrane - Oscillococcinum for influenza-like illness, 2015
 - URL: https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness
 - Region: International
-- Reading status: Review summary and conclusions read; underlying search current to 2014, not a new 2026 review.
-- Purpose: Low-quality evidence does not justify a proven efficacy claim.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S116 - Cochrane - Vitamin C for common colds, 2013
 - URL: https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold
 - Region: International
-- Reading status: Summary/conclusions on regular supplementation versus treatment after onset read; older review.
-- Purpose: Do not conflate post-onset treatment with other vitamin C indications.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S117 - Cochrane - Echinacea for common colds, 2014
 - URL: https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold
 - Region: International
-- Reading status: Summary on heterogeneous preparations, bias and uncertain treatment effects read; older review.
-- Purpose: Product-specific evidence rather than an herbal-class verdict.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S118 - Ergoferon paediatric respiratory-infection RCT, 2021
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8608533/
@@ -893,9 +893,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S125 - Cochrane - Cerebrolysin for acute ischaemic stroke, 2023
 - URL: https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
 - Region: International
-- Reading status: Review summary and conclusions on mortality, missing functional outcomes and serious adverse events read; not all trial reports.
-- Purpose: Indication-specific outcome and harm appraisal, including Cortexin mortality data.
-- Checked: 2026-10-06
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S126 - EMA - Restricted trimetazidine use, 2012 regulatory review
 - URL: https://www.ema.europa.eu/en/documents/press-release/european-medicines-agency-recommends-restricting-use-trimetazidine-containing-medicines_en.pdf
@@ -1131,9 +1131,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S159 - MIT 20.201: Pharmacokinetics (October 9, 2013)
 - URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf
 - Region: US
-- Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded
+- Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded Additional selected printed/viewer23-31 text and visual25,28,30,31 checked2026-10-17; model/dimension review, not full36page lecture. Current OCW CC BY-NC-SA4.0/third-party terms checked; no source assets or historical drug examples reproduced.
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity
 - URL: https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/
@@ -1173,9 +1173,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S165 - CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15
 - URL: https://www.cdc.gov/hearher/maternal-warning-signs/index.html
 - Region: US
-- Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.
+- Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
 - Purpose: Pregnancy/postpartum urgent routing
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S166 - NICE NG126 - Diagnosis of viable intrauterine pregnancy and tubal ectopic pregnancy, updated 2026-06-17
 - URL: https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
@@ -1327,9 +1327,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S187 - General health checks in adults for reducing morbidity and mortality, Cochrane 2019
 - URL: https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality
 - Region: International
-- Reading status: Plain-language summary and complete abstract read; search ended 2018-01-31; underlying trials not read.
-- Purpose: Multi-disease checkups in unselected adults; not targeted screening.
-- Checked: 2026-10-08
+- Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
+- Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
+- Checked: 2026-10-17
 
 ### S188 - WHO Healthy diet
 - URL: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
@@ -1453,9 +1453,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S205 - USPSTF Hypertension in Adults Screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
 - Region: US
-- Reading status: Recommendation, intervals, confirmation and measurement paragraphs read.
+- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
 - Purpose: Adults without known hypertension; routine screening not acute-care guidance.
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S206 - USPSTF Tobacco Smoking Cessation in Adults Including Pregnant Persons, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
@@ -1747,9 +1747,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S247 - WHO cognitive decline and dementia risk reduction second edition2026
 - URL: https://www.who.int/publications/i/item/9789240123557
 - Region: International
-- Reading status: Official publication overview read; guideline sections not yet all reviewed
-- Purpose: Prefer current second edition to2019 and check exact recommendation at use
-- Checked: 2026-10-08
+- Reading status: Actual official168-page PDF SHA matched. Selected viewer12–15(printedx–xiii),44–49(printed18–23) text read by packet researcher; root viewer1–5 and visual13,15 checked. Not full guideline/trials.
+- Purpose: Scope, update method, physical-activity cognitive-decline recommendation strength/certainty and validated status; not guaranteed dementia prevention.
+- Checked: 2026-10-17
 
 ### S248 - WHO2026 dementia guideline official announcement
 - URL: https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed
@@ -2139,9 +2139,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S303 - DailyMed
 - URL: https://dailymed.nlm.nih.gov/
 - Region: US
-- Reading status: Search-rendered landing information inspected; direct search URLs failed
+- Reading status: Search-rendered landing information inspected; direct search URLs failed About DailyMed overview/disclaimer directly read2026-10-17: submitted in-use text may differ from current FDA-approved labeling; not independent clinical evidence.
 - Purpose: In-use labeling navigation
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S304 - NICE NG238 cardiovascular risk and lipid modification
 - URL: https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3
@@ -2153,8 +2153,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S305 - NICE NG28 initial medicines
 - URL: https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines
 - Region: UK
-- Reading status: Search-rendered section 1.13 and rationale inspected
-- Purpose: Current regional cardiorenal-oriented type 2 treatment context
+- Reading status: Search-rendered section 1.13 and rationale inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S306 - GOLD 2026 Report
@@ -2531,16 +2531,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S359 - Pulse Oximeters
 - URL: https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
 - Region: US
-- Reading status: Device limitations and FDA efforts sections inspected
+- Reading status: Device limitations and FDA efforts sections inspected Selected consumer description/limitations refreshed2026-10-17; linked January2025 draft is separately S730, not independent performance validation.
 - Purpose: skin pigmentation limits and symptom context
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S360 - Anatomy and Physiology 2e introduction: current rights restriction
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
 - Region: US
-- Reading status: Introduction objectives and licensing inspected only; no chapters ingested
-- Purpose: rights restriction only
-- Checked: 2026-10-09
+- Reading status: Introduction objectives and licensing inspected only; no chapters ingested On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
+- Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
+- Checked: 2026-10-17
 
 ### S361 - WHO: Endometriosis
 - URL: https://www.who.int/news-room/fact-sheets/detail/endometriosis
@@ -2552,16 +2552,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S362 - NICE NG73: Endometriosis—diagnosis and management, recommendations
 - URL: https://www.nice.org.uk/guidance/ng73/chapter/Recommendations
 - Region: United Kingdom
-- Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility.
-- Purpose: Suspected disease pathway, normal-imaging limits, concurrent treatment/investigation, referral, laparoscopy, surgical and fertility distinctions, preoperative GnRH comparison.
-- Checked: 2026-10-09
+- Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility. Historical reading on 2026-10-09 retained. On 2026-10-17 only policy status was reviewed; no clinical content newly retrieved.
+- Purpose: Bibliographic only under current source-use policy until separate AI-use permission is verified. Not active clinical evidence for the revised endometriosis passages.
+- Checked: 2026-10-17
 
 ### S363 - ESHRE Guideline: Endometriosis (2022)
 - URL: https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf
 - Region: Europe / international professional guidance
-- Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read.
-- Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care; explicit NICE comparison.
-- Checked: 2026-10-09
+- Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read. Additional reading on 2026-10-17: PDF/printed pp. 9, 11, 21-22, 27, 29, 31-32, 35-36, 67-68 and 125-126; pages 29, 35, 67 and 125 visually checked. Source papers cited within those pages were not independently appraised.
+- Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care.
+- Checked: 2026-10-17
 
 ### S364 - ACOG publishes new endometriosis clinical guidance aiming to shorten time to diagnosis and improve access to care
 - URL: https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care
@@ -2643,9 +2643,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S375 - EMA: Yselty (linzagolix), European public assessment report overview
 - URL: https://www.ema.europa.eu/en/medicines/human/EPAR/yselty
 - Region: European Union
-- Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed.
+- Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed. Earlier overview-only/failed SmPC scope retained. On2026-10-17 researcher selected current SmPC2-10/14-16; root text9/14-16, visual9/15/16. No printed revision date established; whole43page label unread. Independent assessment is S737.
 - Purpose: Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
 - URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
@@ -2706,9 +2706,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S384 - Validation of a Saliva Micro-RNA Signature for Endometriosis
 - URL: https://pubmed.ncbi.nlm.nih.gov/41147827/
 - Region: Multicenter French diagnostic population
-- Reading status: Indexed original abstract inspected: 971-participant validation, prevalence, sensitivity, specificity, predictive values and funding. Publisher metadata inspected; full protocol/supplements not read.
-- Purpose: Promising current diagnostic-accuracy evidence with population/clinical-utility limitations; supersedes relying solely on the earlier 200-participant interim analysis.
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S385 - French Ministry of Health: experimental Endotest saliva-test access to improve endometriosis diagnosis
 - URL: https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/endometriose/article/experimentation-d-un-test-salivaire-endotest-r-pour-ameliorer-les-conditions-de
@@ -2748,8 +2748,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S390 - NICE NG133 recommendations
 - URL: https://www.nice.org.uk/guidance/ng133/chapter/recommendations
 - Region: England
-- Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403
-- Purpose: Pregnancy severe threshold and postpartum symptoms
+- Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S391 - NHS Low blood pressure
@@ -2788,11 +2788,11 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Checked: 2026-10-09
 
 ### S396 - KDIGO 2024 CKD Clinical Practice Guideline
-- URL: https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf
+- URL: https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2024-CKD-Guideline.pdf
 - Region: Global
-- Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document
+- Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document 2026-10-17: researcher/root additionally selected recommendations3.6.4,3.7.1,3.9.1 and related practice points from the same2024 edition; root text and licence notice read, web screenshot pixels not available and native PDF download returned403. No claim of visual/page-complete review or primary-trial appraisal.
 - Purpose: Chronicity versus AKI, cardiorenal context and monitoring
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S397 - GINA Summary Guide for Asthma Management and Prevention 2026
 - URL: https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf
@@ -2804,8 +2804,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S398 - NICE NG115 recommendations
 - URL: https://www.nice.org.uk/guidance/ng115/chapter/Recommendations
 - Region: England
-- Reading status: Indexed spirometry and inhaled-treatment sections inspected
-- Purpose: Spirometry confirmation, treatment roles, pneumonia risk and function
+- Reading status: Indexed spirometry and inhaled-treatment sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S399 - AHA official explanation of 2022 AHA/ACC/HFSA HF guideline
@@ -2846,29 +2846,29 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S404 - NICE NG56 recommendations
 - URL: https://www.nice.org.uk/guidance/ng56/chapter/recommendations
 - Region: England
-- Reading status: Indexed sections 1.1-1.6 inspected; direct 403
-- Purpose: Goals, treatment burden, frailty, reconciliation and coordinated plan
+- Reading status: Indexed sections 1.1-1.6 inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S405 - NICE NG226 recommendations
 - URL: https://www.nice.org.uk/guidance/ng226/chapter/Recommendations
 - Region: England
-- Reading status: Indexed exercise/function and pharmacological sections inspected
-- Purpose: Exercise, topical/oral NSAID distinction and comorbidity risk
+- Reading status: Indexed exercise/function and pharmacological sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S406 - NICE NG100 recommendations
 - URL: https://www.nice.org.uk/guidance/ng100/chapter/Recommendations
 - Region: England
-- Reading status: Indexed referral and urgent septic-arthritis recommendation inspected
-- Purpose: Persistent synovitis referral and urgent hot-joint distinction
+- Reading status: Indexed referral and urgent septic-arthritis recommendation inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S407 - NICE NG246 Medicines and surgery
 - URL: https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery
 - Region: England
-- Reading status: Indexed medicine section and eligibility table inspected
-- Purpose: Structured care, product-specific medicine options and local eligibility
+- Reading status: Indexed medicine section and eligibility table inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S408 - AHA official explanation: ACC/AHA updated dyslipidemia guideline
@@ -3000,9 +3000,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S426 - van Dyck et al. Lecanemab in Early Alzheimer Disease
 - URL: https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
 - Region: International trial
-- Reading status: Original indexed result read; full article 403; FDA clinical table read separately
-- Purpose: Absolute vs relative 18-month result
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S427 - Sims et al. TRAILBLAZER-ALZ 2
 - URL: https://jamanetwork.com/journals/jama/fullarticle/2807533
@@ -3014,16 +3014,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S428 - FDA clears first Alzheimer blood test
 - URL: https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease
 - Region: US
-- Reading status: Relevant full FDA paragraphs read
+- Reading status: FDA2025-05-16 announcement intended-use/population/interpretation and no-screening/standalone paragraphs rechecked; no device-study reanalysis.
 - Purpose: Named assay symptomatic age 55+; not screening/standalone
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S429 - FDA Class 2 Lumipulse calibrator recall
 - URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945
 - Region: US
-- Reading status: Product, lots, reason, actions inspected
+- Reading status: Recall record product/calibrator lots, reason/actions and open/classified status rechecked; site last-updated2026-10-15, no universal assay-invalidity claim.
 - Purpose: Lot-specific falsely elevated ratios and result review
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S430 - MHRA lecanemab licensing
 - URL: https://www.gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease
@@ -3056,9 +3056,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S434 - NICE NG97 dementia recommendations
 - URL: https://www.nice.org.uk/guidance/NG97/chapter/recommendations
 - Region: England
-- Reading status: Official indexed recommendations 1.5.2-1.5.15 and 1.6 inspected; direct page blocked
-- Purpose: Stage/subtype options and anticholinergic review
-- Checked: 2026-10-09
+- Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
+- Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
+- Checked: 2026-10-17
 
 ### S435 - Comprehensive Metabolic Panel (CMP)
 - URL: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/
@@ -3077,9 +3077,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S437 - Chronic Kidney Disease Tests and Diagnosis
 - URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis
 - Region: US
-- Reading status: read relevant rendered page sections
+- Reading status: read relevant rendered page sections; selected researcher refresh2026-10-17: GFR/creatinine and urine-albumin explanation only. Displayed reviewOctober2016; no current cutoffs or treatment protocol adopted.
 - Purpose: Complementary filtration and urine-albumin assessment.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S438 - Recommendations for Implementing the CKD-EPI 2021 Race-Free eGFR Calculation
 - URL: https://www.kidney.org/recommendations-implementing-ckd-epi-2021-race-free-egfr-calculation-guidelines-clinical
@@ -3098,9 +3098,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S440 - Thyroid Tests
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid
 - Region: US
-- Reading status: read relevant rendered page sections
+- Reading status: NIDDK page last reviewed May 2017. Cycle014 researcher/root rechecked introduction and TSH/T4/T3 blood-test/context paragraphs and current content-use policy; imaging/biopsy instructions not adopted.
 - Purpose: Linked hormone testing and contextual interpretation.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S441 - High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain
 - URL: https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain
@@ -3119,8 +3119,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S443 - NICE NG158 Recommendations
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
 - Region: UK
-- Reading status: read relevant rendered page sections
-- Purpose: Clinician assessment, selected PERC/Wells/D-dimer pathways.
+- Reading status: read relevant rendered page sections Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
+- Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-09
 
 ### S444 - IBIS Breast Cancer Risk Evaluation Tool
@@ -3224,9 +3224,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S458 - NHS: Headaches
 - URL: https://www.nhs.uk/symptoms/headaches/
 - Region: United Kingdom; local access pathways require adaptation
-- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.
 - Purpose: Decision-entry context and proportionate care navigation for headaches
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S459 - NHS: High temperature in adults
 - URL: https://www.nhs.uk/symptoms/fever-in-adults/
@@ -3546,9 +3546,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S504 - Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition
 - URL: https://www.who.int/publications/i/item/9789240103726
 - Region: Global
-- Reading status: Publication overview inspected; PDF fetch 403
-- Purpose: Functional domains and integrated care
-- Checked: 2026-10-09
+- Reading status: Actual PDF SHA matched. Packet researcher read viewer4–5(frontmatter),8–10(glossaryvi–viii),13–16(printed1–4),21–23(printed9–11). Root visual4,8,15 checked. Not full handbook/instruments/pathways.
+- Purpose: Functional ability/capacity/environment, goals, autonomy, local multidisciplinary and longitudinal care.
+- Checked: 2026-10-17
 
 ### S505 - Falls: assessment and prevention, NG249 recommendations
 - URL: https://www.nice.org.uk/guidance/ng249/chapter/Recommendations/
@@ -3574,9 +3574,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S508 - Massage Therapy: What You Need To Know
 - URL: https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know
 - Region: US
-- Reading status: Pain, cancer, risk and provider sections inspected
+- Reading status: Neck/shoulder evidence, harms and practical advice rechecked2026-10-17; underlying publication May2019, no newer-trial appraisal.
 - Purpose: Indication-specific benefits, uncertainty and risk
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S509 - Standard of Practice: Professional Boundaries, Draping, and Physical Privacy
 - URL: https://www.cmto.com/rules/standard-of-practice-professional-boundaries-draping-and-physical-privacy/
@@ -3973,9 +3973,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S565 - When to get urgent medical help for babies and children under 5
 - URL: https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/
 - Region: UK
-- Reading status: relevant_sections_opened_and_read
+- Reading status: Researcher immediate-action/age-fever/breathing/behaviour/feeding sections; root selected actual text.
 - Purpose: Afebrile/lower-temperature illness, feeding/responsiveness, young-infant thresholds; source urgency difference
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S566 - Jaundice in babies
 - URL: https://www.nhs.uk/conditions/jaundice-in-babies/
@@ -4071,16 +4071,16 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S579 - CDC Developmental Monitoring and Screening
 - URL: https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html
 - Region: US
-- Reading status: Relevant HTML sections inspected
+- Reading status: Researcher monitoring/screening/follow-up sections; root actual screening ages/concern text.
 - Purpose: Surveillance versus validated screening; AAP timing; early support navigation
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S580 - CDC Using WHO Growth Standard Charts
 - URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html
 - Region: US
-- Reading status: Relevant HTML sections inspected
+- Reading status: Relevant HTML sections inspected Selected measurement/transition/context refreshed2026-10-17 by researcher/root; numerical worked example not adopted.
 - Purpose: Accurate serial measures; US transition at two; length versus height; indicator changes
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S581 - WHO Child Growth Standards
 - URL: https://www.who.int/tools/child-growth-standards
@@ -4456,9 +4456,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S634 - UK-WHO growth charts - guidance for health professionals
 - URL: https://www.rcpch.ac.uk/resources/uk-who-growth-charts-guidance-health-professionals
 - Region: UK
-- Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed.
+- Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed. Current specific2009 teaching-use notice rechecked2026-10-17; preterm fact sheet separately S735, digital policy S736. No videos/newborn/NICM materials newly studied.
 - Purpose: Trained measurement, suitable narrow tape, recording dates and checking plotting age errors.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S635 - Meningitis
 - URL: https://www.nhs.uk/conditions/meningitis/
@@ -4498,6 +4498,888 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S640 - AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)
 - URL: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home
 - Region: US / general adult education
-- Reading status: Device choice, home technique, repeat readings and severe-pressure action sections inspected
+- Reading status: Home device, cuff, technique, repeated readings and urgency sections rechecked2026-10-17; source reviewed2025-08-14, adult US education.
 - Purpose: Source-linked guide; historical points are not current emergencies
-- Checked: 2026-10-09
+- Checked: 2026-10-17
+
+### S641 - Abbas, Lichtman and Pillai: Cellular and Molecular Immunology, 7th edition (2012), ISBN 9781437715286
+- URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101552179
+- Region: Foundational textbook; not current jurisdiction-specific clinical guidance
+- Reading status: Book identity and copyright checked. Chapter 1, printed pp. 2-3 (PDF pp. 11-12), read 2026-10-16; Chapter 19, printed pp. 426-428 (PDF pp. 434-436), read 2026-10-17, including visual inspection of the opening sequence diagram. NLM catalogue metadata verified 2026-10-17; the catalogue is not the source of textbook claims. Remaining book unread.
+- Purpose: Short original explanation of connected innate/adaptive responses and IgE sensitization mechanisms only. No copied figures/tables, diagnostic thresholds, immune treatment or current efficacy inference.
+- Checked: 2026-10-17
+
+### S642 - Kliegman et al.: Nelson Textbook of Pediatrics, 19th edition (2011), ISBN 9781437707557
+- URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101555489
+- Region: Historical pediatric foundations; not current clinical standards
+- Reading status: Book title/edition checked. Chapter 91, The High-Risk Infant, printed pp. 552-553 (PDF pp. 624-625), read 2026-10-16 and historical figure inspected. NLM catalogue metadata verified 2026-10-17; not a reading of the catalogue as clinical evidence. Remaining book unread.
+- Purpose: Short original distinction between gestational age at birth and birthweight. No 1995-1996 cohort graph, thresholds, current classifications, individual risk estimates or treatment rules reproduced.
+- Checked: 2026-10-17
+
+### S643 - Greenhawt et al.: Peanut allergy diagnosis—a 2020 practice parameter update, systematic review, and GRADE analysis
+- URL: https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/PIIS0091674920311374.pdf
+- Region: AAAAI; IgE-mediated peanut allergy in children and adults
+- Reading status: Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.
+- Purpose: Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.
+- Checked: 2026-10-17
+
+### S644 - Ravaggi et al.: Serum miRNA-based diagnostic models for endometriosis: from discovery to validation (online 2025; issue 2026)
+- URL: https://doi.org/10.1093/humrep/deaf221
+- Region: Two Italian surgical centers; serum biomarker research
+- Reading status: Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.
+- Purpose: Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.
+- Checked: 2026-10-17
+
+### S645 - NIDDK: Symptoms & Causes of GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes
+- Region: Adult US patient education
+- Reading status: Symptoms and assessment-warning sections inspected; causes not fully appraised. Read 2026-10-17.
+- Purpose: Adult reflux symptoms and assessment context.
+- Checked: 2026-10-17
+
+### S646 - NIDDK: Treatment for GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment
+- Region: Adult US patient education
+- Reading status: Lifestyle and antacid/H2-blocker/PPI overview inspected; surgery/procedure evidence not appraised. Read 2026-10-17.
+- Purpose: Class-level explanation and persistent-symptom assessment.
+- Checked: 2026-10-17
+
+### S647 - NIDDK: Eating, Diet, & Nutrition for GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition
+- Region: Adults; US educational source
+- Reading status: Meal timing and possible individual food/drink triggers inspected; underlying cited paper not appraised. Read 2026-10-17.
+- Purpose: Bounded lifestyle explanation.
+- Checked: 2026-10-17
+
+### S648 - NHLBI: Sleep Deprivation and Deficiency—Healthy Sleep Habits
+- URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits
+- Region: General habits; adult note scope
+- Reading status: Habit and shift-work sections inspected; only general habits incorporated. Read 2026-10-17.
+- Purpose: Sleep opportunity, regularity, environment and contextual habits.
+- Checked: 2026-10-17
+
+### S649 - NHLBI: Insomnia—Treatment
+- URL: https://www.nhlbi.nih.gov/health/insomnia/treatment
+- Region: Adult insomnia education; US source
+- Reading status: Healthy-habit and CBT-I sections inspected; drug comparisons not independently appraised. Read 2026-10-17.
+- Purpose: Multicomponent CBT-I versus habits alone.
+- Checked: 2026-10-17
+
+### S650 - NEI: Convergence Insufficiency
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency
+- Region: Condition-specific educational overview
+- Reading status: Definition, symptoms, diagnosis, treatment and scope inspected; linked trials/news not appraised. Read 2026-10-17.
+- Purpose: Named binocular-vision indication and exercise-claim limits.
+- Checked: 2026-10-17
+
+### S651 - MedlinePlus: Dandruff, Cradle Cap, and Other Scalp Conditions
+- URL: https://medlineplus.gov/dandruffcradlecapandotherscalpconditions.html
+- Region: Federal health-topic summary, not A.D.A.M. encyclopedia
+- Reading status: Federal summary, attribution and linked-source boundaries inspected; linked third-party treatment text not incorporated. Read 2026-10-17.
+- Purpose: Scalp alternatives and review if dandruff shampoo fails.
+- Checked: 2026-10-17
+
+### S652 - CDC: What to Do After a Tick Bite
+- URL: https://www.cdc.gov/ticks/after-a-tick-bite/
+- Region: US public-health advice; local application needs checking
+- Reading status: Removal, caution, avoid-tick-testing and follow-up text inspected; interactive guide not executed. Read 2026-10-17.
+- Purpose: Prompt removal, follow-up and limits of tick-test inference.
+- Checked: 2026-10-17
+
+### S653 - ECDC: Personal protective measures against tick bites
+- URL: https://www.ecdc.europa.eu/en/disease-vectors/prevention-and-control/protective-measures-ticks
+- Region: European prevention overview
+- Reading status: Prevention and prompt-removal text inspected; posters/leaflets not incorporated. Read 2026-10-17.
+- Purpose: European exposure prevention and prompt removal.
+- Checked: 2026-10-17
+
+### S654 - WHO: Snakebite envenoming—health topic
+- URL: https://www.who.int/health-topics/snakebite
+- Region: Global public-health overview
+- Reading status: Symptoms and first-aid/treatment overview inspected; linked publications not appraised. Read 2026-10-17.
+- Purpose: Urgent care, stillness, tight-item removal, breathing attention.
+- Checked: 2026-10-17
+
+### S655 - WHO: Snakebite envenoming—questions and answers
+- URL: https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming
+- Region: Global overview; region/species-dependent effects
+- Reading status: First-aid, effective-treatment and venom-variation sections inspected; other costs/statistics not imported. Read 2026-10-17.
+- Purpose: Harmful methods, pressure-technique limits and region/species variation.
+- Checked: 2026-10-17
+
+### S656 - CDC/NIOSH: Venomous Snakes at Work
+- URL: https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html
+- Region: US outdoor-worker source; limited scene-safety use
+- Reading status: Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.
+- Purpose: No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.
+- Checked: 2026-10-17
+
+### S657 - VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)
+- URL: https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf
+- Region: Adult VA/DoD clinician guidance; external use needs local context
+- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.
+- Purpose: Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.
+- Checked: 2026-10-17
+
+### S658 - NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health
+- URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects
+- Region: General education; adult note scope
+- Reading status: Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.
+- Purpose: Sleep deficiency and function; limits on cognitive-enhancement inference.
+- Checked: 2026-10-17
+
+### S659 - NIDDK: Diagnosis of GER & GERD
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis
+- Region: Adult US education
+- Reading status: Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.
+- Purpose: Different questions answered by lining inspection/biopsy versus reflux monitoring.
+- Checked: 2026-10-17
+
+### S660 - NIDDK: Diagnosis of Indigestion
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis
+- Region: Adult educational overview
+- Reading status: Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.
+- Purpose: Dyspepsia assessment, alternative causes and test-purpose distinctions.
+- Checked: 2026-10-17
+
+### S661 - NIDDK: Symptoms & Causes of GI Bleeding
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/
+- Region: Public educational safety context
+- Reading status: Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.
+- Purpose: Visible GI bleeding and deterioration require prompt/emergency care.
+- Checked: 2026-10-17
+
+### S662 - MedlinePlus: How to Prepare for a Lab Test
+- URL: https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/
+- Region: Source-specific educational scope
+- Reading status: Preparation, medicine and fasting sections read; not a universal preparation protocol.
+- Purpose: Test-specific preparation and reporting departures.
+- Checked: 2026-10-17
+
+### S663 - NHS: Neck pain
+- URL: https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/
+- Region: Source-specific educational scope
+- Reading status: Causes, self-care and review sections read.
+- Purpose: Adult symptom context and review boundaries.
+- Checked: 2026-10-17
+
+### S664 - NHS: Shoulder pain
+- URL: https://www.nhs.uk/symptoms/shoulder-pain/
+- Region: Source-specific educational scope
+- Reading status: Self-care, review and urgent-help sections read.
+- Purpose: Adult shoulder context and urgency clues, local equivalents required.
+- Checked: 2026-10-17
+
+### S665 - University Hospitals Sussex: Self treatment of acute neck pain
+- URL: https://www.uhsussex.nhs.uk/resources/self-treatment-of-acute-neck-pain-2/
+- Region: Source-specific educational scope
+- Reading status: Context, symptoms and urgent-help sections read; exercise sequence not adopted.
+- Purpose: Neurological warning signs; leaflet population already assessed in emergency department.
+- Checked: 2026-10-17
+
+### S666 - NIAMS: Polymyalgia Rheumatica and Giant Cell Arteritis
+- URL: https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis
+- Region: Source-specific educational scope
+- Reading status: Overview and symptom sections read.
+- Purpose: Inflammatory alternatives and urgent visual symptoms; not diagnostic criteria.
+- Checked: 2026-10-17
+
+### S667 - NIAMS: Spinal Stenosis
+- URL: https://www.niams.nih.gov/health-topics/spinal-stenosis
+- Region: Source-specific educational scope
+- Reading status: Selected cervical symptoms/causes inspected by packet researcher; no complete condition review.
+- Purpose: Background source lead for cervical neurological symptoms.
+- Checked: 2026-10-17
+
+### S668 - NHS: Cradle cap
+- URL: https://www.nhs.uk/conditions/cradle-cap/
+- Region: Source-specific educational scope
+- Reading status: Symptoms, age-specific gentle care and review/escalation sections read.
+- Purpose: Infant scalp symptoms and avoiding adult-regimen transfer.
+- Checked: 2026-10-17
+
+### S669 - CITT Study Group: Randomized clinical trial of treatments for symptomatic convergence insufficiency in children
+- URL: https://pubmed.ncbi.nlm.nih.gov/18852411/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; full paper and instruments not independently appraised.
+- Purpose: Child population, defined intervention/comparator and 12-week convergence/symptom outcomes.
+- Checked: 2026-10-17
+
+### S670 - CITT-ART: Treatment of Symptomatic Convergence Insufficiency in Children
+- URL: https://pubmed.ncbi.nlm.nih.gov/31651593/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; not full-trial appraisal.
+- Purpose: Different convergence and symptom outcomes; linked cohort with S671, not independent replication.
+- Checked: 2026-10-17
+
+### S671 - CITT-ART: Effect of Vergence/Accommodative Therapy on Reading in Children with Convergence Insufficiency
+- URL: https://pubmed.ncbi.nlm.nih.gov/31651592/
+- Region: Source-specific educational scope
+- Reading status: PubMed abstract read; no full-text appraisal.
+- Purpose: Standardized reading outcome versus office placebo at16weeks; same trial as S670.
+- Checked: 2026-10-17
+
+### S672 - NHLBI: What Is Insomnia?
+- URL: https://www.nhlbi.nih.gov/health/insomnia
+- Region: Source-specific educational scope
+- Reading status: Overview definition, opportunity/environment and diary paragraphs read; not all linked sections.
+- Purpose: Sleep opportunity versus insomnia; clinical context.
+- Checked: 2026-10-17
+
+### S673 - NHLBI: Sleep Apnea Symptoms
+- URL: https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms
+- Region: Source-specific educational scope
+- Reading status: Symptom and possible sleep-study sections read.
+- Purpose: Breathing/sleepiness clues prompt assessment, not diagnosis.
+- Checked: 2026-10-17
+
+### S674 - NHLBI: Circadian Rhythm Disorders
+- URL: https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders
+- Region: Source-specific educational scope
+- Reading status: Definition, environment/timing, symptoms and assessment overview read; not treatment plan.
+- Purpose: Sleep timing mismatch and type/cause-specific evaluation.
+- Checked: 2026-10-17
+
+### S675 - WHO: Healthy ageing and functional ability
+- URL: https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability
+- Region: Source-specific educational scope
+- Reading status: Healthy-ageing, functional-ability, intrinsic-capacity/environment and diversity sections read.
+- Purpose: Ageing goals concern valued function, capacity and environment; not absence of every disease.
+- Checked: 2026-10-17
+
+### S676 - WHO: Ageing and health
+- URL: https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+- Region: Source-specific educational scope
+- Reading status: Ageing explained, conditions, healthy-ageing factors and environment sections read.
+- Purpose: Heterogeneity and multiple determinants of later-life function.
+- Checked: 2026-10-17
+
+### S677 - Waziry et al.: CALERIE DNA methylation measures of biological ageing
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/
+- Region: Source-specific educational scope
+- Reading status: Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.
+- Purpose: Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.
+- Checked: 2026-10-17
+
+### S678 - Author correction to CALERIE DNA methylation report
+- URL: https://www.nature.com/articles/s43587-023-00432-y
+- Region: Source-specific educational scope
+- Reading status: Correction paragraph and licence inspected; correction concerns author affiliation.
+- Purpose: Bibliographic correction provenance; no independent efficacy claim.
+- Checked: 2026-10-17
+
+### S679 - FDA: Unproven Alzheimer Disease Products
+- URL: https://www.fda.gov/consumers/health-fraud-scams/unproven-alzheimers-disease-products
+- Region: Source-specific educational scope
+- Reading status: General warning/risks paragraphs read; product list not reproduced or independently checked.
+- Purpose: Unsupported prevention/cure marketing is not evidence; avoid delay of appropriate evaluation.
+- Checked: 2026-10-17
+
+### S680 - WHO: Call for experts for a new endometriosis guideline
+- URL: https://www.who.int/news-room/articles-detail/call-for-experts-for-the-new-who-guideline-on-endometriosis
+- Region: Source-specific educational scope
+- Reading status: Development-status and background sections read; not a completed guideline.
+- Purpose: Preserve2026 development status without inventing new recommendations.
+- Checked: 2026-10-17
+
+### S681 - FDA: Table of Surrogate Endpoints That Were the Basis of Drug Approval or Licensure
+- URL: https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure
+- Region: Source-specific educational scope
+- Reading status: Definition, key considerations and limitations read; individual disease/table rows not appraised or reproduced.
+- Purpose: Surrogate use is context dependent and case by case; biomarker change is not automatically clinical benefit.
+- Checked: 2026-10-17
+
+### S682 - FDA: PFDD Guidance3, Fit-for-Purpose Clinical Outcome Assessments
+- URL: https://www.fda.gov/media/159500/download
+- Region: Source-specific educational scope
+- Reading status: Final2025 guidance II.B–C, IV.B,IV.G–H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.
+- Purpose: Construct/context/fit-for-purpose, reliability and score interpretation; guidance is nonbinding.
+- Checked: 2026-10-17
+
+### S683 - Patient-Reported Outcomes: OBSSR-hosted e-Source chapter
+- URL: https://obssr.od.nih.gov/sites/obssr/files/Patient-Reported-Outcomes.pdf
+- Region: Source-specific educational scope
+- Reading status: Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.
+- Purpose: Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.
+- Checked: 2026-10-17
+
+### S684 - NHLBI: High Blood Pressure Diagnosis
+- URL: https://www.nhlbi.nih.gov/health/high-blood-pressure/diagnosis
+- Region: Source-specific educational scope
+- Reading status: Researcher full page; root selected measurement context/history/confirmation text.
+- Purpose: US public education: repeated/outside-office patterns and question-led assessment, not universal thresholds or panel.
+- Checked: 2026-10-17
+
+### S685 - Henny et al.: EFLM reference-interval review recommendation
+- URL: https://www.eflm.eu/files/efcc/CCLM%20Recommendation%20for%20the%20review%20of%20biological%20reference%20intervals.pdf
+- Region: Source-specific educational scope
+- Reading status: Researcher full8viewerpages; root selected terminology/transfer text.
+- Purpose: Dated conceptual methods; not current full verification standard or clinical cutoffs.
+- Checked: 2026-10-17
+
+### S686 - Ceriotti and Henny: Reference intervals and decision limits
+- URL: https://cms.ifcc.org/media/476879/ejifcc2008vol19no2pp106-114.pdf
+- Region: Source-specific educational scope
+- Reading status: Researcher full9viewerpages; root selected conceptual/critical-value/trend passages.
+- Purpose: Dated methods discussion; historical numerical examples not adopted.
+- Checked: 2026-10-17
+
+### S687 - NHS: Breastfeeding and enough milk
+- URL: https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-problems/enough-milk/
+- Region: Source-specific educational scope
+- Reading status: Researcher selected attachment/intake/weight/nappy/early-help sections; root rechecked selected text.
+- Purpose: England-facing breastfeeding education, not individual intake diagnosis or premature-infant plan.
+- Checked: 2026-10-17
+
+### S688 - NHS: Baby health and development reviews
+- URL: https://www.nhs.uk/baby/babys-development/height-weight-and-reviews/baby-reviews/
+- Region: Source-specific educational scope
+- Reading status: Researcher selected early-review and contact-with-concerns sections.
+- Purpose: England service schedule only; not a universal preventive schedule.
+- Checked: 2026-10-17
+
+### S689 - WHO: Feeding an infant or young child
+- URL: https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/feeding-an-infant-or-young-child
+- Region: Source-specific educational scope
+- Reading status: Researcher selected tips/information read; root checked source identity.
+- Purpose: Global public-facing summary, not full current feeding guideline or individual plan.
+- Checked: 2026-10-17
+
+### S690 - NLM MedlinePlus Medical Test: Allergy Blood Test
+- URL: https://medlineplus.gov/lab-tests/allergy-blood-test/
+- Region: Source-specific educational scope
+- Reading status: Researcher relevant identity/results/limitations sections; root actual relevant text recheck.
+- Purpose: Consumer IgE test literacy, no universal error rate or clinical selection algorithm.
+- Checked: 2026-10-17
+
+### S691 - FDA: Public health importance of non-listed food allergens
+- URL: https://www.fda.gov/media/157637/download
+- Region: Source-specific educational scope
+- Reading status: Researcher selected title/definitions/II.A,III.A,IV.A; root selected sensitization/reactivity and evidence passages. Not full52pages.
+- Purpose: Regulatory food-allergen evidence framework, not an individual food/drug/contact diagnostic algorithm.
+- Checked: 2026-10-17
+
+### S692 - FDA: Food-allergen skin-test false-negative safety communication
+- URL: https://www.fda.gov/safety/medical-product-safety-information/all-allergenic-extracts-diagnosis-food-allergy-fda-safety-communication-fda-requires-warning-about
+- Region: Source-specific educational scope
+- Reading status: Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.
+- Purpose: Specific US food-allergen extract warning, no universal assay false-negative rate.
+- Checked: 2026-10-17
+
+### S693 - NHS Dynamic Health: Shoulder pain
+- URL: https://www.dynamichealth.nhs.uk/help-and-advice/shoulder-pain/
+- Region: England local physiotherapy service; education
+- Reading status: Researcher relevant movement, strengthening, observation and review sections; root page identity checked. Images/videos excluded.
+- Purpose: Local service advice, not comparative-effect estimate or recovery guarantee.
+- Checked: 2026-10-17
+
+### S694 - Percussive massage gun use: bilateral retinal tears and dialysis case report
+- URL: https://pubmed.ncbi.nlm.nih.gov/42315245/
+- Region: One clinical case, published 2026-06-18
+- Reading status: Researcher complete PubMed abstract; root bibliographic identity checked. Full article not read.
+- Purpose: Serious exposure-specific signal, not incidence, causation proof or safe settings.
+- Checked: 2026-10-17
+
+### S695 - Johnston et al. 2021: Workplace ergonomics and neck-specific exercise trial
+- URL: https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-021-03945-y
+- Region: Australian adult office workers; selected workplace package
+- Reading status: Researcher full article; root selected methods, outcomes, missing data, harms and CC BY 4.0 notice.
+- Purpose: Secondary neck-pain outcome; no daily-function benefit established; no home protocol.
+- Checked: 2026-10-17
+
+### S696 - CPSC 2021: Massimo EM003 percussion massage gun recall
+- URL: https://www.cpsc.gov/Recalls/2021/Massimo-Motor-Sports-Recalls-Percussion-Massage-Guns-Due-to-Fire-Hazard-Sold-Exclusively-at-Costco
+- Region: US product-specific recall
+- Reading status: Researcher notice; root exact model and incident text rechecked.
+- Purpose: Electrical fire hazard for affected model; not clinical tissue-injury rate.
+- Checked: 2026-10-17
+
+### S697 - CPSC 2024: HoMedics HHP-715 massager recall
+- URL: https://www.cpsc.gov/Recalls/2024/Homedics-Recalls-Massagers-Due-to-Fire-and-Burn-Hazards
+- Region: US/Canada affected product sales
+- Reading status: Researcher notice; root model/date codes and reported incidents rechecked.
+- Purpose: Affected YY20/21/22 units; charging hazard, not all-device clinical safety.
+- Checked: 2026-10-17
+
+### S698 - FDA: Theragun G4 PRO charger recall record
+- URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221189
+- Region: US device recall; checked record updated 2026-10-12
+- Reading status: Researcher full record; root exact all-lot charger scope and reason rechecked.
+- Purpose: Open recall for named charger; reports do not quantify massage-related injury.
+- Checked: 2026-10-17
+
+### S699 - NHS: Dry eyes
+- URL: https://www.nhs.uk/symptoms/dry-eyes/
+- Region: England public education and service routes
+- Reading status: Reviewed 2025-01-06. Researcher full relevant sections; root symptom, routine/urgent/immediate advice read.
+- Purpose: Symptom overlap and England referral scope; not eye-exercise efficacy.
+- Checked: 2026-10-17
+
+### S700 - NEI: Refractive Errors
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors
+- Region: US public education
+- Reading status: Updated 2025-12-19. Researcher types/symptoms/exam/correction; root relevant sections read.
+- Purpose: Refractive complaints and examination; no vision-training trial.
+- Checked: 2026-10-17
+
+### S701 - NEI: Dry Eye
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye
+- Region: US public education
+- Reading status: Updated 2025-08-06. Researcher and root relevant assessment, screen context and cause-dependent care sections.
+- Purpose: Screen breaks/comfort and assessment are distinct from evidence for vision training.
+- Checked: 2026-10-17
+
+### S702 - NEI: Testing for Dry Eye
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye/testing-dry-eye
+- Region: US public education
+- Reading status: Updated 2025-08-06. Researcher short page/test descriptions; root source-claim fit review only.
+- Purpose: Educational test purposes, not complete diagnostic criteria.
+- Checked: 2026-10-17
+
+### S703 - AAD: How to treat dandruff
+- URL: https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff
+- Region: US specialist-society education
+- Reading status: Researcher relevant definition/ingredient/label/referral text read; update recorded 2023-12-11.
+- Purpose: Ingredient navigation, not independent comparative evidence; no source wording/images reproduced.
+- Checked: 2026-10-17
+
+### S704 - 2002 randomized shampoo comparison in severe dandruff/scalp seborrhoeic dermatitis
+- URL: https://pubmed.ncbi.nlm.nih.gov/12476017/
+- Region: Original study, PubMed abstract only
+- Reading status: Researcher abstract design/comparator/outcomes; full text, funding/conflicts and detailed harms unread. DOI10.1159/000066452.
+- Purpose: Independence unestablished; no numeric superiority recommendation adopted.
+- Checked: 2026-10-17
+
+### S705 - DailyMed: Nizoral ketoconazole 1% OTC shampoo, Kramer
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a17b7424-ee7e-4fcc-b6b3-0904932ae319
+- Region: Exact US product; label update 2026-09-10
+- Reading status: Researcher ingredient, dandruff indication, warnings and age directions read. Root reopen failed; no root full-label reading claimed.
+- Purpose: Named product12+ directions; under12 ask doctor; not a global product rule.
+- Checked: 2026-10-17
+
+### S706 - DailyMed: ANI ketoconazole 2% prescription shampoo
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6
+- Region: Exact US product, NDC70954-662-10
+- Reading status: Issued2024-07; record update2026-01-29. Researcher indication, pediatric and safety sections; root page identity review.
+- Purpose: Inspected indication is tinea versicolor, not dandruff; no concentration-wide inference.
+- Checked: 2026-10-17
+
+### S707 - DailyMed: Westminster selenium sulfide 2.25% shampoo
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fcab751-28f4-485a-aa37-169318a61110
+- Region: Exact US product, NDC69367-229-18
+- Reading status: Root/researcher indication, pediatric precautions and marketing status read. Label rev2022-09; version6 posted2025-04-25, page update2025-04-23.
+- Purpose: Rx-only; UNAPPROVED DRUG OTHER. Under12 not established; listing is not FDA approval.
+- Checked: 2026-10-17
+
+### S708 - Batut: Measures to prevent diseases transmitted by tick bites
+- URL: https://www.batut.org.rs/index.php?content=2352
+- Region: Serbia public advice, updated2022-04-11
+- Reading status: Researcher and root prevention/after-bite text read; no current national protocol established.
+- Purpose: Clinician-within24h/no-self-removal advice conflicts with ECDC/CDC; preserve date and conflict.
+- Checked: 2026-10-17
+
+### S709 - ECDC: Tick-borne encephalitis
+- URL: https://www.ecdc.europa.eu/en/tick-borne-encephalitis
+- Region: European public-health overview; no page date displayed
+- Reading status: Researcher disease/transmission/vaccination/prevention sections read2026-10-17; maps not reproduced.
+- Purpose: Pathogen/place-specific prevention; not Serbian resident vaccine schedule.
+- Checked: 2026-10-17
+
+### S710 - CDC Travelers Health: Serbia
+- URL: https://wwwnc.cdc.gov/travel/destinations/traveler/none/serbia
+- Region: US traveler guidance for Serbia
+- Reading status: Researcher TBE row and vaccine table inspected; page update recorded2025-04-23.
+- Purpose: Itinerary/exposure-qualified traveler advice, not Serbian resident policy.
+- Checked: 2026-10-17
+
+### S711 - ECDC: Factsheet about Borreliosis
+- URL: https://www.ecdc.europa.eu/en/borreliosis/facts/factsheet
+- Region: European public-health overview; no displayed page date
+- Reading status: Researcher disease/prevention text read; vaccine-absence wording not adopted as a current global claim.
+- Purpose: Disease distinction and exposure reduction only; current product status needs dated local checking.
+- Checked: 2026-10-17
+
+### S712 - IFRC: International First Aid, Resuscitation and Education Guidelines2025
+- URL: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
+- Region: First-aid educators; requires contextual adaptation
+- Reading status: Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.
+- Purpose: Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.
+- Checked: 2026-10-17
+
+### S713 - NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity
+- URL: https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf
+- Region: Institutional toxicologic-pathology training with animal examples
+- Reading status: Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.
+- Purpose: Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.
+- Checked: 2026-10-17
+
+### S714 - Galluzzi, Vitale et al. 2018: NCCD cell-death nomenclature recommendations
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/
+- Region: Committee nomenclature; article classified as review, not an intervention trial
+- Reading status: Selected introduction, morphology/mechanism distinction, MPT-driven necrosis and opening necroptosis text; CC BY-NC-SA4.0 notice. Publisher direct fetch failed; authorized PMC full text used. Other mechanisms/trials not appraised.
+- Purpose: Dated committee definitions counter an exhaustive apoptosis-versus-accident dichotomy; no clinical benefit claim.
+- Checked: 2026-10-17
+
+### S715 - NCI: What Is Cancer? — selected tissue-change concepts
+- URL: https://www.cancer.gov/about-cancer/understanding/what-is-cancer
+- Region: US public education, institution-authored prose
+- Reading status: Selected cancer/benign definitions and Tissue Changes That Are Not Cancer text read. Article review date not independently established; copyright policy reviewed2025-03-12. Copyrighted graphics excluded.
+- Purpose: Hyperplasia/dysplasia are not interchangeable with invasive cancer or inevitable progression; no organ-specific risk estimate.
+- Checked: 2026-10-17
+
+### S716 - NIDDK: Your Kidneys & How They Work
+- URL: https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work
+- Region: US general physiology education, reviewedJune2018
+- Reading status: Researcher and root selected roles, glomerular filtration, tubular handling and provider/date text; linked videos and clinical trials not read.
+- Purpose: Different renal processes; filtered fluid is not final urine or a complete fluid-status assessment.
+- Checked: 2026-10-17
+
+### S717 - NIDDK: Clinical Measurements & eGFR Accuracy
+- URL: https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/clinical-measurements
+- Region: US institutional laboratory guidance, reviewedMay2025
+- Reading status: Researcher direct relevant full page; root selected creatinine/non-GFR/unstable-function/assay text. Cited external papers were not opened or independently appraised.
+- Purpose: Marker concentration versus estimated filtration; population and method limits. No numerical accuracy, cutoff or dosing rule.
+- Checked: 2026-10-17
+
+### S718 - MedlinePlus Medical Test: Osmolality Tests
+- URL: https://medlineplus.gov/lab-tests/osmolality-tests/
+- Region: NLM-authored Medical Test education; not third-party encyclopedia
+- Reading status: Researcher selected purpose/meaning/context sections; root concentration text checked. Displayed update2024-07-31 and a2026 bibliography citation coexist; no whole-page edition/update inferred.
+- Purpose: Plain-language concentration and interpretation limits; technical denominator/units, osmolarity and tonicity not established by this reading.
+- Checked: 2026-10-17
+
+### S719 - MedlinePlus Medical Test: Sodium Blood Test
+- URL: https://medlineplus.gov/lab-tests/sodium-blood-test/
+- Region: NLM-authored Medical Test education; displayed update2024-12-02
+- Reading status: Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.
+- Purpose: Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.
+- Checked: 2026-10-17
+
+### S720 - NHS: Migraine (page reviewed2026-03-10)
+- URL: https://www.nhs.uk/conditions/migraine/
+- Region: England; local care routes require adaptation
+- Reading status: Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.
+- Purpose: Attack change and pregnancy/postpartum context; no individual migraine diagnosis, diagnostic criteria or imaging algorithm.
+- Checked: 2026-10-17
+
+### S721 - NHS: CT scan (page reviewed2023-11-08)
+- URL: https://www.nhs.uk/tests-and-treatments/ct-scan/
+- Region: England; institutional patient education
+- Reading status: Selected purpose and professional-results sections directly read; third-party stock image excluded.
+- Purpose: General test-purpose literacy, not headache-imaging indications, CT/MRI comparison or normal-image exclusion claims.
+- Checked: 2026-10-17
+
+### S722 - WHO: Migraine and other headache disorders (2025-10-24), selected categories
+- URL: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+- Region: Global public-health overview, not local access policy
+- Reading status: Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.
+- Purpose: Brief original factual distinction between primary headache examples and secondary headache; no copied classification or treatment passage.
+- Checked: 2026-10-17
+
+### S723 - NIGMS, Abbey Bigler: Science Snippet: ATP’s Amazing Power (2022-11-16)
+- URL: https://www.nigms.nih.gov/biobeat/2022/11/science-snippet-atps-amazing-power
+- Region: US institutional biochemistry education
+- Reading status: Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.
+- Purpose: Bounded ATP production/use concepts; no precise yield, bond-cleavage energy assertion, human intervention benefit or rigorous thermodynamic derivation.
+- Checked: 2026-10-17
+
+### S724 - US DOE: Harvesting Energy from Light using Bio-inspired Artificial Cells (2019-11-05)
+- URL: https://www.energy.gov/science/bes/articles/harvesting-energy-light-using-bio-inspired-artificial-cells
+- Region: Institutional summary of engineered protocell research
+- Reading status: The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.
+- Purpose: Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.
+- Checked: 2026-10-17
+
+### S725 - MedlinePlus NLM: Arterial Blood Gas (ABG) Test (updated2025-06-26)
+- URL: https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test/
+- Region: US institutional Medical Test education
+- Reading status: Selected measurement definitions, bicarbonate, results and pulse-ox comparison directly read; NLM Medical Test rights category checked. Linked studies and procedural/range guidance not appraised.
+- Purpose: Blood-gas quantity distinctions; no precise functional-saturation denominator, diagnosis or normal-range/action rule.
+- Checked: 2026-10-17
+
+### S726 - NHLBI: Anemia — What Is Anemia? (updated2022-03-24)
+- URL: https://www.nhlbi.nih.gov/health/anemia
+- Region: US institutional patient education
+- Reading status: Overview main text read by researcher; first carrier/oxygen paragraph used. Linked diagnostic/treatment pages, images and guide not read.
+- Purpose: Qualitative carrier-quantity context only; no oxygen-content/delivery equation or management.
+- Checked: 2026-10-17
+
+### S727 - NIDDK: Insulin Resistance and Prediabetes (reviewedMarch2025)
+- URL: https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance
+- Region: US institutional education
+- Reading status: Selected signal/responsiveness, causes and blood-test comparison sections directly read; NIDDK rights policy checked; no treatment/outcome appraisal.
+- Purpose: Muscle/fat/liver insulin responsiveness, not complete endocrine pathways or therapy.
+- Checked: 2026-10-17
+
+### S728 - NCI SEER Training: Pancreas — Islets of Langerhans
+- URL: https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html
+- Region: US cancer-registration training; not clinical guidance
+- Reading status: Main endocrine/exocrine and alpha/beta-cell teaching text directly read; displayed citation/access date not treated as publication update. No graphics reused.
+- Purpose: Selected pancreatic signaling concepts; no complete liver/receptor pathway or diagnosis.
+- Checked: 2026-10-17
+
+### S729 - NIDDK: Story of discovery — one pancreatic hormone (research update2021-01-27)
+- URL: https://www.niddk.nih.gov/news/archive/2021/story-discovery-medications-diabetes-obesity-emerged-research-pancreatic-hormone
+- Region: US institutional research-history explanation
+- Reading status: Root directly read selected Glucagon/Insulin paragraphs119-122 and identity/date; no source image, linked trial or current treatment appraisal.
+- Purpose: Brief original pancreas-to-liver release concept; not drug efficacy, approval/availability or complete hepatic biochemistry.
+- Checked: 2026-10-17
+
+### S730 - FDA: Pulse Oximeters for Medical Purposes — January2025 draft
+- URL: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-medical-purposes-non-clinical-and-clinical-performance-testing-labeling-and
+- Region: US draft device-guidance terminology, not an implemented clinical protocol
+- Reading status: Current landing page marked draft/not for implementation directly checked. Researcher selected linked PDF cover and printed1,2,8,12,31; no complete47page/ISO/table appraisal.
+- Purpose: SpO2/SaO2 terminology only. Exact functional denominator not found; no device algorithm or treatment recommendation adopted. Landing/PDF are one work, not independent studies.
+- Checked: 2026-10-17
+
+### S731 - IDkit Hp One/Two: company-submitted in-use labeling (revised August 2026)
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8baab7a7-5d20-46ad-9c4a-762992ef6b51
+- Region: US product-specific submitted labeling; not independently reconciled FDA-approved instructions
+- Reading status: Researcher/root selected1/2.1/2.6/7/12.1; NLM copyright and DailyMed disclaimer checked. Full device instructions and current approved-label reconciliation remain unread.
+- Purpose: Qualitative result/interference asymmetry and method context only; no exact preparation interval, therapy or diagnostic performance imported.
+- Checked: 2026-10-17
+
+### S732 - WGO Global Guidelines: Helicobacter pylori (May 2021)
+- URL: https://www.worldgastroenterology.org/guidelines/helicobacter-pylori/helicobacter-pylori-english
+- Region: Worldwide professional guidance with resource/local-context limits
+- Reading status: Researcher/root selected5.1/6.1-6.4 directly read; current WGO reuse policy checked. No whole guideline, cited-study, treatment-algorithm or table appraisal.
+- Purpose: Method purpose, antibody persistence and negative-result limitations. Brief original facts with attribution; WGO retains rights; no guideline excerpt or abridgement redistributed.
+- Checked: 2026-10-17
+
+### S733 - ACG Guideline Highlights: Treatment of Helicobacter pylori Infection (2024)
+- URL: https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf
+- Region: North American professional summary; file upload path January2025 is not guideline date
+- Reading status: Researcher/root directly read selected testing/test-of-cure and attribution text. Duh content, Chey/Shah reviewers. Regimen table not appraised/adopted; full AJG guideline not read. Footer/privacy checked; dedicated terms retrieval failed; ordinary copyright retained.
+- Purpose: Purpose-specific confirmation and interference context, without reproducing a guideline table/algorithm or exporting universal preparation intervals.
+- Checked: 2026-10-17
+
+### S734 - CDC/NCHS NHANES Anthropometry Procedures Manual (May 2021)
+- URL: https://wwwn.cdc.gov/nchs/data/nhanes/public/2021/manuals/2021-Anthropometry-Procedures-Manual-508.pdf
+- Region: US professional survey protocol, not universal clinical chart policy
+- Reading status: Researcher selected3.3/3.4.1/3.4.3/3.4.4 plus purpose/age-field openings; root text PDF30-32/34-36, visual31/36. Whole91page manual unread. Agency-materials policy checked; no images/tables/forms reused.
+- Purpose: Measurement-method/recording context and survey-versus-clinical age distinction; no patient scoring or measurement-accuracy guarantee.
+- Checked: 2026-10-17
+
+### S735 - RCPCH UK-WHO Fact Sheet5: Plotting Preterm Infants (2009)
+- URL: https://www.rcpch.ac.uk/sites/default/files/Plotting_preterm_infants.pdf
+- Region: UK-WHO historical paper-chart teaching, not a2026 revision
+- Reading status: Both pages read by researcher/root; researcher visually checked both. Current RCPCH resource-page specific2009 teaching permission and general policies checked. No chart/source example or algorithm redistributed.
+- Purpose: Chart-specific correction and version boundaries. Copyright2009 RCPCH retained; acknowledged teaching use under source conditions, no endorsement or exclusive source IP claimed.
+- Checked: 2026-10-17
+
+### S736 - RCPCH Digital Growth Charts: Date and Age Calculations
+- URL: https://growth.rcpch.ac.uk/clinician/date-age-calculations/
+- Region: Official implementation documentation; not a universal clinical guideline
+- Reading status: Researcher/root selected chronological/corrected-age and Project Board policy passages directly read; no page-specific revision date established. General RCPCH and digital licensing pages checked; code licences not assumed to cover all narrative/chart assets.
+- Purpose: Paper/digital and purpose-specific age conventions; no deployed API, calculation algorithm, reference dataset or clinical outcome validation.
+- Checked: 2026-10-17
+
+### S737 - EMA Yselty endometriosis variation assessment: EMA/CHMP/73456/2025
+- URL: https://www.ema.europa.eu/en/documents/variation-report/yselty-h-c-005442-ii-0013-epar-assessment-report-variation_en.pdf
+- Region: EU regulatory assessment of submitted trial data; not an independent replication
+- Reading status: Selected131page report scopes and root visual35/42/45/46/77/102/108/129 in cycle010 review. Header17October2024/report identifier2025 retained. Full report, exact Month12 analysis and full2026 journal paper remain unappraised. EMA attribution/third-party exceptions retained.
+- Purpose: Analysis-set, extension-selection, raw-versus-modeled, event and BMD-follow-up limits. Conflicting summary continuous-outcome group cells excluded; no source table copied.
+- Checked: 2026-10-17
+
+### S738 - Dahrouge et al.: CHAP five-year population follow-up
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201802
+- Region: Ontario, Canada; community-dwelling age65+
+- Reading status: Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.
+- Purpose: Programme-component, endpoint, clustering and follow-up inference limits; no drug/device validation.
+- Checked: 2026-10-17
+
+### S739 - NHLBI: COPD Treatment
+- URL: https://www.nhlbi.nih.gov/health/copd/treatment
+- Region: US
+- Reading status: Version 2024-10-06. Researcher read Treatment opening; Medicines including inhaler use and flare-up plan; Pulmonary rehabilitation; Oxygen therapy. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Selected COPD medicine-role/inhaler-technique, rehabilitation and oxygen-safety education; no comparative efficacy or exact diagnostic rule.
+- Checked: 2026-10-17
+
+### S740 - NIDDK: Managing Diabetes
+- URL: https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes
+- Region: US
+- Reading status: Version 2023-10. Researcher read Opening; diabetes ABCs; medicine selection and cost; progress tracking; special situations; care-team and appointment questions; date/provenance. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Diabetes care goals, medicine/cost/context questions and illness/fasting preparation; no class-specific cardiorenal algorithm.
+- Checked: 2026-10-17
+
+### S741 - NIDDK: Hypothyroidism (Underactive Thyroid)
+- URL: https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism
+- Region: US
+- Reading status: Version 2021-03. Researcher read Pregnancy; symptoms; diagnosis; treatment; diet/iodine; date and provenance. No cited journal article read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Hypothyroid symptom/diagnostic distinctions, replacement monitoring and pregnancy contact; not full2026 thyroid guidance or antithyroid product warnings.
+- Checked: 2026-10-17
+
+### S742 - NHS website, independently written consumer overview rather than NICE recommendation text: Arthritis
+- URL: https://www.nhs.uk/conditions/arthritis/
+- Region: England
+- Reading status: Version 2026-01-19. Researcher read Symptoms; urgent and nonurgent assessment; tests; treatment; self-care; review date. Source table not copied; external Arthritis UK content not read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Joint assessment, function and urgent hot/swollen-joint routing; no OA/RA drug or referral algorithm.
+- Checked: 2026-10-17
+
+### S743 - NIDDK: Prescription Medications to Treat Overweight & Obesity
+- URL: https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity
+- Region: US
+- Reading status: Version 2024-06. Researcher read Individual assessment; mechanisms; lifestyle role; concerns; selection; duration; regain; insurance; general interaction/pregnancy cautions. Medication table incidentally returned but not adopted/copied; no numeric efficacy/eligibility/stopping algorithm adopted. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Weight-management medicine purpose, selection/maintenance/interaction/pregnancy questions; not a current approval/eligibility/stopping table.
+- Checked: 2026-10-17
+
+### S744 - NHLBI: COPD Diagnosis
+- URL: https://www.nhlbi.nih.gov/health/copd/diagnosis
+- Region: US
+- Reading status: Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.
+- Purpose: Diagnostic purpose and main spirometry test; not exact obstruction threshold, full protocol or treatment-selection algorithm.
+- Checked: 2026-10-17
+
+### S745 - DailyMed: losartan potassium, REMEDYREPACK INC., exact SPL
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f39f7f9-edac-45ca-9ee2-c2ecad0915ab
+- Region: US
+- Reading status: Revised July 2026; published 2026-07-13, version1. Researcher/root selected section7.4, revision/provider metadata and NLM rights. Label reports VA NEPHRON-D; original trial not appraised.
+- Purpose: Dual RAS blockade safety and regulatory-label versus original-trial evidence.
+- Checked: 2026-10-17
+
+### S746 - CDC: Clinical Features of Penicillin Allergy
+- URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html
+- Region: US
+- Reading status: 2025-08-25. Researcher selected overview, assessment and supervised-testing/severe-delayed-reaction sections; root independently rechecked these and current CDC material policy. References are unread locators.
+- Purpose: Penicillin-specific professional evaluation and severe delayed reaction boundary; no home protocol or prevalence estimate.
+- Checked: 2026-10-17
+
+### S747 - Copaescu et al.: six-month penicillin allergy self-report after delabeling (2024)
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822413
+- Region: International adult low-risk cohort
+- Reading status: 2024-08-15; JAMA Network Open7:e2429621, DOI10.1001/jamanetworkopen.2024.29621. Researcher/root selected main methods/results/discussion/limitations and article-specific CC-BY permissions. Supplements/2023 trial not appraised.
+- Purpose: Assessed tolerance, later self-report and record correction are different outcomes; arithmetic inconsistency omitted.
+- Checked: 2026-10-17
+
+### S748 - Kanzler et al.: focused ACT for chronic pain, pilot RCT (2022)
+- URL: https://link.springer.com/article/10.1186/s12875-022-01690-2
+- Region: US single clinic
+- Reading status: 2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY 4. No scales/protocol/figures/supplement reused; no independent correction search completed.
+- Purpose: Preserve positive acceptance result while distinguishing comparative disability, pain and QoL evidence.
+- Checked: 2026-10-17
+
+### S749 - ASH2018 VTE diagnosis guideline: selected PE and evidence-method sections
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6258916/
+- Region: International adult clinical guidance
+- Reading status: 2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828. Root selected scope, PE remarks/recommendations, methods/indirectness footnotes and limitations; evidence search through2017-10-01. Live status page reports February2022 limited-search review, not verified2026 refresh.
+- Purpose: Eligible probability/assay context and sequential-pathway modeling limits; no reproduced decision rule, table, formula or algorithm.
+- Checked: 2026-10-17
+
+### S750 - AHA2026 acute PE: official summary and Top Things to Know
+- URL: https://professional.heart.org/en/science-news/2026-guideline-for-the-evaluation-and-management-of-acute-pulmonary-embolism-in-adults/top-things-to-know
+- Region: US adult guidance summary
+- Reading status: 2026-02-19. Root read official summary/Top Things to Know and current AHA terms; not full Circulation article, slide set, patient PDFs or tools.
+- Purpose: Severity/management after acute PE differs from diagnostic probability; no personal disposition or drug-selection algorithm.
+- Checked: 2026-10-17
+
+### S751 - Hui et al.: supported home versus hospital OSA management trial (2017)
+- URL: https://www.nature.com/articles/srep45901
+- Region: Hong Kong adult single-clinic study
+- Reading status: 2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4–6, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.
+- Purpose: Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.
+- Checked: 2026-10-17
+
+### S752 - Hui et al.: Author Correction to the2017 OSA pathway trial (2019)
+- URL: https://www.nature.com/articles/s41598-019-41389-6
+- Region: Correction to S751; not an independent trial
+- Reading status: 2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY 4 verified. Supersedes original adherence cells/denominator wording.
+- Purpose: Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.
+- Checked: 2026-10-17
+
+### S753 - Ko et al.: ferritin inflammation-adjustment comparisons using serial norovirus-challenge data (2024)
+- URL: https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003964
+- Region: US selected adult research cohort
+- Reading status: 2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.
+- Purpose: Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.
+- Checked: 2026-10-17
+
+### S754 - Bernal et al.: Sodium Homeostasis, a Balance Necessary for Life (2023)
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9862583/
+- Region: Mechanistic narrative review; selected mammalian/human physiology
+- Reading status: 2023-01-12; Nutrients 15:395, DOI10.3390/nu15020395. Researcher/root selected Introduction and kidney sections4.1–4.6, article-specific CC BY 4 licence. Underlying experiments and figures not independently appraised.
+- Purpose: Renal sympathetic/renin/angiotensin/aldosterone, vasopressin/AQP2 and cardiac natriuretic connections; no new outcome or treatment evidence.
+- Checked: 2026-10-17
+
+### S755 - Roumelioti et al.: Fluid balance concepts in medicine (2018)
+- URL: https://www.wjgnet.com/2220-6124/full/v7/i1/1.htm
+- Region: Narrative physiological/clinical review
+- Reading status: 2018-01-06; World J Nephrol 7:1–28, DOI10.5527/wjn.v7.i1.1. Researcher/root selected water/tonicity, extracellular-volume and effective-perfusion sections through progressive CHF illustration; exact article CC BY-NC 4.0 and current publisher terms/AI-policy scope directly checked. No PDF pagination or underlying experiments verified.
+- Purpose: Concentration/inventory versus extracellular volume/effective organ perfusion; no bedside formula, fluid regimen or efficacy claim. Source noncommercial conditions retained.
+- Checked: 2026-10-17
+
+### S756 - Eyre et al.: Asymptomatic C. difficile colonisation and onward transmission (2013)
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078445
+- Region: UK selected predominantly older adult acute inpatients
+- Reading status: 2013-11-12; PLOS ONE 8:e78445. Researcher main Methods/Results/Discussion; root selected target/selection/sampling and relevant results/discussion plus exact publisher PDF Figure 1 on 5 visual. 230 enrolled/227 eligible reconciled; Figure 2 caption 118 versus Figure 1 114 remains inconsistent. Article CC Attribution, historical version not asserted.
+- Purpose: Culture and isolate toxin genes versus toxin activity/host injury; symptom-threshold and sampling limits. No modern NAAT accuracy, prevalence estimate, treatment or infection-control rule.
+- Checked: 2026-10-17
+
+### S757 - Tozzo et al.: Hematologic dynamics during pregnancy and obstetric complications (2026)
+- URL: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004747
+- Region: US selected singleton live-birth EHR cohorts
+- Reading status: 2026-05-20; PLOS Medicine 23:e1004747. Researcher/root selected cohort/CBC/reference/longitudinal methods, relevant Results and Discussion.37,709 reference pregnancies differ from2,791 all-four-timepoint subset. Supplements/visualfigures/rawrecords unread; early-delivery wording inconsistent. Exact CC BY 4 licence verified.
+- Purpose: Gestational concentration trends, reference interval versus diagnosis and observational outcome limits; no new threshold, prospective implementation benefit or postpartum transfer.
+- Checked: 2026-10-17
+
+### S758 - Randall et al.: Early-pregnancy hemoglobin study, selected physiological background (2019)
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225123
+- Region: Pregnancy physiology background in Australian observational report
+- Reading status: 2019-11-13; PLOS ONE 14:e0225123. Researcher/root Introduction physiological paragraph, citation/copyright and exact CC BY 4 link only. Outcome methods/results and underlying physiology experiments not independently appraised.
+- Purpose: Relative plasma/red-cell volume expansion as background; no outcome estimate, historical guideline cutoff or treatment benefit adopted.
+- Checked: 2026-10-17
+
+### S759 - MedlinePlus Medical Test: TSH (thyroid-stimulating hormone)
+- URL: https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/
+- Region: NLM official patient laboratory education
+- Reading status: Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.
+- Purpose: Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.
+- Checked: 2026-10-17
+
+### S760 - MedlinePlus Genetics: Gilbert syndrome, selected bilirubin mechanism
+- URL: https://medlineplus.gov/genetics/condition/gilbert-syndrome/
+- Region: NLM official educational genetics summary
+- Reading status: Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.
+- Purpose: Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.
+- Checked: 2026-10-17
+
+### S761 - MedlinePlus Medical Test: Bilirubin Blood Test
+- URL: https://medlineplus.gov/lab-tests/bilirubin-blood-test/
+- Region: NLM official laboratory education
+- Reading status: Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.
+- Purpose: Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.
+- Checked: 2026-10-17
+
+### S762 - Newcastle Hospitals Laboratories: Bilirubin (conjugated), serum
+- URL: https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/
+- Region: UK institutional laboratory test-directory guidance
+- Reading status: Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.
+- Purpose: Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.
+- Checked: 2026-10-17
+
+### S763 - NICHD: causes of normal and delayed puberty, selected physiology
+- URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes
+- Region: US official Office of Communications education
+- Reading status: Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.
+- Purpose: GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.
+- Checked: 2026-10-17
+
+### S764 - NICHD: puberty assessment, selected test purposes
+- URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed
+- Region: US official Office of Communications education
+- Reading status: Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.
+- Purpose: Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.
+- Checked: 2026-10-17
+
+### S765 - PES/AAP: Constitutional Growth Delay and Familial Short Stature, selected growth concepts
+- URL: https://pedsendo.org/patient-resource/constitutional-growth-delay/
+- Region: US jointly authored family educational guide
+- Reading status: Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.
+- Purpose: Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.
+- Checked: 2026-10-17
+
+### S766 - PES/AAP: Short Stature, selected measurement and assessment concepts
+- URL: https://pedsendo.org/patient-resource/short-stature/
+- Region: US jointly authored family educational guide
+- Reading status: Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.
+- Purpose: Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.
+- Checked: 2026-10-17

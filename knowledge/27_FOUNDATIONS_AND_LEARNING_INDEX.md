@@ -1,6 +1,6 @@
 # Foundations and learning index
 
-Checked 2026-10-08. Educational scope only: these selected concepts do not represent a completed medical curriculum, practical training, diagnosis, or treatment advice. Clinical questions require current, applicable guidelines and local medicine labels.
+Original index checked 2026-10-08; selected immune and newborn concepts added 2026-10-17 with section-level reading records below. Educational scope only: these selected concepts do not represent a completed medical curriculum, practical training, diagnosis, or treatment advice. Clinical questions require current, applicable guidelines and local medicine labels.
 
 ## Selected concepts
 
@@ -31,6 +31,18 @@ A test result updates a probability estimated before testing; it does not have t
 ### Synthetic Bayesian example
 With an assumed pretest probability of 10% and an assumed positive likelihood ratio of 5, prior odds are 1/9 and updated odds are 5/9, giving a posttest probability of approximately 36%. These invented inputs illustrate why a positive result need not establish a diagnosis; they are not performance estimates for a real test. Formula sources: [S162, S163]; arithmetic is an original synthetic exercise.
 
+## Immune response concepts
+
+Innate defenses can respond early through barriers, phagocytes, dendritic and natural killer cells, complement and inflammatory mediators. Their recognition commonly concerns shared microbial or damage-associated patterns. Adaptive responses involve lymphocytes with more specific recognition and can show enhanced responses on later exposure. These are connected processes: innate responses help initiate and shape adaptive responses, while adaptive responses can strengthen innate effector functions. [S641]
+
+This is a bounded background framework, not a test of an individual's immunity. It cannot identify an immune defect, diagnose allergy, establish vaccine performance or justify an immune treatment. The source is a 2012 edition; current molecular questions and clinical choices need their own evidence. Actual reading: Abbas, Lichtman and Pillai, seventh edition, Chapter 1, "Innate and Adaptive Immunity," printed pp. 2-3. [S641]
+
+## Gestational age and birthweight
+
+Gestational age at birth describes pregnancy duration; birthweight is measured mass. They are related but are not substitutes: infants with the same weight can have different gestational ages, and infants at the same gestational age can have different weights. Describing both dimensions is more informative than treating one value as a complete account of maturity or growth. [S642]
+
+This concept comes from the opening of Nelson's "The High-Risk Infant," nineteenth edition, printed pp. 552-553. Its accompanying graph uses historical 1995-1996 cohort data. No graph, threshold, numerical risk estimate or current classification rule is reproduced here. Current assessment requires age-specific clinical information and contemporary standards; the concept alone supplies no individual prognosis. [S642]
+
 ## Curriculum comparison
 
 Curricula establish educational scope, not evidence for treatment efficacy. These institutions are examples, not a ranking or exhaustive account of national medical education.
@@ -47,10 +59,10 @@ Curricula establish educational scope, not evidence for treatment efficacy. Thes
 | Area | Material actually used | Remaining work |
 |---|---|---|
 | Anatomy | NCI organization of cells, tissues, organs and systems | Organ-system sections, terminology and anatomical variation; no practical competence claimed. |
-| Physiology | NCI homeostasis and endocrine feedback | Fluid balance and organ integration, with reviewed exceptions. |
-| Biochemistry | NCI metabolism; selected MIT catalysis notes | Enzyme regulation, energy coupling and individual metabolic pathways. |
+| Physiology | NCI homeostasis/feedback; selected NIDDK renal-process and concentration/estimate concepts in 48 | Fluid compartments, detailed transport/hormonal loops and organ integration remain incomplete. |
+| Biochemistry | NCI metabolism; selected MIT catalysis notes and bounded NIGMS/DOE ATP-conversion example in49 | Rigorous thermodynamic coupling, enzyme regulation and individual metabolic pathways remain incomplete. |
 | Pharmacology | Selected MIT PK/PD and distribution slides | Current clinical PK examples; local labels and outcome evidence for each medicine claim. |
-| Pathology | WebPath homepage and rights notice only | Read permissible topic-level sources before disease-mechanism cards. |
+| Pathology | Selected NIEHS toxicologic adaptation/injury and NCCD nomenclature; NCI tissue-change concepts in 48 | Selected toxicologic inflammation/repair concepts are in49; human/organ-specific disease mechanisms, repair outcomes and current clinical evidence remain incomplete. |
 | Genetics | MedlinePlus penetrance/expressivity; NHGRI VUS | Updated disease-specific chapters, variant interpretation standards and counseling limits. |
 | Epidemiology | Bayesian update and test-context sections | Study designs, bias, absolute risk and causal inference with separate source appraisal. |
 | Family medicine | WONCA framework landing page only | Full competencies and current Serbian/Russian primary-care guidance. |
@@ -72,6 +84,13 @@ The following are learning routes and inspected sections. A book or lecture inde
 - [S162] Merck Manual: selected pretest probability, Bayesian calculation and sequential-testing sections. Nearby problematic explanations of LR as direct patient odds are not adopted.
 - [S163] Deeks and Altman, BMJ Statistics Notes (2004): likelihood-ratio definition and Bayesian-update discussion. Used as an independent methods check; not a new validation study.
 
+- [S641] Abbas, Lichtman and Pillai, *Cellular and Molecular Immunology*, seventh edition (2012), Chapter 1, printed pp. 2-3; read 2026-10-16. Chapter 19, printed pp. 426-428, read 2026-10-17 for mechanism only. The rest of the book is not recorded as read.
+- [S642] Kliegman et al., *Nelson Textbook of Pediatrics*, nineteenth edition (2011), Chapter 91, printed pp. 552-553; read 2026-10-16. Historical background only, without current thresholds or risk estimates.
+
+- [psychology:S103] Goldstein, fifth edition: selected cognitive-inference and learning/transfer sections, with exact reading scope in the register; not a current clinical enhancement claim.
+- [psychology:S104] OpenIntro Statistics, fourth edition: selected study-design and inference pages; exact screen-reader pagination and licensing scope retained in the register.
+- [psychology:S105] Judith S. Beck, third edition, release2020/copyright 2021: selected chapter5 printed 71–73, chapter9 printed 160–163 and chapter22 printed 365–367. Clinician-practice concepts, not comparative efficacy or a complete therapy protocol; see [method/outcome notes](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md).
+
 ### Indexed resources and access limits
 
 | Resource | Reading status | Permitted role here |
@@ -90,3 +109,29 @@ For a new concept, identify one question, inspect its exact source section, then
 Store original prose and bibliographic metadata. Do not import full chapters, slides, images, recordings or question banks: public accessibility does not establish redistribution rights. MIT materials include third-party assets with separate restrictions; WebPath reserves redistribution rights; WONCA identifies noncommercial/share-alike terms. No OpenStax content is included in these concept cards or any source corpus.
 
 A source failure remains a failure, not full-text appraisal. Recheck current sources for consequential clinical questions. Keep actual patient information and private archive links outside this public learning index.
+
+## Broader selected foundation study 2026-10-17
+
+[Cellular and renal foundations](48_CELLULAR_AND_RENAL_FOUNDATIONS.md) adds PATH-F1/PATH-F2, ONC-F1, REN-F1 and FLUID-M1. These are bounded concepts beyond the initial 38 questions, with exact reading and source conflicts; they are not full chapters/courses.
+
+- S713: NIEHS DTT selected adaptation/injury passages, PDF indices 3,6–19,25–29; visual viewer 8,16,26. Animal examples do not establish human diagnostic criteria.
+- S714: NCCD 2018 introduction, morphology/mechanism and selected regulated-necrosis/necroptosis definitions; no underlying-trial or complete pathway appraisal.
+- S715: NCI selected cancer/benign-growth and noncancer tissue-change text; third-party illustration excluded.
+- S716/S717: NIDDK selected nephron-function and professional measurement limitations; S437 selected refresh preserves its older patient-page scope.
+- S718/S719: NLM-authored Medical Test concentration and result-interpretation sections; no formal osmolality units or full fluid-volume model inferred.
+
+Selected Robbins/Guyton chapters remain bibliographic study candidates while applicable source-use permission/scope is unverified. Current Elsevier content/print terms were inspected; author/editor AI-writing guidance is not reader permission. Edition metadata and a contents/bookmark locator do not constitute chapter study. This is a bounded source-selection decision, not a global legal conclusion.
+
+[Inflammation, energy and headache foundations](49_INFLAMMATION_ENERGY_AND_HEADACHE.md) adds PATH-F3/F4, BIO-F1 and NEU-F1. The paired-data unit STAT-F1 in **evidence methods** extends selected OpenIntro reading by four pages. Exact study and remaining depth are in docs/goal-study-cycle-008-review.md; these units do not complete their disciplines.
+
+[Measurements, models and transfer](50_MEASUREMENTS_MODELS_AND_TRANSFER.md) extends PULM-F2, ENDO-F1, PHARM-F1 and PSY-D1. Existing respiratory chains, diabetes interpretation and PK definitions remain; these selected readings add explicit quantities, cross-organ signaling, model conditions and primary-trial appraisal. Precise transport equations, clinical pathways and durable functional outcomes remain open. See docs/goal-study-cycle-009-review.md for exact scopes.
+
+[Methods, populations and follow-up](51_METHODS_POPULATIONS_AND_FOLLOWUP.md) adds GI-M1, REPRO-M1 and GROWTH-M1. These applied questions deepen selected existing modules; they do not complete specialties or replace current local protocols. Exact source actors/scopes and remaining methods are in docs/goal-study-cycle-010-review.md.
+
+Cycle011 adds STAT-F4 sampling-model/estimator distinctions from seven additional OpenIntro pages, plus CV-E1 programme-outcome and SPORT-D1 attention-task appraisals in [packet52](52_DETECTION_OUTCOMES_AND_ATTENTION.md). These are three bounded units, not a complete statistics/cardiovascular/sport curriculum. The dated review retains exact sources, contradictions and repairs to selected older claims.
+
+Cycle013 adds STAT-F5 from selected OpenIntro regression sections8.2.3/8.2.5/8.2.6: fitted averages, model diagnostics and unsupported extrapolation. Three distinct source pages were read across researcher/root roles; this is not a full regression, prediction or causal-inference course. See the dated cycle013 review.
+
+Cycle014 adds VOLUME-F1 and MAT-F1, with MICRO-D1, in [fluid regulation, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md). Two narrative reviews connect kidney, cardiac and hormonal regulation; selected primary research distinguishes microbial targets/host response and gestational blood concentrations/reference populations. These are bounded source studies, not completed physiology, microbiology or obstetric courses. No additional book pages are claimed this cycle.
+
+Cycle015 adds HEP-B1/ADO-P1 in [bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md) and SOC-C1 in [social connection](psychology/35_SOCIAL_CONNECTION.md). These three bounded foundation questions add named biochemical/HPG mechanisms and a social-construct explanation, with exact source types/dates and inference limits. No new book-page or primary-trial reading is claimed this cycle.

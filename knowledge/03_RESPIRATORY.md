@@ -1,6 +1,6 @@
 # Colds, sore throat, nasal symptoms and acute cough
 
-Adult scope. Sources: S07-S11, S14-S15, S18, S21, S40.
+Adult scope. Sources: S07-S11, S14-S15, S18, S21.
 
 ## Fundamentals
 
@@ -26,4 +26,4 @@ Benzydamine in Tantum Verde Forte is a topical pain/inflammation medicine. Its u
 
 The CDC cold source does not identify a specific antiviral treatment for the ordinary cold. Influenza and COVID-19 have separate options and treatment windows. A Russian 2025 guideline update describes a different medication practice: read the complete recommendation and the evidence for a specific medicine rather than transferring a list into Serbia. The full Russian guideline was not read for this edition. [S08, S18]
 
-The Cochrane zinc review suggests possible shorter cold duration with uncertain evidence, heterogeneous regimens and potential adverse effects. Zinc is not a universal required supplement. [S40]
+A current usable, formulation-specific zinc-for-colds appraisal remains pending in this packet. The historical review pointer is excluded from active evidence by the source-use policy; do not fill that gap with a benefit estimate or a routine supplement recommendation. [S40: bibliographic pointer only]

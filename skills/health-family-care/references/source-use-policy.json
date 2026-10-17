@@ -1,6 +1,6 @@
 {
   "schema": "external-clinical-source-use-v1",
-  "checked_on": "2026-10-09",
+  "checked_on": "2026-10-17",
   "purpose": "Source selection and rights provenance, not a legal clearance or medical rule engine",
   "permission_assumed": false,
   "preserve_bibliographic_history": true,
@@ -38,6 +38,86 @@
         "https://www.childrenscolorado.org/terms-of-use/"
       ],
       "limits": "Targeted terms review for this contribution; no broader legal conclusion about every ordinary human use is made."
+    },
+    {
+      "id": "openstax-ai-permission",
+      "host_suffix": "openstax.org",
+      "path_prefix": "/",
+      "action": "bibliographic_and_rights_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+        "https://openstax.org/books/psychology-2e/pages/index"
+      ],
+      "limits": "Current book footers require prior written permission for LLM/generative-AI ingestion. No matching permission verified. Do not bypass through older PDFs or other copies; retained historical metadata is not current permission."
+    },
+    {
+      "id": "cochrane-site-ai-restriction",
+      "host_suffix": "cochrane.org",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.cochrane.org/website-terms-and-conditions"
+      ],
+      "limits": "Terms updated2024-08-07, clauses5.2–5.4 explicitly restrict automated analysis and AI development/validation; no matching permission verified. Do not bypass through mirrors, snippets or another host of the same restricted content. This is a targeted source-selection decision, not an audit of all publisher-hosted literature."
+    },
+    {
+      "id": "nejm-group-ai-output",
+      "host_suffix": "nejm.org",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "nejm-doi-content",
+      "host_suffix": "doi.org",
+      "path_prefix": "/10.1056/",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "nejm-saliva-pubmed-record",
+      "host_suffix": "pubmed.ncbi.nlm.nih.gov",
+      "path_prefix": "/41147827",
+      "action": "bibliographic_pointer_only_until_matching_ai_permission_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.nejmgroup.org/legal/terms-of-use.htm"
+      ],
+      "limits": "NEJM Group terms January2026, sections2 and4, explicitly restrict AI processing/analysis/output and related uses without permission. The content restriction follows the identified work through abstracts, author copies and mirrors; this is not a prohibition on all independently authored material at a host. Historical source records do not establish permission."
+    },
+    {
+      "id": "wiley-allergy-content-review",
+      "host_suffix": "onlinelibrary.wiley.com",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_only_until_applicable_permission_or_licence_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://onlinelibrary.wiley.com/terms-and-conditions"
+      ],
+      "limits": "Cycle004 researcher inspected current Rules B,C,G,H, including explicit AI processing/output restrictions and licensing provisions. Integrating reviewer direct reopen403, not an independent full terms audit. Identified allergy guideline/abstract-derived claims are suspended pending applicable permission/licence verification; no same-work mirror bypass. Check article-specific licences separately; this is source selection, not a blanket legal conclusion about every Wiley work."
+    },
+    {
+      "id": "elsevier-content-and-identified-textbook-review",
+      "host_suffix": "elsevier.com",
+      "path_prefix": "/",
+      "action": "bibliographic_pointer_until_applicable_ai_use_permission_or_licence_is_verified",
+      "verified_permission_available": false,
+      "basis_urls": [
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions",
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions/elsevier-print-terms-and-conditions",
+        "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions/elsevier-terms-and-conditions-for-personal-digital-subscriptions-and-e-books"
+      ],
+      "limits": "Researcher directly read current website(2026-03-12), print(2025-12-16) and personal digital(2025-12-17) terms; root checked print scope and AI-restricted-use clause. Author/reviewer writing policy is not reader permission. Selected Robbins eighth-edition translation and Guyton14 chapter processing deferred pending applicable licence/permission scope; applicability to identified older editions remains unverified. Ordinary copyright is not an AI ban; this is source selection, not a global legal/enforceability conclusion. Do not bypass a matching restriction via another copy. Independently authored sources and article-specific licences require their own review."
     }
   ],
   "instructions": [

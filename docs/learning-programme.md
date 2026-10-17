@@ -1,0 +1,96 @@
+# Learning programme and depth audit
+
+Started 2026-10-17. This programme organizes a continuing medical and adult-psychology knowledge contribution. Its target is review-ready informational support for defined questions, with broad coverage and explicit limits. It does not certify medical competence, completion of every book, or improved clinical outcomes.
+
+## What counts as progress
+
+| State | Required evidence |
+|---|---|
+| Discovered | A relevant source or existing module is identified; no reading claim follows. |
+| Scoped | Exact question, population, edition/section and provider/use terms are checked. |
+| Studied | Selected content actually read; original synthesis, claim-source mapping, date and gaps saved. |
+| Checked | Meaningful factual/source-applicability review and a fictional response check are documented, with failures retained. |
+| Maintainer-reviewed | A separate substantive review is actually recorded; structural tests do not supply it. |
+
+A numerical level is not a clinical confidence score. An inaccessible or restricted source remains an explicit gap; it never becomes read through a catalogue entry, extracted text or citation. Rechecking a landing page does not refresh the underlying guideline.
+
+## Broad target
+
+The first coverage audit uses two defined questions for each of the seventeen families in the broad learning map, plus four cross-cutting methods questions. This is a **38-question initial target**, not a ceiling on future learning or an assertion that 38 summaries constitute medicine.
+
+| Family | Initial questions |
+|---|---|
+| Methods | F1 confidence intervals; F2 p-values/practical importance; F3 mechanisms versus outcome evidence; F4 measurement/construct validity |
+| GI | G1 recurrent heartburn/alternatives/urgency; G2 diagnostic-test purposes and limits |
+| Sleep | S1 insomnia versus habits/CBT-I; S3 sleep apnea/circadian/other-cause assessment and test limits |
+| Cognition | C1 sleep/function versus enhancement; C2 learning, practice and transfer to everyday outcomes |
+| Healthy ageing | A1 function and intrinsic capacity; A2 lifespan/biomarker/intervention claims |
+| Dementia | D1 risk reduction and certainty; D2 Alzheimer's-specific prevention, tools and intervention applicability |
+| Neck/shoulder | M1 symptom/context/serious alternatives; M2 exercise/function, follow-up and evidence |
+| Massage | R1 indication/comparator/duration; R2 device precautions and independent safety evidence |
+| Vision | V1 condition-specific exercise; V2 strain/dry-eye/refractive complaints and referral boundaries |
+| Labs | L1 result identity/preanalytics/units; L2 reference intervals, decision limits and test-context inference |
+| BP | B1 home/office/ambulatory measurement; B2 confirmation, selected investigations and risk context |
+| Ticks | T1 removal/follow-up; T2 geography/pathogen-specific prevention and evaluation |
+| Snakes | E1 immediate help and harmful actions; E2 region/species-specific boundaries and prevention |
+| Scalp | H1 dandruff and alternatives; H2 usable age/product-specific treatment evidence |
+| Endometriosis | EN1 diagnostic inference; EN2 pain/organ/fertility outcomes and new-test validation |
+| Allergy/respiratory | AR1 test interpretation; AR2 respiratory alternatives and meaningful symptom-care evidence |
+| Newborn/child | P1 age-specific illness/assessment; P2 feeding, development and preventive follow-up |
+| Psychology | PS1 method selection and applicability; PS2 outcomes, harms and measurement for CBT/ACT/MCT |
+
+Existing modules remain available; every listed question still needs its own current depth audit. Do not reset a useful older note to 'absent', or mark it checked merely because its topic is present. All 38 initial question entries now have bounded selected-source/inference and fictional-response checks: thirteen in packet 42, nine in 43, six in 44, two in 45 and eight in 46–47. Explicit current evidence, access and local-applicability gaps remain; a checked narrower question is not a complete clinical pathway. Cycle 006 records ten initial responses plus one focused R2 clarification/rerun. Substantive maintainer review remains pending. Counts refer to initial-question coverage, not medical completeness.
+
+## A useful question card
+
+Include the question and relevant age/setting; plain-language explanation; plausible alternatives; urgency where relevant; meaning and limits of tests; outcome-specific benefits/harms; applicability and jurisdiction; exact source edition/section/pages and actual reading scope; uncertainty, contradictions and recheck trigger; suitable skill and observed-check status.
+
+For interventions, distinguish recommendation strength, certainty, new-versus-carried-forward evidence and outcome importance. Do not substitute mechanism, a biomarker, a questionnaire or a vendor benchmark for demonstrated benefit. An unavailable full guideline may support a narrower educational note through an independently inspected source; retain the unresolved deeper question.
+
+## Work loop
+
+Select a foundational question, a current clinical question and a less-covered family. Parallel agents may inspect bounded packets; the integrating reviewer checks claim-source fit, rights, source identity and contradictions. Increase reasoning effort when evidence conflicts or methods require it, rather than using maximum effort routinely.
+
+Preserve originals and source-linked reading histories. Public contributions contain concise original general knowledge and evidence metadata, without personal cases, private links, source full texts or protected instruments/figures. Source histories and review records stay distinct from installed references.
+
+Integrate accepted drafts into canonical modules and relevant entrypoints, synchronize generated registers/references and validate/build. Use wholly fictional prompts in fresh contexts; record actual reference access and outputs, including unsupported additions. Apply a focused correction and rerun the affected inference when needed. This tests behavior in bounded settings; it does not establish diagnostic accuracy.
+
+## Completion audit
+
+Before describing the initial programme as sufficiently covered, verify all 38 question entries have studied source-grounded content and documented applicability/depth checks, or a justified explicit gap with a safe narrower scope and concrete next source/action. Review breadth across organ systems and life stages rather than only source counts. Unresolved high-impact contradictions, unsafe unsupported claims and broken reference loading remain work.
+
+Prepare a reviewer-readable account of what is supported, still incomplete, inaccessible or restricted. Technical checks and observed responses must be current for the submitted candidate. Substantive maintainer review, merge, release and installed updates are separate actions; this programme cannot confer its own clinical approval.
+
+The [work-in-progress completion audit](goal-completion-audit.md) separates the initial questions from the broader foundational, organ-system and life-stage curriculum. The [bounded broad depth audit](broad-curriculum-depth-audit.md) reconciles existing modules and reading records; further source/claim work remains. Reaching 38 alone does not prove the full objective.
+
+## Foundation study beyond the first pass
+
+Packet 48 adds five bounded units: PATH-F1 adaptation/injury, PATH-F2 morphology/mechanism, ONC-F1 tissue-change labels, REN-F1 renal processes/estimates, FLUID-M1 concentration/volume inference. These are separate from the 38 initial questions. Exact source reading, permission/access gaps and observed-check status are in docs/goal-study-cycle-007-review.md. Inflammation/repair, complete fluid regulation and current clinical application remain further work.
+
+## Selected cycle008 continuation
+
+Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F1 ATP energy conversion and NEU-F1 headache assessment context. STAT-F1 in evidence methods adds paired-data reasoning from four additional OpenIntro pages. Human organ-specific pathology, rigorous thermodynamic coupling, headache criteria/imaging decisions and repeated-measures methods remain incomplete. Actual source scopes, source simplifications and observed-check status are preserved in [cycle008 review](goal-study-cycle-008-review.md). This is further selected study beyond the initial 38 and cycle007 units, not completion of the broad goal.
+
+## Selected cycle009 continuation
+
+Packet50 adds four bounded units (PULM-F2, ENDO-F1, PHARM-F1, PSY-D1) beyond the earlier ten. A prior respiratory draft largely repeated existing ANATOMY and was not counted as new depth. New exact source scopes and critical model/trial appraisal are in [cycle009 review](goal-study-cycle-009-review.md). These additions do not complete physiology, endocrinology, pharmacology, cognitive-training evidence or the broad goal. Remaining specialty/current-local questions stay in the curriculum.
+
+## Selected cycle010 continuation
+
+Packet51 adds GI-M1 test-purpose/method context, REPRO-M1 selected extension populations/harms and GROWTH-M1 measurement/chart/age conventions. Actual EMA label/report reading resolves part of an earlier access gap, while exact Month12 analysis and the full2026 journal paper remain unresolved. Current reflux consensus, specialist preterm charts and local pathways remain open. See [cycle010 review](goal-study-cycle-010-review.md). These applied depth units do not establish broad-goal completion.
+
+## Selected cycle011 continuation
+
+STAT-F4 adds sampling-distribution/standard-error/model distinctions; CV-E1 separates confirmation, prognostic association and programme outcomes; SPORT-D1 appraises a primary attention-task comparison and its reporting inconsistencies. See [cycle011 review](goal-study-cycle-011-review.md). A bounded source-support audit also found active NICE-dependent claims in CHRONIC and CBT27 despite current bibliographic-only policy. Selected independent official sources replace or narrow those claims; exact unsupported details remain an explicit research queue. No whole-corpus clearance or broad-goal completion follows.
+
+## Selected cycle012 continuation
+
+AR3 distinguishes supervised penicillin assessment from later understanding, exposure and record correction. DX-E1 separates diagnostic probability, modeled sequential testing and severity; PAIN-E1 preserves a favorable acceptance result without claiming every pain outcome improved. See [cycle012 review](goal-study-cycle-012-review.md). Scoped CKD/medicine and legacy-source repairs are recorded separately, without counting each repair as new study. The initial 38 and23 additional bounded units (15 foundational,8 applied) remain selected coverage, not medical completeness. Exact local pathways, deeper efficacy/harms, foundational book study and wider specialty/life-stage depth remain open.
+
+## Selected cycle013 continuation and requirement audit
+
+STAT-F5 adds fitted-average, diagnostic and supported-range reasoning from three distinct selected OpenIntro pages. SLEEP-D2 appraises an actual supported testing/management comparison with its published correction; HAEM-D1 examines measured/modelled ferritin references and repeated observations. See [cycle013 review](goal-study-cycle-013-review.md) and the [requirement-level evidence snapshot](goal-coverage-evidence-2026-10-17.md). The updated audit preserves useful existing navigation while prioritizing integrated physiology, pathogen-test meaning and routine pregnancy/postpartum test context. These additions and the initial-question count do not establish full-goal completion.
+
+Cycle014 adds VOLUME-F1/MAT-F1 foundations and MICRO-D1 applied interpretation in packet55, with source-selection, sampling and stage limits. Initial 38 plus 29 additional bounded units organize progress; no comprehensive medical completeness follows. Routine gestational physiology and cross-organ/per-specimen examples now have selected original-source study. Hepatic/rheumatology/peripheral-neurology, adolescent/postpartum and non-method adult psychology depth remain in the wider queue. See [the cycle014 review](goal-study-cycle-014-review.md) and [requirement coverage](goal-coverage-evidence-2026-10-17.md).
+
+Cycle015 adds three bounded foundation questions: HEP-B1 bilirubin processing/fraction purpose, ADO-P1 pubertal signaling/growth/skeletal assessment and SOC-C1 adult social constructs. Initial38 plus32 additional units (21foundation,11applied) organize study scope, not medical completeness. The original question gaps were addressed with independently authored laboratory and pediatric sources rather than silently omitted. Exact review/rights/remaining limits are in [cycle015](goal-study-cycle-015-review.md); wider rheumatology/peripheral-neuro/postpartum depth and unhinted navigation remain open.

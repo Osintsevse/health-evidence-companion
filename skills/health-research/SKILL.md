@@ -38,3 +38,7 @@ Use [clinical navigation](references/CLINICAL_INDEX.md) for the relevant organ, 
 Separate new authorized care from an experimental intervention, a trial registration, a surrogate/biomarker finding and a discovery lead from a forum or another AI package. Review actual clinical outcomes, harms, comparator, population and practical access. Open-source code, popularity or a large knowledge archive is not clinical validation.
 
 Before consequential external medical reading or knowledge contribution, consult [source-use policy](references/source-use-policy.json). NICE clinical text requires separately verified AI-use permission; without it keep the link bibliographic and use independent usable primary evidence. Do not bypass restrictions through an indexed excerpt or mirror. Historical source records do not override this current policy. Read [source attribution](references/medical-source-attribution.md) before public export.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.

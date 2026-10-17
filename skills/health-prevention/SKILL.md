@@ -17,6 +17,10 @@ Explain numerical benefits and harms using [risk communication](references/32_RI
 
 For children, pregnancy or postpartum questions, use available health-family-care and [life-stage guidance](references/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md). Persistent private plans follow [incremental archive rules](references/24_INCREMENTAL_ARCHIVE_SAVES.md) only when requested. No automatic archive, insurer transmission or periodic monitoring is created by using this skill.
 
+## Source-grounded inference
+
+For consequential prevention explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Match each claim to its actual source, reading scope and population; distinguish measurements and biomarkers from clinical outcomes, and state applicability limits and uncertainty.
+
 ## Nutrition, chronic risk and ageing
 
 For a requested food review, read [nutrition](references/NUTRITION.md) and use health-nutrition when available. Explain source-supported food patterns and substitutions for the actual clinical goal; avoid a precise calorie deficit or supplement regimen from incomplete information.

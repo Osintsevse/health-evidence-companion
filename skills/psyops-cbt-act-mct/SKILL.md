@@ -20,3 +20,9 @@ Offer one brief voluntary step; respect refusal and stop if it worsens orientati
 When comparing efficacy read [evidence triage](references/psychology/30_EVIDENCE_TRIAGE.md) and source entries. Recognize positive MCT comparative evidence with its study limits; never assert a universal winning therapy or evidence for this plugin from trials of human therapy. Current consequential treatment claims require current primary sources, actual reading scope and indication-specific limits.
 
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
+
+## Source-grounded inference
+
+For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.
+
+For chronic-pain therapy evidence, read the complete PAIN-E1 heading in [outcomes and diagnostic reasoning](references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md). Distinguish acceptance, pain, interference, function and quality of life, and preserve the actual comparator and uncertainty.
