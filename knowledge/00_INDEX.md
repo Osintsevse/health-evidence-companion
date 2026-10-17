@@ -27,7 +27,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 730 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 737 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -98,3 +98,5 @@ The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and
 - [Inflammation, energy and headache foundations](49_INFLAMMATION_ENERGY_AND_HEADACHE.md): selected processes, inference limits and symptom-assessment context. Paired-measurement methods are in **evidence methods**.
 
 - [Measurement, kinetic-model and transfer study](50_MEASUREMENTS_MODELS_AND_TRANSFER.md): selected oxygen/acid-base, glucose-regulation, PK-model and cognitive-trial questions.
+
+- [Methods, populations and follow-up](51_METHODS_POPULATIONS_AND_FOLLOWUP.md): GI test purpose, selected endometriosis extension appraisal and chart-specific growth interpretation.

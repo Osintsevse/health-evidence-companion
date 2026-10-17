@@ -42,6 +42,7 @@ docs/goal-study-cycle-006-review.md
 docs/goal-study-cycle-007-review.md
 docs/goal-study-cycle-008-review.md
 docs/goal-study-cycle-009-review.md
+docs/goal-study-cycle-010-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -146,6 +147,7 @@ knowledge/47_TICKS_AND_SNAKEBITES.md
 knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -264,6 +266,7 @@ skills/health-care-navigation/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-care-navigation/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-care-navigation/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-care-navigation/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-care-navigation/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -323,6 +326,7 @@ skills/health-contribute/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-contribute/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-contribute/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-contribute/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-contribute/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -411,6 +415,7 @@ skills/health-explain/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-explain/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-explain/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-explain/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-explain/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -469,6 +474,7 @@ skills/health-family-care/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-family-care/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-family-care/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-family-care/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-family-care/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -602,6 +608,7 @@ skills/health-medicine-info/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-medicine-info/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-medicine-info/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-medicine-info/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-medicine-info/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -662,6 +669,7 @@ skills/health-mental-health/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-mental-health/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-mental-health/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-mental-health/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-mental-health/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -713,6 +721,7 @@ skills/health-nutrition/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-nutrition/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-nutrition/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-nutrition/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-nutrition/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -771,6 +780,7 @@ skills/health-prevention/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-prevention/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-prevention/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-prevention/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-prevention/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -980,6 +990,7 @@ skills/health-research/references/47_TICKS_AND_SNAKEBITES.md
 skills/health-research/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/health-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -1030,6 +1041,7 @@ skills/psyops-cbt-act-mct/references/47_TICKS_AND_SNAKEBITES.md
 skills/psyops-cbt-act-mct/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-cbt-act-mct/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-cbt-act-mct/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/psyops-cbt-act-mct/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -1090,6 +1102,7 @@ skills/psyops-dialogue/references/47_TICKS_AND_SNAKEBITES.md
 skills/psyops-dialogue/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-dialogue/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-dialogue/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/psyops-dialogue/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1236,6 +1249,7 @@ skills/psyops-research/references/47_TICKS_AND_SNAKEBITES.md
 skills/psyops-research/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/psyops-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md

@@ -29,3 +29,7 @@ Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F
 ## Selected cycle009 continuation
 
 Packet50 adds four bounded units (PULM-F2, ENDO-F1, PHARM-F1, PSY-D1) beyond the earlier ten. A prior respiratory draft largely repeated existing ANATOMY and was not counted as new depth. New exact source scopes and critical model/trial appraisal are in [cycle009 review](goal-study-cycle-009-review.md). These additions do not complete physiology, endocrinology, pharmacology, cognitive-training evidence or the broad goal. Remaining specialty/current-local questions stay in the curriculum.
+
+## Selected cycle010 continuation
+
+Packet51 adds GI-M1 test-purpose/method context, REPRO-M1 selected extension populations/harms and GROWTH-M1 measurement/chart/age conventions. Actual EMA label/report reading resolves part of an earlier access gap, while exact Month12 analysis and the full2026 journal paper remain unresolved. Current reflux consensus, specialist preterm charts and local pathways remain open. See [cycle010 review](goal-study-cycle-010-review.md). These applied depth units do not establish broad-goal completion.

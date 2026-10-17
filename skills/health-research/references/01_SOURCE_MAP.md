@@ -2139,9 +2139,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S303 - DailyMed
 - URL: https://dailymed.nlm.nih.gov/
 - Region: US
-- Reading status: Search-rendered landing information inspected; direct search URLs failed
+- Reading status: Search-rendered landing information inspected; direct search URLs failed About DailyMed overview/disclaimer directly read2026-10-17: submitted in-use text may differ from current FDA-approved labeling; not independent clinical evidence.
 - Purpose: In-use labeling navigation
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S304 - NICE NG238 cardiovascular risk and lipid modification
 - URL: https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3
@@ -2643,9 +2643,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S375 - EMA: Yselty (linzagolix), European public assessment report overview
 - URL: https://www.ema.europa.eu/en/medicines/human/EPAR/yselty
 - Region: European Union
-- Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed.
+- Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed. Earlier overview-only/failed SmPC scope retained. On2026-10-17 researcher selected current SmPC2-10/14-16; root text9/14-16, visual9/15/16. No printed revision date established; whole43page label unread. Independent assessment is S737.
 - Purpose: Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
 - URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
@@ -4078,9 +4078,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S580 - CDC Using WHO Growth Standard Charts
 - URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html
 - Region: US
-- Reading status: Relevant HTML sections inspected
+- Reading status: Relevant HTML sections inspected Selected measurement/transition/context refreshed2026-10-17 by researcher/root; numerical worked example not adopted.
 - Purpose: Accurate serial measures; US transition at two; length versus height; indicator changes
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S581 - WHO Child Growth Standards
 - URL: https://www.who.int/tools/child-growth-standards
@@ -4456,9 +4456,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S634 - UK-WHO growth charts - guidance for health professionals
 - URL: https://www.rcpch.ac.uk/resources/uk-who-growth-charts-guidance-health-professionals
 - Region: UK
-- Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed.
+- Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed. Current specific2009 teaching-use notice rechecked2026-10-17; preterm fact sheet separately S735, digital policy S736. No videos/newborn/NICM materials newly studied.
 - Purpose: Trained measurement, suitable narrow tape, recording dates and checking plotting age errors.
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S635 - Meningitis
 - URL: https://www.nhs.uk/conditions/meningitis/
@@ -5130,4 +5130,53 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: US draft device-guidance terminology, not an implemented clinical protocol
 - Reading status: Current landing page marked draft/not for implementation directly checked. Researcher selected linked PDF cover and printed1,2,8,12,31; no complete47page/ISO/table appraisal.
 - Purpose: SpO2/SaO2 terminology only. Exact functional denominator not found; no device algorithm or treatment recommendation adopted. Landing/PDF are one work, not independent studies.
+- Checked: 2026-10-17
+
+### S731 - IDkit Hp One/Two: company-submitted in-use labeling (revised August 2026)
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8baab7a7-5d20-46ad-9c4a-762992ef6b51
+- Region: US product-specific submitted labeling; not independently reconciled FDA-approved instructions
+- Reading status: Researcher/root selected1/2.1/2.6/7/12.1; NLM copyright and DailyMed disclaimer checked. Full device instructions and current approved-label reconciliation remain unread.
+- Purpose: Qualitative result/interference asymmetry and method context only; no exact preparation interval, therapy or diagnostic performance imported.
+- Checked: 2026-10-17
+
+### S732 - WGO Global Guidelines: Helicobacter pylori (May 2021)
+- URL: https://www.worldgastroenterology.org/guidelines/helicobacter-pylori/helicobacter-pylori-english
+- Region: Worldwide professional guidance with resource/local-context limits
+- Reading status: Researcher/root selected5.1/6.1-6.4 directly read; current WGO reuse policy checked. No whole guideline, cited-study, treatment-algorithm or table appraisal.
+- Purpose: Method purpose, antibody persistence and negative-result limitations. Brief original facts with attribution; WGO retains rights; no guideline excerpt or abridgement redistributed.
+- Checked: 2026-10-17
+
+### S733 - ACG Guideline Highlights: Treatment of Helicobacter pylori Infection (2024)
+- URL: https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf
+- Region: North American professional summary; file upload path January2025 is not guideline date
+- Reading status: Researcher/root directly read selected testing/test-of-cure and attribution text. Duh content, Chey/Shah reviewers. Regimen table not appraised/adopted; full AJG guideline not read. Footer/privacy checked; dedicated terms retrieval failed; ordinary copyright retained.
+- Purpose: Purpose-specific confirmation and interference context, without reproducing a guideline table/algorithm or exporting universal preparation intervals.
+- Checked: 2026-10-17
+
+### S734 - CDC/NCHS NHANES Anthropometry Procedures Manual (May 2021)
+- URL: https://wwwn.cdc.gov/nchs/data/nhanes/public/2021/manuals/2021-Anthropometry-Procedures-Manual-508.pdf
+- Region: US professional survey protocol, not universal clinical chart policy
+- Reading status: Researcher selected3.3/3.4.1/3.4.3/3.4.4 plus purpose/age-field openings; root text PDF30-32/34-36, visual31/36. Whole91page manual unread. Agency-materials policy checked; no images/tables/forms reused.
+- Purpose: Measurement-method/recording context and survey-versus-clinical age distinction; no patient scoring or measurement-accuracy guarantee.
+- Checked: 2026-10-17
+
+### S735 - RCPCH UK-WHO Fact Sheet5: Plotting Preterm Infants (2009)
+- URL: https://www.rcpch.ac.uk/sites/default/files/Plotting_preterm_infants.pdf
+- Region: UK-WHO historical paper-chart teaching, not a2026 revision
+- Reading status: Both pages read by researcher/root; researcher visually checked both. Current RCPCH resource-page specific2009 teaching permission and general policies checked. No chart/source example or algorithm redistributed.
+- Purpose: Chart-specific correction and version boundaries. Copyright2009 RCPCH retained; acknowledged teaching use under source conditions, no endorsement or exclusive source IP claimed.
+- Checked: 2026-10-17
+
+### S736 - RCPCH Digital Growth Charts: Date and Age Calculations
+- URL: https://growth.rcpch.ac.uk/clinician/date-age-calculations/
+- Region: Official implementation documentation; not a universal clinical guideline
+- Reading status: Researcher/root selected chronological/corrected-age and Project Board policy passages directly read; no page-specific revision date established. General RCPCH and digital licensing pages checked; code licences not assumed to cover all narrative/chart assets.
+- Purpose: Paper/digital and purpose-specific age conventions; no deployed API, calculation algorithm, reference dataset or clinical outcome validation.
+- Checked: 2026-10-17
+
+### S737 - EMA Yselty endometriosis variation assessment: EMA/CHMP/73456/2025
+- URL: https://www.ema.europa.eu/en/documents/variation-report/yselty-h-c-005442-ii-0013-epar-assessment-report-variation_en.pdf
+- Region: EU regulatory assessment of submitted trial data; not an independent replication
+- Reading status: Selected131page report scopes and root visual35/42/45/46/77/102/108/129 in cycle010 review. Header17October2024/report identifier2025 retained. Full report, exact Month12 analysis and full2026 journal paper remain unappraised. EMA attribution/third-party exceptions retained.
+- Purpose: Analysis-set, extension-selection, raw-versus-modeled, event and BMD-follow-up limits. Conflicting summary continuous-outcome group cells excluded; no source table copied.
 - Checked: 2026-10-17

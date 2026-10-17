@@ -3247,10 +3247,10 @@
       "source_id": "S375",
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yselty",
       "publication_version": "Overview/product-information publication 12 March 2025; EPAR page update 21 November 2025",
-      "checked_on": "2026-10-09",
-      "retrieval_status": "Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed.",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed. Cycle010 selected SmPC2-10/14-16 read by researcher; root9/14-16 and visual9/15/16. Initial retrieval failure remains historical, not current unavailability.",
       "use": "Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.",
-      "limitations": "Overview-level review only; not a complete interaction or contraindication check. Initial 2022 fibroid authorization is not the date of endometriosis approval; exact latter decision date not asserted.",
+      "limitations": "Overview-level review only; not a complete interaction or contraindication check. Initial 2022 fibroid authorization is not the date of endometriosis approval; exact latter decision date not asserted. Whole SmPC not read; exact edition-revision date unestablished. Full EDELWEISS6 journal methods/supplements still unread; independent regulatory-report scope is S737.",
       "rights": "Original paraphrase and links only; no source text, tables, figures or full files redistributed. Source copyright and license remain with their holders."
     },
     {
@@ -4183,8 +4183,8 @@
       "source_id": "S580",
       "url": "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html",
       "publication_version": "March 20, 2024",
-      "checked_on": "2026-10-09",
-      "retrieval_status": "Relevant HTML sections inspected",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Relevant HTML sections inspected Selected measurement/transition/context refreshed2026-10-17; worked numerical example excluded.",
       "use": "Accurate serial measures; US transition at two; length versus height; indicator changes",
       "limitations": "Official guidance; not a diagnostic instrument or universal national schedule.",
       "rights": "Original paraphrase and link only. Do not reproduce images, questionnaires or third-party material."
@@ -4795,8 +4795,8 @@
       "source_id": "S634",
       "url": "https://www.rcpch.ac.uk/resources/uk-who-growth-charts-guidance-health-professionals",
       "publication_version": "Current RCPCH Health Policy team webpage checked 2026-10-09; linked teaching materials dated 2009",
-      "checked_on": "2026-10-09",
-      "retrieval_status": "Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed.",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed. Current specific2009 permission rechecked2026-10-17; newly read preterm fact sheet separately S735 and digital age documentation S736.",
       "use": "Trained measurement, suitable narrow tape, recording dates and checking plotting age errors.",
       "limitations": "No specific head-centile referral threshold imported; local age/prematurity chart policy still needed.",
       "rights": "RCPCH copyright. Page explicitly permits acknowledged use of linked 2009 teaching materials without charge subject to no advertising/promotion, no claimed exclusive IP or restriction of others. Here only brief original summary of page facts and link; no chart/video/fact-sheet reproduction. Attribution: Royal College of Paediatrics and Child Health."
@@ -5640,6 +5640,90 @@
       "use": "Adult antibiotic stewardship summary, no effect size or universal product choice.",
       "limitations": "Adult antibiotic stewardship summary, no effect size or universal product choice.",
       "rights": "Original brief factual synthesis; actual provider-specific notices retained, no endorsement/source assets."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle010-s731",
+      "source_id": "S731",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8baab7a7-5d20-46ad-9c4a-762992ef6b51",
+      "publication_version": "IDkit Hp One/Two: company-submitted in-use labeling (revised August 2026)",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Researcher/root selected1/2.1/2.6/7/12.1; NLM copyright and DailyMed disclaimer checked. Full device instructions and current approved-label reconciliation remain unread.",
+      "use": "Qualitative result/interference asymmetry and method context only; no exact preparation interval, therapy or diagnostic performance imported.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle010-s732",
+      "source_id": "S732",
+      "url": "https://www.worldgastroenterology.org/guidelines/helicobacter-pylori/helicobacter-pylori-english",
+      "publication_version": "WGO Global Guidelines: Helicobacter pylori (May 2021)",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Researcher/root selected5.1/6.1-6.4 directly read; current WGO reuse policy checked. No whole guideline, cited-study, treatment-algorithm or table appraisal.",
+      "use": "Method purpose, antibody persistence and negative-result limitations. Brief original facts with attribution; WGO retains rights; no guideline excerpt or abridgement redistributed.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "diagnostics",
+      "local_key": "cycle010-s733",
+      "source_id": "S733",
+      "url": "https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf",
+      "publication_version": "ACG Guideline Highlights: Treatment of Helicobacter pylori Infection (2024)",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Researcher/root directly read selected testing/test-of-cure and attribution text. Duh content, Chey/Shah reviewers. Regimen table not appraised/adopted; full AJG guideline not read. Footer/privacy checked; dedicated terms retrieval failed; ordinary copyright retained.",
+      "use": "Purpose-specific confirmation and interference context, without reproducing a guideline table/algorithm or exporting universal preparation intervals.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "pediatrics-care",
+      "local_key": "cycle010-s734",
+      "source_id": "S734",
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2021/manuals/2021-Anthropometry-Procedures-Manual-508.pdf",
+      "publication_version": "CDC/NCHS NHANES Anthropometry Procedures Manual (May 2021)",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Researcher selected3.3/3.4.1/3.4.3/3.4.4 plus purpose/age-field openings; root text PDF30-32/34-36, visual31/36. Whole91page manual unread. Agency-materials policy checked; no images/tables/forms reused.",
+      "use": "Measurement-method/recording context and survey-versus-clinical age distinction; no patient scoring or measurement-accuracy guarantee.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "pediatrics-care",
+      "local_key": "cycle010-s735",
+      "source_id": "S735",
+      "url": "https://www.rcpch.ac.uk/sites/default/files/Plotting_preterm_infants.pdf",
+      "publication_version": "RCPCH UK-WHO Fact Sheet5: Plotting Preterm Infants (2009)",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Both pages read by researcher/root; researcher visually checked both. Current RCPCH resource-page specific2009 teaching permission and general policies checked. No chart/source example or algorithm redistributed.",
+      "use": "Chart-specific correction and version boundaries. Copyright2009 RCPCH retained; acknowledged teaching use under source conditions, no endorsement or exclusive source IP claimed.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "pediatrics-care",
+      "local_key": "cycle010-s736",
+      "source_id": "S736",
+      "url": "https://growth.rcpch.ac.uk/clinician/date-age-calculations/",
+      "publication_version": "RCPCH Digital Growth Charts: Date and Age Calculations",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Researcher/root selected chronological/corrected-age and Project Board policy passages directly read; no page-specific revision date established. General RCPCH and digital licensing pages checked; code licences not assumed to cover all narrative/chart assets.",
+      "use": "Paper/digital and purpose-specific age conventions; no deployed API, calculation algorithm, reference dataset or clinical outcome validation.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
+    },
+    {
+      "topic": "endometriosis",
+      "local_key": "cycle010-s737",
+      "source_id": "S737",
+      "url": "https://www.ema.europa.eu/en/documents/variation-report/yselty-h-c-005442-ii-0013-epar-assessment-report-variation_en.pdf",
+      "publication_version": "EMA Yselty endometriosis variation assessment: EMA/CHMP/73456/2025",
+      "checked_on": "2026-10-17",
+      "retrieval_status": "Selected131page report scopes and root visual35/42/45/46/77/102/108/129 in cycle010 review. Header17October2024/report identifier2025 retained. Full report, exact Month12 analysis and full2026 journal paper remain unappraised. EMA attribution/third-party exceptions retained.",
+      "use": "Analysis-set, extension-selection, raw-versus-modeled, event and BMD-follow-up limits. Conflicting summary continuous-outcome group cells excluded; no source table copied.",
+      "limitations": "Bounded source scope and unresolved questions in docs/goal-study-cycle-010-review.md; not full specialty or clinical validation.",
+      "rights": "Original brief factual synthesis/citation only; actual provider rights retained as documented in source scope and cycle010 review. No full text, source chart/table/figure/instrument/dataset/algorithm redistributed."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."
