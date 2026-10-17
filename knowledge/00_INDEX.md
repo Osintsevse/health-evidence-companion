@@ -27,7 +27,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 737 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 744 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -66,7 +66,7 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 
 ## Psychology and combined routing
 
-[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 108-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 111-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
 
 - [37: Genetic evidence sources, repeat review and external-data consent](37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md)
 
@@ -100,3 +100,5 @@ The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and
 - [Measurement, kinetic-model and transfer study](50_MEASUREMENTS_MODELS_AND_TRANSFER.md): selected oxygen/acid-base, glucose-regulation, PK-model and cognitive-trial questions.
 
 - [Methods, populations and follow-up](51_METHODS_POPULATIONS_AND_FOLLOWUP.md): GI test purpose, selected endometriosis extension appraisal and chart-specific growth interpretation.
+
+- [Detection, programme outcomes and attention tasks](52_DETECTION_OUTCOMES_AND_ATTENTION.md): selected hypertension evidence and adult sport-task appraisal; sampling models are in evidence methods.

@@ -43,6 +43,7 @@ docs/goal-study-cycle-007-review.md
 docs/goal-study-cycle-008-review.md
 docs/goal-study-cycle-009-review.md
 docs/goal-study-cycle-010-review.md
+docs/goal-study-cycle-011-review.md
 docs/goal-study-review-2026-10-17.md
 docs/grounded-knowledge-review.md
 docs/health-dashboard.md
@@ -148,6 +149,7 @@ knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 knowledge/EVIDENCE_METHODS.md
 knowledge/archive_tables.json
 knowledge/clinical/AGEING_REHAB.md
@@ -267,6 +269,7 @@ skills/health-care-navigation/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-care-navigation/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-care-navigation/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-care-navigation/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-care-navigation/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-care-navigation/references/AGEING_REHAB.md
 skills/health-care-navigation/references/ANATOMY.md
 skills/health-care-navigation/references/ARCHITECTURE.md
@@ -327,6 +330,7 @@ skills/health-contribute/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-contribute/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-contribute/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-contribute/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-contribute/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-contribute/references/AGEING_REHAB.md
 skills/health-contribute/references/ANATOMY.md
 skills/health-contribute/references/ARCHITECTURE.md
@@ -416,6 +420,7 @@ skills/health-explain/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-explain/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-explain/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-explain/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-explain/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-explain/references/AGEING_REHAB.md
 skills/health-explain/references/ANATOMY.md
 skills/health-explain/references/ARCHITECTURE.md
@@ -475,6 +480,7 @@ skills/health-family-care/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-family-care/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-family-care/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-family-care/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-family-care/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-family-care/references/AGEING_REHAB.md
 skills/health-family-care/references/ANATOMY.md
 skills/health-family-care/references/ARCHITECTURE.md
@@ -609,6 +615,7 @@ skills/health-medicine-info/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-medicine-info/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-medicine-info/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-medicine-info/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-medicine-info/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-medicine-info/references/AGEING_REHAB.md
 skills/health-medicine-info/references/ANATOMY.md
 skills/health-medicine-info/references/ARCHITECTURE.md
@@ -670,6 +677,7 @@ skills/health-mental-health/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-mental-health/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-mental-health/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-mental-health/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-mental-health/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-mental-health/references/AGEING_REHAB.md
 skills/health-mental-health/references/ANATOMY.md
 skills/health-mental-health/references/ARCHITECTURE.md
@@ -722,6 +730,7 @@ skills/health-nutrition/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-nutrition/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-nutrition/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-nutrition/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-nutrition/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-nutrition/references/AGEING_REHAB.md
 skills/health-nutrition/references/ANATOMY.md
 skills/health-nutrition/references/ARCHITECTURE.md
@@ -781,6 +790,7 @@ skills/health-prevention/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-prevention/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-prevention/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-prevention/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-prevention/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-prevention/references/AGEING_REHAB.md
 skills/health-prevention/references/ANATOMY.md
 skills/health-prevention/references/ARCHITECTURE.md
@@ -991,6 +1001,7 @@ skills/health-research/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/health-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/health-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/health-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/health-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/health-research/references/AGEING_REHAB.md
 skills/health-research/references/ANATOMY.md
 skills/health-research/references/ARCHITECTURE.md
@@ -1042,6 +1053,7 @@ skills/psyops-cbt-act-mct/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-cbt-act-mct/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-cbt-act-mct/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-cbt-act-mct/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/psyops-cbt-act-mct/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-cbt-act-mct/references/ENDOMETRIOSIS.md
 skills/psyops-cbt-act-mct/references/evidence-methods.md
 skills/psyops-cbt-act-mct/references/psychology/00_COMMON_INDEX.md
@@ -1103,6 +1115,7 @@ skills/psyops-dialogue/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-dialogue/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-dialogue/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-dialogue/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/psyops-dialogue/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-dialogue/references/ENDOMETRIOSIS.md
 skills/psyops-dialogue/references/evidence-methods.md
 skills/psyops-dialogue/references/psychology/00_COMMON_INDEX.md
@@ -1250,6 +1263,7 @@ skills/psyops-research/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
 skills/psyops-research/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
 skills/psyops-research/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
 skills/psyops-research/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/psyops-research/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
 skills/psyops-research/references/ENDOMETRIOSIS.md
 skills/psyops-research/references/evidence-methods.md
 skills/psyops-research/references/psychology/00_COMMON_INDEX.md
@@ -1294,7 +1308,26 @@ skills/psyops-research/references/source-use-policy.json
 skills/psyops-research/references/sources.json
 skills/psyops-sport/SKILL.md
 skills/psyops-sport/agents/openai.yaml
+skills/psyops-sport/references/15_ALLERGOLOGY.md
+skills/psyops-sport/references/27_FOUNDATIONS_AND_LEARNING_INDEX.md
+skills/psyops-sport/references/31_SOURCE_MAINTENANCE.md
 skills/psyops-sport/references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md
+skills/psyops-sport/references/39_GROUNDED_REASONING.md
+skills/psyops-sport/references/40_BROAD_HEALTH_LEARNING_MAP.md
+skills/psyops-sport/references/41_EVERYDAY_HEALTH_NOTES.md
+skills/psyops-sport/references/42_STUDIED_QUESTIONS.md
+skills/psyops-sport/references/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md
+skills/psyops-sport/references/44_LABS_BP_ALLERGY_CHILDREN.md
+skills/psyops-sport/references/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md
+skills/psyops-sport/references/46_EXERCISE_VISION_AND_SCALP.md
+skills/psyops-sport/references/47_TICKS_AND_SNAKEBITES.md
+skills/psyops-sport/references/48_CELLULAR_AND_RENAL_FOUNDATIONS.md
+skills/psyops-sport/references/49_INFLAMMATION_ENERGY_AND_HEADACHE.md
+skills/psyops-sport/references/50_MEASUREMENTS_MODELS_AND_TRANSFER.md
+skills/psyops-sport/references/51_METHODS_POPULATIONS_AND_FOLLOWUP.md
+skills/psyops-sport/references/52_DETECTION_OUTCOMES_AND_ATTENTION.md
+skills/psyops-sport/references/ENDOMETRIOSIS.md
+skills/psyops-sport/references/evidence-methods.md
 skills/psyops-sport/references/psychology/00_COMMON_INDEX.md
 skills/psyops-sport/references/psychology/01_EVIDENCE_MAP.md
 skills/psyops-sport/references/psychology/02_ETHICS_AND_DIALOGUE.md
@@ -1335,6 +1368,8 @@ skills/psyops-sport/references/psychology/SOURCES.md
 skills/psyops-sport/references/psychology/sources.json
 skills/psyops-sport/references/psychology/templates/session-review.blank.json
 skills/psyops-sport/references/psychology/templates/sport-review.blank.json
+skills/psyops-sport/references/source-use-policy.json
+skills/psyops-sport/references/sources.json
 tests/blood_pressure_browser.mjs
 tests/skill-cases.json
 tests/test_archive_sync_plan.py

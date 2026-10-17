@@ -1,7 +1,7 @@
 {
   "schema": "unified-source-catalog-v1",
-  "record_count": 845,
-  "unique_url_count": 842,
+  "record_count": 855,
+  "unique_url_count": 851,
   "records": [
     {
       "namespace": "medical",
@@ -374,9 +374,9 @@
       "title": "NICE - NG136 Hypertension in adults",
       "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
       "checked_on": "2026-10-06",
-      "reading_status": "Indexed diagnostic confirmation recommendations read",
-      "limitations": "Indexed diagnostic confirmation recommendations read",
-      "purpose": "Home/ambulatory blood pressure monitoring",
+      "reading_status": "Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "United Kingdom",
       "canonical_path": "knowledge/sources.json"
     },
@@ -1310,9 +1310,9 @@
       "title": "NICE - NG145 Thyroid disease",
       "url": "https://www.nice.org.uk/guidance/NG145/chapter/recommendations",
       "checked_on": "2026-10-06",
-      "reading_status": "Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.",
-      "limitations": "Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.",
-      "purpose": "Primary/secondary thyroid testing and biotin interference.",
+      "reading_status": "Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "UK",
       "canonical_path": "knowledge/sources.json"
     },
@@ -2141,9 +2141,9 @@
       "qualified_id": "medical:S165",
       "title": "CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15",
       "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
-      "checked_on": "2026-10-08",
-      "reading_status": "Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.",
-      "limitations": "Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.",
+      "checked_on": "2026-10-17",
+      "reading_status": "Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
+      "limitations": "Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
       "purpose": "Pregnancy/postpartum urgent routing",
       "region": "US",
       "canonical_path": "knowledge/sources.json"
@@ -2662,8 +2662,8 @@
       "title": "USPSTF Hypertension in Adults Screening, 2021",
       "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
       "checked_on": "2026-10-17",
-      "reading_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice.",
-      "limitations": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice.",
+      "reading_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
+      "limitations": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
       "purpose": "Adults without known hypertension; routine screening not acute-care guidance.",
       "region": "US",
       "canonical_path": "knowledge/sources.json"
@@ -3962,9 +3962,9 @@
       "title": "NICE NG28 initial medicines",
       "url": "https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines",
       "checked_on": "2026-10-09",
-      "reading_status": "Search-rendered section 1.13 and rationale inspected",
-      "limitations": "Search-rendered section 1.13 and rationale inspected",
-      "purpose": "Current regional cardiorenal-oriented type 2 treatment context",
+      "reading_status": "Search-rendered section 1.13 and rationale inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Search-rendered section 1.13 and rationale inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "UK",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5067,9 +5067,9 @@
       "title": "NICE NG133 recommendations",
       "url": "https://www.nice.org.uk/guidance/ng133/chapter/recommendations",
       "checked_on": "2026-10-09",
-      "reading_status": "Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403",
-      "limitations": "Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403",
-      "purpose": "Pregnancy severe threshold and postpartum symptoms",
+      "reading_status": "Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5171,9 +5171,9 @@
       "title": "NICE NG115 recommendations",
       "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
       "checked_on": "2026-10-09",
-      "reading_status": "Indexed spirometry and inhaled-treatment sections inspected",
-      "limitations": "Indexed spirometry and inhaled-treatment sections inspected",
-      "purpose": "Spirometry confirmation, treatment roles, pneumonia risk and function",
+      "reading_status": "Indexed spirometry and inhaled-treatment sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed spirometry and inhaled-treatment sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5249,9 +5249,9 @@
       "title": "NICE NG56 recommendations",
       "url": "https://www.nice.org.uk/guidance/ng56/chapter/recommendations",
       "checked_on": "2026-10-09",
-      "reading_status": "Indexed sections 1.1-1.6 inspected; direct 403",
-      "limitations": "Indexed sections 1.1-1.6 inspected; direct 403",
-      "purpose": "Goals, treatment burden, frailty, reconciliation and coordinated plan",
+      "reading_status": "Indexed sections 1.1-1.6 inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed sections 1.1-1.6 inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5262,9 +5262,9 @@
       "title": "NICE NG226 recommendations",
       "url": "https://www.nice.org.uk/guidance/ng226/chapter/Recommendations",
       "checked_on": "2026-10-09",
-      "reading_status": "Indexed exercise/function and pharmacological sections inspected",
-      "limitations": "Indexed exercise/function and pharmacological sections inspected",
-      "purpose": "Exercise, topical/oral NSAID distinction and comorbidity risk",
+      "reading_status": "Indexed exercise/function and pharmacological sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed exercise/function and pharmacological sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5275,9 +5275,9 @@
       "title": "NICE NG100 recommendations",
       "url": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations",
       "checked_on": "2026-10-09",
-      "reading_status": "Indexed referral and urgent septic-arthritis recommendation inspected",
-      "limitations": "Indexed referral and urgent septic-arthritis recommendation inspected",
-      "purpose": "Persistent synovitis referral and urgent hot-joint distinction",
+      "reading_status": "Indexed referral and urgent septic-arthritis recommendation inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed referral and urgent septic-arthritis recommendation inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -5288,9 +5288,9 @@
       "title": "NICE NG246 Medicines and surgery",
       "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery",
       "checked_on": "2026-10-09",
-      "reading_status": "Indexed medicine section and eligibility table inspected",
-      "limitations": "Indexed medicine section and eligibility table inspected",
-      "purpose": "Structured care, product-specific medicine options and local eligibility",
+      "reading_status": "Indexed medicine section and eligibility table inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "limitations": "Indexed medicine section and eligibility table inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.",
+      "purpose": "Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.",
       "region": "England",
       "canonical_path": "knowledge/sources.json"
     },
@@ -9585,6 +9585,97 @@
       "canonical_path": "knowledge/sources.json"
     },
     {
+      "namespace": "medical",
+      "id": "S738",
+      "qualified_id": "medical:S738",
+      "title": "Dahrouge et al.: CHAP five-year population follow-up",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201802",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.",
+      "limitations": "Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.",
+      "purpose": "Programme-component, endpoint, clustering and follow-up inference limits; no drug/device validation.",
+      "region": "Ontario, Canada; community-dwelling age65+",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S739",
+      "qualified_id": "medical:S739",
+      "title": "NHLBI: COPD Treatment",
+      "url": "https://www.nhlbi.nih.gov/health/copd/treatment",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2024-10-06. Researcher read Treatment opening; Medicines including inhaler use and flare-up plan; Pulmonary rehabilitation; Oxygen therapy. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "limitations": "Version 2024-10-06. Researcher read Treatment opening; Medicines including inhaler use and flare-up plan; Pulmonary rehabilitation; Oxygen therapy. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "purpose": "Selected COPD medicine-role/inhaler-technique, rehabilitation and oxygen-safety education; no comparative efficacy or exact diagnostic rule.",
+      "region": "US",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S740",
+      "qualified_id": "medical:S740",
+      "title": "NIDDK: Managing Diabetes",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2023-10. Researcher read Opening; diabetes ABCs; medicine selection and cost; progress tracking; special situations; care-team and appointment questions; date/provenance. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "limitations": "Version 2023-10. Researcher read Opening; diabetes ABCs; medicine selection and cost; progress tracking; special situations; care-team and appointment questions; date/provenance. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "purpose": "Diabetes care goals, medicine/cost/context questions and illness/fasting preparation; no class-specific cardiorenal algorithm.",
+      "region": "US",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S741",
+      "qualified_id": "medical:S741",
+      "title": "NIDDK: Hypothyroidism (Underactive Thyroid)",
+      "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2021-03. Researcher read Pregnancy; symptoms; diagnosis; treatment; diet/iodine; date and provenance. No cited journal article read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "limitations": "Version 2021-03. Researcher read Pregnancy; symptoms; diagnosis; treatment; diet/iodine; date and provenance. No cited journal article read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "purpose": "Hypothyroid symptom/diagnostic distinctions, replacement monitoring and pregnancy contact; not full2026 thyroid guidance or antithyroid product warnings.",
+      "region": "US",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S742",
+      "qualified_id": "medical:S742",
+      "title": "NHS website, independently written consumer overview rather than NICE recommendation text: Arthritis",
+      "url": "https://www.nhs.uk/conditions/arthritis/",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2026-01-19. Researcher read Symptoms; urgent and nonurgent assessment; tests; treatment; self-care; review date. Source table not copied; external Arthritis UK content not read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "limitations": "Version 2026-01-19. Researcher read Symptoms; urgent and nonurgent assessment; tests; treatment; self-care; review date. Source table not copied; external Arthritis UK content not read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "purpose": "Joint assessment, function and urgent hot/swollen-joint routing; no OA/RA drug or referral algorithm.",
+      "region": "England",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S743",
+      "qualified_id": "medical:S743",
+      "title": "NIDDK: Prescription Medications to Treat Overweight & Obesity",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2024-06. Researcher read Individual assessment; mechanisms; lifestyle role; concerns; selection; duration; regain; insurance; general interaction/pregnancy cautions. Medication table incidentally returned but not adopted/copied; no numeric efficacy/eligibility/stopping algorithm adopted. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "limitations": "Version 2024-06. Researcher read Individual assessment; mechanisms; lifestyle role; concerns; selection; duration; regain; insurance; general interaction/pregnancy cautions. Medication table incidentally returned but not adopted/copied; no numeric efficacy/eligibility/stopping algorithm adopted. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.",
+      "purpose": "Weight-management medicine purpose, selection/maintenance/interaction/pregnancy questions; not a current approval/eligibility/stopping table.",
+      "region": "US",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
+      "namespace": "medical",
+      "id": "S744",
+      "qualified_id": "medical:S744",
+      "title": "NHLBI: COPD Diagnosis",
+      "url": "https://www.nhlbi.nih.gov/health/copd/diagnosis",
+      "checked_on": "2026-10-17",
+      "reading_status": "Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.",
+      "limitations": "Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.",
+      "purpose": "Diagnostic purpose and main spirometry test; not exact obstruction threshold, full protocol or treatment-selection algorithm.",
+      "region": "US",
+      "canonical_path": "knowledge/sources.json"
+    },
+    {
       "namespace": "psychology",
       "id": "S01",
       "qualified_id": "psychology:S01",
@@ -9618,8 +9709,8 @@
       "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
       "checked_on": "2026-09-26",
       "reading_status": "indexed_excerpt",
-      "limitations": "Direct access gave 403; Indexed recommendations have been verified. Do not claim that all applications have been studied.",
-      "purpose": "CBT, behavioral activation, MBCT, short-term psychodynamic therapy.",
+      "limitations": "Direct access gave 403; Indexed recommendations have been verified. Do not claim that all applications have been studied. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "purpose": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     },
@@ -9657,8 +9748,8 @@
       "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
       "checked_on": "2026-09-26",
       "reading_status": "indexed_excerpt",
-      "limitations": "A clinical protocol requires assessment and a trained implementer.",
-      "purpose": "Distinguish between explanation of technique and treatment.",
+      "limitations": "A clinical protocol requires assessment and a trained implementer. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "purpose": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     },
@@ -9670,8 +9761,8 @@
       "url": "https://www.nice.org.uk/guidance/ng116/chapter/recommendations",
       "checked_on": "2026-09-26",
       "reading_status": "indexed_excerpt",
-      "limitations": "Ages, timing, and indications vary; not a stand-alone guide for a chatbot.",
-      "purpose": "Do not process trauma using household self-help.",
+      "limitations": "Ages, timing, and indications vary; not a stand-alone guide for a chatbot. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "purpose": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     },
@@ -9683,8 +9774,8 @@
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK551808/",
       "checked_on": "2026-09-26",
       "reading_status": "indexed_excerpt",
-      "limitations": "Surveillance is a revision document, not a new test; the complete treatment plan is not reproduced here.",
-      "purpose": "Distinguish work with rituals from endless reassurances.",
+      "limitations": "Surveillance is a revision document, not a new test; the complete treatment plan is not reproduced here. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "purpose": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     },
@@ -10892,8 +10983,8 @@
       "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations",
       "checked_on": "2026-10-08",
       "reading_status": "indexed_official_recommendation_sections_1.5.1_and_1.5.2",
-      "limitations": "Direct fetch 403; official indexed sections inspected. Not a personalised ERP prescription; guideline version must be rechecked for clinical use.",
-      "purpose": "Replace reliance on surveillance text alone for ERP teaching.",
+      "limitations": "Direct fetch 403; official indexed sections inspected. Not a personalised ERP prescription; guideline version must be rechecked for clinical use. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "purpose": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
     },
@@ -10931,7 +11022,7 @@
       "url": "https://www.openintro.org/go/?id=os4_for_screen_reader",
       "checked_on": "2026-10-17",
       "reading_status": "previous_selected_introductory_sections_and_selected_inference_pages_read",
-      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed.",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3\u20131.3.4, and 1.4\u20131.4.1 were read; screen-reader PDF pp. 20, 24\u201328, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207\u2013208,211\u2013213,216\u2013218,223\u2013224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190\u2013193,195\u2013196,199, selected5.1.1\u20135.1.6; root visual192\u2013193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised.",
       "purpose": "General study-design background; cite as psychology:S104 when referenced across namespaces.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
@@ -10987,6 +11078,45 @@
       "purpose": "Preserve a positive measured comparison without inferring objective everyday function, durability or every-product efficacy.",
       "region": "Original psychological source applicability; inspect canonical record",
       "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S109",
+      "qualified_id": "psychology:S109",
+      "title": "Yang and Wang: self-talk and attentional control under noise distraction",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292321",
+      "checked_on": "2026-10-17",
+      "reading_status": "selected_narrative_methods_results_discussion_read",
+      "limitations": "Researcher narrative Study1/2 methods/results/discussion; root selected Study1 and Study2 recruitment/design/procedure/analysis/results/discussion/limits. CC BY4 article-specific notice and PLOS terms checked. Abstract/discussion instructional-benefit discrepancy and inconsistent noise/error discussion retained; no established superiority to silent control.39 analyzed male athletes, post-recruitment exclusions and no competition/retention/harms appraisal. Numerical tables, datasets, peer review and replication not appraised.",
+      "purpose": "Bounded sport-psychology evidence appraisal, not training prescription or universal benefit/harm.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S110",
+      "qualified_id": "psychology:S110",
+      "title": "NIMH: Psychotherapies",
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "checked_on": "2026-10-17",
+      "reading_status": "selected_elements_goals_therapist_questions_read",
+      "limitations": "Root read overview/elements/therapist questions and NIMH copyright/third-party/no-endorsement rules. Educational overview, not comparative efficacy or validation of project practices. Images, provider directories and crisis numbers not imported.",
+      "purpose": "Independent scope/fit grounding for general CBT educational map.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
+    },
+    {
+      "namespace": "psychology",
+      "id": "S111",
+      "qualified_id": "psychology:S111",
+      "title": "NIMH: Obsessive-Compulsive Disorder, unwanted thoughts and repetitive behaviors",
+      "url": "https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over",
+      "checked_on": "2026-10-17",
+      "reading_status": "selected_symptom_diagnosis_psychotherapy_sections_read",
+      "limitations": "Root read selected signs, diagnosis and psychotherapy sections, identity and specific reuse notice. NIMH text is public domain unless otherwise indicated; images excluded, attribution/no endorsement retained. No ritual/neutralization protocol, drug dose, efficacy comparison or individual plan inferred.",
+      "purpose": "Independent bounded OCD/ERP explanation; full protocol and specialist review remain separate.",
+      "region": "Original psychological source applicability; inspect canonical record",
+      "canonical_path": "knowledge/psychology/sources.json"
     }
   ],
   "shared_urls": [
@@ -11002,6 +11132,13 @@
       "qualified_ids": [
         "medical:S25",
         "psychology:S03"
+      ]
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "qualified_ids": [
+        "medical:S412",
+        "psychology:S110"
       ]
     },
     {

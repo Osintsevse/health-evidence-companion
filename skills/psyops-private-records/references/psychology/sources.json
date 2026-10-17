@@ -4,7 +4,7 @@
   "review_type": "targeted_narrative_review",
   "language": "en",
   "not_a_systematic_review": true,
-  "source_count": 108,
+  "source_count": 111,
   "independent_study_count": null,
   "notes": [
     "Entries include guides, descriptions, codes, studies, and project pages; the number of records is not equal to the number of independent trials.",
@@ -52,8 +52,8 @@
       "access": "indexed_excerpt",
       "checked_at": "2026-09-26",
       "supported": "Offers several psychological options depending on severity, preference and history; includes relapse prevention.",
-      "limitations": "Direct access gave 403; Indexed recommendations have been verified. Do not claim that all applications have been studied.",
-      "use": "CBT, behavioral activation, MBCT, short-term psychodynamic therapy."
+      "limitations": "Direct access gave 403; Indexed recommendations have been verified. Do not claim that all applications have been studied. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "use": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work."
     },
     {
       "id": "S04",
@@ -88,8 +88,8 @@
       "access": "indexed_excerpt",
       "checked_at": "2026-09-26",
       "supported": "CBT and applied relaxation are included in stepped care for GAD; CBT for panic.",
-      "limitations": "A clinical protocol requires assessment and a trained implementer.",
-      "use": "Distinguish between explanation of technique and treatment."
+      "limitations": "A clinical protocol requires assessment and a trained implementer. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "use": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work."
     },
     {
       "id": "S07",
@@ -100,8 +100,8 @@
       "access": "indexed_excerpt",
       "checked_at": "2026-09-26",
       "supported": "Supports trauma-focused psychological techniques and EMDR under certain conditions.",
-      "limitations": "Ages, timing, and indications vary; not a stand-alone guide for a chatbot.",
-      "use": "Do not process trauma using household self-help."
+      "limitations": "Ages, timing, and indications vary; not a stand-alone guide for a chatbot. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "use": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work."
     },
     {
       "id": "S08",
@@ -112,8 +112,8 @@
       "access": "indexed_excerpt",
       "checked_at": "2026-09-26",
       "supported": "Supports the place of CBT with ERP in OCD guidelines.",
-      "limitations": "Surveillance is a revision document, not a new test; the complete treatment plan is not reproduced here.",
-      "use": "Distinguish work with rituals from endless reassurances."
+      "limitations": "Surveillance is a revision document, not a new test; the complete treatment plan is not reproduced here. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "use": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work."
     },
     {
       "id": "S09",
@@ -1329,8 +1329,8 @@
       "access": "indexed_official_recommendation_sections_1.5.1_and_1.5.2",
       "checked_at": "2026-10-08",
       "supported": "CBT including ERP; mental rituals and neutralisation; training and supervision requirements.",
-      "limitations": "Direct fetch 403; official indexed sections inspected. Not a personalised ERP prescription; guideline version must be rechecked for clinical use.",
-      "use": "Replace reliance on surveillance text alone for ERP teaching."
+      "limitations": "Direct fetch 403; official indexed sections inspected. Not a personalised ERP prescription; guideline version must be rechecked for clinical use. Current source-use policy: this identified NICE work remains bibliographic-only pending matching AI permission, not active clinical grounding. Historical reading/access retained; cycle011 repairs selected CBT27 claims, not the whole legacy corpus.",
+      "use": "Bibliographic/historical source only under current policy; do not bypass through the identified NCBI-hosted NICE work."
     },
     {
       "id": "S102",
@@ -1364,8 +1364,8 @@
       "published": "2019; screen-reader copy updated 2022-10-21",
       "access": "previous_selected_introductory_sections_and_selected_inference_pages_read",
       "checked_at": "2026-10-17",
-      "supported": "Selected sections distinguish observational studies from experiments, random sampling from random assignment, and discuss selection bias, non-response, confounding, and basic experimental design. Additional selected inference reading explains confidence-interval interpretation, p-values, decision errors, and statistical versus practical significance. Additional paired-data reading explains pair differences as analysis units, uncertainty and within-pair dependence versus between-pair independence; pre/post causality limits combine with prior design reading.",
-      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3–1.3.4, and 1.4–1.4.1 were read; screen-reader PDF pp. 20, 24–28, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207–208,211–213,216–218,223–224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed.",
+      "supported": "Selected sections distinguish observational studies from experiments, random sampling from random assignment, and discuss selection bias, non-response, confounding, and basic experimental design. Additional selected inference reading explains confidence-interval interpretation, p-values, decision errors, and statistical versus practical significance. Additional paired-data reading explains pair differences as analysis units, uncertainty and within-pair dependence versus between-pair independence; pre/post causality limits combine with prior design reading. Additional sampling-model reading distinguishes observation/statistic/parameter, sampling-distribution variability, standard error and conditional normal approximation.",
+      "limitations": "Sections 1.2.5, 1.3.1, 1.3.3–1.3.4, and 1.4–1.4.1 were read; screen-reader PDF pp. 20, 24–28, and 36 were checked (its pagination differs from the standard PDF). This introductory text is not a full causal-inference or clinical evidence appraisal. The official licensing page describes most Statistics textbook resources as CC BY-SA 3.0; retain attribution and ShareAlike for adaptations and check file-specific terms before redistribution. No source text, figures, tables, or exercises are reproduced here. On2026-10-17 also read selected screen-reader pp202,207–208,211–213,216–218,223–224; visual checks pp202,207,218,224. These are bounded sections/openings, not the full inference chapters or an equivalence/multiplicity review. Current official license page checked2026-10-17; original factual notes and original synthetic illustrations only, no copied textbook exercises or expressive adaptations. On2026-10-17 additionally read screen-reader pp295-297 and301 (4 selected substantive pages),7.2/7.2.1, selected7.2.2 opening/calculation and7.3/7.3.1 opening, not full sections/chapter. File licence/current terms reviewed; automated acquisition for model training is distinct from bounded reading of the licensed edition. No source dataset/example or inference result reproduced; original invented arithmetic only. Clustering, missing pairs and repeated-measures modelling remain unreviewed. Cycle011 researcher/root read seven additional screen-reader pages190–193,195–196,199, selected5.1.1–5.1.6; root visual192–193. Current licence/terms directly rechecked. Broad textbook independence statements not generalized; no copied source examples/code/exercises. Survey, clustering, resampling and missingness methods remain unappraised.",
       "use": "General study-design background; cite as psychology:S104 when referenced across namespaces."
     },
     {
@@ -1415,6 +1415,42 @@
       "supported": "Comparison-specific untrained-test transfer, with unresolved missing-endpoint and meaningful-outcome inference limits.",
       "limitations": "Selected main methods/outcomes/discussion, S1 additional-analysis prose and protocol1,3-4; root visual protocol1,3,4. Article-specific CC BY4 and current PLOS accompanying-material terms checked. No dataset reanalysis, source tasks/tables or scales redistributed; no complete harms/missingness/registration-history or systematic cognitive-training review. Source note and exact actors/scopes: docs/goal-study-cycle-009-review.md.",
       "use": "Preserve a positive measured comparison without inferring objective everyday function, durability or every-product efficacy."
+    },
+    {
+      "id": "S109",
+      "title": "Yang and Wang: self-talk and attentional control under noise distraction",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292321",
+      "type": "experimental_attention_task_study",
+      "published": "2023-09-29;PLOS ONE18(9):e0292321",
+      "access": "selected_narrative_methods_results_discussion_read",
+      "checked_at": "2026-10-17",
+      "supported": "Defined laboratory comparison and task-outcome/transfer limits; motivational group had more antisaccade errors.",
+      "limitations": "Researcher narrative Study1/2 methods/results/discussion; root selected Study1 and Study2 recruitment/design/procedure/analysis/results/discussion/limits. CC BY4 article-specific notice and PLOS terms checked. Abstract/discussion instructional-benefit discrepancy and inconsistent noise/error discussion retained; no established superiority to silent control.39 analyzed male athletes, post-recruitment exclusions and no competition/retention/harms appraisal. Numerical tables, datasets, peer review and replication not appraised.",
+      "use": "Bounded sport-psychology evidence appraisal, not training prescription or universal benefit/harm."
+    },
+    {
+      "id": "S110",
+      "title": "NIMH: Psychotherapies",
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "type": "official_educational_overview",
+      "published": "Last reviewed February2024",
+      "access": "selected_elements_goals_therapist_questions_read",
+      "checked_at": "2026-10-17",
+      "supported": "Different therapy purposes and elements, problem-specific fit, professional training and progress questions.",
+      "limitations": "Root read overview/elements/therapist questions and NIMH copyright/third-party/no-endorsement rules. Educational overview, not comparative efficacy or validation of project practices. Images, provider directories and crisis numbers not imported.",
+      "use": "Independent scope/fit grounding for general CBT educational map."
+    },
+    {
+      "id": "S111",
+      "title": "NIMH: Obsessive-Compulsive Disorder, unwanted thoughts and repetitive behaviors",
+      "url": "https://www.nimh.nih.gov/health/publications/obsessive-compulsive-disorder-when-unwanted-thoughts-or-repetitive-behaviors-take-over",
+      "type": "official_educational_publication",
+      "published": "Revised2023;NIH23-MH-4676",
+      "access": "selected_symptom_diagnosis_psychotherapy_sections_read",
+      "checked_at": "2026-10-17",
+      "supported": "Compulsions may include mental actions; CBT/ERP educational explanation, initial anxiety/dropout and professional assessment context.",
+      "limitations": "Root read selected signs, diagnosis and psychotherapy sections, identity and specific reuse notice. NIMH text is public domain unless otherwise indicated; images excluded, attribution/no endorsement retained. No ritual/neutralization protocol, drug dose, efficacy comparison or individual plan inferred.",
+      "use": "Independent bounded OCD/ERP explanation; full protocol and specialist review remain separate."
     }
   ]
 }

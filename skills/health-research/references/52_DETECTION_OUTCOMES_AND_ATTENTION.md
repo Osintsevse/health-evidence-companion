@@ -1,0 +1,27 @@
+# Detection, programme outcomes and attention tasks
+
+Selected educational study, 2026-10-17. Read the complete relevant heading with the source-use policy and evidence methods. These original notes neither select treatment nor establish clinical or sport-performance validation. Original source access, stored reading and runtime note access are different states.
+
+## CV-E1 — Detecting a pressure pattern is different from improving health outcomes
+
+The USPSTF 2021 recommendation concerns adults 18 or older without known hypertension. Office screening followed by out-of-office confirmation after a high office result can miss a masked pattern: pressure elevated outside but normal in the office. Prognostic association, diagnostic confirmation and demonstrated treatment benefit are different questions. The source identified treatment-outcome uncertainty for masked/white-coat groups in 2021; this is not a completed 2026 update or a reason to ignore a clinically concerning result. [S205]
+
+CHAP's five-year follow-up studied 143,976 community-dwelling adults 65 or older in 39 randomized Ontario communities, excluding long-term care. The programme combined assessment, education, community resources and clinician communication; about 19% of eligible intervention residents attended. Its primary cardiovascular-hospitalization rate ratio was 0.958 (95% CI 0.898–1.022), compatible with no effect. Secondary all-cause mortality HR 0.955 (0.914–0.999) favored intervention, but multiple outcomes and a possible chance explanation limit certainty. Do not erase the favorable estimate or turn it into proof of a particular component. [S738]
+
+Analysis accounted for community clustering; unadjusted survival curves do not replace it. Administrative follow-up lacked measured changes in pressure, behavior and resource use; some programme elements continued. Harms were not comprehensively ascertained. These findings do not validate a device, isolate screening or a drug effect, establish one-off delivery efficacy, or predict an individual's benefit. [S738]
+
+**Actual reading/remaining:** researcher selected official USPSTF practice/evidence/gap/copyright sections; root rechecked population, confirmation, discordant-pattern discussion and rights. Dahrouge et al., PLOS ONE 2018;13:e0201802, selected narrative methods/results/limitations read by researcher/root; tables/figures/supplements and original 2011 report were not independently appraised. Current local confirmation protocols, post-2021 subgroup trials and pharmacological comparisons remain separate tasks. Attribution: Dahrouge and colleagues, source article CC BY; USPSTF recommendations are independent of government. AHRQ/HHS neither endorse these original notes nor bear responsibility for their use.
+
+## SPORT-D1 — Does a mental cue help the outcome actually measured?
+
+A 2023 experiment allocated 42 male university basketball players to motivational self-talk, instructional self-talk or silent control; 39 were analyzed after task/recording-quality exclusions. Quiet/noise conditions were counterbalanced. Outcomes were immediate eye-movement task errors, latency and pupil diameter, without competition or retention outcomes. Motivational self-talk produced more antisaccade errors than the other groups; latency effects were nonsignificant. This narrow finding neither proves universal harm nor supports universal concentration benefit. Arm-specific exclusions, allocation details and numerical-table verification remain gaps. [psychology:S109]
+
+The abstract suggests instructional benefit, whereas the discussion describes its quiet-condition difference as nonsignificant. Another discussion sentence reverses the reported direction of the noise/error result. Use the inspected results with these inconsistencies explicit; do not claim established instructional superiority over silent control. Proposed motivation/anxiety explanations were not demonstrated by direct measurement. Task worsening is not an injury estimate or evidence about driving safety. [psychology:S109]
+
+**Practical interpretation:** identify the task, conditions and meaningful outcome before choosing or evaluating a mental practice. Reviewing a cue that is unhelpful is an original learning principle, not a validated training protocol. Do not reproduce this experiment or its noise exposure as self-help. More effort or a convincing mechanism does not establish improvement.
+
+**Actual reading/remaining:** Yang and Wang, PLOS ONE 18(9):e0292321, 2023-09-29. Researcher read narrative Study 1/2 methods/results/discussion; root rechecked abstract, Study 2 recruitment/design/procedure/analysis/results and relevant discussion/limitations, plus selected Study 1 methods/limitations. Article-specific CC BY4 and current PLOS terms checked 2026-10-17. Numerical table images, datasets, peer-review files and independent replications were not appraised; no source instrument, cue script, figure or table copied. Wider populations, actual sport outcomes, durability and systematic unwanted effects remain unresolved.
+
+## Review status
+
+STAT-F4 in evidence methods supplies additional sampling-model foundations. These two applied appraisals deepen existing hypertension/sport navigation; they do not constitute specialty completion. Substantive maintainer review remains pending. Selected observed-answer checks are recorded in the dated cycle review, separately from software checks and clinical validation.

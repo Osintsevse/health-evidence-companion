@@ -221,8 +221,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S29 - NICE - NG136 Hypertension in adults
 - URL: https://www.nice.org.uk/guidance/ng136/chapter/recommendations
 - Region: United Kingdom
-- Reading status: Indexed diagnostic confirmation recommendations read
-- Purpose: Home/ambulatory blood pressure monitoring
+- Reading status: Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-06
 
 ### S30 - USPSTF - Prediabetes and type 2 diabetes screening, 2021
@@ -725,8 +725,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S101 - NICE - NG145 Thyroid disease
 - URL: https://www.nice.org.uk/guidance/NG145/chapter/recommendations
 - Region: UK
-- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited.
-- Purpose: Primary/secondary thyroid testing and biotin interference.
+- Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-06
 
 ### S102 - MedlinePlus - Complete blood count
@@ -1173,9 +1173,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S165 - CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15
 - URL: https://www.cdc.gov/hearher/maternal-warning-signs/index.html
 - Region: US
-- Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance.
+- Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
 - Purpose: Pregnancy/postpartum urgent routing
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S166 - NICE NG126 - Diagnosis of viable intrauterine pregnancy and tubal ectopic pregnancy, updated 2026-06-17
 - URL: https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
@@ -1453,7 +1453,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S205 - USPSTF Hypertension in Adults Screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
 - Region: US
-- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice.
+- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
 - Purpose: Adults without known hypertension; routine screening not acute-care guidance.
 - Checked: 2026-10-17
 
@@ -2153,8 +2153,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S305 - NICE NG28 initial medicines
 - URL: https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines
 - Region: UK
-- Reading status: Search-rendered section 1.13 and rationale inspected
-- Purpose: Current regional cardiorenal-oriented type 2 treatment context
+- Reading status: Search-rendered section 1.13 and rationale inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S306 - GOLD 2026 Report
@@ -2748,8 +2748,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S390 - NICE NG133 recommendations
 - URL: https://www.nice.org.uk/guidance/ng133/chapter/recommendations
 - Region: England
-- Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403
-- Purpose: Pregnancy severe threshold and postpartum symptoms
+- Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S391 - NHS Low blood pressure
@@ -2804,8 +2804,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S398 - NICE NG115 recommendations
 - URL: https://www.nice.org.uk/guidance/ng115/chapter/Recommendations
 - Region: England
-- Reading status: Indexed spirometry and inhaled-treatment sections inspected
-- Purpose: Spirometry confirmation, treatment roles, pneumonia risk and function
+- Reading status: Indexed spirometry and inhaled-treatment sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S399 - AHA official explanation of 2022 AHA/ACC/HFSA HF guideline
@@ -2846,29 +2846,29 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S404 - NICE NG56 recommendations
 - URL: https://www.nice.org.uk/guidance/ng56/chapter/recommendations
 - Region: England
-- Reading status: Indexed sections 1.1-1.6 inspected; direct 403
-- Purpose: Goals, treatment burden, frailty, reconciliation and coordinated plan
+- Reading status: Indexed sections 1.1-1.6 inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S405 - NICE NG226 recommendations
 - URL: https://www.nice.org.uk/guidance/ng226/chapter/Recommendations
 - Region: England
-- Reading status: Indexed exercise/function and pharmacological sections inspected
-- Purpose: Exercise, topical/oral NSAID distinction and comorbidity risk
+- Reading status: Indexed exercise/function and pharmacological sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S406 - NICE NG100 recommendations
 - URL: https://www.nice.org.uk/guidance/ng100/chapter/Recommendations
 - Region: England
-- Reading status: Indexed referral and urgent septic-arthritis recommendation inspected
-- Purpose: Persistent synovitis referral and urgent hot-joint distinction
+- Reading status: Indexed referral and urgent septic-arthritis recommendation inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S407 - NICE NG246 Medicines and surgery
 - URL: https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery
 - Region: England
-- Reading status: Indexed medicine section and eligibility table inspected
-- Purpose: Structured care, product-specific medicine options and local eligibility
+- Reading status: Indexed medicine section and eligibility table inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
+- Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
 
 ### S408 - AHA official explanation: ACC/AHA updated dyslipidemia guideline
@@ -5179,4 +5179,53 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: EU regulatory assessment of submitted trial data; not an independent replication
 - Reading status: Selected131page report scopes and root visual35/42/45/46/77/102/108/129 in cycle010 review. Header17October2024/report identifier2025 retained. Full report, exact Month12 analysis and full2026 journal paper remain unappraised. EMA attribution/third-party exceptions retained.
 - Purpose: Analysis-set, extension-selection, raw-versus-modeled, event and BMD-follow-up limits. Conflicting summary continuous-outcome group cells excluded; no source table copied.
+- Checked: 2026-10-17
+
+### S738 - Dahrouge et al.: CHAP five-year population follow-up
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201802
+- Region: Ontario, Canada; community-dwelling age65+
+- Reading status: Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.
+- Purpose: Programme-component, endpoint, clustering and follow-up inference limits; no drug/device validation.
+- Checked: 2026-10-17
+
+### S739 - NHLBI: COPD Treatment
+- URL: https://www.nhlbi.nih.gov/health/copd/treatment
+- Region: US
+- Reading status: Version 2024-10-06. Researcher read Treatment opening; Medicines including inhaler use and flare-up plan; Pulmonary rehabilitation; Oxygen therapy. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Selected COPD medicine-role/inhaler-technique, rehabilitation and oxygen-safety education; no comparative efficacy or exact diagnostic rule.
+- Checked: 2026-10-17
+
+### S740 - NIDDK: Managing Diabetes
+- URL: https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes
+- Region: US
+- Reading status: Version 2023-10. Researcher read Opening; diabetes ABCs; medicine selection and cost; progress tracking; special situations; care-team and appointment questions; date/provenance. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Diabetes care goals, medicine/cost/context questions and illness/fasting preparation; no class-specific cardiorenal algorithm.
+- Checked: 2026-10-17
+
+### S741 - NIDDK: Hypothyroidism (Underactive Thyroid)
+- URL: https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism
+- Region: US
+- Reading status: Version 2021-03. Researcher read Pregnancy; symptoms; diagnosis; treatment; diet/iodine; date and provenance. No cited journal article read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Hypothyroid symptom/diagnostic distinctions, replacement monitoring and pregnancy contact; not full2026 thyroid guidance or antithyroid product warnings.
+- Checked: 2026-10-17
+
+### S742 - NHS website, independently written consumer overview rather than NICE recommendation text: Arthritis
+- URL: https://www.nhs.uk/conditions/arthritis/
+- Region: England
+- Reading status: Version 2026-01-19. Researcher read Symptoms; urgent and nonurgent assessment; tests; treatment; self-care; review date. Source table not copied; external Arthritis UK content not read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Joint assessment, function and urgent hot/swollen-joint routing; no OA/RA drug or referral algorithm.
+- Checked: 2026-10-17
+
+### S743 - NIDDK: Prescription Medications to Treat Overweight & Obesity
+- URL: https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity
+- Region: US
+- Reading status: Version 2024-06. Researcher read Individual assessment; mechanisms; lifestyle role; concerns; selection; duration; regain; insurance; general interaction/pregnancy cautions. Medication table incidentally returned but not adopted/copied; no numeric efficacy/eligibility/stopping algorithm adopted. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
+- Purpose: Weight-management medicine purpose, selection/maintenance/interaction/pregnancy questions; not a current approval/eligibility/stopping table.
+- Checked: 2026-10-17
+
+### S744 - NHLBI: COPD Diagnosis
+- URL: https://www.nhlbi.nih.gov/health/copd/diagnosis
+- Region: US
+- Reading status: Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.
+- Purpose: Diagnostic purpose and main spirometry test; not exact obstruction threshold, full protocol or treatment-selection algorithm.
 - Checked: 2026-10-17
