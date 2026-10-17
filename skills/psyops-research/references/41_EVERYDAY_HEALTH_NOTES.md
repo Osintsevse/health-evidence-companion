@@ -32,9 +32,7 @@ This note does not establish a preferred shampoo ingredient, frequency, contact 
 
 ## Tick bites: removal, follow-up and geography
 
-Inspect the body after exposure and remove attached ticks promptly. CDC describes grasping close to the skin with tweezers and pulling steadily without twisting/crushing; clean the site and hands. Do not use heat, petroleum jelly or nail polish to force detachment. Rash or fever in the following days/weeks merits assessment, reporting exposure date/location. CDC cautions against treatment decisions based on commercial tick tests: an infected tick does not prove human infection, and a negative result can falsely reassure. Its pathway is US-specific. [medical:S652]
-
-ECDC supports protective clothing, suitable repellents, inspection and prompt straight removal in European prevention advice. Product suitability/instructions matter. These pages do not establish worldwide antibiotic, testing or vaccination rules. Check country, timing and current local disease guidance; Serbian/Russian clinical protocols were not verified here. [medical:S653; medical:S652]
+Act promptly to arrange removal. The directly read Serbian Batut 2022 page advises clinician contact within 24 hours and against self-removal; ECDC and US CDC advise immediate removal, with CDC explicitly warning against waiting for a clinician. Keep this disagreement visible and obtain current local advice promptly; do not turn it into indefinite waiting or a universal technique. Do not use substances/heat to force detachment. Read T1/T2 in [the bite packet](47_TICKS_AND_SNAKEBITES.md) for dates, follow-up, test-inference limits and geographic prevention gaps. [medical:S708; medical:S653; medical:S652]
 
 ## Snake bites: immediate care and regional limits
 

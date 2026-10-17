@@ -4865,3 +4865,143 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.
 - Purpose: Specific US food-allergen extract warning, no universal assay false-negative rate.
 - Checked: 2026-10-17
+
+### S693 - NHS Dynamic Health: Shoulder pain
+- URL: https://www.dynamichealth.nhs.uk/help-and-advice/shoulder-pain/
+- Region: England local physiotherapy service; education
+- Reading status: Researcher relevant movement, strengthening, observation and review sections; root page identity checked. Images/videos excluded.
+- Purpose: Local service advice, not comparative-effect estimate or recovery guarantee.
+- Checked: 2026-10-17
+
+### S694 - Percussive massage gun use: bilateral retinal tears and dialysis case report
+- URL: https://pubmed.ncbi.nlm.nih.gov/42315245/
+- Region: One clinical case, published 2026-06-18
+- Reading status: Researcher complete PubMed abstract; root bibliographic identity checked. Full article not read.
+- Purpose: Serious exposure-specific signal, not incidence, causation proof or safe settings.
+- Checked: 2026-10-17
+
+### S695 - Johnston et al. 2021: Workplace ergonomics and neck-specific exercise trial
+- URL: https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-021-03945-y
+- Region: Australian adult office workers; selected workplace package
+- Reading status: Researcher full article; root selected methods, outcomes, missing data, harms and CC BY4.0 notice.
+- Purpose: Secondary neck-pain outcome; no daily-function benefit established; no home protocol.
+- Checked: 2026-10-17
+
+### S696 - CPSC 2021: Massimo EM003 percussion massage gun recall
+- URL: https://www.cpsc.gov/Recalls/2021/Massimo-Motor-Sports-Recalls-Percussion-Massage-Guns-Due-to-Fire-Hazard-Sold-Exclusively-at-Costco
+- Region: US product-specific recall
+- Reading status: Researcher notice; root exact model and incident text rechecked.
+- Purpose: Electrical fire hazard for affected model; not clinical tissue-injury rate.
+- Checked: 2026-10-17
+
+### S697 - CPSC 2024: HoMedics HHP-715 massager recall
+- URL: https://www.cpsc.gov/Recalls/2024/Homedics-Recalls-Massagers-Due-to-Fire-and-Burn-Hazards
+- Region: US/Canada affected product sales
+- Reading status: Researcher notice; root model/date codes and reported incidents rechecked.
+- Purpose: Affected YY20/21/22 units; charging hazard, not all-device clinical safety.
+- Checked: 2026-10-17
+
+### S698 - FDA: Theragun G4 PRO charger recall record
+- URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221189
+- Region: US device recall; checked record updated 2026-10-12
+- Reading status: Researcher full record; root exact all-lot charger scope and reason rechecked.
+- Purpose: Open recall for named charger; reports do not quantify massage-related injury.
+- Checked: 2026-10-17
+
+### S699 - NHS: Dry eyes
+- URL: https://www.nhs.uk/symptoms/dry-eyes/
+- Region: England public education and service routes
+- Reading status: Reviewed 2025-01-06. Researcher full relevant sections; root symptom, routine/urgent/immediate advice read.
+- Purpose: Symptom overlap and England referral scope; not eye-exercise efficacy.
+- Checked: 2026-10-17
+
+### S700 - NEI: Refractive Errors
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors
+- Region: US public education
+- Reading status: Updated 2025-12-19. Researcher types/symptoms/exam/correction; root relevant sections read.
+- Purpose: Refractive complaints and examination; no vision-training trial.
+- Checked: 2026-10-17
+
+### S701 - NEI: Dry Eye
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye
+- Region: US public education
+- Reading status: Updated 2025-08-06. Researcher and root relevant assessment, screen context and cause-dependent care sections.
+- Purpose: Screen breaks/comfort and assessment are distinct from evidence for vision training.
+- Checked: 2026-10-17
+
+### S702 - NEI: Testing for Dry Eye
+- URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye/testing-dry-eye
+- Region: US public education
+- Reading status: Updated 2025-08-06. Researcher short page/test descriptions; root source-claim fit review only.
+- Purpose: Educational test purposes, not complete diagnostic criteria.
+- Checked: 2026-10-17
+
+### S703 - AAD: How to treat dandruff
+- URL: https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff
+- Region: US specialist-society education
+- Reading status: Researcher relevant definition/ingredient/label/referral text read; update recorded 2023-12-11.
+- Purpose: Ingredient navigation, not independent comparative evidence; no source wording/images reproduced.
+- Checked: 2026-10-17
+
+### S704 - 2002 randomized shampoo comparison in severe dandruff/scalp seborrhoeic dermatitis
+- URL: https://pubmed.ncbi.nlm.nih.gov/12476017/
+- Region: Original study, PubMed abstract only
+- Reading status: Researcher abstract design/comparator/outcomes; full text, funding/conflicts and detailed harms unread. DOI10.1159/000066452.
+- Purpose: Independence unestablished; no numeric superiority recommendation adopted.
+- Checked: 2026-10-17
+
+### S705 - DailyMed: Nizoral ketoconazole 1% OTC shampoo, Kramer
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a17b7424-ee7e-4fcc-b6b3-0904932ae319
+- Region: Exact US product; label update 2026-09-10
+- Reading status: Researcher ingredient, dandruff indication, warnings and age directions read. Root reopen failed; no root full-label reading claimed.
+- Purpose: Named product12+ directions; under12 ask doctor; not a global product rule.
+- Checked: 2026-10-17
+
+### S706 - DailyMed: ANI ketoconazole 2% prescription shampoo
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6
+- Region: Exact US product, NDC70954-662-10
+- Reading status: Issued2024-07; record update2026-01-29. Researcher indication, pediatric and safety sections; root page identity review.
+- Purpose: Inspected indication is tinea versicolor, not dandruff; no concentration-wide inference.
+- Checked: 2026-10-17
+
+### S707 - DailyMed: Westminster selenium sulfide 2.25% shampoo
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fcab751-28f4-485a-aa37-169318a61110
+- Region: Exact US product, NDC69367-229-18
+- Reading status: Root/researcher indication, pediatric precautions and marketing status read. Label rev2022-09; version6 posted2025-04-25, page update2025-04-23.
+- Purpose: Rx-only; UNAPPROVED DRUG OTHER. Under12 not established; listing is not FDA approval.
+- Checked: 2026-10-17
+
+### S708 - Batut: Measures to prevent diseases transmitted by tick bites
+- URL: https://www.batut.org.rs/index.php?content=2352
+- Region: Serbia public advice, updated2022-04-11
+- Reading status: Researcher and root prevention/after-bite text read; no current national protocol established.
+- Purpose: Clinician-within24h/no-self-removal advice conflicts with ECDC/CDC; preserve date and conflict.
+- Checked: 2026-10-17
+
+### S709 - ECDC: Tick-borne encephalitis
+- URL: https://www.ecdc.europa.eu/en/tick-borne-encephalitis
+- Region: European public-health overview; no page date displayed
+- Reading status: Researcher disease/transmission/vaccination/prevention sections read2026-10-17; maps not reproduced.
+- Purpose: Pathogen/place-specific prevention; not Serbian resident vaccine schedule.
+- Checked: 2026-10-17
+
+### S710 - CDC Travelers Health: Serbia
+- URL: https://wwwnc.cdc.gov/travel/destinations/traveler/none/serbia
+- Region: US traveler guidance for Serbia
+- Reading status: Researcher TBE row and vaccine table inspected; page update recorded2025-04-23.
+- Purpose: Itinerary/exposure-qualified traveler advice, not Serbian resident policy.
+- Checked: 2026-10-17
+
+### S711 - ECDC: Factsheet about Borreliosis
+- URL: https://www.ecdc.europa.eu/en/borreliosis/facts/factsheet
+- Region: European public-health overview; no displayed page date
+- Reading status: Researcher disease/prevention text read; vaccine-absence wording not adopted as a current global claim.
+- Purpose: Disease distinction and exposure reduction only; current product status needs dated local checking.
+- Checked: 2026-10-17
+
+### S712 - IFRC: International First Aid, Resuscitation and Education Guidelines2025
+- URL: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
+- Region: First-aid educators; requires contextual adaptation
+- Reading status: Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.
+- Purpose: Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.
+- Checked: 2026-10-17

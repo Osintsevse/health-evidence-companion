@@ -27,7 +27,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 636 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 712 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -89,3 +89,6 @@ Detailed birth-through-59-month navigation: [well-child care and local plans](cl
 Read only the relevant complete section; publication and indexing are not whole-source study or clinical validation.
 
 The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and [psychological method/outcome cards](45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md) extend selected study; their reading scopes, gaps and current check states remain separate from completed specialty training.
+
+- [Movement, device safety, vision and scalp products](46_EXERCISE_VISION_AND_SCALP.md).
+- [Tick and snake exposures](47_TICKS_AND_SNAKEBITES.md), including the unresolved difference in official tick-removal advice.

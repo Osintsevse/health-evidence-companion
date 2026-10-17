@@ -118,7 +118,7 @@ GROUNDED_SKILLS = ['health-explain', 'health-research', 'health-contribute',
                    'health-prevention', 'health-mental-health',
                    'health-nutrition', 'health-care-navigation',
                    'psyops-dialogue', 'psyops-research', 'psyops-cbt-act-mct']
-GROUNDED_REFERENCES = ['knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
+GROUNDED_REFERENCES = ['knowledge/46_EXERCISE_VISION_AND_SCALP.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md', 'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md', 'knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md', 'knowledge/42_STUDIED_QUESTIONS.md', 'knowledge/40_BROAD_HEALTH_LEARNING_MAP.md', 'knowledge/41_EVERYDAY_HEALTH_NOTES.md',
     'knowledge/39_GROUNDED_REASONING.md', 'knowledge/EVIDENCE_METHODS.md',
     'knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md', 'knowledge/31_SOURCE_MAINTENANCE.md',
     'knowledge/15_ALLERGOLOGY.md', 'knowledge/clinical/ENDOMETRIOSIS.md',
@@ -129,7 +129,7 @@ for _skill in GROUNDED_SKILLS:
     MAP[_skill] = list(dict.fromkeys(MAP[_skill] + GROUNDED_REFERENCES))
 
 # Bounded bite notes are available to first aid without the full research pack.
-MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md']
+MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md']
 
 def expected(root=ROOT):
     return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()

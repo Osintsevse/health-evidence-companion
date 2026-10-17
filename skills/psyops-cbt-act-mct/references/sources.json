@@ -6226,5 +6226,185 @@
     "retrieval_status": "Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.",
     "use": "Specific US food-allergen extract warning, no universal assay false-negative rate.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S693",
+    "title": "NHS Dynamic Health: Shoulder pain",
+    "url": "https://www.dynamichealth.nhs.uk/help-and-advice/shoulder-pain/",
+    "region": "England local physiotherapy service; education",
+    "retrieval_status": "Researcher relevant movement, strengthening, observation and review sections; root page identity checked. Images/videos excluded.",
+    "use": "Local service advice, not comparative-effect estimate or recovery guarantee.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S694",
+    "title": "Percussive massage gun use: bilateral retinal tears and dialysis case report",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42315245/",
+    "region": "One clinical case, published 2026-06-18",
+    "retrieval_status": "Researcher complete PubMed abstract; root bibliographic identity checked. Full article not read.",
+    "use": "Serious exposure-specific signal, not incidence, causation proof or safe settings.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S695",
+    "title": "Johnston et al. 2021: Workplace ergonomics and neck-specific exercise trial",
+    "url": "https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-021-03945-y",
+    "region": "Australian adult office workers; selected workplace package",
+    "retrieval_status": "Researcher full article; root selected methods, outcomes, missing data, harms and CC BY4.0 notice.",
+    "use": "Secondary neck-pain outcome; no daily-function benefit established; no home protocol.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S696",
+    "title": "CPSC 2021: Massimo EM003 percussion massage gun recall",
+    "url": "https://www.cpsc.gov/Recalls/2021/Massimo-Motor-Sports-Recalls-Percussion-Massage-Guns-Due-to-Fire-Hazard-Sold-Exclusively-at-Costco",
+    "region": "US product-specific recall",
+    "retrieval_status": "Researcher notice; root exact model and incident text rechecked.",
+    "use": "Electrical fire hazard for affected model; not clinical tissue-injury rate.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S697",
+    "title": "CPSC 2024: HoMedics HHP-715 massager recall",
+    "url": "https://www.cpsc.gov/Recalls/2024/Homedics-Recalls-Massagers-Due-to-Fire-and-Burn-Hazards",
+    "region": "US/Canada affected product sales",
+    "retrieval_status": "Researcher notice; root model/date codes and reported incidents rechecked.",
+    "use": "Affected YY20/21/22 units; charging hazard, not all-device clinical safety.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S698",
+    "title": "FDA: Theragun G4 PRO charger recall record",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221189",
+    "region": "US device recall; checked record updated 2026-10-12",
+    "retrieval_status": "Researcher full record; root exact all-lot charger scope and reason rechecked.",
+    "use": "Open recall for named charger; reports do not quantify massage-related injury.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S699",
+    "title": "NHS: Dry eyes",
+    "url": "https://www.nhs.uk/symptoms/dry-eyes/",
+    "region": "England public education and service routes",
+    "retrieval_status": "Reviewed 2025-01-06. Researcher full relevant sections; root symptom, routine/urgent/immediate advice read.",
+    "use": "Symptom overlap and England referral scope; not eye-exercise efficacy.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S700",
+    "title": "NEI: Refractive Errors",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+    "region": "US public education",
+    "retrieval_status": "Updated 2025-12-19. Researcher types/symptoms/exam/correction; root relevant sections read.",
+    "use": "Refractive complaints and examination; no vision-training trial.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S701",
+    "title": "NEI: Dry Eye",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+    "region": "US public education",
+    "retrieval_status": "Updated 2025-08-06. Researcher and root relevant assessment, screen context and cause-dependent care sections.",
+    "use": "Screen breaks/comfort and assessment are distinct from evidence for vision training.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S702",
+    "title": "NEI: Testing for Dry Eye",
+    "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye/testing-dry-eye",
+    "region": "US public education",
+    "retrieval_status": "Updated 2025-08-06. Researcher short page/test descriptions; root source-claim fit review only.",
+    "use": "Educational test purposes, not complete diagnostic criteria.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S703",
+    "title": "AAD: How to treat dandruff",
+    "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff",
+    "region": "US specialist-society education",
+    "retrieval_status": "Researcher relevant definition/ingredient/label/referral text read; update recorded 2023-12-11.",
+    "use": "Ingredient navigation, not independent comparative evidence; no source wording/images reproduced.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S704",
+    "title": "2002 randomized shampoo comparison in severe dandruff/scalp seborrhoeic dermatitis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12476017/",
+    "region": "Original study, PubMed abstract only",
+    "retrieval_status": "Researcher abstract design/comparator/outcomes; full text, funding/conflicts and detailed harms unread. DOI10.1159/000066452.",
+    "use": "Independence unestablished; no numeric superiority recommendation adopted.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S705",
+    "title": "DailyMed: Nizoral ketoconazole 1% OTC shampoo, Kramer",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a17b7424-ee7e-4fcc-b6b3-0904932ae319",
+    "region": "Exact US product; label update 2026-09-10",
+    "retrieval_status": "Researcher ingredient, dandruff indication, warnings and age directions read. Root reopen failed; no root full-label reading claimed.",
+    "use": "Named product12+ directions; under12 ask doctor; not a global product rule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S706",
+    "title": "DailyMed: ANI ketoconazole 2% prescription shampoo",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6",
+    "region": "Exact US product, NDC70954-662-10",
+    "retrieval_status": "Issued2024-07; record update2026-01-29. Researcher indication, pediatric and safety sections; root page identity review.",
+    "use": "Inspected indication is tinea versicolor, not dandruff; no concentration-wide inference.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S707",
+    "title": "DailyMed: Westminster selenium sulfide 2.25% shampoo",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fcab751-28f4-485a-aa37-169318a61110",
+    "region": "Exact US product, NDC69367-229-18",
+    "retrieval_status": "Root/researcher indication, pediatric precautions and marketing status read. Label rev2022-09; version6 posted2025-04-25, page update2025-04-23.",
+    "use": "Rx-only; UNAPPROVED DRUG OTHER. Under12 not established; listing is not FDA approval.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S708",
+    "title": "Batut: Measures to prevent diseases transmitted by tick bites",
+    "url": "https://www.batut.org.rs/index.php?content=2352",
+    "region": "Serbia public advice, updated2022-04-11",
+    "retrieval_status": "Researcher and root prevention/after-bite text read; no current national protocol established.",
+    "use": "Clinician-within24h/no-self-removal advice conflicts with ECDC/CDC; preserve date and conflict.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S709",
+    "title": "ECDC: Tick-borne encephalitis",
+    "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+    "region": "European public-health overview; no page date displayed",
+    "retrieval_status": "Researcher disease/transmission/vaccination/prevention sections read2026-10-17; maps not reproduced.",
+    "use": "Pathogen/place-specific prevention; not Serbian resident vaccine schedule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S710",
+    "title": "CDC Travelers Health: Serbia",
+    "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/serbia",
+    "region": "US traveler guidance for Serbia",
+    "retrieval_status": "Researcher TBE row and vaccine table inspected; page update recorded2025-04-23.",
+    "use": "Itinerary/exposure-qualified traveler advice, not Serbian resident policy.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S711",
+    "title": "ECDC: Factsheet about Borreliosis",
+    "url": "https://www.ecdc.europa.eu/en/borreliosis/facts/factsheet",
+    "region": "European public-health overview; no displayed page date",
+    "retrieval_status": "Researcher disease/prevention text read; vaccine-absence wording not adopted as a current global claim.",
+    "use": "Disease distinction and exposure reduction only; current product status needs dated local checking.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S712",
+    "title": "IFRC: International First Aid, Resuscitation and Education Guidelines2025",
+    "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+    "region": "First-aid educators; requires contextual adaptation",
+    "retrieval_status": "Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.",
+    "use": "Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.",
+    "checked_on": "2026-10-17"
   }
 ]

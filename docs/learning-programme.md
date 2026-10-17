@@ -39,7 +39,7 @@ The first coverage audit uses two defined questions for each of the seventeen fa
 | Newborn/child | P1 age-specific illness/assessment; P2 feeding, development and preventive follow-up |
 | Psychology | PS1 method selection and applicability; PS2 outcomes, harms and measurement for CBT/ACT/MCT |
 
-Existing modules remain available; every listed question still needs its own current depth audit. Do not reset a useful older note to 'absent', or mark it checked merely because its topic is present. Thirty question cards now have bounded selected-source/inference and fictional-response checks: thirteen in knowledge/42_STUDIED_QUESTIONS.md, nine in knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md, six in knowledge/44_LABS_BP_ALLERGY_CHILDREN.md and two in knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md. Eight initial questions remain pending: M2,R2,V2,H2,T1,T2,E1,E2. Substantive maintainer review remains pending. Counts refer to initial-question coverage, not medical completeness.
+Existing modules remain available; every listed question still needs its own current depth audit. Do not reset a useful older note to 'absent', or mark it checked merely because its topic is present. All 38 initial question entries now have bounded selected-source/inference and fictional-response checks: thirteen in packet 42, nine in 43, six in 44, two in 45 and eight in 46–47. Explicit current evidence, access and local-applicability gaps remain; a checked narrower question is not a complete clinical pathway. Cycle 006 records ten initial responses plus one focused R2 clarification/rerun. Substantive maintainer review remains pending. Counts refer to initial-question coverage, not medical completeness.
 
 ## A useful question card
 
@@ -61,4 +61,4 @@ Before describing the initial programme as sufficiently covered, verify all 38 q
 
 Prepare a reviewer-readable account of what is supported, still incomplete, inaccessible or restricted. Technical checks and observed responses must be current for the submitted candidate. Substantive maintainer review, merge, release and installed updates are separate actions; this programme cannot confer its own clinical approval.
 
-The [work-in-progress completion audit](goal-completion-audit.md) separates the initial questions from the broader foundational, organ-system and life-stage curriculum. Reaching38 alone does not prove the full objective.
+The [work-in-progress completion audit](goal-completion-audit.md) separates the initial questions from the broader foundational, organ-system and life-stage curriculum. The [bounded broad depth audit](broad-curriculum-depth-audit.md) reconciles existing modules and reading records; further source/claim work remains. Reaching 38 alone does not prove the full objective.
