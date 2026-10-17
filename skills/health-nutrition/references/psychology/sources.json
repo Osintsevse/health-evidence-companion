@@ -4,7 +4,7 @@
   "review_type": "targeted_narrative_review",
   "language": "en",
   "not_a_systematic_review": true,
-  "source_count": 107,
+  "source_count": 108,
   "independent_study_count": null,
   "notes": [
     "Entries include guides, descriptions, codes, studies, and project pages; the number of records is not equal to the number of independent trials.",
@@ -15,7 +15,8 @@
     "Version 2.2: 18 sports sources S80–S97. The previous 79 sources did not undergo a full literature review; original access dates have been preserved. Checked internal links, boundaries and selectively new AI data.",
     "2026-10-08: full package content audit; targeted primary-source rechecks and five additions. Earlier source dates preserved; not 102 independent trials or 102 new full-text reviews.",
     "Public package translated into English in version 0.1.1. Translation does not refresh source check dates or establish efficacy in any language. Runtime answers follow the user’s language.",
-    "2026-10-17: Two textbooks were added for bounded background reading; this does not indicate whole-book review or clinical evidence updates."
+    "2026-10-17: Two textbooks were added for bounded background reading; this does not indicate whole-book review or clinical evidence updates.",
+    "2026-10-17 cycle009: one selected primary cognitive-training trial and linked supplementary/protocol scope added; counts remain records, not independent replications or full-field appraisal."
   ],
   "sources": [
     {
@@ -1400,8 +1401,20 @@
       "access": "full_article_read_by_researcher_selected_limits_and_license_rechecked",
       "checked_at": "2026-10-17",
       "supported": "Selected GAD sample/protocol comparison favourable to MCT on worry/recovery; not universal superiority.",
-      "limitations": "Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, missing one-year assessment window; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied.",
+      "limitations": "Small three-arm sample (CBT28,MCT32,waitlist21), predominantly self-report outcomes, substantially mistimed CBT one-year assessments; that collection/publication was abandoned in favour of two-year follow-up; training/protocol and setting matter. CC BY4 article-specific licence checked; no scale items/scoring copied. Cycle009 current selected publisher/licence recheck confirmed the existing URL and DOI10.1192/bjo.2018.54; this does not rewrite earlier reading actors or imply a complete correction audit.",
       "use": "Condition/protocol-specific active-comparator interpretation, not a complete comparative evidence map."
+    },
+    {
+      "id": "S108",
+      "title": "Hardy et al.: Enhancing Cognitive Abilities with Comprehensive Training",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134467",
+      "type": "randomized_active_controlled_trial_selected_supplement_protocol",
+      "published": "2015-09-02;PLOS ONE10(9):e0134467;doi10.1371/journal.pone.0134467",
+      "access": "selected_fulltext_methods_results_discussion_supplement_and_protocol_read",
+      "checked_at": "2026-10-17",
+      "supported": "Comparison-specific untrained-test transfer, with unresolved missing-endpoint and meaningful-outcome inference limits.",
+      "limitations": "Selected main methods/outcomes/discussion, S1 additional-analysis prose and protocol1,3-4; root visual protocol1,3,4. Article-specific CC BY4 and current PLOS accompanying-material terms checked. No dataset reanalysis, source tasks/tables or scales redistributed; no complete harms/missingness/registration-history or systematic cognitive-training review. Source note and exact actors/scopes: docs/goal-study-cycle-009-review.md.",
+      "use": "Preserve a positive measured comparison without inferring objective everyday function, durability or every-product efficacy."
     }
   ]
 }

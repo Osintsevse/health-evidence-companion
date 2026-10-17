@@ -711,9 +711,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S99 - NIDDK - The A1C test and diabetes
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test
 - Region: US
-- Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read.
+- Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read. Selected definitions, timing/recent-month influence and red-cell/assay sections refreshed2026-10-17; displayed reviewApril2018 retained. No current diagnostic schedule or blanket point-of-care restriction adopted.
 - Purpose: HbA1c/glucose discordance and diagnostic confirmation.
-- Checked: 2026-10-06
+- Checked: 2026-10-17
 
 ### S100 - WHO - Ferritin guideline, 2020
 - URL: https://iris.who.int/bitstream/handle/10665/331505/9789240000124-eng.pdf
@@ -1131,9 +1131,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S159 - MIT 20.201: Pharmacokinetics (October 9, 2013)
 - URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf
 - Region: US
-- Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded
+- Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded Additional selected printed/viewer23-31 text and visual25,28,30,31 checked2026-10-17; model/dimension review, not full36page lecture. Current OCW CC BY-NC-SA4.0/third-party terms checked; no source assets or historical drug examples reproduced.
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
-- Checked: 2026-10-08
+- Checked: 2026-10-17
 
 ### S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity
 - URL: https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/
@@ -2531,9 +2531,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S359 - Pulse Oximeters
 - URL: https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
 - Region: US
-- Reading status: Device limitations and FDA efforts sections inspected
+- Reading status: Device limitations and FDA efforts sections inspected Selected consumer description/limitations refreshed2026-10-17; linked January2025 draft is separately S730, not independent performance validation.
 - Purpose: skin pigmentation limits and symptom context
-- Checked: 2026-10-09
+- Checked: 2026-10-17
 
 ### S360 - Anatomy and Physiology 2e introduction: current rights restriction
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
@@ -5088,4 +5088,46 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: Institutional summary of engineered protocell research
 - Reading status: The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.
 - Purpose: Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.
+- Checked: 2026-10-17
+
+### S725 - MedlinePlus NLM: Arterial Blood Gas (ABG) Test (updated2025-06-26)
+- URL: https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test/
+- Region: US institutional Medical Test education
+- Reading status: Selected measurement definitions, bicarbonate, results and pulse-ox comparison directly read; NLM Medical Test rights category checked. Linked studies and procedural/range guidance not appraised.
+- Purpose: Blood-gas quantity distinctions; no precise functional-saturation denominator, diagnosis or normal-range/action rule.
+- Checked: 2026-10-17
+
+### S726 - NHLBI: Anemia — What Is Anemia? (updated2022-03-24)
+- URL: https://www.nhlbi.nih.gov/health/anemia
+- Region: US institutional patient education
+- Reading status: Overview main text read by researcher; first carrier/oxygen paragraph used. Linked diagnostic/treatment pages, images and guide not read.
+- Purpose: Qualitative carrier-quantity context only; no oxygen-content/delivery equation or management.
+- Checked: 2026-10-17
+
+### S727 - NIDDK: Insulin Resistance and Prediabetes (reviewedMarch2025)
+- URL: https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance
+- Region: US institutional education
+- Reading status: Selected signal/responsiveness, causes and blood-test comparison sections directly read; NIDDK rights policy checked; no treatment/outcome appraisal.
+- Purpose: Muscle/fat/liver insulin responsiveness, not complete endocrine pathways or therapy.
+- Checked: 2026-10-17
+
+### S728 - NCI SEER Training: Pancreas — Islets of Langerhans
+- URL: https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html
+- Region: US cancer-registration training; not clinical guidance
+- Reading status: Main endocrine/exocrine and alpha/beta-cell teaching text directly read; displayed citation/access date not treated as publication update. No graphics reused.
+- Purpose: Selected pancreatic signaling concepts; no complete liver/receptor pathway or diagnosis.
+- Checked: 2026-10-17
+
+### S729 - NIDDK: Story of discovery — one pancreatic hormone (research update2021-01-27)
+- URL: https://www.niddk.nih.gov/news/archive/2021/story-discovery-medications-diabetes-obesity-emerged-research-pancreatic-hormone
+- Region: US institutional research-history explanation
+- Reading status: Root directly read selected Glucagon/Insulin paragraphs119-122 and identity/date; no source image, linked trial or current treatment appraisal.
+- Purpose: Brief original pancreas-to-liver release concept; not drug efficacy, approval/availability or complete hepatic biochemistry.
+- Checked: 2026-10-17
+
+### S730 - FDA: Pulse Oximeters for Medical Purposes — January2025 draft
+- URL: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-medical-purposes-non-clinical-and-clinical-performance-testing-labeling-and
+- Region: US draft device-guidance terminology, not an implemented clinical protocol
+- Reading status: Current landing page marked draft/not for implementation directly checked. Researcher selected linked PDF cover and printed1,2,8,12,31; no complete47page/ISO/table appraisal.
+- Purpose: SpO2/SaO2 terminology only. Exact functional denominator not found; no device algorithm or treatment recommendation adopted. Landing/PDF are one work, not independent studies.
 - Checked: 2026-10-17

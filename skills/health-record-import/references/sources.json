@@ -886,9 +886,9 @@
     "title": "NIDDK - The A1C test and diabetes",
     "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test",
     "region": "US",
-    "retrieval_status": "Selected explanation, confirmation and red-cell/haemoglobin interference sections read.",
+    "retrieval_status": "Selected explanation, confirmation and red-cell/haemoglobin interference sections read. Selected definitions, timing/recent-month influence and red-cell/assay sections refreshed2026-10-17; displayed reviewApril2018 retained. No current diagnostic schedule or blanket point-of-care restriction adopted.",
     "use": "HbA1c/glucose discordance and diagnostic confirmation.",
-    "checked_on": "2026-10-06"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S100",
@@ -1426,9 +1426,9 @@
     "title": "MIT 20.201: Pharmacokinetics (October 9, 2013)",
     "url": "https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf",
     "region": "US",
-    "retrieval_status": "Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded",
+    "retrieval_status": "Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded Additional selected printed/viewer23-31 text and visual25,28,30,31 checked2026-10-17; model/dimension review, not full36page lecture. Current OCW CC BY-NC-SA4.0/third-party terms checked; no source assets or historical drug examples reproduced.",
     "use": "Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution",
-    "checked_on": "2026-10-08"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S160",
@@ -3226,9 +3226,9 @@
     "title": "Pulse Oximeters",
     "url": "https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters",
     "region": "US",
-    "retrieval_status": "Device limitations and FDA efforts sections inspected",
+    "retrieval_status": "Device limitations and FDA efforts sections inspected Selected consumer description/limitations refreshed2026-10-17; linked January2025 draft is separately S730, not independent performance validation.",
     "use": "skin pigmentation limits and symptom context",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-17"
   },
   {
     "id": "S360",
@@ -6513,6 +6513,60 @@
     "region": "Institutional summary of engineered protocell research",
     "retrieval_status": "The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.",
     "use": "Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S725",
+    "title": "MedlinePlus NLM: Arterial Blood Gas (ABG) Test (updated2025-06-26)",
+    "url": "https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test/",
+    "region": "US institutional Medical Test education",
+    "retrieval_status": "Selected measurement definitions, bicarbonate, results and pulse-ox comparison directly read; NLM Medical Test rights category checked. Linked studies and procedural/range guidance not appraised.",
+    "use": "Blood-gas quantity distinctions; no precise functional-saturation denominator, diagnosis or normal-range/action rule.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S726",
+    "title": "NHLBI: Anemia — What Is Anemia? (updated2022-03-24)",
+    "url": "https://www.nhlbi.nih.gov/health/anemia",
+    "region": "US institutional patient education",
+    "retrieval_status": "Overview main text read by researcher; first carrier/oxygen paragraph used. Linked diagnostic/treatment pages, images and guide not read.",
+    "use": "Qualitative carrier-quantity context only; no oxygen-content/delivery equation or management.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S727",
+    "title": "NIDDK: Insulin Resistance and Prediabetes (reviewedMarch2025)",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance",
+    "region": "US institutional education",
+    "retrieval_status": "Selected signal/responsiveness, causes and blood-test comparison sections directly read; NIDDK rights policy checked; no treatment/outcome appraisal.",
+    "use": "Muscle/fat/liver insulin responsiveness, not complete endocrine pathways or therapy.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S728",
+    "title": "NCI SEER Training: Pancreas — Islets of Langerhans",
+    "url": "https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html",
+    "region": "US cancer-registration training; not clinical guidance",
+    "retrieval_status": "Main endocrine/exocrine and alpha/beta-cell teaching text directly read; displayed citation/access date not treated as publication update. No graphics reused.",
+    "use": "Selected pancreatic signaling concepts; no complete liver/receptor pathway or diagnosis.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S729",
+    "title": "NIDDK: Story of discovery — one pancreatic hormone (research update2021-01-27)",
+    "url": "https://www.niddk.nih.gov/news/archive/2021/story-discovery-medications-diabetes-obesity-emerged-research-pancreatic-hormone",
+    "region": "US institutional research-history explanation",
+    "retrieval_status": "Root directly read selected Glucagon/Insulin paragraphs119-122 and identity/date; no source image, linked trial or current treatment appraisal.",
+    "use": "Brief original pancreas-to-liver release concept; not drug efficacy, approval/availability or complete hepatic biochemistry.",
+    "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S730",
+    "title": "FDA: Pulse Oximeters for Medical Purposes — January2025 draft",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-medical-purposes-non-clinical-and-clinical-performance-testing-labeling-and",
+    "region": "US draft device-guidance terminology, not an implemented clinical protocol",
+    "retrieval_status": "Current landing page marked draft/not for implementation directly checked. Researcher selected linked PDF cover and printed1,2,8,12,31; no complete47page/ISO/table appraisal.",
+    "use": "SpO2/SaO2 terminology only. Exact functional denominator not found; no device algorithm or treatment recommendation adopted. Landing/PDF are one work, not independent studies.",
     "checked_on": "2026-10-17"
   }
 ]

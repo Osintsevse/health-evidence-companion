@@ -70,3 +70,7 @@ Packet 48 adds five bounded units: PATH-F1 adaptation/injury, PATH-F2 morphology
 ## Selected cycle008 continuation
 
 Packet49 adds PATH-F3 inflammation/infection, PATH-F4 regeneration/repair, BIO-F1 ATP energy conversion and NEU-F1 headache assessment context. STAT-F1 in evidence methods adds paired-data reasoning from four additional OpenIntro pages. Human organ-specific pathology, rigorous thermodynamic coupling, headache criteria/imaging decisions and repeated-measures methods remain incomplete. Actual source scopes, source simplifications and observed-check status are preserved in [cycle008 review](goal-study-cycle-008-review.md). This is further selected study beyond the initial38 and cycle007 units, not completion of the broad goal.
+
+## Selected cycle009 continuation
+
+Packet50 adds four bounded units (PULM-F2, ENDO-F1, PHARM-F1, PSY-D1) beyond the earlier ten. A prior respiratory draft largely repeated existing ANATOMY and was not counted as new depth. New exact source scopes and critical model/trial appraisal are in [cycle009 review](goal-study-cycle-009-review.md). These additions do not complete physiology, endocrinology, pharmacology, cognitive-training evidence or the broad goal. Remaining specialty/current-local questions stay in the curriculum.
