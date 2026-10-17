@@ -22,3 +22,7 @@ Clarify who the client is and what may be disclosed to a coach/team. Payment doe
 For medical questions, cross-domain requests or selected private summaries, read [unified routing and record boundaries](references/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md). The combined installation does not authorize access to either private archive.
 
 For a consequential self-talk or attention claim, read the complete SPORT-D1 heading in [the selected primary-study appraisal](references/52_DETECTION_OUTCOMES_AND_ATTENTION.md), [source-grounded reasoning](references/39_GROUNDED_REASONING.md) and the [source-use policy](references/source-use-policy.json). Keep the measured task, comparator, exclusions and transfer limits separate. Reading these notes is not reopening their original article.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

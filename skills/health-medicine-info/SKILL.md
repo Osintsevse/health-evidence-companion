@@ -42,3 +42,7 @@ Read [condition support](references/CHRONIC.md), [neuropsychiatry](references/NE
 For consequential explanations and contributions, read [source-grounded reasoning](references/39_GROUNDED_REASONING.md). Separate observations and measurements from interpretations; match each claim to its actual source, reading scope and population. Mechanisms do not establish clinical benefit, and historical access does not override the current source-use policy. Preserve plausible alternatives and state what could reduce uncertainty.
 
 For chronic-pain therapy evidence, read the complete PAIN-E1 heading in [outcomes and diagnostic reasoning](references/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md). Distinguish acceptance, pain, interference, function and quality of life, and preserve the actual comparator and uncertainty.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

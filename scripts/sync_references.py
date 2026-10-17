@@ -1,5 +1,6 @@
 """Copy canonical general material into each installable skill; never ingest user files."""
 from pathlib import Path
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ['knowledge/00_KNOWLEDGE_POLICY.md', 'knowledge/01_SOURCE_MAP.md', 'knowledge/sources.json',
@@ -132,9 +133,32 @@ for _skill in GROUNDED_SKILLS:
 # Bounded bite notes are available to first aid without the full research pack.
 MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md']
 
+
+# Search only this project's packaged notes. Every installed pack retains its
+# canonical locators without requiring access to a development checkout.
+SEARCH_SKILLS = sorted(skill for skill in MAP if skill != 'health-feedback')
+for _skill in SEARCH_SKILLS:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + [
+        'docs/knowledge-search.md', 'knowledge/search-aliases.json',
+        'knowledge/source-catalog.json', 'knowledge/clinical/source-use-policy.json']))
+
+def search_map(skill):
+    entries = [{'canonical_path': src, 'local_path': destination(src)}
+        for src in sorted(set(MAP[skill]))
+        if src.startswith('knowledge/') and src.endswith('.md')
+        and '/templates/' not in src
+        and Path(src).name not in {'01_SOURCE_MAP.md', 'SOURCES.md', 'CHANGELOG.md', 'QUALITY_REVIEW.md'}]
+    return {'schema': 'knowledge-search-map-v1',
+        'scope': 'packaged_project_notes_only', 'entries': entries}
+
+
 def expected(root=ROOT):
-    return {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
-            for skill, sources in MAP.items() for src in sources}
+    result = {Path('skills') / skill / 'references' / destination(src): (root / src).read_bytes()
+              for skill, sources in MAP.items() for src in sources}
+    for skill in SEARCH_SKILLS:
+        result[Path('skills') / skill / 'references/knowledge-search-map.json'] = (
+            json.dumps(search_map(skill), ensure_ascii=True, indent=2) + '\n').encode('utf-8')
+    return result
 
 
 def sync(root=ROOT):
@@ -148,6 +172,10 @@ def sync(root=ROOT):
         path = root / rel
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
+    for skill in SEARCH_SKILLS:
+        search_helper = root/'skills'/skill/'scripts/knowledge_search.py'
+        search_helper.parent.mkdir(parents=True, exist_ok=True)
+        search_helper.write_bytes((root/'scripts/knowledge_search.py').read_bytes())
     helper=root/'skills/health-contribute/scripts/source_review.py'
     helper.parent.mkdir(parents=True,exist_ok=True)
     helper.write_bytes((root/'scripts/source_review.py').read_bytes())

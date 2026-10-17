@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.1 - 2026-10-17
+
+- Add offline bilingual search and bounded section reading for packaged project notes, with source reading and restriction metadata.
+- Bundle the helper and canonical-path maps in existing health and psychology skills; retain reference-index navigation on hosts without Python.
+- Add reproducible retrieval evaluation and failure-mode checks. Search relevance is not clinical validation.
+
 ## 0.9.0 - 2026-10-17
 
 - Define a question-level breadth/depth programme; add selected statistical inference, adult GI diagnostic and sleep/function cards, preserving guideline strength/certainty/update distinctions and actual reading scope.

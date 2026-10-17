@@ -1,0 +1,242 @@
+{
+  "schema": "knowledge-search-map-v1",
+  "scope": "packaged_project_notes_only",
+  "entries": [
+    {
+      "canonical_path": "knowledge/15_ALLERGOLOGY.md",
+      "local_path": "15_ALLERGOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md",
+      "local_path": "27_FOUNDATIONS_AND_LEARNING_INDEX.md"
+    },
+    {
+      "canonical_path": "knowledge/31_SOURCE_MAINTENANCE.md",
+      "local_path": "31_SOURCE_MAINTENANCE.md"
+    },
+    {
+      "canonical_path": "knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md",
+      "local_path": "35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/39_GROUNDED_REASONING.md",
+      "local_path": "39_GROUNDED_REASONING.md"
+    },
+    {
+      "canonical_path": "knowledge/40_BROAD_HEALTH_LEARNING_MAP.md",
+      "local_path": "40_BROAD_HEALTH_LEARNING_MAP.md"
+    },
+    {
+      "canonical_path": "knowledge/41_EVERYDAY_HEALTH_NOTES.md",
+      "local_path": "41_EVERYDAY_HEALTH_NOTES.md"
+    },
+    {
+      "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+      "local_path": "42_STUDIED_QUESTIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md",
+      "local_path": "43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md"
+    },
+    {
+      "canonical_path": "knowledge/44_LABS_BP_ALLERGY_CHILDREN.md",
+      "local_path": "44_LABS_BP_ALLERGY_CHILDREN.md"
+    },
+    {
+      "canonical_path": "knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md",
+      "local_path": "45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md"
+    },
+    {
+      "canonical_path": "knowledge/46_EXERCISE_VISION_AND_SCALP.md",
+      "local_path": "46_EXERCISE_VISION_AND_SCALP.md"
+    },
+    {
+      "canonical_path": "knowledge/47_TICKS_AND_SNAKEBITES.md",
+      "local_path": "47_TICKS_AND_SNAKEBITES.md"
+    },
+    {
+      "canonical_path": "knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md",
+      "local_path": "48_CELLULAR_AND_RENAL_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md",
+      "local_path": "49_INFLAMMATION_ENERGY_AND_HEADACHE.md"
+    },
+    {
+      "canonical_path": "knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md",
+      "local_path": "50_MEASUREMENTS_MODELS_AND_TRANSFER.md"
+    },
+    {
+      "canonical_path": "knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md",
+      "local_path": "51_METHODS_POPULATIONS_AND_FOLLOWUP.md"
+    },
+    {
+      "canonical_path": "knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md",
+      "local_path": "52_DETECTION_OUTCOMES_AND_ATTENTION.md"
+    },
+    {
+      "canonical_path": "knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md",
+      "local_path": "53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md"
+    },
+    {
+      "canonical_path": "knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md",
+      "local_path": "54_MODELS_STRATEGIES_AND_IRON_MARKERS.md"
+    },
+    {
+      "canonical_path": "knowledge/55_VOLUME_INFECTION_AND_PREGNANCY.md",
+      "local_path": "55_VOLUME_INFECTION_AND_PREGNANCY.md"
+    },
+    {
+      "canonical_path": "knowledge/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md",
+      "local_path": "56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md"
+    },
+    {
+      "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+      "local_path": "evidence-methods.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/ENDOMETRIOSIS.md",
+      "local_path": "ENDOMETRIOSIS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/00_COMMON_INDEX.md",
+      "local_path": "psychology/00_COMMON_INDEX.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/01_EVIDENCE_MAP.md",
+      "local_path": "psychology/01_EVIDENCE_MAP.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/02_ETHICS_AND_DIALOGUE.md",
+      "local_path": "psychology/02_ETHICS_AND_DIALOGUE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/03_CBT_ACT_WORKFLOW.md",
+      "local_path": "psychology/03_CBT_ACT_WORKFLOW.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/04_RELATIONSHIPS.md",
+      "local_path": "psychology/04_RELATIONSHIPS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/05_SEXUALITY.md",
+      "local_path": "psychology/05_SEXUALITY.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/06_MEANING_MORTALITY_TIME.md",
+      "local_path": "psychology/06_MEANING_MORTALITY_TIME.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/07_TOOLBOX.md",
+      "local_path": "psychology/07_TOOLBOX.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/08_RISK_AND_REFERRAL.md",
+      "local_path": "psychology/08_RISK_AND_REFERRAL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",
+      "local_path": "psychology/09_AI_EVIDENCE_AND_TOOLKITS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/10_RESEARCH_AND_MAINTENANCE.md",
+      "local_path": "psychology/10_RESEARCH_AND_MAINTENANCE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/12_SESSION_TEMPLATES.md",
+      "local_path": "psychology/12_SESSION_TEMPLATES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/13_START_INSTRUCTIONS.md",
+      "local_path": "psychology/13_START_INSTRUCTIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/14_FOUNDATIONS.md",
+      "local_path": "psychology/14_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/15_MODERN_APPROACHES.md",
+      "local_path": "psychology/15_MODERN_APPROACHES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/16_AUTO_ROUTING.md",
+      "local_path": "psychology/16_AUTO_ROUTING.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/17_COUPLE_FAMILY_APPROACHES.md",
+      "local_path": "psychology/17_COUPLE_FAMILY_APPROACHES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/18_JOINT_CONVERSATION_PROTOCOL.md",
+      "local_path": "psychology/18_JOINT_CONVERSATION_PROTOCOL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/19_PREVENTIVE_CHECKIN.md",
+      "local_path": "psychology/19_PREVENTIVE_CHECKIN.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/20_DATA_BOUNDARIES.md",
+      "local_path": "psychology/20_DATA_BOUNDARIES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/21_SHARING_GUIDE.md",
+      "local_path": "psychology/21_SHARING_GUIDE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/22_GLOBAL_AND_CULTURAL_CONTEXT.md",
+      "local_path": "psychology/22_GLOBAL_AND_CULTURAL_CONTEXT.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/23_SPORT_PSYCHOLOGY.md",
+      "local_path": "psychology/23_SPORT_PSYCHOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/24_MOTORSPORT_PRACTICES.md",
+      "local_path": "psychology/24_MOTORSPORT_PRACTICES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/25_SPORT_PRACTITIONER_PROTOCOL.md",
+      "local_path": "psychology/25_SPORT_PRACTITIONER_PROTOCOL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/26_HELPING_COMPETENCIES.md",
+      "local_path": "psychology/26_HELPING_COMPETENCIES.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/27_CBT_SYSTEM.md",
+      "local_path": "psychology/27_CBT_SYSTEM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/28_ACT_SYSTEM.md",
+      "local_path": "psychology/28_ACT_SYSTEM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/29_MCT_AND_MODERN_EVIDENCE.md",
+      "local_path": "psychology/29_MCT_AND_MODERN_EVIDENCE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/30_EVIDENCE_TRIAGE.md",
+      "local_path": "psychology/30_EVIDENCE_TRIAGE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/31_MOTORSPORT_CONSULTING.md",
+      "local_path": "psychology/31_MOTORSPORT_CONSULTING.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/32_OUTCOMES_AND_REVIEW.md",
+      "local_path": "psychology/32_OUTCOMES_AND_REVIEW.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/33_ASSESSMENT_AND_REFERRAL.md",
+      "local_path": "psychology/33_ASSESSMENT_AND_REFERRAL.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/34_PSYCHOLOGY_CURRICULUM.md",
+      "local_path": "psychology/34_PSYCHOLOGY_CURRICULUM.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/35_SOCIAL_CONNECTION.md",
+      "local_path": "psychology/35_SOCIAL_CONNECTION.md"
+    }
+  ]
+}

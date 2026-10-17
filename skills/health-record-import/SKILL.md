@@ -98,3 +98,7 @@ A requested review should distinguish current symptoms, dated evidence, clinical
 ## Blood pressure and measurement
 
 For BP parameters, manual versus electronic cuffs or requested BP views, read [blood pressure and measurement](references/38_BLOOD_PRESSURE_AND_MEASUREMENT.md). Preserve complete source-local readings and unknown date/time; never guess pairs from repeated same-day components. Colours are optional named adult educational categories, not a universal good/bad health score. Keep pulse separate, show the full pair and source in a tooltip, and distinguish historical observations from present urgency.
+
+## Find packaged knowledge
+
+Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.

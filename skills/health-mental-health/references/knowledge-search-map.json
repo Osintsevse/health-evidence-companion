@@ -1,0 +1,218 @@
+{
+  "schema": "knowledge-search-map-v1",
+  "scope": "packaged_project_notes_only",
+  "entries": [
+    {
+      "canonical_path": "knowledge/00_KNOWLEDGE_POLICY.md",
+      "local_path": "00_KNOWLEDGE_POLICY.md"
+    },
+    {
+      "canonical_path": "knowledge/06_PSYCHIATRY.md",
+      "local_path": "06_PSYCHIATRY.md"
+    },
+    {
+      "canonical_path": "knowledge/11_PHARMACOLOGY_FOUNDATIONS.md",
+      "local_path": "11_PHARMACOLOGY_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/12_DRUG_INTERACTIONS.md",
+      "local_path": "12_DRUG_INTERACTIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/15_ALLERGOLOGY.md",
+      "local_path": "15_ALLERGOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md",
+      "local_path": "18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md"
+    },
+    {
+      "canonical_path": "knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md",
+      "local_path": "19_SYMPTOM_REASONING_AND_SELF_CARE.md"
+    },
+    {
+      "canonical_path": "knowledge/24_INCREMENTAL_ARCHIVE_SAVES.md",
+      "local_path": "24_INCREMENTAL_ARCHIVE_SAVES.md"
+    },
+    {
+      "canonical_path": "knowledge/26_CLINICAL_ROUTING_AND_SCOPE.md",
+      "local_path": "26_CLINICAL_ROUTING_AND_SCOPE.md"
+    },
+    {
+      "canonical_path": "knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md",
+      "local_path": "27_FOUNDATIONS_AND_LEARNING_INDEX.md"
+    },
+    {
+      "canonical_path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "local_path": "28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md"
+    },
+    {
+      "canonical_path": "knowledge/31_SOURCE_MAINTENANCE.md",
+      "local_path": "31_SOURCE_MAINTENANCE.md"
+    },
+    {
+      "canonical_path": "knowledge/32_RISK_COMMUNICATION.md",
+      "local_path": "32_RISK_COMMUNICATION.md"
+    },
+    {
+      "canonical_path": "knowledge/35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md",
+      "local_path": "35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/36_PRIVATE_INTAKE_QUEUE.md",
+      "local_path": "36_PRIVATE_INTAKE_QUEUE.md"
+    },
+    {
+      "canonical_path": "knowledge/39_GROUNDED_REASONING.md",
+      "local_path": "39_GROUNDED_REASONING.md"
+    },
+    {
+      "canonical_path": "knowledge/40_BROAD_HEALTH_LEARNING_MAP.md",
+      "local_path": "40_BROAD_HEALTH_LEARNING_MAP.md"
+    },
+    {
+      "canonical_path": "knowledge/41_EVERYDAY_HEALTH_NOTES.md",
+      "local_path": "41_EVERYDAY_HEALTH_NOTES.md"
+    },
+    {
+      "canonical_path": "knowledge/42_STUDIED_QUESTIONS.md",
+      "local_path": "42_STUDIED_QUESTIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md",
+      "local_path": "43_EVIDENCE_SLEEP_AGEING_REPRODUCTIVE.md"
+    },
+    {
+      "canonical_path": "knowledge/44_LABS_BP_ALLERGY_CHILDREN.md",
+      "local_path": "44_LABS_BP_ALLERGY_CHILDREN.md"
+    },
+    {
+      "canonical_path": "knowledge/45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md",
+      "local_path": "45_PSYCHOLOGICAL_METHODS_AND_OUTCOMES.md"
+    },
+    {
+      "canonical_path": "knowledge/46_EXERCISE_VISION_AND_SCALP.md",
+      "local_path": "46_EXERCISE_VISION_AND_SCALP.md"
+    },
+    {
+      "canonical_path": "knowledge/47_TICKS_AND_SNAKEBITES.md",
+      "local_path": "47_TICKS_AND_SNAKEBITES.md"
+    },
+    {
+      "canonical_path": "knowledge/48_CELLULAR_AND_RENAL_FOUNDATIONS.md",
+      "local_path": "48_CELLULAR_AND_RENAL_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/49_INFLAMMATION_ENERGY_AND_HEADACHE.md",
+      "local_path": "49_INFLAMMATION_ENERGY_AND_HEADACHE.md"
+    },
+    {
+      "canonical_path": "knowledge/50_MEASUREMENTS_MODELS_AND_TRANSFER.md",
+      "local_path": "50_MEASUREMENTS_MODELS_AND_TRANSFER.md"
+    },
+    {
+      "canonical_path": "knowledge/51_METHODS_POPULATIONS_AND_FOLLOWUP.md",
+      "local_path": "51_METHODS_POPULATIONS_AND_FOLLOWUP.md"
+    },
+    {
+      "canonical_path": "knowledge/52_DETECTION_OUTCOMES_AND_ATTENTION.md",
+      "local_path": "52_DETECTION_OUTCOMES_AND_ATTENTION.md"
+    },
+    {
+      "canonical_path": "knowledge/53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md",
+      "local_path": "53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md"
+    },
+    {
+      "canonical_path": "knowledge/54_MODELS_STRATEGIES_AND_IRON_MARKERS.md",
+      "local_path": "54_MODELS_STRATEGIES_AND_IRON_MARKERS.md"
+    },
+    {
+      "canonical_path": "knowledge/55_VOLUME_INFECTION_AND_PREGNANCY.md",
+      "local_path": "55_VOLUME_INFECTION_AND_PREGNANCY.md"
+    },
+    {
+      "canonical_path": "knowledge/56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md",
+      "local_path": "56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md"
+    },
+    {
+      "canonical_path": "knowledge/EVIDENCE_METHODS.md",
+      "local_path": "evidence-methods.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/AGEING_REHAB.md",
+      "local_path": "AGEING_REHAB.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/ANATOMY.md",
+      "local_path": "ANATOMY.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/ARCHITECTURE.md",
+      "local_path": "ARCHITECTURE.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/CHRONIC.md",
+      "local_path": "CHRONIC.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/CLINICAL_INDEX.md",
+      "local_path": "CLINICAL_INDEX.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/DIAGNOSTICS.md",
+      "local_path": "DIAGNOSTICS.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/EMERGENCY.md",
+      "local_path": "EMERGENCY.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/ENDOMETRIOSIS.md",
+      "local_path": "ENDOMETRIOSIS.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/FONTANELS.md",
+      "local_path": "FONTANELS.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/MEDICINES.md",
+      "local_path": "MEDICINES.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/NAVIGATION.md",
+      "local_path": "NAVIGATION.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/NEURO.md",
+      "local_path": "NEURO.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/NUTRITION.md",
+      "local_path": "NUTRITION.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/PEDIATRICS.md",
+      "local_path": "PEDIATRICS.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/PEDIATRIC_CARE.md",
+      "local_path": "PEDIATRIC_CARE.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/SYMPTOMS.md",
+      "local_path": "SYMPTOMS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/14_FOUNDATIONS.md",
+      "local_path": "psychology/14_FOUNDATIONS.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/30_EVIDENCE_TRIAGE.md",
+      "local_path": "psychology/30_EVIDENCE_TRIAGE.md"
+    },
+    {
+      "canonical_path": "knowledge/psychology/35_SOCIAL_CONNECTION.md",
+      "local_path": "psychology/35_SOCIAL_CONNECTION.md"
+    }
+  ]
+}

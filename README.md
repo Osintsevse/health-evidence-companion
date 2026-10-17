@@ -135,3 +135,7 @@ Use [a private inbox](knowledge/36_PRIVATE_INTAKE_QUEUE.md) when this host lacks
 [Under-five care](knowledge/clinical/PEDIATRIC_CARE.md), [illness and procedures](knowledge/clinical/PEDIATRICS.md), and [fontanelles/head growth](knowledge/clinical/FONTANELS.md) cover birth through 59 completed months. Age-specific development/growth, newborn screening and result follow-up, feeding, safe sleep, prevention and current-local vaccination navigation are separated from urgent illness. Fontanel timing is interpreted with shape, growth and the whole child rather than one closure deadline. [Review and limits](docs/pediatrics-under-five-review.md) and [executed response checks](docs/pediatrics-under-five-forward-checks.md) document evidence depth and remaining gaps.
 
 The offline Measurements view includes a [blood-pressure plot and guide](knowledge/38_BLOOD_PRESSURE_AND_MEASUREMENT.md), complete source-local triples, language aliases and preserved date/time gaps. Clinical colours require explicit adult-scope configuration.
+
+## Search the packaged knowledge
+
+Use the [offline knowledge search](docs/knowledge-search.md) to find bounded sections and their source metadata in the repository or a self-contained installed skill. It uses Python standard-library SQLite FTS5, curated bilingual navigation aliases and exact locators. It makes no network requests and does not search private archives. Hosts without code execution retain the reference indexes.
