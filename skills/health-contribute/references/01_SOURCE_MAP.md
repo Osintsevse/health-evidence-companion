@@ -1334,9 +1334,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S188 - WHO Healthy diet
 - URL: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
 - Region: Global
-- Reading status: Official fact sheet opened and recommendation sections read.
+- Reading status: Official fact sheet opened and recommendation sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Adult principles, carbohydrate/fibre, free-sugar and fat sections; not complete appraisal of underpinning literature.
 - Purpose: General nutrition; not individualized clinical nutrition.
-- Checked: 2026-10-08
+- Checked: 2026-10-18
 
 ### S189 - Karam et al. Comparison of seven popular structured dietary programmes, BMJ 2023
 - URL: https://www.bmj.com/content/380/bmj-2022-072003
@@ -1467,9 +1467,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S207 - WHO Alcohol fact sheet
 - URL: https://www.who.int/news-room/fact-sheets/detail/alcohol
 - Region: Global
-- Reading status: Official fact sheet opened; risk and harm sections read.
+- Reading status: Official fact sheet opened; risk and harm sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Selected health-risk and burden sections; complete global report and dependence-treatment literature excluded.
 - Purpose: Public-health guidance; not individual withdrawal management or national limits.
-- Checked: 2026-10-08
+- Checked: 2026-10-18
 
 ### S208 - VCF v4.5 and BCF v2.2 specification, 25 February 2026
 - URL: https://samtools.github.io/hts-specs/VCFv4.5.pdf
@@ -4757,9 +4757,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S677 - Waziry et al.: CALERIE DNA methylation measures of biological ageing
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/
 - Region: Source-specific educational scope
-- Reading status: Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.
+- Reading status: Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis. Additional bounded review 2026-10-18: section_read; Main methods/results including achieved restriction and missing samples, effect estimates, discussion and conflicts. Correction metadata checked: affiliation correction. Supplement/code and participant data not fully audited.
 - Purpose: Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.
-- Checked: 2026-10-17
+- Checked: 2026-10-18
 
 ### S678 - Author correction to CALERIE DNA methylation report
 - URL: https://www.nature.com/articles/s43587-023-00432-y
@@ -5383,3 +5383,178 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.
 - Purpose: Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.
 - Checked: 2026-10-17
+
+### S767 - Thomson et al. Association Between Smoking, Smoking Cessation, and Mortality by Race, Ethnicity, and Sex Among US Adults. JAMA Network Open 2022;5:e2231480
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2797597
+- Region: United States
+- Reading status: selected_full_text_sections_read; Methods, mortality results, cessation-age comparisons, limitations, funding/disclosures, licence; supplements excluded.
+- Purpose: mortality_association_not_randomized_cessation_effect
+- Checked: 2026-10-18
+
+### S768 - WHO releases first-ever clinical treatment guideline for tobacco cessation in adults. 2 July 2024
+- URL: https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults
+- Region: Global
+- Reading status: official_guideline_summary_read; WHO announcement and publication overview; full guideline PDF inaccessible, evidence tables and product harms unappraised.
+- Purpose: adult_cessation_recommendations_without_dosing_or_pooled_effect
+- Checked: 2026-10-18
+
+### S769 - Zhao et al. Recommended physical activity and all cause and cause specific mortality in US adults: prospective cohort study. BMJ 2020;370:m2031
+- URL: https://www.bmj.com/content/370/bmj.m2031
+- Region: United States
+- Reading status: selected_indexed_full_text_passages_read_direct_fetch_intermittently_unavailable; Indexed methods, adjusted results, sensitivity analyses, limitations, support/disclosures and licence; no complete direct full-text appraisal.
+- Purpose: observational_activity_associations
+- Checked: 2026-10-18
+
+### S770 - WHO Europe. Physical activity. 1 September 2021
+- URL: https://www.who.int/europe/news-room/fact-sheets/item/physical-activity
+- Region: WHO Europe; global recommendation summary
+- Reading status: selected_official_guidance_sections_read; Adult, older-adult and special-population recommendation summary; complete underlying evidence tables not appraised.
+- Purpose: activity_recommendations_and_population_boundaries
+- Checked: 2026-10-18
+
+### S771 - Blood Pressure Lowering Treatment Trialists' Collaboration. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure. Lancet 2021;397:1625-1636
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8102467/
+- Region: International randomized trials
+- Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded.
+- Purpose: randomized_clinical_event_evidence_not_universal_bp_target
+- Checked: 2026-10-18
+
+### S772 - Chou et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. USPSTF Evidence Summary, 23 August 2022
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/statin-use-in-adults-preventive-medication
+- Region: United States; review of international trials
+- Reading status: selected_full_text_sections_read; Abstract, selected methods/results/limitations, mortality pool and harms; individual included trials not newly appraised.
+- Purpose: primary_prevention_relative_and_absolute_mortality_effects
+- Checked: 2026-10-18
+
+### S773 - USPSTF. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. Final recommendation, 23 August 2022
+- URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
+- Region: United States
+- Reading status: selected_official_guidance_sections_read; Recommendation and clinician summaries, population exclusions, benefits/harms context; not a European guideline appraisal.
+- Purpose: jurisdiction_bounded_risk_discussion
+- Checked: 2026-10-18
+
+### S774 - Ahmad et al. Mediterranean Diet Adherence and Risk of All-Cause Mortality in Women. JAMA Network Open 2024;7:e2414322
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2819335
+- Region: United States
+- Reading status: selected_full_text_sections_read; Selected methods/model definitions, mortality results, limitations, disclosures and licence; supplements excluded.
+- Purpose: diet_mortality_association_with_adjustment_sensitivity
+- Checked: 2026-10-18
+
+### S775 - Zhao et al. Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses. JAMA Network Open 2023;6:e236185
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2802963
+- Region: International observational cohorts
+- Reading status: selected_full_text_sections_read; Selected methods/results, fully adjusted estimates, limitations, correction/funding/licence; individual cohorts not independently appraised.
+- Purpose: alcohol_mortality_associations_and_bias
+- Checked: 2026-10-18
+
+### S776 - NHLBI. How Sleep Works: How Much Sleep Is Enough? Updated 24 March 2022
+- URL: https://www.nhlbi.nih.gov/health/sleep/how-much-sleep
+- Region: United States public education
+- Reading status: adult_education_section_and_reuse_notice_read; Complete short adult-duration and exception section; no underlying intervention trial review.
+- Purpose: sleep_duration_guidance_no_causal_mortality_effect
+- Checked: 2026-10-18
+
+### S777 - Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results
+- URL: https://www.aging-us.com/article/206235/text
+- Region: US; selected trial volunteers aged 50-85
+- Reading status: section_read; Publisher abstract, main methods, results including body-composition normalization/tables, adverse-event summary, funding and conflicts. Supplements and participant-level data not fully audited.
+- Purpose: Human randomized rapamycin surrogate outcomes; primary null result, subgroup and safety limitations
+- Checked: 2026-10-18
+
+### S778 - Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/
+- Region: New Zealand; sedentary adults aged 65-85
+- Reading status: section_read; Main methods, primary/secondary results, adverse-event table and model, funding/conflicts; supplements not fully audited. No participant-data reanalysis.
+- Purpose: Human functional primary endpoint, ITT versus sensitivity analyses and adverse-event uncertainty
+- Checked: 2026-10-18
+
+### S779 - Effect of Metformin and Lifestyle Interventions on Mortality in the Diabetes Prevention Program and Diabetes Prevention Program Outcomes Study
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8669534/
+- Region: US; adults at high risk of type 2 diabetes
+- Reading status: section_read; Main methods, mortality tables and models, limitations and funding. Original NEJM DPP paper not used; no supplement or medicine-label audit.
+- Purpose: Long-term randomized-assignment mortality analysis; distinguishes diabetes prevention from demonstrated survival benefit
+- Checked: 2026-10-18
+
+### S780 - TAME: Targeting Aging with Metformin — official AFAR project page
+- URL: https://www.afar.org/tame-trial
+- Region: US; planned multicentre trial
+- Reading status: contents_checked; Indexed official page text including planned population/duration, fundraising and status sections; direct canonical opening failed. Undated page and potentially lagging indexed copy cannot verify real-time registry status.
+- Purpose: Proposal/status only; no efficacy inference or live recruitment assertion
+- Checked: 2026-10-18
+
+### S781 - Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11705617/
+- Region: US; Mayo Clinic postmenopausal women
+- Reading status: section_read; Accepted manuscript main methods, primary/secondary results and tables, adverse events, limitations, funding and interests. Supplement/protocol and source participant data not fully audited.
+- Purpose: Human senolytic trial with primary bone-marker result, exploratory subgroups and harms
+- Checked: 2026-10-18
+
+### S782 - Sustained NAD+ augmentation by high-dose nicotinamide mononucleotide supplementation in older adults: a 24-week randomized, double-blind, placebo-controlled trial
+- URL: https://www.nature.com/articles/s41514-026-00482-7
+- Region: Japan; healthy adults aged at least 65
+- Reading status: section_read; Publisher metadata/abstract checked. Selected full methods, main endpoint and adverse-event tables, discussion and disclosures read in author-uploaded accepted article. Supplements not audited; article-in-press copy may contain label errors.
+- Purpose: NAD target engagement distinguished from primary hearing/function outcomes and longevity
+- Checked: 2026-10-18
+
+### S783 - Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial
+- URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725
+- Region: Germany; adults with subjective cognitive decline
+- Reading status: section_read; Main methods, results and missing-data handling, adverse events, disclosures and funding; supplements not fully audited.
+- Purpose: Cognitive primary endpoint, formulation specificity, safety and conflicts for spermidine-rich extract
+- Checked: 2026-10-18
+
+### S784 - Safety of two-year caloric restriction in non-obese healthy individuals
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4991370/
+- Region: US; CALERIE healthy nonobese volunteers
+- Reading status: section_read; Main methods, safety tables, bone/hematocrit results and withdrawal criteria, funding and conflicts. Related efficacy papers and supplements not fully audited.
+- Purpose: Safety companion to CALERIE biomarker card; same trial, not independent replication
+- Checked: 2026-10-18
+
+### S785 - Cano Macip et al. — Gene Therapy-Mediated Partial Reprogramming Extends Lifespan and Reverses Age-Related Changes in Aged Mice (2024)
+- URL: https://doi.org/10.1089/cell.2023.0072
+- Region: Preclinical; United States
+- Reading status: Selected main-paper methods, results, discussion, limitations, funding and disclosures read; indexed same-work Figure 1 labels inspected; no independent image or supplement audit.; PMC10909732 main text and publisher PDF pp24-30 selectively; n=20 per concurrent group appears in indexed same-work Figure 1 labels. Direct screenshot tool returned no viewable image. Later PMC access challenged. No claim of complete paper/supplement study or raw-data reproduction.
+- Purpose: Remaining versus total mouse lifespan; preclinical translation, control and safety limits.
+- Checked: 2026-10-18
+
+### S786 - Life Biosciences — First-in-human interim ER-100 Phase 1 observations (8 October 2026)
+- URL: https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/
+- Region: United States; investigational clinical development
+- Reading status: Substantive sponsor announcement read in full, including safety, visual-field observations and trial description; not peer-reviewed clinical evidence.; 2026-10-08 announcement, substantive paragraphs and presentation highlights. No individual-level data, statistical analysis plan, conference slides or peer-reviewed clinical report appraised.
+- Purpose: Three-participant, day-56 preliminary human observations; supersedes June-only status without establishing efficacy or longevity benefit.
+- Checked: 2026-10-18
+
+### S787 - ClinicalTrials.gov — ER-100 in optic neuropathies, NCT07290244
+- URL: https://clinicaltrials.gov/study/NCT07290244
+- Region: United States; trial registry
+- Reading status: Registry identity/title identified in official indexed record; dynamic page and API did not yield the complete study record.; Official indexed study title/identifier and page shell. Full protocol, registration history, outcome definitions and results not retrieved. Browser unavailable; API access failed. Sponsor data disclosure is a distinct source.
+- Purpose: Primary registry navigation pointer only; no unverified enrollment count, recruitment status or completion date.
+- Checked: 2026-10-18
+
+### S788 - Ribas et al. — Immune profiling in a living human recipient of a gene-edited pig kidney (2026)
+- URL: https://doi.org/10.1038/s41591-025-04053-3
+- Region: United States; single-recipient clinical research
+- Reading status: Abstract, selected results/discussion, transplantation methods, competing interests and licence read; supplements not audited.; Nature Medicine publisher HTML: temporal immune changes; early T-cell-mediated rejection and its management; persistent innate responses; main discussion; kidney xenotransplantation method; no-competing-interests statement and rights section. Published 2026-01-08.
+- Purpose: Early organ-replacement translation and immune rejection limitations; no radical lifespan claim.
+- Checked: 2026-10-18
+
+### S789 - Olshansky et al. — Implausibility of radical life extension in humans in the twenty-first century (2024)
+- URL: https://doi.org/10.1038/s43587-024-00702-3
+- Region: Ten national or territorial populations; demographic research
+- Reading status: Selected original-paper definition, results, discussion/limitations, methods opening, disclosures and licence read via UCLA eScholarship PDF.; Original article pp1635-1639 and selected pp1640/1642 content; no independent calculations or full supplementary review. Repository record https://escholarship.org/uc/item/1191w5w9. Published 2024-10-07.
+- Purpose: Observed demographic slowdown, authors' definition, uncertainty about undeveloped therapies and limits of individual inference.
+- Checked: 2026-10-18
+
+### S790 - Wilmoth et al. — Human Mortality Database Methods Protocol, version 6 (5 August 2025)
+- URL: https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf
+- Region: International; demographic methods
+- Reading status: Selected period/cohort definitions and life-table introduction read; not the complete 81-page protocol or country datasets.; Version/date; selected section 2.5, printed p9; section 7/7.1 opening, printed p37. Conditional-survival identity is an explanatory mathematical interpretation, not an implemented or validated personal forecast.
+- Purpose: Separate period and cohort survival interpretation from individual forecasts or breakthrough probability.
+- Checked: 2026-10-18
+
+### S791 - Life Biosciences — First participant dosed in ER-100 Phase 1 (9 June 2026)
+- URL: https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/
+- Region: United States; sponsor announcement
+- Reading status: Substantive announcement read; retained as a historical milestone, superseded by the 2026-10-08 sponsor interim-data announcement for current evidence status.; June announcement paragraphs on first dosing, Phase 1 safety/tolerability and visual endpoints. No trial results in this June source; later observations assessed separately under L-R02.
+- Purpose: Provenance of trial initiation; not efficacy or absence-of-results evidence after October disclosure.
+- Checked: 2026-10-18

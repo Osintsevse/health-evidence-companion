@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.2 - 2026-10-18
+
+- Add bounded prevention, geroscience and radical-extension cards, annotated bibliography and an explicit study/maintenance state.
+- Preserve source reading scope, rights, adverse findings, numerical measures/denominators and the limits of future-therapy forecasts.
+- Add self-contained references and bilingual navigation to five existing skills, with structural and synthetic response checks. Source checks and CI do not establish clinical approval or update an installed copy.
+
 ## 0.9.1 - 2026-10-17
 
 - Add offline bilingual search and bounded section reading for packaged project notes, with source reading and restriction metadata.

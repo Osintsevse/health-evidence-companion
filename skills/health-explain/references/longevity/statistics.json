@@ -1,0 +1,506 @@
+{
+  "schema": "longevity-statistics-v1",
+  "checked_on": "2026-10-18",
+  "purpose": "Source-linked within-study facts; no individual risk or life-expectancy calculator.",
+  "display_rules": [
+    "Show one source and compatible endpoint/comparator per panel.",
+    "Show design, population, follow-up, effect measure, reference and 95% interval.",
+    "Label cohort estimates as associations and randomized comparisons separately.",
+    "Do not rank interventions across panels or add/multiply effects.",
+    "Do not convert hazard ratios to risk ratios, life-years or future-technology survival probabilities.",
+    "Do not convert pooled absolute differences across varying follow-up into a fixed-duration NNT.",
+    "Do not imply confidence intervals quantify every source of bias or individual prediction uncertainty."
+  ],
+  "prevention_panels": [
+    {
+      "id": "smoking_cessation_age",
+      "design": "prospective_observational_cohort",
+      "population": "US NHIS adults; deaths assessed at ages 25-89",
+      "n": 551388,
+      "deaths": 74870,
+      "follow_up": "Recruitment 1997-2018; mortality linkage through 2019; varying follow-up",
+      "endpoint": "all_cause_mortality",
+      "measure": "adjusted_mortality_rate_ratio",
+      "reference": "never_smokers",
+      "interval": "95_percent_confidence_interval",
+      "values": [
+        {
+          "exposure": "current_smoking",
+          "estimate": 2.8,
+          "lower": 2.73,
+          "upper": 2.88
+        },
+        {
+          "exposure": "quit_before_age_35",
+          "estimate": 1.03,
+          "lower": 0.99,
+          "upper": 1.07
+        },
+        {
+          "exposure": "quit_at_age_35_to_44",
+          "estimate": 1.21,
+          "lower": 1.17,
+          "upper": 1.26
+        },
+        {
+          "exposure": "quit_at_age_45_to_54",
+          "estimate": 1.47,
+          "lower": 1.42,
+          "upper": 1.53
+        },
+        {
+          "exposure": "quit_at_age_55_to_64",
+          "estimate": 1.74,
+          "lower": 1.68,
+          "upper": 1.8
+        }
+      ],
+      "caution": "Different smoking histories and cessation-age groups; no randomized effect of a cessation programme or causal absolute benefit.",
+      "source_id": "medical:S767"
+    },
+    {
+      "id": "activity_categories",
+      "design": "prospective_observational_cohort",
+      "population": "US adults age 18 and older",
+      "n": 479856,
+      "deaths": 59819,
+      "follow_up": "Median 8.75 years",
+      "endpoint": "all_cause_mortality",
+      "measure": "fully_adjusted_hazard_ratio_model_3",
+      "reference": "insufficient_aerobic_and_strengthening_activity",
+      "reference_n": 268193,
+      "interval": "95_percent_confidence_interval",
+      "values": [
+        {
+          "exposure": "recommended_strengthening_only",
+          "n": 21428,
+          "estimate": 0.89,
+          "lower": 0.85,
+          "upper": 0.94
+        },
+        {
+          "exposure": "recommended_aerobic_only",
+          "n": 113851,
+          "estimate": 0.71,
+          "lower": 0.69,
+          "upper": 0.72
+        },
+        {
+          "exposure": "both_recommended_activity_types",
+          "n": 76384,
+          "estimate": 0.6,
+          "lower": 0.57,
+          "upper": 0.62
+        }
+      ],
+      "caution": "Self-reported leisure activity and residual confounding; no causal head-to-head superiority or absolute treatment benefit inferred.",
+      "source_id": "medical:S769"
+    },
+    {
+      "id": "diet_adjustment_sensitivity",
+      "design": "prospective_observational_cohort",
+      "population": "Initially healthy US female health professionals",
+      "n": 25315,
+      "deaths": 3879,
+      "follow_up": "Mean 24.7 years",
+      "endpoint": "all_cause_mortality",
+      "measure": "hazard_ratio",
+      "reference": "Mediterranean diet score 0-3",
+      "exposure": "Mediterranean diet score 6-9",
+      "interval": "95_percent_confidence_interval",
+      "values": [
+        {
+          "model": "age_original_trial_assignment_and_energy_adjusted",
+          "estimate": 0.77,
+          "lower": 0.7,
+          "upper": 0.84
+        },
+        {
+          "model": "basic_model_with_additional_lifestyle_and_menopausal_factors",
+          "estimate": 0.89,
+          "lower": 0.82,
+          "upper": 0.98
+        }
+      ],
+      "caution": "Same observed participants, different adjustment models; not two interventions, proof of mediation, or a randomized dietary effect.",
+      "source_id": "medical:S774"
+    },
+    {
+      "id": "bp_standardized_cardiovascular_effect",
+      "design": "individual_participant_meta_analysis_of_randomized_trials",
+      "population": "International prevention-trial participants; heart failure at baseline excluded",
+      "n": 344716,
+      "trials": 48,
+      "follow_up": "Median 4.15 years",
+      "endpoint": "major_cardiovascular_event_composite",
+      "measure": "hazard_ratio_standardized_per_5_mmHg_systolic_reduction",
+      "reference": "trial_comparator_treatment",
+      "interval": "95_percent_confidence_interval",
+      "values": [
+        {
+          "population_stratum": "without_previous_cardiovascular_disease",
+          "n": 186988,
+          "estimate": 0.91,
+          "lower": 0.89,
+          "upper": 0.94
+        },
+        {
+          "population_stratum": "with_previous_cardiovascular_disease",
+          "n": 157728,
+          "estimate": 0.89,
+          "lower": 0.86,
+          "upper": 0.92
+        }
+      ],
+      "caution": "Different baseline-risk strata; not a comparison of treatment superiority between strata. Harms were not investigated and universal optimal targets were not established.",
+      "source_id": "medical:S771"
+    },
+    {
+      "id": "statin_primary_prevention_mortality",
+      "design": "systematic_review_of_randomized_trials",
+      "population": "Adults with cardiovascular risk factors, without previous cardiovascular events",
+      "n": 85816,
+      "trials": 18,
+      "follow_up": "Varying horizons within review range 6 months to 6 years",
+      "endpoint": "all_cause_mortality",
+      "reference": "placebo_or_no_statin",
+      "relative_effect": {
+        "measure": "risk_ratio",
+        "estimate": 0.92,
+        "lower": 0.87,
+        "upper": 0.98
+      },
+      "absolute_effect": {
+        "measure": "risk_difference",
+        "unit": "percentage_points",
+        "estimate": -0.35,
+        "lower": -0.57,
+        "upper": -0.14
+      },
+      "interval": "95_percent_confidence_interval",
+      "caution": "Pooled absolute difference spans differing trial durations and baseline risk; no fixed-year NNT or personal benefit estimate.",
+      "source_id": "medical:S772"
+    },
+    {
+      "id": "alcohol_intake_categories",
+      "design": "meta_analysis_of_observational_cohorts",
+      "population": "International adult cohorts",
+      "n": 4838825,
+      "deaths": 425564,
+      "studies": 107,
+      "follow_up": "Varies by study",
+      "endpoint": "all_cause_mortality",
+      "measure": "fully_adjusted_relative_risk",
+      "reference": "lifetime_nondrinkers",
+      "exposure_unit": "grams_ethanol_per_day",
+      "interval": "95_percent_confidence_interval",
+      "values": [
+        {
+          "exposure": "1.3_to_less_than_25",
+          "estimate": 0.93,
+          "lower": 0.85,
+          "upper": 1.01
+        },
+        {
+          "exposure": "45_to_less_than_65",
+          "estimate": 1.19,
+          "lower": 1.07,
+          "upper": 1.32
+        },
+        {
+          "exposure": "65_or_more",
+          "estimate": 1.35,
+          "lower": 1.23,
+          "upper": 1.47
+        }
+      ],
+      "caution": "Selected exposure categories, not every dose; no randomized benefit or safety threshold. Corrected article dated 2023-05-09.",
+      "source_id": "medical:S775"
+    }
+  ],
+  "geroscience_records": [
+    {
+      "source_id": "medical:S777",
+      "population": "PEARL completer analysis; adults aged 50-85; 114 completers",
+      "time": "48 weeks",
+      "endpoint": "Visceral adiposity; primary",
+      "effect_measure": "partial_eta_squared",
+      "estimate": 0.001,
+      "p_value": 0.942,
+      "confidence_interval": null,
+      "source_location": "Abstract; DXA primary endpoint described in Methods",
+      "record_id": "geroscience-1"
+    },
+    {
+      "source_id": "medical:S777",
+      "population": "Female subgroup; higher nominal rapamycin exposure versus placebo",
+      "time": "48 weeks",
+      "endpoint": "Lean tissue mass percentage change from individual baseline; secondary subgroup",
+      "effect_measure": "between_group_difference_in_percent_changes",
+      "unit": "percentage points, not kilograms",
+      "estimate": 6.1939,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": 0.8773,
+        "upper": 11.5105
+      },
+      "p_value": 0.018,
+      "source_location": "Results normalization paragraph and Table 2",
+      "limitation": "Small subgroup; completer analysis; not a survival endpoint",
+      "record_id": "geroscience-2"
+    },
+    {
+      "source_id": "medical:S778",
+      "population": "RAPA-EX-01; 40 sedentary adults aged 65-85; 20 per arm",
+      "time": "13 weeks",
+      "endpoint": "30-second chair-stand change; primary ITT",
+      "contrast": "sirolimus minus placebo; identical exercise program",
+      "effect_measure": "adjusted_mean_difference",
+      "unit": "repetitions per 30 seconds",
+      "estimate": -2.13,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": -4.61,
+        "upper": 0.34
+      },
+      "p_value": 0.089,
+      "source_location": "Abstract and primary results table",
+      "record_id": "geroscience-3"
+    },
+    {
+      "source_id": "medical:S778",
+      "population": "RAPA-EX-01; 20 per arm",
+      "time": "13 weeks",
+      "endpoint": "Adverse-event count",
+      "effect_measure": "incidence_rate_ratio",
+      "estimate": 1.57,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": 0.86,
+        "upper": 2.87
+      },
+      "p_value": 0.14,
+      "absolute": {
+        "active_event_count": 99,
+        "placebo_event_count": 63,
+        "active_participants_with_event": 17,
+        "placebo_participants_with_event": 17
+      },
+      "source_location": "Safety/adverse-event analysis",
+      "limitation": "Events can recur within participants; event counts are not participant risks",
+      "record_id": "geroscience-4"
+    },
+    {
+      "source_id": "medical:S779",
+      "population": "DPP/DPPOS; 3234 high-diabetes-risk adults originally randomized across three arms",
+      "time": "Median 21 years; deaths through 2018-12-31",
+      "endpoint": "All-cause mortality; secondary long-term endpoint",
+      "contrast": "metformin versus original placebo assignment",
+      "effect_measure": "hazard_ratio",
+      "estimate": 0.99,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": 0.79,
+        "upper": 1.25
+      },
+      "absolute": {
+        "metformin_deaths": 152,
+        "placebo_deaths": 143,
+        "metformin_rate": 7.13,
+        "placebo_rate": 6.59,
+        "rate_unit": "deaths per 1000 person-years"
+      },
+      "source_location": "Abstract and Table 2",
+      "limitation": "Rates are not cumulative risks; open-label follow-up/crossover; no NNT inferred",
+      "record_id": "geroscience-5"
+    },
+    {
+      "source_id": "medical:S780",
+      "population": "Planned TAME participants",
+      "time": "Proposed six years once launched",
+      "endpoint": "Planned age-related disease outcomes",
+      "estimate": null,
+      "confidence_interval": null,
+      "source_location": "AFAR proposal/status page",
+      "limitation": "No results; indexed undated page cannot establish real-time registry status",
+      "record_id": "geroscience-6"
+    },
+    {
+      "source_id": "medical:S781",
+      "population": "60 postmenopausal women; 30 dasatinib/quercetin, 30 controls",
+      "time": "20 weeks",
+      "endpoint": "CTx percentage change; primary bone-resorption endpoint",
+      "effect_measure": "arm_medians_not_between_group_effect_estimate",
+      "unit": "percent change from baseline",
+      "active": {
+        "median": -4.1,
+        "interquartile_range": [
+          -13.2,
+          2.6
+        ]
+      },
+      "control": {
+        "median": -7.7,
+        "interquartile_range": [
+          -20.1,
+          14.3
+        ]
+      },
+      "p_value": 0.611,
+      "confidence_interval": null,
+      "source_location": "Primary endpoint results/Table 2",
+      "limitation": "IQR describes within-arm dispersion and must not be relabelled as CI",
+      "record_id": "geroscience-7"
+    },
+    {
+      "source_id": "medical:S782",
+      "population": "62 randomized healthy Japanese adults at least 65; 60 analyzed after exclusions; 30 NMN and 28 placebo at week 24",
+      "time": "24 weeks",
+      "endpoint": "Pure-tone hearing-level change; primary",
+      "effect_measure": "arm_medians_not_between_group_effect_estimate",
+      "unit": "dB",
+      "active_median_change": 1.25,
+      "placebo_median_change": 1.25,
+      "p_value": 0.95,
+      "fdr_adjusted_p_value": 0.999,
+      "confidence_interval": null,
+      "source_location": "Table 8, all participants",
+      "limitation": "No treatment-effect CI reported in main table; accepted article contains other possible labelling errors not adopted here",
+      "record_id": "geroscience-8"
+    },
+    {
+      "source_id": "medical:S782",
+      "population": "NMN safety analysis; 31 active, 29 placebo",
+      "time": "24 weeks",
+      "endpoint": "Participants with an adverse event",
+      "effect_measure": "arm_event_counts",
+      "active": {
+        "events": 7,
+        "denominator": 31,
+        "reported_percent": 22.6
+      },
+      "placebo": {
+        "events": 6,
+        "denominator": 29,
+        "reported_percent": 20.7
+      },
+      "p_value": 1.0,
+      "confidence_interval": null,
+      "source_location": "Table 2",
+      "record_id": "geroscience-9"
+    },
+    {
+      "source_id": "medical:S783",
+      "population": "SmartAge; 100 adults aged 60-90 with subjective cognitive decline",
+      "time": "12 months",
+      "endpoint": "Mnemonic discrimination index change; primary",
+      "contrast": "spermidine-rich wheat-germ extract minus placebo",
+      "effect_measure": "between_group_difference",
+      "unit": "index units",
+      "estimate": -0.03,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": -0.11,
+        "upper": 0.05
+      },
+      "p_value": 0.47,
+      "source_location": "Abstract and primary outcome results",
+      "limitation": "ITT with multiple imputation; not a pure compound or mortality endpoint",
+      "record_id": "geroscience-10"
+    },
+    {
+      "source_id": "medical:S677",
+      "population": "CALERIE; 220 randomized, 197 with baseline and at least one follow-up biomarker sample",
+      "time": "24 months",
+      "endpoint": "DunedinPACE; post hoc methylation biomarker",
+      "contrast": "calorie restriction minus ad-libitum intake",
+      "effect_measure": "standardized_effect_d",
+      "unit": "standard deviation units",
+      "estimate": -0.25,
+      "confidence_interval": {
+        "level": 0.95,
+        "lower": -0.41,
+        "upper": -0.09
+      },
+      "reported_approximate_relative_marker_change": "2-3% slower pace in this marker",
+      "source_location": "Results, Fig. 2 and accompanying text",
+      "limitation": "Not an observed 10-15% mortality reduction or estimate of years of life gained",
+      "record_id": "geroscience-11"
+    },
+    {
+      "source_id": "medical:S677",
+      "population": "CALERIE biomarker sample",
+      "time": "24 months",
+      "endpoint": "PhenoAge and GrimAge; post hoc methylation biomarkers",
+      "contrast": "calorie restriction minus ad-libitum intake",
+      "effect_measure": "standardized_effect_d",
+      "unit": "standard deviation units",
+      "PhenoAge": {
+        "estimate": 0.05,
+        "confidence_interval": {
+          "level": 0.95,
+          "lower": -0.11,
+          "upper": 0.2
+        }
+      },
+      "GrimAge": {
+        "estimate": 0.05,
+        "confidence_interval": {
+          "level": 0.95,
+          "lower": -0.07,
+          "upper": 0.17
+        }
+      },
+      "source_location": "Results",
+      "record_id": "geroscience-12"
+    },
+    {
+      "source_id": "medical:S784",
+      "population": "CALERIE safety analysis; 218 participants, 143 restriction and 75 ad-libitum",
+      "time": "24 months",
+      "endpoint": "Hematocrit/anemia surveillance triggers",
+      "effect_measure": "arm_counts",
+      "active": {
+        "participants": 35,
+        "denominator": 143,
+        "reported_percent": 24.5
+      },
+      "control": {
+        "participants": 17,
+        "denominator": 75,
+        "reported_percent": 23
+      },
+      "confidence_interval": null,
+      "permanent_safety_stops_in_restriction_arm": {
+        "persistent_hematocrit_decrease": 2,
+        "bone_loss": 1
+      },
+      "source_location": "Results: Drop in hematocrit levels; bone mineral density",
+      "limitation": "Monitoring triggers are not identical to diagnosed anemia; same trial as medical:S677, not independent replication",
+      "record_id": "geroscience-13"
+    }
+  ],
+  "mouse_denominator_example": {
+    "schema": "longevity-illustrative-source-values-v1",
+    "checked_on": "2026-10-18",
+    "population": "Male C57BL/6J mice treated at 124 weeks",
+    "not_human_data": true,
+    "treatment_start_age_weeks": 124,
+    "reported_median_remaining_lifespan_weeks": {
+      "control_doxycycline": 8.86,
+      "aav_osk_doxycycline": 18.5
+    },
+    "reported_relative_increase_remaining_percent": 109,
+    "derived_median_total_age_weeks": {
+      "control_doxycycline": 132.86,
+      "aav_osk_doxycycline": 142.5
+    },
+    "derived_absolute_median_difference_weeks": 9.64,
+    "derived_total_age_relative_increase_percent_rounded": 7.3,
+    "derivation": "Total median age equals treatment-start age plus median remaining life; relative total-age difference is (142.5/132.86-1)*100, rounded to one decimal.",
+    "limitation": "Illustrates denominator choice only. No individual-level dataset, confidence interval, pooled estimate or human-year conversion is supplied.",
+    "source_location": "Main Results and Figure 1; article rounds control total median to approximately 133 weeks. Derived total ages are explicitly distinguished from reported remaining-life values.",
+    "source_id": "medical:S785"
+  },
+  "review_status": "source_checked_maintainer_and_clinical_review_pending"
+}

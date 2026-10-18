@@ -80,6 +80,8 @@ for _skill, _sources in MAP.items():
         MAP[_skill] = list(dict.fromkeys(_sources + ['knowledge/36_PRIVATE_INTAKE_QUEUE.md']))
 
 def destination(source):
+    if source.startswith('knowledge/longevity/'):
+        return 'longevity/' + source[len('knowledge/longevity/'):]
     if source.startswith('knowledge/psychology/'):
         return 'psychology/' + source[len('knowledge/psychology/'):]
     if source.startswith('knowledge/templates/'):
@@ -133,6 +135,17 @@ for _skill in GROUNDED_SKILLS:
 # Bounded bite notes are available to first aid without the full research pack.
 MAP['health-first-aid'] += ['knowledge/41_EVERYDAY_HEALTH_NOTES.md', 'knowledge/47_TICKS_AND_SNAKEBITES.md']
 
+
+# Longevity remains a lazy-loaded, self-contained packet in relevant skills.
+LONGEVITY_SKILLS = ['health-explain', 'health-prevention', 'health-research',
+                    'health-contribute', 'health-nutrition']
+LONGEVITY_FILES = ['knowledge/57_LONGEVITY_AND_PREVENTION.md'] + [
+    'knowledge/longevity/' + name for name in [
+        '00_READING_PLAN.md', '10_PREVENTION_EVIDENCE.md',
+        '20_GEROSCIENCE_EVIDENCE.md', '30_RADICAL_EXTENSION_EVIDENCE.md',
+        '40_STATISTICS_GUIDE.md', 'evidence-ledger.json', 'statistics.json']]
+for _skill in LONGEVITY_SKILLS:
+    MAP[_skill] = list(dict.fromkeys(MAP[_skill] + LONGEVITY_FILES))
 
 # Search only this project's packaged notes. Every installed pack retains its
 # canonical locators without requiring access to a development checkout.

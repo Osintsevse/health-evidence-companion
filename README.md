@@ -139,3 +139,7 @@ The offline Measurements view includes a [blood-pressure plot and guide](knowled
 ## Search the packaged knowledge
 
 Use the [offline knowledge search](docs/knowledge-search.md) to find bounded sections and their source metadata in the repository or a self-contained installed skill. It uses Python standard-library SQLite FTS5, curated bilingual navigation aliases and exact locators. It makes no network requests and does not search private archives. Hosts without code execution retain the reference indexes.
+
+## Longevity evidence
+
+The [longevity packet](knowledge/57_LONGEVITY_AND_PREVENTION.md) adds source-linked prevention and geroscience cards, numerical interpretation, early reprogramming observations and demographic limits. The [study plan](docs/longevity-study-plan.md) and [annotated bibliography](docs/longevity-bibliography.md) preserve actual reading and review state. A source-checked package candidate is not a formal guideline, clinical approval or an installed update.

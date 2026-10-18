@@ -96,3 +96,7 @@ Recheck consequential recommendations when age, risk, country, pregnancy, clinic
 ## Serbian organized-screening example
 
 Batut's published cervical screening page describes an organized programme for ages 25-64, with Pap testing in two consecutive years and then every three years after two normal results. This is a published programme description, not confirmation that every local clinic currently uses the same pathway or that an individual is eligible/funded. The page gives no clear revision date; verify current local implementation, previous abnormalities, relevant anatomy and risk before applying an interval. New bleeding or other symptoms require diagnostic assessment independently of screening. [S213]
+
+## Detailed longevity evidence packet
+
+For source-linked mortality/function estimates, adult cessation support and experimental approaches, use health-prevention or health-research, which package module 57 and its detailed references. That 2026-10-18 packet distinguishes trials, cohorts, biomarkers and animal findings; it does not supply a personalized longevity prescription or breakthrough probability.
