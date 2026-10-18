@@ -165,5 +165,26 @@ class KnowledgeSearchTests(unittest.TestCase):
             searcher.search(self.root, query, alternate_queries=['a', 'b', 'c'])
 
 
+
+    def test_navigation_and_russian_phrase_inflection_do_not_bury_contents(self):
+        self.write('00_INDEX.md', '# Index\n## Studied question packets\nTable of contents of studied question packets.\n')
+        self.write('46_DETAIL.md', '# Detail\nStudied question packets in a long unrelated detail.\n')
+        self.save('knowledge/search-aliases.json', {'groups': [
+            ['studied question', '\u0438\u0437\u0443\u0447\u0435\u043d\u043d\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b'],
+            ['table of contents', '\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435']]})
+        query = '\u0413\u0434\u0435 \u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0438\u0437\u0443\u0447\u0435\u043d\u043d\u044b\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432'
+        result = searcher.search(self.root, query)
+        self.assertEqual(result['results'][0]['canonical_path'], 'knowledge/00_INDEX.md')
+        self.assertTrue(any(c['expanded'] and 'studied question' in c['variants'] for c in result['query_concepts']))
+        self.assertEqual(searcher.search(self.root, 'child asthma')['results'][0]['heading'], 'Asthma')
+
+    def test_catalog_active_use_limit_survives_bounded_source_summary(self):
+        self.save('knowledge/source-catalog.json', {'records': [{'qualified_id':'medical:S01',
+            'url':'https://restricted.example/page','active_use':'bibliographic_only',
+            'reading_status':'historical selected reading'}]})
+        result=searcher.search(self.root,'asthma')['results'][0]
+        self.assertEqual(result['sources'][0]['active_use'],'bibliographic_only')
+        self.assertFalse(result['sources'][0]['permission_inferred'])
+
 if __name__ == '__main__':
     unittest.main()

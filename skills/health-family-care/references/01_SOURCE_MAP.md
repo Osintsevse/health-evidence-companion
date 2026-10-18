@@ -4,7 +4,7 @@ Canonical register: knowledge/sources.json. Reading status records actual scope;
 
 ## Verification order
 
-Use the current applicable guideline and exact local product label first: ALIMS for Serbia; GRLS and the clinical guideline catalogue for Russia. WHO/NICE and specialist guidance provide context. Reviews and primary studies address uncertain benefits. ICD classifies conditions; it does not choose treatment.
+Use the current applicable guideline and exact local product label first: ALIMS for Serbia; GRLS and the clinical guideline catalogue for Russia. Use WHO and specialist guidance within the source-use policy. Policy-held NICE works remain bibliographic pointers only pending matching permission. Reviews and primary studies address uncertain benefits. ICD classifies conditions; it does not choose treatment.
 
 Check date, version, population, setting and the section actually read. Disclose access failures. Vendor pages establish claimed features, not clinical accuracy; registration does not establish availability. Historical dosing needs current verification.
 
@@ -14,7 +14,7 @@ Use MSD/NHS/MedlinePlus for explanation and verify against guidance for care dec
 
 Frame population/problem, intervention, comparator and desired outcome. Search condition names/synonyms in English, Serbian and Russian; search medicines by INN, brand, formulation and concentration. For ALIMS, use product name plus uputstvo za lek or sazetak karakteristika leka, then inspect relevant SmPC sections 4.1-4.8. For Russia, use the official guideline catalogue and GRLS; check adult scope, year and version.
 
-If blocked, seek the official PDF or another primary source. Label a search excerpt as an excerpt, never reconstruct a missing dose by guessing. Recheck contraindications and local applicability for each new medicine/interaction question. Save original concise notes with URL, date and limits; do not redistribute protected full texts.
+For a technical access failure, record it and use an independently permitted primary source. A rights restriction is not bypassed through another format, mirror or search excerpt. Label a search excerpt as an excerpt, never reconstruct a missing dose by guessing. Recheck contraindications and local applicability for each new medicine/interaction question. Save original concise notes with URL, date and limits; do not redistribute protected full texts.
 
 Modules 11-12 cover pharmacology/interactions, 08 covers AI/APIs and 14 covers record design. Modules 15-18 expand allergy, laboratory literacy, vaccination and treatment evidence. Secondary discovery lists are marked and do not support final efficacy classifications. Live clinical accuracy of APIs/models was not tested; reading depth and unavailable databases remain explicit in this register.
 
@@ -28,6 +28,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview page opened
 - Purpose: Classification and terminology, not treatment regimens
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S02 - WHO - ICD-11 CDDR, 2024
 - URL: https://www.who.int/publications/i/item/9789240077263/
@@ -35,6 +36,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Book description read; full 852-page book not read
 - Purpose: Psychiatric diagnostic descriptions; read the relevant section for criteria
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S03 - WHO - mhGAP guideline, 2023
 - URL: https://www.who.int/publications/i/item/9789240084278
@@ -42,6 +44,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Description and available excerpts read; full document not studied
 - Purpose: Care guidance for mental and neurological disorders
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S04 - WHO - Teacher's Guide to Good Prescribing, 2001
 - URL: https://iris.who.int/bitstream/handle/10665/67010/WHO_EDM_PAR_2001.2.pdf?sequence=1
@@ -49,6 +52,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed rational-prescribing excerpts read
 - Purpose: Historical educational method; not current dosing
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S05 - MSD - Introduction to Clinical Decision Making
 - URL: https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/introduction-to-clinical-decision-making
@@ -56,6 +60,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Chapter opened
 - Purpose: History, urgency and test selection
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S06 - MSD - Cognitive Errors in Clinical Decision Making
 - URL: https://www.msdmanuals.com/professional/special-subjects/clinical-decision-making/cognitive-errors-in-clinical-decision-making
@@ -63,6 +68,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Chapter opened
 - Purpose: Premature conclusions, anchoring and propagation of errors
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S07 - NICE - NG120 acute cough
 - URL: https://www.nice.org.uk/guidance/ng120/chapter/recommendations
@@ -70,6 +76,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed recommendations read; direct access returned HTTP 403
 - Purpose: Acute cough and antibiotic use
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S08 - CDC - Manage Common Cold, 2026-03-11
 - URL: https://www.cdc.gov/common-cold/treatment/index.html
@@ -77,6 +84,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher keypoints/comfort/temporary-relief/harms/risk/warning sections.
 - Purpose: Cold symptoms, supportive measures and assessment thresholds
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S09 - CDC - Adult Outpatient Clinical Care
 - URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html
@@ -84,6 +92,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher adult-outpatient keypoints/scope/OTC evidence limitation.
 - Purpose: Antibiotic use in bronchitis, sinusitis and pharyngitis
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S10 - NHS - Paracetamol for adults
 - URL: https://www.nhs.uk/medicines/paracetamol-for-adults/
@@ -91,6 +100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed dosing and safety sections read
 - Purpose: Paracetamol information; verify exact local packaging
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S11 - NHS - Ibuprofen for adults
 - URL: https://www.nhs.uk/medicines/ibuprofen-for-adults/
@@ -98,6 +108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Dosing section opened
 - Purpose: Ibuprofen forms and restrictions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S12 - ALIMS - Human medicines search
 - URL: https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/
@@ -105,6 +116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Catalogue located; direct access returned HTTP 403
 - Purpose: Serbian SmPC/PIL search; registration does not establish availability
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S13 - ALIMS - Medicine information
 - URL: https://www.alims.gov.rs/humani-lekovi/informacije-o-lekovima-i-klinickim-ispitivanjima/
@@ -112,6 +124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed explanation of SmPC and PIL read
 - Purpose: Patient leaflet and professional product information
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S14 - ALIMS - Tantum Verde Forte 3 mg/mL PIL
 - URL: https://www.alims.gov.rs/doc_file/lekovi/pil/515-01-02591-17-001.pdf
@@ -119,6 +132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF opened and dose/restrictions read; version-to-package match requires checking
 - Purpose: Exact label example, not standard Tantum Verde
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S15 - ALIMS - Olynth HA 1 mg/mL SmPC
 - URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00316-20-002.pdf
@@ -126,6 +140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed excerpts read; direct opening failed
 - Purpose: Xylometazoline form and duration limit
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S16 - Russian Ministry of Health - GRLS
 - URL: https://minzdrav.gov.ru/poleznye-resursy/portal-po-vedeniyu-gosudarstvennogo-reestra-lekarstvennyh-sredstv
@@ -133,6 +148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official grls.rosminzdrav.ru route located; individual drug entry not opened
 - Purpose: Russian registration and product labels; forms require separate checks
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S17 - Russian Ministry of Health - Clinical guidelines catalogue
 - URL: https://minzdrav.gov.ru/special/smartphone_apps_rubrikator_kr
@@ -140,6 +156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official resource description located, updated 2025-06-05
 - Purpose: Approved guidelines through cr.minzdrav.gov.ru
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S18 - Russian Ministry of Health - Adult respiratory viral infection update, 2025
 - URL: https://edu.rosminzdrav.ru/news/novosti/news/orvi-u-vzroslykh-opublikovany-novye-klinicheskie-rekom/
@@ -147,6 +164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official update opened; complete guideline 724 version 2 not read
 - Purpose: Regional context; read full guidance and studies for disputed treatments
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S19 - Serbian Ministry of Health - National clinical guides
 - URL: https://zdravlje.gov.rs/tekst/436482/nacionalni-vodici-dobre-klinicke-prakse-.php
@@ -154,6 +172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed list read
 - Purpose: Check individual publication years; some documents are old
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S20 - Batut - Required and recommended immunization, 2026
 - URL: https://www.batut.org.rs/index.php?content=3157
@@ -161,6 +180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Document page opened, updated 2026-02-09; full PDF not studied
 - Purpose: Local starting point for vaccination guidance
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S21 - NHS - Allergic rhinitis
 - URL: https://www.nhs.uk/conditions/allergic-rhinitis/
@@ -168,6 +188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher symptom/cause/nonallergic distinction sections; not full comparative treatment evidence.
 - Purpose: Allergic nasal symptoms, antihistamines and nasal steroids
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S22 - EAACI - IgE-mediated food allergy diagnosis, 2023
 - URL: https://doi.org/10.1111/all.15902
@@ -175,6 +196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S23 - GINA - Asthma diagnosis FAQ
 - URL: https://ginasthma.org/faq/
@@ -182,6 +204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed diagnostic sections read
 - Purpose: Variable symptoms and lung function; repeated tests may be needed
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S24 - GINA - Summary Guide, 2026
 - URL: https://ginasthma.org/2026-gina-summary-guide/
@@ -189,6 +212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Current guide catalogue found; full PDF not read
 - Purpose: Further study route; do not redistribute complete text
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S25 - NICE - NG222 Depression in adults
 - URL: https://www.nice.org.uk/guidance/ng222/chapter/Recommendations
@@ -196,6 +220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed monitoring/withdrawal recommendations read; direct access returned HTTP 403
 - Purpose: Antidepressants, review and gradual reduction
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S26 - NICE - NG215 Dependence and withdrawal
 - URL: https://www.nice.org.uk/guidance/ng215/chapter/Recommendations
@@ -203,6 +228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed excerpts read
 - Purpose: Distinguish dependence, addiction and withdrawal concepts
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S27 - DailyMed - Sertraline label example
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c614be38-cb45-44a1-b78e-0cdfc0691618
@@ -210,6 +236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed warnings and interactions read
 - Purpose: SSRI bleeding and serotonergic warnings, not a personal prescription
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S28 - MedlinePlus - Understanding lab results
 - URL: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
@@ -217,6 +244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Result purpose/context, reference ranges, units, false results and preparation sections rechecked2026-10-17; not assay equivalence or full decision-limit standard.
 - Purpose: Units, references, false results and clinical context
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S29 - NICE - NG136 Hypertension in adults
 - URL: https://www.nice.org.uk/guidance/ng136/chapter/recommendations
@@ -224,6 +252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed diagnostic confirmation recommendations read Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S30 - USPSTF - Prediabetes and type 2 diabetes screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/screening-for-prediabetes-and-type-2-diabetes
@@ -231,6 +260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Current final-recommendation page located and main criteria examined
 - Purpose: Age/risk-based screening, not universal annual panels
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S31 - WHO - BCG position paper, 2018
 - URL: https://www.who.int/publications/i/item/who-wer9308-73-96
@@ -238,6 +268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed excerpts and summary read
 - Purpose: Do not promise lifelong tuberculosis immunity from BCG
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S32 - CDC - Rubella vaccine recommendations
 - URL: https://www.cdc.gov/rubella/hcp/vaccine-considerations/index.html
@@ -245,6 +276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed recommendations read
 - Purpose: Immunity criteria; no universal two-dose claim for all adults
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S33 - Ada - App and intended purpose
 - URL: https://ada.com/help/what-degree-of-liability-does-ada-accept/
@@ -252,6 +284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Product purpose description read
 - Purpose: Patient symptom assessment and possible next steps
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S34 - Isabel - Self-Triage
 - URL: https://www.isabelhealthcare.com/products/isabel-self-triage
@@ -259,6 +292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Product description read
 - Purpose: Possible causes and navigation; Russian language is advertised
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S35 - AMBOSS - Clinical AI Mode
 - URL: https://www.amboss.com/us/clinical-ai-mode
@@ -266,6 +300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Product/source description opened
 - Purpose: Professional cited search; vendor claims are not comparative validation
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S36 - Wolters Kluwer - UpToDate Expert AI and Lexidrug
 - URL: https://www.wolterskluwer.com/en/news/wolters-kluwer-adds-uptodate-lexidrug-to-genai-powered-clinical-decision-support-uptodate-expert-ai
@@ -273,6 +308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Vendor announcement opened
 - Purpose: Professional clinical system with medicine information
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S37 - Wolters Kluwer - Lexidrug
 - URL: https://www.wolterskluwer.com/en/solutions/uptodate/pro/lexidrug
@@ -280,6 +316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Subscription/tool description read
 - Purpose: Specialized medicines and interaction reference
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S38 - Mount Sinai - OpenEvidence implementation, 2026
 - URL: https://www.mountsinai.org/about/newsroom/2026/mount-sinai-health-system-collaborates-with-openevidence-to-provide-evidence-based-knowledge-within-electronic-medical-record
@@ -287,6 +324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Health-system announcement read
 - Purpose: Evidence of professional adoption, not safety of every answer
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S39 - JAMA Network Open - LLM influence on diagnostic reasoning RCT, 2024
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395
@@ -294,6 +332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Results and conclusions opened
 - Purpose: 50 physicians, specified model/cases; do not generalize to all systems
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S40 - Cochrane - Zinc for common cold, 2024
 - URL: https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold
@@ -301,6 +340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S41 - NHS - Cetirizine side effects
 - URL: https://www.nhs.uk/medicines/cetirizine/side-effects-of-cetirizine/
@@ -308,6 +348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed drowsiness warnings read
 - Purpose: Antihistamines and driving safety
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S42 - WHO - Guide to Good Prescribing, 1994
 - URL: https://iris.who.int/bitstream/handle/10665/59001/WHO_DAP_94.11.pdf
@@ -315,6 +356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official PDF located; complete textbook not read
 - Purpose: Historical educational method; old doses are not current instructions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S43 - MedGemma - Model card 1.5
 - URL: https://developers.google.com/health-ai-developer-foundations/medgemma/model-card
@@ -322,6 +364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Purpose, variants and limits read; weights not run
 - Purpose: Medical open weights and validation requirements
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S44 - HAI-DEF - FAQ
 - URL: https://developers.google.com/health-ai-developer-foundations/faqs
@@ -329,6 +372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Open-weight/open-source distinctions and memory needs read
 - Purpose: Licensing and resource assessment
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S45 - HAI-DEF - Terms
 - URL: https://developers.google.com/health-ai-developer-foundations/terms
@@ -336,6 +380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main weight terms and code-license distinction read; no legal audit
 - Purpose: Separate weights, code and data rights
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S46 - MedGemma - Getting started
 - URL: https://developers.google.com/health-ai-developer-foundations/medgemma/get-started
@@ -343,6 +388,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official self-hosted/deployment routes studied; not executed
 - Purpose: Integration routes, infrastructure and restrictions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S47 - BioMistral-7B - Model card
 - URL: https://huggingface.co/BioMistral/BioMistral-7B
@@ -350,6 +396,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: License, provenance and warnings read; model not tested
 - Purpose: Apache-2.0 research model weights
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S48 - MedRAG - gzxiong repository
 - URL: https://github.com/gzxiong/MedRAG
@@ -357,6 +404,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Tool/corpus descriptions read; code not run
 - Purpose: Retrieval before generation as a research approach
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S49 - MedRAG - LICENSE
 - URL: https://github.com/gzxiong/MedRAG/blob/main/LICENSE
@@ -364,6 +412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Public Domain Notice read; individual corpus rights not checked
 - Purpose: Code rights do not grant rights to all medical texts
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S50 - Infermedica - API overview
 - URL: https://developer.infermedica.com/documentation/overview/
@@ -371,6 +420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Purpose and access route read; contract/keys not obtained
 - Purpose: Symptom interview and navigation through Engine/Platform
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S51 - Infermedica - Engine diagnosis
 - URL: https://developer.infermedica.com/documentation/engine-api/build-your-solution/diagnosis/
@@ -378,6 +428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Evidence states/stateless workflow examined; API not called
 - Purpose: Unknown is distinct from absent
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S52 - Isabel - Symptom checker API
 - URL: https://info.isabelhealthcare.com/symptom-checker-api
@@ -385,6 +436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official API description read; sandbox/docs not requested
 - Purpose: Partner symptom/differential-assessment integration
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S53 - Isabel - API documentation request
 - URL: https://info.isabelhealthcare.com/isabel-api-documention-request
@@ -392,6 +444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Request page inspected; form not submitted
 - Purpose: Vendor contact required for access conditions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S54 - Ada Health - Integration help
 - URL: https://ada.com/help/360000309665/
@@ -399,6 +452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Partner API/SDK description read; access not obtained
 - Purpose: Partnership route, not confirmed unrestricted API
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S55 - EvidenceMD - Developer API
 - URL: https://evidencemd.ai/developers
@@ -406,6 +460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: REST endpoint, keys, models and citations read; no live calls/evaluation
 - Purpose: Candidate evidence-search API; accuracy claims unverified
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S56 - EvidenceMD - Enterprise terms overview
 - URL: https://evidencemd.ai/developers/enterprise
@@ -413,6 +468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Vendor retention/contract claims read; no audit
 - Purpose: Separate conditions review before external data transfer
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S57 - AMBOSS - Clinical integration
 - URL: https://www.amboss.com/de/integration
@@ -420,6 +476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official partner-integration description studied
 - Purpose: Corporate integration does not establish an open public API
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S58 - DrugBank - API documentation
 - URL: https://docs.drugbank.com/
@@ -427,6 +484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: DDI endpoint/fields read; no key/license/live calls
 - Purpose: Interactions with severity, rationale and references
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S59 - DailyMed - SPL REST API
 - URL: https://dailymed.nlm.nih.gov/dailymed/webservices-help/v2/spls_api.cfm
@@ -434,6 +492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Documentation and SPL search structure read; integration not established
 - Purpose: Labels and metadata, not universal interaction assessment
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S60 - openFDA - Drug label API
 - URL: https://open.fda.gov/apis/drug/label/
@@ -441,6 +500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Data purpose and FDA warnings read
 - Purpose: Structured labels with currency/use limitations
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S61 - RxNav - Interaction API retirement FAQ
 - URL: https://lhncbc.nlm.nih.gov/RxNav/information/FAQs.html
@@ -448,6 +508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official 2024-01-02 retirement verified
 - Purpose: Do not build interaction checks on the retired endpoint
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S62 - RxNav - API index
 - URL: https://www.lhncbc.nlm.nih.gov/RxNav/APIs/index.html
@@ -455,6 +516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official available-API list examined; no calls
 - Purpose: RxNorm name and identifier normalization
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S63 - MSD - Pharmacokinetics overview
 - URL: https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/overview-of-pharmacokinetics
@@ -462,6 +524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Available definitions/parameters read; overview updated August 2026
 - Purpose: ADME, clearance, distribution, half-life and individual factors
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S64 - MSD - Pharmacodynamics overview
 - URL: https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/overview-of-pharmacodynamics
@@ -469,6 +532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Available definitions read; complete course not studied
 - Purpose: Targets, concentrations and changing responses
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S65 - MSD - Drug bioavailability
 - URL: https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-bioavailability
@@ -476,6 +540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definitions and formulation differences read
 - Purpose: Ingredient, formulation and bioequivalence are separate checks
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S66 - NHS SPS - Understanding drug interactions
 - URL: https://sps.nhs.uk/articles/understanding-drug-interactions/
@@ -483,6 +548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Interaction types and main mechanisms read
 - Purpose: Clinical significance, ADME, food, herbs and tobacco
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S67 - NHS SPS - Enzyme/transporter interactions
 - URL: https://sps.nhs.uk/articles/understanding-enzyme-or-transporter-based-drug-interactions/
@@ -490,6 +556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Inhibition, induction, codeine activation and timing read
 - Purpose: Direction and persistence of enzyme interactions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S68 - NHS SPS - Interaction resources
 - URL: https://sps.nhs.uk/articles/drug-interactions-resources-to-support-clinical-decisions/
@@ -497,6 +564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Resource map/limits read; updated 2026-06-10
 - Purpose: BNF, SmPC, Stockley's and specialized references
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S69 - FDA - CYP/transporter interaction examples
 - URL: https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems
@@ -504,6 +572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Table purpose/examples examined; no individual regimens inferred
 - Purpose: Substrates, inhibitors, inducers and exposure
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S70 - FDA - Grapefruit and medicines
 - URL: https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix
@@ -511,6 +580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: CYP3A4 and reduced fexofenadine absorption example read
 - Purpose: Juice interactions depend on the ingredient
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S71 - FDA - Opioids, benzodiazepines and CNS depressants
 - URL: https://www.fda.gov/drugs/information-drug-class/new-safety-measures-announced-opioid-analgesics-prescription-opioid-cough-products-and
@@ -518,6 +588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2016 warning about benzodiazepine/alcohol combinations read
 - Purpose: Sedation/respiratory depression; recheck current labels
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S72 - NHS - Sertraline
 - URL: https://www.nhs.uk/medicines/sertraline/
@@ -525,6 +596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Combination information read, including NSAIDs, anticoagulants and St John's wort
 - Purpose: General patient information, not exact local brand label
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S73 - NHS - Chlorphenamine
 - URL: https://www.nhs.uk/medicines/chlorphenamine-including-piriton/about-chlorphenamine/
@@ -532,6 +604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Drowsiness, alcohol and driving warnings read
 - Purpose: Sedating antihistamine example
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S74 - NHS SPS - QT interval medicines
 - URL: https://sps.nhs.uk/articles/managing-medicines-associated-with-qt-interval-prolongation/
@@ -539,6 +612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Risk factors/interactions studied; updated 2026-09-14
 - Purpose: Cumulative and metabolic QT risks
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S75 - ALIMS - Zoloft 50/100 mg SmPC
 - URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-00534-22-001.pdf
@@ -546,6 +620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Composition/form and available interaction excerpt read; full PDF/current registration not verified
 - Purpose: Local sertraline label example, not a personal regimen
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S76 - ALIMS - National medicines register
 - URL: https://registar.alims.gov.rs/
@@ -553,6 +628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: SmPC/PIL explanation and clinical-section structure read
 - Purpose: Local product and label-section navigation
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S77 - NHS SPS - Crushing tablets/opening capsules
 - URL: https://sps.nhs.uk/articles/checking-if-tablets-can-be-crushed-or-capsules-opened/
@@ -560,6 +636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Modified-release and exact-product checks read
 - Purpose: Do not alter a tablet without product verification
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S78 - FDA - Generic drugs Q&A
 - URL: https://www.fda.gov/drugs/generic-drugs/generic-drugs-questions-answers
@@ -567,6 +644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main approved-generic requirements examined
 - Purpose: FDA-system equivalence; check other jurisdictions separately
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S79 - Medsafe - Opioids and serotonergic medicines
 - URL: https://www.medsafe.govt.nz/profs/PUArticles/September2022/Opioids-and-serotonergic%20medicines-risk-of-serotonin-syndrome.html
@@ -574,6 +652,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2022 warning about tramadol/dextromethorphan read
 - Purpose: Educational serotonergic interaction check
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S80 - University of Belgrade - Integrated medical studies
 - URL: https://med.bg.ac.rs/?page_id=12210&script=lat
@@ -581,6 +660,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Six-year programme/practical components description read
 - Purpose: Medical education coverage reference
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S81 - University of Belgrade - Curriculum
 - URL: https://med.bg.ac.rs/?page_id=14524&script=lat
@@ -588,6 +668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Structure and available subject descriptions inspected; course not completed
 - Purpose: Discipline and study-sequence map
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S82 - Sechenov University - Higher education
 - URL: https://www.sechenov.ru/education/vysshee-obrazovanie/
@@ -595,6 +676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: General Medicine 31.05.01 and six-year duration verified
 - Purpose: Second coverage reference, not completed training
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S83 - Sechenov University - Clinical pharmacology
 - URL: https://www.sechenov.ru/univers/structure/institute/institut-klinicheskoy-meditsiny/kafedry-klinicheskoy-mediciny-im-Sklificovskoro/farm/vysshee-professionalnoe-obrazovanie-/uchebnyy-razdel/klinicheskaya-farmakologiya/
@@ -602,6 +684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Thematic plan and learning section found; lectures not fully studied
 - Purpose: Further clinical pharmacology curriculum
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S84 - OpenStax - Anatomy and Physiology 2e preface
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/preface
@@ -609,6 +692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Open textbook/scope found; chapters not yet studied On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
 - Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
 - Checked: 2026-10-17
+- Active-use disposition: rights_metadata_only (not a permission grant)
 
 ### S85 - HL7 FHIR R4 - MedicationStatement
 - URL: https://hl7.org/fhir/R4/medicationstatement.html
@@ -616,6 +700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected R4 status, effective date/period, assertion-date and information-source fields rechecked; no FHIR conformance or clinical validation
 - Purpose: Actual-use provenance/status; project templates are not FHIR resources
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S86 - HL7 FHIR R4 - AllergyIntolerance
 - URL: https://hl7.org/fhir/R4/allergyintolerance.html
@@ -623,6 +708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Unknown vs no known allergies distinction read
 - Purpose: Empty list does not mean no allergies
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S87 - HL7 FHIR R4 - Provenance
 - URL: https://hl7.org/fhir/R4/provenance.html
@@ -630,6 +716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Key source/recording-time definitions read
 - Purpose: Fact provenance and changes in a private record
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S88 - MSD - Drug interactions
 - URL: https://www.msdmanuals.com/professional/clinical-pharmacology/factors-affecting-response-to-medications/drug-interactions
@@ -637,6 +724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main mechanisms and clinical-significance factors read
 - Purpose: Pharmacodynamic and pharmacokinetic interactions
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S89 - WAO - Anaphylaxis guidance, 2020
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/
@@ -644,6 +732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected diagnostic, first-line and second-line management sections read; not a complete emergency-care course.
 - Purpose: Anaphylaxis urgency and limits of antihistamines.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S90 - ARIA-EAACI - Intranasal treatments, 2024-2025 revision (2026 print)
 - URL: https://pubmed.ncbi.nlm.nih.gov/41324154/
@@ -651,6 +740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S91 - EAACI - Food allergy diagnosis guideline overview, 2023
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-diagnosis-of-ige-mediated-food-allergy/
@@ -658,6 +748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S92 - EAACI - IgE-mediated food allergy management, 2024
 - URL: https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/
@@ -665,6 +756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S93 - International urticaria guideline, 2026
 - URL: https://pubmed.ncbi.nlm.nih.gov/41649409/
@@ -672,6 +764,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S94 - NICE - CG183 Drug allergy
 - URL: https://www.nice.org.uk/guidance/cg183/chapter/recommendations
@@ -679,6 +772,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: bibliographic_pointer_only_current_permission_and_independent_claim_support_pending
 - Purpose: Historical source identity retained. Current new clinical assertions require independently inspected usable evidence; source-specific restrictions/rights and complete text not resolved by an abstract or linked summary.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S95 - AAAAI - IgG food panel testing
 - URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test
@@ -686,6 +780,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official explanation and recommendations against diagnostic IgG/IgG4 testing read. | Additional 2026-10-08 inspection: Rationale and recommendation against diagnostic food IgG directly read; cited older position papers not fully read.
 - Purpose: Avoid unsupported allergy/intolerance panels.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S96 - NHS - Hives
 - URL: https://www.nhs.uk/conditions/hives/
@@ -693,6 +788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms, emergency signs and pharmacist/antihistamine advice sections inspected.
 - Purpose: Public explanation and urgency; no specialist dose escalation.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S97 - KDIGO - CKD evaluation and management, 2024 guideline portal
 - URL: https://kdigo.org/guidelines/ckd-evaluation-and-management/
@@ -700,6 +796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2026-10-17: researcher/root read live status notice:2027 medication-management focused update public review through2026-11-04;2024 is published framework. Draft content not studied/adopted.
 - Purpose: Version tracking and acute/chronic kidney assessment source route.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S98 - KDIGO - Selected 2024 CKD evaluation takeaways presentation
 - URL: https://kdigo.org/wp-content/uploads/2024/07/07232024-KDIGO-CKD.pdf
@@ -707,6 +804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected evaluation slides on CKD definition, chronicity, eGFR accuracy and albuminuria read; not the full guideline.
 - Purpose: Laboratory literacy and chronicity without single-result diagnosis.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S99 - NIDDK - The A1C test and diabetes
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test
@@ -714,6 +812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected explanation, confirmation and red-cell/haemoglobin interference sections read. Selected definitions, timing/recent-month influence and red-cell/assay sections refreshed2026-10-17; displayed reviewApril2018 retained. No current diagnostic schedule or blanket point-of-care restriction adopted.
 - Purpose: HbA1c/glucose discordance and diagnostic confirmation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S100 - WHO - Ferritin guideline, 2020
 - URL: https://iris.who.int/bitstream/handle/10665/331505/9789240000124-eng.pdf
@@ -721,6 +820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed recommendations 1.2-1.4 and inflammation-related passages inspected; complete PDF not read.
 - Purpose: Ferritin limits with inflammation and iron-overload assessment.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S101 - NICE - NG145 Thyroid disease
 - URL: https://www.nice.org.uk/guidance/NG145/chapter/recommendations
@@ -728,6 +828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed testing recommendations 1.2.8-1.2.11 and 2023 update inspected; direct page access limited. Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
 - Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S102 - MedlinePlus - Complete blood count
 - URL: https://medlineplus.gov/lab-tests/complete-blood-count-cbc/
@@ -735,6 +836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Test-component and interpretation explanations inspected.
 - Purpose: CBC quantities, red-cell size and limits.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S103 - MedlinePlus - Blood differential
 - URL: https://medlineplus.gov/lab-tests/blood-differential/
@@ -742,6 +844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected test and white-cell interpretation sections inspected.
 - Purpose: Differential counts do not independently diagnose infection/allergy.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S104 - MedlinePlus - C-reactive protein test
 - URL: https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/
@@ -749,6 +852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Inflammation causes and result-interpretation sections inspected. On2026-10-17 selected introduction, uses and result-meaning sections refreshed; displayed update2025-06-11, NLM Medical Test category checked. No thresholds, linked papers or diagnostic/treatment algorithm appraised.
 - Purpose: CRP is not a stand-alone antibiotic or diagnostic decision.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S105 - MedlinePlus - Liver function tests
 - URL: https://medlineplus.gov/lab-tests/liver-function-tests/
@@ -756,6 +860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected components and interpretation sections inspected.
 - Purpose: Distinguish liver-injury enzymes from other panel information.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S106 - NICE - NG158 Venous thromboembolic diseases
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/recommendations
@@ -763,6 +868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed clinical-probability, D-dimer and imaging recommendations inspected; not entire guideline. Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
 - Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-06
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S107 - Batut - Immunization instructions for 2026, full PDF
 - URL: https://www.batut.org.rs/download/SMU%20za%20sprovodjenje%20imunizacije%202026.pdf
@@ -770,6 +876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected sections 1.3-1.5, 6.2 and 6.10 read in the 80-page PDF; not all calendars, product tables or outbreak orders. | Additional 2026-10-08 inspection: Landing version verified and 80-page PDF opened; full tables not appraised.
 - Purpose: Selected national vaccine landmarks and version-specific local guidance.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S108 - Rospotrebnadzor - National vaccination calendar publication, 2025-12-23
 - URL: https://06.rospotrebnadzor.ru/content/kalendar-profilakticheskih-privivok
@@ -777,6 +884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected national-calendar childhood and adult entries read; regional calendar and full legal consolidation not reviewed.
 - Purpose: Russian vaccine landmarks; eligibility is not universal clinical suitability.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S109 - WHO - Interrupted/delayed immunization summary table, December 2025
 - URL: https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-3.pdf?download=true&sfvrsn=7c2de9f9_12
@@ -784,6 +892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Internal December 2025 version, selected resume-series entries and notes inspected; not every antigen schedule.
 - Purpose: Catch-up principles with exceptions and local reconciliation.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S110 - CDC - Vaccine contraindications and precautions
 - URL: https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html
@@ -791,6 +900,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected general contraindication/precaution and mistaken-contraindication tables inspected.
 - Purpose: Vaccine-specific allergy, live-vaccine and mild-illness distinctions.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S111 - WHO - Clinical practice guidelines for influenza, 2024
 - URL: https://iris.who.int/bitstream/handle/10665/378872/9789240097759-eng.pdf
@@ -798,6 +908,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed executive summary and section 7.1.6 evidence-to-decision text inspected; direct full-PDF retrieval failed. Full guideline not read.
 - Purpose: Conditional recommendation against umifenovir for non-severe influenza; distinguish severity and jurisdiction.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S112 - FDA - Homeopathic products
 - URL: https://www.fda.gov/drugs/understanding-over-counter-medicines/homeopathic-products
@@ -805,6 +916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official identification, regulatory-status and product-safety sections read.
 - Purpose: Homeopathic-label recognition, US approval status and safety concerns.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S113 - Australian Government - Homeopathy evidence evaluation, Natural Therapies Review 2024
 - URL: https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-homeopathy-evidence-evaluation.pdf
@@ -812,6 +924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Plain-language summary and selected methods on PDF pages 16-17 read; not all 221 pages or appendices. Government download published in 2025.
 - Purpose: Current scoped assessment, certainty and limitations, replacing stale review-status references.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S114 - NCCIH - Homeopathy
 - URL: https://www.nccih.nih.gov/health/homeopathy
@@ -819,6 +932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition, evidence and product-safety sections inspected. Australian-review underway statement is stale relative to the 2025 government release. | Additional 2026-10-08 inspection: Safety/effectiveness sections read; statement that Australian review is underway is stale.
 - Purpose: General explanation; do not repeat stale publication-status wording.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S115 - Cochrane - Oscillococcinum for influenza-like illness, 2015
 - URL: https://www.cochrane.org/evidence/CD001957_homeopathic-oscillococcinumr-preventing-and-treating-influenza-and-influenza-illness
@@ -826,6 +940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S116 - Cochrane - Vitamin C for common colds, 2013
 - URL: https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold
@@ -833,6 +948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S117 - Cochrane - Echinacea for common colds, 2014
 - URL: https://www.cochrane.org/evidence/CD000530_echinacea-preventing-and-treating-common-cold
@@ -840,6 +956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S118 - Ergoferon paediatric respiratory-infection RCT, 2021
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8608533/
@@ -847,6 +964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected population, results and manufacturer funding/conflicts inspected; full adult evidence appraisal not completed.
 - Purpose: A positive funded trial exists; no automatic extrapolation to routine adult colds.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S119 - Ingavirin adult influenza trial, 2009
 - URL: https://pubmed.ncbi.nlm.nih.gov/19459424/
@@ -854,6 +972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed abstract inspected: small randomized groups and reported fever benefit. Direct PubMed access limited; full text and current synthesis not read.
 - Purpose: Efficacy appraisal pending, not proof that no trials exist.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S120 - Kagocel respiratory-infection report in adults with diabetes, 2020
 - URL: https://pubmed.ncbi.nlm.nih.gov/32598630/
@@ -861,6 +980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed abstract inspected; complete methods, risk of bias and current evidence body not available.
 - Purpose: Population mismatch and incomplete appraisal; no routine-cold endorsement.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S121 - Anaferon adjunctive schizophrenia trial, 2015
 - URL: https://pubmed.ncbi.nlm.nih.gov/26567593/
@@ -868,6 +988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract read: 40-patient adjunctive study of ultra-high-dilution antibodies; not a cold efficacy study.
 - Purpose: Do not mistake an unrelated trial or PubMed indexing for cold benefit.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S122 - Encyclopedia Pathologica - Medicine watchlist (secondary discovery)
 - URL: https://encyclopatia.ru/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2
@@ -875,6 +996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected framing and drug entries read as discovery leads. Not a regulator, guideline or primary efficacy source; blanket harmlessness wording must not be adopted.
 - Purpose: Find candidates and original citations, then verify indication-specific primary evidence.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S123 - NCHPL - Popular explanation of medicines with weak evidence (secondary)
 - URL: https://www.nchpl.uz/ru/posts/fuflomicin
@@ -882,6 +1004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected explanatory/antiviral sections read. Its rimantadine example conflicts with current CDC seasonal-influenza advice.
 - Purpose: Discovery only; verify resistance, indication and current guidance.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S124 - Russian Wikipedia - Medicines with unproven efficacy (secondary)
 - URL: https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81_%D0%BD%D0%B5%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9_%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E
@@ -889,6 +1012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected medicine/nootropic entries read; not an authoritative blanket class verdict. References require independent checking.
 - Purpose: Discovery and source tracing only, without copying article text.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S125 - Cochrane - Cerebrolysin for acute ischaemic stroke, 2023
 - URL: https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
@@ -896,6 +1020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S126 - EMA - Restricted trimetazidine use, 2012 regulatory review
 - URL: https://www.ema.europa.eu/en/documents/press-release/european-medicines-agency-recommends-restricting-use-trimetazidine-containing-medicines_en.pdf
@@ -903,6 +1028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed EMA restrictions/indication passage read; direct PDF access failed. Historical review, not a current local SmPC.
 - Purpose: Counterexample to blanket ineffectiveness: selected adjunctive stable-angina use differs from deleted indications.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S127 - Manufacturer SmPC - Nootropil 1200 mg, emc 2025 update
 - URL: https://www.medicines.org.uk/emc/product/101131/smpc
@@ -910,6 +1036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Sections 4.1 and relevant medicine-change cautions inspected; not a clinical efficacy systematic review.
 - Purpose: Authorized cortical-myoclonus indication is distinct from general cognition marketing.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S128 - CDC - Influenza antiviral summary for clinicians, 2026-03-10
 - URL: https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html
@@ -917,6 +1044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed priority-treatment and adamantane-resistance sections inspected; not every dose or seasonal surveillance table.
 - Purpose: Rimantadine/amantadine are not recommended for currently circulating influenza because of resistance; antiviral guidance differs by setting.
 - Checked: 2026-10-06
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S129 - HL7 FHIR R4 - Observation
 - URL: https://hl7.org/fhir/R4/observation.html
@@ -924,6 +1052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Scope and resource structure read: values, comparators, absent results, dates, units and reference ranges
 - Purpose: Source-linked laboratory observations; conceptual inspiration, not a FHIR implementation
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S130 - HL7 FHIR R4 - DiagnosticReport
 - URL: https://hl7.org/fhir/R4/diagnosticreport.html
@@ -931,6 +1060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Scope and result/report relationships read
 - Purpose: Keep the original report distinct from atomic test results
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S131 - HL7 FHIR R4 - DocumentReference
 - URL: https://hl7.org/fhir/R4/documentreference.html
@@ -938,6 +1068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Scope and document metadata sections read
 - Purpose: Original document references and source context
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S132 - HL7 FHIR R4 - MedicationRequest
 - URL: https://hl7.org/fhir/R4/medicationrequest.html
@@ -945,6 +1076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Scope and order/instruction definitions read
 - Purpose: Prescription orders are distinct from actual medication use
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S133 - UCUM specification
 - URL: https://ucum.org/ucum
@@ -952,6 +1084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: UCUM 2.2 (2024-06-17): selected case sensitivity, prefix, percent and arbitrary-unit sections read; no full parser conformance claimed
 - Purpose: Preserve literal units and verify any standardized mapping; no automatic conversion claim
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S134 - Google Drive API - Upload file data
 - URL: https://developers.google.com/workspace/drive/api/guides/manage-uploads
@@ -959,6 +1092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Upload and native conversion sections read; live sensitive-file uploads not tested
 - Purpose: Keep received source bytes separate from converted or derived documents
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S135 - Google Sheets API - spreadsheets.batchUpdate
 - URL: https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/batchUpdate
@@ -966,6 +1100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Request validation, atomic subrequests and collaborative editing limitations read; live writes not tested
 - Purpose: Bounded native Sheet batches do not make Drive and Sheets one transaction; read back the committed ledger
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S136 - Google Drive API - Manage file revisions
 - URL: https://developers.google.com/workspace/drive/api/guides/manage-revisions
@@ -973,6 +1108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected retention and keepForever limitations read; live revision operations not tested
 - Purpose: Explicit snapshots and backup verification instead of assuming permanent revision retention
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S137 - LOINC Users Guide - Major Parts of a LOINC term; page revision 2026-08-17
 - URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term
@@ -980,6 +1116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Six-axis identity, naming fields and examples read; no terminology dataset downloaded or formal patient mappings validated
 - Purpose: Laboratory concept identity before multilingual display grouping
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S138 - LOINC Users Guide - Type of Scale; page revision 2026-04-10
 - URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/scale
@@ -987,6 +1124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Quantitative, semi-quantitative, ordinal and nominal sections read; no clinical thresholds assessed
 - Purpose: Keep detection limits, strips, categories and true quantities distinct
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S139 - LOINC Users Guide - Type of Method; page revision 2026-04-28
 - URL: https://loinc.org/kb/users-guide/major-parts-of-a-loinc-term/method
@@ -994,6 +1132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opening method-axis and method-specific distinction sections read; complete terminology catalogue not reviewed
 - Purpose: Avoid both method-blind merging and unjustified instrument-level fragmentation
 - Checked: 2026-10-07
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S140 - HL7 FHIR R4 4.0.1 - Period datatype
 - URL: https://hl7.org/fhir/R4/datatypes.html#Period
@@ -1001,6 +1140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected Period structure and boundary/unknown-start notes read; no full datatype implementation or interoperability testing
 - Purpose: Separate supported use periods from assertion dates and preserve unknown boundaries; simplified display model is not FHIR
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S141 - NICE NG246 - Adult anthropometry and central adiposity assessment
 - URL: https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity
@@ -1008,6 +1148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected official search excerpts on adult BMI limitations and waist-to-height assessment inspected; full page fetch returned 403, not fully read
 - Purpose: Purposeful measurement context and uncertainty; not automated individual risk prediction
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S142 - University of Belgrade: Courses
 - URL: https://studiesinenglish.med.bg.ac.rs/courses
@@ -1015,6 +1156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Course catalogue read; Scope map; individual syllabi not read
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S143 - Sechenov: General Medicine
 - URL: https://international.sechenov.ru/directions/general-medicine/en
@@ -1022,6 +1164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: About Program and curriculum-link section read; Overview, not detailed syllabus
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S144 - Sechenov: Description of Disciplines
 - URL: https://www.sechenov.ru/eng/education-study/undergraduate/general-medicine/Description%20of%20Disciplines.pdf
@@ -1029,6 +1172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-index excerpt only; direct retrieval failed; Detailed curricular claims unsupported
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S145 - Oxford: Pre-clinical Medicine
 - URL: https://www.medsci.ox.ac.uk/study/medicine/pre-clinical
@@ -1036,6 +1180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-index text only; direct fetch 403; Comparator candidate only
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S146 - Harvard: Course and Examination Requirements
 - URL: https://medstudenthandbook.hms.harvard.edu/103-course-and-examination-requirements-md-degree-new-pathway-pathways-and-hst
@@ -1043,6 +1188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Preclerkship lists, HST years I-II and core clerkships read; Cohort-sensitive; distinguishes Class of 2030
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S147 - MIT: Biological Chemistry I, Fall 2013
 - URL: https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/
@@ -1050,6 +1196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Description, format and module index read; Course not completed; F4 notes separately read
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S148 - MIT: Mechanisms of Drug Actions, Fall 2013
 - URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/
@@ -1057,6 +1204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Description and resource list read; Course not completed; F5/F6 notes separately read
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S149 - WebPath: Internet Pathology Laboratory
 - URL: https://webpath.med.utah.edu/
@@ -1064,6 +1212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Homepage, scope, disclaimer and copyright read; No tutorials studied; personal noncommercial use; redistribution requires permission
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S150 - GeneReviews
 - URL: https://www.ncbi.nlm.nih.gov/books/NBK1116/
@@ -1071,6 +1220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed metadata only; CAPTCHA blocked retrieval; No disease chapter appraised
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S151 - WHO: Basic Epidemiology, 2nd edition (2006)
 - URL: https://iris.who.int/bitstream/handle/10665/43541/9241547073_eng.pdf
@@ -1078,6 +1228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed-only; PDF retrieval failed; Chapters not read; historical foundations
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S152 - WONCA: Definition of General Practice / Family Medicine
 - URL: https://www.woncaeurope.org/page/definition-of-general-practice-family-medicine
@@ -1085,6 +1236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Landing page and 2023-edition listing read; Full document unread; CC-BY-NC-SA except noted
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S153 - NLM: Biochemistry 5th edition added to Bookshelf (2003)
 - URL: https://www.nlm.nih.gov/pubs/techbull/so03/so03_technote_biochemistry_5th_edition_added.html
@@ -1092,6 +1244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Announcement read; Historical access notice only; textbook not read
 - Purpose: Curriculum or learning-resource catalogue; scope and reading status only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S154 - NCI SEER: Body Functions and Life Process
 - URL: https://training.seer.cancer.gov/anatomy/body/functions.html
@@ -1099,6 +1252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Body Functions; Life Process; Organization; Metabolism; Growth; Differentiation read; Introductory training, not clinical guidance
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S155 - NCI SEER: Characteristics of Hormones
 - URL: https://training.seer.cancer.gov/anatomy/endocrine/hormones.html
@@ -1106,6 +1260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Mechanism of Hormone Action; Control of Hormone Action read; Only feedback/control used; oversimplified chemical classification not adopted
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S156 - NCI SEER: Introduction to the Human Body
 - URL: https://training.seer.cancer.gov/anatomy/body/
@@ -1113,6 +1268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Cells; Tissues; Organs; Systems read; Not comprehensive anatomy
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S157 - MIT 5.07SC: Enzymes and Catalysis, Fall 2013
 - URL: https://ocw.mit.edu/courses/5-07sc-biological-chemistry-i-fall-2013/e9540e994623cb307d2e08dcd3de9d72_MIT5_07SCF13_Lec5_6.pdf
@@ -1120,6 +1276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected text sections II-III, printed pages 5-11, PDF indices 4-10 read; Historical lecture; third-party figures have separate rights; no figures copied
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S158 - MIT 20.201: Fundamentals / Principles and Absorption (September 2013)
 - URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/c3592a216acb700b8d71a46139996985_MIT20_201F13_R1_funda.pdf
@@ -1127,6 +1284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Printed slides 2 and 6, PDF indices 1 and 5 read; Host title Recitation 1 differs from internal Lecture 4; no drug-specific values used
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S159 - MIT 20.201: Pharmacokinetics (October 9, 2013)
 - URL: https://ocw.mit.edu/courses/20-201-mechanisms-of-drug-actions-fall-2013/36ebd4d72ffa6fd9ebeedbd9a5284149_MIT20_201F13_L11_pharma.pdf
@@ -1134,6 +1292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Review, Drug Distribution and Apparent Volume of Distribution; printed slide 7, PDF index 6 read; Only Vd concept used; historical dosing and interaction examples excluded Additional selected printed/viewer23-31 text and visual25,28,30,31 checked2026-10-17; model/dimension review, not full36page lecture. Current OCW CC BY-NC-SA4.0/third-party terms checked; no source assets or historical drug examples reproduced.
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity
 - URL: https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity/
@@ -1141,6 +1300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Reduced penetrance and Variable expressivity sections read; No individual or variant-specific risk estimate
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S161 - NHGRI: Variant of Uncertain Significance
 - URL: https://www.genome.gov/genetics-glossary/Variant-of-Uncertain-Significance-VUS
@@ -1148,6 +1308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition and narration read; General glossary; displayed date not assumed to mean substantive revision
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S162 - Merck Manual Professional: Understanding Medical Tests and Test Results
 - URL: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results
@@ -1155,6 +1316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Dichotomous Tests; Pre-test probability; Odds-likelihood calculation; Sequential Testing read; Editorial reference; erroneous nearby LR interpretation not adopted; update formula cross-checked F10
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S163 - Deeks and Altman: Diagnostic tests 4: likelihood ratios (BMJ 2004;329:168-169)
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC478236/
@@ -1162,6 +1324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition paragraphs and Bayesian-update discussion/box read; Original authors' methods exposition, not new diagnostic validation study; numeric example transcription not copied; DOI 10.1136/bmj.329.7458.168
 - Purpose: Original foundations concept card; selected sections only; Link and original brief prose only; no source asset redistribution
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S164 - NICE NG143 - Fever in under 5s
 - URL: https://www.nice.org.uk/guidance/ng143/chapter/recommendations
@@ -1169,6 +1332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed selected age/risk and infant investigation recommendations read; direct page 403; not full guideline.
 - Purpose: Age-specific fever routing; not remote triage validation
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S165 - CDC - Urgent Maternal Warning Signs and Symptoms, 2024-05-15
 - URL: https://www.cdc.gov/hearher/maternal-warning-signs/index.html
@@ -1176,6 +1340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Warning-sign, postpartum scope and fetal-movement sections directly read; not exhaustive obstetric guidance. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
 - Purpose: Pregnancy/postpartum urgent routing
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S166 - NICE NG126 - Diagnosis of viable intrauterine pregnancy and tubal ectopic pregnancy, updated 2026-06-17
 - URL: https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy
@@ -1183,6 +1348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed ultrasound, viability and serial-hCG sections read; related QS69 referral text inspected; full updated guideline not read.
 - Purpose: Diagnostic uncertainty and professional pregnancy assessment; no treatment protocol
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S167 - NHS - Postmenopausal bleeding, reviewed 2026-09-24
 - URL: https://www.nhs.uk/symptoms/post-menopausal-bleeding/
@@ -1190,6 +1356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Assessment threshold, investigations and cause sections directly read; patient guidance.
 - Purpose: Assessment even after one small episode; UK service timing not universal
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S168 - NHS - Testicle pain, reviewed 2025-06-26
 - URL: https://www.nhs.uk/symptoms/testicle-pain/
@@ -1197,6 +1364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Emergency thresholds and torsion explanation directly read; not diagnostic rule.
 - Purpose: Acute scrotal emergency routing
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S169 - NIDDK - Symptoms and Causes of Urinary Retention, reviewed 2019-12
 - URL: https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/symptoms-causes
@@ -1204,6 +1372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Acute/chronic symptoms, urgency and selected causes directly read; older patient resource.
 - Purpose: Retention urgency; no current treatment regimen
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S170 - NHS - Dental abscess, reviewed 2026-03-18
 - URL: https://www.nhs.uk/conditions/dental-abscess/
@@ -1211,6 +1380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Urgency, definitive treatment and prevention sections directly read; local access differs.
 - Purpose: Dental routing and fluoride/interdental prevention; not pediatric dosing
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S171 - ADA - Antibiotic Stewardship, includes 2026 practice statement
 - URL: https://www.ada.org/resources/ada-library/oral-health-topics/antibiotic-stewardship
@@ -1218,6 +1388,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected definitive treatment, systemic involvement and harm sections directly read; linked full JADA guidance not read.
 - Purpose: Indication-specific antibiotic stewardship; no prescribing regimen
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S172 - NHS - Detached retina
 - URL: https://www.nhs.uk/conditions/detached-retina-retinal-detachment/
@@ -1225,6 +1396,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and urgent assessment passages inspected; patient guidance.
 - Purpose: Urgent retinal symptoms; not photographic diagnostic validation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S173 - AAPOS - Vision Therapy, content updated 2023-04
 - URL: https://aapos.org/glossary/vision-therapy
@@ -1232,6 +1404,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Orthoptics, convergence insufficiency, myopia and learning-disability sections directly read; underlying trials not independently appraised.
 - Purpose: Distinguish condition-specific orthoptics from unsupported general claims
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S174 - AAD - How to take pictures of your skin for your dermatologist, 2023-07-20
 - URL: https://www.aad.org/public/fad/digital-health/taking-pictures-skin
@@ -1239,6 +1412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Focus, filter, views, scale, light and secure-transmission sections directly read.
 - Purpose: Photography guidance only; no AI diagnostic validation or image reproduction
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S175 - ACR/RSNA RadiologyInfo - MRI Safety, 2025-12-22
 - URL: https://www.radiologyinfo.org/en/info/safety-mr
@@ -1246,6 +1420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Mechanism and metal/implant/heating safety sections directly read; no device-specific appraisal.
 - Purpose: MRI safety screening; no implant clearance
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S176 - ACR/RSNA RadiologyInfo - Radiation Dose from X-Ray and CT Exams, 2025-04-15
 - URL: https://www.radiologyinfo.org/en/info/safety-xray
@@ -1253,6 +1428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Dose concepts and adult comparison caveats directly read.
 - Purpose: Typical estimates are not patient dosimetry or individualized risk
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S177 - NHS - Anaphylaxis
 - URL: https://www.nhs.uk/conditions/anaphylaxis/
@@ -1260,6 +1436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and emergency action/autoinjector sections directly read.
 - Purpose: Emergency routing with local number/device adaptation; no discharge plan
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S178 - BTS/NICE/SIGN NG245 - Asthma diagnosis monitoring and chronic management, 2024
 - URL: https://www.nice.org.uk/guidance/ng245/chapter/recommendations
@@ -1267,6 +1444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed 1.1.1-1.1.7 and selected adult testing pathway read; direct retrieval failed; overview scope inspected.
 - Purpose: Objective diagnosis and acute-care priority; not acute-attack protocol
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S179 - NICE NG211 - Rehabilitation after traumatic injury, 2022-01-18
 - URL: https://www.nice.org.uk/guidance/ng211/chapter/Recommendations
@@ -1274,6 +1452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed plan/exercise/weight-bearing recommendations and selected rationale read; direct page 403; not full evidence reviews.
 - Purpose: Individualized complex-trauma rehabilitation; no universal exercise dose
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S180 - NICE NG59 - Low back pain and sciatica in over 16s, 2016/2020
 - URL: https://www.nice.org.uk/guidance/ng59/chapter/Recommendations
@@ -1281,6 +1460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed imaging, exercise, manual therapy and electrotherapy recommendations read; not full evidence reviews.
 - Purpose: Indication-specific anti-overtesting and physiotherapy limits
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S181 - CDC - Contraception and Birth Control Methods, 2024-08-06
 - URL: https://www.cdc.gov/contraception/about/index.html
@@ -1288,6 +1468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Choice, STI protection, reversible methods, lactational amenorrhea and emergency contraception sections directly read; full MEC/SPR not read.
 - Purpose: Voluntary choice and timely service navigation; no eligibility/prescribing algorithm
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S182 - CDC - Developmental Milestones, reviewed 2026-02-17
 - URL: https://www.cdc.gov/act-early/milestones/index.html
@@ -1295,6 +1476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview, screening limitation and concern/lost-skills action sections directly read; all individual age checklists not read.
 - Purpose: Developmental surveillance distinct from screening/diagnosis; local referral pathways differ
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S183 - NHS - Antenatal pregnancy care and appointments
 - URL: https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/
@@ -1302,6 +1484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Booking, initial assessment, selected scans/tests and contact-between-visits sections directly read; not all linked guidance.
 - Purpose: Routine care navigation and screening choice; NHS schedule not universal
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S184 - NHS - Your 6-week postnatal check, reviewed 2022-11-28
 - URL: https://www.nhs.uk/baby/support-and-services/your-6-week-postnatal-check/
@@ -1309,6 +1492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Timing and physical/mental health review sections directly read; review due 2025-11-28 is past.
 - Purpose: Older routine-navigation example; not current universal schedule or reason to defer symptoms
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S185 - CDC - Training Module Using WHO Child Growth Standards, 2024-06-28
 - URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/index.html
@@ -1316,6 +1500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Introduction, population and WHO-to-CDC age-scope statements directly read; submodules not read.
 - Purpose: Age-appropriate chart selection; no diagnostic percentile algorithm
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S186 - USPSTF A and B Recommendations
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations
@@ -1323,6 +1508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official index and eligibility examples read; individual evidence reviews not fully appraised.
 - Purpose: Prevention entry point; not another country calendar.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S187 - General health checks in adults for reducing morbidity and mortality, Cochrane 2019
 - URL: https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality
@@ -1330,6 +1516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical reading record retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17. No matching AI permission verified.
 - Purpose: Bibliographic/permission pointer only; do not use as active clinical evidence or bypass through another copy.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S188 - WHO Healthy diet
 - URL: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
@@ -1337,6 +1524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official fact sheet opened and recommendation sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Adult principles, carbohydrate/fibre, free-sugar and fat sections; not complete appraisal of underpinning literature.
 - Purpose: General nutrition; not individualized clinical nutrition.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S189 - Karam et al. Comparison of seven popular structured dietary programmes, BMJ 2023
 - URL: https://www.bmj.com/content/380/bmj-2022-072003
@@ -1344,6 +1532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered abstract, results and discussion excerpts read; direct open 403; supplements not read.
 - Purpose: Higher cardiovascular risk trial populations; network meta-analysis; no full-text appraisal.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S190 - WHO guidelines on physical activity and sedentary behaviour 2020
 - URL: https://www.who.int/publications/i/item/9789240015128
@@ -1351,6 +1540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official overview and search-rendered recommendations read; Bookshelf direct open CAPTCHA; full guideline not appraised.
 - Purpose: Population goals, not sports clearance.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S191 - Ekelund et al. Accelerometry measured activity, sedentary time and mortality, BMJ 2019
 - URL: https://www.bmj.com/content/366/bmj.l4570
@@ -1358,6 +1548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered abstract/conclusion read; direct fetch failed.
 - Purpose: Observational review; middle-aged and older populations; confounding.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S192 - Yin et al. Relationship of Sleep Duration With All-Cause Mortality and Cardiovascular Events, 2017
 - URL: https://pubmed.ncbi.nlm.nih.gov/28889101/
@@ -1365,6 +1556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered abstract only; direct open provided no usable article; search through December 2016.
 - Purpose: Prospective cohort meta-analysis; not causal intervention evidence.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S193 - Natural Therapies Review 2024 report and recommendations, published 2025
 - URL: https://www.health.gov.au/sites/default/files/2025-03/natural-therapies-review-2024-report-and-recommendations.pdf
@@ -1372,6 +1564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Homeopathy summary printed pages 16-17 inspected; 221-page underlying evaluation and appendices not fully read.
 - Purpose: Outcome/comparator-specific findings; preserves low-certainty positives.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S194 - NICE NG197 shared decision making recommendations 2021
 - URL: https://www.nice.org.uk/guidance/ng197/chapter/recommendations
@@ -1379,6 +1572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered recommendations 1.4.5-1.4.11 read; direct HTML/PDF access errors.
 - Purpose: Absolute risk and frequency communication; not validation of synthetic examples.
 - Checked: 2026-10-08
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S195 - RFZO healthcare abroad
 - URL: https://www.rfzo.rs/index.php/osiguranalica/zz-u-ino
@@ -1386,6 +1580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official search-rendered overview read.
 - Purpose: Care abroad categories; eligibility needs individual current verification.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S196 - RFZO healthcare during temporary foreign stays
 - URL: https://www.rfzo.rs/index.php?Itemid=34&id=120&option=com_content&view=article
@@ -1393,6 +1588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Substantive search-rendered procedure read; direct open failed.
 - Purpose: Emergency travel coverage procedure, not unrestricted coverage.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S197 - Moscow OMS fund: protection of insured persons rights
 - URL: https://www.mgfoms.ru/chastnye-lica/zashita-prav/poryadok-zashiti/
@@ -1400,6 +1596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official page opened; escalation paragraphs read.
 - Purpose: Moscow administrative source; not all regions or private policies.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S198 - FDA Direct-to-Consumer Tests
 - URL: https://www.fda.gov/medical-devices/in-vitro-diagnostics/direct-consumer-tests
@@ -1407,6 +1604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Validity, limitations and FAQ sections read. | Additional 2026-10-08 inspection: Limitations, validity definitions and FAQ read; regulatory list not audited
 - Purpose: Consumer genetics boundaries; US regulatory examples not exhaustive current authorizations.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S199 - Strava How Do I Export My Data
 - URL: https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data
@@ -1414,6 +1612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official export instructions read after old URL redirected.
 - Purpose: FIT TCX GPX and bulk export documentation only; no live import tested.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S200 - Strava API policy
 - URL: https://www.strava.com/legal/api_policy
@@ -1421,6 +1620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Policy opened; bulk-use, consent and interface restrictions inspected.
 - Purpose: Terms review required per integration; not comprehensive legal appraisal.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S201 - PsyOps Evidence Companion README
 - URL: https://github.com/Osintsevse/psyops-evidence-companion/blob/main/README.md
@@ -1428,6 +1628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full README read via GitHub connector; underlying 102 sources not audited.
 - Purpose: Optional referral only; no dependency, data transfer or clinical validation.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S202 - USPSTF Colorectal Cancer Screening, 2021-05-18
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
@@ -1435,6 +1636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation, clinician summary, eligibility, intervals and harms sections read; linked evidence report not fully read.
 - Purpose: Average-risk asymptomatic population; shared choices and colonoscopy follow-up.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S203 - USPSTF Breast Cancer Screening, 2024
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
@@ -1442,6 +1644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation, interval, evidence-insufficiency and harms sections read; linked evidence report not fully read.
 - Purpose: Biennial mammography 40-74; special high-risk pathways excluded.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S204 - USPSTF Lung Cancer Screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
@@ -1449,13 +1652,15 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation, clinician summary, eligibility and harms sections read.
 - Purpose: LDCT age and smoking eligibility; not general chest CT screening.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S205 - USPSTF Hypertension in Adults Screening, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
 - Region: US
-- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.
+- Reading status: Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md. | Selected source reconciliation 2026-10-18: Clinician summary, target population, out-of-office confirmation and validated upper-arm measurement. Thresholds/treatment targets not newly appraised. Displayed source version: Final recommendation 2021-04-27. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
 - Purpose: Adults without known hypertension; routine screening not acute-care guidance.
-- Checked: 2026-10-17
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S206 - USPSTF Tobacco Smoking Cessation in Adults Including Pregnant Persons, 2021
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
@@ -1463,6 +1668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation and behavioral-intervention evidence sections read; linked systematic review not fully read.
 - Purpose: Separate pregnancy pathway; much evidence is cigarette-specific.
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S207 - WHO Alcohol fact sheet
 - URL: https://www.who.int/news-room/fact-sheets/detail/alcohol
@@ -1470,6 +1676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official fact sheet opened; risk and harm sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Selected health-risk and burden sections; complete global report and dependence-treatment literature excluded.
 - Purpose: Public-health guidance; not individual withdrawal management or national limits.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S208 - VCF v4.5 and BCF v2.2 specification, 25 February 2026
 - URL: https://samtools.github.io/hts-specs/VCFv4.5.pdf
@@ -1477,6 +1684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected header, fixed field and genotype sections read; not full specification or parser validation
 - Purpose: Preserve assembly, alleles, missing calls, phasing and quality in private data preparation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S209 - NCBI What is ClinVar?
 - URL: https://www.ncbi.nlm.nih.gov/clinvar/intro/
@@ -1484,6 +1692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Introduction and submission/classification scope read; no variant-specific entry reviewed
 - Purpose: Distinguish aggregate submitted classifications from an individual diagnosis
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S210 - Apple Support - Share health and fitness data in XML format
 - URL: https://support.apple.com/guide/iphone/share-your-health-data-iph5ede58c3d/ios
@@ -1491,6 +1700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: XML export section read; no account connection or real export/import test
 - Purpose: Owner-provided Apple Health export route; no live integration
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S211 - Garmin FIT SDK overview
 - URL: https://developer.garmin.com/fit/overview/
@@ -1498,6 +1708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Protocol overview and message scope read; SDK and complete schema not appraised
 - Purpose: Fitness format navigation; no parser or clinical validation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S212 - EMA anticancer SmPC section 4.8 mock-up - adverse reaction frequency convention, 2022
 - URL: https://www.ema.europa.eu/en/documents/other/appendix-3-guideline-clinical-evaluation-anticancer-medicinal-products-summary-product-characteristics-anticancer-medicinal-product-mock-48_en.pdf
@@ -1505,6 +1716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed frequency-convention excerpt read; direct PDF returned 429; not full document or drug-specific appraisal
 - Purpose: Translate label frequency bands; no frequency for a particular medicine inferred
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S213 - Batut Screening Serbia - cervical cancer screening
 - URL: https://www.skriningsrbija.rs/srl/skrining-raka-grlica-materice/
@@ -1512,6 +1724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Published eligibility, Pap sequence and follow-up sections read; page revision date not supplied; local current implementation not confirmed
 - Purpose: Serbian organized screening example; not individual coverage or a complete current national schedule
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S214 - MyHeritage — How should I interpret my raw DNA data? (July 21, 2026)
 - URL: https://www.myheritage.com/help/en/articles/12852246-how-should-i-interpret-my-raw-dna-data
@@ -1519,6 +1732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: fields, delimiter, allele tokens and strand; no raw export or account tested
 - Purpose: Current documented five-column tab-delimited schema; no universal genome-build claim
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S215 - MyHeritage — What does the Whole Genome Sequencing upgrade mean for my DNA results? (July 21, 2026)
 - URL: https://www.myheritage.com/help/en/articles/12852457-what-does-the-whole-genome-sequencing-wgs-upgrade-mean-for-my-dna-results
@@ -1526,6 +1740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: generation dates, header verification, conditional CRAM availability and Health exceptions; no account download tested
 - Purpose: Distinguish GSA/WGS, ordinary CSV/TXT descriptions and planned CRAM export
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S216 - MyHeritage — How do I download my raw DNA data file? (live help page)
 - URL: https://www.myheritage.com/help/en/articles/12851869-how-do-i-download-my-raw-dna-data-file-from-myheritage
@@ -1533,6 +1748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: prerequisites and steps; page displayed Updated today; no account accessed or download executed
 - Purpose: Manager-only download, published results, emailed link lifetime and uploaded-kit limitation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S217 - MyHeritage — How can I download shared DNA segments from the Chromosome Browser? (July 21, 2026)
 - URL: https://www.myheritage.com/help/en/articles/12851466-how-can-i-download-the-shared-dna-segments-data-from-the-chromosome-browser
@@ -1540,6 +1756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: CSV contents and workflow; no export tested
 - Purpose: Distinguish shared-segment genealogy CSV from raw SNP data
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S218 - Genotek — Process and cost of genetic tests (official laboratory-process article)
 - URL: https://www.genotek.ru/blog/genetic-test-practice/
@@ -1547,6 +1764,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: microarray process and stage 7 VCF download statement; publication date not established from opened page; no schema or export tested
 - Purpose: VCF availability in documented microarray workflow; VCF extension is not evidence of WGS
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S219 - Genotek — Full Genome DNA test (official product FAQ)
 - URL: https://www.genotek.ru/full-genome/
@@ -1554,6 +1772,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: download FAQ and processed-result sharing; page version not specified; no account accessed, FASTQ downloaded or clinical claims validated
 - Purpose: Explicit VCF/FASTQ downloads and 23andMe v3/v5 conversion on request
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S220 - Genotek — Ancestry DNA test (official indexed FAQ excerpt)
 - URL: https://www.genotek.ru/genetics/genealogy/
@@ -1561,6 +1780,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official search-index excerpt read only: VCF, 23andmeV5 TXT and 23andmeV3 TXT; direct open returned almost no usable body; product version and account availability unverified
 - Purpose: Limited support for ancestry export choices; verify against owner-supplied current documentation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S221 - GATK germline short-variant discovery
 - URL: https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels
@@ -1568,6 +1788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened extracted official page; expected BAM input and read-based calling reviewed; Sequencing workflow, not array validation
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S222 - Ensembl VEP cache documentation
 - URL: https://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html
@@ -1575,6 +1796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened extracted official documentation; redirected to June 2026 archive; Tool annotation documentation, not clinical interpretation
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S223 - NCBI ClinVar review status
 - URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/review_status/
@@ -1582,6 +1804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened extracted documentation; star definitions and aggregation read; Documentation, not review of any individual variant
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S224 - ACMG/AMP 2015 sequence interpretation
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4544753/
@@ -1589,6 +1812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt for categories and VUS rule; direct open hit CAPTCHA; Full guideline not read; gene-specific current specifications need separate review
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S225 - Tandy-Connor et al. 2018
 - URL: https://pubmed.ncbi.nlm.nih.gov/29565420/
@@ -1596,6 +1820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search abstract/excerpts, including publisher result for 40% statistic; PubMed open empty and PMC CAPTCHA; Selected referral study; not a population-wide error estimate
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S226 - NIA Alzheimer's genetics
 - URL: https://www.nia.nih.gov/health/alzheimers-disease-genetics-fact-sheet
@@ -1603,6 +1828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt on APOE prediction and counseling; direct open failed 405; No detailed numerical risk tables reviewed
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S227 - NEI AREDS FAQ
 - URL: https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/aredsareds2-frequently-asked-questions
@@ -1610,6 +1836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Detailed search excerpts: no/early AMD and genetic-testing sections; Full page not opened
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S228 - AREDS report 38
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4253656/
@@ -1617,6 +1844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpts on supplement interactions/conclusions; Full text not read
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S229 - NIDDK celiac diagnosis
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis
@@ -1624,6 +1852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened extracted page; genetic-testing and pre-diet testing guidance; Not a complete current specialist diagnostic guideline
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S230 - CCR5/CXCR4 primary infection report
 - URL: https://pubmed.ncbi.nlm.nih.gov/9621067/
@@ -1631,6 +1860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search abstract excerpt; Historical mechanistic counterexample; not an estimate of current HIV risk
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S231 - CPIC atomoxetine supplement
 - URL: https://files.cpicpgx.org/data/guideline/publication/atomoxetine/2019/30801677-supplement.pdf
@@ -1638,6 +1868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt on CYP2D6 structural/hybrid variants; Historical supplement; current gene-drug page must be checked before application
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S232 - CPIC antidepressants 2023
 - URL: https://files.cpicpgx.org/data/guideline/publication/serotonin_reuptake_inhibitor_antidepressants/2023/37032427.pdf
@@ -1645,6 +1876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpts on guideline scope, modest proprietary-panel evidence and supported CYP markers; Full tables not read; no dosing advice derived
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S233 - ClinGen gene-disease validity
 - URL: https://www.clinicalgenome.org/docs/gene-disease-validity-classification-information/
@@ -1652,6 +1884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpts of framework and definitions; No individual gene-condition curation reviewed
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S234 - ClinGen actionability
 - URL: https://www.clinicalgenome.org/curation-activities/clinical-actionability/browse-curations/
@@ -1659,6 +1892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt of protocol and intervention-outcome purpose; No individual actionability score reviewed
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S235 - NHGRI diverse-population risk testing
 - URL: https://www.genome.gov/news/news-release/researchers-optimize-genetic-tests-for-diverse-populations-to-tackle-health-disparities
@@ -1666,6 +1900,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened extracted release on 2024 multi-ancestry work; Agency research summary, not model-specific validation
 - Purpose: Consumer genetic interpretation evidence and limitations
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S236 - NCBI ClinVar downloads
 - URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/downloads/
@@ -1673,6 +1908,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official documentation opened; downloadable formats and GRCh37 VCF scope reviewed
 - Purpose: Public reference retrieval and partial-coverage safeguards
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S237 - NCBI ClinVar FTP primer
 - URL: https://www.ncbi.nlm.nih.gov/clinvar/docs/ftp_primer/
@@ -1680,6 +1916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official extracted documentation reviewed by research agent; precise small-variant VCF and RCV association limits
 - Purpose: VCF is a partial aggregate annotation source
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S238 - NCBI ClinVar GRCh37 2026-10-04 public snapshot
 - URL: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/clinvar_20261004.vcf.gz
@@ -1687,6 +1924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official dated snapshot downloaded and official MD5 verified; VCF headers and streaming SNP index processed; no per-record clinical adjudication
 - Purpose: Reproducible offline public reference; refresh locally without sending genotype queries
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S239 - MyHeritage Health report accuracy documentation
 - URL: https://www.myheritage.com/help/en/articles/12851313-how-accurate-are-the-health-reports
@@ -1694,6 +1932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: GSA method, partial variant coverage, conditional Sanger confirmation claim; no individual confirmation inferred
 - Purpose: Provider feature claims and limits; not independent laboratory validation
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S240 - CDC MTHFR variants and folic acid
 - URL: https://www.cdc.gov/folic-acid/data-research/mthfr/index.html
@@ -1701,6 +1940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official current page read including common variant and folic acid sections; updated July16 2026
 - Purpose: Avoid unsupported methylation disease labels and genotype-only supplement changes
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S241 - NIDDK lactose intolerance diagnosis
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis
@@ -1708,6 +1948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: symptom assessment, differential and hydrogen breath testing; reviewed2018
 - Purpose: Genetic lactase persistence is distinct from current symptoms or acquired disease
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S242 - Lactase persistence genotype and dairy intake 2019 study
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6723957/
@@ -1715,6 +1956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary study excerpts read; full PMC open returned CAPTCHA
 - Purpose: Population association and marker orientation; no individual tolerance prediction
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S243 - NCBI Medical Genetics Summaries: lecanemab and APOE genotype
 - URL: https://www.ncbi.nlm.nih.gov/books/NBK605938/
@@ -1722,6 +1964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-index excerpts only; direct HTML returned CAPTCHA; PDF not yet fully reviewed
 - Purpose: APOE haplotype mapping and therapy-genotype context require source-section refresh
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S244 - GeneReviews Fabry disease
 - URL: https://www.ncbi.nlm.nih.gov/books/NBK1292/
@@ -1729,6 +1972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed summary/diagnostic and counseling sections read; direct HTML returned CAPTCHA; revision April11 2024
 - Purpose: General X-linked disease confirmation, enzyme activity and genetic counseling; no patient case
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S245 - GeneReviews Deafness-Dystonia-Optic Neuronopathy
 - URL: https://www.ncbi.nlm.nih.gov/books/NBK1216/
@@ -1736,6 +1980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed summary and diagnosis excerpts read; direct HTML returned CAPTCHA; update November21 2019
 - Purpose: General syndrome and variant-confirmation context
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S246 - ATP6AP2 altered splicing and X-linked parkinsonism primary study
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3723311/
@@ -1743,6 +1988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary abstract read; direct full text returned CAPTCHA
 - Purpose: A synonymous consequence need not imply benign function; mechanistic evidence limits
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S247 - WHO cognitive decline and dementia risk reduction second edition2026
 - URL: https://www.who.int/publications/i/item/9789240123557
@@ -1750,6 +1996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Actual official168-page PDF SHA matched. Selected viewer12–15(printedx–xiii),44–49(printed18–23) text read by packet researcher; root viewer1–5 and visual13,15 checked. Not full guideline/trials.
 - Purpose: Scope, update method, physical-activity cognitive-decline recommendation strength/certainty and validated status; not guaranteed dementia prevention.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S248 - WHO2026 dementia guideline official announcement
 - URL: https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed
@@ -1757,6 +2004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official full extracted announcement read; prevention behaviors, cardiometabolic management and no supplements without deficiency
 - Purpose: General prevention, not an individual or genotype-specific risk reduction percentage
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S249 - CPIC CYP2B6 and efavirenz current guideline page
 - URL: https://cpicpgx.org/guidelines/cpic-guideline-for-efavirenz-based-on-cyp2b6-genotype/
@@ -1764,6 +2012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML read: April2019 guideline and no dosing-update statement; allele resources linked; full tables not applied
 - Purpose: Gene-drug scope and clinical review; no array-based dosing
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S250 - CPIC CYP3A5 and tacrolimus2015 guideline
 - URL: https://files.cpicpgx.org/data/guideline/publication/tacrolimus/2015/25801146.pdf
@@ -1771,6 +2020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary PDF introduction and genotype interpretation excerpts read; current web route requires JavaScript; no dosing tables applied
 - Purpose: Gene-drug association does not generalize to all substrates
 - Checked: 2026-10-08
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S251 - OpenAI - moving workflows to plugins
 - URL: https://learn.chatgpt.com/docs/migrate-custom-gpts
@@ -1778,6 +2028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Integration and app-permission sections opened; no account-specific installation test
 - Purpose: Skills versus supported app actions; installed plugins do not grant file permissions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S252 - OpenAI - build an MCP server
 - URL: https://developers.openai.com/plugins/build/mcp-server
@@ -1785,6 +2036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: MCP tool/connection documentation opened; no remote service deployment tested
 - Purpose: Optional custom MCP tool surface; authorization and host testing remain necessary
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S253 - GeneReviews point-of-care overview
 - URL: https://ncbi.nlm.nih.gov/books/NBK1116/?partid=1455
@@ -1792,6 +2044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Extracted overview read; standard chapter scope and peer review examined; no complete disease chapter appraisal
 - Purpose: Clinical explanation, inheritance and counseling context
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S254 - Ahimaz et al. 2023 genetic counselor subspecialty survey
 - URL: https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1812
@@ -1799,6 +2052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract and resource-use table read; 178 experienced respondents in four subspecialties; not worldwide adoption statistics
 - Purpose: Documented use of GeneReviews and literature by a specified counselor cohort
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S255 - Allen et al. CanVIG-UK laboratory workflow survey, 2023
 - URL: https://eprints.whiterose.ac.uk/id/eprint/208847/1/jmg-2023-109645.full.pdf
@@ -1806,6 +2060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract and workflow/resource table read; 17 UK germline cancer laboratories; no international ranking
 - Purpose: Actual laboratory use, manual review and audit-trail limitations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S256 - ClinGen variant classification guidance, July 2025 page
 - URL: https://www.clinicalgenome.org/tools/clingen-variant-classification-guidance/
@@ -1813,6 +2068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation index and scope opened; individual specifications must be read for the relevant gene/criterion
 - Purpose: Current entry point for ACMG/AMP evidence specifications
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S257 - ClinGen public file downloads and APIs
 - URL: https://search.clinicalgenome.org/kb/downloads
@@ -1820,6 +2076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Download descriptions and exact public endpoints inspected; full gene-validity CSV fetched and schema tested; variant-pathogenicity CSV exceeds the bounded probe
 - Purpose: Public-only local evidence refresh; gene versus variant evidence scopes
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S258 - gnomAD variant interpretation paper, 2021 preprint
 - URL: https://arxiv.org/abs/2107.11458
@@ -1827,6 +2084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract read; full paper not appraised; a later published update exists
 - Purpose: Population-frequency evidence and limitations; not a standalone diagnosis
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S259 - OMIM phenotype-gene knowledgebase, 2019 resource paper
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/6323937/
@@ -1834,6 +2092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Extracted resource-description sections read; no case-specific OMIM entry evaluated
 - Purpose: Gene/phenotype and inheritance navigation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S260 - ELLA clinical variant interpretation software
 - URL: https://allel.es/
@@ -1841,6 +2100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official overview read: Oslo development, peer-review workflow, GPLv3 and air-gapped design; not deployed or clinically validated here
 - Purpose: Reproducible local review architecture
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S261 - Franklin workbench documentation
 - URL: https://help.genoox.com/en/articles/4277712-working-in-the-workbench
@@ -1848,6 +2108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official workbench description read; no account or proprietary classification engine tested
 - Purpose: Optional external variant-review candidate, not independent clinical confirmation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S262 - Franklin by QIAGEN privacy policy
 - URL: https://go.genoox.com/pp_franklinbyqiagen
@@ -1855,6 +2116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Submitted Data, separate processing addendum and community disclosure sections read; no customer contract reviewed
 - Purpose: Recipient-specific privacy review before genetic data disclosure
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S263 - VarSome API documentation overview
 - URL: https://landing.varsome.com/varsome-api
@@ -1862,6 +2124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official classification, Stable/Live/Staging and access descriptions read; API not called; pricing/contract not established
 - Purpose: Optional annotation API with version and source-provenance limits
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S264 - Alamut Visual Plus official product description
 - URL: https://www.sophiagenetics.com/sophia-ddm-for-genomics/alamut-visual-plus/
@@ -1869,6 +2132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official features read; no installation, account or accuracy comparison
 - Purpose: Professional visualization, splicing tools and source aggregation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S265 - IGV Desktop aligned-read guide
 - URL: https://igv.org/doc/desktop/UserGuide/tracks/alignments/viewing_alignments_basics/
@@ -1876,6 +2140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official BAM/SAM/CRAM input section read; no real reads viewed
 - Purpose: Local read inspection when an actual alignment is available
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S266 - GeneCards Suite terms of use
 - URL: https://www.lifemapsc.com/terms-of-use/
@@ -1883,6 +2148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Automated scraping and licensing sections read; not legal advice or a negotiated data license
 - Purpose: Manual navigation and licensed integration boundaries
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S267 - Adult basic life support Guidelines
 - URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines
@@ -1890,6 +2156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Emergency call, gasps, adult CPR/AED
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S268 - First Aid Guidelines
 - URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines
@@ -1897,6 +2164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Choking, anaphylaxis, bleeding, hypoglycemia, trauma; drowning, rescue breaths and safe water-rescue sections
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S269 - Paediatric Life Support (basic and advanced)
 - URL: https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines
@@ -1904,6 +2172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Paediatric BLS, choking, two-thumb infant thrusts, five initial breaths
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S270 - Part 6: Pediatric Basic Life Support
 - URL: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support
@@ -1911,6 +2180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Infant CPR techniques; infant heel-hand choking thrust; compressions-first distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S271 - Infant CPR
 - URL: https://cpr.heart.org/en/training-programs/community-programs/community-resources/infant-cpr
@@ -1918,6 +2188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Lay paediatric compressions/breaths and AED
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S272 - 2025 Guidelines Updates—Infant CPR Anytime
 - URL: https://cpr.heart.org/en/-/media/CPR-Files/Courses-and-Kits/CPR-Anytime/Infant-CPR-Anytime/KJ2004-2025-GL-Update-Infant-CPR-Anytime_260407_FINAL.pdf?sc_lang=en
@@ -1925,6 +2196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF_text_extracted
 - Purpose: Explicit heel-of-hand infant choking thrust change
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S273 - Adult & Child Choking: Symptoms and First Aid
 - URL: https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking
@@ -1932,6 +2204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Effective cough, 5/5 sequence, pregnancy/body-size adaptations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S274 - Infant Choking: How To Help
 - URL: https://www.redcross.org/take-a-class/resources/learn-first-aid/infant-choking
@@ -1939,6 +2212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Cough/cry assessment, infant positioning; comparison with current 2025 guidance
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S275 - Symptoms of a stroke
 - URL: https://www.nhs.uk/conditions/stroke/symptoms/
@@ -1946,6 +2220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: FAST plus other symptoms; symptoms resolved within 24h emergency
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S276 - Heart attack
 - URL: https://www.nhs.uk/conditions/heart-attack/
@@ -1953,6 +2228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Recognition, rest, no self-driving, aspirin context
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S277 - Poisoning
 - URL: https://www.nhs.uk/conditions/poisoning/
@@ -1960,6 +2236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Emergency symptoms, monitoring, no emesis/oral intake
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S278 - First aid: Act fast!
 - URL: https://www.poison.org/first-aid-for-poisonings
@@ -1967,6 +2244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: US number; eye/skin irrigation; caustic exception
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S279 - Paracetamol overdose
 - URL: https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/paracetamol-overdose
@@ -1974,6 +2252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Early wellness does not exclude poisoning; timing and combination medicines
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S280 - What is naloxone?
 - URL: https://www.poison.org/articles/what-is-naloxone
@@ -1981,6 +2260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Temporary reversal; product/local instructions; emergency assessment after response
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S281 - Low blood sugar (hypoglycaemia)
 - URL: https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/
@@ -1988,6 +2268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Conscious oral glucose versus unconscious no oral intake and prescribed glucagon
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S282 - What to do if someone has a seizure (fit)
 - URL: https://www.nhs.uk/symptoms/what-to-do-if-someone-has-a-seizure-fit/
@@ -1995,6 +2276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Protection, timing, ambulance triggers, trained existing plan
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S283 - Burns and scalds
 - URL: https://www.nhs.uk/conditions/burns-and-scalds/
@@ -2002,6 +2284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: 20min cooling, coverings, severe/chemical/electrical routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S284 - Broken bones and fractures
 - URL: https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/
@@ -2009,6 +2292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Support, open injury, sensation, major fracture routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S285 - Head injury and concussion
 - URL: https://www.nhs.uk/conditions/head-injury-and-concussion/
@@ -2016,6 +2300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Emergency and urgent-assessment warnings
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S286 - Sepsis
 - URL: https://www.nhs.uk/conditions/sepsis/
@@ -2023,6 +2308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Adults/children danger signs, temperature/rash limitations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S287 - Adrenaline Auto-Injectors (AAIs)
 - URL: https://www.gov.uk/government/publications/adrenaline-auto-injectors-aais-safety-campaign/adrenaline-auto-injectors-aais
@@ -2030,6 +2316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Lay/carer auto-injector action, posture and urgency
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S288 - EpiPen Adrenaline (Epinephrine) Auto-Injector 0.3mg SmPC
 - URL: https://www.medicines.org.uk/emc/medicine/26974
@@ -2037,6 +2324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Outer thigh, actual device instructions, 3-second hold
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S289 - 112 – the EU's emergency phone number
 - URL: https://digital-strategy.ec.europa.eu/en/policies/112
@@ -2044,6 +2332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: search_excerpt_only; direct_open_error
 - Purpose: 112 throughout EU
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S290 - New police and emergency-service numbers from 1 January
 - URL: https://www.srbija.gov.rs/vest/182468/od-1-januara-novi-brojevi-policije-i-hitnih-sluzbi.php
@@ -2051,6 +2340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: 194 ambulance and 112 emergency intervention
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S291 - Serbia Travel Advisory – emergency phone numbers
 - URL: https://travel.state.gov/en/international-travel/travel-advisories/serbia.html
@@ -2058,6 +2348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Independent current 194 ambulance corroboration
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S292 - Part 7: Adult Basic Life Support
 - URL: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
@@ -2065,6 +2356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Recognition, no lay pulse delay, compressions-only fallback, CPR/AED sequence and quality
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S293 - European Resuscitation Council Guidelines 2025 First Aid
 - URL: https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf
@@ -2072,6 +2364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Glucose route, glucagon training, naloxone and regional medicine options; heat stroke and hypothermia sections
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S294 - Severe Bleeding First Aid
 - URL: https://www.sja.org.uk/first-aid-advice/severe-bleeding/
@@ -2079,6 +2372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Pressure and bleeding first-aid context
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S295 - Heat exhaustion and heatstroke
 - URL: https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/
@@ -2086,6 +2380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Cooling, danger signs and mild heat-exhaustion contrast
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S296 - Hypothermia
 - URL: https://www.nhs.uk/conditions/hypothermia/
@@ -2093,13 +2388,15 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Shelter/insulation, safe-swallow drink boundary, avoid direct intense heat
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S297 - Asthma
 - URL: https://www.nhs.uk/conditions/asthma/
 - Region: UK NHS
-- Reading status: relevant_sections_opened_and_read
+- Reading status: relevant_sections_opened_and_read | Selected source reconciliation 2026-10-18: Symptoms, clinical assessment/breathing tests, varying symptoms and existing action plan. Rescue puff schedules not adopted. Displayed source version: Reviewed 2025-04-07. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
 - Purpose: Existing reliever plan, SABA versus AIR/MART distinction, emergency and post-attack review
-- Checked: 2026-10-09
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S298 - ATC/DDD Index 2026
 - URL: https://atcddd.fhi.no/atc_ddd_index/
@@ -2107,6 +2404,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full index landing page inspected; individual classes not exhaustively opened
 - Purpose: Classification navigation and limits
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S299 - WHO Model Lists of Essential Medicines
 - URL: https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists/
@@ -2114,6 +2412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Landing page and search excerpts inspected; list PDF not fully read
 - Purpose: Essential-medicine scope and adult/child distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S300 - EMA medicine finder
 - URL: https://www.ema.europa.eu/en/medicines
@@ -2121,6 +2420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Landing page inspected
 - Purpose: Central approval versus national registers and research/approval distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S301 - FDA Drug Approvals and Databases
 - URL: https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases
@@ -2128,6 +2428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpts inspected
 - Purpose: Approval history and safety database navigation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S302 - FDA Online Label Repository
 - URL: https://labels.fda.gov/
@@ -2135,6 +2436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered disclaimer inspected
 - Purpose: Submitted label versus approved-label distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S303 - DailyMed
 - URL: https://dailymed.nlm.nih.gov/
@@ -2142,6 +2444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered landing information inspected; direct search URLs failed About DailyMed overview/disclaimer directly read2026-10-17: submitted in-use text may differ from current FDA-approved labeling; not independent clinical evidence.
 - Purpose: In-use labeling navigation
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S304 - NICE NG238 cardiovascular risk and lipid modification
 - URL: https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3
@@ -2149,6 +2452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct standard URL 403; search-rendered recommendation/rationale sections inspected
 - Purpose: Primary/secondary prevention and additional-agent eligibility
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S305 - NICE NG28 initial medicines
 - URL: https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines
@@ -2156,6 +2460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered section 1.13 and rationale inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S306 - GOLD 2026 Report
 - URL: https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf
@@ -2163,6 +2468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search PDF excerpt inspected only
 - Purpose: COPD-specific guideline route
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S307 - WHO AWaRe antibiotic book
 - URL: https://www.who.int/publications/i/item/9789240062382
@@ -2170,6 +2476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Publication landing information inspected
 - Purpose: Site-specific antibiotic/stewardship route
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S308 - NICE NG5 Medicines optimisation
 - URL: https://www.nice.org.uk/Guidance/NG5?print=true
@@ -2177,6 +2484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview and full-guideline structured-review search excerpts inspected; direct recommendations 403
 - Purpose: Reconciliation and structured medication review
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S309 - NHS SPS Advising on missed or delayed doses
 - URL: https://sps.nhs.uk/articles/advising-on-missed-or-delayed-doses-of-medicines/
@@ -2184,6 +2492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered page incl high-risk scope and general advice inspected
 - Purpose: Exact leaflet and high-risk missed-dose routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S310 - NCCIH Using Dietary Supplements Wisely
 - URL: https://www.nccih.nih.gov/health/using-dietary-supplements-wisely
@@ -2191,6 +2500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Web page retrieved; safety/interaction navigation inspected
 - Purpose: Include supplement exposures and do not infer natural safety
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S311 - CDC Clinical Practice Guideline at a Glance
 - URL: https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html
@@ -2198,6 +2508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full at-a-glance web page inspected
 - Purpose: Adult outpatient scope, flexibility, exclusions and no abrupt policy withdrawal
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S312 - WHO Rehabilitation fact sheet
 - URL: https://www.who.int/news-room/fact-sheets/detail/rehabilitation
@@ -2205,6 +2516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full fact sheet inspected
 - Purpose: Function/participation and concurrent rehabilitation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S313 - NICE NG193 chronic primary pain recommendations
 - URL: https://www.nice.org.uk/guidance/ng193/chapter/recommendations
@@ -2212,6 +2524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered sections 1.2.1-1.2.4 and rationale excerpts inspected; direct capitalized page 403
 - Purpose: Exercise and trained ACT/CBT for chronic primary pain
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S314 - NCI Types of Cancer Treatment
 - URL: https://www.cancer.gov/about-cancer/treatment/types
@@ -2219,6 +2532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Types landing page inspected
 - Purpose: Cancer method map and indication-specific treatment navigation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S315 - DailyMed lisinopril oral tablet label
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db5bfa2f-07b8-4f79-8a40-691da006e2ed
@@ -2226,6 +2540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected
 - Purpose: Selected ACE safety example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S316 - DailyMed lithium carbonate tablets/capsules
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec
@@ -2233,6 +2548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered pretreatment/renal/toxicity sections inspected
 - Purpose: Lithium monitoring and clearance example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S317 - DailyMed methotrexate tablets
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=948e0bab-6524-4b87-9853-1799d4415558
@@ -2240,6 +2556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered indications and fatal schedule-error warning inspected
 - Purpose: Weekly inflammatory versus varying oncology schedules; urgent error routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S318 - DailyMed metformin extended-release tablet
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e41818c-60e9-4bcf-9586-7bb8d33d5e89
@@ -2247,6 +2564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered lactic-acidosis risk-factor excerpt inspected
 - Purpose: Organ/illness modifiers example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S319 - DailyMed Jardiance empagliflozin tablet
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59ed43d9-b4e0-72a2-e063-6394a90a327d
@@ -2254,6 +2572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered ketoacidosis precipitating-factor and glucose-independent assessment excerpts inspected
 - Purpose: SGLT2 acute-risk example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S320 - DailyMed prednisone label PDF
 - URL: https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=2a053775-6f6a-455e-b9a8-8b60e6062db3&type=pdf
@@ -2261,6 +2580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered HPA suppression and infection excerpts inspected
 - Purpose: Systemic steroid cumulative/withdrawal example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S321 - DailyMed sertraline HCl capsules
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c8bcba9-eaeb-aa44-f9ea-b580de55a439
@@ -2268,6 +2588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-rendered serotonin/bleeding/discontinuation warnings inspected
 - Purpose: Selected antidepressant interaction example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S322 - Healthy diet
 - URL: https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet
@@ -2275,6 +2596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML read: principles, carbohydrate/fibre, sugar, fat, salt/potassium
 - Purpose: Population reference targets and food pattern
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S323 - Food energy: methods of analysis and conversion factors, chapter 4
 - URL: https://www.fao.org/4/y5022e/y5022e05.htm
@@ -2282,6 +2604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full short HTML chapter read
 - Purpose: General factors, available carbohydrate, fibre, polyols and alcohol
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S324 - Regulation (EU) No 1169/2011 consolidated 1 April 2025
 - URL: https://faolex.fao.org/docs/pdf/eur128444.pdf
@@ -2289,6 +2612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: FAOLEX-hosted primary regulation PDF text: Annex I definitions, XIV factors, XV units read
 - Purpose: Carbohydrate/fibre, salt equivalent and energy factors
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S325 - How to Understand and Use the Nutrition Facts Label
 - URL: https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label
@@ -2296,6 +2620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML serving information, calorie, nutrient and sugar sections read
 - Purpose: Serving denominators, total/added sugars and label reference values
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S326 - DASH: Following DASH
 - URL: https://www.nhlbi.nih.gov/health/dash/following-dash
@@ -2303,6 +2628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML getting started, calorie-needs and serving-table context read
 - Purpose: Flexible DASH pattern and energy-dependent servings
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S327 - ACC Consensus on ASCVD Risk Reduction in Hypertriglyceridemia: Key Points
 - URL: https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2021/07/27/21/04/2021-ACC-ECDP-Hypertriglyceridemia
@@ -2310,6 +2636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official society HTML key points read, especially 3-6 and severe triglycerides
 - Purpose: Secondary causes, referral, severity-dependent diets and medicine complementarity
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S328 - Healthy Eating for Adults with Chronic Kidney Disease
 - URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease
@@ -2317,6 +2644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML nutrition, potassium, protein, fluid and dietitian sections read
 - Purpose: No universal renal diet; stage, labs, dialysis and nutritional adequacy
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S329 - Chronic heart failure in adults: diagnosis and management, recommendations
 - URL: https://www.nice.org.uk/guidance/ng106/chapter/recommendations
@@ -2324,6 +2652,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary recommendation excerpts read: 1.9.10-1.9.11; direct HTML failed
 - Purpose: Do not routinely restrict fluid/sodium; avoid potassium salt substitutes
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S330 - Eating disorders: recognition and treatment, recommendations
 - URL: https://www.nice.org.uk/guidance/ng69/chapter/recommendations
@@ -2331,6 +2660,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary excerpts read: identification, 1.10.1-1.10.3; direct HTML and PDF failed/403
 - Purpose: Early referral, BMI/screening limits, compensatory behavior and emergency deterioration
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S331 - Maternal and child nutrition: nutrition and weight management in pregnancy, and nutrition in children up to 5 years
 - URL: https://www.nice.org.uk/guidance/ng247/chapter/recommendations
@@ -2338,6 +2668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary excerpts read: vitamin/life-stage advice, breastfeeding, 1.2.15; direct HTML/PDF failed/403
 - Purpose: No intentional pregnancy weight loss; breastfeeding and age-specific safeguards
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S332 - The vegan diet
 - URL: https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/
@@ -2345,6 +2676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML nutrient adequacy, fortification, B12, calcium/iron and life stages read
 - Purpose: Reliable nutrient sources and planning across life stages
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S333 - Food allergy
 - URL: https://www.nhs.uk/conditions/food-allergy/
@@ -2352,6 +2684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML symptoms, emergency warning, investigation and specialist plan sections read
 - Purpose: Anaphylaxis routing, specialist diagnosis and exact rescue plan
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S334 - Food intolerance
 - URL: https://www.nhs.uk/conditions/food-intolerance/
@@ -2359,6 +2692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML mechanisms, tests, home-test limitations and exclusion risks read
 - Purpose: Separate intolerance from allergy; avoid broad unsupported exclusions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S335 - Probiotics: Health Professional Fact Sheet
 - URL: https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/
@@ -2366,6 +2700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML strain specificity, clinical evidence context and safety considerations read
 - Purpose: Strain/indication-specific evidence, immune compromise and premature infant safety
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S336 - Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/
@@ -2373,6 +2708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected
 - Purpose: 20-adult crossover, 14 days per diet, energy intake and weight; mechanism limits
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S337 - Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition, recommendations
 - URL: https://www.nice.org.uk/guidance/cg32/chapter/recommendations
@@ -2380,6 +2716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary excerpts read: 1.2 screening, 1.3 risk, 1.4 refeeding; direct HTML/PDF failed/403
 - Purpose: Unintentional loss, low intake, swallowing and nutrition support referral
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S338 - Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes—2026
 - URL: https://doi.org/10.2337/dc26-S005
@@ -2387,6 +2724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed primary detailed excerpts read: meal planning, macro individualization, 5.26 SGLT/ketogenic warning; direct HTML/PDF failed/403
 - Purpose: Individualized nutrition, no universal macro distribution and ketogenic SGLT caution
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S339 - The American Heart Association Diet and Lifestyle Recommendations
 - URL: https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations
@@ -2394,6 +2732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML entire short food-pattern section read; official 2026 statement hub verified
 - Purpose: Current food pattern and saturated-to-unsaturated substitutions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S340 - Healthy Living with Diabetes
 - URL: https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes
@@ -2401,6 +2740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML meal timing, medicine-related low glucose, carb counting and plate method read
 - Purpose: Meal changes and insulin/sulfonylurea risks; existing care plan
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S341 - Anatomy & Physiology Module Map
 - URL: https://training.seer.cancer.gov/anatomy/?map=&view=searchengine
@@ -2408,6 +2748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Module map inspected
 - Purpose: system coverage
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S342 - Introduction to the Nervous System
 - URL: https://training.seer.cancer.gov/anatomy/nervous/
@@ -2415,6 +2756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: sensory integration motor and homeostasis
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S343 - Introduction to the Endocrine System
 - URL: https://training.seer.cancer.gov/anatomy/endocrine/
@@ -2422,6 +2764,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: hormonal versus ductal signaling
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S344 - Structure of the Heart
 - URL: https://training.seer.cancer.gov/anatomy/cardiovascular/heart/structure.html
@@ -2429,6 +2772,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main organ section read
 - Purpose: chambers valves coronary supply
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S345 - Circulatory Pathways
 - URL: https://training.seer.cancer.gov/anatomy/cardiovascular/blood/pathways.html
@@ -2436,6 +2780,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main pathway section read
 - Purpose: systemic pulmonary major arterial territories
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S346 - Introduction to the Respiratory System
 - URL: https://training.seer.cancer.gov/anatomy/respiratory/
@@ -2443,6 +2788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: ventilation transport gas exchange pH
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S347 - Accessory Organs
 - URL: https://training.seer.cancer.gov/anatomy/digestive/regions/accessory.html
@@ -2450,6 +2796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main organ section read
 - Purpose: liver portal supply gallbladder pancreas
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S348 - Kidneys
 - URL: https://training.seer.cancer.gov/anatomy/urinary/components/kidney.html
@@ -2457,6 +2804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main organ section read
 - Purpose: location hilum nephron urinary drainage
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S349 - Introduction to the Lymphatic System
 - URL: https://training.seer.cancer.gov/anatomy/lymphatic/
@@ -2464,6 +2812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: fluid return fats immune connections
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S350 - Introduction to the Reproductive System
 - URL: https://training.seer.cancer.gov/anatomy/reproductive/
@@ -2471,6 +2820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: gametes gonads hormones
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S351 - Introduction to the Skeletal System
 - URL: https://training.seer.cancer.gov/anatomy/skeletal/
@@ -2478,6 +2828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: support protection calcium marrow
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S352 - Introduction to the Muscular System
 - URL: https://training.seer.cancer.gov/anatomy/muscular/
@@ -2485,6 +2836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main introductory section read
 - Purpose: contraction movement posture heat
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S353 - Epidermis, Dermis and Skin Senses Program
 - URL: https://www.niams.nih.gov/grants-funding/supported-scientific-areas/extracellular-matrix-biology-and-diseases
@@ -2492,6 +2844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Accessible main research portfolio text read
 - Purpose: barrier matrix and sensory systems
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S354 - Demographics & eGFR Accuracy
 - URL: https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/demographics
@@ -2499,6 +2852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant equation and accuracy sections inspected
 - Purpose: race-free equations uncertainty combined estimate
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S355 - Sex as a Biological Variable
 - URL: https://orwh.od.nih.gov/sex-as-biological-variable
@@ -2506,6 +2860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Accessible policy overview inspected; linked report not fully read
 - Purpose: sex-aware research interpretation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S356 - Use of Population Descriptors in Genomics
 - URL: https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics
@@ -2513,6 +2868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definitions and proxy cautions read
 - Purpose: race ethnicity ancestry distinctions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S357 - Treatment of Uncomplicated Malaria
 - URL: https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html
@@ -2520,6 +2876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Anti-relapse G6PD and pregnancy subsection inspected; no regimen copied
 - Purpose: quantitative G6PD testing medicine-specific example
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S358 - Sickle Cell Disease Diagnosis
 - URL: https://www.nhlbi.nih.gov/health/sickle-cell-disease/diagnosis
@@ -2527,6 +2884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Blood genetic and screening sections inspected
 - Purpose: individual testing and confirmation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S359 - Pulse Oximeters
 - URL: https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
@@ -2534,6 +2892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Device limitations and FDA efforts sections inspected Selected consumer description/limitations refreshed2026-10-17; linked January2025 draft is separately S730, not independent performance validation.
 - Purpose: skin pigmentation limits and symptom context
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S360 - Anatomy and Physiology 2e introduction: current rights restriction
 - URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
@@ -2541,6 +2900,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Introduction objectives and licensing inspected only; no chapters ingested On 2026-10-17 the current OpenStax licensing/footer was rechecked; no chapter content newly studied.
 - Purpose: Bibliographic and rights pointer only. Current publisher terms require prior written permission for LLM/generative-AI ingestion; none verified. No chapter-derived knowledge adopted.
 - Checked: 2026-10-17
+- Active-use disposition: rights_metadata_only (not a permission grant)
 
 ### S361 - WHO: Endometriosis
 - URL: https://www.who.int/news-room/fact-sheets/detail/endometriosis
@@ -2548,6 +2908,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct official full fact sheet inspected: overview, symptoms, causes, diagnosis, treatment, burden and WHO response.
 - Purpose: Definitions; approximate global prevalence and diagnostic delay; distinction between no universal cure and available effective care; inclusive population framing.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S362 - NICE NG73: Endometriosis—diagnosis and management, recommendations
 - URL: https://www.nice.org.uk/guidance/ng73/chapter/Recommendations
@@ -2555,6 +2916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official page directly returned 403. Official indexed recommendation text inspected across targeted searches: 1.3 recognition; 1.4 analgesia/hormones; 1.5 referral and ultrasound; 1.6 imaging/biomarkers/laparoscopy; 1.7 monitoring; 1.9 surgery; 1.10 fertility. Historical reading on 2026-10-09 retained. On 2026-10-17 only policy status was reviewed; no clinical content newly retrieved.
 - Purpose: Bibliographic only under current source-use policy until separate AI-use permission is verified. Not active clinical evidence for the revised endometriosis passages.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S363 - ESHRE Guideline: Endometriosis (2022)
 - URL: https://www.eshre.eu/-/media/sitecore-files/Guidelines/Endometriosis/ESHRE-GUIDELINE-ENDOMETRIOSIS-2022_1.pdf
@@ -2562,6 +2924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF accessible; selected recommendation and supporting sections inspected: summary pp. 9–17, diagnosis and pain, surgery pp. 53–61, pre/postoperative treatment pp. 67–68, infertility pp. 81–105, adolescence pp. 123–135, menopause pp. 137–147, extrapelvic disease pp. 148–153. Not all 192 pages read. Additional reading on 2026-10-17: PDF/printed pp. 9, 11, 21-22, 27, 29, 31-32, 35-36, 67-68 and 125-126; pages 29, 35, 67 and 125 visually checked. Source papers cited within those pages were not independently appraised.
 - Purpose: Treatment categories; laparoscopy and imaging; ovarian reserve and ART; deep-surgery uncertainty; adolescent/menopause/extrapelvic care.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S364 - ACOG publishes new endometriosis clinical guidance aiming to shorten time to diagnosis and improve access to care
 - URL: https://www.acog.org/news/news-releases/2026/02/acog-publishes-new-endometriosis-clinical-guidance-aiming-shorten-time-diagnosis-improve-access-care
@@ -2569,6 +2932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official announcement inspected through indexed text; direct article/guideline access failed. Full CPG was not read.
 - Purpose: Current official confirmation of presumptive clinical diagnosis and empirical management while evaluation proceeds; recognition and access barriers.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S365 - Non-invasive imaging techniques for diagnosis of pelvic deep endometriosis and endometriosis classification systems: an International Consensus Statement
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11366111/
@@ -2576,6 +2940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Accessible full article; introduction, site-specific ultrasound/MRI performance, recommendations, classification and limitations inspected. Co-publication not counted as an independent source.
 - Purpose: Trained-operator imaging; deep-lesion mapping; anatomical and technique-dependent limitations; distinction between imaging classification and symptoms.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S366 - ESGE/ESHRE/WES: Recommendations for the surgical treatment of endometriosis, Part 2: deep endometriosis
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7013143/
@@ -2583,6 +2948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PMC direct view challenged; official journal/PMC indexed sections on ureteral disease, hydronephrosis, kidney assessment, bowel/bladder surgery and multidisciplinary planning inspected. Institutional PDF alternative failed.
 - Purpose: Silent urinary obstruction and renal risk; specialist organ assessment; deep-surgery selection, consent and complications.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S367 - The Asian Society of Endometriosis and Adenomyosis guidelines for managing adenomyosis
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10493363/
@@ -2590,6 +2956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PMC retrieval challenged; indexed introduction, diagnostic/imaging section 3.2 and selected management/fertility sections inspected.
 - Purpose: Adenomyosis versus extrauterine endometriosis; coexistence; imaging and uterine/fertility implications.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S368 - NHS: Pelvic pain
 - URL: https://www.nhs.uk/symptoms/pelvic-pain/
@@ -2597,6 +2964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct page fully inspected: causes, urgent and emergency action thresholds.
 - Purpose: Safety triage and alternatives; severe/worsening pain, pregnancy possibility, bleeding, faintness, fever, bowel/urinary problems.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S369 - CDC: U.S. Medical Eligibility Criteria for Contraceptive Use—summary classifications
 - URL: https://www.cdc.gov/contraception/hcp/usspr/classifications-mec-contraception.html
@@ -2604,6 +2972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct summary tables inspected for endometriosis, migraine, smoking, thrombosis, hypertension, breast cancer and liver disease.
 - Purpose: Method-specific contraceptive contraindication categories; avoid treating all hormones as a single safety category.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S370 - HALMED: Visanne (dienogest), Summary of Product Characteristics
 - URL: https://www.halmed.hr/upl/lijekovi/SPC/Visanne-SPC.pdf
@@ -2611,6 +2980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF failed; official indexed sections 4.2–4.4, contraindications, contraception and adolescent bone discussion inspected.
 - Purpose: Dienogest endometriosis formulation is not a contraceptive; jurisdiction/formulation safety distinctions.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S371 - FDA: Lupron Depot 11.25 mg (leuprolide acetate) prescribing information
 - URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020708s040s041lbl.pdf
@@ -2618,6 +2988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct label PDF; indications, duration limits, contraindications, warnings, add-back, bone safety and clinical pharmacology inspected.
 - Purpose: GnRH agonist mechanism, initial flare, add-back purpose, restricted duration, formulation and safety distinctions.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S372 - DailyMed: Orilissa (elagolix), US prescribing information
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66
@@ -2625,6 +2996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct label; sections 1, 2, 4, 5 and 7 inspected for indication, duration, pregnancy, bone/mood/liver risks and interactions.
 - Purpose: US elagolix monotherapy indication and limits; avoid assuming contraceptive protection or arbitrary add-back.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S373 - FDA: Myfembree (relugolix, estradiol, norethindrone acetate) prescribing information
 - URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214846s012lbl.pdf
@@ -2632,6 +3004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF; indication, duration, boxed warning, contraindications, bone/mood safety, interactions, contraception and endometriosis trials inspected.
 - Purpose: US fixed-combination indication, 24-month limit, baseline/annual endometriosis bone assessment, nonhormonal contraception and major safety categories.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S374 - EMA: Ryeqo, product information
 - URL: https://www.ema.europa.eu/en/documents/product-information/ryeqo-epar-product-information_en.pdf
@@ -2639,6 +3012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct 42-page product-information PDF; SmPC sections 4.1–4.4, contraception, bone-density monitoring and 5.1 efficacy inspected; not every annex line read.
 - Purpose: EU indication after prior medical/surgical treatment, continuous-use wording, contraception after first month and monitoring/contraindication differences from US.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S375 - EMA: Yselty (linzagolix), European public assessment report overview
 - URL: https://www.ema.europa.eu/en/medicines/human/EPAR/yselty
@@ -2646,6 +3020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct official overview fully inspected, including indication, benefits, risks and use with add-back. Linked full current SmPC retrieval failed. Earlier overview-only/failed SmPC scope retained. On2026-10-17 researcher selected current SmPC2-10/14-16; root text9/14-16, visual9/15/16. No printed revision date established; whole43page label unread. Independent assessment is S737.
 - Purpose: Current EU endometriosis indication after prior treatment and with hormonal add-back; distinction from fibroid indications.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
 - URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
@@ -2653,6 +3028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read.
 - Purpose: 24-week randomized pain efficacy; absolute comparator rates; distinction between response and cure.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S377 - Linzagolix therapy for endometriosis-associated pain: EDELWEISS 3 randomized phase 3 study
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11144970/
@@ -2660,6 +3036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Accessible full article; selected methods, coprimary endpoints, results, safety, post-treatment observations and discussion inspected.
 - Purpose: 486-participant trial; three-month pain responses; lower-dose monotherapy did not meet both coprimary endpoints.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S378 - EDELWEISS 6: long-term efficacy and safety of linzagolix for endometriosis-associated pain
 - URL: https://pubmed.ncbi.nlm.nih.gov/42077502/
@@ -2667,6 +3044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract and declared conflicts inspected; full extension report/supplements not read.
 - Purpose: Twelve-month extension results, continued improvement among selected completers, and interpretation limits.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S379 - Long acting progestogens versus combined oral contraceptive pill for preventing recurrence of endometriosis-related pain: PRE-EMPT randomized controlled trial
 - URL: https://www.bmj.com/content/385/bmj-2023-079006
@@ -2674,6 +3052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct article blocked; extensive indexed methods, results, participant characteristics and limitations inspected.
 - Purpose: Pragmatic postoperative comparison, similar pain outcomes, retreatment differences and preference-sensitive choice.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S380 - Laparoscopic surgery in infertile women with minimal or mild endometriosis
 - URL: https://pubmed.ncbi.nlm.nih.gov/9227926/
@@ -2681,6 +3060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed abstract methods, 341-participant randomization, continuing-pregnancy results and complications inspected.
 - Purpose: Original randomized evidence supporting selected mild-disease surgery; clearly distinguish continuing pregnancy from live birth.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S381 - Dichloroacetate for the treatment of endometriosis-associated pain (EPiC1): a single-arm feasibility study
 - URL: https://research.birmingham.ac.uk/en/publications/dichloroacetate-for-the-treatment-of-endometriosis-associated-pai/
@@ -2688,6 +3068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Publisher direct access blocked; complete original abstract directly read on the author-institution repository, including methods, recruitment, completion, neuropathy, interpretation and funding. Full article and supplements not read.
 - Purpose: Investigational nonhormonal approach, feasibility versus efficacy, completion and peripheral neuropathy findings.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S382 - Safety and pharmacokinetics of AMY109, an anti-interleukin-8 antibody, in healthy volunteers and patients with endometriosis: phase 1 study
 - URL: https://pubmed.ncbi.nlm.nih.gov/41054739/
@@ -2695,6 +3076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed original-study abstract inspected for design, participants, safety and pharmacokinetics; direct PubMed view did not return article content.
 - Purpose: Stage-appropriate interpretation of anti-IL-8 research; small endometriosis sample; not an approved therapy.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S383 - Chugai Pharmaceutical Annual Report 2025: development portfolio and July 2025 discontinuations
 - URL: https://www.chugai-pharm.co.jp/english/ir/reports_downloads/annual_reports/files/eAR2025_12_spread.pdf
@@ -2702,6 +3084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF text inspected at printed pp. 40–41 and 48–49, PDF spreads 21 and 25. Explicit paragraph and project list identify July 2025 in-house AMY109 discontinuation. Screenshot attempt failed; textual statement was accessible.
 - Purpose: Correct outdated claims that AMY109 continues as an active in-house development program.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S384 - Validation of a Saliva Micro-RNA Signature for Endometriosis
 - URL: https://pubmed.ncbi.nlm.nih.gov/41147827/
@@ -2709,6 +3092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
 - Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S385 - French Ministry of Health: experimental Endotest saliva-test access to improve endometriosis diagnosis
 - URL: https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/endometriose/article/experimentation-d-un-test-salivaire-endotest-r-pour-ameliorer-les-conditions-de
@@ -2716,6 +3100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed page content inspected; direct page returned minimal nonarticle HTML. Selected-center trial/innovation-funding framework reviewed.
 - Purpose: Distinguish jurisdiction-specific innovation access and evaluation from universal routine screening or global approval.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S386 - Single-cell transcriptomic analysis of endometriosis
 - URL: https://www.nature.com/articles/s41588-022-01254-1
@@ -2723,6 +3108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed abstract and selected methods/results descriptions inspected; publication details cross-checked. Full supplements and computational code not assessed.
 - Purpose: Cellular heterogeneity, immune/stromal/vascular microenvironments, research-to-clinic distinction.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S387 - Association of Central Sensitization Inventory Scores With Pain Outcomes After Endometriosis Surgery
 - URL: https://pubmed.ncbi.nlm.nih.gov/36848090/
@@ -2730,6 +3116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed full abstract methods/results/limitations inspected: 239 participants, follow-up and adjusted associations.
 - Purpose: Persistent pain and need to assess multiple contributors; avoid equating lesion removal with guaranteed pain resolution.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S388 - AHA Home Blood Pressure Measurement Instructions
 - URL: https://professional.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/How_to_Measure_Your_Blood_Pressure_Letter_Size.pdf
@@ -2737,6 +3124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full one-page PDF inspected
 - Purpose: Preparation, posture, repeats and symptom-based severe pressure routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S389 - 2025 AHA/ACC high blood pressure guideline: Top Things to Know
 - URL: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know
@@ -2744,6 +3132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official summary inspected; full guideline not read
 - Purpose: US categories, targets, combinations, cuffless limits, asymptomatic severe pathway
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S390 - NICE NG133 recommendations
 - URL: https://www.nice.org.uk/guidance/ng133/chapter/recommendations
@@ -2751,6 +3140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S391 - NHS Low blood pressure
 - URL: https://www.nhs.uk/conditions/low-blood-pressure-hypotension/
@@ -2758,6 +3148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Page inspected
 - Purpose: Symptoms versus asymptomatic baseline and cause-directed review
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S392 - ADA Diagnosis and Classification of Diabetes: Standards of Care 2026
 - URL: https://doi.org/10.2337/dc26-s002
@@ -2765,6 +3156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed diagnostic sections inspected; direct full page unavailable
 - Purpose: Confirmation, laboratory criteria and classification context
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S393 - ADA Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises 2026
 - URL: https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic
@@ -2772,6 +3164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed relevant recommendations inspected; direct 403
 - Purpose: Individualized goals, recurrent/severe hypoglycemia and acute crisis route
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S394 - DailyMed Lantus and Lantus SoloStar label
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5e07a0c-7e14-4756-9152-9fea485d654a
@@ -2779,6 +3172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Administration, warnings, patient instructions inspected
 - Purpose: U-100 product, subcutaneous route, mixing/pump restrictions, rotation and sharing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S395 - NHS Diabetic ketoacidosis
 - URL: https://www.nhs.uk/conditions/diabetic-ketoacidosis/
@@ -2786,6 +3180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and urgent/emergency sections inspected
 - Purpose: Symptoms without ketone availability and emergency pathway
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S396 - KDIGO 2024 CKD Clinical Practice Guideline
 - URL: https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2024-CKD-Guideline.pdf
@@ -2793,6 +3188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document 2026-10-17: researcher/root additionally selected recommendations3.6.4,3.7.1,3.9.1 and related practice points from the same2024 edition; root text and licence notice read, web screenshot pixels not available and native PDF download returned403. No claim of visual/page-complete review or primary-trial appraisal.
 - Purpose: Chronicity versus AKI, cardiorenal context and monitoring
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S397 - GINA Summary Guide for Asthma Management and Prevention 2026
 - URL: https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf
@@ -2800,6 +3196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant diagnosis, technique, review, ICS and action-plan sections inspected; not full guide
 - Purpose: Asthma diagnosis/plan/technique and regimen-specific controller/reliever distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S398 - NICE NG115 recommendations
 - URL: https://www.nice.org.uk/guidance/ng115/chapter/Recommendations
@@ -2807,6 +3204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed spirometry and inhaled-treatment sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S399 - AHA official explanation of 2022 AHA/ACC/HFSA HF guideline
 - URL: https://newsroom.heart.org/news/acc-aha-hfsa-issue-heart-failure-guideline
@@ -2814,6 +3212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official explanation sections on stages, phenotype and medication classes inspected
 - Purpose: Complementary HFrEF drug classes, diuretics and coordinated care
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S400 - ESC 2026 Heart Failure guideline landing page
 - URL: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure
@@ -2821,6 +3220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Landing page and rights text only; full guideline not read
 - Purpose: Discovery and freshness metadata only; no clinical recommendation encoding
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S401 - AHA Key Patient Messages: 2023 Chronic Coronary Disease Guideline
 - URL: https://professional.heart.org/en/science-news/patient-resources/key-patient-messages-2023-chronic-coronary-disease-guideline
@@ -2828,6 +3228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official patient messages inspected
 - Purpose: Secondary prevention, statins, monitoring and care team
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S402 - AHA/ASA 2021 secondary stroke prevention: Top Things to Know
 - URL: https://professional.heart.org/en/science-news/2021-guideline-for-the-prevention-of-stroke-in-patients-with-stroke-and-transient-ischemic-attack/top-things-to-know
@@ -2835,6 +3236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official summary points 1-10 inspected
 - Purpose: Etiology, antithrombotic distinctions and vascular risk management
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S403 - AHA 2023 AF guideline: Top Things to Know
 - URL: https://professional.heart.org/en/science-news/2023-acc-aha-accp-hrs-guideline-for-the-diagnosis-and-management-of-atrial-fibrillation/top-things-to-know
@@ -2842,6 +3244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official summary inspected; full guideline not read
 - Purpose: Risk reassessment, comorbidity and shared management
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S404 - NICE NG56 recommendations
 - URL: https://www.nice.org.uk/guidance/ng56/chapter/recommendations
@@ -2849,6 +3252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed sections 1.1-1.6 inspected; direct 403 Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S405 - NICE NG226 recommendations
 - URL: https://www.nice.org.uk/guidance/ng226/chapter/Recommendations
@@ -2856,6 +3260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed exercise/function and pharmacological sections inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S406 - NICE NG100 recommendations
 - URL: https://www.nice.org.uk/guidance/ng100/chapter/Recommendations
@@ -2863,6 +3268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed referral and urgent septic-arthritis recommendation inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S407 - NICE NG246 Medicines and surgery
 - URL: https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery
@@ -2870,6 +3276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed medicine section and eligibility table inspected Historical reading retained; current source-use policy limits this identified NICE work to bibliographic use pending matching permission. No new clinical text reading in cycle011.
 - Purpose: Bibliographic/historical record only under current source-use policy; cycle011 corrects selected CHRONIC assertions, not every legacy dependent passage.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S408 - AHA official explanation: ACC/AHA updated dyslipidemia guideline
 - URL: https://newsroom.heart.org/news/accaha-issue-updated-guideline-for-managing-lipids-cholesterol
@@ -2877,6 +3284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official news explanation inspected; professional Top Things to Know summary also inspected; full guideline not read
 - Purpose: Risk-specific LDL goals, primary versus secondary prevention and clinician-selected adjunct classes
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S409 - NINDS Brain Basics
 - URL: https://www.ninds.nih.gov/health-information/public-education/brain-basics
@@ -2884,6 +3292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed official primer sections inspected; detail/PDF blocked
 - Purpose: Nervous networks and neurons
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S410 - NINDS Peripheral Neuropathy
 - URL: https://www.ninds.nih.gov/health-information/disorders/peripheral-neuropathy
@@ -2891,6 +3300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed functional and symptom sections inspected; direct 403
 - Purpose: Motor sensory autonomic functions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S411 - NIMH Mental Health Medications
 - URL: https://www.nimh.nih.gov/health/topics/mental-health-medications
@@ -2898,6 +3308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Web sections inspected: antidepressants and interactions
 - Purpose: Classes and monitoring
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S412 - NIMH Psychotherapies
 - URL: https://www.nimh.nih.gov/health/topics/psychotherapies
@@ -2905,6 +3316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Web elements and therapist-selection sections inspected
 - Purpose: Modalities and review goals
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S413 - NIMH Brain Stimulation Therapies
 - URL: https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies
@@ -2912,6 +3324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Web ECT memory, rTMS, MST sections inspected
 - Purpose: Distinct procedures and research-only MST
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S414 - NIMH Bipolar Disorder
 - URL: https://www.nimh.nih.gov/health/publications/bipolar-disorder
@@ -2919,6 +3332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Publication symptoms/diagnosis/treatment and rights sections inspected
 - Purpose: Mania and antidepressant monotherapy caution
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S415 - NIMH Understanding Psychosis
 - URL: https://www.nimh.nih.gov/health/publications/understanding-psychosis
@@ -2926,6 +3340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Web signs and assessment sections inspected
 - Purpose: First episode and danger
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S416 - NICE CG103 Delirium
 - URL: https://www.nice.org.uk/guidance/cg103/chapter/Recommendations
@@ -2933,6 +3348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed official sections inspected; direct fetch failed
 - Purpose: Hours/days fluctuation and acute assessment
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S417 - NIA What Is Dementia?
 - URL: https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis?services=81
@@ -2940,6 +3356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed subtype and assessment sections inspected; canonical direct fetch failed
 - Purpose: Subtype overlap and workup
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S418 - NIA Memory Problems, Forgetfulness, and Aging
 - URL: https://www.nia.nih.gov/health/memory-forgetfulness-and-aging-whats-normal-and-whats-not
@@ -2947,6 +3364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed MCI, aging and function sections inspected
 - Purpose: MCI not inevitable dementia
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S419 - NIA Cognitive Health and Older Adults
 - URL: https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults
@@ -2954,6 +3372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed exercise, medication and engagement sections inspected
 - Purpose: Contributors and prevention limits
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S420 - NIA Caring for Older Patients With Cognitive Impairment
 - URL: https://www.nia.nih.gov/health/health-care-professionals-information/caring-older-patients-cognitive-impairment
@@ -2961,6 +3380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed care-partner/medicine review sections inspected
 - Purpose: Function, care and referral
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S421 - NIA Alzheimer Disease Genetics Fact Sheet
 - URL: https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/alzheimers-disease-genetics-fact-sheet
@@ -2968,6 +3388,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed official genetics sections inspected; full page unavailable
 - Purpose: Risk versus diagnosis
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S422 - LEQEMBI US prescribing information
 - URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761375s001lbl.pdf
@@ -2975,6 +3396,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF sections 1,2.4,5.1,14 and trial table inspected
 - Purpose: SC initiation and month-based MRI; benefit and ARIA
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S423 - LEQEMBI EU product information
 - URL: https://www.ema.europa.eu/en/documents/product-information/leqembi-epar-product-information_en.pdf
@@ -2982,6 +3404,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF 4.1-4.4 and safety sections inspected
 - Purpose: Genotype eligibility, anticoagulant/MRI restrictions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S424 - KISUNLA US prescribing information via DailyMed
 - URL: https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa&type=pdf
@@ -2989,6 +3412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Current DailyMed 29-page PDF inspected: sections 1,2.3,5.1,6.1,14; MRI schedule, revised regimen, anticoagulant warning and original study distinctions read. Integrating reviewer confirmed PDF revision 7/2025, distinct from effective date.
 - Purpose: Indication, MRI and revised initiation regimen
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S425 - KISUNLA EU product information
 - URL: https://www.ema.europa.eu/en/documents/product-information/kisunla-epar-product-information_en.pdf
@@ -2996,6 +3420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF 4.1-4.4 MRI, contraindications and trial table inspected
 - Purpose: Restrictions and MRI monitoring
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S426 - van Dyck et al. Lecanemab in Early Alzheimer Disease
 - URL: https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
@@ -3003,6 +3428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
 - Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S427 - Sims et al. TRAILBLAZER-ALZ 2
 - URL: https://jamanetwork.com/journals/jama/fullarticle/2807533
@@ -3010,6 +3436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Publisher HTML accessible with guest link; original results, tables and limitations inspected
 - Purpose: Absolute outcomes, subgroup, ARIA and representation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S428 - FDA clears first Alzheimer blood test
 - URL: https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease
@@ -3017,6 +3444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: FDA2025-05-16 announcement intended-use/population/interpretation and no-screening/standalone paragraphs rechecked; no device-study reanalysis.
 - Purpose: Named assay symptomatic age 55+; not screening/standalone
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S429 - FDA Class 2 Lumipulse calibrator recall
 - URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=217945
@@ -3024,6 +3452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recall record product/calibrator lots, reason/actions and open/classified status rechecked; site last-updated2026-10-15, no universal assay-invalidity claim.
 - Purpose: Lot-specific falsely elevated ratios and result review
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S430 - MHRA lecanemab licensing
 - URL: https://www.gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease
@@ -3031,6 +3460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official licensing announcement inspected
 - Purpose: National authorization separate from payer access
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S431 - Original evoke and evoke+ phase 3 trials
 - URL: https://pubmed.ncbi.nlm.nih.gov/41865758/
@@ -3038,6 +3468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Original indexed abstract inspected; direct page empty; full article not read
 - Purpose: Negative clinical outcome and discontinuation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S432 - NIA-Funded Active Alzheimer and Related Dementias Studies
 - URL: https://research.nih.gov/research/ongoing-AD-trials
@@ -3045,6 +3476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML AHEAD entry and category sections inspected
 - Purpose: Genuine research questions and enrollment checks
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S433 - NIA How Is Alzheimer Disease Treated?
 - URL: https://www.nia.nih.gov/health/alzheimers-treatment/how-alzheimers-disease-treated
@@ -3052,6 +3484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed symptom-treatment/no-cure sections read; canonical fetch empty
 - Purpose: Symptoms versus disease modification
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S434 - NICE NG97 dementia recommendations
 - URL: https://www.nice.org.uk/guidance/NG97/chapter/recommendations
@@ -3059,6 +3492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Historical access retained in repository history; current use bibliographic_pointer_only under source-use-policy, checked2026-10-17.
 - Purpose: Permission/bibliographic pointer only; not active clinical evidence; no mirror/snippet bypass.
 - Checked: 2026-10-17
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S435 - Comprehensive Metabolic Panel (CMP)
 - URL: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/
@@ -3066,6 +3500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: BMP/CMP panel differences; chemistry class navigation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S436 - How to approach elevated liver enzymes?
 - URL: https://www.aasld.org/liver-fellow-network/core-series/back-basics/how-approach-elevated-liver-enzymes
@@ -3073,6 +3508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Injury versus function; interpretation of liver chemistry pattern.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S437 - Chronic Kidney Disease Tests and Diagnosis
 - URL: https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis
@@ -3080,6 +3516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections; selected researcher refresh2026-10-17: GFR/creatinine and urine-albumin explanation only. Displayed reviewOctober2016; no current cutoffs or treatment protocol adopted.
 - Purpose: Complementary filtration and urine-albumin assessment.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S438 - Recommendations for Implementing the CKD-EPI 2021 Race-Free eGFR Calculation
 - URL: https://www.kidney.org/recommendations-implementing-ckd-epi-2021-race-free-egfr-calculation-guidelines-clinical
@@ -3087,6 +3524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Race-free CKD-EPI implementation, equation discontinuity and non-GFR influences.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S439 - Iron Tests
 - URL: https://medlineplus.gov/lab-tests/iron-tests/
@@ -3094,6 +3532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Iron studies as linked assessment; context rather than isolated value.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S440 - Thyroid Tests
 - URL: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid
@@ -3101,6 +3540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: NIDDK page last reviewed May 2017. Cycle014 researcher/root rechecked introduction and TSH/T4/T3 blood-test/context paragraphs and current content-use policy; imaging/biopsy instructions not adopted.
 - Purpose: Linked hormone testing and contextual interpretation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S441 - High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain
 - URL: https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain
@@ -3108,6 +3548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read ACC professional summary; underlying Circulation primer not read
 - Purpose: Assay identity, ng/L, serial timing and injury rather than automatic infarction.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S442 - UK Kidney Association Hyperkalaemia Guideline
 - URL: https://guidelines.ukkidney.org/hyperkalaemia/
@@ -3115,6 +3556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Urgency of severe hyperkalemia and clinical setting for treatment.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S443 - NICE NG158 Recommendations
 - URL: https://www.nice.org.uk/guidance/ng158/chapter/Recommendations
@@ -3122,6 +3564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections Cycle014 source-disposition check: historical reading retained; current NICE permission hold applies, no new clinical text reading.
 - Purpose: Bibliographic/historical record under the current NICE permission hold. Selected module16 dependencies replaced with independently scoped S440/S759 and S749; other legacy dependencies are not cleared.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S444 - IBIS Breast Cancer Risk Evaluation Tool
 - URL: https://ems-trials.org/riskevaluator/
@@ -3129,6 +3572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Exact tool name, v8, pedigree, research-only download and license restriction.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S445 - QRISK3 official demonstrator
 - URL: https://www.qrisk.org/
@@ -3136,6 +3580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Demonstrator eligibility, accredited clinical-system instruction and access restrictions.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S446 - ASCVD Risk Estimator Plus
 - URL: https://tools.acc.org/ASCVD-Risk-Estimator-Plus/
@@ -3143,6 +3588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: US tool navigation and input/algorithm identity.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S447 - SCORE2 and SCORE2-OP calculators
 - URL: https://www.escardio.org/guidelines/practice-tools/cvd-prevention-toolbox/score-risk-charts/
@@ -3150,6 +3596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: European fatal/nonfatal ten-year prevention tool navigation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S448 - FRAXplus official home and FRAX navigation
 - URL: https://frax.shef.ac.uk/FRAX/
@@ -3157,6 +3604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Country-calibrated fracture probabilities and beta adjustment distinction.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S449 - Depression and Suicide Risk in Adults: Screening
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults
@@ -3164,6 +3612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Validated screening followed by diagnosis, treatment and follow-up systems.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S450 - Official STOP-Bang screening destination
 - URL: https://www.stopbang.ca/osa/screening.php
@@ -3171,6 +3620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: blocked: official screening and home pages returned tool errors; no content verification
 - Purpose: Official destination only; no scoring or questionnaire claims.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S451 - Urinalysis NIH summary
 - URL: https://medlineplus.gov/urinalysis.html
@@ -3178,6 +3628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read NIH summary; linked A.D.A.M. encyclopedia inspected but excluded from reuse
 - Purpose: NIH summary of urine test components; no encyclopedia text reused.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S452 - Diagnosis of Diarrhea
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/diagnosis
@@ -3185,6 +3636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: History-directed diarrhea testing rather than an indiscriminate stool panel.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S453 - WHO laboratory manual for examination and processing of human semen, sixth edition
 - URL: https://www.who.int/publications/i/item/9789240030787
@@ -3192,6 +3644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read official publication overview only; manual chapters not read
 - Purpose: WHO manual overview and standardization purpose only.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S454 - Pathology Reports
 - URL: https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet
@@ -3199,6 +3652,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Report structure, final diagnosis, adequacy, pending additions and clinical discussion.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S455 - Genetic Testing for Inherited Cancer Risk
 - URL: https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet
@@ -3206,6 +3660,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Germline risk testing, uncertainty, coverage and confirmation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S456 - Vitamin B12 Health Professional Fact Sheet
 - URL: https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
@@ -3213,6 +3668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: read relevant rendered page sections
 - Purpose: Vitamin-B12 testing context and limitations.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S457 - American Heart Association PREVENT Online Calculator
 - URL: https://professional.heart.org/en/guidelines-and-statements/prevent-calculator
@@ -3220,6 +3676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Read official landing page; embedded interactive calculator unavailable in text extraction
 - Purpose: Verified official navigation destination only.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S458 - NHS: Headaches
 - URL: https://www.nhs.uk/symptoms/headaches/
@@ -3227,6 +3684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read Selected onset/course, warning-feature and diary text refreshed2026-10-17; page reviewed2024-04-17, not a new source. Current England/OGL scope checked; no exhaustive triage or imaging rule.
 - Purpose: Decision-entry context and proportionate care navigation for headaches
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S459 - NHS: High temperature in adults
 - URL: https://www.nhs.uk/symptoms/fever-in-adults/
@@ -3234,6 +3692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for high temperature in adults
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S460 - NHS: Chest pain
 - URL: https://www.nhs.uk/symptoms/chest-pain/
@@ -3241,6 +3700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for chest pain
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S461 - NHS: Stomach ache
 - URL: https://www.nhs.uk/symptoms/stomach-ache/
@@ -3248,6 +3708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for stomach ache
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S462 - NHS: Diarrhoea and vomiting
 - URL: https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/
@@ -3255,6 +3716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for diarrhoea and vomiting
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S463 - NHS: Constipation
 - URL: https://www.nhs.uk/conditions/constipation/
@@ -3262,6 +3724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for constipation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S464 - NHS: Rectal bleeding
 - URL: https://www.nhs.uk/symptoms/bleeding-from-the-bottom-rectal-bleeding/
@@ -3269,6 +3732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for rectal bleeding
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S465 - NHS: Dizziness
 - URL: https://www.nhs.uk/symptoms/dizziness/
@@ -3276,6 +3740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for dizziness
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S466 - NHS: Fainting
 - URL: https://www.nhs.uk/symptoms/fainting/
@@ -3283,6 +3748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for fainting
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S467 - NHS: Heart palpitations
 - URL: https://www.nhs.uk/symptoms/heart-palpitations/
@@ -3290,6 +3756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for heart palpitations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S468 - NHS: Tiredness and fatigue
 - URL: https://www.nhs.uk/symptoms/tiredness-and-fatigue/
@@ -3297,20 +3764,23 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for tiredness and fatigue
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S469 - NHS: Shortness of breath
 - URL: https://www.nhs.uk/symptoms/shortness-of-breath/
 - Region: United Kingdom; local access pathways require adaptation
-- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Source reconciliation 2026-10-18: New breathing difficulty needs appropriate review; severe difficulty/cyanosis/confusion requires emergency help; no cause diagnosis
 - Purpose: Decision-entry context and proportionate care navigation for shortness of breath
-- Checked: 2026-10-09
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S470 - NHS: Cough
 - URL: https://www.nhs.uk/symptoms/cough/
 - Region: United Kingdom; local access pathways require adaptation
-- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Selected source reconciliation 2026-10-18: Expected duration, urgent signs and antibiotic prescribing paragraph; herbal/syrup recipes not adopted. Displayed source version: Reviewed 2023-12-08. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
 - Purpose: Decision-entry context and proportionate care navigation for cough
-- Checked: 2026-10-09
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S471 - NHS: Urinary tract infections
 - URL: https://www.nhs.uk/conditions/urinary-tract-infections-utis/
@@ -3318,6 +3788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for urinary tract infections
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S472 - NHS: Blood in urine
 - URL: https://www.nhs.uk/symptoms/blood-in-urine/
@@ -3325,6 +3796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for blood in urine
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S473 - NHS: Earache
 - URL: https://www.nhs.uk/symptoms/earache/
@@ -3332,6 +3804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for earache
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S474 - NHS: Hearing loss
 - URL: https://www.nhs.uk/conditions/hearing-loss/
@@ -3339,6 +3812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for hearing loss
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S475 - NHS: Sore throat
 - URL: https://www.nhs.uk/symptoms/sore-throat/
@@ -3346,6 +3820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for sore throat
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S476 - NHS: Nosebleed
 - URL: https://www.nhs.uk/conditions/nosebleed/
@@ -3353,6 +3828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for nosebleed
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S477 - NHS: Sinusitis
 - URL: https://www.nhs.uk/conditions/sinusitis-sinus-infection/
@@ -3360,6 +3836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for sinusitis
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S478 - NHS: Red eye
 - URL: https://www.nhs.uk/symptoms/red-eye/
@@ -3367,6 +3844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for red eye
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S479 - NHS: Eye injuries
 - URL: https://www.nhs.uk/conditions/eye-injuries/
@@ -3374,6 +3852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for eye injuries
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S480 - NHS: Floaters and flashes
 - URL: https://www.nhs.uk/symptoms/floaters-and-flashes-in-the-eyes/
@@ -3381,6 +3860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for floaters and flashes
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S481 - NHS: Itchy skin
 - URL: https://www.nhs.uk/symptoms/itchy-skin/
@@ -3388,6 +3868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for itchy skin
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S482 - NHS: Cuts and grazes
 - URL: https://www.nhs.uk/conditions/cuts-and-grazes/
@@ -3395,6 +3876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for cuts and grazes
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S483 - NHS: Lumps
 - URL: https://www.nhs.uk/symptoms/lumps/
@@ -3402,6 +3884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for lumps
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S484 - NHS: Joint pain
 - URL: https://www.nhs.uk/symptoms/joint-pain/
@@ -3409,6 +3892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for joint pain
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S485 - NHS: Sprains and strains
 - URL: https://www.nhs.uk/conditions/sprains-and-strains/
@@ -3416,13 +3900,15 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for sprains and strains
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S486 - NHS: Back pain
 - URL: https://www.nhs.uk/conditions/back-pain/
 - Region: United Kingdom; local access pathways require adaptation
-- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
+- Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Selected source reconciliation 2026-10-18: Urgent/emergency signs, staying active, worsening with exercise and treatment overview. Displayed source version: Reviewed 2026-03-05. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
 - Purpose: Decision-entry context and proportionate care navigation for back pain
-- Checked: 2026-10-09
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S487 - NHS: Transient ischaemic attack
 - URL: https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/
@@ -3430,6 +3916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read
 - Purpose: Decision-entry context and proportionate care navigation for transient ischaemic attack
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S488 - Stevens-Johnson syndrome - NHS
 - URL: https://www.nhs.uk/conditions/stevens-johnson-syndrome/
@@ -3437,6 +3924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Parent read relevant HTML symptom, emergency action and treatment sections
 - Purpose: Emergency routing for spreading painful, blistering or peeling rash and mucosal symptoms after a new medicine
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S489 - Emergency care
 - URL: https://www.who.int/health-topics/emergency-care
@@ -3444,6 +3932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official page; relevant overview inspected
 - Purpose: Integrated emergency care as time-sensitive pathway, early recognition, treatment and referral; no universal facility directory.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S490 - WHO Emergency care system framework
 - URL: https://www.who.int/publications/i/item/who-emergency-care-system-framework
@@ -3451,6 +3940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official WHO page; overview and pathway scope inspected
 - Purpose: Emergency care continuity from scene through transport and emergency unit to early inpatient care.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S491 - Urgent and emergency care services
 - URL: https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/
@@ -3458,6 +3948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official NHS page; links to service definitions inspected
 - Purpose: Jurisdiction-specific service routing and official service discovery.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S492 - About urgent and emergency care
 - URL: https://www.england.nhs.uk/urgent-emergency-care/about-uec/
@@ -3465,6 +3956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed excerpt inspected; direct page returned limited content
 - Purpose: Illustrative distinction between emergency and non-life-threatening urgent care.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S493 - Urgent treatment centres
 - URL: https://www.england.nhs.uk/urgent-emergency-%20care/urgent-treatment-centres/
@@ -3472,6 +3964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt inspected; opened page presented anti-bot/JavaScript barrier
 - Purpose: Example of a defined urgent non-emergency service, booking pathway, and scope.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S494 - About NHS 111
 - URL: https://www.england.nhs.uk/urgent-emergency-care/nhs-111/accessing-nhs-111/
@@ -3479,6 +3972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search excerpt inspected
 - Purpose: Example of jurisdiction-specific urgent advice service which can direct to locally suitable services or ambulance.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S495 - Directory of Services (DoS)
 - URL: https://digital.nhs.uk/services/directory-of-services-dos/
@@ -3486,6 +3980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official NHS Digital page; directory and triage integration sections inspected
 - Purpose: Example of official service directory used with NHS Pathways/111, with factors including appropriate setting.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S496 - Health Resource Geographic Information System (GIS Health)
 - URL: https://gis-health.moph.go.th/healthmap/gmap.php
@@ -3493,6 +3988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official directory; search filters/categories and facility-name search inspected
 - Purpose: Example official national facility discovery directory, including facility type filters.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S497 - Important phone numbers during your stay in Thailand
 - URL: https://thailand.go.th/issue-focus-detail/009_152
@@ -3500,6 +3996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official Thai government information portal; emergency medical phone lines inspected
 - Purpose: Thai government listing of 1669 for emergency medical notification, alongside other numbers.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S498 - LTCH Hospital: contact and complaints
 - URL: https://lumhos.moph.go.th/en/contact
@@ -3507,6 +4004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official MOPH hospital page; emergency contact listing, 24-hour emergency wording, and last-updated date inspected
 - Purpose: Current provider-level Thai government hospital corroboration that an emergency contact route lists 1669.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S499 - Thailand: health
 - URL: https://www.gov.uk/foreign-travel-advice/thailand/health
@@ -3514,6 +4012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened GOV.UK page; emergency number and insurance paragraphs inspected
 - Purpose: Travel advice lists 191 asking for ambulance and 1669; advises prompt insurer/assistance contact when referred.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S500 - How to call an ambulance correctly
 - URL: https://mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/kak-pravilno-vyzvat-skoruyu_5
@@ -3521,6 +4020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official ministry page; number paragraph inspected
 - Purpose: Lists 112 as unified emergency number and 103 or regional numbers for ambulance.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S501 - Get healthcare cover for travelling abroad
 - URL: https://www.nhsbsa.nhs.uk/get-healthcare-cover-travelling-abroad
@@ -3528,6 +4028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official NHSBSA page; covered care, territory check and insurance caveats inspected
 - Purpose: EHIC/GHIC scope example; state-provided care in applicable destinations; not travel insurance and no repatriation cover.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S502 - Report data or content errors on Google Maps
 - URL: https://support.google.com/maps/answer/3094088?hl=en-en
@@ -3535,6 +4036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official product help; editable places, address, hours and data-error sections inspected
 - Purpose: Supports treating map facts as discovery leads requiring confirmation because place data can be edited/reported.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S503 - Object card | Yandex Maps
 - URL: https://www.yandex.com/support/maps/en/concept/object-kart
@@ -3542,6 +4044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Opened official help; organization contacts, hours, directions and edit-information features inspected
 - Purpose: Supports map discovery for addresses, contacts, hours and routes, with cross-checking against official branch sources.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S504 - Integrated care for older people: guidance for person-centred assessment and pathways in primary care, second edition
 - URL: https://www.who.int/publications/i/item/9789240103726
@@ -3549,6 +4052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Actual PDF SHA matched. Packet researcher read viewer4–5(frontmatter),8–10(glossaryvi–viii),13–16(printed1–4),21–23(printed9–11). Root visual4,8,15 checked. Not full handbook/instruments/pathways.
 - Purpose: Functional ability/capacity/environment, goals, autonomy, local multidisciplinary and longitudinal care.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S505 - Falls: assessment and prevention, NG249 recommendations
 - URL: https://www.nice.org.uk/guidance/ng249/chapter/Recommendations/
@@ -3556,6 +4060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Substantive indexed recommendation excerpts inspected; direct fetch 403
 - Purpose: Falls assessment and tailored prevention
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S506 - Stroke rehabilitation in adults, NG236
 - URL: https://www.nice.org.uk/guidance/ng236/chapter/Recommendations
@@ -3563,6 +4068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed sections 1.1 and 1.2 inspected; direct fetch 403
 - Purpose: Specialist service, goals and comprehensive rehabilitation
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S507 - NOGG Section 5: Non-pharmacological management of osteoporosis
 - URL: https://www.nogg.org.uk/full-guideline/section-5-non-pharmacological-management-osteoporosis
@@ -3570,6 +4076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full relevant web section inspected
 - Purpose: Adapted exercise, dietary adequacy, falls, evidence limits
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S508 - Massage Therapy: What You Need To Know
 - URL: https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know
@@ -3577,6 +4084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Neck/shoulder evidence, harms and practical advice rechecked2026-10-17; underlying publication May2019, no newer-trial appraisal.
 - Purpose: Indication-specific benefits, uncertainty and risk
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S509 - Standard of Practice: Professional Boundaries, Draping, and Physical Privacy
 - URL: https://www.cmto.com/rules/standard-of-practice-professional-boundaries-draping-and-physical-privacy/
@@ -3584,6 +4092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full relevant standard inspected
 - Purpose: Consent, privacy, draping and ongoing comfort
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S510 - The Effects of Massage Guns on Performance and Recovery: A Systematic Review
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10532323/
@@ -3591,6 +4100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed abstract/method excerpts inspected; direct PMC browser challenge
 - Purpose: Short-term outcomes and bias limitations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S511 - Therabody Product Safety and Precautions: Theragun and Wave Devices
 - URL: https://www.therabody.com/pages/precautions
@@ -3598,6 +4108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Theragun/Wave section lines 305-339 inspected; Sense PDF failed
 - Purpose: Exact-device precaution examples
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S512 - Hair loss: Who gets and causes
 - URL: https://www.aad.org/public/diseases/hair-loss/causes/18-causes
@@ -3605,6 +4116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Causes, thyroid, nutrients and toxicity sections inspected
 - Purpose: Differential causes and excess-nutrient cautions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S513 - Hair loss: Diagnosis and treatment
 - URL: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat
@@ -3612,6 +4124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Diagnosis and supplement sections inspected
 - Purpose: Targeted assessment, no automatic supplements
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S514 - 12 nail changes a dermatologist should examine
 - URL: https://www.aad.org/public/everyday-care/nail-care-secrets/basics/nail-changes-dermatologist-should-examine
@@ -3619,6 +4132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant changes and uncertainty sections inspected
 - Purpose: Changing dark bands, inflammation and nonspecific findings
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S515 - Lower urinary tract symptoms in men: management, CG97
 - URL: https://www.nice.org.uk/guidance/cg97/chapter/recommendations
@@ -3626,6 +4140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed specialist referral and retention sections inspected
 - Purpose: Uncomplicated versus complicated symptoms
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S516 - Urinary incontinence and pelvic organ prolapse in women: management, NG123
 - URL: https://www.nice.org.uk/guidance/ng123/chapter/recommendations
@@ -3633,6 +4148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed assessment/conservative treatment inspected; fetch 403
 - Purpose: Supervised pelvic floor training, bladder training, referral
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S517 - Menopause: identification and management, NG23
 - URL: https://www.nice.org.uk/guidance/ng23/chapter/recommendations
@@ -3640,6 +4156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed individual-care/genitourinary options and laser restriction inspected; fetch 403
 - Purpose: Local options and research-only laser status
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S518 - Prostate Problems
 - URL: https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems
@@ -3647,6 +4164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms, urgent retention, assessment and options inspected
 - Purpose: Basic causes, assessment and inability to void
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S519 - Symptoms and Causes of Erectile Dysfunction
 - URL: https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes
@@ -3654,6 +4172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and causes section inspected
 - Purpose: Health, medicine and psychological causes
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S520 - Deep vein thrombosis: UCLH NHS Foundation Trust
 - URL: https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/deep-vein-thrombosis
@@ -3661,6 +4180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full symptom and immediate-attention sections inspected; national NHS symptoms/emergency page also inspected
 - Purpose: Warm swollen painful limb; chest/breathing escalation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S521 - NICE Terms and conditions: Notice of Rights
 - URL: https://www.nice.org.uk/terms-and-conditions
@@ -3668,6 +4188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Notice of Rights inspected
 - Purpose: Publication rights audit
 - Checked: 2026-10-09
+- Active-use disposition: rights_metadata_only (not a permission grant)
 
 ### S522 - DVT (deep vein thrombosis) - NHS
 - URL: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/
@@ -3675,6 +4196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Parent read symptoms and urgent/emergency action HTML sections
 - Purpose: National corroboration of unilateral pain/swelling assessment and emergency chest/breathing symptoms
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S523 - WHO SMART Guideline Publications catalogue
 - URL: https://smart.who.int/
@@ -3682,6 +4204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official catalogue page inspected; metadata and component listing only
 - Purpose: Discover DAK and FHIR implementation-guide sources; its component taxonomy shows that digital guidance needs data dictionaries, decision logic, indicators, and functional requirements.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S524 - SMART Guidelines—Digital Adaptation Kits: Implementation research and technical support
 - URL: https://www.who.int/publications/m/item/who-digital-accelerator-kits
@@ -3689,6 +4212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official landing-page overview and bibliographic metadata inspected; one-page brief not downloaded/read in full
 - Purpose: DAK design concept: workflow, data needs, algorithms, indicators, and functional requirements; emphasis on country implementation and validation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S525 - Digital adaptation kit for child health (0–59 months) in humanitarian emergencies
 - URL: https://www.who.int/publications/i/item/9789240089907
@@ -3696,6 +4220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official WHO landing page and described components inspected; publication/web annexes not read
 - Purpose: Example of a DAK's stated scope and decomposition into personas, workflows, core data elements, decision-support logic, scheduling, indicators, and requirements.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S526 - WHO SMART Guidelines Base Implementation Guide repository
 - URL: https://github.com/WorldHealthOrganization/smart-base
@@ -3703,6 +4228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Repository README inspected; core profiles, DAK/FHIR distinction, publication links, and stated Creative Commons IGO license inspected; no code executed and no artifact extracted
 - Purpose: Reference for separating structured guideline content (L2 DAK) from computable FHIR profiles/implementation guides (L3), and for stable published versions versus changing continuous builds.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S527 - WHO SMART Guidelines Digital Adaptation Kit for Tuberculosis repository README and LICENSE.md
 - URL: https://github.com/WorldHealthOrganization/smart-dak-tb
@@ -3710,6 +4236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: README scope and LICENSE.md text inspected on GitHub; source code/data not downloaded or run
 - Purpose: Shows stated goals of common language, transparent review of health content, and generic content that requires local contextualization; verifies separate content and software licenses.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S528 - Using CQL With FHIR Implementation Guide
 - URL: https://hl7.org/fhir/uv/cql/
@@ -3717,6 +4244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official implementation-guide summary, version/status, scope, and intellectual-property navigation inspected
 - Purpose: Defines CQL as a language that can represent computable guideline, decision-support, public-health, and research-eligibility logic against FHIR resources; informs where executable knowledge belongs in a regulated system.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S529 - CDS Hooks Specification, Current Build
 - URL: https://cds-hooks.org/specification/current/
@@ -3724,6 +4252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Specification sections on scope, hooks, services, cards, versioning and maturity inspected
 - Purpose: Reference for workflow-triggered support, contextual inputs, client/service responsibilities, and version/maturity discipline.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S530 - The SHARE Approach Essential Steps of Shared Decision Making
 - URL: https://www.ahrq.gov/health-literacy/professional-training/shared-decision/tools/share-poster.html
@@ -3731,6 +4260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official AHRQ page and all five step headings/short descriptions inspected
 - Purpose: Interaction architecture for choice awareness, comparing benefits/harms, eliciting values, reaching a decision, and follow-up.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S531 - Reimagining Healthcare Teams: Patient-Clinician-AI Triad, Core Principles
 - URL: https://www.ahrq.gov/diagnostic-safety/resources/issue-briefs/dxsafety-reimagining-healthcare-teams-6.html
@@ -3738,6 +4268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official page core-principles section and table inspected
 - Purpose: Supports explicit human roles, shared goals, trust, communication, patient values, clinician accountability, and ongoing evaluation when AI participates in diagnostic work.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S532 - Clinical Decision Support Software Guidance for Industry and FDA Staff
 - URL: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
@@ -3745,6 +4276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official FDA summary, final status, date, and scope description inspected; linked PDF not read in full
 - Purpose: Regulatory discovery for distinctions FDA draws among some non-device CDS functions and device software functions, including patient/caregiver-intended software.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S533 - Guidances with Digital Health Content
 - URL: https://www.fda.gov/medical-devices/digital-health-center-excellence/guidances-digital-health-content
@@ -3752,6 +4284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official FDA index and status/date rows inspected
 - Purpose: A source-update trigger and discovery index for relevant digital-health regulatory documents; demonstrates need to distinguish final and draft guidance.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S534 - Transparency for Machine Learning-Enabled Medical Devices: Guiding Principles
 - URL: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/transparency-machine-learning-enabled-medical-devices-guiding-principles
@@ -3759,6 +4292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official page sections on transparency, intended use, performance, human-AI team and communication inspected
 - Purpose: Supports a requirement to expose intended use, evidence limits, performance, context, and human responsibilities rather than presenting model output as authority.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S535 - NICE Guidance Surveillance Process and Methods
 - URL: https://www.nice.org.uk/process/pmg36/chapter/guidance-surveillance-2
@@ -3766,6 +4300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Search-indexed official excerpt inspected; direct page retrieval returned HTTP 403
 - Purpose: Reference for update decisions that may amend, update, withdraw, or leave guidance unchanged after surveillance; event-driven surveillance matters as well as a calendar interval.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S536 - Outcomes for Graduates
 - URL: https://www.gmc-uk.org/education/standards-guidance-and-curricula/standards-and-outcomes/outcomes-for-graduates
@@ -3773,6 +4308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official landing-page scope and link to practical skills/procedures inspected; full outcomes document not read
 - Purpose: Curriculum discovery for baseline knowledge, skills, professional behaviours and practical competence domains that an educational index might map.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S537 - Common Program Requirements (Residency) including FAQs
 - URL: https://www.acgme.org/globalassets/pfassets/programrequirements/2026-prs/cprresidency_2026.pdf
@@ -3780,6 +4316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF introduction and selected oversight/supervision requirements inspected; not a complete curriculum review
 - Purpose: Shows supervised, graded responsibility, local programme accountability, and lifelong-learning structure; useful for distinguishing educational scope from independent competence.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S538 - Continuing Professional Development: Guidance
 - URL: https://www.gmc-uk.org/education/standards-guidance-and-curricula/guidance/continuing-professional-development
@@ -3787,6 +4324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official page overview and listed CPD planning, carrying-out, impact-evaluation, and recording topics inspected
 - Purpose: Curriculum/maintenance discovery for reflective learning and evaluating impact; informs how an evidence library can document review activity and identify learning gaps.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S539 - Information for Authors and Publishers—About NCBI Bookshelf
 - URL: https://www.ncbi.nlm.nih.gov/sites/books/NBK554841/
@@ -3794,6 +4332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official NLM policy sections inspected
 - Purpose: Establishes that free Bookshelf access does not equal blanket reuse: Open Access subset is a distinct subset where rights are public domain or Creative Commons/similar; each title must be checked.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S540 - Nursing Pharmacology, 2nd edition (Open RN), NCBI Bookshelf
 - URL: https://www.ncbi.nlm.nih.gov/books/NBK595000/
@@ -3801,6 +4340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official indexed title, edition, book description, license notice, and linked TOC metadata inspected; direct chapter reading blocked; no chapter content used
 - Purpose: Candidate for a later rights-checked, chapter-specific educational route; its own book page states CC BY 4.0 and warns it is not a drug-reference book.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S541 - ESC Guidelines Licensing for AI, LLMs, and CDS Tools
 - URL: https://www.escardio.org/guidelines/clinical-practice-guidelines/esc-guidelines-licensing-for-ai-llms-and-cds-tools/
@@ -3808,6 +4348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official licensing page inspected; no clinical guideline content opened or extracted
 - Purpose: Rights-discovery example: public availability does not imply permission for AI training, extracted-data use, or CDS integration; licensing request pathway is explicit.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S542 - OpenMedSkills public repository README
 - URL: https://github.com/salikkhann/openmedskills
@@ -3815,6 +4356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: README taxonomy, package structure, stated limits, and code/content license distinction inspected; no skill files or code executed
 - Purpose: Discovery-only example of a public skill library that separates risk class, permissions, human review, dated references, examples, evaluation cases, and field-change notes.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S543 - MillerQA benchmark repository README and licensing notes
 - URL: https://github.com/KatherLab/MillerQA
@@ -3822,6 +4364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: README evaluation dimensions, per-source license architecture, and exclusions inspected; no benchmark items copied or executed
 - Purpose: Discovery-only illustration that benchmark suites can be mixed-license, with source-level provenance and QC exclusion records; supports evaluating evidence citation and contradiction handling separately from domain knowledge.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S544 - Nursing Pharmacology-2e, Sections 1.2 Pharmacokinetics and 1.7 Pharmacodynamics
 - URL: https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-2-pharmacokinetics/
@@ -3829,6 +4372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Publisher-hosted section bodies, individual figure credits/footnotes and section license statements inspected; two selected sections read, not full chapter/book
 - Purpose: Foundational learning route for ADME, time-dependent drug disposition, mechanism of action, receptor agonist/antagonist concepts, and the distinction between how a drug is handled and how it acts.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S545 - Core Curriculum on Tuberculosis: What the Clinician Should Know, Chapter 1 selected sections
 - URL: https://www.cdc.gov/tb/media/Core_Curriculum_TB_eBook.pdf
@@ -3836,6 +4380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF title/purpose and selected Chapter 1 sections read; full 211-page curriculum not read. The curriculum says it is a reference manual and not a substitute for specific guidelines.
 - Purpose: Clinician-learning map example linking stated learning objectives with a progression from topic introduction to mechanisms and related chapter topics. No treatment or diagnosis statement from the curriculum is used as current guidance.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S546 - CDC Core Curriculum on Tuberculosis Continuing Education Activity SS4444R
 - URL: https://www.cdc.gov/tb/hcp/education/core-curriculum-on-tuberculosis-continuing-education.html
@@ -3843,6 +4388,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official course description, seven learning objectives, target audience, prerequisites, format, disclosures, accreditation outline and expiration dates inspected; course not completed and no credits claimed
 - Purpose: Course-outline example for mapping objectives across transmission/pathogenesis, testing, diagnosis, treatment, infection control, and team roles; supports recording the current/expired status of education artifacts.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S547 - Nursing Pharmacology-2e section 1.7 Pharmacodynamics
 - URL: https://pressbooks.ccconline.org/accnursingpharmacology/chapter/1-7-pharmacodynamics/
@@ -3850,13 +4396,15 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Agent read publisher section 1.7 and figure credit; parent checked main receptor vocabulary section
 - Purpose: Foundational mechanism and receptor vocabulary; no product efficacy, dosing or individual clinical inference
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S548 - High temperature (fever) in children
 - URL: https://www.nhs.uk/symptoms/fever-in-children/
 - Region: UK
-- Reading status: relevant_sections_opened_and_read
+- Reading status: relevant_sections_opened_and_read | Selected source reconciliation 2026-10-18: Under-three-month and three-to-six-month urgent advice, reduced responsiveness, rash and breathing signs; doses excluded. Displayed source version: Reviewed 2024-01-03. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
 - Purpose: Home care, urgent signs and medicine cautions
-- Checked: 2026-10-09
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S549 - Kawasaki disease
 - URL: https://www.nhs.uk/conditions/kawasaki-disease/
@@ -3864,6 +4412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Five-day fever, clinical assessment, tests and supervised aspirin exception
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S550 - Croup
 - URL: https://www.nhs.uk/conditions/croup/
@@ -3871,6 +4420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Caregiver actions and airway warning signs
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S551 - Croup (Laryngotracheobronchitis)
 - URL: https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/
@@ -3878,6 +4428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Age range, clinician steroid/adrenaline choices and selected investigations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S552 - Bronchiolitis
 - URL: https://www.nhs.uk/conditions/bronchiolitis/
@@ -3885,6 +4436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Under-two relevance, breathing/hydration warnings and course
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S553 - Bronchiolitis in children: diagnosis and management NG9
 - URL: https://www.nice.org.uk/guidance/ng9/chapter/Recommendations
@@ -3892,6 +4444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: search_excerpt_only; direct_open_HTTP_403
 - Purpose: Older-infant viral wheeze/asthma distinction; young-infant apnea, professional oxygen assessment and selective tests
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S554 - Febrile seizures
 - URL: https://www.nhs.uk/conditions/febrile-seizures/
@@ -3899,6 +4452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Lay safety, first/prolonged/focal events and clinician rescue plans
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S555 - Dehydration
 - URL: https://www.nhs.uk/conditions/dehydration/
@@ -3906,6 +4460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: ORS, small sips, warning signs and usual diet
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S556 - Watchful Waiting for Ear Infections
 - URL: https://www.cdc.gov/antibiotic-use/media/pdfs/watchfulwaitingear-p.pdf
@@ -3913,6 +4468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF_text_extracted_relevant_pages_read
 - Purpose: Exact 6-23 month/2-year eligibility and follow-up
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S557 - Outpatient Clinical Care for Pediatric Populations
 - URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html
@@ -3920,6 +4476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Otitis examination and clinician antibiotic choices
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S558 - Urinary tract infection in under 16s NG224
 - URL: https://www.nice.org.uk/guidance/ng224/chapter/Recommendations
@@ -3927,6 +4484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: search_excerpt_only; direct_open_HTTP_403
 - Purpose: Selected urine collection/testing and imaging
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S559 - Limping in children
 - URL: https://www.nhs.uk/symptoms/limp-in-children/
@@ -3934,6 +4492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Non-weight-bearing/fever escalation and clinical examination
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S560 - Should You Give Kids Medicine for Coughs and Colds?
 - URL: https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds
@@ -3941,6 +4500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Under-two advice, manufacturer under-four labels, duplicate ingredient/device safety
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S561 - Over-the-counter cough and cold medicines for children
 - URL: https://www.gov.uk/drug-safety-update/over-the-counter-cough-and-cold-medicines-for-children
@@ -3948,6 +4508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Ingredient-specific under-six guidance; not current ingredient availability
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S562 - National Capital Poison Center button battery ingestion triage and treatment guideline
 - URL: https://www.poison.org/battery/guideline
@@ -3955,6 +4516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Immediate care, conditional honey protocol, no delayed symptom waiting
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S563 - Magnet safety
 - URL: https://www.canada.ca/en/health-canada/services/toy-safety/magnets.html
@@ -3962,6 +4524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Immediate assessment even asymptomatic; multiple-magnet mechanism/prevention
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S564 - Preventing Drowning
 - URL: https://www.cdc.gov/drowning/prevention/index.html
@@ -3969,6 +4532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Age 1-4 relevant supervision/barriers/life jackets
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S565 - When to get urgent medical help for babies and children under 5
 - URL: https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/
@@ -3976,6 +4540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher immediate-action/age-fever/breathing/behaviour/feeding sections; root selected actual text.
 - Purpose: Afebrile/lower-temperature illness, feeding/responsiveness, young-infant thresholds; source urgency difference
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S566 - Jaundice in babies
 - URL: https://www.nhs.uk/conditions/jaundice-in-babies/
@@ -3983,6 +4548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: First-day jaundice, feeding/behavior signs, measurement and professional treatment
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S567 - Jaundice in newborn babies under 28 days CG98
 - URL: https://www.nice.org.uk/guidance/cg98/chapter/Recommendations
@@ -3990,6 +4556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: search_excerpt_only; direct_open_HTTP_403
 - Purpose: Age-hours/gestation interpretation, prolonged term/preterm timing, no sunlight
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S568 - Reflux in babies
 - URL: https://www.nhs.uk/conditions/reflux-in-babies/
@@ -3997,6 +4564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Common regurgitation versus feeding/growth/vomit warnings, back sleep and clinician options
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S569 - Drinks and cups for babies and young children
 - URL: https://www.nhs.uk/baby/weaning-and-feeding/drinks-and-cups-for-babies-and-young-children/
@@ -4004,6 +4572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Breast/formula-fed under-six-month hydration distinctions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S570 - SickKids launches expanded and updated CALIPER app and website
 - URL: https://www.sickkids.ca/en/news/archive/2018/sickkids-team-launches-expanded-and-updated-caliper-app-and-website-/
@@ -4011,6 +4580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Child age/sex and instrument-specific reference comparison; no current database-count claim
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S571 - Clinical Biochemistry - Paediatric Reference Interval Database
 - URL: https://www.sickkids.ca/en/care-services/for-health-care-providers/lab-testing-services/clinical-biochemistry/
@@ -4018,6 +4588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Confirms CALIPER pediatric laboratory-reference purpose only
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S572 - CDC Milestones by 1 Year
 - URL: https://www.cdc.gov/act-early/milestones/1-year.html
@@ -4025,6 +4596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S573 - CDC Milestones by 15 Months
 - URL: https://www.cdc.gov/act-early/milestones/15-months.html
@@ -4032,6 +4604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S574 - CDC Milestones by 18 Months
 - URL: https://www.cdc.gov/act-early/milestones/18-months.html
@@ -4039,6 +4612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S575 - CDC Milestones by 2 Years
 - URL: https://www.cdc.gov/act-early/milestones/2-years.html
@@ -4046,6 +4620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S576 - CDC Milestones by 30 Months
 - URL: https://www.cdc.gov/act-early/milestones/30-months.html
@@ -4053,6 +4628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S577 - CDC Milestones by 3 Years
 - URL: https://www.cdc.gov/act-early/milestones/3-years.html
@@ -4060,6 +4636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S578 - CDC Milestones by 4 Years
 - URL: https://www.cdc.gov/act-early/milestones/4-years.html
@@ -4067,6 +4644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML milestone domains and concern sections inspected; media and linked tools not read
 - Purpose: Selected age-specific communication/play/movement observations and concern routing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S579 - CDC Developmental Monitoring and Screening
 - URL: https://www.cdc.gov/act-early/about/developmental-monitoring-and-screening.html
@@ -4074,6 +4652,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher monitoring/screening/follow-up sections; root actual screening ages/concern text.
 - Purpose: Surveillance versus validated screening; AAP timing; early support navigation
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S580 - CDC Using WHO Growth Standard Charts
 - URL: https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html
@@ -4081,6 +4660,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant HTML sections inspected Selected measurement/transition/context refreshed2026-10-17 by researcher/root; numerical worked example not adopted.
 - Purpose: Accurate serial measures; US transition at two; length versus height; indicator changes
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S581 - WHO Child Growth Standards
 - URL: https://www.who.int/tools/child-growth-standards
@@ -4088,6 +4668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML overview/training description and chart age scope inspected; manuals/chart figures not read
 - Purpose: WHO charts through 60 completed months; no universal CDC transition
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S582 - WHO To grow up healthy, children need to sit less and play more
 - URL: https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more
@@ -4095,6 +4676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official HTML recommendation groups inspected; full guideline not read (NCBI route recaptcha)
 - Purpose: Age-specific activity/sleep/screen recommendations
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S583 - NHS What to feed young children
 - URL: https://www.nhs.uk/baby/weaning-and-feeding/what-to-feed-young-children/
@@ -4102,6 +4684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML food groups/milk/iron/fat sections inspected
 - Purpose: Age-specific energy/fat/milk/iron and alternative drinks
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S584 - NHS Fussy eaters
 - URL: https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/
@@ -4109,6 +4692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full short HTML text inspected; video not viewed
 - Purpose: Repeated offers, calm family meals and no forcing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S585 - NHS Preparing food safely
 - URL: https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/preparing-food-safely/
@@ -4116,6 +4700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML choking and food-preparation sections inspected
 - Purpose: Upright supervised eating; shapes/textures; grapes/nuts/butter
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S586 - NHS Children's teeth
 - URL: https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/
@@ -4123,6 +4708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML brushing age groups and attendance sections inspected
 - Purpose: Smear/pea at three; actual fluoride ppm; help and attendance
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S587 - AAP Corrected Age For Preemies
 - URL: https://www.healthychildren.org/English/ages-stages/baby/preemie/pages/Corrected-Age-For-Preemies.aspx
@@ -4130,6 +4716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML definition/calculation/age scope inspected; underlying book not read
 - Purpose: Corrected developmental age during first two years
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S588 - CDC About Hearing Loss in Children
 - URL: https://www.cdc.gov/hearing-loss-children/about/index.html
@@ -4137,6 +4724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML signs and screening/diagnosis sections inspected
 - Purpose: Later hearing concerns despite prior screen; prompt fuller testing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S589 - AAPOS Vision Screening Recommendations
 - URL: https://www.aapos.org/syndicated/vision-screening
@@ -4144,6 +4732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML age groups and referral criteria inspected
 - Purpose: 12-36 versus 36-47 and 48-59 month screening groups
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S590 - NHS Potty training your child
 - URL: https://www.nhs.uk/best-start-in-life/toddler/potty-training-your-child/
@@ -4151,6 +4740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML preparation, five steps, night dryness and support sections inspected
 - Purpose: Practice around 18-30 months without waiting for signs; supportive routines and constipation check
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S591 - NIDDK Symptoms & Causes of Constipation in Children
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/constipation-children/symptoms-causes
@@ -4158,6 +4748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML symptoms, clinician thresholds and causes inspected
 - Purpose: Withholding/soiling and prompt assessment signs
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S592 - NHS Baby and toddler safety
 - URL: https://www.nhs.uk/baby/first-aid-and-safety/safety/baby-and-toddler-safety/
@@ -4165,6 +4756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML choking, falls/toddler injuries, poisoning, burns and drowning sections inspected
 - Purpose: Childproofing, batteries/magnets, burns and water supervision
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S593 - NHS Newborn physical examination
 - URL: https://www.nhs.uk/baby/newborn-screening/physical-examination/
@@ -4172,6 +4764,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant HTML sections inspected
 - Purpose: 72 h/6-8 w examination; trained roles, selected components and immediate results
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S594 - NHS Newborn blood spot test
 - URL: https://www.nhs.uk/baby/newborn-screening/blood-spot-test/
@@ -4179,6 +4772,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant HTML sections inspected
 - Purpose: Day 5 sample, results by 6 w, repeat/positive/carrier distinctions; SMA local limitation
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S595 - England Repeat blood spot samples
 - URL: https://www.gov.uk/government/publications/health-professional-handbook-newborn-blood-spot-screening/4-repeat-blood-samples
@@ -4186,6 +4780,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML repeat reasons, preterm/transfusion and follow-up sections inspected
 - Purpose: Prematurity/transfusion repeat pathways; explain reason and service ownership
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S596 - NHS Newborn hearing screening
 - URL: https://www.nhs.uk/baby/newborn-screening/hearing-test/
@@ -4193,6 +4788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant HTML sections inspected
 - Purpose: Earpiece screen, unclear result, audiology 4 w example and later-loss limit
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S597 - CDC Screening for Critical Congenital Heart Defects
 - URL: https://www.cdc.gov/heart-defects/screening/index.html
@@ -4200,6 +4796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Relevant HTML sections inspected
 - Purpose: 24 h/discharge timing, pulse-ox function, pass/fail limits and further tests
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S598 - NICE NG 194 Postnatal care recommendations
 - URL: https://www.nice.org.uk/guidance/ng194/chapter/Recommendations
@@ -4207,6 +4804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed official detailed excerpts inspected:1.1.14-16,1.3.1-3,1.5.12-15; direct HTML failed
 - Purpose: First midwife 36 h, baby contact review and breastfeeding assessment
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S599 - NHS Washing and bathing your baby
 - URL: https://www.nhs.uk/baby/caring-for-a-newborn/washing-and-bathing-your-baby/
@@ -4214,6 +4812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML topping/tailing and bathing sections inspected
 - Purpose: Cleaning soiled cord and safe bathing
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S600 - NHS How to make up baby formula
 - URL: https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/bottle-feeding/making-up-baby-formula/
@@ -4221,6 +4820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML preparation procedure, machine and dos/donts inspected
 - Purpose: Safe preparation, temperature, ratio, water first, no additions
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S601 - NHS Your baby's first solid foods
 - URL: https://www.nhs.uk/baby/weaning-and-feeding/babys-first-solid-foods/
@@ -4228,6 +4828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML readiness, texture, milk and 6-12 m feeding sections inspected
 - Purpose: Around 6 m readiness, milk continuation, texture progression and cowmilk distinction
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S602 - NHS Introducing foods that could trigger an allergic reaction
 - URL: https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/food-allergies/
@@ -4235,6 +4836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full short HTML inspected
 - Purpose: Around 6 m introduction, ongoing tolerated foods, allergy/eczema caution
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S603 - NHS Sudden infant death syndrome
 - URL: https://www.nhs.uk/baby/caring-for-a-newborn/sudden-infant-death-syndrome-sids/
@@ -4242,6 +4844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML safer sleep and co-sleeping risk sections inspected
 - Purpose: Back/firm-flat/clear-cot sleep, room sharing and prematurity/substance safeguards
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S604 - UKHSA Routine childhood immunisations from 1 July 2026
 - URL: https://www.gov.uk/government/publications/routine-childhood-immunisation-schedule/routine-childhood-immunisations-from-1-july-2026
@@ -4249,6 +4852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: HTML 0-59 m rows and selected selective-programme entries inspected; annual flu letter not read; publication hub change log/version inspected
 - Purpose: Selected 0-59 m antigen purposes/cohort distinctions/selective programmes; original publication hub tracks 2026 MMRV/18 m and HibMenC removal
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S605 - CDC Milestones by 2 Months
 - URL: https://www.cdc.gov/act-early/milestones/2-months.html
@@ -4256,6 +4860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
 - Purpose: Selected original age-specific infant observation prompts; no score or full checklist
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S606 - CDC Milestones by 4 Months
 - URL: https://www.cdc.gov/act-early/milestones/4-months.html
@@ -4263,6 +4868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
 - Purpose: Selected original age-specific infant observation prompts; no score or full checklist
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S607 - CDC Milestones by 6 Months
 - URL: https://www.cdc.gov/act-early/milestones/6-months.html
@@ -4270,6 +4876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
 - Purpose: Selected original age-specific infant observation prompts; no score or full checklist
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S608 - CDC Milestones by 9 Months
 - URL: https://www.cdc.gov/act-early/milestones/9-months.html
@@ -4277,6 +4884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct HTML milestone domains, surveillance limitation, concern and selected caregiver-support sections inspected; media and linked instruments not inspected
 - Purpose: Selected original age-specific infant observation prompts; no score or full checklist
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S609 - Suspected neurological conditions NG127: head shape or size
 - URL: https://www.nice.org.uk/guidance/ng127/chapter/recommendations-for-children-aged-under-16
@@ -4284,6 +4892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Recommendation text inspected in indexed search result; direct open returned internal error.
 - Purpose: Measurement, growth trend, referral and pressure signs.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S610 - Anterior fontanelle closure and size in full-term children based on head computed tomography
 - URL: https://pubmed.ncbi.nlm.nih.gov/24920348/
@@ -4291,6 +4900,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract inspected; no full-text claim.
 - Purpose: 464-scan CT cohort and variation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S611 - Anterior fontanelle closure and diagnosis of non-syndromic craniosynostosis: a comparative study using computed tomography
 - URL: https://pubmed.ncbi.nlm.nih.gov/34861206/
@@ -4298,6 +4908,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract and indexed methods/results inspected; PMC direct open captcha.
 - Purpose: Closed or open fontanel is insufficient to diagnose or exclude fusion.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S612 - Difference in anterior fontanelle closure between non-syndromic craniosynostosis and normal controls
 - URL: https://pubmed.ncbi.nlm.nih.gov/41126260/
@@ -4305,6 +4916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract inspected.
 - Purpose: Newer retrospective comparison; adjunct markers not diagnosis.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S613 - Updated Guideline on Treatment and Management of Craniosynostosis
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7769187/
@@ -4312,6 +4924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full HTML accessible; relevant referral/diagnostics, MRI and treatment sections inspected, not all chapters.
 - Purpose: Prompt referral, specialist imaging, indication-specific MRI and treatment.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S614 - Your Baby's Head
 - URL: https://www.healthychildren.org/English/ages-stages/baby/Pages/Your-Babys-Head.aspx
@@ -4319,6 +4932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Page soft-spot and shaping sections inspected.
 - Purpose: Gentle handling, molding, pulse and whole-child hydration.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S615 - Visiting The Pediatrician: The First Year
 - URL: https://www.healthychildren.org/English/family-life/health-management/Pages/visiting-the-pediatrician-the-first-year.aspx
@@ -4326,6 +4940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed head examination text inspected.
 - Purpose: Approximate posterior/anterior closure orientation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S616 - Head circumference for age
 - URL: https://www.who.int/tools/child-growth-standards/standards/head-circumference-for-age
@@ -4333,6 +4948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Chart/table listing inspected; individual tables not copied or extracted.
 - Purpose: Sex-specific birth-through-five charts.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S617 - Clinical Practice Guidelines: Positional plagiocephaly
 - URL: https://www.rch.org.au/clinicalguide/guideline_index/Positional_plagiocephaly/
@@ -4340,6 +4956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed key points, examination and background inspected; direct open internal error.
 - Purpose: Clinical positional assessment, torticollis, usual lack of imaging.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S618 - Diarrhoea and vomiting caused by gastroenteritis in under 5s CG84
 - URL: https://www.nice.org.uk/guidance/cg84/chapter/Recommendations
@@ -4347,6 +4964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Section 1.2 clinical assessment inspected.
 - Purpose: Whole-child hydration and shock signs.
 - Checked: 2026-10-09
+- Active-use disposition: bibliographic_only (not a permission grant)
 
 ### S619 - Providing Care for Babies to Sleep Safely
 - URL: https://www.cdc.gov/sudden-infant-death/sleep-safely/
@@ -4354,6 +4972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Safe-sleep recommendations inspected.
 - Purpose: Supine sleep, firm flat surface, no soft bedding.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S620 - Flat head syndrome
 - URL: https://www.nhs.uk/conditions/flat-head-syndrome-plagiocephaly-brachycephaly/
@@ -4361,6 +4980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Causes and treatment sections inspected.
 - Purpose: Physiotherapy, positioning, NHS helmet policy.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S621 - Practical Computed Tomography Scan Findings for Distinguishing Metopic Craniosynostosis from Metopic Ridging
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6467624/
@@ -4368,6 +4988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Full HTML accessible; methods/results/discussion relevant sections inspected.
 - Purpose: Physiological metopic fusion, ridge and diagnostic uncertainty.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S622 - Hydrocephalus: Symptoms
 - URL: https://www.nhs.uk/conditions/hydrocephalus/symptoms/
@@ -4375,6 +4996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Congenital symptoms section inspected.
 - Purpose: Head growth, tension, gaze and whole-infant symptoms.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S623 - Rickets: Kids Health Info
 - URL: https://www.rch.org.au/kidsinfo/fact_sheets/rickets/
@@ -4382,6 +5004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Signs, causes and review-status sections inspected.
 - Purpose: Late closure as one feature of bone disease.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S624 - Vitamins for children
 - URL: https://www.nhs.uk/baby/weaning-and-feeding/vitamins-for-children/
@@ -4389,6 +5012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Vitamin supplements and D sections inspected.
 - Purpose: Local prophylaxis policy and duplicate-supplement warning.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S625 - Craniosynostosis
 - URL: https://www.seattlechildrens.org/conditions/craniosynostosis/
@@ -4396,6 +5020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Diagnosis/treatment and surgery-options sections inspected.
 - Purpose: Center-specific surgery options and postoperative helmets.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S626 - Congenital Hypothyroidism: Genetic Fact Sheets for Parents
 - URL: https://www.newbornscreening.info/wp-content/uploads/2023/03/CH.pdf
@@ -4403,6 +5028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PDF accessible; pages 1-3 early-feature section inspected; treatment content excluded.
 - Purpose: Large late-closing fontanel as one possible thyroid feature.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S627 - Craniosynostosis
 - URL: https://www.nhs.uk/conditions/craniosynostosis/
@@ -4410,6 +5036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms, GP assessment, treatment and long-lasting effects inspected.
 - Purpose: Clinical assessment, surgery options and longer follow-up.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S628 - Craniofacial: skull sutures and growth
 - URL: https://bwc.nhs.uk/craniofacial/
@@ -4417,6 +5044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Indexed anatomy and growth-direction section inspected.
 - Purpose: Sutures versus fontanelles and compensatory growth.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S629 - Cranial Ultrasound
 - URL: https://www.radiologyinfo.org/en/info/ultrasound-cranial
@@ -4424,6 +5052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Head ultrasound, infant indications and benefits/limitations inspected.
 - Purpose: Brain ultrasound purpose, window and lack of ionizing radiation.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S630 - Special care: ill or premature babies
 - URL: https://www.nhs.uk/pregnancy/labour-and-birth/special-care-ill-or-premature-babies/
@@ -4431,6 +5060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Same-day contact for jaundice after2weeks; premature duration context and professional phototherapy
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S631 - Lumbar puncture
 - URL: https://www.nhs.uk/tests-and-treatments/lumbar-puncture/
@@ -4438,6 +5068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Procedure-purpose literacy only; no young-infant indication thresholds or home technique
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S632 - What are Jaundice and Kernicterus? - archived CDC background
 - URL: https://archive.cdc.gov/www_cdc_gov/ncbddd/jaundice/facts.html
@@ -4445,6 +5076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: archived_page_relevant_sections_opened_and_read
 - Purpose: Stable age-hours/risk-context literacy and sunlight not substitution; no timing/threshold algorithm
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S633 - Jaundice and Breastfeeding
 - URL: https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/jaundice.html
@@ -4452,6 +5084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: relevant_sections_opened_and_read
 - Purpose: Current newborn/prematurity and clinician case-by-case feeding context
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S634 - UK-WHO growth charts - guidance for health professionals
 - URL: https://www.rcpch.ac.uk/resources/uk-who-growth-charts-guidance-health-professionals
@@ -4459,6 +5092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct HTML inspected: measuring guidance, plotting guidance, professional training statement and educational-material reuse notice. Linked videos/fact sheets not fully reviewed. Current specific2009 teaching-use notice rechecked2026-10-17; preterm fact sheet separately S735, digital policy S736. No videos/newborn/NICM materials newly studied.
 - Purpose: Trained measurement, suitable narrow tape, recording dates and checking plotting age errors.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S635 - Meningitis
 - URL: https://www.nhs.uk/conditions/meningitis/
@@ -4466,6 +5100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct NHS HTML inspected: symptoms in babies/under-five children, incomplete symptom presentation and emergency action.
 - Purpose: Bulging fontanel with illness; absence of complete classic symptom set does not clear meningitis.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S636 - What are babies like? (About babies): page 1
 - URL: https://dcj.nsw.gov.au/content/dam/dcj/dcj-website/documents/children-and-families/parenting/caring-for-babies-children-and-young-people/caring-for-babies/what-are-babies-like.pdf
@@ -4473,6 +5108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Direct PDF page 1 soft-spot paragraph read (tool lines 15-24); direct DCJ copyright notice inspected.
 - Purpose: Transient crying-related swelling followed by return to flat appearance when crying ends.
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S637 - AHA Measurement of Blood Pressure in Humans (2019 statement; PMC author manuscript available 2024)
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11409525/
@@ -4480,6 +5116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected BP components, auscultatory/oscillometric and technique sections inspected; not full statement
 - Purpose: Explain BP components and measurement principles; no device-specific accuracy claim
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S638 - NHS Blood pressure test
 - URL: https://www.nhs.uk/tests-and-treatments/blood-pressure-test/
@@ -4487,6 +5124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Public test and setting-specific threshold sections inspected
 - Purpose: Explain clinic/home thresholds; no NICE clinical-content reuse
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S639 - AHA All About Heart Rate (reviewed May 13, 2024)
 - URL: https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse
@@ -4494,6 +5132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Resting pulse, modifiers and clinical-contact sections inspected
 - Purpose: Separate pulse rate from blood pressure and avoid universal danger categories
 - Checked: 2026-10-09
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S640 - AHA Home Blood Pressure Monitoring (reviewed August 14, 2025)
 - URL: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home
@@ -4501,6 +5140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Home device, cuff, technique, repeated readings and urgency sections rechecked2026-10-17; source reviewed2025-08-14, adult US education.
 - Purpose: Source-linked guide; historical points are not current emergencies
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S641 - Abbas, Lichtman and Pillai: Cellular and Molecular Immunology, 7th edition (2012), ISBN 9781437715286
 - URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101552179
@@ -4508,6 +5148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Book identity and copyright checked. Chapter 1, printed pp. 2-3 (PDF pp. 11-12), read 2026-10-16; Chapter 19, printed pp. 426-428 (PDF pp. 434-436), read 2026-10-17, including visual inspection of the opening sequence diagram. NLM catalogue metadata verified 2026-10-17; the catalogue is not the source of textbook claims. Remaining book unread.
 - Purpose: Short original explanation of connected innate/adaptive responses and IgE sensitization mechanisms only. No copied figures/tables, diagnostic thresholds, immune treatment or current efficacy inference.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S642 - Kliegman et al.: Nelson Textbook of Pediatrics, 19th edition (2011), ISBN 9781437707557
 - URL: https://www.ncbi.nlm.nih.gov/nlmcatalog/101555489
@@ -4515,6 +5156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Book title/edition checked. Chapter 91, The High-Risk Infant, printed pp. 552-553 (PDF pp. 624-625), read 2026-10-16 and historical figure inspected. NLM catalogue metadata verified 2026-10-17; not a reading of the catalogue as clinical evidence. Remaining book unread.
 - Purpose: Short original distinction between gestational age at birth and birthweight. No 1995-1996 cohort graph, thresholds, current classifications, individual risk estimates or treatment rules reproduced.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S643 - Greenhawt et al.: Peanut allergy diagnosis—a 2020 practice parameter update, systematic review, and GRADE analysis
 - URL: https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/PIIS0091674920311374.pdf
@@ -4522,6 +5164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Official 33-page PDF: title/abstract and scope, PDF pp. 1-2 (journal pp. 1302-1303), methods/probability context p. 3 (1304), and Box 4/key questions p. 30 (1331) read on 2026-10-17. Official AAAAI directory still lists the 2020 parameter; this status check is not a fresh evidence review. Remaining paper not recorded as read.
 - Purpose: Peanut-specific example: test interpretation depends on population and prior probability; skin-prick/specific-IgE values do not alone diagnose allergy or predict severity. Conditional recommendations and low/very-low certainty; no generalized thresholds, exposure advice or treatment protocol.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S644 - Ravaggi et al.: Serum miRNA-based diagnostic models for endometriosis: from discovery to validation (online 2025; issue 2026)
 - URL: https://doi.org/10.1093/humrep/deaf221
@@ -4529,6 +5172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Read abstract, patient/sample methods, model-validation methods, limitations/future perspective and article-specific CC BY 4.0 notice on 2026-10-17. Remaining sections/supplements not independently appraised.
 - Purpose: Original bounded example of internal validation versus independent external validation; not clinical adoption or a result for saliva testing.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S645 - NIDDK: Symptoms & Causes of GER & GERD
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes
@@ -4536,6 +5180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and assessment-warning sections inspected; causes not fully appraised. Read 2026-10-17.
 - Purpose: Adult reflux symptoms and assessment context.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S646 - NIDDK: Treatment for GER & GERD
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment
@@ -4543,6 +5188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Lifestyle and antacid/H2-blocker/PPI overview inspected; surgery/procedure evidence not appraised. Read 2026-10-17.
 - Purpose: Class-level explanation and persistent-symptom assessment.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S647 - NIDDK: Eating, Diet, & Nutrition for GER & GERD
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition
@@ -4550,6 +5196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Meal timing and possible individual food/drink triggers inspected; underlying cited paper not appraised. Read 2026-10-17.
 - Purpose: Bounded lifestyle explanation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S648 - NHLBI: Sleep Deprivation and Deficiency—Healthy Sleep Habits
 - URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits
@@ -4557,6 +5204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Habit and shift-work sections inspected; only general habits incorporated. Read 2026-10-17.
 - Purpose: Sleep opportunity, regularity, environment and contextual habits.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S649 - NHLBI: Insomnia—Treatment
 - URL: https://www.nhlbi.nih.gov/health/insomnia/treatment
@@ -4564,6 +5212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Healthy-habit and CBT-I sections inspected; drug comparisons not independently appraised. Read 2026-10-17.
 - Purpose: Multicomponent CBT-I versus habits alone.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S650 - NEI: Convergence Insufficiency
 - URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency
@@ -4571,6 +5220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition, symptoms, diagnosis, treatment and scope inspected; linked trials/news not appraised. Read 2026-10-17.
 - Purpose: Named binocular-vision indication and exercise-claim limits.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S651 - MedlinePlus: Dandruff, Cradle Cap, and Other Scalp Conditions
 - URL: https://medlineplus.gov/dandruffcradlecapandotherscalpconditions.html
@@ -4578,6 +5228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Federal summary, attribution and linked-source boundaries inspected; linked third-party treatment text not incorporated. Read 2026-10-17.
 - Purpose: Scalp alternatives and review if dandruff shampoo fails.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S652 - CDC: What to Do After a Tick Bite
 - URL: https://www.cdc.gov/ticks/after-a-tick-bite/
@@ -4585,6 +5236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Removal, caution, avoid-tick-testing and follow-up text inspected; interactive guide not executed. Read 2026-10-17.
 - Purpose: Prompt removal, follow-up and limits of tick-test inference.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S653 - ECDC: Personal protective measures against tick bites
 - URL: https://www.ecdc.europa.eu/en/disease-vectors/prevention-and-control/protective-measures-ticks
@@ -4592,6 +5244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Prevention and prompt-removal text inspected; posters/leaflets not incorporated. Read 2026-10-17.
 - Purpose: European exposure prevention and prompt removal.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S654 - WHO: Snakebite envenoming—health topic
 - URL: https://www.who.int/health-topics/snakebite
@@ -4599,6 +5252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms and first-aid/treatment overview inspected; linked publications not appraised. Read 2026-10-17.
 - Purpose: Urgent care, stillness, tight-item removal, breathing attention.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S655 - WHO: Snakebite envenoming—questions and answers
 - URL: https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming
@@ -4606,6 +5260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: First-aid, effective-treatment and venom-variation sections inspected; other costs/statistics not imported. Read 2026-10-17.
 - Purpose: Harmful methods, pressure-technique limits and region/species variation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S656 - CDC/NIOSH: Venomous Snakes at Work
 - URL: https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html
@@ -4613,6 +5268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Prevention, first-aid/what-not-to-do and page dates inspected on 2026-10-17; linked trials not appraised.
 - Purpose: No handling/capture; prompt emergency care. US species and other local first-aid details are not universalized.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S657 - VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)
 - URL: https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf
@@ -4620,6 +5276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.
 - Purpose: Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S658 - NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health
 - URL: https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects
@@ -4627,6 +5284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Daytime thinking, mental-health and safety sections inspected2026-10-17; linked primary trials not independently appraised.
 - Purpose: Sleep deficiency and function; limits on cognitive-enhancement inference.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S659 - NIDDK: Diagnosis of GER & GERD
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis
@@ -4634,6 +5292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Clinical-assessment, test-indication, endoscopy and pH-monitoring sections read2026-10-17.
 - Purpose: Different questions answered by lining inspection/biopsy versus reflux monitoring.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S660 - NIDDK: Diagnosis of Indigestion
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/diagnosis
@@ -4641,6 +5300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptom/history, examination, endoscopy and H.pylori-testing sections inspected2026-10-17; diagnostic-criteria table/exact criteria not reproduced.
 - Purpose: Dyspepsia assessment, alternative causes and test-purpose distinctions.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S661 - NIDDK: Symptoms & Causes of GI Bleeding
 - URL: https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes/
@@ -4648,6 +5308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Acute bleeding and shock symptom/urgency sections inspected2026-10-17; full causal review not completed.
 - Purpose: Visible GI bleeding and deterioration require prompt/emergency care.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S662 - MedlinePlus: How to Prepare for a Lab Test
 - URL: https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/
@@ -4655,6 +5316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Preparation, medicine and fasting sections read; not a universal preparation protocol.
 - Purpose: Test-specific preparation and reporting departures.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S663 - NHS: Neck pain
 - URL: https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/
@@ -4662,6 +5324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Causes, self-care and review sections read.
 - Purpose: Adult symptom context and review boundaries.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S664 - NHS: Shoulder pain
 - URL: https://www.nhs.uk/symptoms/shoulder-pain/
@@ -4669,6 +5332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Self-care, review and urgent-help sections read.
 - Purpose: Adult shoulder context and urgency clues, local equivalents required.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S665 - University Hospitals Sussex: Self treatment of acute neck pain
 - URL: https://www.uhsussex.nhs.uk/resources/self-treatment-of-acute-neck-pain-2/
@@ -4676,6 +5340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Context, symptoms and urgent-help sections read; exercise sequence not adopted.
 - Purpose: Neurological warning signs; leaflet population already assessed in emergency department.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S666 - NIAMS: Polymyalgia Rheumatica and Giant Cell Arteritis
 - URL: https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis
@@ -4683,6 +5348,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview and symptom sections read.
 - Purpose: Inflammatory alternatives and urgent visual symptoms; not diagnostic criteria.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S667 - NIAMS: Spinal Stenosis
 - URL: https://www.niams.nih.gov/health-topics/spinal-stenosis
@@ -4690,6 +5356,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected cervical symptoms/causes inspected by packet researcher; no complete condition review.
 - Purpose: Background source lead for cervical neurological symptoms.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S668 - NHS: Cradle cap
 - URL: https://www.nhs.uk/conditions/cradle-cap/
@@ -4697,6 +5364,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptoms, age-specific gentle care and review/escalation sections read.
 - Purpose: Infant scalp symptoms and avoiding adult-regimen transfer.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S669 - CITT Study Group: Randomized clinical trial of treatments for symptomatic convergence insufficiency in children
 - URL: https://pubmed.ncbi.nlm.nih.gov/18852411/
@@ -4704,6 +5372,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract read; full paper and instruments not independently appraised.
 - Purpose: Child population, defined intervention/comparator and 12-week convergence/symptom outcomes.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S670 - CITT-ART: Treatment of Symptomatic Convergence Insufficiency in Children
 - URL: https://pubmed.ncbi.nlm.nih.gov/31651593/
@@ -4711,6 +5380,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract read; not full-trial appraisal.
 - Purpose: Different convergence and symptom outcomes; linked cohort with S671, not independent replication.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S671 - CITT-ART: Effect of Vergence/Accommodative Therapy on Reading in Children with Convergence Insufficiency
 - URL: https://pubmed.ncbi.nlm.nih.gov/31651592/
@@ -4718,6 +5388,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: PubMed abstract read; no full-text appraisal.
 - Purpose: Standardized reading outcome versus office placebo at16weeks; same trial as S670.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S672 - NHLBI: What Is Insomnia?
 - URL: https://www.nhlbi.nih.gov/health/insomnia
@@ -4725,6 +5396,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview definition, opportunity/environment and diary paragraphs read; not all linked sections.
 - Purpose: Sleep opportunity versus insomnia; clinical context.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S673 - NHLBI: Sleep Apnea Symptoms
 - URL: https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms
@@ -4732,6 +5404,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Symptom and possible sleep-study sections read.
 - Purpose: Breathing/sleepiness clues prompt assessment, not diagnosis.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S674 - NHLBI: Circadian Rhythm Disorders
 - URL: https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders
@@ -4739,6 +5412,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition, environment/timing, symptoms and assessment overview read; not treatment plan.
 - Purpose: Sleep timing mismatch and type/cause-specific evaluation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S675 - WHO: Healthy ageing and functional ability
 - URL: https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability
@@ -4746,6 +5420,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Healthy-ageing, functional-ability, intrinsic-capacity/environment and diversity sections read.
 - Purpose: Ageing goals concern valued function, capacity and environment; not absence of every disease.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S676 - WHO: Ageing and health
 - URL: https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
@@ -4753,6 +5428,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Ageing explained, conditions, healthy-ageing factors and environment sections read.
 - Purpose: Heterogeneity and multiple determinants of later-life function.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S677 - Waziry et al.: CALERIE DNA methylation measures of biological ageing
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/
@@ -4760,6 +5436,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis. Additional bounded review 2026-10-18: section_read; Main methods/results including achieved restriction and missing samples, effect estimates, discussion and conflicts. Correction metadata checked: affiliation correction. Supplement/code and participant data not fully audited.
 - Purpose: Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S678 - Author correction to CALERIE DNA methylation report
 - URL: https://www.nature.com/articles/s43587-023-00432-y
@@ -4767,6 +5444,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Correction paragraph and licence inspected; correction concerns author affiliation.
 - Purpose: Bibliographic correction provenance; no independent efficacy claim.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S679 - FDA: Unproven Alzheimer Disease Products
 - URL: https://www.fda.gov/consumers/health-fraud-scams/unproven-alzheimers-disease-products
@@ -4774,6 +5452,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: General warning/risks paragraphs read; product list not reproduced or independently checked.
 - Purpose: Unsupported prevention/cure marketing is not evidence; avoid delay of appropriate evaluation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S680 - WHO: Call for experts for a new endometriosis guideline
 - URL: https://www.who.int/news-room/articles-detail/call-for-experts-for-the-new-who-guideline-on-endometriosis
@@ -4781,6 +5460,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Development-status and background sections read; not a completed guideline.
 - Purpose: Preserve2026 development status without inventing new recommendations.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S681 - FDA: Table of Surrogate Endpoints That Were the Basis of Drug Approval or Licensure
 - URL: https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure
@@ -4788,6 +5468,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Definition, key considerations and limitations read; individual disease/table rows not appraised or reproduced.
 - Purpose: Surrogate use is context dependent and case by case; biomarker change is not automatically clinical benefit.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S682 - FDA: PFDD Guidance3, Fit-for-Purpose Clinical Outcome Assessments
 - URL: https://www.fda.gov/media/159500/download
@@ -4795,6 +5476,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Final2025 guidance II.B–C, IV.B,IV.G–H selected text read by packet researcher; integrating reviewer checked title, TOC and measurement-error discussion. Not full53pages.
 - Purpose: Construct/context/fit-for-purpose, reliability and score interpretation; guidance is nonbinding.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S683 - Patient-Reported Outcomes: OBSSR-hosted e-Source chapter
 - URL: https://obssr.od.nih.gov/sites/obssr/files/Patient-Reported-Outcomes.pdf
@@ -4802,6 +5484,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected PDFpp20–27 measurement-property text read by packet researcher; root first-page/date/copyright text check. Not full45pages.
 - Purpose: Dated introductory measurement properties, especially responsiveness; bibliographic identity/date uncertainty retained.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S684 - NHLBI: High Blood Pressure Diagnosis
 - URL: https://www.nhlbi.nih.gov/health/high-blood-pressure/diagnosis
@@ -4809,6 +5492,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher full page; root selected measurement context/history/confirmation text.
 - Purpose: US public education: repeated/outside-office patterns and question-led assessment, not universal thresholds or panel.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S685 - Henny et al.: EFLM reference-interval review recommendation
 - URL: https://www.eflm.eu/files/efcc/CCLM%20Recommendation%20for%20the%20review%20of%20biological%20reference%20intervals.pdf
@@ -4816,6 +5500,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher full8viewerpages; root selected terminology/transfer text.
 - Purpose: Dated conceptual methods; not current full verification standard or clinical cutoffs.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S686 - Ceriotti and Henny: Reference intervals and decision limits
 - URL: https://cms.ifcc.org/media/476879/ejifcc2008vol19no2pp106-114.pdf
@@ -4823,6 +5508,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher full9viewerpages; root selected conceptual/critical-value/trend passages.
 - Purpose: Dated methods discussion; historical numerical examples not adopted.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S687 - NHS: Breastfeeding and enough milk
 - URL: https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-problems/enough-milk/
@@ -4830,6 +5516,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected attachment/intake/weight/nappy/early-help sections; root rechecked selected text.
 - Purpose: England-facing breastfeeding education, not individual intake diagnosis or premature-infant plan.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S688 - NHS: Baby health and development reviews
 - URL: https://www.nhs.uk/baby/babys-development/height-weight-and-reviews/baby-reviews/
@@ -4837,6 +5524,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected early-review and contact-with-concerns sections.
 - Purpose: England service schedule only; not a universal preventive schedule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S689 - WHO: Feeding an infant or young child
 - URL: https://www.who.int/tools/your-life-your-health/life-phase/newborns-and-children-under-5-years/feeding-an-infant-or-young-child
@@ -4844,6 +5532,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected tips/information read; root checked source identity.
 - Purpose: Global public-facing summary, not full current feeding guideline or individual plan.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S690 - NLM MedlinePlus Medical Test: Allergy Blood Test
 - URL: https://medlineplus.gov/lab-tests/allergy-blood-test/
@@ -4851,6 +5540,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher relevant identity/results/limitations sections; root actual relevant text recheck.
 - Purpose: Consumer IgE test literacy, no universal error rate or clinical selection algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S691 - FDA: Public health importance of non-listed food allergens
 - URL: https://www.fda.gov/media/157637/download
@@ -4858,6 +5548,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected title/definitions/II.A,III.A,IV.A; root selected sensitization/reactivity and evidence passages. Not full52pages.
 - Purpose: Regulatory food-allergen evidence framework, not an individual food/drug/contact diagnostic algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S692 - FDA: Food-allergen skin-test false-negative safety communication
 - URL: https://www.fda.gov/safety/medical-product-safety-information/all-allergenic-extracts-diagnosis-food-allergy-fda-safety-communication-fda-requires-warning-about
@@ -4865,6 +5556,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher issue/background/patient-advice sections actually read; root source-identity/claim review.
 - Purpose: Specific US food-allergen extract warning, no universal assay false-negative rate.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S693 - NHS Dynamic Health: Shoulder pain
 - URL: https://www.dynamichealth.nhs.uk/help-and-advice/shoulder-pain/
@@ -4872,6 +5564,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher relevant movement, strengthening, observation and review sections; root page identity checked. Images/videos excluded.
 - Purpose: Local service advice, not comparative-effect estimate or recovery guarantee.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S694 - Percussive massage gun use: bilateral retinal tears and dialysis case report
 - URL: https://pubmed.ncbi.nlm.nih.gov/42315245/
@@ -4879,6 +5572,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher complete PubMed abstract; root bibliographic identity checked. Full article not read.
 - Purpose: Serious exposure-specific signal, not incidence, causation proof or safe settings.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S695 - Johnston et al. 2021: Workplace ergonomics and neck-specific exercise trial
 - URL: https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-021-03945-y
@@ -4886,6 +5580,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher full article; root selected methods, outcomes, missing data, harms and CC BY 4.0 notice.
 - Purpose: Secondary neck-pain outcome; no daily-function benefit established; no home protocol.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S696 - CPSC 2021: Massimo EM003 percussion massage gun recall
 - URL: https://www.cpsc.gov/Recalls/2021/Massimo-Motor-Sports-Recalls-Percussion-Massage-Guns-Due-to-Fire-Hazard-Sold-Exclusively-at-Costco
@@ -4893,6 +5588,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher notice; root exact model and incident text rechecked.
 - Purpose: Electrical fire hazard for affected model; not clinical tissue-injury rate.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S697 - CPSC 2024: HoMedics HHP-715 massager recall
 - URL: https://www.cpsc.gov/Recalls/2024/Homedics-Recalls-Massagers-Due-to-Fire-and-Burn-Hazards
@@ -4900,6 +5596,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher notice; root model/date codes and reported incidents rechecked.
 - Purpose: Affected YY20/21/22 units; charging hazard, not all-device clinical safety.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S698 - FDA: Theragun G4 PRO charger recall record
 - URL: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221189
@@ -4907,6 +5604,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher full record; root exact all-lot charger scope and reason rechecked.
 - Purpose: Open recall for named charger; reports do not quantify massage-related injury.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S699 - NHS: Dry eyes
 - URL: https://www.nhs.uk/symptoms/dry-eyes/
@@ -4914,6 +5612,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Reviewed 2025-01-06. Researcher full relevant sections; root symptom, routine/urgent/immediate advice read.
 - Purpose: Symptom overlap and England referral scope; not eye-exercise efficacy.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S700 - NEI: Refractive Errors
 - URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors
@@ -4921,6 +5620,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Updated 2025-12-19. Researcher types/symptoms/exam/correction; root relevant sections read.
 - Purpose: Refractive complaints and examination; no vision-training trial.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S701 - NEI: Dry Eye
 - URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye
@@ -4928,6 +5628,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Updated 2025-08-06. Researcher and root relevant assessment, screen context and cause-dependent care sections.
 - Purpose: Screen breaks/comfort and assessment are distinct from evidence for vision training.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S702 - NEI: Testing for Dry Eye
 - URL: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye/testing-dry-eye
@@ -4935,6 +5636,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Updated 2025-08-06. Researcher short page/test descriptions; root source-claim fit review only.
 - Purpose: Educational test purposes, not complete diagnostic criteria.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S703 - AAD: How to treat dandruff
 - URL: https://www.aad.org/public/everyday-care/hair-scalp-care/scalp/treat-dandruff
@@ -4942,6 +5644,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher relevant definition/ingredient/label/referral text read; update recorded 2023-12-11.
 - Purpose: Ingredient navigation, not independent comparative evidence; no source wording/images reproduced.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S704 - 2002 randomized shampoo comparison in severe dandruff/scalp seborrhoeic dermatitis
 - URL: https://pubmed.ncbi.nlm.nih.gov/12476017/
@@ -4949,6 +5652,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher abstract design/comparator/outcomes; full text, funding/conflicts and detailed harms unread. DOI10.1159/000066452.
 - Purpose: Independence unestablished; no numeric superiority recommendation adopted.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S705 - DailyMed: Nizoral ketoconazole 1% OTC shampoo, Kramer
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a17b7424-ee7e-4fcc-b6b3-0904932ae319
@@ -4956,6 +5660,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher ingredient, dandruff indication, warnings and age directions read. Root reopen failed; no root full-label reading claimed.
 - Purpose: Named product12+ directions; under12 ask doctor; not a global product rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S706 - DailyMed: ANI ketoconazole 2% prescription shampoo
 - URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00c1cac8-a865-4583-aaba-3a0f21fb31e6
@@ -4963,6 +5668,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Issued2024-07; record update2026-01-29. Researcher indication, pediatric and safety sections; root page identity review.
 - Purpose: Inspected indication is tinea versicolor, not dandruff; no concentration-wide inference.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S707 - DailyMed: Westminster selenium sulfide 2.25% shampoo
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fcab751-28f4-485a-aa37-169318a61110
@@ -4970,6 +5676,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Root/researcher indication, pediatric precautions and marketing status read. Label rev2022-09; version6 posted2025-04-25, page update2025-04-23.
 - Purpose: Rx-only; UNAPPROVED DRUG OTHER. Under12 not established; listing is not FDA approval.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S708 - Batut: Measures to prevent diseases transmitted by tick bites
 - URL: https://www.batut.org.rs/index.php?content=2352
@@ -4977,6 +5684,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher and root prevention/after-bite text read; no current national protocol established.
 - Purpose: Clinician-within24h/no-self-removal advice conflicts with ECDC/CDC; preserve date and conflict.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S709 - ECDC: Tick-borne encephalitis
 - URL: https://www.ecdc.europa.eu/en/tick-borne-encephalitis
@@ -4984,6 +5692,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher disease/transmission/vaccination/prevention sections read2026-10-17; maps not reproduced.
 - Purpose: Pathogen/place-specific prevention; not Serbian resident vaccine schedule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S710 - CDC Travelers Health: Serbia
 - URL: https://wwwnc.cdc.gov/travel/destinations/traveler/none/serbia
@@ -4991,6 +5700,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher TBE row and vaccine table inspected; page update recorded2025-04-23.
 - Purpose: Itinerary/exposure-qualified traveler advice, not Serbian resident policy.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S711 - ECDC: Factsheet about Borreliosis
 - URL: https://www.ecdc.europa.eu/en/borreliosis/facts/factsheet
@@ -4998,6 +5708,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher disease/prevention text read; vaccine-absence wording not adopted as a current global claim.
 - Purpose: Disease distinction and exposure reduction only; current product status needs dated local checking.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S712 - IFRC: International First Aid, Resuscitation and Education Guidelines2025
 - URL: https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
@@ -5005,6 +5716,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected Snakebites sections; root front matter PDFindex1 and Snakebites indices339-342. Whole594-page work not read.
 - Purpose: Stillness/emergency help, harmful actions and regional/training limits. Original brief facts; no copied algorithm, figure or table.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S713 - NIEHS DTT: Basic Cellular and Tissue Microscopic Responses to Toxicity
 - URL: https://www.niehs.nih.gov/sites/default/files/2026-02/Basic_Path_Responses_long_508.pdf
@@ -5012,6 +5724,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected adaptation/injury text, PDFindices3,6-19,25-29; visual viewer8,16,26; title/reference identity checked. Full50pages not read; upload path is not publication date. Additional selected text PDFindices40,43-44/viewer41,44-45 and visual checks read2026-10-17; toxicologic inflammation/repair examples, not human diagnostic criteria.
 - Purpose: Background adaptation/injury concepts only; unregulated-necrosis simplification not adopted.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S714 - Galluzzi, Vitale et al. 2018: NCCD cell-death nomenclature recommendations
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/
@@ -5019,6 +5732,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected introduction, morphology/mechanism distinction, MPT-driven necrosis and opening necroptosis text; CC BY-NC-SA4.0 notice. Publisher direct fetch failed; authorized PMC full text used. Other mechanisms/trials not appraised.
 - Purpose: Dated committee definitions counter an exhaustive apoptosis-versus-accident dichotomy; no clinical benefit claim.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S715 - NCI: What Is Cancer? — selected tissue-change concepts
 - URL: https://www.cancer.gov/about-cancer/understanding/what-is-cancer
@@ -5026,6 +5740,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected cancer/benign definitions and Tissue Changes That Are Not Cancer text read. Article review date not independently established; copyright policy reviewed2025-03-12. Copyrighted graphics excluded.
 - Purpose: Hyperplasia/dysplasia are not interchangeable with invasive cancer or inevitable progression; no organ-specific risk estimate.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S716 - NIDDK: Your Kidneys & How They Work
 - URL: https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work
@@ -5033,6 +5748,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher and root selected roles, glomerular filtration, tubular handling and provider/date text; linked videos and clinical trials not read.
 - Purpose: Different renal processes; filtered fluid is not final urine or a complete fluid-status assessment.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S717 - NIDDK: Clinical Measurements & eGFR Accuracy
 - URL: https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/factors-affecting-egfr-accuracy/clinical-measurements
@@ -5040,6 +5756,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher direct relevant full page; root selected creatinine/non-GFR/unstable-function/assay text. Cited external papers were not opened or independently appraised.
 - Purpose: Marker concentration versus estimated filtration; population and method limits. No numerical accuracy, cutoff or dosing rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S718 - MedlinePlus Medical Test: Osmolality Tests
 - URL: https://medlineplus.gov/lab-tests/osmolality-tests/
@@ -5047,6 +5764,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected purpose/meaning/context sections; root concentration text checked. Displayed update2024-07-31 and a2026 bibliography citation coexist; no whole-page edition/update inferred.
 - Purpose: Plain-language concentration and interpretation limits; technical denominator/units, osmolarity and tonicity not established by this reading.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S719 - MedlinePlus Medical Test: Sodium Blood Test
 - URL: https://medlineplus.gov/lab-tests/sodium-blood-test/
@@ -5054,6 +5772,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected purpose/result interpretation and provider/date sections; root identity/scope review. Medical Test content-use category checked.
 - Purpose: Sodium loss and dilution can both underlie a low result; no individual cause, total-body inventory or fluid/salt regimen.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S720 - NHS: Migraine (page reviewed2026-03-10)
 - URL: https://www.nhs.uk/conditions/migraine/
@@ -5061,6 +5780,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected symptom and urgent/emergency sections directly read; diagnosis URL redirected here. No video or treatment appraisal.
 - Purpose: Attack change and pregnancy/postpartum context; no individual migraine diagnosis, diagnostic criteria or imaging algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S721 - NHS: CT scan (page reviewed2023-11-08)
 - URL: https://www.nhs.uk/tests-and-treatments/ct-scan/
@@ -5068,6 +5788,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected purpose and professional-results sections directly read; third-party stock image excluded.
 - Purpose: General test-purpose literacy, not headache-imaging indications, CT/MRI comparison or normal-image exclusion claims.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S722 - WHO: Migraine and other headache disorders (2025-10-24), selected categories
 - URL: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
@@ -5075,6 +5796,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview and primary/secondary category statements directly read; no linked classification, atlas, treatment or underlying study appraised. Source rights retained; website terms checked, not presumed MIT/CC relicensing.
 - Purpose: Brief original factual distinction between primary headache examples and secondary headache; no copied classification or treatment passage.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S723 - NIGMS, Abbey Bigler: Science Snippet: ATP’s Amazing Power (2022-11-16)
 - URL: https://www.nigms.nih.gov/biobeat/2022/11/science-snippet-atps-amazing-power
@@ -5082,6 +5804,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected ATP roles/turnover and respiration/fermentation paragraphs directly read. No linked experiment or image processed; NIH rights endpoint access gap retained.
 - Purpose: Bounded ATP production/use concepts; no precise yield, bond-cleavage energy assertion, human intervention benefit or rigorous thermodynamic derivation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S724 - US DOE: Harvesting Energy from Light using Bio-inspired Artificial Cells (2019-11-05)
 - URL: https://www.energy.gov/science/bes/articles/harvesting-energy-light-using-bio-inspired-artificial-cells
@@ -5089,6 +5812,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: The Science and Summary directly read; institutional copyright policy checked. Credited Wiley image and cited journal article excluded/unread.
 - Purpose: Specific artificial-cell energy-conversion chain only; not independent experiment appraisal, human-cell validation or cognitive/supplement trial.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S725 - MedlinePlus NLM: Arterial Blood Gas (ABG) Test (updated2025-06-26)
 - URL: https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test/
@@ -5096,6 +5820,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected measurement definitions, bicarbonate, results and pulse-ox comparison directly read; NLM Medical Test rights category checked. Linked studies and procedural/range guidance not appraised.
 - Purpose: Blood-gas quantity distinctions; no precise functional-saturation denominator, diagnosis or normal-range/action rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S726 - NHLBI: Anemia — What Is Anemia? (updated2022-03-24)
 - URL: https://www.nhlbi.nih.gov/health/anemia
@@ -5103,6 +5828,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Overview main text read by researcher; first carrier/oxygen paragraph used. Linked diagnostic/treatment pages, images and guide not read.
 - Purpose: Qualitative carrier-quantity context only; no oxygen-content/delivery equation or management.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S727 - NIDDK: Insulin Resistance and Prediabetes (reviewedMarch2025)
 - URL: https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance
@@ -5110,6 +5836,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected signal/responsiveness, causes and blood-test comparison sections directly read; NIDDK rights policy checked; no treatment/outcome appraisal.
 - Purpose: Muscle/fat/liver insulin responsiveness, not complete endocrine pathways or therapy.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S728 - NCI SEER Training: Pancreas — Islets of Langerhans
 - URL: https://training.seer.cancer.gov/anatomy/endocrine/glands/pancreas.html
@@ -5117,6 +5844,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Main endocrine/exocrine and alpha/beta-cell teaching text directly read; displayed citation/access date not treated as publication update. No graphics reused.
 - Purpose: Selected pancreatic signaling concepts; no complete liver/receptor pathway or diagnosis.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S729 - NIDDK: Story of discovery — one pancreatic hormone (research update2021-01-27)
 - URL: https://www.niddk.nih.gov/news/archive/2021/story-discovery-medications-diabetes-obesity-emerged-research-pancreatic-hormone
@@ -5124,6 +5852,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Root directly read selected Glucagon/Insulin paragraphs119-122 and identity/date; no source image, linked trial or current treatment appraisal.
 - Purpose: Brief original pancreas-to-liver release concept; not drug efficacy, approval/availability or complete hepatic biochemistry.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S730 - FDA: Pulse Oximeters for Medical Purposes — January2025 draft
 - URL: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-medical-purposes-non-clinical-and-clinical-performance-testing-labeling-and
@@ -5131,6 +5860,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Current landing page marked draft/not for implementation directly checked. Researcher selected linked PDF cover and printed1,2,8,12,31; no complete47page/ISO/table appraisal.
 - Purpose: SpO2/SaO2 terminology only. Exact functional denominator not found; no device algorithm or treatment recommendation adopted. Landing/PDF are one work, not independent studies.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S731 - IDkit Hp One/Two: company-submitted in-use labeling (revised August 2026)
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8baab7a7-5d20-46ad-9c4a-762992ef6b51
@@ -5138,6 +5868,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher/root selected1/2.1/2.6/7/12.1; NLM copyright and DailyMed disclaimer checked. Full device instructions and current approved-label reconciliation remain unread.
 - Purpose: Qualitative result/interference asymmetry and method context only; no exact preparation interval, therapy or diagnostic performance imported.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S732 - WGO Global Guidelines: Helicobacter pylori (May 2021)
 - URL: https://www.worldgastroenterology.org/guidelines/helicobacter-pylori/helicobacter-pylori-english
@@ -5145,6 +5876,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher/root selected5.1/6.1-6.4 directly read; current WGO reuse policy checked. No whole guideline, cited-study, treatment-algorithm or table appraisal.
 - Purpose: Method purpose, antibody persistence and negative-result limitations. Brief original facts with attribution; WGO retains rights; no guideline excerpt or abridgement redistributed.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S733 - ACG Guideline Highlights: Treatment of Helicobacter pylori Infection (2024)
 - URL: https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf
@@ -5152,6 +5884,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher/root directly read selected testing/test-of-cure and attribution text. Duh content, Chey/Shah reviewers. Regimen table not appraised/adopted; full AJG guideline not read. Footer/privacy checked; dedicated terms retrieval failed; ordinary copyright retained.
 - Purpose: Purpose-specific confirmation and interference context, without reproducing a guideline table/algorithm or exporting universal preparation intervals.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S734 - CDC/NCHS NHANES Anthropometry Procedures Manual (May 2021)
 - URL: https://wwwn.cdc.gov/nchs/data/nhanes/public/2021/manuals/2021-Anthropometry-Procedures-Manual-508.pdf
@@ -5159,6 +5892,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher selected3.3/3.4.1/3.4.3/3.4.4 plus purpose/age-field openings; root text PDF30-32/34-36, visual31/36. Whole91page manual unread. Agency-materials policy checked; no images/tables/forms reused.
 - Purpose: Measurement-method/recording context and survey-versus-clinical age distinction; no patient scoring or measurement-accuracy guarantee.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S735 - RCPCH UK-WHO Fact Sheet5: Plotting Preterm Infants (2009)
 - URL: https://www.rcpch.ac.uk/sites/default/files/Plotting_preterm_infants.pdf
@@ -5166,6 +5900,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Both pages read by researcher/root; researcher visually checked both. Current RCPCH resource-page specific2009 teaching permission and general policies checked. No chart/source example or algorithm redistributed.
 - Purpose: Chart-specific correction and version boundaries. Copyright2009 RCPCH retained; acknowledged teaching use under source conditions, no endorsement or exclusive source IP claimed.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S736 - RCPCH Digital Growth Charts: Date and Age Calculations
 - URL: https://growth.rcpch.ac.uk/clinician/date-age-calculations/
@@ -5173,6 +5908,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Researcher/root selected chronological/corrected-age and Project Board policy passages directly read; no page-specific revision date established. General RCPCH and digital licensing pages checked; code licences not assumed to cover all narrative/chart assets.
 - Purpose: Paper/digital and purpose-specific age conventions; no deployed API, calculation algorithm, reference dataset or clinical outcome validation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S737 - EMA Yselty endometriosis variation assessment: EMA/CHMP/73456/2025
 - URL: https://www.ema.europa.eu/en/documents/variation-report/yselty-h-c-005442-ii-0013-epar-assessment-report-variation_en.pdf
@@ -5180,6 +5916,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected131page report scopes and root visual35/42/45/46/77/102/108/129 in cycle010 review. Header17October2024/report identifier2025 retained. Full report, exact Month12 analysis and full2026 journal paper remain unappraised. EMA attribution/third-party exceptions retained.
 - Purpose: Analysis-set, extension-selection, raw-versus-modeled, event and BMD-follow-up limits. Conflicting summary continuous-outcome group cells excluded; no source table copied.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S738 - Dahrouge et al.: CHAP five-year population follow-up
 - URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201802
@@ -5187,6 +5924,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2018-09-06; PLOS ONE13(9):e0201802. Researcher/root selected narrative methods, results, discussion/limitations and article-specific CC BY read; table/figure/supplement appraisal and original2011 report not completed.
 - Purpose: Programme-component, endpoint, clustering and follow-up inference limits; no drug/device validation.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S739 - NHLBI: COPD Treatment
 - URL: https://www.nhlbi.nih.gov/health/copd/treatment
@@ -5194,6 +5932,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2024-10-06. Researcher read Treatment opening; Medicines including inhaler use and flare-up plan; Pulmonary rehabilitation; Oxygen therapy. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
 - Purpose: Selected COPD medicine-role/inhaler-technique, rehabilitation and oxygen-safety education; no comparative efficacy or exact diagnostic rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S740 - NIDDK: Managing Diabetes
 - URL: https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes
@@ -5201,6 +5940,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2023-10. Researcher read Opening; diabetes ABCs; medicine selection and cost; progress tracking; special situations; care-team and appointment questions; date/provenance. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
 - Purpose: Diabetes care goals, medicine/cost/context questions and illness/fasting preparation; no class-specific cardiorenal algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S741 - NIDDK: Hypothyroidism (Underactive Thyroid)
 - URL: https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism
@@ -5208,6 +5948,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2021-03. Researcher read Pregnancy; symptoms; diagnosis; treatment; diet/iodine; date and provenance. No cited journal article read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
 - Purpose: Hypothyroid symptom/diagnostic distinctions, replacement monitoring and pregnancy contact; not full2026 thyroid guidance or antithyroid product warnings.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S742 - NHS website, independently written consumer overview rather than NICE recommendation text: Arthritis
 - URL: https://www.nhs.uk/conditions/arthritis/
@@ -5215,6 +5956,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2026-01-19. Researcher read Symptoms; urgent and nonurgent assessment; tests; treatment; self-care; review date. Source table not copied; external Arthritis UK content not read. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
 - Purpose: Joint assessment, function and urgent hot/swollen-joint routing; no OA/RA drug or referral algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S743 - NIDDK: Prescription Medications to Treat Overweight & Obesity
 - URL: https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity
@@ -5222,6 +5964,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2024-06. Researcher read Individual assessment; mechanisms; lifestyle role; concerns; selection; duration; regain; insurance; general interaction/pregnancy cautions. Medication table incidentally returned but not adopted/copied; no numeric efficacy/eligibility/stopping algorithm adopted. Root independently rechecked relevant replacement claims and provider rights; selected HTML, not comparative guideline or cited studies.
 - Purpose: Weight-management medicine purpose, selection/maintenance/interaction/pregnancy questions; not a current approval/eligibility/stopping table.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S744 - NHLBI: COPD Diagnosis
 - URL: https://www.nhlbi.nih.gov/health/copd/diagnosis
@@ -5229,6 +5972,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Version 2024-10-04. Root directly read clinical-history, spirometry and imaging-purpose passages; source date and current provider rights checked. Videos and linked testing documents not read.
 - Purpose: Diagnostic purpose and main spirometry test; not exact obstruction threshold, full protocol or treatment-selection algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S745 - DailyMed: losartan potassium, REMEDYREPACK INC., exact SPL
 - URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f39f7f9-edac-45ca-9ee2-c2ecad0915ab
@@ -5236,6 +5980,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Revised July 2026; published 2026-07-13, version1. Researcher/root selected section7.4, revision/provider metadata and NLM rights. Label reports VA NEPHRON-D; original trial not appraised.
 - Purpose: Dual RAS blockade safety and regulatory-label versus original-trial evidence.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S746 - CDC: Clinical Features of Penicillin Allergy
 - URL: https://www.cdc.gov/antibiotic-use/hcp/clinical-signs/index.html
@@ -5243,6 +5988,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2025-08-25. Researcher selected overview, assessment and supervised-testing/severe-delayed-reaction sections; root independently rechecked these and current CDC material policy. References are unread locators.
 - Purpose: Penicillin-specific professional evaluation and severe delayed reaction boundary; no home protocol or prevalence estimate.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S747 - Copaescu et al.: six-month penicillin allergy self-report after delabeling (2024)
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822413
@@ -5250,6 +5996,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2024-08-15; JAMA Network Open7:e2429621, DOI10.1001/jamanetworkopen.2024.29621. Researcher/root selected main methods/results/discussion/limitations and article-specific CC-BY permissions. Supplements/2023 trial not appraised.
 - Purpose: Assessed tolerance, later self-report and record correction are different outcomes; arithmetic inconsistency omitted.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S748 - Kanzler et al.: focused ACT for chronic pain, pilot RCT (2022)
 - URL: https://link.springer.com/article/10.1186/s12875-022-01690-2
@@ -5257,6 +6004,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2022-04-14; BMC Primary Care23:77. Researcher/root selected narrative methods, detailed results, limitations/disclosures and article-specific CC BY 4. No scales/protocol/figures/supplement reused; no independent correction search completed.
 - Purpose: Preserve positive acceptance result while distinguishing comparative disability, pain and QoL evidence.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S749 - ASH2018 VTE diagnosis guideline: selected PE and evidence-method sections
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6258916/
@@ -5264,6 +6012,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2018-11-27; Blood Advances2:3226–3256, DOI10.1182/bloodadvances.2018024828. Root selected scope, PE remarks/recommendations, methods/indirectness footnotes and limitations; evidence search through2017-10-01. Live status page reports February2022 limited-search review, not verified2026 refresh.
 - Purpose: Eligible probability/assay context and sequential-pathway modeling limits; no reproduced decision rule, table, formula or algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S750 - AHA2026 acute PE: official summary and Top Things to Know
 - URL: https://professional.heart.org/en/science-news/2026-guideline-for-the-evaluation-and-management-of-acute-pulmonary-embolism-in-adults/top-things-to-know
@@ -5271,6 +6020,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2026-02-19. Root read official summary/Top Things to Know and current AHA terms; not full Circulation article, slide set, patient PDFs or tools.
 - Purpose: Severity/management after acute PE differs from diagnostic probability; no personal disposition or drug-selection algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S751 - Hui et al.: supported home versus hospital OSA management trial (2017)
 - URL: https://www.nature.com/articles/srep45901
@@ -5278,6 +6028,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2017-04-04; Scientific Reports7:45901. Researcher selected methods/results/discussion; root independently rechecked HTML and PDF2/4–6, visually verified flowchart2 and outcome Table3 on5. Clinical missing-outcome handling and modified-ITT/starting-treatment wording remain unclear; supplement and underlying device-validation studies unread.
 - Purpose: Selected strategy outcomes and noninferiority/missingness/analysis-population interpretation; not universal diagnostic interchangeability or current test-selection protocol.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S752 - Hui et al.: Author Correction to the2017 OSA pathway trial (2019)
 - URL: https://www.nature.com/articles/s41598-019-41389-6
@@ -5285,6 +6036,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2019-04-02; Scientific Reports9:5595. Researcher/root read correction text and corrected Table1; root directly downloaded exact publisher PDF and visually checked2. Article-specific CC BY 4 verified. Supersedes original adherence cells/denominator wording.
 - Purpose: Corrected completer adherence endpoints and accepted-treatment/completed-follow-up denominator; no additional trial/study credit.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S753 - Ko et al.: ferritin inflammation-adjustment comparisons using serial norovirus-challenge data (2024)
 - URL: https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003964
@@ -5292,6 +6044,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2024-12-19; PLOS Global Public Health4:e0003964. Researcher/root read main methods/results/discussion/conclusion, source copyright and current PLOS reuse policy. No raw data, supplements, underlying challenge reports or visual table/figure appraisal.
 - Purpose: Measured versus modeled references, descriptive method comparison, repeated person-time denominators and individual-diagnosis limits; not a clinical correction formula.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S754 - Bernal et al.: Sodium Homeostasis, a Balance Necessary for Life (2023)
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9862583/
@@ -5299,6 +6052,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2023-01-12; Nutrients 15:395, DOI10.3390/nu15020395. Researcher/root selected Introduction and kidney sections4.1–4.6, article-specific CC BY 4 licence. Underlying experiments and figures not independently appraised.
 - Purpose: Renal sympathetic/renin/angiotensin/aldosterone, vasopressin/AQP2 and cardiac natriuretic connections; no new outcome or treatment evidence.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S755 - Roumelioti et al.: Fluid balance concepts in medicine (2018)
 - URL: https://www.wjgnet.com/2220-6124/full/v7/i1/1.htm
@@ -5306,6 +6060,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2018-01-06; World J Nephrol 7:1–28, DOI10.5527/wjn.v7.i1.1. Researcher/root selected water/tonicity, extracellular-volume and effective-perfusion sections through progressive CHF illustration; exact article CC BY-NC 4.0 and current publisher terms/AI-policy scope directly checked. No PDF pagination or underlying experiments verified.
 - Purpose: Concentration/inventory versus extracellular volume/effective organ perfusion; no bedside formula, fluid regimen or efficacy claim. Source noncommercial conditions retained.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S756 - Eyre et al.: Asymptomatic C. difficile colonisation and onward transmission (2013)
 - URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078445
@@ -5313,6 +6068,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2013-11-12; PLOS ONE 8:e78445. Researcher main Methods/Results/Discussion; root selected target/selection/sampling and relevant results/discussion plus exact publisher PDF Figure 1 on 5 visual. 230 enrolled/227 eligible reconciled; Figure 2 caption 118 versus Figure 1 114 remains inconsistent. Article CC Attribution, historical version not asserted.
 - Purpose: Culture and isolate toxin genes versus toxin activity/host injury; symptom-threshold and sampling limits. No modern NAAT accuracy, prevalence estimate, treatment or infection-control rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S757 - Tozzo et al.: Hematologic dynamics during pregnancy and obstetric complications (2026)
 - URL: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004747
@@ -5320,6 +6076,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2026-05-20; PLOS Medicine 23:e1004747. Researcher/root selected cohort/CBC/reference/longitudinal methods, relevant Results and Discussion.37,709 reference pregnancies differ from2,791 all-four-timepoint subset. Supplements/visualfigures/rawrecords unread; early-delivery wording inconsistent. Exact CC BY 4 licence verified.
 - Purpose: Gestational concentration trends, reference interval versus diagnosis and observational outcome limits; no new threshold, prospective implementation benefit or postpartum transfer.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S758 - Randall et al.: Early-pregnancy hemoglobin study, selected physiological background (2019)
 - URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225123
@@ -5327,6 +6084,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: 2019-11-13; PLOS ONE 14:e0225123. Researcher/root Introduction physiological paragraph, citation/copyright and exact CC BY 4 link only. Outcome methods/results and underlying physiology experiments not independently appraised.
 - Purpose: Relative plasma/red-cell volume expansion as background; no outcome estimate, historical guideline cutoff or treatment benefit adopted.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S759 - MedlinePlus Medical Test: TSH (thyroid-stimulating hormone)
 - URL: https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/
@@ -5334,6 +6092,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Displayed footer updated 2024-10-30, with later bibliography entries; not a proven latest-content revision date. Researcher/root definition, purpose, preparation and interpretation/context read; current NLM Medical Test public-domain category verified. Linked encyclopedia/cited third-party works not adopted.
 - Purpose: Pituitary/thyroid signaling, cause and illness/pregnancy/medicine context; no biotin-specific interference evidence, universal washout, full pituitary algorithm or individual prescription.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S760 - MedlinePlus Genetics: Gilbert syndrome, selected bilirubin mechanism
 - URL: https://medlineplus.gov/genetics/condition/gilbert-syndrome/
@@ -5341,6 +6100,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Displayed updated2012-02-01. Researcher/root selected Description/Causes and current NLM category/provider notice. Linked primary works, inheritance/frequency/genotype rules and precise enzyme-activity claims not appraised or adopted.
 - Purpose: Bilirubin production, UGT-mediated conjugation/water solubility and a bounded Gilbert example; not a diagnosis or pharmacogenomic rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S761 - MedlinePlus Medical Test: Bilirubin Blood Test
 - URL: https://medlineplus.gov/lab-tests/bilirubin-blood-test/
@@ -5348,6 +6108,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Displayed updated2024-10-27. Researcher/root selected adult-relevant definition/purpose/results/additional-context text, provider/footer and current NLM Medical Test rights category. Neonatal/preparation instructions encountered, not adopted.
 - Purpose: Biliary removal, broad cause categories and the limits of one result. This page alone only names fractions; it does not establish fractionation interpretation or universal assay arithmetic.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S762 - Newcastle Hospitals Laboratories: Bilirubin (conjugated), serum
 - URL: https://laboratories.newcastle-hospitals.nhs.uk/test-directory/bilirubin-conjugated-serum/
@@ -5355,6 +6116,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Displayed updated2026-01-22. Researcher/root Clinical background paragraph; exact current terms2024-07-25 read. Root direct terms URL initially failed, footer link then worked. Ranges/logistics and diagnostic-performance evidence not clinically appraised.
 - Purpose: Direct with total helps estimate unconjugated component and clarify causes; institution terminology not universal assay equivalence or diagnostic algorithm.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S763 - NICHD: causes of normal and delayed puberty, selected physiology
 - URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/causes
@@ -5362,6 +6124,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Reviewed2021-06-21. Researcher/root Normal Puberty and selected Delayed Puberty prose, provider/date and exact NICHD reuse notice. Cited works and complete cause classification not appraised.
 - Purpose: GnRH/pituitary/gonadal signaling and differing timing explanations; no thresholds, genetic diagnosis or hormone regimen.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S764 - NICHD: puberty assessment, selected test purposes
 - URL: https://www.nichd.nih.gov/health/topics/puberty/conditioninfo/diagnosed
@@ -5369,6 +6132,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Reviewed2021-06-21. Researcher/root history/examination and selected hormone/stimulation/bone-age purpose passages. Cited staging/textbooks, assay cutoffs and performance studies not appraised.
 - Purpose: Distinct observations in developmental assessment; simple source bone-growth wording does not validate an imaging measure of serial growth velocity.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S765 - PES/AAP: Constitutional Growth Delay and Familial Short Stature, selected growth concepts
 - URL: https://pedsendo.org/patient-resource/constitutional-growth-delay/
@@ -5376,6 +6140,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Posted2020-06-17; copyright2018. Researcher/root selected changing-height trajectory and bone-maturation purpose, exact joint notice and PES policy/footer. Numerical rules, source reassurance/treatment and predictions not adopted.
 - Purpose: Serial growth and skeletal maturation as different observations; not remote diagnosis, universal referral threshold or individually accurate height prediction.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S766 - PES/AAP: Short Stature, selected measurement and assessment concepts
 - URL: https://pedsendo.org/patient-resource/short-stature/
@@ -5383,6 +6148,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.
 - Purpose: Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.
 - Checked: 2026-10-17
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S767 - Thomson et al. Association Between Smoking, Smoking Cessation, and Mortality by Race, Ethnicity, and Sex Among US Adults. JAMA Network Open 2022;5:e2231480
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2797597
@@ -5390,6 +6156,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_full_text_sections_read; Methods, mortality results, cessation-age comparisons, limitations, funding/disclosures, licence; supplements excluded.
 - Purpose: mortality_association_not_randomized_cessation_effect
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S768 - WHO releases first-ever clinical treatment guideline for tobacco cessation in adults. 2 July 2024
 - URL: https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults
@@ -5397,6 +6164,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: official_guideline_summary_read; WHO announcement and publication overview; full guideline PDF inaccessible, evidence tables and product harms unappraised.
 - Purpose: adult_cessation_recommendations_without_dosing_or_pooled_effect
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S769 - Zhao et al. Recommended physical activity and all cause and cause specific mortality in US adults: prospective cohort study. BMJ 2020;370:m2031
 - URL: https://www.bmj.com/content/370/bmj.m2031
@@ -5404,6 +6172,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_indexed_full_text_passages_read_direct_fetch_intermittently_unavailable; Indexed methods, adjusted results, sensitivity analyses, limitations, support/disclosures and licence; no complete direct full-text appraisal.
 - Purpose: observational_activity_associations
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S770 - WHO Europe. Physical activity. 1 September 2021
 - URL: https://www.who.int/europe/news-room/fact-sheets/item/physical-activity
@@ -5411,6 +6180,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_official_guidance_sections_read; Adult, older-adult and special-population recommendation summary; complete underlying evidence tables not appraised.
 - Purpose: activity_recommendations_and_population_boundaries
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S771 - Blood Pressure Lowering Treatment Trialists' Collaboration. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure. Lancet 2021;397:1625-1636
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8102467/
@@ -5418,6 +6188,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded.
 - Purpose: randomized_clinical_event_evidence_not_universal_bp_target
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S772 - Chou et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. USPSTF Evidence Summary, 23 August 2022
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/statin-use-in-adults-preventive-medication
@@ -5425,6 +6196,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_full_text_sections_read; Abstract, selected methods/results/limitations, mortality pool and harms; individual included trials not newly appraised.
 - Purpose: primary_prevention_relative_and_absolute_mortality_effects
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S773 - USPSTF. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. Final recommendation, 23 August 2022
 - URL: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
@@ -5432,6 +6204,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_official_guidance_sections_read; Recommendation and clinician summaries, population exclusions, benefits/harms context; not a European guideline appraisal.
 - Purpose: jurisdiction_bounded_risk_discussion
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S774 - Ahmad et al. Mediterranean Diet Adherence and Risk of All-Cause Mortality in Women. JAMA Network Open 2024;7:e2414322
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2819335
@@ -5439,6 +6212,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_full_text_sections_read; Selected methods/model definitions, mortality results, limitations, disclosures and licence; supplements excluded.
 - Purpose: diet_mortality_association_with_adjustment_sensitivity
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S775 - Zhao et al. Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses. JAMA Network Open 2023;6:e236185
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2802963
@@ -5446,6 +6220,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: selected_full_text_sections_read; Selected methods/results, fully adjusted estimates, limitations, correction/funding/licence; individual cohorts not independently appraised.
 - Purpose: alcohol_mortality_associations_and_bias
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S776 - NHLBI. How Sleep Works: How Much Sleep Is Enough? Updated 24 March 2022
 - URL: https://www.nhlbi.nih.gov/health/sleep/how-much-sleep
@@ -5453,6 +6228,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: adult_education_section_and_reuse_notice_read; Complete short adult-duration and exception section; no underlying intervention trial review.
 - Purpose: sleep_duration_guidance_no_causal_mortality_effect
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S777 - Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results
 - URL: https://www.aging-us.com/article/206235/text
@@ -5460,6 +6236,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Publisher abstract, main methods, results including body-composition normalization/tables, adverse-event summary, funding and conflicts. Supplements and participant-level data not fully audited.
 - Purpose: Human randomized rapamycin surrogate outcomes; primary null result, subgroup and safety limitations
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S778 - Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/
@@ -5467,6 +6244,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Main methods, primary/secondary results, adverse-event table and model, funding/conflicts; supplements not fully audited. No participant-data reanalysis.
 - Purpose: Human functional primary endpoint, ITT versus sensitivity analyses and adverse-event uncertainty
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S779 - Effect of Metformin and Lifestyle Interventions on Mortality in the Diabetes Prevention Program and Diabetes Prevention Program Outcomes Study
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8669534/
@@ -5474,6 +6252,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Main methods, mortality tables and models, limitations and funding. Original NEJM DPP paper not used; no supplement or medicine-label audit.
 - Purpose: Long-term randomized-assignment mortality analysis; distinguishes diabetes prevention from demonstrated survival benefit
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S780 - TAME: Targeting Aging with Metformin — official AFAR project page
 - URL: https://www.afar.org/tame-trial
@@ -5481,6 +6260,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: contents_checked; Indexed official page text including planned population/duration, fundraising and status sections; direct canonical opening failed. Undated page and potentially lagging indexed copy cannot verify real-time registry status.
 - Purpose: Proposal/status only; no efficacy inference or live recruitment assertion
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S781 - Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11705617/
@@ -5488,6 +6268,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Accepted manuscript main methods, primary/secondary results and tables, adverse events, limitations, funding and interests. Supplement/protocol and source participant data not fully audited.
 - Purpose: Human senolytic trial with primary bone-marker result, exploratory subgroups and harms
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S782 - Sustained NAD+ augmentation by high-dose nicotinamide mononucleotide supplementation in older adults: a 24-week randomized, double-blind, placebo-controlled trial
 - URL: https://www.nature.com/articles/s41514-026-00482-7
@@ -5495,6 +6276,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Publisher metadata/abstract checked. Selected full methods, main endpoint and adverse-event tables, discussion and disclosures read in author-uploaded accepted article. Supplements not audited; article-in-press copy may contain label errors.
 - Purpose: NAD target engagement distinguished from primary hearing/function outcomes and longevity
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S783 - Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial
 - URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725
@@ -5502,6 +6284,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Main methods, results and missing-data handling, adverse events, disclosures and funding; supplements not fully audited.
 - Purpose: Cognitive primary endpoint, formulation specificity, safety and conflicts for spermidine-rich extract
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S784 - Safety of two-year caloric restriction in non-obese healthy individuals
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4991370/
@@ -5509,6 +6292,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: section_read; Main methods, safety tables, bone/hematocrit results and withdrawal criteria, funding and conflicts. Related efficacy papers and supplements not fully audited.
 - Purpose: Safety companion to CALERIE biomarker card; same trial, not independent replication
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S785 - Cano Macip et al. — Gene Therapy-Mediated Partial Reprogramming Extends Lifespan and Reverses Age-Related Changes in Aged Mice (2024)
 - URL: https://doi.org/10.1089/cell.2023.0072
@@ -5516,6 +6300,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected main-paper methods, results, discussion, limitations, funding and disclosures read; indexed same-work Figure 1 labels inspected; no independent image or supplement audit.; PMC10909732 main text and publisher PDF pp24-30 selectively; n=20 per concurrent group appears in indexed same-work Figure 1 labels. Direct screenshot tool returned no viewable image. Later PMC access challenged. No claim of complete paper/supplement study or raw-data reproduction.
 - Purpose: Remaining versus total mouse lifespan; preclinical translation, control and safety limits.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S786 - Life Biosciences — First-in-human interim ER-100 Phase 1 observations (8 October 2026)
 - URL: https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/
@@ -5523,6 +6308,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Substantive sponsor announcement read in full, including safety, visual-field observations and trial description; not peer-reviewed clinical evidence.; 2026-10-08 announcement, substantive paragraphs and presentation highlights. No individual-level data, statistical analysis plan, conference slides or peer-reviewed clinical report appraised.
 - Purpose: Three-participant, day-56 preliminary human observations; supersedes June-only status without establishing efficacy or longevity benefit.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S787 - ClinicalTrials.gov — ER-100 in optic neuropathies, NCT07290244
 - URL: https://clinicaltrials.gov/study/NCT07290244
@@ -5530,6 +6316,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Registry identity/title identified in official indexed record; dynamic page and API did not yield the complete study record.; Official indexed study title/identifier and page shell. Full protocol, registration history, outcome definitions and results not retrieved. Browser unavailable; API access failed. Sponsor data disclosure is a distinct source.
 - Purpose: Primary registry navigation pointer only; no unverified enrollment count, recruitment status or completion date.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S788 - Ribas et al. — Immune profiling in a living human recipient of a gene-edited pig kidney (2026)
 - URL: https://doi.org/10.1038/s41591-025-04053-3
@@ -5537,6 +6324,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract, selected results/discussion, transplantation methods, competing interests and licence read; supplements not audited.; Nature Medicine publisher HTML: temporal immune changes; early T-cell-mediated rejection and its management; persistent innate responses; main discussion; kidney xenotransplantation method; no-competing-interests statement and rights section. Published 2026-01-08.
 - Purpose: Early organ-replacement translation and immune rejection limitations; no radical lifespan claim.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S789 - Olshansky et al. — Implausibility of radical life extension in humans in the twenty-first century (2024)
 - URL: https://doi.org/10.1038/s43587-024-00702-3
@@ -5544,6 +6332,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected original-paper definition, results, discussion/limitations, methods opening, disclosures and licence read via UCLA eScholarship PDF.; Original article pp1635-1639 and selected pp1640/1642 content; no independent calculations or full supplementary review. Repository record https://escholarship.org/uc/item/1191w5w9. Published 2024-10-07.
 - Purpose: Observed demographic slowdown, authors' definition, uncertainty about undeveloped therapies and limits of individual inference.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S790 - Wilmoth et al. — Human Mortality Database Methods Protocol, version 6 (5 August 2025)
 - URL: https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf
@@ -5551,6 +6340,7 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Selected period/cohort definitions and life-table introduction read; not the complete 81-page protocol or country datasets.; Version/date; selected section 2.5, printed p9; section 7/7.1 opening, printed p37. Conditional-survival identity is an explanatory mathematical interpretation, not an implemented or validated personal forecast.
 - Purpose: Separate period and cohort survival interpretation from individual forecasts or breakthrough probability.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
 
 ### S791 - Life Biosciences — First participant dosed in ER-100 Phase 1 (9 June 2026)
 - URL: https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/
@@ -5558,3 +6348,116 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Substantive announcement read; retained as a historical milestone, superseded by the 2026-10-08 sponsor interim-data announcement for current evidence status.; June announcement paragraphs on first dosing, Phase 1 safety/tolerability and visual endpoints. No trial results in this June source; later observations assessed separately under L-R02.
 - Purpose: Provenance of trial initiation; not efficacy or absence-of-results evidence after October disclosure.
 - Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S792 - NHS: Antidepressants
+- URL: https://www.nhs.uk/medicines/antidepressants/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Selected side-effects/early review, stopping and withdrawal sections; individual product schedules excluded. Displayed source version: Reviewed 2025-06-12. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Early review and supervised withdrawal context, not a taper or first-line depression guideline
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S793 - NHS: Sudden confusion (delirium)
+- URL: https://www.nhs.uk/symptoms/confusion/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Signs, immediate-action and waiting-for-help sections. Displayed source version: Reviewed 2024-05-28. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Sudden confusion requires immediate medical assessment
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S794 - NHS: Ectopic pregnancy symptoms
+- URL: https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Symptoms, pregnancy possibility and rupture/emergency sections. Displayed source version: Reviewed 2022-08-23; displayed next review 2025-08-23 is overdue. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Assessment and danger recognition only; no hCG, viability or treatment threshold
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S795 - NHS: Physiotherapy
+- URL: https://www.nhs.uk/tests-and-treatments/physiotherapy/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: What physiotherapy is for and what happens during assessment/treatment; modality-list claims not adopted. Displayed source version: Reviewed 2025-04-03. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Assessment, agreed treatment and post-surgical function; not condition-specific efficacy
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S796 - NHS: Falls
+- URL: https://www.nhs.uk/conditions/falls/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Help from a GP/falls service and selected prevention/urgent sections; get-up manoeuvre not adopted. Displayed source version: Reviewed 2025-03-06. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Falls review, medicines/vision/home environment and tailored support
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S797 - NHS: Heart failure
+- URL: https://www.nhs.uk/conditions/heart-failure/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Symptoms, urgent/emergency changes, individual care and self-care; detailed drug choices not adopted. Displayed source version: Reviewed 2026-06-26. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Deterioration and care-team review; no sodium/fluid or potassium-salt-substitute rule
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S798 - NHS: Eating disorders overview
+- URL: https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Restriction/ARFID, warning signs, getting help and specialist care; no diagnostic instrument. Displayed source version: Reviewed 2024-01-23. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Recognise concern and route to assessment without calorie-deficit coaching
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S799 - NHS: Have a healthy diet in pregnancy
+- URL: https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Opening dietary variety, nutritional balance and supplement/food-safety routing paragraphs only. Displayed source version: Current page accessed; displayed review date not established in selected scope. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Varied pregnancy nutrition and maternity-team questions; no weight-loss or lactation regimen
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S800 - NHS: Malnutrition symptoms
+- URL: https://www.nhs.uk/conditions/malnutrition/symptoms/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Unintentional weight loss, possible malnutrition at higher weight, low intake/weakness and review. Numerical cutoffs not adopted. Displayed source version: Reviewed 2023-05-23; displayed next review 2026-05-23 is overdue. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Undernutrition recognition; no refeeding-day threshold or feeding prescription
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S801 - NHS: Urinary incontinence non-surgical treatment
+- URL: https://www.nhs.uk/conditions/urinary-incontinence/treatment/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Type-dependent care, specialist pelvic-floor assessment and bladder-training sections; schedules, devices and drug regimens excluded. Displayed source version: Selected current page; displayed review date not established. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Discuss assessed conservative options, without universal exercises or durations
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S802 - NHS: Vaginal dryness
+- URL: https://www.nhs.uk/symptoms/vaginal-dryness/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Symptoms, causes and non-prescription moisturiser/lubricant care with clinical review; medicine-specific advice not adopted. Displayed source version: Selected current page; displayed review date not established. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Symptom discussion and assessment, no laser recommendation or hormone selection
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S803 - NHS: Recovering from a stroke
+- URL: https://www.nhs.uk/conditions/stroke/recovery/
+- Region: United Kingdom; local pathways require adaptation
+- Reading status: Selected source reconciliation 2026-10-18: Home recovery plan, team-set goals, movement/cognition/speech/swallowing support; review interval not adopted. Displayed source version: Reviewed 2024-09-12. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Team-directed rehabilitation; not a chat exercise or swallowing protocol
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S804 - NIMH: Depression
+- URL: https://www.nimh.nih.gov/health/topics/depression
+- Region: United States; educational scope
+- Reading status: Selected source reconciliation 2026-10-18: What is depression, multifactorial influences, daily functioning and broad treatment/research description. Displayed source version: Reviewed December 2024. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.
+- Purpose: Mechanism versus cause and clinical discussion; no severity-specific first-line hierarchy
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)
+
+### S805 - NHS: Pre-eclampsia
+- URL: https://www.nhs.uk/conditions/pre-eclampsia/
+- Region: United Kingdom; adapt local services
+- Reading status: Selected sections read 2026-10-18: Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses Displayed Reviewed 2026-03-23. No dose, full linked guideline or video appraisal.
+- Purpose: Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses
+- Checked: 2026-10-18
+- Active-use disposition: not_determined (not a permission grant)

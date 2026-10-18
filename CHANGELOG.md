@@ -2,6 +2,8 @@
 
 ## 0.9.2 - 2026-10-18
 
+- Repair stale retrieval evidence and check reviewed locators in CI; expose source-policy dispositions, reconcile restricted active citations and improve bounded Russian navigation. Preserve historical source and import provenance. See docs/pr26-review-fixes.md.
+
 - Add bounded prevention, geroscience and radical-extension cards, annotated bibliography and an explicit study/maintenance state.
 - Preserve source reading scope, rights, adverse findings, numerical measures/denominators and the limits of future-therapy forecasts.
 - Add self-contained references and bilingual navigation to five existing skills, with structural and synthetic response checks. Source checks and CI do not establish clinical approval or update an installed copy.

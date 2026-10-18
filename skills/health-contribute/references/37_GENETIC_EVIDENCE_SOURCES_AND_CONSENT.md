@@ -6,7 +6,7 @@ General knowledge checked 2026-10-09. Tools prepare an informational review of u
 
 Genetic counselors need disease, inheritance and family-risk context; laboratory teams also evaluate analytical validity, variant evidence, quality systems and traceable classification. GeneReviews supplies expert-reviewed chapters covering diagnosis, management and counseling. [S253]
 
-A 2023 survey of 178 counselors experienced in immunology, dermatology, endocrinology and pulmonology reported GeneReviews use by 99% and PubMed/literature use by 93% for learning about those specialties. This selected cohort does not establish use by all counselors. A survey of 17 UK germline cancer laboratories documented ClinVar, Alamut, CanVar-UK and in-house systems; many steps remained manual. These are observed workflows, not global product rankings. [S254] [S255]
+A survey of 17 UK germline cancer laboratories documented ClinVar, Alamut, CanVar-UK and in-house systems, with many steps still manual. It describes that selected workflow, not global product rankings. The other historical counselor survey is suspended as active support under source-use policy; no numerical use-rate claim from it is retained. [S255]
 
 | Question | Appropriate evidence | Limit |
 | --- | --- | --- |

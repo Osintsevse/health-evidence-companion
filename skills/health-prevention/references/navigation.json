@@ -24,6 +24,7 @@
         "heat/cold"
       ],
       "source_ids": [
+        "S177",
         "S267",
         "S268",
         "S269",
@@ -49,7 +50,6 @@
         "S289",
         "S290",
         "S291",
-        "S177",
         "S292",
         "S293",
         "S294",
@@ -120,30 +120,32 @@
         "new therapies"
       ],
       "source_ids": [
+        "S12",
+        "S24",
+        "S69",
+        "S97",
+        "S112",
+        "S177",
+        "S205",
+        "S268",
+        "S277",
+        "S278",
+        "S279",
+        "S287",
+        "S288",
         "S298",
         "S299",
-        "S12",
         "S300",
         "S301",
         "S302",
         "S303",
-        "S29",
-        "S304",
-        "S305",
-        "S97",
-        "S24",
         "S306",
         "S307",
-        "S308",
         "S309",
-        "S69",
         "S310",
         "S311",
-        "S26",
         "S312",
-        "S313",
         "S314",
-        "S112",
         "S315",
         "S316",
         "S317",
@@ -151,13 +153,14 @@
         "S319",
         "S320",
         "S321",
-        "S277",
-        "S278",
-        "S279",
-        "S268",
-        "S287",
-        "S288",
-        "S177"
+        "S396",
+        "S408",
+        "S486",
+        "S745",
+        "S746",
+        "S748",
+        "S792",
+        "S795"
       ],
       "route_ids": [
         "medicines.medicine-identity",
@@ -188,7 +191,16 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "87-row foundational classification/navigation atlas; every exact product/indication still requires current label/guideline retrieval.",
-        "Selected label examples and guideline excerpts do not establish an exhaustive formulary or a cleared personal regimen."
+        "Selected label examples and guideline excerpts do not establish an exhaustive formulary or a cleared personal regimen.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S26",
+        "S29",
+        "S304",
+        "S305",
+        "S308",
+        "S313"
       ]
     },
     {
@@ -216,18 +228,18 @@
         "S326",
         "S327",
         "S328",
-        "S329",
-        "S330",
-        "S331",
         "S332",
         "S333",
         "S334",
         "S335",
         "S336",
-        "S337",
         "S338",
         "S339",
-        "S340"
+        "S340",
+        "S797",
+        "S798",
+        "S799",
+        "S800"
       ],
       "route_ids": [
         "nutrition.nutrition-diary",
@@ -259,7 +271,14 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "Diary estimates require actual portions/preparation/label definitions; missing intake is not zero.",
-        "Therapeutic, paediatric, pregnancy, renal and eating-disorder plans require matching professional guidance."
+        "Therapeutic, paediatric, pregnancy, renal and eating-disorder plans require matching professional guidance.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S329",
+        "S330",
+        "S331",
+        "S337"
       ]
     },
     {
@@ -348,31 +367,41 @@
         "care plans"
       ],
       "source_ids": [
+        "S97",
+        "S132",
+        "S165",
+        "S205",
+        "S297",
+        "S309",
+        "S319",
         "S388",
         "S389",
-        "S29",
-        "S390",
         "S391",
         "S392",
         "S393",
-        "S305",
         "S394",
-        "S319",
         "S395",
         "S396",
         "S397",
-        "S398",
         "S399",
         "S400",
         "S401",
         "S402",
         "S403",
-        "S404",
-        "S101",
-        "S405",
-        "S406",
-        "S407",
-        "S408"
+        "S408",
+        "S440",
+        "S469",
+        "S486",
+        "S504",
+        "S739",
+        "S740",
+        "S741",
+        "S742",
+        "S743",
+        "S744",
+        "S759",
+        "S795",
+        "S805"
       ],
       "route_ids": [
         "chronic.bp_quality",
@@ -406,7 +435,19 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "Monitoring and care-plan navigation, not chat initiation/titration of prescription or insulin regimens.",
-        "Pressure targets/urgency differ by population, measurement setting and jurisdiction."
+        "Pressure targets/urgency differ by population, measurement setting and jurisdiction.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S101",
+        "S29",
+        "S305",
+        "S390",
+        "S398",
+        "S404",
+        "S405",
+        "S406",
+        "S407"
       ]
     },
     {
@@ -434,8 +475,6 @@
         "S413",
         "S414",
         "S415",
-        "S25",
-        "S416",
         "S417",
         "S418",
         "S419",
@@ -451,7 +490,10 @@
         "S430",
         "S431",
         "S432",
-        "S433"
+        "S433",
+        "S792",
+        "S793",
+        "S804"
       ],
       "route_ids": [
         "neuro.acute-change",
@@ -482,7 +524,12 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "No psychiatric or dementia diagnosis from a questionnaire, medicine response or genotype.",
-        "Novel therapy and biomarker status must be refreshed for exact market/product/lot; trial benefit is not a cure."
+        "Novel therapy and biomarker status must be refreshed for exact market/product/lot; trial benefit is not a cure.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S25",
+        "S416"
       ]
     },
     {
@@ -504,11 +551,13 @@
         "trauma/surgery"
       ],
       "source_ids": [
+        "S168",
+        "S177",
+        "S368",
         "S458",
         "S459",
         "S460",
         "S461",
-        "S368",
         "S462",
         "S463",
         "S464",
@@ -520,7 +569,6 @@
         "S470",
         "S471",
         "S472",
-        "S168",
         "S473",
         "S474",
         "S475",
@@ -530,7 +578,6 @@
         "S479",
         "S480",
         "S481",
-        "S177",
         "S482",
         "S483",
         "S484",
@@ -614,17 +661,17 @@
       ],
       "source_ids": [
         "S28",
+        "S99",
         "S102",
+        "S408",
         "S435",
         "S436",
         "S437",
         "S438",
-        "S99",
         "S439",
         "S440",
         "S441",
         "S442",
-        "S443",
         "S444",
         "S445",
         "S446",
@@ -638,8 +685,9 @@
         "S454",
         "S455",
         "S456",
-        "S408",
-        "S457"
+        "S457",
+        "S469",
+        "S749"
       ],
       "route_ids": [
         "diagnostics.critical-result",
@@ -678,7 +726,11 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "Marker and name discovery does not authorize broad panels, automatic result merging or universal critical cutoffs.",
-        "Risk tools require their verified version, eligible population, original implementation and rights; no recreated clinical calculators."
+        "Risk tools require their verified version, eligible population, original implementation and rights; no recreated clinical calculators.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S443"
       ]
     },
     {
@@ -698,6 +750,8 @@
         "insurance"
       ],
       "source_ids": [
+        "S289",
+        "S290",
         "S489",
         "S490",
         "S491",
@@ -709,8 +763,6 @@
         "S497",
         "S498",
         "S499",
-        "S289",
-        "S290",
         "S500",
         "S501",
         "S502",
@@ -764,12 +816,9 @@
         "rehabilitation"
       ],
       "source_ids": [
+        "S168",
+        "S486",
         "S504",
-        "S505",
-        "S404",
-        "S179",
-        "S506",
-        "S313",
         "S507",
         "S508",
         "S509",
@@ -778,15 +827,16 @@
         "S512",
         "S513",
         "S514",
-        "S515",
-        "S516",
-        "S517",
         "S518",
         "S519",
-        "S168",
         "S520",
         "S521",
-        "S522"
+        "S522",
+        "S795",
+        "S796",
+        "S801",
+        "S802",
+        "S803"
       ],
       "route_ids": [
         "ageing-rehab.function",
@@ -818,7 +868,18 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "Function and rehabilitation information does not confer procedure clearance or manual/device training.",
-        "Massage/device claims remain indication-specific; serious new symptoms take priority."
+        "Massage/device claims remain indication-specific; serious new symptoms take priority.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S179",
+        "S313",
+        "S404",
+        "S505",
+        "S506",
+        "S515",
+        "S516",
+        "S517"
       ]
     },
     {
@@ -866,7 +927,8 @@
         "S386",
         "S387",
         "S644",
-        "S681"
+        "S681",
+        "S737"
       ],
       "route_ids": [
         "endometriosis.endometriosis_suspected",
@@ -917,6 +979,7 @@
         "evaluation design"
       ],
       "source_ids": [
+        "S84",
         "S523",
         "S524",
         "S525",
@@ -929,13 +992,11 @@
         "S532",
         "S533",
         "S534",
-        "S535",
         "S536",
         "S537",
         "S538",
         "S539",
         "S540",
-        "S84",
         "S541",
         "S542",
         "S543",
@@ -973,7 +1034,11 @@
       "reading_depth": "Original targeted synthesis; actual section/abstract/indexed access, versions and rights are in source-review.json. Full courses and exhaustive evidence appraisal are not claimed.",
       "coverage_limits": [
         "Indexed curricula/chapters are not completed medical training or a freely redistributable corpus.",
-        "Repository/community/AI demonstrations are discovery leads, not validated clinical evidence or code to execute automatically."
+        "Repository/community/AI demonstrations are discovery leads, not validated clinical evidence or code to execute automatically.",
+        "2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference."
+      ],
+      "bibliographic_source_ids": [
+        "S535"
       ]
     },
     {
@@ -1007,26 +1072,32 @@
         "prematurity": "Use gestation/corrected age only for the specific chart, developmental or neonatal interpretation; it does not replace chronological first-aid/vaccination routing."
       },
       "source_ids": [
+        "S168",
+        "S268",
+        "S269",
+        "S270",
+        "S272",
+        "S273",
+        "S274",
+        "S278",
+        "S283",
+        "S285",
+        "S297",
+        "S462",
+        "S471",
         "S548",
         "S549",
         "S550",
         "S552",
-        "S297",
         "S554",
-        "S462",
         "S555",
         "S556",
         "S557",
-        "S471",
         "S559",
-        "S168",
         "S560",
         "S561",
         "S562",
         "S563",
-        "S278",
-        "S283",
-        "S285",
         "S564",
         "S565",
         "S566",
@@ -1037,13 +1108,7 @@
         "S630",
         "S631",
         "S632",
-        "S633",
-        "S273",
-        "S274",
-        "S269",
-        "S270",
-        "S272",
-        "S268"
+        "S633"
       ],
       "route_ids": [
         "pediatrics-acute.pediatrics-acute-fever",
@@ -1120,6 +1185,8 @@
         "prematurity": "Use gestation/corrected age only for the specific chart, developmental or neonatal interpretation; it does not replace chronological first-aid/vaccination routing."
       },
       "source_ids": [
+        "S110",
+        "S333",
         "S572",
         "S573",
         "S574",
@@ -1140,7 +1207,6 @@
         "S589",
         "S590",
         "S591",
-        "S333",
         "S592",
         "S593",
         "S594",
@@ -1153,7 +1219,6 @@
         "S602",
         "S603",
         "S604",
-        "S110",
         "S605",
         "S606",
         "S607",
@@ -1235,6 +1300,9 @@
         "prematurity": "Use gestation/corrected age only for the specific chart, developmental or neonatal interpretation; it does not replace chronological first-aid/vaccination routing."
       },
       "source_ids": [
+        "S548",
+        "S555",
+        "S565",
         "S610",
         "S611",
         "S612",
@@ -1254,12 +1322,9 @@
         "S627",
         "S628",
         "S629",
-        "S548",
-        "S555",
         "S634",
         "S635",
-        "S636",
-        "S565"
+        "S636"
       ],
       "route_ids": [
         "fontanels.fontanel-urgency",

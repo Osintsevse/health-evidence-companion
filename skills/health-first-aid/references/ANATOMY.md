@@ -148,4 +148,4 @@ OpenStax introduction/licensing only were inspected. The current page requires p
 - S357: [Treatment of Uncomplicated Malaria](https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html). Anti-relapse G6PD and pregnancy subsection inspected; no regimen copied
 - S358: [Sickle Cell Disease Diagnosis](https://www.nhlbi.nih.gov/health/sickle-cell-disease/diagnosis). Blood genetic and screening sections inspected
 - S359: [Pulse Oximeters](https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters). Device limitations and FDA efforts sections inspected
-- S360: [Anatomy and Physiology 2e introduction: current rights restriction](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Introduction objectives and licensing inspected only; no chapters ingested
+- S360: [Anatomy and Physiology 2e introduction: current rights restriction](https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction). Introduction objectives and licensing inspected only; no chapters ingested Bibliographic pointer only under current source-use policy; historical access is not active claim support.

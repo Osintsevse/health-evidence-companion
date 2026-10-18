@@ -24,7 +24,7 @@ The original short STAT-F6 synthesis distinguishes multiple-comparison context, 
 
 Existing psychology:S104 is extended without a new duplicate source ID. The original import pin and previous amendments remain preserved; the current canonical JSON hash is recorded in the amendment ledger. Earlier reading scopes remain historical and do not become whole-book reading. Independent maintainer review is not claimed.
 
-## Evaluation scope
+## Historical evaluation scope (2026-10-17)
 
 The authored collection contains 200 wholly fictional retrieval questions in 120 development and 80 control-partition cases, grouped by module. It is not blinded: authoring agents could see both partitions. Only 68 cases have reviewed supporting-passage labels; the other 132 are excluded from primary relevance metrics until adjudicated. Category coverage is uneven. No absence accuracy or clinical accuracy follows from these labels.
 
@@ -40,7 +40,7 @@ The 68 scored cases produced the following observed results. Both runs use the s
 | Russian plus English alternate | 42 | 61.9% | 73.8% | 69.0% |
 | English original (both modes) | 26 | 80.8% | 92.3% | 84.6% |
 
-There were no execution errors. Zero empty result lists in the alternate-query run is not evidence that every question is answerable. General discovery remains weak: only 2/10 scored discovery questions find the labeled module at 20. Neither applicability nor conflicting-evidence candidates have reviewed supporting labels yet. The visible control partition contains only 18 scored cases; its higher result is not independent validation. Retained failures and denominators are in `evals/knowledge-search-results*.json`.
+There were no execution errors. Zero empty result lists in the alternate-query run is not evidence that every question is answerable. General discovery remains weak: only 2/10 scored discovery questions find the labeled module at 20. Neither applicability nor conflicting-evidence candidates have reviewed supporting labels yet. The visible control partition contains only 18 scored cases; its higher result is not independent validation. Those historical figures are preserved in this dated report; `evals/knowledge-search-results*.json` now contains the 2026-10-18 repair rerun, documented in `docs/pr26-review-fixes.md`.
 
 Reproduce both modes without modifying labels:
 
@@ -62,3 +62,14 @@ Before the passing isolated run, the working staging copy had failures caused by
 ## Study and corpus boundaries
 
 The implementation used the existing public notes, source registers and private bibliographic/processing metadata to choose a bounded study packet. No actual person's history was used in code, examples, tests or evaluation prompts. Private books, OCR, page images, acquisition records, paths, indexes and detailed reading journals are excluded from the public change. A selected pilot source is not presumed scientifically valid or permitted for every AI use. Pending permissions and technical defects remain explicit; no blanket label of pseudoscience is assigned to an unread book.
+
+## Repair rerun, 2026-10-18
+
+The latest results and limitations are in [the PR repair report](pr26-review-fixes.md).
+The seven original/index/risk and five generated source-entry evidence revisions
+are individually recorded, retaining prior hashes and eligibility. All five
+previously empty selected Russian probes now reach the labeled supporting passage
+within twenty results; the cellular-growth probe is seventh. This diagnostic
+selection was visible during implementation and is not a new blinded benchmark.
+The earlier model responses and command replays remain historical observations
+of their recorded helper hash, not responses re-executed with this repair.

@@ -15,6 +15,8 @@ from validate import check_psychology_blank, check_source_citations, PSYCHOLOGY_
 class CatalogTests(unittest.TestCase):
     def fixture(self, folder):
         (folder/'knowledge/psychology').mkdir(parents=True)
+        (folder/'knowledge/clinical').mkdir()
+        (folder/'knowledge/clinical/source-use-policy.json').write_text(json.dumps({'rules':[]}),encoding='utf-8')
         medical={'id':'S01','title':'Synthetic medical source','url':'https://example.org/shared','checked_on':'2026-01-01','retrieval_status':'selected section read','region':'Synthetic','use':'Synthetic medical question'}
         psychological={'id':'S01','title':'Synthetic psychological source','url':medical['url'],'checked_at':'2026-02-01','access':'indexed_excerpt','limitations':'Full text not read','use':'Synthetic psychological question'}
         (folder/'knowledge/sources.json').write_text(json.dumps([medical]),encoding='utf-8')
@@ -27,6 +29,7 @@ class CatalogTests(unittest.TestCase):
             before={p:p.read_bytes() for p in folder.rglob('*.json')}
             result=catalog(folder)
             self.assertEqual(result['record_count'],2)
+            self.assertTrue(all(x['active_use']=='not_determined' and not x['permission_inferred'] for x in result['records']))
             self.assertEqual(result['unique_url_count'],1)
             self.assertEqual([r['qualified_id'] for r in result['records']],['medical:S01','psychology:S01'])
             self.assertEqual(result['records'][1]['limitations'],psychological['limitations'])

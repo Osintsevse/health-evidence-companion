@@ -1,6 +1,6 @@
 # Psychiatry and medication monitoring
 
-Sources: S02-S03, S25-S27. General knowledge only.
+Active source routes: S02-S03, S27, S792, S804. General knowledge only; historical NICE sources are bibliographic only.
 
 ## Scope
 
@@ -19,11 +19,11 @@ Create detailed ingredient cards from a current local SmPC and condition-specifi
 
 ## Monitoring principles
 
-Relevant details include exact medicine/form, dose, timing, indication, prior benefit and adverse effects. Mania/hypomania features and other factors may matter for safety. Early treatment and changes may require review for increased anxiety, sleep disturbance and suicidal thoughts. The NICE source describes first review usually within two weeks, earlier for relevant risk; verify the current guidance and individual clinical plan. [S25, S27]
+Record the exact product, changes, benefit and unwanted effects for the prescriber. The NHS page describes frequent early review, but a local service and the person's risk determine the actual plan. Seek immediate help if safety is compromised. No fixed appointment interval is prescribed here. [S792]
 
 ## Stopping treatment
 
-Antidepressants can cause withdrawal symptoms; this is not identical to addiction. Reduction is generally gradual, agreed with the treating professional and adjusted to tolerability, sometimes over weeks or months. Do not turn "gradual" into a universal four-week schedule or suggest splitting a tablet without checking formulation. Withdrawal and recurrence require separate consideration. [S25-S26]
+Withdrawal symptoms can follow antidepressant reduction or stopping and can resemble recurrence. Agree changes with the prescriber; do not stop suddenly or infer a taper from a class name. The NHS describes a plan often lasting weeks or months, with substantial individual variation. No universal taper or tablet-splitting instruction follows. [S792]
 
 ## Interactions and driving
 

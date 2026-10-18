@@ -4,6 +4,8 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 
 ## Contents
 
+Start searching across medical topics with this table of contents. Psychology and combined health routing have their own section below.
+
 | Module | Purpose |
 |---|---|
 | 01 | Official sources and verification rules |
@@ -27,7 +29,7 @@ English edition, 2026-10-09. Scope: health information with selected child, preg
 | 19 | Symptom differential, safe self-checks, basic self-care and response limits |
 | 20 | Owner-authorized document import, Drive/local archive, laboratory/visit/medicine history, corrections and charts |
 
-`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` contain 744 medical entries, retaining all 88 original IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
+`00_KNOWLEDGE_POLICY.md` governs every copy and export. `sources.json` and `sources.csv` retain the medical entries and all original stable IDs. Three secondary medicine lists are explicitly discovery leads, not primary clinical evidence. Record/storage sources support a data workflow, not clinical accuracy. `archive_tables.json` defines the private longitudinal row contract; `templates/` contains twelve blank forms plus their guide. The repository review and access-audit scope are documented under `docs/`.
 
 ## Use
 
@@ -66,7 +68,7 @@ New entry skills: health-family-care and health-prevention. Load only relevant r
 
 ## Psychology and combined routing
 
-[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its 111-entry register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its source register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
 
 - [37: Genetic evidence sources, repeat review and external-data consent](37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md)
 

@@ -1,0 +1,980 @@
+{
+  "schema": "source-reconciliation-review-v1",
+  "checked_on": "2026-10-18",
+  "scope": "Selected independent official sources, narrowed claims and preserved historical IDs; not a whole-corpus clinical or legal review.",
+  "sources": [
+    {
+      "source_id": "S792",
+      "url": "https://www.nhs.uk/medicines/antidepressants/",
+      "publication_version": "Reviewed 2025-06-12",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Selected side-effects/early review, stopping and withdrawal sections; individual product schedules excluded.",
+      "use": "Early review and supervised withdrawal context, not a taper or first-line depression guideline",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S793",
+      "url": "https://www.nhs.uk/symptoms/confusion/",
+      "publication_version": "Reviewed 2024-05-28",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Signs, immediate-action and waiting-for-help sections.",
+      "use": "Sudden confusion requires immediate medical assessment",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S794",
+      "url": "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/",
+      "publication_version": "Reviewed 2022-08-23; displayed next review 2025-08-23 is overdue",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Symptoms, pregnancy possibility and rupture/emergency sections.",
+      "use": "Assessment and danger recognition only; no hCG, viability or treatment threshold",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S795",
+      "url": "https://www.nhs.uk/tests-and-treatments/physiotherapy/",
+      "publication_version": "Reviewed 2025-04-03",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "What physiotherapy is for and what happens during assessment/treatment; modality-list claims not adopted.",
+      "use": "Assessment, agreed treatment and post-surgical function; not condition-specific efficacy",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S486",
+      "url": "https://www.nhs.uk/conditions/back-pain/",
+      "publication_version": "Reviewed 2026-03-05",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Urgent/emergency signs, staying active, worsening with exercise and treatment overview.",
+      "use": "Activity and clinical review; no unsupported imaging or modality verdict",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S796",
+      "url": "https://www.nhs.uk/conditions/falls/",
+      "publication_version": "Reviewed 2025-03-06",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Help from a GP/falls service and selected prevention/urgent sections; get-up manoeuvre not adopted.",
+      "use": "Falls review, medicines/vision/home environment and tailored support",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S797",
+      "url": "https://www.nhs.uk/conditions/heart-failure/",
+      "publication_version": "Reviewed 2026-06-26",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Symptoms, urgent/emergency changes, individual care and self-care; detailed drug choices not adopted.",
+      "use": "Deterioration and care-team review; no sodium/fluid or potassium-salt-substitute rule",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S798",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/",
+      "publication_version": "Reviewed 2024-01-23",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Restriction/ARFID, warning signs, getting help and specialist care; no diagnostic instrument.",
+      "use": "Recognise concern and route to assessment without calorie-deficit coaching",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S799",
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+      "publication_version": "Current page accessed; displayed review date not established in selected scope",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Opening dietary variety, nutritional balance and supplement/food-safety routing paragraphs only.",
+      "use": "Varied pregnancy nutrition and maternity-team questions; no weight-loss or lactation regimen",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S800",
+      "url": "https://www.nhs.uk/conditions/malnutrition/symptoms/",
+      "publication_version": "Reviewed 2023-05-23; displayed next review 2026-05-23 is overdue",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Unintentional weight loss, possible malnutrition at higher weight, low intake/weakness and review. Numerical cutoffs not adopted.",
+      "use": "Undernutrition recognition; no refeeding-day threshold or feeding prescription",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S801",
+      "url": "https://www.nhs.uk/conditions/urinary-incontinence/treatment/",
+      "publication_version": "Selected current page; displayed review date not established",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Type-dependent care, specialist pelvic-floor assessment and bladder-training sections; schedules, devices and drug regimens excluded.",
+      "use": "Discuss assessed conservative options, without universal exercises or durations",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S802",
+      "url": "https://www.nhs.uk/symptoms/vaginal-dryness/",
+      "publication_version": "Selected current page; displayed review date not established",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Symptoms, causes and non-prescription moisturiser/lubricant care with clinical review; medicine-specific advice not adopted.",
+      "use": "Symptom discussion and assessment, no laser recommendation or hormone selection",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S803",
+      "url": "https://www.nhs.uk/conditions/stroke/recovery/",
+      "publication_version": "Reviewed 2024-09-12",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Home recovery plan, team-set goals, movement/cognition/speech/swallowing support; review interval not adopted.",
+      "use": "Team-directed rehabilitation; not a chat exercise or swallowing protocol",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S804",
+      "url": "https://www.nimh.nih.gov/health/topics/depression",
+      "publication_version": "Reviewed December 2024",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "What is depression, multifactorial influences, daily functioning and broad treatment/research description.",
+      "use": "Mechanism versus cause and clinical discussion; no severity-specific first-line hierarchy",
+      "rights": "Official independent agency educational/recommendation text; original factual synthesis and attribution only; no tables, instruments or linked publisher work reproduced.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S470",
+      "url": "https://www.nhs.uk/symptoms/cough/",
+      "publication_version": "Reviewed 2023-12-08",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Expected duration, urgent signs and antibiotic prescribing paragraph; herbal/syrup recipes not adopted.",
+      "use": "Uncomplicated cough context and assessment for complications",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S548",
+      "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+      "publication_version": "Reviewed 2024-01-03",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Under-three-month and three-to-six-month urgent advice, reduced responsiveness, rash and breathing signs; doses excluded.",
+      "use": "Age-specific prompt review; not NICE traffic-light categories",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S297",
+      "url": "https://www.nhs.uk/conditions/asthma/",
+      "publication_version": "Reviewed 2025-04-07",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Symptoms, clinical assessment/breathing tests, varying symptoms and existing action plan. Rescue puff schedules not adopted.",
+      "use": "Diagnosis context and plan verification; not a complete diagnostic algorithm",
+      "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S205",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+      "publication_version": "Final recommendation 2021-04-27",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Clinician summary, target population, out-of-office confirmation and validated upper-arm measurement. Thresholds/treatment targets not newly appraised.",
+      "use": "US adult screening confirmation; no universal treatment target",
+      "rights": "Official independent agency educational/recommendation text; original factual synthesis and attribution only; no tables, instruments or linked publisher work reproduced.",
+      "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained."
+    },
+    {
+      "source_id": "S805",
+      "url": "https://www.nhs.uk/conditions/pre-eclampsia/",
+      "publication_version": "Reviewed 2026-03-23",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses",
+      "use": "Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses",
+      "rights": "NHS-authored source; original factual synthesis with existing NHS/OGL attribution, no third-party instruments/tables or linked NICE content.",
+      "limitations": "Selected urgency information, not the complete evidence base or personal treatment."
+    },
+    {
+      "source_id": "S469",
+      "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+      "publication_version": "Reviewed 2024-01-30",
+      "checked_on": "2026-10-18",
+      "reading_depth": "selected_sections",
+      "reading_scope": "New breathing difficulty needs appropriate review; severe difficulty/cyanosis/confusion requires emergency help; no cause diagnosis",
+      "use": "New breathing difficulty needs appropriate review; severe difficulty/cyanosis/confusion requires emergency help; no cause diagnosis",
+      "rights": "NHS-authored source; original factual synthesis with existing NHS/OGL attribution, no third-party instruments/tables or linked NICE content.",
+      "limitations": "Selected urgency information, not the complete evidence base or personal treatment."
+    }
+  ],
+  "corrections": [
+    {
+      "path": "knowledge/03_RESPIRATORY.md",
+      "original_line_sha256": "825e741b974b0025ea0012eaecf610eadf816c2aec9fe8aac072fab128aa9784",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/03_RESPIRATORY.md",
+      "original_line_sha256": "d5de1bb8eff2a1c30c0c832faa9c1e9df6081aba03e85236f69365bd90e63826",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/04_MEDICATIONS.md",
+      "original_line_sha256": "761d620495918f286bb92fded920ab02d39adb75c7588ebbbeb07181a1da3a2b",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/06_PSYCHIATRY.md",
+      "original_line_sha256": "1f21f0aaeb1ecddc8d410c228a0a675fa5ccf235de76383a7be68e800470c1fb",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/06_PSYCHIATRY.md",
+      "original_line_sha256": "4322f9a7c689a42af6e235b0100c5d2fe73b6e50b10a7acd79d65f4854917844",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/06_PSYCHIATRY.md",
+      "original_line_sha256": "f217a7a7f5bb3e9efb91506c922b41fd0a5e40515773f5eb634e9269af8c9731",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/07_LABS_PREVENTION_METABOLISM.md",
+      "original_line_sha256": "525a22d74367efa52687c038388ea7463eb71b71e0d1b07b0e75cef2dab14192",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md",
+      "original_line_sha256": "45b1c671ba2b42c7956dd5e874d77db423589f0f0d7aefb26a0eaf5c9aa163f9",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md",
+      "original_line_sha256": "69d7339fb804d72db75155abc2c63227b1f848c4cb057c50eb7a9746c1da4e36",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/25_LAB_GRAPHS_AND_HEALTH_REVIEW.md",
+      "original_line_sha256": "3ea186c4fa33c53b5d24b3775014b93dfcffe82e2dab666c2d03963887ddafa1",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "original_line_sha256": "819474103ecbf8d8ffb87acf452ebb038334d5aeff0ce366a21269f5f3e9e7b9",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "original_line_sha256": "3ce37ca3c7c772fab2fe31d88f4869b1944934efa84351f99729a932ded61d2e",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "original_line_sha256": "8a2aea193a9d952964fac95272b0d11288ac55953e52e83053ee50fd8c13de4e",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "original_line_sha256": "5b889b55697f34a97ab5fa527e1ff2813c41907c47fbb240e6de7dec44241db7",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/28_SPECIALTY_AND_LIFE_STAGE_ROUTING.md",
+      "original_line_sha256": "3e73597bdd297ab08a9984429217880cac50949b31308ee08476154f7a0afc19",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md",
+      "original_line_sha256": "05b32e61064d359131cfd3bc4f8db7dc46d65db85de31f415fcd259d20910ab6",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/32_RISK_COMMUNICATION.md",
+      "original_line_sha256": "ed51517d896d87cd5f4a2e53dd034bdc04aec6fc34de0dddc2e1dbfda27d03ec",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md",
+      "original_line_sha256": "6312c24ac9f50cc1ec998634ed0c28c519f90ee697835e25e88698d45cf4a5f1",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "9cdc7d699fab8b98c646fffc8647bdfd1fd7c557bfed13210d926e79c43c8b0a",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "9782f2196830d6d9cfe61a4cab65aafe93c18b563275103ccd693f5b16b4e639",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "da23721d2ec92366fb3183e51575e8ed93d3c2adea32649c63c32bfe9f75fa5a",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "9d5d7a49b564407d818caaa28dcbc2390c3e477153765ec515524f2d70e050d4",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "2ec38dddec8ca26400b1f124bbe1ff9b91ab0a2c1614ed8a65847a87fdad927f",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "8858122ee216be513ed79ade403a5b4cd508f1ed4d455ce3e1bb271a675fd159",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NEURO.md",
+      "original_line_sha256": "3f52942f7bd6b8d6d836181f814d55b1aa98613f7c3ea55b5759a69b81864173",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/MEDICINES.md",
+      "original_line_sha256": "9bda74ec22443255e647cef3746aff44c47bd9847492f2a4e11a37cc7bcd5595",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/MEDICINES.md",
+      "original_line_sha256": "9c005d11feea315a7acb91bae1ffc6ea68e4ee5d301fe70d188a18659ffa190f",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/MEDICINES.md",
+      "original_line_sha256": "8158ad952be67d0996a1480fae17f044639e7a505848ba9af0cce8c6a8f607c0",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "28c29bb43c597bdf76078e5379711bd98ebb2b7b4677871e8947b237578eefef",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "6c3019836e36264c722e64c9499699a6867c72b8531c04e79feb7af7692d73fc",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "7bd91729ecec5d2c9c51d35d081ea846e5b9335769d8713c12b56bc379e8dabd",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "f2428f67a58a1a6203429b49fa72c2e76bb87f7d486f4b21b47260b3d13da1b5",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "950677e8b0fb05c77deb17843c95244c2ef110636d8fc72d5789339fecb5c6d2",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "e210ac1d6cab325693322e3f29ebd1a666c3695c76dd8b6ca77e2046e1b87dab",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/NUTRITION.md",
+      "original_line_sha256": "f50ac2c5aa8dc44474fcceed3ec7eba393be6f96416e960e686260b305b6ad8a",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "1518db59550019b4235974fa589aae99fa984e296178ac7810e70f2042e8b5f0",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "813f3be8450acca6f1fc7444240573deaaa4237fd3e0228764a0da091eb4d24d",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "e8d67472a196b2369f1ec9f51ff6d664bc39189f9fd4cb5aebcc97d165fd752b",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "4a18c7bc97716c6fb76f1db881999bf99800fbd1227529454f800cacd67f09e0",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "7aaded666e29886617cacc94c66889200a36fb438f4ab382908233da4f0059f7",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "9d2cfd350e13e675ca01f87b22eb852ef39a349ad3c91817f8b4cfccef539411",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "e9165914c430393304afca8728803c82016659c06f132e1c90554cb9a8d2c0e5",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "30f271804ce658243617f17d38bc092cf8d1b7bb974d79ed5b97c5b022083a93",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "2450b9ba159c17440f51a05c7b1e35a8da2e3154791556016a7524ac7fb06d53",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "aaecb015010ac34f5e197a2dc52bb05aed185197f73fcb809d9edfbfa75c05eb",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/AGEING_REHAB.md",
+      "original_line_sha256": "78db894eb54f823e53fcde327dea84fe0f1344f8a0cb1bf82fb0b1df1dfad61e",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    },
+    {
+      "path": "knowledge/clinical/ARCHITECTURE.md",
+      "original_line_sha256": "b406a0d91a10bada51aa56f3fe85687f375bb424c7bc684cf1a4f30f5e15d261",
+      "disposition": "rechecked_independent_source_or_explicit_scope_reduction"
+    }
+  ],
+  "clinical_validation": false,
+  "route_reconciliation": [
+    {
+      "route_id": "medicines.medicine-review",
+      "previous_source_ids": [
+        "S308",
+        "S69",
+        "S310",
+        "S97"
+      ],
+      "previous_record_sha256": "c8d24f7e47f92a5b790e7f677d32fb08c4d6037e86188663ae8543fc8cc11c86"
+    },
+    {
+      "route_id": "medicines.medicine-missed",
+      "previous_source_ids": [
+        "S309",
+        "S316",
+        "S317",
+        "S26"
+      ],
+      "previous_record_sha256": "655ab9d30c62955d3d26d261e6ef9040c88300efbf2daa3471bc4d73249a03ff"
+    },
+    {
+      "route_id": "medicines.medicine-guideline-choice",
+      "previous_source_ids": [
+        "S29",
+        "S305",
+        "S304",
+        "S97",
+        "S24",
+        "S306",
+        "S307"
+      ],
+      "previous_record_sha256": "04cc1b7833709f551794619320be1e31372abfc69826b815b3d4842530704fd1"
+    },
+    {
+      "route_id": "medicines.medicine-treatment-method",
+      "previous_source_ids": [
+        "S314",
+        "S312",
+        "S313",
+        "S308"
+      ],
+      "previous_record_sha256": "a21bb365a2c4514917d8521a92967a3f534a0482c383eb72471c26c8a98c6ef5"
+    },
+    {
+      "route_id": "nutrition.nutrition-diary",
+      "previous_source_ids": [
+        "S323",
+        "S325",
+        "S322",
+        "S338",
+        "S330"
+      ],
+      "previous_record_sha256": "7374cd1ab60261ff89cde4d085b766159bf9e9980467892e873ed2a3bace4f0c"
+    },
+    {
+      "route_id": "nutrition.nutrition-bp-hf",
+      "previous_source_ids": [
+        "S326",
+        "S329",
+        "S328",
+        "S322"
+      ],
+      "previous_record_sha256": "ca20cbf44f51bab9a63aaa126e98f709383eef2c581aab19c4a792a85e26acef"
+    },
+    {
+      "route_id": "nutrition.nutrition-ckd",
+      "previous_source_ids": [
+        "S328",
+        "S337"
+      ],
+      "previous_record_sha256": "0df40ffd3db29054cc1bb514f9482c3c52fb5b7997f3ebad3e7b5f013a5ae5a0"
+    },
+    {
+      "route_id": "nutrition.nutrition-life-stage",
+      "previous_source_ids": [
+        "S331",
+        "S332",
+        "S337"
+      ],
+      "previous_record_sha256": "4af5e15c00f6f2073c4dcd074bca6a05c0db0b32be41f1dc28db0393da9acc97"
+    },
+    {
+      "route_id": "nutrition.nutrition-restriction",
+      "previous_source_ids": [
+        "S330",
+        "S337"
+      ],
+      "previous_record_sha256": "74460e687cf6e8c3b0f3ce056ffe5167f2b8c6c780ca205cffdee10b2815b5df"
+    },
+    {
+      "route_id": "chronic.bp_quality",
+      "previous_source_ids": [
+        "S388",
+        "S389",
+        "S29"
+      ],
+      "previous_record_sha256": "fc0cca4b35bf09f93d82f75a2a2841aa960b82a9ceb5c02a21b753b0d05797fd"
+    },
+    {
+      "route_id": "chronic.bp_severe",
+      "previous_source_ids": [
+        "S388",
+        "S389",
+        "S390"
+      ],
+      "previous_record_sha256": "1a93cf284515a08a0a6288163548a4dfc3d92f898f9a965cf0d361d0feb4ae8b"
+    },
+    {
+      "route_id": "chronic.bp_low",
+      "previous_source_ids": [
+        "S391",
+        "S29"
+      ],
+      "previous_record_sha256": "166563a5f2120dde03f8fb611e6cb5b6747206862257101355f185634a63f71d"
+    },
+    {
+      "route_id": "chronic.diabetes_existing",
+      "previous_source_ids": [
+        "S305",
+        "S394",
+        "S393"
+      ],
+      "previous_record_sha256": "6f7067948c44638eaff35a3b719508462db7c6b2f691a9e595f8894dc9eb4cc0"
+    },
+    {
+      "route_id": "chronic.respiratory",
+      "previous_source_ids": [
+        "S397",
+        "S398"
+      ],
+      "previous_record_sha256": "b2f3dedb4233b652861050f75ec69250e88e9a063e4a54f7e6e5140e89c6f046"
+    },
+    {
+      "route_id": "chronic.other_chronic",
+      "previous_source_ids": [
+        "S101",
+        "S407",
+        "S405",
+        "S406"
+      ],
+      "previous_record_sha256": "ba6701a306241b99afe225f2b64a1b4969e82d7cc1aa8ca9dc57c25eae4cf878"
+    },
+    {
+      "route_id": "chronic.multimorbidity",
+      "previous_source_ids": [
+        "S404"
+      ],
+      "previous_record_sha256": "ed129ca71d81464d8b7138770cf4dfe425bff4f463d236903e5e7dd83cb4d3f0"
+    },
+    {
+      "route_id": "neuro.acute-change",
+      "previous_source_ids": [
+        "S416",
+        "S422",
+        "S424"
+      ],
+      "previous_record_sha256": "8ba5c19a15a39bca7b300d347c7c4f42097fd28a1a63504bba10d81fa5b6a389"
+    },
+    {
+      "route_id": "neuro.psychiatric-danger",
+      "previous_source_ids": [
+        "S25",
+        "S414",
+        "S415"
+      ],
+      "previous_record_sha256": "c87b89e33eaae614ee201297a2c4ce493cc07adef337a3130f5cd0cd99e680ad"
+    },
+    {
+      "route_id": "neuro.medicine-change",
+      "previous_source_ids": [
+        "S411",
+        "S25",
+        "S414"
+      ],
+      "previous_record_sha256": "0204695898679185b22f423f9426f66cb8ab491950d5bb48cd0150a5810812a7"
+    },
+    {
+      "route_id": "neuro.therapy-choice",
+      "previous_source_ids": [
+        "S411",
+        "S412",
+        "S413",
+        "S25"
+      ],
+      "previous_record_sha256": "0b7945feb815a4772626adeaeb449ec5a02fcab7eff9b4688114bb95d9877f48"
+    },
+    {
+      "route_id": "diagnostics.lab-identity",
+      "previous_source_ids": [
+        "S28",
+        "S441",
+        "S443"
+      ],
+      "previous_record_sha256": "f9f1cfdc846da8e9f3d17a4249a611a4cca1e45abfc2f655541aa44a86b18533"
+    },
+    {
+      "route_id": "ageing-rehab.function",
+      "previous_source_ids": [
+        "S504",
+        "S404"
+      ],
+      "previous_record_sha256": "d259f080466a5083aa2a50c6f94b0c7808a9b95225a76ff8154bde9ab6bfd032"
+    },
+    {
+      "route_id": "ageing-rehab.falls",
+      "previous_source_ids": [
+        "S505",
+        "S507"
+      ],
+      "previous_record_sha256": "3753f45ef4983ca450eb568381ade4e6ffe25f76a1b4799c86c64777b3e962c3"
+    },
+    {
+      "route_id": "ageing-rehab.medburden",
+      "previous_source_ids": [
+        "S404",
+        "S505"
+      ],
+      "previous_record_sha256": "2c833f5a45682e8c14c16bd833b7fe2f6f4b827a75b630d10073a8aaeaa55fc6"
+    },
+    {
+      "route_id": "ageing-rehab.rehab",
+      "previous_source_ids": [
+        "S179",
+        "S507",
+        "S520",
+        "S522"
+      ],
+      "previous_record_sha256": "eebd3347d84f5201999102c876fc0bda37150d0a19c2a261983b6201552cd5e6"
+    },
+    {
+      "route_id": "ageing-rehab.stroke-rehab",
+      "previous_source_ids": [
+        "S506"
+      ],
+      "previous_record_sha256": "caada2b3e83a70be9084b77497b7016d2025466b0ae51f3b64e14742c8e431cf"
+    },
+    {
+      "route_id": "ageing-rehab.chronic-pain",
+      "previous_source_ids": [
+        "S313",
+        "S179"
+      ],
+      "previous_record_sha256": "d63f6bb53e4f5f486093ee5b6eef278760b202cc2fe2a7c99ebe111e537c034e"
+    },
+    {
+      "route_id": "ageing-rehab.urology",
+      "previous_source_ids": [
+        "S515",
+        "S516",
+        "S517",
+        "S518",
+        "S519",
+        "S168"
+      ],
+      "previous_record_sha256": "6bc79a63fc7df56b8881adf9612b0c6ca60a169161969a098d6499d4ecf53583"
+    },
+    {
+      "route_id": "ageing-rehab.devices",
+      "previous_source_ids": [
+        "S510",
+        "S511",
+        "S520",
+        "S179",
+        "S522"
+      ],
+      "previous_record_sha256": "bf34096df21af7c536bb3c32dd91ef6f6f23fbdc7325ba9543a26aa25b3f8d55"
+    },
+    {
+      "route_id": "architecture.architecture-evidence-record",
+      "previous_source_ids": [
+        "S524",
+        "S532",
+        "S536",
+        "S539",
+        "S535"
+      ],
+      "previous_record_sha256": "723ed8355a3ca2cf3ac39d9a363fc46156002ca0d32cf227ac201378093c4fca"
+    },
+    {
+      "route_id": "architecture.architecture-source-refresh",
+      "previous_source_ids": [
+        "S535",
+        "S533",
+        "S532",
+        "S541"
+      ],
+      "previous_record_sha256": "78ee6906b715f84a028793295aefd41f312820d0bb16d28984ef77720e59ad08"
+    }
+  ],
+  "fixture_reconciliation": [
+    {
+      "case_id": "medicines.synthetic-02",
+      "previous_source_ids": [
+        "S29"
+      ],
+      "previous_record_sha256": "eb17847570a47dd4d3b866c56e476f70f46cea39263caacdc29ac44854a08721"
+    },
+    {
+      "case_id": "medicines.synthetic-09",
+      "previous_source_ids": [
+        "S319",
+        "S305"
+      ],
+      "previous_record_sha256": "18e5b6798c00295f3529beb6969406f349a485c159ff4ecb6a27bbcb5fa4d8b7"
+    },
+    {
+      "case_id": "medicines.synthetic-11",
+      "previous_source_ids": [
+        "S313",
+        "S311",
+        "S314"
+      ],
+      "previous_record_sha256": "8c6c72ef3d2247e2d5b272f063b56019890dd864caee9a1dd010e8649a7f11f6"
+    },
+    {
+      "case_id": "nutrition.nutrition-hf-fluid",
+      "previous_source_ids": [
+        "S329",
+        "S328"
+      ],
+      "previous_record_sha256": "c075f8fce477f3882d05def5afd4b2134b6b24079f3584fdbd0d431d4b1257fc"
+    },
+    {
+      "case_id": "nutrition.nutrition-pregnant-vegan",
+      "previous_source_ids": [
+        "S331",
+        "S332"
+      ],
+      "previous_record_sha256": "8a30f7be6c27799800050cab6598c196fe76a88238ad22fe918c953fd58621aa"
+    },
+    {
+      "case_id": "nutrition.nutrition-older-low-intake",
+      "previous_source_ids": [
+        "S337",
+        "S330"
+      ],
+      "previous_record_sha256": "e87921261116821b88ebe05c8ed07187ae707c71e5c61c456d31985ee9e7464f"
+    },
+    {
+      "case_id": "nutrition.nutrition-restriction-tracking",
+      "previous_source_ids": [
+        "S330",
+        "S331",
+        "S337"
+      ],
+      "previous_record_sha256": "76804ae48752e4c740525461c623b840d96dbfdf13b014cd7341c3485fa89d05"
+    },
+    {
+      "case_id": "chronic.chronic_postpartum",
+      "previous_source_ids": [
+        "S390"
+      ],
+      "previous_record_sha256": "855f842e9363e8849674721339561cecee3fcd22184d811faaca73516b406888"
+    },
+    {
+      "case_id": "chronic.chronic_orthostatic",
+      "previous_source_ids": [
+        "S29"
+      ],
+      "previous_record_sha256": "ca5c9bebb19b1cabdae623b9d5fb5317a2bfc62d513af68ffd718338524fa1dd"
+    },
+    {
+      "case_id": "chronic.chronic_respiratory",
+      "previous_source_ids": [
+        "S398",
+        "S397"
+      ],
+      "previous_record_sha256": "17ac18ca708e72adbb7d9e122f22f31c1c7a7868f3124c9ff21f9b0b0e97c8f7"
+    },
+    {
+      "case_id": "chronic.chronic_frailty",
+      "previous_source_ids": [
+        "S404",
+        "S399",
+        "S396",
+        "S393"
+      ],
+      "previous_record_sha256": "3dc202e61fdd5f49010594bb1c4588d6de45ca27d3b7c71d9a37454fca7113bf"
+    },
+    {
+      "case_id": "neuro.sudden",
+      "previous_source_ids": [
+        "S416"
+      ],
+      "previous_record_sha256": "ebbf728b34e34b24266fe9a00ae170bf925b1152e1d5fb8f3af841c237f6d41a"
+    },
+    {
+      "case_id": "neuro.withdrawal",
+      "previous_source_ids": [
+        "S25"
+      ],
+      "previous_record_sha256": "31d58839922e919e885925773562d75882f58be5c33dda1c502d5c9bd7594b04"
+    },
+    {
+      "case_id": "neuro.subtype",
+      "previous_source_ids": [
+        "S417",
+        "S434"
+      ],
+      "previous_record_sha256": "b7b0eb4cac85514c23ea47fc0e212244087a8a0fc6dd43a5ff3bd969d01d7981"
+    },
+    {
+      "case_id": "diagnostics.d-dimer",
+      "previous_source_ids": [
+        "S443"
+      ],
+      "previous_record_sha256": "73efd48985ae6f3898da0705feca9e116346a799fbfa3b88b3015aec20f5a61e"
+    },
+    {
+      "case_id": "ageing-rehab.function-goals",
+      "previous_source_ids": [
+        "S504",
+        "S404"
+      ],
+      "previous_record_sha256": "04add7a88cf235960b0980e7580696ba0a28d77faef163e6c3d11add1d7d7779"
+    },
+    {
+      "case_id": "ageing-rehab.falls-change",
+      "previous_source_ids": [
+        "S505"
+      ],
+      "previous_record_sha256": "67ab73f4f7626d1bab03b04c3c9db667cb60adb45edbe851746ab435e50db210"
+    },
+    {
+      "case_id": "ageing-rehab.medication-stop",
+      "previous_source_ids": [
+        "S404",
+        "S505"
+      ],
+      "previous_record_sha256": "dbcef58f0c2cec5fe3568cffad4c37e8d5af74c47d8dd47d8edc5a14ec6c96c4"
+    },
+    {
+      "case_id": "ageing-rehab.bone-clearance",
+      "previous_source_ids": [
+        "S507",
+        "S179"
+      ],
+      "previous_record_sha256": "4572f7c4126cf86e8b95969c9d557a1d7a4c310bc38bdb73764299fad5a7ea7e"
+    },
+    {
+      "case_id": "ageing-rehab.postop-conflict",
+      "previous_source_ids": [
+        "S179"
+      ],
+      "previous_record_sha256": "2d88bfa89ae87c49c51355d11f45b5de6798d5af1f70c21e710ae3e1da8df17b"
+    },
+    {
+      "case_id": "ageing-rehab.stroke-new",
+      "previous_source_ids": [
+        "S506"
+      ],
+      "previous_record_sha256": "430c6548221b674df72282432f93c5f23dfc7e2463f27bd0ad38520ec41021ab"
+    },
+    {
+      "case_id": "ageing-rehab.pain-different",
+      "previous_source_ids": [
+        "S313",
+        "S179"
+      ],
+      "previous_record_sha256": "8bbfda47e7c5982d303baad7c4aaea0767e32b6111bab47c8944c976615d18fc"
+    },
+    {
+      "case_id": "ageing-rehab.urology-anatomy",
+      "previous_source_ids": [
+        "S518",
+        "S515"
+      ],
+      "previous_record_sha256": "87dfdfe1a44028d9cd92fa1cf97bcfb7165c716ebca7582bdaf4f201f4ea9373"
+    },
+    {
+      "case_id": "ageing-rehab.pelvic-options",
+      "previous_source_ids": [
+        "S516",
+        "S517"
+      ],
+      "previous_record_sha256": "1dd3a1e6b37aaad2decad9843815e2360b1eea6f1fa276a81ba0e0770b713a03"
+    },
+    {
+      "case_id": "ageing-rehab.massage-boundary-risk",
+      "previous_source_ids": [
+        "S509",
+        "S508",
+        "S520",
+        "S179",
+        "S522"
+      ],
+      "previous_record_sha256": "b2c804a73633c6e76ded68af403552f3f8ea9b262e551919a5333c8e5913d92c"
+    },
+    {
+      "case_id": "architecture.ARCH-SYN-02-guideline-conflict",
+      "previous_source_ids": [
+        "S523",
+        "S535",
+        "S533"
+      ],
+      "previous_record_sha256": "bf3940bc384fc644e8bf66ae7137e68c1d2b6732808646bfe5d6d636ea7ff90d"
+    },
+    {
+      "case_id": "architecture.ARCH-SYN-05-version-update-event",
+      "previous_source_ids": [
+        "S535",
+        "S533"
+      ],
+      "previous_record_sha256": "63ca2308ab81e92ff7f9adf4d4766e2a168988b46ee9cbd5560f2fbf29b23784"
+    },
+    {
+      "case_id": "architecture.ARCH-SYN-07-tool-source-failure",
+      "previous_source_ids": [
+        "S535",
+        "S539"
+      ],
+      "previous_record_sha256": "b721705d1fb78e8e8681ed03cd5b56a8d8686acaffdf91b1936c541b95208670"
+    }
+  ]
+}

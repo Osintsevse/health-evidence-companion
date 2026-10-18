@@ -1646,3 +1646,9 @@ skills/health-research/references/longevity/40_STATISTICS_GUIDE.md
 skills/health-research/references/longevity/evidence-ledger.json
 skills/health-research/references/longevity/statistics.json
 tests/test_longevity_packet.py
+scripts/source_policy.py
+tests/test_source_policy.py
+docs/pr26-source-reconciliation.json
+docs/pr26-review-fixes.md
+evals/knowledge-search-label-revisions.json
+evals/longevity-forward-checks.json

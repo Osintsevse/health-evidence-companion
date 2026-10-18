@@ -16,7 +16,7 @@ First answer the request and understand the context. If necessary, clarify the o
 | Unusual beliefs/severe arousal | Do not confirm the unproven, carefully clarify the condition | Disorganization, danger, severe sleep loss |
 | Sport performance error | Check conditions/skill; choose one mastered method | Malfunction, injury, medical clearance |
 
-This is a routing, not a diagnosis or a list of diagnostic criteria. Check a separate manual for each clinical topic; the breadth of mhGAP cannot be replaced by reading a single card. [S02–S09, S52]
+This is routing, not diagnosis or a list of diagnostic criteria. Use the relevant current permitted source for each clinical topic; reading one card does not complete the mhGAP guide. [S02]
 
 ## If an immediate danger is declared
 If there is a current intent to harm oneself/other, a means available, an inability to remain safe, or severe disorientation, the priority is local emergency assistance and a trusted person available. The answer should be short and effective; clarification of the immediate danger must not delay seeking help. Do not leave a person with one breathing technique. Don’t make up a number and don’t promise to call for help if you don’t have the tool. More detailed rules - 08.

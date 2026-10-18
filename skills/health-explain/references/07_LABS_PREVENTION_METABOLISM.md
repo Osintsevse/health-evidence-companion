@@ -1,6 +1,6 @@
 # Laboratory tests, prevention and metabolism
 
-Sources: S20, S28-S32. Principles and source routes; no individualized screening schedule is established here.
+Active sources: S20, S28, S30-S32. Principles and source routes; no individualized screening schedule. Historical restricted sources are bibliographic only.
 
 Modules 16 and 17 expand laboratory literacy and vaccination source navigation. They distinguish selected dated calendar landmarks from complete schedules, and test interpretation from a diagnosis. Their examples remain general or synthetic.
 
@@ -12,7 +12,7 @@ Do not propose broad panels "for everything" without a question. Explain what de
 
 ## Blood pressure
 
-Hypertension is usually confirmed through repeated readings, home monitoring or ambulatory monitoring under the applicable guideline, rather than one post-exertion value. Technique, cuff and conditions matter. Recheck diagnostic thresholds and targets against the relevant current guideline. [S29]
+For US adults without known hypertension, USPSTF recommends out-of-office confirmation using validated home or ambulatory measurement before routine treatment. One post-exertion reading does not implement that pathway. Confirm current local thresholds and technique separately; acute concerning symptoms follow emergency guidance. [S205]
 
 ## Metabolism
 

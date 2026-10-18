@@ -24,7 +24,7 @@ Distinguish report flags from actual critical-result notices. Display an explici
 
 ## Optional, purposeful questionnaire
 
-Offer a short optional questionnaire only for identifiable gaps relevant to the requested review: current symptoms, recent tests and collection context, relevant medicines/supplements, current blood pressure, nicotine exposure and family history, or measured height/weight/waist and activity context. Explain why each answer helps. Do not request an entire private history or repeat accepted unknowns. Approximate owner measurements remain approximate; a calculated index is a derived value, not a new measurement. BMI has limitations and is not an individual risk verdict; applicable adult guidance may combine it with waist-to-height information. [S141]
+Offer a short optional questionnaire only for identifiable gaps relevant to the requested review: current symptoms, test collection context, actual medicines, blood pressure or owner-reported measurements when needed. Explain the purpose; do not request an entire history or repeat accepted unknowns. Editorial data-quality rule: approximate measurements remain approximate and a calculated ratio is a derived value, not an independent measurement or an individual risk diagnosis. No anthropometric screening algorithm is supplied by this workflow.
 
 Reuse stable private review-question IDs, source links, browser-draft warnings, downloads at both ends and reviewed acceptance. A static HTML file does not automatically submit feedback or save accepted facts. A packet export downloads an aggregate file locally; it does not transmit to an AI. Preserve owner-selected privacy and ask no new sharing permission when none is needed.
 

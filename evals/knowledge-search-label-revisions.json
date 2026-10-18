@@ -1,0 +1,319 @@
+{
+  "schema": "knowledge-search-label-revisions-v1",
+  "review_is_independent": false,
+  "eligibility_changed": false,
+  "revisions": [
+    {
+      "case_id": "search-candidate-001",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Contents",
+        "line": 5,
+        "line_end": 32,
+        "text_sha256": "8f706105ceeaa6ed9fd264e87b6e5a83706b6f19f5cf06c760b0719c5425463f",
+        "relevance": 3,
+        "justification": "The contents table maps the bundled medical modules.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Contents",
+        "line": 5,
+        "line_end": 34,
+        "text_sha256": "dc928e425f3e4702951a307c9b3134ef3026c79c189e1937884143b8857826e8",
+        "relevance": 3,
+        "justification": "The contents table maps the bundled medical modules.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same supporting section after index prose/count cleanup and the PR longevity link; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-002",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Contents",
+        "line": 5,
+        "line_end": 32,
+        "text_sha256": "8f706105ceeaa6ed9fd264e87b6e5a83706b6f19f5cf06c760b0719c5425463f",
+        "relevance": 3,
+        "justification": "The contents table names modules and purposes.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Contents",
+        "line": 5,
+        "line_end": 34,
+        "text_sha256": "dc928e425f3e4702951a307c9b3134ef3026c79c189e1937884143b8857826e8",
+        "relevance": 3,
+        "justification": "The contents table names modules and purposes.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same supporting section after index prose/count cleanup and the PR longevity link; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-003",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Psychology and combined routing",
+        "line": 67,
+        "line_end": 75,
+        "text_sha256": "7bb56d6917426c7ccc719d3cba2c48c34eec1a3816dc75775d5de37ce87721f3",
+        "relevance": 3,
+        "justification": "The section directly links unified medical and psychological routing.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Psychology and combined routing",
+        "line": 69,
+        "line_end": 77,
+        "text_sha256": "65b52ae74e271a5ab9d530ccfba5644b6527b508da820f9149f7f8ec1b6b6902",
+        "relevance": 3,
+        "justification": "The section directly links unified medical and psychological routing.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same supporting section after index prose/count cleanup and the PR longevity link; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-004",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Expanded clinical navigation",
+        "line": 75,
+        "line_end": 83,
+        "text_sha256": "9a12b213147c76165b28442810f7b6a1b2c5141a70c707776bca98b287043bdd",
+        "relevance": 3,
+        "justification": "The section names the clinical index and expanded routes.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Expanded clinical navigation",
+        "line": 77,
+        "line_end": 85,
+        "text_sha256": "9a12b213147c76165b28442810f7b6a1b2c5141a70c707776bca98b287043bdd",
+        "relevance": 3,
+        "justification": "The section names the clinical index and expanded routes.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same supporting section after index prose/count cleanup and the PR longevity link; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-005",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Studied question packets",
+        "line": 83,
+        "line_end": 105,
+        "text_sha256": "1cdd052147faab65d484986c03474e5e00a0799e367b31679389a8146acd1e63",
+        "relevance": 3,
+        "justification": "The section lists studied question packets.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Studied question packets",
+        "line": 85,
+        "line_end": 109,
+        "text_sha256": "b831b4dc791b93e10ca3b789d0c5f3fb17aa1bcc1c2e12fb878e6c7c6629e55c",
+        "relevance": 3,
+        "justification": "The section lists studied question packets.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same supporting section after index prose/count cleanup and the PR longevity link; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-157",
+      "previous": {
+        "path": "knowledge/32_RISK_COMMUNICATION.md",
+        "heading": "Make comparisons interpretable",
+        "line": 11,
+        "line_end": 17,
+        "text_sha256": "f1feae5cfef9c112690b60bff16428881c29994e6937a4a611aeccb81cd030cf",
+        "relevance": 3,
+        "justification": "The section contains the original fictional 20-versus-10 arithmetic.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/32_RISK_COMMUNICATION.md",
+        "heading": "Make comparisons interpretable",
+        "line": 11,
+        "line_end": 17,
+        "text_sha256": "55c06fa95ead19a177d4cefc219796ee57609bcef73a16a6af51cdee775943ee",
+        "relevance": 3,
+        "justification": "The section contains the original fictional 20-versus-10 arithmetic.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same synthetic arithmetic and denominator/time explanation after replacing a restricted citation with an original editorial rule; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-159",
+      "previous": {
+        "path": "knowledge/32_RISK_COMMUNICATION.md",
+        "heading": "Make comparisons interpretable",
+        "line": 11,
+        "line_end": 17,
+        "text_sha256": "f1feae5cfef9c112690b60bff16428881c29994e6937a4a611aeccb81cd030cf",
+        "relevance": 3,
+        "justification": "The section requires matching denominator and time horizon.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/32_RISK_COMMUNICATION.md",
+        "heading": "Make comparisons interpretable",
+        "line": 11,
+        "line_end": 17,
+        "text_sha256": "55c06fa95ead19a177d4cefc219796ee57609bcef73a16a6af51cdee775943ee",
+        "relevance": 3,
+        "justification": "The section requires matching denominator and time horizon.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_canonical_section",
+      "reason": "Reviewed same synthetic arithmetic and denominator/time explanation after replacing a restricted citation with an original editorial rule; relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-006",
+      "previous": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S76 - ALIMS - National medicines register",
+        "line": 550,
+        "line_end": 557,
+        "text_sha256": "6c613d0930f74f5cc2cbe91e2817ad6d2a65acb16e96df5e7bfe34114fba600c",
+        "relevance": 3,
+        "justification": "The entry directly identifies the Serbian national medicines register.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S76 - ALIMS - National medicines register",
+        "line": 625,
+        "line_end": 633,
+        "text_sha256": "f2b88fe3f4fce1f349b11ee21985b35df8041d13688127bb94427d9c15965055",
+        "relevance": 3,
+        "justification": "The entry directly identifies the Serbian national medicines register.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_generated_metadata_entry",
+      "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-007",
+      "previous": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S100 - WHO - Ferritin guideline, 2020",
+        "line": 718,
+        "line_end": 725,
+        "text_sha256": "667058a0dd202c922aaf13e80714f54609d3b945b2d3d8e347ae9486d42e6cd3",
+        "relevance": 3,
+        "justification": "The entry names WHO ferritin guidance and its reading scope.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S100 - WHO - Ferritin guideline, 2020",
+        "line": 817,
+        "line_end": 825,
+        "text_sha256": "ca4facfb73b08e6afa39aa1c336a0c8967fe2ab327184d40cd4e1f569800271c",
+        "relevance": 3,
+        "justification": "The entry names WHO ferritin guidance and its reading scope.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_generated_metadata_entry",
+      "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-008",
+      "previous": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S138 - LOINC Users Guide - Type of Scale; page revision 2026-04-10",
+        "line": 984,
+        "line_end": 991,
+        "text_sha256": "665a0363b97e388187d09ea76f20674b9a66037ed867670fb467a7942ab6e009",
+        "relevance": 3,
+        "justification": "The entry identifies the LOINC scale source and distinctions.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S138 - LOINC Users Guide - Type of Scale; page revision 2026-04-10",
+        "line": 1121,
+        "line_end": 1129,
+        "text_sha256": "5e96a28ffe9954ad187ef431aefcf2dc680a46110833b494a7ccbfd3896a5c76",
+        "relevance": 3,
+        "justification": "The entry identifies the LOINC scale source and distinctions.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_generated_metadata_entry",
+      "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-009",
+      "previous": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S61 - RxNav - Interaction API retirement FAQ",
+        "line": 445,
+        "line_end": 452,
+        "text_sha256": "f9dfae2015cad1c75389049471eaef67fd0db2c7fc23389cd3460af5ef42153b",
+        "relevance": 3,
+        "justification": "The entry records the RxNav interaction endpoint retirement.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S61 - RxNav - Interaction API retirement FAQ",
+        "line": 505,
+        "line_end": 513,
+        "text_sha256": "1a7383a296d0912229dc21440f3d9edde80fa5c4fef0545565aee2b8aed923a0",
+        "relevance": 3,
+        "justification": "The entry records the RxNav interaction endpoint retirement.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_generated_metadata_entry",
+      "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-010",
+      "previous": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity",
+        "line": 1138,
+        "line_end": 1145,
+        "text_sha256": "7a1f66e8752953154d215af4fd2df011f3a1f9f215090daacbfe5b3e0093dbe8",
+        "relevance": 3,
+        "justification": "The entry names reduced penetrance and variable expressivity.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/01_SOURCE_MAP.md",
+        "heading": "S160 - MedlinePlus Genetics: Reduced penetrance and variable expressivity",
+        "line": 1297,
+        "line_end": 1305,
+        "text_sha256": "d0b64ced31b985adb663afce979ba4b0b206f7617d769739e55543d87ba41b75",
+        "relevance": 3,
+        "justification": "The entry names reduced penetrance and variable expressivity.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-10-18",
+      "review_kind": "author_read_generated_metadata_entry",
+      "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    }
+  ]
+}

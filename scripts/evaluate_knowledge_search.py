@@ -124,16 +124,25 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, required=True)
     parser.add_argument('--cases', type=Path, required=True)
-    parser.add_argument('--index', type=Path, required=True)
-    parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--index', type=Path)
+    parser.add_argument('--output', type=Path)
+    parser.add_argument('--validate-only', action='store_true', help='Check reviewed evidence locators/hashes without querying')
     parser.add_argument('--native-only', action='store_true', help='Ignore host-authored alternate queries without changing labels')
     args = parser.parse_args(argv)
     data = json.loads(args.cases.read_text(encoding='utf-8'))
     # Verify labels before building or querying the index.
     validate_cases(data, args.root)
+    if args.validate_only:
+        print(json.dumps({'cases':len(data['cases']), 'reviewed_cases':sum(bool(c.get('primary_metric_eligible')) for c in data['cases']), 'label_validation':'passed'}))
+        return 0
+    if args.index is None or args.output is None:
+        parser.error('--index and --output are required unless --validate-only is used')
     knowledge_search.build_index(args.root, args.index)
     result = evaluate(data, args.root, args.index, use_alternates=not args.native_only)
-    args.output.write_text(json.dumps(result, ensure_ascii=True, indent=2) + '\n', encoding='ascii')
+    result['corpus_fingerprint'] = knowledge_search.status(args.root,args.index)['fingerprint']
+    result['index_algorithm'] = knowledge_search.INDEX_ALGORITHM
+    result['cases_sha256'] = hashlib.sha256(args.cases.read_bytes()).hexdigest()
+    args.output.write_text(json.dumps(result, ensure_ascii=True, indent=2) + '\n', encoding='ascii', newline='\n')
     print(json.dumps(result['overall'], ensure_ascii=True))
     return 0
 

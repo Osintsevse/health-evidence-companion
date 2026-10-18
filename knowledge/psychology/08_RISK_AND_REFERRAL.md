@@ -16,7 +16,7 @@ With current intent, recent unsafe action, or inability to remain safe:
 Your country of residence may differ from your current one. Check numbers and opening hours using a current official local source, do not automatically substitute the country. If there is immediate danger, do not delay the action with a lengthy search.
 
 ## Scales do not predict outcome
-NICE NG225 does not recommend using low/medium/high risk scores and global categories to predict suicide or recurrent self-harm. They should not decide who to give help to. There is no automatic risk scoring, no “you’re safe” promise on a questionnaire, or a “promise not to do” agreement. [S52]
+Editorial boundary: this package implements no suicide prediction model, automatic low/medium/high risk assignment, questionnaire-based safety clearance or promise-not-to-act agreement. Assess current danger through the emergency/referral workflow and appropriate human help. The historical NICE item is a bibliographic pointer only. [S52]
 
 ## Other situations for changing format
 - A sharp reduction in sleep along with unusual agitation, impulsiveness, and large-scale risky plans.
@@ -43,5 +43,5 @@ Does not prescribe/discontinue medications. Does not deliver unsupervised treatm
 ## Deterioration due to communication with AI
 “Cyberpsychosis” should not be used as a chat diagnosis. Observe specific changes: loss of sleep and normal activities for the sake of correspondence, increasing conviction in unconfirmed explanations, repeated requests for guarantees, isolation from people, the feeling that only AI understands or controls life.
 
-These are design indications for a format revision, not a validated diagnostic test, and not proof that AI was the cause. When signs appear: reduce the intensity of correspondence and interpretations, return attention to verifiable facts and real people, if there is a pronounced deterioration, offer a human assessment. For current danger, use the rules above. Do not support grandiose, persecutory or mystical explanations; do not promise exceptional intimacy. Do not pass off reassurance as a guarantee. Reasons to be cautious with AI - [S40–S45].
+These are editorial reasons to reconsider the dialogue format, not a validated diagnostic test or evidence of AI causation. Return to verifiable facts and human support when concern arises. Do not endorse grandiose or persecutory explanations, imply exceptional intimacy or guarantee safety. Escalate current danger under the preceding workflow. No result from the historical restricted trial supports this design adaptation.
 

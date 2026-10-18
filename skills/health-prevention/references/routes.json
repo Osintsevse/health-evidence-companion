@@ -15,7 +15,7 @@
         "Age category when it changes care"
       ],
       "actions": [
-        "Lead with 3–5 actions, approximately 60–120 words as editorial target",
+        "Lead with 3\u20135 actions, approximately 60\u2013120 words as editorial target",
         "Call local emergency service now; give location first; speakerphone",
         "Scene safety, appropriate immediate first aid, observe changes",
         "Live dispatcher overrides generic sequence; clarify inability/conflict"
@@ -107,7 +107,7 @@
       "actions": [
         "Call on speakerphone immediately",
         "Brief breathing assessment, max 10 seconds",
-        "Chest compressions 100–120/min, 5–6 cm; recoil",
+        "Chest compressions 100\u2013120/min, 5\u20136 cm; recoil",
         "30:2 if trained/able, otherwise continuous compressions",
         "AED prompts and dispatcher; keep clear for analysis/shock"
       ],
@@ -138,7 +138,7 @@
         "Call and start CPR with breaths if able",
         "ERC/RCUK 2025: five initial breaths; 15:2 paediatric trained, otherwise 30:2",
         "AHA 2025: compressions first, lone lay 30 compressions with breaths",
-        "Depth one-third chest; child ~5 cm, infant ~4 cm; 100–120/min",
+        "Depth one-third chest; child ~5 cm, infant ~4 cm; 100\u2013120/min",
         "AHA infant technique heel of hand or two-thumb encircling; AED pediatric settings if available"
       ],
       "avoid": [
@@ -341,8 +341,8 @@
         "Prescribed diabetes/rescue plan"
       ],
       "actions": [
-        "Awake safe swallow: fast glucose; adult 15–20 g under standard plan",
-        "Recheck 10–15min, repeat under plan; help if no improvement",
+        "Awake safe swallow: fast glucose; adult 15\u201320 g under standard plan",
+        "Recheck 10\u201315min, repeat under plan; help if no improvement",
         "Unsafe swallow: emergency, no oral intake; airway/CPR",
         "Trained prescribed glucagon actual device",
         "Child amount belongs to individual plan"
@@ -559,7 +559,6 @@
         "Urgent help for serious reaction"
       ],
       "source_ids": [
-        "S308",
         "S69",
         "S310",
         "S97"
@@ -598,7 +597,7 @@
         "S309",
         "S316",
         "S317",
-        "S26"
+        "S792"
       ]
     },
     {
@@ -739,9 +738,9 @@
         "Emergency for severe acute symptoms"
       ],
       "source_ids": [
-        "S29",
-        "S305",
-        "S304",
+        "S205",
+        "S309",
+        "S408",
         "S97",
         "S24",
         "S306",
@@ -853,8 +852,8 @@
       "source_ids": [
         "S314",
         "S312",
-        "S313",
-        "S308"
+        "S486",
+        "S795"
       ]
     },
     {
@@ -892,7 +891,7 @@
         "S325",
         "S322",
         "S338",
-        "S330"
+        "S798"
       ]
     },
     {
@@ -1016,14 +1015,14 @@
         "deterioration symptoms"
       ],
       "actions": [
-        "Discuss food pattern and lower-sodium comparisons",
-        "Ask before suggesting potassium salts",
-        "Explain no automatic HF fluid restriction"
+        "Discuss the indicated food pattern and the existing care-team plan",
+        "No generic sodium/fluid or salt-substitute regimen is supplied by this route",
+        "Review new symptoms before dietary optimization"
       ],
       "avoid": [
-        "BP medication change based on bare number",
+        "Medicine change from a bare pressure value",
         "Universal fluid limit",
-        "Potassium salt substitute in HF"
+        "Potassium salt substitute without the relevant kidney/medicine review"
       ],
       "escalation": [
         "Breathlessness at rest or rapid deterioration: urgent assessment",
@@ -1031,7 +1030,7 @@
       ],
       "source_ids": [
         "S326",
-        "S329",
+        "S797",
         "S328",
         "S322"
       ]
@@ -1106,7 +1105,7 @@
       ],
       "source_ids": [
         "S328",
-        "S337"
+        "S800"
       ]
     },
     {
@@ -1140,9 +1139,9 @@
         "Pregnancy persistent vomiting/poor intake: maternity assessment"
       ],
       "source_ids": [
-        "S331",
+        "S799",
         "S332",
-        "S337"
+        "S800"
       ]
     },
     {
@@ -1198,8 +1197,8 @@
       ],
       "actions": [
         "Pause deficit optimization",
-        "Support prompt medical/eating-disorder assessment",
-        "Explain refeeding requires team when at risk"
+        "Support prompt clinical/eating-disorder assessment",
+        "No home refeeding or electrolyte plan is supplied"
       ],
       "avoid": [
         "BMI-only reassurance",
@@ -1207,12 +1206,12 @@
         "Praise for rapid weight loss"
       ],
       "escalation": [
-        "Severe dehydration, fainting, marked weakness/deterioration: urgent care",
-        "Little/no intake>5 days: clinical nutrition support assessment"
+        "Fainting, severe weakness/dehydration or marked deterioration requires urgent care",
+        "Persistent inadequate intake needs clinical review; no five-day rule is retained"
       ],
       "source_ids": [
-        "S330",
-        "S337"
+        "S798",
+        "S800"
       ]
     },
     {
@@ -1487,7 +1486,7 @@
       "source_ids": [
         "S388",
         "S389",
-        "S29"
+        "S205"
       ]
     },
     {
@@ -1517,13 +1516,13 @@
         "Reassurance from no symptoms alone"
       ],
       "escalation": [
-        "Emergency organ-injury symptoms",
-        "Urgent maternity severe threshold"
+        "Emergency response for acute organ-injury symptoms",
+        "Pregnancy/recent birth with severe headache or vision change requires immediate maternity/medical help; do not wait for the ordinary adult number threshold"
       ],
       "source_ids": [
         "S388",
         "S389",
-        "S390"
+        "S805"
       ]
     },
     {
@@ -1558,7 +1557,7 @@
       ],
       "source_ids": [
         "S391",
-        "S29"
+        "S205"
       ]
     },
     {
@@ -1628,7 +1627,7 @@
         "Unsafe-swallow hypoglycemia emergency route"
       ],
       "source_ids": [
-        "S305",
+        "S309",
         "S394",
         "S393"
       ]
@@ -1690,10 +1689,9 @@
         "technique"
       ],
       "actions": [
-        "Emergency route severe deterioration",
-        "Explain diagnosis confirmation and differing treatment roles",
-        "Check technique/access",
-        "Prepare rehabilitation and plan review"
+        "Emergency route for severe breathing difficulty",
+        "Clarify diagnosed condition, exact inhaler and existing action plan",
+        "Retrieve independent condition-specific evidence before comparing asthma or COPD treatments"
       ],
       "avoid": [
         "Universal inhaler/steroid regimen",
@@ -1706,7 +1704,8 @@
       ],
       "source_ids": [
         "S397",
-        "S398"
+        "S297",
+        "S469"
       ]
     },
     {
@@ -1800,9 +1799,9 @@
         "renal/bleeding risks"
       ],
       "actions": [
-        "Explain guideline options and referral",
-        "Prepare product-specific and function-focused review",
-        "Distinguish inflammatory swelling from presumed osteoarthritis"
+        "Clarify the exact condition and product",
+        "Retrieve applicable permitted sources before class selection or diagnostic claims",
+        "Prepare function and treatment-team questions"
       ],
       "avoid": [
         "Dose changes from daily symptoms",
@@ -1811,14 +1810,14 @@
         "Universal oral NSAID"
       ],
       "escalation": [
-        "Hot joint with systemic illness urgent",
-        "Antithyroid warning symptoms urgent"
+        "New acute or systemic symptoms follow the appropriate symptom/emergency pathway"
       ],
       "source_ids": [
-        "S101",
-        "S407",
-        "S405",
-        "S406"
+        "S440",
+        "S741",
+        "S759",
+        "S486",
+        "S795"
       ]
     },
     {
@@ -1853,7 +1852,7 @@
         "New acute deterioration overrides stable plan"
       ],
       "source_ids": [
-        "S404"
+        "S504"
       ]
     },
     {
@@ -1868,8 +1867,8 @@
         "danger; no delay"
       ],
       "actions": [
-        "Urgent assessment; emergency severe/focal symptoms",
-        "Disclose antiamyloid treatment to responders"
+        "Immediate medical assessment for sudden confusion; do not wait for focal deficits",
+        "Emergency route for new stroke signs; disclose relevant antiamyloid treatment"
       ],
       "avoid": [
         "Quiz/photo before help",
@@ -1879,7 +1878,7 @@
         "Emergency reduced responsiveness, seizure, focal change"
       ],
       "source_ids": [
-        "S416",
+        "S793",
         "S422",
         "S424"
       ]
@@ -1909,7 +1908,7 @@
         "Immediate danger/basic-care failure"
       ],
       "source_ids": [
-        "S25",
+        "S792",
         "S414",
         "S415"
       ]
@@ -1941,7 +1940,7 @@
       ],
       "source_ids": [
         "S411",
-        "S25",
+        "S792",
         "S414"
       ]
     },
@@ -1975,7 +1974,7 @@
         "S411",
         "S412",
         "S413",
-        "S25"
+        "S792"
       ]
     },
     {
@@ -2869,7 +2868,8 @@
       "source_ids": [
         "S28",
         "S441",
-        "S443"
+        "S749",
+        "S469"
       ]
     },
     {
@@ -3509,8 +3509,7 @@
         "Acute confusion or new deficits to NEURO/EMERGENCY"
       ],
       "source_ids": [
-        "S504",
-        "S404"
+        "S504"
       ]
     },
     {
@@ -3540,7 +3539,7 @@
         "Collapse, serious injury or deterioration to EMERGENCY; new severe back pain with fragility urgent assessment"
       ],
       "source_ids": [
-        "S505",
+        "S796",
         "S507"
       ]
     },
@@ -3571,8 +3570,8 @@
         "Severe acute adverse-event symptoms to relevant urgent route"
       ],
       "source_ids": [
-        "S404",
-        "S505"
+        "S504",
+        "S796"
       ]
     },
     {
@@ -3604,7 +3603,7 @@
         "Severe pain, wound illness, new deficits or unexpected swelling urgent assessment"
       ],
       "source_ids": [
-        "S179",
+        "S795",
         "S507",
         "S520",
         "S522"
@@ -3636,7 +3635,7 @@
         "New stroke signs or severe choking to EMERGENCY"
       ],
       "source_ids": [
-        "S506"
+        "S803"
       ]
     },
     {
@@ -3653,9 +3652,9 @@
         "treatments/restrictions"
       ],
       "actions": [
-        "Explain primary/secondary distinction",
-        "Discuss adapted supervised activity",
-        "Prepare review goals"
+        "Clarify the pain condition, meaningful goal and new features",
+        "Use the appropriate condition-specific source before therapy comparisons",
+        "Back-pain/physiotherapy education does not establish a universal chronic-primary-pain hierarchy"
       ],
       "avoid": [
         "Pain imaginary",
@@ -3666,8 +3665,8 @@
         "New neurological/systemic/injury features to urgent pathway"
       ],
       "source_ids": [
-        "S313",
-        "S179"
+        "S486",
+        "S795"
       ]
     },
     {
@@ -3696,16 +3695,15 @@
         "Universal squeezing",
         "Fluid starvation",
         "Prescribing hormones/erectile medicines",
-        "Research laser as standard"
+        "Procedure recommendation without separately appraised indication-specific evidence"
       ],
       "escalation": [
         "Retention urgent; sudden severe testicular pain emergency; haematuria assessment, urgent with heavy bleeding/clot retention/illness"
       ],
       "source_ids": [
-        "S515",
-        "S516",
-        "S517",
         "S518",
+        "S801",
+        "S802",
         "S519",
         "S168"
       ]
@@ -3813,7 +3811,7 @@
         "S510",
         "S511",
         "S520",
-        "S179",
+        "S795",
         "S522"
       ]
     },
@@ -4242,7 +4240,7 @@
         "S532",
         "S536",
         "S539",
-        "S535"
+        "S533"
       ]
     },
     {
@@ -4275,7 +4273,6 @@
         "If the authoritative source is inaccessible, record the access failure and do not claim review"
       ],
       "source_ids": [
-        "S535",
         "S533",
         "S532",
         "S541"
