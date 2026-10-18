@@ -20,6 +20,8 @@ jobs:
           persist-credentials: false
       - name: Validate canonical files and generated references
         run: python3 scripts/validate.py
+      - name: Validate reviewed retrieval evidence locators
+        run: python3 scripts/evaluate_knowledge_search.py --root . --cases evals/knowledge-search-cases.json --validate-only
       - name: Test packaging and rejection paths
         run: python3 -m unittest discover -s tests -v
       - name: Test optional adapter offline without provider requests

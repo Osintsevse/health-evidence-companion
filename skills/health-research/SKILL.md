@@ -46,3 +46,7 @@ For consequential explanations and contributions, read [source-grounded reasonin
 ## Find packaged knowledge
 
 Use [the knowledge search guide](references/knowledge-search.md) when you need to locate a relevant packaged note or trace its sources. On a host with Python, the bundled `scripts/knowledge_search.py` provides bounded local search and section reading; otherwise use the linked reference indexes. Search only the general packaged material, preserve reading and source-policy limits, and inspect the selected section before using it. A search hit is a navigation aid, not a new appraisal or a clinical conclusion.
+
+## Longevity evidence
+
+For lifespan, healthy ageing, geroprotectors, smoking cessation or future rejuvenation, read [the longevity entry](references/57_LONGEVITY_AND_PREVENTION.md), then only the relevant complete card in `references/longevity/`. Use the [statistics guide](references/longevity/40_STATISTICS_GUIDE.md) for numerical comparisons. Preserve source reading scope, outcome, denominator, comparator, time and uncertainty. Distinguish observational associations, randomized clinical endpoints, biomarkers, animal results and sponsor-only reports. Do not invent personal breakthrough probabilities or prescribe an experimental longevity regimen. Recheck rapidly changing trial evidence before consequential use.

@@ -124,7 +124,7 @@ GINA and GOLD are different strategies. A familiar inhaler name does not establi
 | Transplant immunosuppressants | Suppress immune activation to prevent rejection | Levels, organs/metabolism, infection, interactions, adherence | L; S transplant team |
 | Cytotoxic/targeted/immune cancer therapies | Cell damage or tumor/immune targets; cancer-specific care | Histology/stage/biomarkers, blood/organs, infection, immune toxicity | L; S oncology; indication-specific approval |
 
-Combined rows explicitly contain different mechanisms and are not interchangeability statements. Psychiatric/neurologic treatments may have legitimate benefit despite incomplete mechanistic understanding. Explain goals, expectations, burden and monitoring without diagnosing from response or generating taper schedules. Cancer immune toxicity may involve gut, lung, liver or endocrine organs, not just a routine allergy, and needs prompt oncology assessment. S314 S26
+Combined rows contain different mechanisms, not interchangeability claims. Discuss goals, response, burden and monitoring without diagnosing from medicine response or generating a taper. Cancer treatment questions require indication-specific evidence and the treating oncology team's plan. S314
 
 ## Exposure and cumulative risk
 
@@ -140,7 +140,7 @@ Herbal products vary by species, extract, strength and contamination. They are n
 
 ## Structured review, errors and reactions
 
-Reconciliation establishes prescribed versus actual use and discrepancies. Review asks whether each item remains indicated, effective, tolerable, practical and aligned with goals. Ask about benefit, burden and barriers: cost, adverse effects, technique, confusing instructions or beliefs. Use a table with exact product, indication, intended instructions, actual reported use, benefit/burden, unanswered question and responsible clinician. Separate prescription facts from recollection and do not infer that an undated item is currently taken. S308
+The package's editorial reconciliation workflow distinguishes prescribed instructions, actual reported use and discrepancies. Record exact product, indication, intended instructions, dated actual use, reported benefit/burden and unanswered questions for the responsible clinician. Do not infer current use from an undated historical mention. This record workflow does not itself establish which treatment is indicated.
 
 Check identity and relevant exposures, duplication, contraindications, interactions/cumulative risk, monitoring and indication-specific evidence. Classify conclusions as exact-label contraindication; professional review/monitoring needed; permitted under stated conditions; no important interaction found in consulted sources; or insufficient data. The latter two differ. An incomplete list cannot establish a whole regimen's safety.
 
@@ -217,7 +217,7 @@ These seven families extend the atlas to 87 rows. They remain exact-label and in
 | Overactive-bladder antimuscarinics and beta3 agonists | Reduce detrusor cholinergic activity or promote relaxation through distinct pathways | Urinary retention, anticholinergic/cognitive burden, agent-specific BP/interactions, exclude alternative cause | L; G overactive bladder; S urology |
 | Dementia therapies | Cholinesterase inhibitors/memantine provide selected symptomatic treatment; disease-modifying therapies have separate eligibility/evidence | Confirmed syndrome/subtype, function, adverse effects and goals; biomarker/monitoring requirements and approval status for disease-modifying treatment | L; G/S neurology; separate symptomatic versus disease-modifying appraisal |
 
-For insulin questions, product/concentration/device verification is distinct from injection technique. Establish the exact insulin, concentration, pen/cartridge/vial or pump compatibility, and existing written prescription/plan. Do not infer interchangeability, transfer a pen's units into a syringe, improvise concentration conversion or start a regimen. Technique support should follow the verified device instructions and trained diabetes team's existing plan; unclear instructions, device malfunction or a possible wrong product/concentration needs prompt pharmacist/team advice, and suspected severe hypoglycemia or metabolic deterioration follows emergency guidance. No label-specific critical instruction should be guessed from the class atlas. S303 S309 S305
+For insulin questions, verify exact product, concentration, device and the existing written prescription/plan. Do not infer interchangeability, transfer pen units to a syringe or improvise a concentration conversion. Technique support requires the actual device instructions and trained team; uncertainty or a possible wrong product needs prompt advice. No regimen is derived from this class atlas. S303 S309
 
 ## Source register
 
@@ -228,22 +228,22 @@ For insulin questions, product/concentration/device verification is distinct fro
 - S301: [FDA Drug Approvals and Databases](https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases). Search excerpts inspected
 - S302: [FDA Online Label Repository](https://labels.fda.gov/). Search-rendered disclaimer inspected
 - S303: [DailyMed](https://dailymed.nlm.nih.gov/). Search-rendered landing information inspected; direct search URLs failed
-- S29: [NICE NG136 hypertension recommendations](https://www.nice.org.uk/guidance/ng136/chapter/recommendations). Direct capitalized endpoint 403; lower-case recommendation sections returned by search and inspected
-- S304: [NICE NG238 cardiovascular risk and lipid modification](https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3). Direct standard URL 403; search-rendered recommendation/rationale sections inspected
-- S305: [NICE NG28 initial medicines](https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines). Search-rendered section 1.13 and rationale inspected
+- S29: [NICE NG136 hypertension recommendations](https://www.nice.org.uk/guidance/ng136/chapter/recommendations). Direct capitalized endpoint 403; lower-case recommendation sections returned by search and inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S304: [NICE NG238 cardiovascular risk and lipid modification](https://www.nice.org.uk/guidance/ng238/chapter/Recommendations?form=MG0AV3). Direct standard URL 403; search-rendered recommendation/rationale sections inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S305: [NICE NG28 initial medicines](https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines). Search-rendered section 1.13 and rationale inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S97: [KDIGO CKD Evaluation and Management](https://kdigo.org/guidelines/ckd-evaluation-and-management/). Landing page including update status and scope inspected
 - S24: [GINA 2026 Summary Guide](https://ginasthma.org/2026-gina-summary-guide/). Landing/search excerpts and report formulation/age excerpt inspected; full report not read
 - S306: [GOLD 2026 Report](https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf). Search PDF excerpt inspected only
 - S307: [WHO AWaRe antibiotic book](https://www.who.int/publications/i/item/9789240062382). Publication landing information inspected
-- S308: [NICE NG5 Medicines optimisation](https://www.nice.org.uk/Guidance/NG5?print=true). Overview and full-guideline structured-review search excerpts inspected; direct recommendations 403
-- S94: [NICE CG183 Drug allergy recommendations](https://www.nice.org.uk/guidance/cg183/chapter/recommendations). Search-rendered sections 1.1-1.4 inspected; direct capitalized endpoint 403
+- S308: [NICE NG5 Medicines optimisation](https://www.nice.org.uk/Guidance/NG5?print=true). Overview and full-guideline structured-review search excerpts inspected; direct recommendations 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S94: [NICE CG183 Drug allergy recommendations](https://www.nice.org.uk/guidance/cg183/chapter/recommendations). Search-rendered sections 1.1-1.4 inspected; direct capitalized endpoint 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S309: [NHS SPS Advising on missed or delayed doses](https://sps.nhs.uk/articles/advising-on-missed-or-delayed-doses-of-medicines/). Search-rendered page incl high-risk scope and general advice inspected
 - S69: [FDA examples of drugs interacting with CYP enzymes and transporters](https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems). Introductory limitations and selected table entries inspected
 - S310: [NCCIH Using Dietary Supplements Wisely](https://www.nccih.nih.gov/health/using-dietary-supplements-wisely). Web page retrieved; safety/interaction navigation inspected
 - S311: [CDC Clinical Practice Guideline at a Glance](https://www.cdc.gov/overdose-prevention/hcp/clinical-guidance/index.html). Full at-a-glance web page inspected
-- S26: [NICE NG215 dependence and withdrawal recommendations](https://www.nice.org.uk/guidance/ng215/chapter/Recommendations). Search excerpts on shared decisions and review/withdrawal inspected
+- S26: [NICE NG215 dependence and withdrawal recommendations](https://www.nice.org.uk/guidance/ng215/chapter/Recommendations). Search excerpts on shared decisions and review/withdrawal inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S312: [WHO Rehabilitation fact sheet](https://www.who.int/news-room/fact-sheets/detail/rehabilitation). Full fact sheet inspected
-- S313: [NICE NG193 chronic primary pain recommendations](https://www.nice.org.uk/guidance/ng193/chapter/recommendations). Search-rendered sections 1.2.1-1.2.4 and rationale excerpts inspected; direct capitalized page 403
+- S313: [NICE NG193 chronic primary pain recommendations](https://www.nice.org.uk/guidance/ng193/chapter/recommendations). Search-rendered sections 1.2.1-1.2.4 and rationale excerpts inspected; direct capitalized page 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S314: [NCI Types of Cancer Treatment](https://www.cancer.gov/about-cancer/treatment/types). Types landing page inspected
 - S112: [FDA Homeopathic Products](https://www.fda.gov/drugs/understanding-over-counter-medicines/homeopathic-products). Full web page inspected
 - S315: [DailyMed lisinopril oral tablet label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db5bfa2f-07b8-4f79-8a40-691da006e2ed). Search-rendered indications, fetal-toxicity and angioedema/hyperkalemia excerpts inspected

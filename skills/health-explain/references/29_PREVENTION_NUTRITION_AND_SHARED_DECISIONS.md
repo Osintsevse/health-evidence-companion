@@ -71,7 +71,7 @@ A private visit agenda can contain the main concern, relevant chronology, impact
 
 Useful questions are: What are the leading explanations? What would this test change? What are the alternatives, including observation where appropriate? Which benefits and harms matter for someone like me? What result requires follow-up, who arranges it and when should I ask again? Finish with the agreed next step and symptoms or changes that warrant earlier contact.
 
-NICE advises absolute risks, natural frequencies, consistent denominators and explicit time periods. Show both benefit and harm, and explain uncertainty. A relative effect without a baseline can sound much larger or smaller than its practical importance. [S194]
+Editorial communication rule: report absolute risks when valid baseline and outcome data exist, use consistent denominators and time periods, and show both benefit and harm with uncertainty. Do not invent a baseline to make a relative estimate seem concrete. The following wholly synthetic arithmetic illustrates definitions; it is not a clinical decision aid.
 
 Entirely synthetic arithmetic example: reducing an event from 4 in 100 to 3 in 100 over five years is an absolute reduction of one percentage point and a relative reduction of 25%. The corresponding NNT is 100 over five years only if those comparable risks validly represent the effect and apply to the population. Do not invent baseline risk, treat an odds ratio as a risk ratio, or convert a hazard ratio directly into an NNT. State when no useful absolute estimate is available.
 
@@ -96,3 +96,7 @@ Recheck consequential recommendations when age, risk, country, pregnancy, clinic
 ## Serbian organized-screening example
 
 Batut's published cervical screening page describes an organized programme for ages 25-64, with Pap testing in two consecutive years and then every three years after two normal results. This is a published programme description, not confirmation that every local clinic currently uses the same pathway or that an individual is eligible/funded. The page gives no clear revision date; verify current local implementation, previous abnormalities, relevant anatomy and risk before applying an interval. New bleeding or other symptoms require diagnostic assessment independently of screening. [S213]
+
+## Detailed longevity evidence packet
+
+For source-linked mortality/function estimates, adult cessation support and experimental approaches, use health-prevention or health-research, which package module 57 and its detailed references. That 2026-10-18 packet distinguishes trials, cohorts, biomarkers and animal findings; it does not supply a personalized longevity prescription or breakthrough probability.

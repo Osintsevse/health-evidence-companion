@@ -1,6 +1,6 @@
 # Medicines: classes, labels and checks
 
-Sources: S10-S16, S21, S25-S27, S37, S41. Educational information, not a personal prescription.
+Sources: S10-S16, S21, S27, S37, S41. Educational information, not a personal prescription. Historical NICE sources remain bibliographic only.
 
 Before describing a product as effective, apply module 18's indication-specific evidence workflow. Registration, an appealing mechanism and a brand's presence/absence on a discovery list are different from demonstrated benefit. Keep unknown or pending appraisal explicit.
 

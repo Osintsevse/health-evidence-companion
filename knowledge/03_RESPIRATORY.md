@@ -1,6 +1,6 @@
 # Colds, sore throat, nasal symptoms and acute cough
 
-Adult scope. Sources: S07-S11, S14-S15, S18, S21.
+Adult scope. Active source routes: S08-S11, S14-S15, S18, S21, S470. Historical NICE material is bibliographic only under source-use policy.
 
 ## Fundamentals
 
@@ -14,7 +14,7 @@ Persistent high fever, dehydration, breathing difficulty, worsening after initia
 
 ## Cough
 
-Antibiotics are usually unnecessary for uncomplicated acute cough. Cough may last three to four weeks. NICE does not recommend routine mucolytics, bronchodilators or corticosteroids for simple acute cough without a relevant underlying airway condition. Suspected pneumonia or increased complication risk requires a different assessment. [S07]
+Uncomplicated cough often settles within three to four weeks; antibiotics are not routinely prescribed. Possible bacterial infection or complication risk needs clinical assessment. This NHS overview does not establish a class-wide verdict on mucolytics, bronchodilators or corticosteroids. Urgent breathing difficulty, chest pain or coughing blood changes the route. [S470]
 
 ## Symptom medicines
 

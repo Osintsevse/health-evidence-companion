@@ -161,28 +161,28 @@ The final action should be concrete and limited: use the verified measurement me
 
 - S388: [AHA Home Blood Pressure Measurement Instructions](https://professional.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/How_to_Measure_Your_Blood_Pressure_Letter_Size.pdf). Full one-page PDF inspected
 - S389: [2025 AHA/ACC high blood pressure guideline: Top Things to Know](https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know). Official summary inspected; full guideline not read
-- S29: [NICE NG136 recommendations](https://www.nice.org.uk/guidance/ng136/chapter/recommendations). Relevant indexed sections inspected; direct page returned 403
-- S390: [NICE NG133 recommendations](https://www.nice.org.uk/guidance/ng133/chapter/recommendations). Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403
+- S29: [NICE NG136 recommendations](https://www.nice.org.uk/guidance/ng136/chapter/recommendations). Relevant indexed sections inspected; direct page returned 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S390: [NICE NG133 recommendations](https://www.nice.org.uk/guidance/ng133/chapter/recommendations). Relevant indexed sections 1.1,1.5,1.8 and definitions inspected; direct 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S391: [NHS Low blood pressure](https://www.nhs.uk/conditions/low-blood-pressure-hypotension/). Page inspected
 - S392: [ADA Diagnosis and Classification of Diabetes: Standards of Care 2026](https://doi.org/10.2337/dc26-s002). Indexed diagnostic sections inspected; direct full page unavailable
 - S393: [ADA Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises 2026](https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic). Indexed relevant recommendations inspected; direct 403
-- S305: [NICE NG28 Initial medicines](https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines). Indexed initial-medicine recommendations inspected
+- S305: [NICE NG28 Initial medicines](https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines). Indexed initial-medicine recommendations inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S394: [DailyMed Lantus and Lantus SoloStar label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5e07a0c-7e14-4756-9152-9fea485d654a). Administration, warnings, patient instructions inspected
 - S319: [DailyMed Jardiance empagliflozin label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59ed43d9-b4e0-72a2-e063-6394a90a327d). Ketoacidosis warning inspected
 - S395: [NHS Diabetic ketoacidosis](https://www.nhs.uk/conditions/diabetic-ketoacidosis/). Symptoms and urgent/emergency sections inspected
 - S396: [KDIGO 2024 CKD Clinical Practice Guideline](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf). PDF sections on chronicity, eGFR/ACR, monitoring and SGLT2 inspected; not full document
 - S397: [GINA Summary Guide for Asthma Management and Prevention 2026](https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf). Relevant diagnosis, technique, review, ICS and action-plan sections inspected; not full guide
-- S398: [NICE NG115 recommendations](https://www.nice.org.uk/guidance/ng115/chapter/Recommendations). Indexed spirometry and inhaled-treatment sections inspected
+- S398: [NICE NG115 recommendations](https://www.nice.org.uk/guidance/ng115/chapter/Recommendations). Indexed spirometry and inhaled-treatment sections inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S399: [AHA official explanation of 2022 AHA/ACC/HFSA HF guideline](https://newsroom.heart.org/news/acc-aha-hfsa-issue-heart-failure-guideline). Official explanation sections on stages, phenotype and medication classes inspected
 - S400: [ESC 2026 Heart Failure guideline landing page](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure). Landing page and rights text only; full guideline not read
 - S401: [AHA Key Patient Messages: 2023 Chronic Coronary Disease Guideline](https://professional.heart.org/en/science-news/patient-resources/key-patient-messages-2023-chronic-coronary-disease-guideline). Official patient messages inspected
 - S402: [AHA/ASA 2021 secondary stroke prevention: Top Things to Know](https://professional.heart.org/en/science-news/2021-guideline-for-the-prevention-of-stroke-in-patients-with-stroke-and-transient-ischemic-attack/top-things-to-know). Official summary points 1-10 inspected
 - S403: [AHA 2023 AF guideline: Top Things to Know](https://professional.heart.org/en/science-news/2023-acc-aha-accp-hrs-guideline-for-the-diagnosis-and-management-of-atrial-fibrillation/top-things-to-know). Official summary inspected; full guideline not read
-- S404: [NICE NG56 recommendations](https://www.nice.org.uk/guidance/ng56/chapter/recommendations). Indexed sections 1.1-1.6 inspected; direct 403
-- S101: [NICE NG145 recommendations](https://www.nice.org.uk/guidance/NG145/chapter/recommendations). Indexed management and follow-up sections inspected; direct 403
-- S405: [NICE NG226 recommendations](https://www.nice.org.uk/guidance/ng226/chapter/Recommendations). Indexed exercise/function and pharmacological sections inspected
-- S406: [NICE NG100 recommendations](https://www.nice.org.uk/guidance/ng100/chapter/Recommendations). Indexed referral and urgent septic-arthritis recommendation inspected
-- S407: [NICE NG246 Medicines and surgery](https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery). Indexed medicine section and eligibility table inspected
+- S404: [NICE NG56 recommendations](https://www.nice.org.uk/guidance/ng56/chapter/recommendations). Indexed sections 1.1-1.6 inspected; direct 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S101: [NICE NG145 recommendations](https://www.nice.org.uk/guidance/NG145/chapter/recommendations). Indexed management and follow-up sections inspected; direct 403 Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S405: [NICE NG226 recommendations](https://www.nice.org.uk/guidance/ng226/chapter/Recommendations). Indexed exercise/function and pharmacological sections inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S406: [NICE NG100 recommendations](https://www.nice.org.uk/guidance/ng100/chapter/Recommendations). Indexed referral and urgent septic-arthritis recommendation inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
+- S407: [NICE NG246 Medicines and surgery](https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery). Indexed medicine section and eligibility table inspected Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S408: [AHA official explanation: ACC/AHA updated dyslipidemia guideline](https://newsroom.heart.org/news/accaha-issue-updated-guideline-for-managing-lipids-cholesterol). Official news explanation inspected; professional Top Things to Know summary also inspected; full guideline not read
 
 

@@ -11,7 +11,7 @@ import unicodedata
 from pathlib import Path
 
 SCHEMA = 'knowledge-search-v1'
-INDEX_ALGORITHM = '2026-10-17.4'
+INDEX_ALGORITHM = '2026-10-18.1'
 APPLICATION_ID = 1212500785
 TOKEN = re.compile(r'[^\W_]+', re.UNICODE)
 STOP_WORDS = set('a an the and or not no is are was were be been being do does did can could would should will may might how what which when where why who whom whose with without for from into onto about between of on in at to by as it its this that these those i we you my our your me us find locate explain interpret describe tell show give please start begin bundled packaged note notes module modules medical health information difference differs distinguish mean means'.split())
@@ -219,8 +219,26 @@ def _ru_key(word):
     """A bounded suffix heuristic only for matching curated navigation aliases."""
     if not re.fullmatch(r'[\u0430-\u044f]{4,}', word):
         return None
-    endings = ('\u0438\u044f\u043c\u0438','\u044f\u043c\u0438','\u0430\u043c\u0438','\u043e\u0433\u043e','\u0435\u043c\u0443','\u043e\u043c\u0443','\u044b\u043c\u0438','\u0438\u043c\u0438','\u0430\u044f','\u044f\u044f','\u044b\u0435','\u0438\u0435','\u044b\u0439','\u0438\u0439','\u043e\u0439','\u043e\u0435','\u0435\u0435','\u0443\u044e','\u044e\u044e','\u0430\u0445','\u044f\u0445','\u043e\u0432','\u0435\u0432','\u043e\u043c','\u0435\u043c','\u0430\u043c','\u044f\u043c','\u0435\u0439','\u0438\u044f','\u0438\u0438','\u0438\u044e','\u044b','\u0438','\u0430','\u044f','\u0443','\u044e','\u0435')
+    endings = ('\u044b\u0445','\u0438\u0445','\u044b\u043c','\u0438\u043c','\u0438\u044f\u043c\u0438','\u044f\u043c\u0438','\u0430\u043c\u0438','\u043e\u0433\u043e','\u0435\u043c\u0443','\u043e\u043c\u0443','\u044b\u043c\u0438','\u0438\u043c\u0438','\u0430\u044f','\u044f\u044f','\u044b\u0435','\u0438\u0435','\u044b\u0439','\u0438\u0439','\u043e\u0439','\u043e\u0435','\u0435\u0435','\u0443\u044e','\u044e\u044e','\u0430\u0445','\u044f\u0445','\u043e\u0432','\u0435\u0432','\u043e\u043c','\u0435\u043c','\u0430\u043c','\u044f\u043c','\u0435\u0439','\u0438\u044f','\u0438\u0438','\u0438\u044e','\u044b','\u0438','\u0430','\u044f','\u0443','\u044e','\u0435')
     return next((word[:-len(e)] for e in endings if word.endswith(e) and len(word)-len(e)>=4), word)
+
+
+def _ru_phrase_key(value):
+    words = value.split()
+    if not words or not all(re.fullmatch(r'[\u0430-\u044f]+', word) for word in words):
+        return None
+    return tuple(_ru_key(word) or word for word in words)
+
+
+def _navigation_requested(query, concepts):
+    words = set(_tokens(query))
+    variants = {value for concept in concepts for value in concept['variants']}
+    if words & {'index','map','routing','catalog','catalogue','contents'} or 'table of contents' in variants:
+        return True
+    russian = {'\u043e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435','\u043a\u0430\u0442\u0430\u043b\u043e\u0433','\u043a\u0430\u0440\u0442\u0430','\u043c\u0430\u0440\u0448\u0440\u0443\u0442','\u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c'}
+    if any(_ru_key(w) == _ru_key(n) for w in words for n in russian):
+        return True
+    return bool(words & {'where','\u0433\u0434\u0435'} and variants & {'search','searching','psychology','health'})
 
 
 def _query_plan(query, aliases):
@@ -236,13 +254,16 @@ def _query_plan(query, aliases):
         if any(not isinstance(v, str) or len(v) > 100 for v in group):
             raise ValueError('Invalid navigation alias')
         groups.append(sorted(set(' '.join(_tokens(v)) for v in group if _tokens(v))))
+    ru_groups = [{key for value in values if (key := _ru_phrase_key(value)) is not None} for values in groups]
     concepts, seen = [], set()
     position = 0
     while position < len(terms):
         found, consumed = [], 1
         for size in range(min(5, len(terms) - position), 0, -1):
             phrase = ' '.join(terms[position:position + size])
-            found = [i for i, values in enumerate(groups) if phrase in values]
+            phrase_key = _ru_phrase_key(phrase) if size > 1 else None
+            found = [i for i, values in enumerate(groups) if phrase in values
+                     or (phrase_key is not None and phrase_key in ru_groups[i])]
             if found:
                 consumed = size
                 break
@@ -315,7 +336,7 @@ def _source_summary(sources):
         clipped = {}
         shortened = False
         for key, maximum in [('qualified_id', 40), ('title', 200), ('url', 700),
-                             ('reading_status', 350), ('limitations', 450), ('checked_on', 30)]:
+                             ('reading_status', 350), ('active_use', 40), ('limitations', 450), ('checked_on', 30)]:
             if key in source:
                 value = str(source[key])
                 clipped[key] = value[:maximum]
@@ -351,14 +372,13 @@ def _search_one(root, query, limit=5, index_path=None):
     try:
         rows = conn.execute('SELECT id, bm25(search,0,5,1) AS rank FROM search WHERE search MATCH ? ORDER BY rank,id LIMIT 400', (expression,)).fetchall()
         candidates = []
-        navigation_intent = any(w in {'index', 'map', 'routing', 'catalog', 'catalogue',
-                                     '\u043a\u0430\u0440\u0442\u0430', '\u043a\u0430\u0442\u0430\u043b\u043e\u0433', '\u043c\u0430\u0440\u0448\u0440\u0443\u0442'}
-                                for w in _tokens(query))
+        navigation_intent = _navigation_requested(query, concepts)
         for sid, rank in rows:
             section = json.loads(conn.execute('SELECT data FROM sections WHERE id=?', (sid,)).fetchone()[0])
             matched, coverage = _coverage(section, concepts)
             bibliography = bool(re.search(r'^(?:source register|sources?|references?|bibliograph)', section['heading'], re.I))
-            navigation = bool(re.search(r'INDEX|CURRICULUM|_MAP', Path(section['canonical_path']).name)) and not navigation_intent
+            is_navigation = bool(re.search(r'INDEX|CURRICULUM|_MAP', Path(section['canonical_path']).name))
+            navigation = not is_navigation if navigation_intent else is_navigation
             heading_coverage = _coverage({**section, 'text': ''}, concepts)[1]
             candidates.append((bibliography, navigation, coverage, heading_coverage, rank, sid, matched, section))
         candidates.sort(key=lambda row: (row[0], row[1], -row[2], -row[3], row[4], row[5]))
@@ -383,7 +403,7 @@ def _search_one(root, query, limit=5, index_path=None):
                 break
         return {'schema': SCHEMA, 'query': query, 'query_mode': 'lexical_concept_coverage_with_curated_aliases',
                 'query_concepts': concepts, 'candidate_limit': 400,
-                'ranking': 'content before bibliography/general indexes unless navigation requested; concept and heading coverage, then BM25; no evidence confidence score',
+                'ranking': 'navigation requests prefer indexes; other queries prefer content; then concept/heading coverage and BM25; no evidence confidence score',
                 'fingerprint': snapshot[-1], 'results': results, 'permission_inferred': False}
     finally:
         conn.close()

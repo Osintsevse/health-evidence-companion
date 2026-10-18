@@ -1,6 +1,6 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -54,7 +54,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.9.1 adds offline bilingual retrieval of packaged project notes with exact section locators, source reading and restriction metadata, installed-skill support and reproducible retrieval checks. It does not search private records, download sources or claim clinical validation."
+        "release_notes": "Version 0.9.2 adds a bounded longevity and prevention evidence packet, source-linked statistical examples, early human reprogramming status and explicit research/review limits. No experimental regimen, personal breakthrough predictor or installed update is provided."
       }
     }
   }

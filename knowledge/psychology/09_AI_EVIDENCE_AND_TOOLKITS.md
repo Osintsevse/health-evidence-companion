@@ -10,7 +10,7 @@ Structured digital program; chatbot with fixed scripts; specially trained and co
 | Source | What was checked | Practical Conclusion and Limitation |
 |---|---|---|
 | Woebot, 2017 [S43] | 70 young adults, two weeks, comparison with information material | Historical data about a specific automated agent; not a test of current LLMs |
-| Therabot trial bibliography [S41–S42] | Historical NEJM report/linked summaries retained for permission/source discovery only | No trial-result or efficacy estimate adopted here pending a usable independent appraisal |
+| Therabot trial bibliography [S41–S42] | Bibliographic pointer only: historical NEJM report/linked summaries retained for permission/source discovery | No trial-result or efficacy estimate adopted here pending a usable independent appraisal |
 | Sohn et al., 2026 [S44] | 39 RCT of different chatbots | Small average effects; high heterogeneity; applicability to this system is not established |
 | Moore et al., FAccT 2025 [S45] | Checking the responses of models/bots in situations of mental distress | Stigma and dangerous responses revealed; this is an assessment of responses, not an RCT of treatment |
 

@@ -11,18 +11,20 @@ ROOT = Path(__file__).resolve().parents[1]
 def catalog(root=ROOT):
     medical=json.loads((root/'knowledge/sources.json').read_text(encoding='utf-8'))
     psychological=json.loads((root/'knowledge/psychology/sources.json').read_text(encoding='utf-8'))
+    from source_policy import source_use
+    policy=json.loads((root/'knowledge/clinical/source-use-policy.json').read_text(encoding='utf-8'))
     records=[]
     for source in medical:
         records.append({'namespace':'medical','id':source['id'], 'qualified_id':'medical:'+source['id'],
             'title':source['title'],'url':source['url'],'checked_on':source['checked_on'],
             'reading_status':source['retrieval_status'],'limitations':source['retrieval_status'],
-            'purpose':source['use'],'region':source['region'], 'canonical_path':'knowledge/sources.json'})
+            'purpose':source['use'],'region':source['region'], 'canonical_path':'knowledge/sources.json', **source_use(source,'medical',policy)})
     for source in psychological['sources']:
         records.append({'namespace':'psychology','id':source['id'],'qualified_id':'psychology:'+source['id'],
             'title':source['title'],'url':source['url'],'checked_on':source['checked_at'],
             'reading_status':source['access'],'limitations':source['limitations'],
             'purpose':source['use'],'region':'Original psychological source applicability; inspect canonical record',
-            'canonical_path':'knowledge/psychology/sources.json'})
+            'canonical_path':'knowledge/psychology/sources.json', **source_use(source,'psychology',policy)})
     identities=[row['qualified_id'] for row in records]
     if len(set(identities))!=len(identities):raise ValueError('Duplicate qualified source identifier')
     groups=defaultdict(list)

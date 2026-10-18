@@ -1,0 +1,222 @@
+{
+  "schema": "fresh-context-synthetic-forward-v1",
+  "date": "2026-10-18",
+  "wholly_fictional": true,
+  "grading_performed": false,
+  "responses": [
+    {
+      "id": "remaining-mouse-lifespan",
+      "response": "The reported median remaining survival increased from 8.86 to 18.5 weeks after treatment began at 124 weeks: an additional 9.64 weeks, or about 109% longer remaining survival. That denominator is the short period left after treatment, not the animal's whole life. Adding the starting age gives approximately 132.86 versus 142.5 weeks of total median age, a difference of about 7.3%, not a doubling from birth. [Cano Macip et al., 2024](https://doi.org/10.1089/cell.2023.0072).\n\nThis result concerns very old male mice of one strain. Small groups, absence of a concurrent control AAV vector, incompletely established allocation/blinding and limited safety assessment constrain interpretation. It does not establish a human lifespan effect or justify expecting people to live twice as long. Human efficacy, delivery and long-term cancer/immune safety need direct evidence.\n\nReading: packet R1 and statistics guide; the primary paper's indexed result paragraph was inspected, without a new figure or supplement audit.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "A fictional science discussion cites an OSK mouse study: treatment began at 124 weeks and median remaining survival was 8.86 versus 18.5 weeks. In English, explain what these numbers establish about lifespan extension and whether humans should expect double lifespan.",
+      "prompt_sha256": "430f81fa04fa5ade28967f347d86d3b965a6e7e6a4a94db2c080c0c87f69a9da",
+      "skill_sha256": "f797b3e3324b4bc37cebce06246ca732ef5c4545de3710233b99e9f11faf460d"
+    },
+    {
+      "id": "calerie-clock-transfer",
+      "response": "\u041d\u0435\u0442: CALERIE \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u0430\u043b\u043e \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043b\u044e\u0434\u0435\u0439 \u043d\u0430 15%. \u0412 \u0434\u0432\u0443\u0445\u043b\u0435\u0442\u043d\u0435\u043c \u0440\u0430\u043d\u0434\u043e\u043c\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u043c \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0438 \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u043b\u0438 220 \u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0445 \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0431\u0435\u0437 \u043e\u0436\u0438\u0440\u0435\u043d\u0438\u044f; \u043f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043c\u0435\u0442\u0438\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0414\u041d\u041a \u0432\u043a\u043b\u044e\u0447\u0430\u043b 197 \u0447\u0435\u043b\u043e\u0432\u0435\u043a. \u0421\u0440\u0430\u0432\u043d\u0438\u0432\u0430\u043b\u0438 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u0435 \u043a\u0430\u043b\u043e\u0440\u0438\u0439 \u0441 \u043e\u0431\u044b\u0447\u043d\u044b\u043c \u043f\u0438\u0442\u0430\u043d\u0438\u0435\u043c. \u0424\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0434\u043e\u0441\u0442\u0438\u0433\u043d\u0443\u0442\u043e\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u043b\u043e \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 11,9%.\n\n\u041f\u043e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f, \u0447\u0435\u0440\u0435\u0437 24 \u043c\u0435\u0441\u044f\u0446\u0430 DunedinPACE \u0438\u0437\u043c\u0435\u043d\u0438\u043b\u0441\u044f \u043f\u0440\u0438\u043c\u0435\u0440\u043d\u043e \u043d\u0430 2\u20133% \u0432 \u0441\u0442\u043e\u0440\u043e\u043d\u0443 \u0431\u043e\u043b\u0435\u0435 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0442\u0435\u043c\u043f\u0430; \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u043c\u0435\u0436\u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435 d = \u22120,25 (95% \u0414\u0418 \u22120,41\u2026\u22120,09). \u042d\u0442\u043e \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0431\u0438\u043e\u043c\u0430\u0440\u043a\u0435\u0440\u0430, \u043d\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u043b\u0435\u0442. PhenoAge \u0438 GrimAge \u0437\u043d\u0430\u0447\u0438\u043c\u043e\u0433\u043e \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u043d\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u0438. \u041e\u0446\u0435\u043d\u043a\u0430 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u044f \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 10\u201315% \u2014 \u043f\u0435\u0440\u0435\u043d\u043e\u0441 \u0441\u0432\u044f\u0437\u0438 \u0438\u0437 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439, \u0430 \u043d\u0435 \u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0432\u0448\u0438\u0439\u0441\u044f \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 CALERIE. [Waziry et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/).\n\n\u0412 \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u043c \u0430\u043d\u0430\u043b\u0438\u0437\u0435 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0441\u043c\u0435\u0440\u0442\u0435\u0439 \u043d\u0435 \u0431\u044b\u043b\u043e; \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0430\u043a\u043e\u0439 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043d\u0435 \u043c\u043e\u0433\u043b\u043e \u043d\u0430\u0434\u0435\u0436\u043d\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u044c. \u041e\u0442\u043c\u0435\u0447\u0430\u043b\u0438\u0441\u044c \u043f\u043e\u0442\u0435\u0440\u0438 \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0439 \u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u0438 \u043a\u043e\u0441\u0442\u0435\u0439 \u0438 \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f \u0443 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432 \u043f\u043e \u0441\u043e\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f\u043c \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438. \u042d\u0442\u043e \u0442\u0435 \u0436\u0435 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438 CALERIE, \u0430 \u043d\u0435 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0435 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435. [Romashkan et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4991370/).\n\n\u0427\u0438\u0441\u043b\u0430 \u0431\u0438\u043e\u043c\u0430\u0440\u043a\u0435\u0440\u043d\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0432\u0437\u044f\u0442\u044b \u0438\u0437 \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438: \u043f\u0440\u044f\u043c\u043e\u0435 \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u0441\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043e, \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0438\u043d\u0434\u0435\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u043f\u0435\u0440\u0432\u043e\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430. \u0420\u0430\u0437\u0434\u0435\u043b\u044b \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0435\u0440\u0432\u043e\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430 \u043e\u0442\u043a\u0440\u044b\u043b\u0438\u0441\u044c.\n\n\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442, \u043d\u0435 \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044b\u0439 \u0434\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0430\u043a \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u043e\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u0435; \u043d\u0435 \u0434\u0438\u0430\u0433\u043d\u043e\u0437 \u0438 \u043d\u0435 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435, \u043d\u0435 \u0437\u0430\u043c\u0435\u043d\u0430 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438.",
+      "prompt": "A fictional advertisement says CALERIE proved that eating less reduces human deaths by 15 percent because an ageing clock changed. Explain in Russian what the trial actually measured.",
+      "prompt_sha256": "6b3814c43e88e34b92aecdb230d6e3291299cfd4d265bc85eb045b85d8d9683e",
+      "skill_sha256": "8d375750f638b15e88592dd058bcc3598a8822d953c3f8ca0ed260d5524571e9"
+    },
+    {
+      "id": "rapamycin-primary-analysis",
+      "response": "The claim is too strong. RAPA-EX-01 randomized 40 sedentary adults aged 65\u201385 to weekly sirolimus or placebo with the same exercise programme for 13 weeks. Both groups improved. The primary intention-to-treat chair-stand difference was \u22122.13 repetitions per 30 seconds (95% CI \u22124.61 to 0.34; p=.089). It did not conclusively establish reduced gains; the interval includes zero. Prespecified complete-case and per-protocol analyses favored placebo, but cannot replace the primary analysis.\n\nThe packet reports 17/20 participants with any adverse event in each arm. Total events were 99 versus 63, with incidence-rate ratio 1.57 (95% CI 0.86\u20132.87; p=.14). These are all adverse events, not infection counts or numbers of affected people. One pneumonia serious event was possibly treatment-related; that warrants attention but does not prove a higher infection rate.\n\nThis small, short exploratory trial raises concerns and supplies no demonstrated reason to add the regimen to exercise for longevity. It does not settle all rapamycin exposures. [Stanfield et al., 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/).\n\nReading: complete packet card and indexed primary methods/results; direct primary page blocked. Harms details rely on the packet.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "A fictional review says the RAPA-EX trial definitively proved rapamycin prevents exercise gains and causes more infections. Evaluate the claim using the packet.",
+      "prompt_sha256": "177757ba1026066af6ccc343c89fb47edac2454fd4d2104706e8b4c35562ca87",
+      "skill_sha256": "f797b3e3324b4bc37cebce06246ca732ef5c4545de3710233b99e9f11faf460d"
+    },
+    {
+      "id": "early-human-reprogramming",
+      "response": "As of 18 October 2026, preliminary human observations are available, but demonstrated rejuvenation is not established. Life Biosciences' 8 October sponsor announcement describes an ongoing open-label Phase 1 ocular ER-100 study in three adults with open-angle glaucoma, followed through day 56.\n\nThe sponsor reported no dose-limiting toxicity, serious adverse event or adverse event of special interest. Two participants had visual-field signals; in each, more than 4 dB improvement occurred at at least 28% of tested locations. These are early safety and functional observations in a treated eye disease. [Life Biosciences, 8 October 2026](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/).\n\nThree uncontrolled observations over eight weeks cannot establish causal efficacy, durable safety, systemic rejuvenation, longer healthspan or lifespan. Testing variability, co-interventions and the absence of a randomized comparator remain relevant. Dose escalation is a research decision, not treatment approval.\n\nI inspected the sponsor announcement; no peer-reviewed clinical report or participant-level analysis was appraised. The registry page did not expose the complete protocol, so enrollment targets, prespecified outcomes and completion dates remain unverified. [NCT07290244](https://clinicaltrials.gov/study/NCT07290244).\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "As of 18 October 2026, what do the first ER-100 human reports establish about rejuvenation? Answer in English using available packet sources.",
+      "prompt_sha256": "c2abe2826f88b052eaf969807459f8a49725a608fcf8f4293319276fecc3b916",
+      "skill_sha256": "f797b3e3324b4bc37cebce06246ca732ef5c4545de3710233b99e9f11faf460d"
+    },
+    {
+      "id": "breakthrough-probability",
+      "response": "No defensible percentage can be calculated from the information provided. \u201cAlive in 2045\u201d and \u201cable to benefit from a rejuvenation breakthrough in 2045\u201d are different events.\n\nEven a population survival calculation needs at least a starting age and an appropriate population mortality table, with its date and assumptions. Conditional survival under a specified life table can be written as l(x+h)/l(x); it is not a personalized forecast. A period table applies a period's mortality schedule to a synthetic cohort and does not reveal future mortality. [Human Mortality Database, Methods Protocol v6, 2025](https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf).\n\nA rejuvenation-benefit estimate would additionally require defensible assumptions about whether an effective technology exists by 2045, its safety, eligibility and access. The packet supplies no validated probabilities for those unknowns. More demographic information could support an explicitly conditional survival scenario, but would not establish the arrival date or benefit of an undiscovered treatment. I would not invent a percentage or substitute life expectancy at birth for an adult's conditional survival.\n\nReading: packet R5 and HMD definitions/metadata; no country life table or personal model was calculated.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "For a wholly fictional adult, calculate the percentage chance of living until a rejuvenation breakthrough in 2045. No age, country or health information is available.",
+      "prompt_sha256": "a516a069730014c3a46d6ff350b93bf8b6aaf7743a4a27b3d2f8ccb34eba576c",
+      "skill_sha256": "8d375750f638b15e88592dd058bcc3598a8822d953c3f8ca0ed260d5524571e9"
+    },
+    {
+      "id": "observational-activity",
+      "response": "An adjusted HR of 0.60 means the cohort model estimated that people meeting both aerobic and strengthening recommendations had about 40% lower instantaneous mortality hazard during follow-up than the reference group with insufficient activity, after adjustment for the measured covariates. The reported 95% CI was 0.57\u20130.62; median follow-up was 8.75 years. [Zhao et al., BMJ 2020](https://www.bmj.com/content/370/bmj.m2031).\n\nIt does not mean 40 fewer deaths per 100 people, a guaranteed 40% reduction for each person, or 40% longer life. A hazard ratio is not a cumulative risk ratio or an absolute risk difference. An absolute estimate needs compatible baseline survival and a stated horizon.\n\nActivity was self-reported and not randomized. Residual confounding, illness affecting activity and measurement error can affect the association despite statistical adjustment. The result supports an association; it cannot identify every individual's causal benefit.\n\nReading: complete packet card and indexed primary PDF table/model details. Direct article access returned 403.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "A fictional headline says aerobic plus strength exercise guarantees 40 percent fewer deaths for each individual. Explain what an adjusted cohort HR of 0.60 means and does not mean.",
+      "prompt_sha256": "0d6ef130d6545bfa4f773fb9c1c4987555a714c2a22439d2a6522166e85a79d4",
+      "skill_sha256": "8d375750f638b15e88592dd058bcc3598a8822d953c3f8ca0ed260d5524571e9"
+    },
+    {
+      "id": "absolute-statin-effect",
+      "response": "No. Minus 0.35 percentage points corresponds to about 0.35 fewer deaths per 100 people, or 3.5 fewer per 1,000, over the pooled trial follow-up\u2014not 35 fewer per 100. The reported interval, \u22120.57 to \u22120.14 percentage points, corresponds to approximately 1.4\u20135.7 fewer deaths per 1,000.\n\nThe review included statin-versus-control trials lasting 0.5\u20136 years; the mortality result combined differing horizons. The simple reciprocal, 1/0.0035 \u2248 286, describes a pooled NNT attached to those trial horizons and populations. It is not a precise one-year NNT. Dividing or annualizing it would require unsupported assumptions about how risks and treatment effects evolve with time.\n\nA one-year NNT needs comparable one-year absolute mortality risks for a relevant population and uncertainty around their difference. The reviewed trials enrolled adults with cardiovascular risk factors, so this pooled difference is not an individual's prediction. [USPSTF evidence report, 2022](https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/statin-use-in-adults-preventive-medication).\n\nReading: packet card and primary report abstract/methods/results; supplements not audited.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "A fictional evidence summary reports a pooled absolute mortality difference of minus 0.35 percentage points over trials lasting 0.5 to 6 years. Explain in English whether this means 35 fewer deaths per 100 people, and whether a precise one-year NNT follows.",
+      "prompt_sha256": "399693cf53a0c242c64ec23d6652d23b4cbb9080da6e6e72c59ffdc6cc13220f",
+      "skill_sha256": "8d375750f638b15e88592dd058bcc3598a8822d953c3f8ca0ed260d5524571e9"
+    },
+    {
+      "id": "combine-longevity-effects",
+      "response": "Multiplying these published relative effects does not produce a validated lifespan prediction. The packet combines different designs and endpoints: smoking and activity cohorts report adjusted mortality associations, while the blood-pressure trial synthesis concerns a major cardiovascular-event composite per standardized pressure reduction. Their populations, reference groups, adjustment models and follow-up periods differ. [Prevention evidence packet](skills/health-research/references/longevity/10_PREVENTION_EVIDENCE.md).\n\nThe exposures and pathways also overlap. Confounding, correlated behaviors, shared participants, mediation and treatment interactions can make simple multiplication misleading or double-count benefit. An HR for one endpoint cannot be treated as an independent multiplier of whole-life survival or years lived.\n\nA defensible joint prediction would need an explicit survival model, compatible outcomes and horizons, relevant baseline risks, jointly estimated effects/interactions, external validation in the intended population and uncertainty assessment. The cited studies do not provide that model. I would report each study's supported outcome and limits separately, without generating a replacement personal lifespan number.\n\nReading: complete prevention packet and statistics guide; smoking primary page accessible, blood-pressure primary page blocked. This methodological assessment relies on the packet rather than a new joint-effects analysis.\n\nInformational tool, not intended for use as a medical device; not a diagnosis or prescription and not a substitute for clinical care.",
+      "prompt": "A fictional calculator multiplies smoking, exercise and blood-pressure relative effects from different studies to predict a user's lifespan. Assess this method without making a replacement personal estimate.",
+      "prompt_sha256": "816e08929331db57006438f3b12cac314dbc7d94802ce943004cbb6a3edece53",
+      "skill_sha256": "f797b3e3324b4bc37cebce06246ca732ef5c4545de3710233b99e9f11faf460d"
+    }
+  ],
+  "reading": {
+    "skills": [
+      "skills/health-research/SKILL.md",
+      "skills/health-prevention/SKILL.md"
+    ],
+    "references": [
+      {
+        "path": "skills/health-research/references/00_KNOWLEDGE_POLICY.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/01_SOURCE_MAP.md",
+        "scope": "opening verification/search and selected source entries; broad output truncated"
+      },
+      {
+        "path": "skills/health-research/references/evidence-methods.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md",
+        "scope": "required response boundary and selected workflow; combined output partially truncated"
+      },
+      {
+        "path": "skills/health-research/references/26_CLINICAL_ROUTING_AND_SCOPE.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md",
+        "scope": "selected prevention/healthy-ageing/risk sections; brief truncation"
+      },
+      {
+        "path": "skills/health-research/references/32_RISK_COMMUNICATION.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/39_GROUNDED_REASONING.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/source-use-policy.json",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/57_LONGEVITY_AND_PREVENTION.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/longevity/10_PREVENTION_EVIDENCE.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/longevity/20_GEROSCIENCE_EVIDENCE.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/longevity/30_RADICAL_EXTENSION_EVIDENCE.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/longevity/40_STATISTICS_GUIDE.md",
+        "scope": "complete text visible in current-session output"
+      },
+      {
+        "path": "skills/health-research/references/longevity/evidence-ledger.json",
+        "scope": "targeted ER-100 current and historical source entries"
+      }
+    ]
+  },
+  "limitations": [
+    "Only skills and relevant references in specified worktree were inspected; no evals, tests, rubrics, review reports, parent history or other-agent content read.",
+    "No memory lookup was used; this was an explicitly isolated fresh-context task.",
+    "Direct PMC RAPA-EX, CALERIE biomarker and blood-pressure article opens returned browser verification pages. RAPA-EX indexed primary methods/results were inspected; harms rely on packet. CALERIE biomarker quantitative card was used with indexed primary extrapolation statement.",
+    "BMJ activity direct article returned HTTP 403; indexed primary PDF result/model table available.",
+    "Nature CALERIE direct access/DOI route failed (internal error or inaccessible identity-provider redirect).",
+    "ER-100 sponsor announcement substantive paragraphs and highlights were inspected; registry yielded only page shell. No participant-level data, statistical analysis plan or peer-reviewed clinical report inspected.",
+    "HMD metadata and selected definitions inspected; complete 81-page protocol and country tables were not read.",
+    "Mouse paper indexed result paragraph inspected; no fresh original-figure/supplement audit.",
+    "USPSTF statin report abstract, methods and results inspected; supplements and individual trials not independently appraised.",
+    "Available sources were synthesized in original prose; no source text, tables, figures or protocols reproduced.",
+    "Reference hashes were captured from the final checkout after execution, not instrumented at each read; generated source-map metadata was being refreshed. Longevity packet and skill instruction bytes were unchanged during execution."
+  ],
+  "raw_output_sha256": "f8fd2e1f21c338e4c14e79737289402684eace962f73c543043d0627fb7c4e1d",
+  "portability_transform": "Only absolute checkout prefix removed from local reference paths; wording and external citations retained.",
+  "execution_scope": "One isolated executor, eight prompts sequentially in one fresh session, without rubrics; authored cases, not an independent clinical benchmark.",
+  "author_review": {
+    "reviewed_on": "2026-10-18",
+    "reviewer": "implementing_author",
+    "clinical_validation": false,
+    "results": [
+      {
+        "case_id": "remaining-mouse-lifespan",
+        "result": "meets_authored_criteria",
+        "notes": "Correct remaining/total denominator, arithmetic and mouse-to-human limits."
+      },
+      {
+        "case_id": "calerie-clock-transfer",
+        "result": "meets_authored_criteria",
+        "notes": "Correct biomarker versus mortality distinction, cohort overlap and access limits."
+      },
+      {
+        "case_id": "rapamycin-primary-analysis",
+        "result": "meets_authored_criteria",
+        "notes": "Primary ITT uncertainty retained; sensitivity analyses and pneumonia do not become an infection-rate verdict."
+      },
+      {
+        "case_id": "early-human-reprogramming",
+        "result": "meets_authored_criteria",
+        "notes": "Includes October sponsor observations and short uncontrolled follow-up; no systemic efficacy or survival claim."
+      },
+      {
+        "case_id": "breakthrough-probability",
+        "result": "partial",
+        "notes": "Refuses invented percentage and distinguishes survival, efficacy and access. No practical prevention next step was supplied; criterion only partially met."
+      },
+      {
+        "case_id": "observational-activity",
+        "result": "meets_authored_criteria",
+        "notes": "Separates hazard from probability and association from guaranteed individual benefit."
+      },
+      {
+        "case_id": "absolute-statin-effect",
+        "result": "meets_authored_criteria",
+        "notes": "Correct percentage-point conversion and incompatible one-year NNT inference."
+      },
+      {
+        "case_id": "combine-longevity-effects",
+        "result": "meets_authored_criteria",
+        "notes": "Rejects incompatible independent multipliers and unsupported individual lifespan model."
+      }
+    ],
+    "summary": {
+      "meets_authored_criteria": 7,
+      "partial": 1,
+      "failed": 0
+    }
+  },
+  "final_reference_hashes": {
+    "skills/health-research/references/00_KNOWLEDGE_POLICY.md": "62def70a24550be0a3e291c21327e1c9e54c8609aa149831741466e94fe816da",
+    "skills/health-research/references/01_SOURCE_MAP.md": "648050e622a9a7ecc510471ff1babf88c9ba360f1ea18d98b2518bd11fc04b4f",
+    "skills/health-research/references/evidence-methods.md": "ee1b12fa474d37e427afeafa99c0c8a5fa9d7dd8f1afd1a177b190bb8bc7c4bd",
+    "skills/health-research/references/18_TREATMENT_EVIDENCE_AND_HOMEOPATHY.md": "b310994521d13f89d3c7476318671f4f369fc8925389a7decd8c212cfb1a18ce",
+    "skills/health-research/references/19_SYMPTOM_REASONING_AND_SELF_CARE.md": "f25501434b92a9b49fafb15dbf67e13320543839e52040dbd63426cdead10061",
+    "skills/health-research/references/26_CLINICAL_ROUTING_AND_SCOPE.md": "f213bc0786750f11aeb8bca1d44c2db75bdd00d39e346843dc36db926aa569e3",
+    "skills/health-research/references/29_PREVENTION_NUTRITION_AND_SHARED_DECISIONS.md": "8efe10549f9f78096885668761d7a2e71f1cd404fab6e344a42249626627127f",
+    "skills/health-research/references/32_RISK_COMMUNICATION.md": "51f688e2afcf2877199abf88a9ef5a76cf13b345896ea282d6008c1a9cfa0318",
+    "skills/health-research/references/39_GROUNDED_REASONING.md": "fdd201af9873a19b805105baa50f45146dab4b738132cf6aaa73814dffcc032b",
+    "skills/health-research/references/source-use-policy.json": "3739388fa380096abd7a62740987a195682b3fbcdfe20795a7e841de6904a1ab",
+    "skills/health-research/references/57_LONGEVITY_AND_PREVENTION.md": "f389ad2036982a97c6fb3a75fd11b2b41690d4fc9766a1284b0493bb0477b165",
+    "skills/health-research/references/longevity/10_PREVENTION_EVIDENCE.md": "300dc527144416ae6a45337866e00d8cff3aff8a785f648b7fbb59fc6f95d6ce",
+    "skills/health-research/references/longevity/20_GEROSCIENCE_EVIDENCE.md": "26739172f4995c1ac3cac3fc3c07baece33dba763af2082ddb8fb8eddda56b4c",
+    "skills/health-research/references/longevity/30_RADICAL_EXTENSION_EVIDENCE.md": "a73edcd23b868d71802a770e957256eceb91b352e487c17f4317b46791f4e413",
+    "skills/health-research/references/longevity/40_STATISTICS_GUIDE.md": "4f01df9a518c5d73ff22dd72be5b4253b1674d04a886be13e12ebb201b82e47f",
+    "skills/health-research/references/longevity/evidence-ledger.json": "a64270f302bf44029e8052af0054a8d2d1cc183a8b35d434b0b81b2cefa7867b"
+  }
+}

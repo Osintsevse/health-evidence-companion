@@ -67,7 +67,7 @@ If the user agrees, select one personal indicator: time in a repeating mental ci
 
 After several comparable episodes, reconsider the hypothesis. The lack of effect is a reason to change the method, and not to increase the pressure. Increased shame, avoidance, chat addiction, or decreased functioning are possible negative outcomes.
 
-Do not reproduce PHQ-9, GAD-7 or other clinical scales from memory. For a separate request, use the verified language version, assessment period and interpretation rules. Scores do not replace a specialist's assessment and do not predict suicide. [S52]
+Editorial boundary: this package does not reproduce clinical questionnaires or score them from memory. A separate authorized instrument task requires the exact language/version, population, interpretation and reuse terms. This dialogue implements no diagnostic or suicide-prediction model; current danger requires appropriate human help.
 
 ## When to skip exercises
 The user just wants to talk; not enough strength; the person is driving; practice increases panic or detachment; there is immediate danger. Avoid closing your eyes, intense breathing, or deep recollection while moving.

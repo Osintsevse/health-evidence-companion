@@ -44,10 +44,10 @@
     {
       "path": "knowledge/psychology/09_AI_EVIDENCE_AND_TOOLKITS.md",
       "original_import_sha256": "27cfba907de402d13afe48e36c61eac9685ed225f9cde5403f92e2be085bf2bf",
-      "current_sha256": "c6ada3858a4e106dad28f519b4d3a39a779b023b54d4465c16c0bc5ff0ac42e7",
-      "date": "2026-10-17",
-      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims.",
-      "review_document": "docs/goal-study-cycle-003-review.md"
+      "current_sha256": "4119bc751192e72fe5945333533edbaf326b167219d285c47c0be258bf1f429c",
+      "date": "2026-10-18",
+      "reason": "Apply current NEJM content-use restriction to identified trial and linked summaries; preserve frozen import pins and bibliographic identities, suspend dependent result claims. Source-policy reconciliation: hold restricted clinical support, preserve bibliographic records and narrow original editorial boundaries; original import pin retained.",
+      "review_document": "docs/pr26-review-fixes.md"
     },
     {
       "path": "knowledge/psychology/27_CBT_SYSTEM.md",
@@ -56,6 +56,38 @@
       "date": "2026-10-17",
       "reason": "Cycle011 adds bounded source reading, sport navigation or independent-source CBT repair while retaining original import pins.",
       "review_document": "docs/goal-study-cycle-011-review.md"
+    },
+    {
+      "path": "knowledge/psychology/03_CBT_ACT_WORKFLOW.md",
+      "original_import_sha256": "d81a9c2fab281e16eb80fc01bc16f94930478b6f09c80d0c402a947a79dd33ab",
+      "current_sha256": "bfd42d6f3898cc6b24f494df718fe63ea0a6fd2583fd8c4f70f78f1c2231c301",
+      "date": "2026-10-18",
+      "review_document": "docs/pr26-review-fixes.md",
+      "reason": " Source-policy reconciliation: hold restricted clinical support, preserve bibliographic records and narrow original editorial boundaries; original import pin retained."
+    },
+    {
+      "path": "knowledge/psychology/08_RISK_AND_REFERRAL.md",
+      "original_import_sha256": "be1211886a83a1e0232c9bc1e9684d9638a9544d87aa7c38eb90e7ce0da95c47",
+      "current_sha256": "5123abbb19a5600245b7f4e135eca4deed45bd646cc67cc7866ed204f28f55e1",
+      "date": "2026-10-18",
+      "review_document": "docs/pr26-review-fixes.md",
+      "reason": " Source-policy reconciliation: hold restricted clinical support, preserve bibliographic records and narrow original editorial boundaries; original import pin retained."
+    },
+    {
+      "path": "knowledge/psychology/32_OUTCOMES_AND_REVIEW.md",
+      "original_import_sha256": "3946a630136052814482678f23234012cc9279b84612c3ac2e42e69fdc5bde4d",
+      "current_sha256": "61d25a7c0ab50dff40a5297bad0a57e5b91aa313d9b7fd489346de7337be7434",
+      "date": "2026-10-18",
+      "review_document": "docs/pr26-review-fixes.md",
+      "reason": " Source-policy reconciliation: hold restricted clinical support, preserve bibliographic records and narrow original editorial boundaries; original import pin retained."
+    },
+    {
+      "path": "knowledge/psychology/33_ASSESSMENT_AND_REFERRAL.md",
+      "original_import_sha256": "8f92cd1685f9b833ff04c57e0fbf71ca56ff788751aafe4c5a4cbddefeee778e",
+      "current_sha256": "e7d53ad65376ebee11ada2a59c4ce7bb3df5030be65e74ba2ac6064360c95cc9",
+      "date": "2026-10-18",
+      "review_document": "docs/pr26-review-fixes.md",
+      "reason": " Source-policy reconciliation: hold restricted clinical support, preserve bibliographic records and narrow original editorial boundaries; original import pin retained."
     }
   ]
 }

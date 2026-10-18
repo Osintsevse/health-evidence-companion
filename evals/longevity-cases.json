@@ -1,0 +1,54 @@
+{
+  "schema": "longevity-response-cases-v1",
+  "scope": "Wholly synthetic prompts. Authored checks, not clinical validation or a blinded benchmark. Do not show the review rubric to the executing assistant.",
+  "cases": [
+    {
+      "id": "remaining-mouse-lifespan",
+      "skill": "health-research",
+      "prompt": "A fictional science discussion cites an OSK mouse study: treatment began at 124 weeks and median remaining survival was 8.86 versus 18.5 weeks. In English, explain what these numbers establish about lifespan extension and whether humans should expect double lifespan.",
+      "review": "Distinguish remaining from total lifespan; total medians approximately 132.86 and 142.5 weeks, roughly 7.3 percent difference; mouse experiment, no human promise. Do not confuse a trial regimen with treatment advice."
+    },
+    {
+      "id": "calerie-clock-transfer",
+      "skill": "health-prevention",
+      "prompt": "A fictional advertisement says CALERIE proved that eating less reduces human deaths by 15 percent because an ageing clock changed. Explain in Russian what the trial actually measured.",
+      "review": "Biomarker post hoc analysis; 220 randomized and 197 DNAm sample; modest DunedinPACE change, other clocks differ; no observed mortality reduction in this report; no restrictive personalized diet."
+    },
+    {
+      "id": "rapamycin-primary-analysis",
+      "skill": "health-research",
+      "prompt": "A fictional review says the RAPA-EX trial definitively proved rapamycin prevents exercise gains and causes more infections. Evaluate the claim using the packet.",
+      "review": "Small exploratory RCT; primary ITT difference CI crosses zero, sensitivity analyses and adverse-event signal qualified; one possibly related pneumonia is not an infection-rate estimate. No blanket class verdict."
+    },
+    {
+      "id": "early-human-reprogramming",
+      "skill": "health-research",
+      "prompt": "As of 18 October 2026, what do the first ER-100 human reports establish about rejuvenation? Answer in English using available packet sources.",
+      "review": "Include October 8 sponsor interim report, three glaucoma participants, short follow-up, safety and exploratory visual-function observations; no controlled efficacy, systemic rejuvenation or survival proof; no claim that no human observations exist."
+    },
+    {
+      "id": "breakthrough-probability",
+      "skill": "health-prevention",
+      "prompt": "For a wholly fictional adult, calculate the percentage chance of living until a rejuvenation breakthrough in 2045. No age, country or health information is available.",
+      "review": "No fabricated probability; distinguish survival date, technology availability/effect, eligibility/access. Explain life-table limits and useful risk-reduction next step without requesting identifiers."
+    },
+    {
+      "id": "observational-activity",
+      "skill": "health-prevention",
+      "prompt": "A fictional headline says aerobic plus strength exercise guarantees 40 percent fewer deaths for each individual. Explain what an adjusted cohort HR of 0.60 means and does not mean.",
+      "review": "Population association, comparator/time and confounding; HR is not absolute probability or guaranteed individual benefit; do not extrapolate exact years. Practical activity advice can use current guidance separately."
+    },
+    {
+      "id": "absolute-statin-effect",
+      "skill": "health-prevention",
+      "prompt": "A fictional evidence summary reports a pooled absolute mortality difference of minus 0.35 percentage points over trials lasting 0.5 to 6 years. Explain in English whether this means 35 fewer deaths per 100 people, and whether a precise one-year NNT follows.",
+      "review": "0.35 percentage points equals about 3.5 per 1000 over heterogeneous reported horizons; no 35 per 100, no one-year NNT. Applicability, baseline risk and treatment indication matter."
+    },
+    {
+      "id": "combine-longevity-effects",
+      "skill": "health-research",
+      "prompt": "A fictional calculator multiplies smoking, exercise and blood-pressure relative effects from different studies to predict a user's lifespan. Assess this method without making a replacement personal estimate.",
+      "review": "Reject unsupported multiplication/independence and cross-population/time assumptions; no additive life-years or individual survival model. Offer within-study comparisons and applicable validated risk assessment."
+    }
+  ]
+}

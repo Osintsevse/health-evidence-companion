@@ -1,6 +1,6 @@
 # Symptom reasoning, self-checks and basic self-care
 
-General informational workflow; clinical self-care examples are adult unless explicitly stated otherwise. For children, pregnancy and postpartum use module 28 and current life-stage-specific guidance. This is decision support, not a validated clinical protocol. Apply current condition-specific primary guidance. Existing source routes: primary care S01/S05-S06, respiratory S07-S11 and S08-S09, medicine labels S14-S15/S21; these routes do not substantiate every new symptom or treatment.
+General informational workflow; clinical self-care examples are adult unless stated otherwise. For children, pregnancy and postpartum use module 28 and applicable life-stage guidance. This is decision support, not a validated clinical protocol. Active routes include primary care S01/S05-S06, respiratory S08-S11 and medicine labels S14-S15/S21; these routes do not substantiate every new symptom or treatment. Historical restricted sources are bibliographic only.
 
 ## Required response boundary
 

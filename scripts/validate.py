@@ -272,6 +272,8 @@ def validate(root=ROOT):
     require((root/'skills/psyops-private-records/scripts/psychology_records.py').read_bytes()==(root/'skills/health-record-import/scripts/psychology_records.py').read_bytes(),'Stale psychological summary helper')
     from source_catalog import catalog, validate_import_amendments
     validate_import_amendments(root)
+    from source_policy import validate_active_citations
+    validate_active_citations(root)
     require(json.loads((root/'knowledge/source-catalog.json').read_text(encoding='utf-8'))==catalog(root),'Stale unified source catalog')
     require((root/'skills/health-contribute/scripts/source_review.py').read_bytes()==(root/'scripts/source_review.py').read_bytes(),'Stale bundled source review helper')
     for skill in SEARCH_SKILLS:

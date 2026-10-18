@@ -65,6 +65,17 @@ class EvaluationTests(unittest.TestCase):
         self.assertEqual(case['alternate_queries'], ['faithful English query'])
         self.assertEqual(result['query_mode'], 'native_query_only')
 
+    def test_canonical_evidence_locators_and_hashes(self):
+        root = Path(__file__).resolve().parents[1]
+        data = json.loads((root / 'evals/knowledge-search-cases.json').read_text(encoding='utf-8'))
+        evaluation.validate_cases(data, root)
+
+    def test_moved_heading_rejected_before_query(self):
+        (self.root / 'knowledge/note.md').write_text('# Note\n\nExtra.\n\n## Support\n\nBounded explanation.\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'heading/line changed'):
+            evaluation.evaluate({'cases': [self.case]}, self.root, None,
+                                lambda *a, **k: self.fail('queried before locator verification'))
+
     def test_authored_fixture_counts_and_filter(self):
         path = Path(__file__).resolve().parents[1] / 'evals/knowledge-search-cases.json'
         data = json.loads(path.read_text(encoding='utf-8'))

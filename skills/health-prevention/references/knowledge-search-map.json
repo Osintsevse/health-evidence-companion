@@ -135,6 +135,10 @@
       "local_path": "56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md"
     },
     {
+      "canonical_path": "knowledge/57_LONGEVITY_AND_PREVENTION.md",
+      "local_path": "57_LONGEVITY_AND_PREVENTION.md"
+    },
+    {
       "canonical_path": "knowledge/EVIDENCE_METHODS.md",
       "local_path": "evidence-methods.md"
     },
@@ -201,6 +205,26 @@
     {
       "canonical_path": "knowledge/clinical/SYMPTOMS.md",
       "local_path": "SYMPTOMS.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/00_READING_PLAN.md",
+      "local_path": "longevity/00_READING_PLAN.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/10_PREVENTION_EVIDENCE.md",
+      "local_path": "longevity/10_PREVENTION_EVIDENCE.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/20_GEROSCIENCE_EVIDENCE.md",
+      "local_path": "longevity/20_GEROSCIENCE_EVIDENCE.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/30_RADICAL_EXTENSION_EVIDENCE.md",
+      "local_path": "longevity/30_RADICAL_EXTENSION_EVIDENCE.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/40_STATISTICS_GUIDE.md",
+      "local_path": "longevity/40_STATISTICS_GUIDE.md"
     },
     {
       "canonical_path": "knowledge/psychology/14_FOUNDATIONS.md",

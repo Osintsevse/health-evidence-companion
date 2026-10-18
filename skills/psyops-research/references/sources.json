@@ -1687,9 +1687,9 @@
     "title": "WHO Healthy diet",
     "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
     "region": "Global",
-    "retrieval_status": "Official fact sheet opened and recommendation sections read.",
+    "retrieval_status": "Official fact sheet opened and recommendation sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Adult principles, carbohydrate/fibre, free-sugar and fat sections; not complete appraisal of underpinning literature.",
     "use": "General nutrition; not individualized clinical nutrition.",
-    "checked_on": "2026-10-08"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S189",
@@ -1840,9 +1840,9 @@
     "title": "USPSTF Hypertension in Adults Screening, 2021",
     "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
     "region": "US",
-    "retrieval_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md.",
+    "retrieval_status": "Researcher official recommendation/practice/evidence-gap sections; root population/confirmation/implementation/copyright notice. Cycle011 selected official sections and provider-specific rights rechecked by researcher/root; new scope in docs/goal-study-cycle-011-review.md. | Selected source reconciliation 2026-10-18: Clinician summary, target population, out-of-office confirmation and validated upper-arm measurement. Thresholds/treatment targets not newly appraised. Displayed source version: Final recommendation 2021-04-27. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
     "use": "Adults without known hypertension; routine screening not acute-care guidance.",
-    "checked_on": "2026-10-17"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S206",
@@ -1858,9 +1858,9 @@
     "title": "WHO Alcohol fact sheet",
     "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
     "region": "Global",
-    "retrieval_status": "Official fact sheet opened; risk and harm sections read.",
+    "retrieval_status": "Official fact sheet opened; risk and harm sections read. Additional bounded review 2026-10-18: selected_official_guidance_sections_read; Selected health-risk and burden sections; complete global report and dependence-treatment literature excluded.",
     "use": "Public-health guidance; not individual withdrawal management or national limits.",
-    "checked_on": "2026-10-08"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S208",
@@ -2668,9 +2668,9 @@
     "title": "Asthma",
     "url": "https://www.nhs.uk/conditions/asthma/",
     "region": "UK NHS",
-    "retrieval_status": "relevant_sections_opened_and_read",
+    "retrieval_status": "relevant_sections_opened_and_read | Selected source reconciliation 2026-10-18: Symptoms, clinical assessment/breathing tests, varying symptoms and existing action plan. Rescue puff schedules not adopted. Displayed source version: Reviewed 2025-04-07. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
     "use": "Existing reliever plan, SABA versus AIR/MART distinction, emergency and post-attack review",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S298",
@@ -4216,18 +4216,18 @@
     "title": "NHS: Shortness of breath",
     "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
     "region": "United Kingdom; local access pathways require adaptation",
-    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Source reconciliation 2026-10-18: New breathing difficulty needs appropriate review; severe difficulty/cyanosis/confusion requires emergency help; no cause diagnosis",
     "use": "Decision-entry context and proportionate care navigation for shortness of breath",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S470",
     "title": "NHS: Cough",
     "url": "https://www.nhs.uk/symptoms/cough/",
     "region": "United Kingdom; local access pathways require adaptation",
-    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Selected source reconciliation 2026-10-18: Expected duration, urgent signs and antibiotic prescribing paragraph; herbal/syrup recipes not adopted. Displayed source version: Reviewed 2023-12-08. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
     "use": "Decision-entry context and proportionate care navigation for cough",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S471",
@@ -4369,9 +4369,9 @@
     "title": "NHS: Back pain",
     "url": "https://www.nhs.uk/conditions/back-pain/",
     "region": "United Kingdom; local access pathways require adaptation",
-    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read",
+    "retrieval_status": "Relevant extracted HTML symptom, urgency and self-care sections inspected; no videos viewed or linked full guidelines read | Selected source reconciliation 2026-10-18: Urgent/emergency signs, staying active, worsening with exercise and treatment overview. Displayed source version: Reviewed 2026-03-05. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
     "use": "Decision-entry context and proportionate care navigation for back pain",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S487",
@@ -4927,9 +4927,9 @@
     "title": "High temperature (fever) in children",
     "url": "https://www.nhs.uk/symptoms/fever-in-children/",
     "region": "UK",
-    "retrieval_status": "relevant_sections_opened_and_read",
+    "retrieval_status": "relevant_sections_opened_and_read | Selected source reconciliation 2026-10-18: Under-three-month and three-to-six-month urgent advice, reduced responsiveness, rash and breathing signs; doses excluded. Displayed source version: Reviewed 2024-01-03. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
     "use": "Home care, urgent signs and medicine cautions",
-    "checked_on": "2026-10-09"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S549",
@@ -6088,9 +6088,9 @@
     "title": "Waziry et al.: CALERIE DNA methylation measures of biological ageing",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/",
     "region": "Source-specific educational scope",
-    "retrieval_status": "Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis.",
+    "retrieval_status": "Read abstract, opening participant/analysis cohort account, selected intervention-effect interpretation and limitations/follow-up paragraphs, plus article-specific licence. Not full methods/supplements/data reanalysis. Additional bounded review 2026-10-18: section_read; Main methods/results including achieved restriction and missing samples, effect estimates, discussion and conflicts. Correction metadata checked: affiliation correction. Supplement/code and participant data not fully audited.",
     "use": "Post hoc biomarker analysis of a randomized trial; differing DNAm outcomes and unproven translation to long-term clinical benefit in this report.",
-    "checked_on": "2026-10-17"
+    "checked_on": "2026-10-18"
   },
   {
     "id": "S678",
@@ -6892,5 +6892,356 @@
     "retrieval_status": "Posted2020-06-17; copyright2018. Researcher/root growth-chart/velocity and selected assessment purposes; current PES privacy policy/footer and joint notice read. No linked chart/PDF/staging or treatment material exported.",
     "use": "Growth over time and bone-age purpose. Same committee asS765, not independent replication; no universal no-testing or normal-growth exclusion rule.",
     "checked_on": "2026-10-17"
+  },
+  {
+    "id": "S767",
+    "title": "Thomson et al. Association Between Smoking, Smoking Cessation, and Mortality by Race, Ethnicity, and Sex Among US Adults. JAMA Network Open 2022;5:e2231480",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2797597",
+    "region": "United States",
+    "use": "mortality_association_not_randomized_cessation_effect",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_full_text_sections_read; Methods, mortality results, cessation-age comparisons, limitations, funding/disclosures, licence; supplements excluded."
+  },
+  {
+    "id": "S768",
+    "title": "WHO releases first-ever clinical treatment guideline for tobacco cessation in adults. 2 July 2024",
+    "url": "https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults",
+    "region": "Global",
+    "use": "adult_cessation_recommendations_without_dosing_or_pooled_effect",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "official_guideline_summary_read; WHO announcement and publication overview; full guideline PDF inaccessible, evidence tables and product harms unappraised."
+  },
+  {
+    "id": "S769",
+    "title": "Zhao et al. Recommended physical activity and all cause and cause specific mortality in US adults: prospective cohort study. BMJ 2020;370:m2031",
+    "url": "https://www.bmj.com/content/370/bmj.m2031",
+    "region": "United States",
+    "use": "observational_activity_associations",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_indexed_full_text_passages_read_direct_fetch_intermittently_unavailable; Indexed methods, adjusted results, sensitivity analyses, limitations, support/disclosures and licence; no complete direct full-text appraisal."
+  },
+  {
+    "id": "S770",
+    "title": "WHO Europe. Physical activity. 1 September 2021",
+    "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+    "region": "WHO Europe; global recommendation summary",
+    "use": "activity_recommendations_and_population_boundaries",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_official_guidance_sections_read; Adult, older-adult and special-population recommendation summary; complete underlying evidence tables not appraised."
+  },
+  {
+    "id": "S771",
+    "title": "Blood Pressure Lowering Treatment Trialists' Collaboration. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure. Lancet 2021;397:1625-1636",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8102467/",
+    "region": "International randomized trials",
+    "use": "randomized_clinical_event_evidence_not_universal_bp_target",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded."
+  },
+  {
+    "id": "S772",
+    "title": "Chou et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. USPSTF Evidence Summary, 23 August 2022",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/statin-use-in-adults-preventive-medication",
+    "region": "United States; review of international trials",
+    "use": "primary_prevention_relative_and_absolute_mortality_effects",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_full_text_sections_read; Abstract, selected methods/results/limitations, mortality pool and harms; individual included trials not newly appraised."
+  },
+  {
+    "id": "S773",
+    "title": "USPSTF. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. Final recommendation, 23 August 2022",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication",
+    "region": "United States",
+    "use": "jurisdiction_bounded_risk_discussion",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_official_guidance_sections_read; Recommendation and clinician summaries, population exclusions, benefits/harms context; not a European guideline appraisal."
+  },
+  {
+    "id": "S774",
+    "title": "Ahmad et al. Mediterranean Diet Adherence and Risk of All-Cause Mortality in Women. JAMA Network Open 2024;7:e2414322",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2819335",
+    "region": "United States",
+    "use": "diet_mortality_association_with_adjustment_sensitivity",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_full_text_sections_read; Selected methods/model definitions, mortality results, limitations, disclosures and licence; supplements excluded."
+  },
+  {
+    "id": "S775",
+    "title": "Zhao et al. Association Between Daily Alcohol Intake and Risk of All-Cause Mortality: A Systematic Review and Meta-analyses. JAMA Network Open 2023;6:e236185",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2802963",
+    "region": "International observational cohorts",
+    "use": "alcohol_mortality_associations_and_bias",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "selected_full_text_sections_read; Selected methods/results, fully adjusted estimates, limitations, correction/funding/licence; individual cohorts not independently appraised."
+  },
+  {
+    "id": "S776",
+    "title": "NHLBI. How Sleep Works: How Much Sleep Is Enough? Updated 24 March 2022",
+    "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+    "region": "United States public education",
+    "use": "sleep_duration_guidance_no_causal_mortality_effect",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "adult_education_section_and_reuse_notice_read; Complete short adult-duration and exception section; no underlying intervention trial review."
+  },
+  {
+    "id": "S777",
+    "title": "Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results",
+    "url": "https://www.aging-us.com/article/206235/text",
+    "region": "US; selected trial volunteers aged 50-85",
+    "use": "Human randomized rapamycin surrogate outcomes; primary null result, subgroup and safety limitations",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Publisher abstract, main methods, results including body-composition normalization/tables, adverse-event summary, funding and conflicts. Supplements and participant-level data not fully audited."
+  },
+  {
+    "id": "S778",
+    "title": "Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 Randomised, Double-Blind, Placebo-Controlled Trial",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13082878/",
+    "region": "New Zealand; sedentary adults aged 65-85",
+    "use": "Human functional primary endpoint, ITT versus sensitivity analyses and adverse-event uncertainty",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Main methods, primary/secondary results, adverse-event table and model, funding/conflicts; supplements not fully audited. No participant-data reanalysis."
+  },
+  {
+    "id": "S779",
+    "title": "Effect of Metformin and Lifestyle Interventions on Mortality in the Diabetes Prevention Program and Diabetes Prevention Program Outcomes Study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669534/",
+    "region": "US; adults at high risk of type 2 diabetes",
+    "use": "Long-term randomized-assignment mortality analysis; distinguishes diabetes prevention from demonstrated survival benefit",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Main methods, mortality tables and models, limitations and funding. Original NEJM DPP paper not used; no supplement or medicine-label audit."
+  },
+  {
+    "id": "S780",
+    "title": "TAME: Targeting Aging with Metformin — official AFAR project page",
+    "url": "https://www.afar.org/tame-trial",
+    "region": "US; planned multicentre trial",
+    "use": "Proposal/status only; no efficacy inference or live recruitment assertion",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "contents_checked; Indexed official page text including planned population/duration, fundraising and status sections; direct canonical opening failed. Undated page and potentially lagging indexed copy cannot verify real-time registry status."
+  },
+  {
+    "id": "S781",
+    "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11705617/",
+    "region": "US; Mayo Clinic postmenopausal women",
+    "use": "Human senolytic trial with primary bone-marker result, exploratory subgroups and harms",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Accepted manuscript main methods, primary/secondary results and tables, adverse events, limitations, funding and interests. Supplement/protocol and source participant data not fully audited."
+  },
+  {
+    "id": "S782",
+    "title": "Sustained NAD+ augmentation by high-dose nicotinamide mononucleotide supplementation in older adults: a 24-week randomized, double-blind, placebo-controlled trial",
+    "url": "https://www.nature.com/articles/s41514-026-00482-7",
+    "region": "Japan; healthy adults aged at least 65",
+    "use": "NAD target engagement distinguished from primary hearing/function outcomes and longevity",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Publisher metadata/abstract checked. Selected full methods, main endpoint and adverse-event tables, discussion and disclosures read in author-uploaded accepted article. Supplements not audited; article-in-press copy may contain label errors."
+  },
+  {
+    "id": "S783",
+    "title": "Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725",
+    "region": "Germany; adults with subjective cognitive decline",
+    "use": "Cognitive primary endpoint, formulation specificity, safety and conflicts for spermidine-rich extract",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Main methods, results and missing-data handling, adverse events, disclosures and funding; supplements not fully audited."
+  },
+  {
+    "id": "S784",
+    "title": "Safety of two-year caloric restriction in non-obese healthy individuals",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4991370/",
+    "region": "US; CALERIE healthy nonobese volunteers",
+    "use": "Safety companion to CALERIE biomarker card; same trial, not independent replication",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "section_read; Main methods, safety tables, bone/hematocrit results and withdrawal criteria, funding and conflicts. Related efficacy papers and supplements not fully audited."
+  },
+  {
+    "id": "S785",
+    "title": "Cano Macip et al. — Gene Therapy-Mediated Partial Reprogramming Extends Lifespan and Reverses Age-Related Changes in Aged Mice (2024)",
+    "url": "https://doi.org/10.1089/cell.2023.0072",
+    "region": "Preclinical; United States",
+    "use": "Remaining versus total mouse lifespan; preclinical translation, control and safety limits.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Selected main-paper methods, results, discussion, limitations, funding and disclosures read; indexed same-work Figure 1 labels inspected; no independent image or supplement audit.; PMC10909732 main text and publisher PDF pp24-30 selectively; n=20 per concurrent group appears in indexed same-work Figure 1 labels. Direct screenshot tool returned no viewable image. Later PMC access challenged. No claim of complete paper/supplement study or raw-data reproduction."
+  },
+  {
+    "id": "S786",
+    "title": "Life Biosciences — First-in-human interim ER-100 Phase 1 observations (8 October 2026)",
+    "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/",
+    "region": "United States; investigational clinical development",
+    "use": "Three-participant, day-56 preliminary human observations; supersedes June-only status without establishing efficacy or longevity benefit.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Substantive sponsor announcement read in full, including safety, visual-field observations and trial description; not peer-reviewed clinical evidence.; 2026-10-08 announcement, substantive paragraphs and presentation highlights. No individual-level data, statistical analysis plan, conference slides or peer-reviewed clinical report appraised."
+  },
+  {
+    "id": "S787",
+    "title": "ClinicalTrials.gov — ER-100 in optic neuropathies, NCT07290244",
+    "url": "https://clinicaltrials.gov/study/NCT07290244",
+    "region": "United States; trial registry",
+    "use": "Primary registry navigation pointer only; no unverified enrollment count, recruitment status or completion date.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Registry identity/title identified in official indexed record; dynamic page and API did not yield the complete study record.; Official indexed study title/identifier and page shell. Full protocol, registration history, outcome definitions and results not retrieved. Browser unavailable; API access failed. Sponsor data disclosure is a distinct source."
+  },
+  {
+    "id": "S788",
+    "title": "Ribas et al. — Immune profiling in a living human recipient of a gene-edited pig kidney (2026)",
+    "url": "https://doi.org/10.1038/s41591-025-04053-3",
+    "region": "United States; single-recipient clinical research",
+    "use": "Early organ-replacement translation and immune rejection limitations; no radical lifespan claim.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Abstract, selected results/discussion, transplantation methods, competing interests and licence read; supplements not audited.; Nature Medicine publisher HTML: temporal immune changes; early T-cell-mediated rejection and its management; persistent innate responses; main discussion; kidney xenotransplantation method; no-competing-interests statement and rights section. Published 2026-01-08."
+  },
+  {
+    "id": "S789",
+    "title": "Olshansky et al. — Implausibility of radical life extension in humans in the twenty-first century (2024)",
+    "url": "https://doi.org/10.1038/s43587-024-00702-3",
+    "region": "Ten national or territorial populations; demographic research",
+    "use": "Observed demographic slowdown, authors' definition, uncertainty about undeveloped therapies and limits of individual inference.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Selected original-paper definition, results, discussion/limitations, methods opening, disclosures and licence read via UCLA eScholarship PDF.; Original article pp1635-1639 and selected pp1640/1642 content; no independent calculations or full supplementary review. Repository record https://escholarship.org/uc/item/1191w5w9. Published 2024-10-07."
+  },
+  {
+    "id": "S790",
+    "title": "Wilmoth et al. — Human Mortality Database Methods Protocol, version 6 (5 August 2025)",
+    "url": "https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf",
+    "region": "International; demographic methods",
+    "use": "Separate period and cohort survival interpretation from individual forecasts or breakthrough probability.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Selected period/cohort definitions and life-table introduction read; not the complete 81-page protocol or country datasets.; Version/date; selected section 2.5, printed p9; section 7/7.1 opening, printed p37. Conditional-survival identity is an explanatory mathematical interpretation, not an implemented or validated personal forecast."
+  },
+  {
+    "id": "S791",
+    "title": "Life Biosciences — First participant dosed in ER-100 Phase 1 (9 June 2026)",
+    "url": "https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/",
+    "region": "United States; sponsor announcement",
+    "use": "Provenance of trial initiation; not efficacy or absence-of-results evidence after October disclosure.",
+    "checked_on": "2026-10-18",
+    "retrieval_status": "Substantive announcement read; retained as a historical milestone, superseded by the 2026-10-08 sponsor interim-data announcement for current evidence status.; June announcement paragraphs on first dosing, Phase 1 safety/tolerability and visual endpoints. No trial results in this June source; later observations assessed separately under L-R02."
+  },
+  {
+    "id": "S792",
+    "title": "NHS: Antidepressants",
+    "url": "https://www.nhs.uk/medicines/antidepressants/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Selected side-effects/early review, stopping and withdrawal sections; individual product schedules excluded. Displayed source version: Reviewed 2025-06-12. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Early review and supervised withdrawal context, not a taper or first-line depression guideline",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S793",
+    "title": "NHS: Sudden confusion (delirium)",
+    "url": "https://www.nhs.uk/symptoms/confusion/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Signs, immediate-action and waiting-for-help sections. Displayed source version: Reviewed 2024-05-28. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Sudden confusion requires immediate medical assessment",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S794",
+    "title": "NHS: Ectopic pregnancy symptoms",
+    "url": "https://www.nhs.uk/conditions/ectopic-pregnancy/symptoms/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Symptoms, pregnancy possibility and rupture/emergency sections. Displayed source version: Reviewed 2022-08-23; displayed next review 2025-08-23 is overdue. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Assessment and danger recognition only; no hCG, viability or treatment threshold",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S795",
+    "title": "NHS: Physiotherapy",
+    "url": "https://www.nhs.uk/tests-and-treatments/physiotherapy/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: What physiotherapy is for and what happens during assessment/treatment; modality-list claims not adopted. Displayed source version: Reviewed 2025-04-03. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Assessment, agreed treatment and post-surgical function; not condition-specific efficacy",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S796",
+    "title": "NHS: Falls",
+    "url": "https://www.nhs.uk/conditions/falls/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Help from a GP/falls service and selected prevention/urgent sections; get-up manoeuvre not adopted. Displayed source version: Reviewed 2025-03-06. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Falls review, medicines/vision/home environment and tailored support",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S797",
+    "title": "NHS: Heart failure",
+    "url": "https://www.nhs.uk/conditions/heart-failure/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Symptoms, urgent/emergency changes, individual care and self-care; detailed drug choices not adopted. Displayed source version: Reviewed 2026-06-26. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Deterioration and care-team review; no sodium/fluid or potassium-salt-substitute rule",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S798",
+    "title": "NHS: Eating disorders overview",
+    "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Restriction/ARFID, warning signs, getting help and specialist care; no diagnostic instrument. Displayed source version: Reviewed 2024-01-23. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Recognise concern and route to assessment without calorie-deficit coaching",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S799",
+    "title": "NHS: Have a healthy diet in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Opening dietary variety, nutritional balance and supplement/food-safety routing paragraphs only. Displayed source version: Current page accessed; displayed review date not established in selected scope. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Varied pregnancy nutrition and maternity-team questions; no weight-loss or lactation regimen",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S800",
+    "title": "NHS: Malnutrition symptoms",
+    "url": "https://www.nhs.uk/conditions/malnutrition/symptoms/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Unintentional weight loss, possible malnutrition at higher weight, low intake/weakness and review. Numerical cutoffs not adopted. Displayed source version: Reviewed 2023-05-23; displayed next review 2026-05-23 is overdue. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Undernutrition recognition; no refeeding-day threshold or feeding prescription",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S801",
+    "title": "NHS: Urinary incontinence non-surgical treatment",
+    "url": "https://www.nhs.uk/conditions/urinary-incontinence/treatment/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Type-dependent care, specialist pelvic-floor assessment and bladder-training sections; schedules, devices and drug regimens excluded. Displayed source version: Selected current page; displayed review date not established. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Discuss assessed conservative options, without universal exercises or durations",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S802",
+    "title": "NHS: Vaginal dryness",
+    "url": "https://www.nhs.uk/symptoms/vaginal-dryness/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Symptoms, causes and non-prescription moisturiser/lubricant care with clinical review; medicine-specific advice not adopted. Displayed source version: Selected current page; displayed review date not established. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Symptom discussion and assessment, no laser recommendation or hormone selection",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S803",
+    "title": "NHS: Recovering from a stroke",
+    "url": "https://www.nhs.uk/conditions/stroke/recovery/",
+    "region": "United Kingdom; local pathways require adaptation",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: Home recovery plan, team-set goals, movement/cognition/speech/swallowing support; review interval not adopted. Displayed source version: Reviewed 2024-09-12. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Team-directed rehabilitation; not a chat exercise or swallowing protocol",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S804",
+    "title": "NIMH: Depression",
+    "url": "https://www.nimh.nih.gov/health/topics/depression",
+    "region": "United States; educational scope",
+    "retrieval_status": "Selected source reconciliation 2026-10-18: What is depression, multifactorial influences, daily functioning and broad treatment/research description. Displayed source version: Reviewed December 2024. Linked guidelines, videos, questionnaires, complete underlying studies and product-specific regimens not appraised.",
+    "use": "Mechanism versus cause and clinical discussion; no severity-specific first-line hierarchy",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "id": "S805",
+    "title": "NHS: Pre-eclampsia",
+    "url": "https://www.nhs.uk/conditions/pre-eclampsia/",
+    "region": "United Kingdom; adapt local services",
+    "retrieval_status": "Selected sections read 2026-10-18: Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses Displayed Reviewed 2026-03-23. No dose, full linked guideline or video appraisal.",
+    "use": "Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses",
+    "checked_on": "2026-10-18"
   }
 ]

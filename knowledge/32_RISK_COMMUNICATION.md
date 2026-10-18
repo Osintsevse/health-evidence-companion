@@ -12,7 +12,7 @@ The inspected EMA frequency convention uses: very common at least 10%; common at
 
 Use the same denominator and time horizon for treatment and comparator. For a wholly synthetic example, 20 versus 10 events per 1,000 over a year gives 10 additional events per 1,000 (one percentage point) and twice the relative risk. An applicable causal comparison would imply an NNH of 100 over that year. Without a comparator, baseline and timeframe, a label percentage cannot supply that attributable increase. This arithmetic is not a real medicine estimate.
 
-Explain confidence intervals and population differences without presenting ranges as individual guarantees. Distinguish odds ratios, risk ratios and hazard ratios. Do not convert them interchangeably or imply that a risk reduction is a percentage of extra lifetime. NICE supports consistent denominators, absolute risk and natural-frequency communication. [S194]
+Explain confidence intervals and population differences without treating ranges as individual guarantees. Keep odds ratios, risk ratios and hazard ratios distinct; none means a percentage of extra lifetime. Editorial communication rule: use compatible absolute risks, denominators and time periods when the actual evidence provides them, and state when it does not.
 
 ## Connect the risk to an action
 

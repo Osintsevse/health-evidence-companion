@@ -16,7 +16,7 @@ Agree on one functional goal and a short baseline observation. Ask what would be
 Distinguish between discomfort of voluntary practice and impairment of functioning/safety. Clarify the person’s own experience. Do not cancel his refusal by citing “resistance.”
 
 ## Clinical instruments
-When requesting a scale, check the original form, age, language, version, period and terms of use; Do not reproduce items and scoring thresholds from memory. PHQ-9/GAD-7 are screening and outcome-monitoring tools, not a stand-alone diagnosis. A positive response to self-harm requires human clarification of the current situation; the overall score does not replace it. Do not use scales or low/medium/high ratings to predict suicide. [S52]
+Editorial boundary: obtain the exact authorized instrument, language, version, population and assessment period before a separate measurement task. This package supplies no questionnaire-based diagnosis or safety clearance. A disclosure of current self-harm concern requires direct clarification and appropriate human help, independently of a total score.
 
 When comparing repeated results, consider time, changes in conditions, omissions, regression to the mean, concurrent care, and expectations. Do not calculate reliable change without the necessary normative data and a valid version of the tool.
 

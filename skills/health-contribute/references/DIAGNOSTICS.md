@@ -67,7 +67,7 @@ A CBC describes cells and red-cell indices; it cannot establish the cause of ane
 | Fibrinogen | Citrated plasma; g/L or mg/dL | Clot substrate; bleeding/inflammatory context | Consumption and inflammation can pull in different directions |
 | D-dimer | Citrated plasma; assay-specific FEU/DDU units | Selected thrombosis exclusion pathways | Positive result is nonspecific; negative requires eligible pathway |
 
-Coagulation tests have indication and drug-specific roles. Bleeding plus anticoagulant use needs direct clinician assessment, not an INR-based chat adjustment. For selected PE test interpretation and its evidence limits, read DX-E1 in packet 53, Treatment outcomes and diagnostic reasoning. S443 remains a bibliographic locator, not active clinical-text support.
+Coagulation tests have indication and drug-specific roles. Bleeding with anticoagulant use needs clinician assessment, not a chat adjustment. For selected PE interpretation and its limits read DX-E1 in packet 53. S443 is a bibliographic pointer only; it supplies no active claim support here.
 
 ### Chemistry, kidneys and liver
 Kidney assessment combines filtration estimates with urinary damage markers; albuminuria can matter despite a preserved eGFR. S437 Modern race-free equations avoid a race coefficient. Record the equation when the laboratory changes its reporting. Creatinine depends on muscle and some drugs; cystatin C has its own nonfiltration influences. A combined estimate may improve precision where clinically indicated. An acute creatinine change does not establish chronic kidney disease; chronicity and repeat/contextual assessment matter. S438
@@ -227,7 +227,7 @@ Distinguish accepted clinical testing from commercial or investigational claims.
 - S440: [Thyroid Tests](https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid). read relevant rendered page sections
 - S441: [High-Sensitivity Cardiac Troponin and the 2021 Guidelines for Acute Chest Pain](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/07/14/18/12/high-sensitivity-ctn-and-2021-chest-pain). read ACC professional summary; underlying Circulation primer not read
 - S442: [UK Kidney Association Hyperkalaemia Guideline](https://guidelines.ukkidney.org/hyperkalaemia/). read relevant rendered page sections
-- S443: [NICE NG158 Recommendations](https://www.nice.org.uk/guidance/ng158/chapter/Recommendations). read relevant rendered page sections
+- S443: [NICE NG158 Recommendations](https://www.nice.org.uk/guidance/ng158/chapter/Recommendations). read relevant rendered page sections Bibliographic pointer only under current source-use policy; historical access is not active claim support.
 - S444: [IBIS Breast Cancer Risk Evaluation Tool](https://ems-trials.org/riskevaluator/). read relevant rendered page sections
 - S445: [QRISK3 official demonstrator](https://www.qrisk.org/). read relevant rendered page sections
 - S446: [ASCVD Risk Estimator Plus](https://tools.acc.org/ASCVD-Risk-Estimator-Plus/). read relevant rendered page sections

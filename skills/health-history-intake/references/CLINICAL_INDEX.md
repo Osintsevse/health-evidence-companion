@@ -23,17 +23,17 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | Module | Question families | Evidence records / routes / synthetic cases |
 |---|---|
 | [Lay emergencies and first aid](EMERGENCY.md) | stroke/TIA, chest symptoms, CPR/AED, choking, bleeding, anaphylaxis, poisoning, heat/cold | 32 / 15 / 19 |
-| [Medicine and therapy class navigation](MEDICINES.md) | classes/mechanisms, exact products, prescription review, errors, monitoring, new therapies | 38 / 10 / 12 |
+| [Medicine and therapy class navigation](MEDICINES.md) | classes/mechanisms, exact products, prescription review, errors, monitoring, new therapies | 41 / 10 / 12 |
 | [Nutrition and food-diary review](NUTRITION.md) | calories/macros, food labels, LDL/triglycerides, diabetes/renal diets, restricted intake | 19 / 11 / 12 |
 | [Anatomy, physiology and disease families](ANATOMY.md) | organ networks, disease mechanisms, sex/life stages, ancestry, measurement bias | 20 / 7 / 12 |
-| [Chronic conditions and multimorbidity](CHRONIC.md) | blood pressure, diabetes/insulin plans, asthma/COPD, CKD, vascular disease, care plans | 25 / 11 / 14 |
-| [Neuropsychiatry and dementia](NEURO.md) | brain physiology, psychiatry, withdrawal, delirium, Alzheimer, antiamyloid/biomarkers | 25 / 8 / 14 |
+| [Chronic conditions and multimorbidity](CHRONIC.md) | blood pressure, diabetes/insulin plans, asthma/COPD, CKD, vascular disease, care plans | 35 / 11 / 14 |
+| [Neuropsychiatry and dementia](NEURO.md) | brain physiology, psychiatry, withdrawal, delirium, Alzheimer, antiamyloid/biomarkers | 26 / 8 / 14 |
 | [Symptom and specialty entry cards](SYMPTOMS.md) | head/chest/abdominal pain, dizziness, GI/urinary, eyes/ENT, skin, trauma/surgery | 34 / 28 / 17 |
-| [Tests, reports, history and risk tools](DIAGNOSTICS.md) | blood/urine/stool/semen, pathology, units/assays, critical results, risk scores, anamnesis | 27 / 14 / 16 |
+| [Tests, reports, history and risk tools](DIAGNOSTICS.md) | blood/urine/stool/semen, pathology, units/assays, critical results, risk scores, anamnesis | 28 / 14 / 16 |
 | [Local care and travel assistance](NAVIGATION.md) | current location, service capability, official directories, local language, insurance | 17 / 8 / 12 |
-| [Ageing, function and rehabilitation](AGEING_REHAB.md) | frailty/falls, polypharmacy, urology, hair/nails, massage/devices, rehabilitation | 23 / 10 / 13 |
-| [Endometriosis, fertility and emerging evidence](ENDOMETRIOSIS.md) | pelvic pain, clinical diagnosis, imaging limits, hormonal/surgical choices, fertility, biomarkers | 27 / 9 / 12 |
-| [Learning resources and evidence architecture](ARCHITECTURE.md) | legal textbooks, curricula/CPD, repositories, AI research, decision cards, evaluation design | 26 / 10 / 12 |
+| [Ageing, function and rehabilitation](AGEING_REHAB.md) | frailty/falls, polypharmacy, urology, hair/nails, massage/devices, rehabilitation | 21 / 10 / 13 |
+| [Endometriosis, fertility and emerging evidence](ENDOMETRIOSIS.md) | pelvic pain, clinical diagnosis, imaging limits, hormonal/surgical choices, fertility, biomarkers | 28 / 9 / 12 |
+| [Learning resources and evidence architecture](ARCHITECTURE.md) | legal textbooks, curricula/CPD, repositories, AI research, decision cards, evaluation design | 25 / 10 / 12 |
 | [Under-five illness, urgent care and procedures](PEDIATRICS.md) | birth/newborn, young-infant fever, jaundice, reflux, croup/wheeze, seizures, dehydration/ORS, ear/urine/limb pain, medicine errors, batteries/magnets, pediatric tests and intervals | 37 / 18 / 18 |
 | [Well-child care, development and prevention under five](PEDIATRIC_CARE.md) | newborn contacts/screens/results, 2/4/6/9/12/15/18/24/30/36/48 month development, feeding/formula/solids, growth charts, safe sleep/activity/screens, teeth/hearing/vision, toileting, vaccines/catch-up navigation, local plans | 38 / 19 / 19 |
 | [Fontanelles, sutures, skull shape and head growth](FONTANELS.md) | anterior/posterior fontanel, closure variation, sutures/craniosynostosis, head circumference, bulging/sunken/pulsation, positional flattening/torticollis, vitamin D, brain/suture ultrasound, CT/MRI/referral/surgery | 25 / 11 / 12 |
@@ -59,6 +59,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - 87-row foundational classification/navigation atlas; every exact product/indication still requires current label/guideline retrieval.
 - Selected label examples and guideline excerpts do not establish an exhaustive formulary or a cleared personal regimen.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Nutrition and food-diary review
 
@@ -66,6 +67,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Diary estimates require actual portions/preparation/label definitions; missing intake is not zero.
 - Therapeutic, paediatric, pregnancy, renal and eating-disorder plans require matching professional guidance.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Anatomy, physiology and disease families
 
@@ -80,6 +82,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Monitoring and care-plan navigation, not chat initiation/titration of prescription or insulin regimens.
 - Pressure targets/urgency differ by population, measurement setting and jurisdiction.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Neuropsychiatry and dementia
 
@@ -87,6 +90,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - No psychiatric or dementia diagnosis from a questionnaire, medicine response or genotype.
 - Novel therapy and biomarker status must be refreshed for exact market/product/lot; trial benefit is not a cure.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Symptom and specialty entry cards
 
@@ -101,6 +105,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Marker and name discovery does not authorize broad panels, automatic result merging or universal critical cutoffs.
 - Risk tools require their verified version, eligible population, original implementation and rights; no recreated clinical calculators.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Local care and travel assistance
 
@@ -115,6 +120,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Function and rehabilitation information does not confer procedure clearance or manual/device training.
 - Massage/device claims remain indication-specific; serious new symptoms take priority.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Endometriosis, fertility and emerging evidence
 
@@ -129,6 +135,7 @@ Original targeted synthesis; actual section/abstract/indexed access, versions an
 
 - Indexed curricula/chapters are not completed medical training or a freely redistributable corpus.
 - Repository/community/AI demonstrations are discovery leads, not validated clinical evidence or code to execute automatically.
+- 2026-10-18 source reconciliation: policy-held references are bibliographic metadata only; source roles and narrowed active content require individual appraisal, not source-count inference.
 
 ### Under-five illness, urgent care and procedures
 

@@ -10,7 +10,7 @@ Answer with urgency first, a brief explanation, one concrete next step, relevant
 
 Trigger for questions about anyone under 18. Establish exact age, caregiver relationship, main symptom, duration, hydration and responsiveness. Use pediatric guidance rather than scaling adult treatment; medication discussion requires age-appropriate formulation and professional/local-label checks.
 
-An infant under 3 months with measured temperature at least 38°C needs prompt clinical assessment because this is a high-risk finding. In ages 3–6 months, at least 39°C is an intermediate-risk finding; lower temperatures do not exclude serious illness. Fever with a non-blanching rash, impaired responsiveness, seizures or breathing difficulty requires urgent escalation. Do not manufacture a complete remote traffic-light assessment from missing observations or issue blanket laboratory panels. [S164]
+The NHS urgent-advice route includes temperature at least 38 C below three months and at least 39 C at three to six months. Lower temperature does not clear an unwell child. Impaired responsiveness, a non-blanching rash, first seizure or breathing difficulty requires urgent/emergency assessment. Use chronological age and local services; no NICE traffic-light classification or remote investigation panel is adopted. [S548, S565]
 
 For development, distinguish observation from screening and diagnosis. Age-specific milestone lists can help caregivers describe concerns; they do not replace validated screening. Missing milestones, loss of previously acquired skills or persistent caregiver concerns should prompt pediatric discussion and appropriate assessment rather than reassurance to simply wait. Local early-intervention pathways differ. [S182]
 
@@ -24,7 +24,7 @@ Routine navigation: encourage contact with local maternity services when pregnan
 
 During pregnancy and within a year after delivery, severe persistent headache, visual changes, chest pain, difficulty breathing, fainting, severe abdominal pain, heavy bleeding or thoughts of harming oneself/the baby require immediate medical attention. Reduced fetal movement needs prompt maternity assessment; do not invent a universal normal movement count. [S165]
 
-Early-pregnancy pain or bleeding warrants assessment through an appropriate pregnancy service; urgency depends on clinical condition. Pregnancy location and viability cannot be established from a chat description, home-test photograph or isolated hCG result. Ultrasound and sequential assessment can be needed; guideline treatment thresholds are not self-management instructions. [S166]
+Possible pregnancy with abdominal pain or vaginal bleeding warrants clinical advice. Sudden severe pain with faintness or collapse requires emergency help. A chat or home-test photograph cannot establish pregnancy location; this symptom source supplies no viability, hCG or treatment threshold. [S794]
 
 Postpartum care should include the parent's physical recovery and mental wellbeing as well as the baby's care. Prepare questions about pain, healing, bleeding, bladder/bowel symptoms, feeding support and contraception. The NHS describes a parent check at 6–8 weeks, but this is a jurisdiction-specific example, not permission to defer new symptoms until then. [S184]
 
@@ -72,15 +72,15 @@ Rapid airway symptoms, throat/tongue swelling, breathing difficulty or faintness
 
 Do not promote food IgG panels as diagnostic tests for food allergy or intolerance. Avoid broad restrictions based on these results; ask about reproducible exposure, timing and symptoms and route targeted evaluation. Sensitization testing and clinical allergy are not interchangeable. [S95, S22]
 
-Recurrent wheeze, cough or breathlessness needs a structured history and, when feasible, appropriate objective testing before confirming asthma. Acutely unwell people need assessment/treatment without waiting for diagnostic tests. Normal examination or tests affected by existing inhaled corticosteroids do not settle every case. Age-specific pathways differ, especially below age 5. NG245 is a chronic diagnosis/management guideline, not a complete acute-attack protocol. [S178]
+Variable wheeze, cough or breathlessness may need clinical assessment and breathing tests. These symptoms have several causes; a chat cannot confirm asthma. An acute attack follows the emergency pathway and the actual prescribed action plan. This NHS overview does not replace age-specific diagnostic criteria. [S297]
 
 ## Injury rehabilitation and evidence-based physiotherapy
 
 Establish injury diagnosis, surgery, healing stage and clinician-imposed weight-bearing or movement restrictions before discussing rehabilitation. Explain goals, adherence, pacing and progress measurement; do not invent return-to-sport dates or override restrictions. New major functional loss, severe worsening or concerning neurological symptoms requires assessment before progression.
 
-Traumatic injury rehabilitation favors an individualized plan with functional goals and appropriately timed exercise. Dose, intensity and progression depend on the person and injury; early exercise recommendations are not permission to load an uncleared fracture or repair. Evidence supports broad components but does not establish one optimal exercise program for every injury. [S179]
+Physiotherapy may support function after injury or surgery following assessment and an agreed plan. Generic exercise advice does not clear a fracture or repair for loading. Ask the treating team to resolve written restrictions and progression questions; this overview does not establish one optimal injury-specific programme. [S795]
 
-For adult low back pain/sciatica, support appropriate activity and exercise within the clinical plan. NICE advises against routine imaging in non-specialist care and limits specialist imaging to situations where results are likely to change management. Its recommendations do not support therapeutic ultrasound, traction or TENS for this indication; manual therapy is considered within a package including exercise. These indication-specific conclusions are not a blanket verdict on every physical modality or disease. [S180]
+For ordinary adult back pain, NHS education supports staying active, with reassessment if symptoms worsen or persist. New bilateral leg symptoms, saddle sensory change or bladder/bowel dysfunction require urgent/emergency evaluation. Imaging and modality-specific decisions need separate applicable evidence; no recommendation for or against TENS, ultrasound or traction is retained from the restricted source. [S486]
 
 ## Evidence limits and review
 
