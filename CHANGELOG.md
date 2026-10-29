@@ -2,7 +2,7 @@
 
 ## 0.9.3 - 2026-10-29
 
-- Add eight optional task-support cards from selected 2017 and 2021 Dorofeev sections, with exact editions, reading scope and original examples.
+- Add eight optional task-support cards from the 2017 and 2021 Dorofeev books, with exact editions, attributed complete collaborative reading, remaining access limits and original examples.
 - Connect psychology routing, references and bilingual search; distinguish author practices and metaphors from narrow independent research.
 - Preserve capacity, consent and useful outcome review; no therapy efficacy, compulsory tracking or installed update is claimed.
 
