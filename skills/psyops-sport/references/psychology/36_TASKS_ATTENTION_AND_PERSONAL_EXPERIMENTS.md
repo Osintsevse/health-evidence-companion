@@ -6,7 +6,7 @@ Reviewed 2026-10-29. Optional support for adults dealing with everyday task over
 
 The inspected **Jedi Techniques** edition is the Russian 2017 book, ISBN 978-5-00100-685-5 [S113]. Its useful starting point is an external system that separates collecting, deciding and doing. **The Jedi's Path**, inspected in its corrected and expanded third Russian edition, 2021, ISBN 978-5-00169-383-3 [S114], adds a stronger emphasis on personal experiments, optional observation tools and adapting commitments to capacity. Both discuss reviewing tasks; the later book develops rather than invalidates that earlier foundation. This comparison concerns the selected sections below, not every difference between editions or a claim that 2021 is the latest edition.
 
-Actual reading: 2017 sections 2.2, 3.2–3.4.2, 3.6–3.6.3, 3.7.3, 4.1.4 and 7.17; 2021 sections 5.3, 5.5–5.6, the opening model of chapter 6, 6.1.6, 6.2.9–6.2.11, 6.4.4 and 6.4.13. Title, copyright and edition pages were checked. Other sampled passages and contents inspection do not count as completed sections. These are **selected-section readings**, not completed books. EPUB section numbers are the locators; fixed print/PDF page equivalence was not established. No figures, questionnaires, tables, book examples or extended passages are reproduced.
+Actual reading: 2017 sections 2.2, 3.2–3.4.2, 3.6–3.6.3, 3.7.3, 4.1.4 and 7.17; 2021 sections 5.3, 5.5–5.6, 5.8, the opening model of chapter 6, 6.1.6, 6.2.6, 6.2.9–6.2.11, 6.2.17, 6.4.4 and 6.4.13. Title, copyright and edition pages were checked. Other sampled passages and contents inspection do not count as completed sections. These are **selected-section readings**, not completed books. EPUB section numbers are the locators; fixed print/PDF page equivalence was not established. No figures, questionnaires, tables, book examples or extended passages are reproduced.
 
 ## Choose the point of difficulty
 
@@ -30,7 +30,7 @@ Identify an action within the person's control, the object of that action and an
 
 **Wholly synthetic example:** “Organize the community workshop” might become “Draft two possible dates and ask the venue coordinator which is available.” This is a new fictional illustration, not a book example.
 
-**Review:** did the action become startable? If it remains blocked, examine the dependency, capacity or reluctance instead of endlessly changing the verb. Clear wording does not guarantee action or remove legitimate distress.
+**Review:** did the action become startable? If it remains blocked, examine the dependency, capacity or reluctance instead of endlessly changing the verb. Clear wording does not guarantee action or remove legitimate distress. The later book itself treats wording as both a practice and a possible indicator of understanding, available resources and the wider work context, including fatigue or anticipated unpleasant consequences. This is the author's explanatory proposal, not an established causal test: better wording alone need not resolve those conditions. (section 6.2.6) [S114]
 
 ## TASK-3: Today's task list, realistic commitments and guilt
 
@@ -44,7 +44,7 @@ Distinguish actual deadlines and consequences from desirable options. Choose a f
 
 **Use when:** the list is stale, repeatedly postponed or growing without useful selection.
 
-At a manageable review opportunity, reconsider a few relevant items: are they still needed, is the next action clear, and is there a real opportunity to do it? Keep, clarify, schedule, renegotiate, defer with a reason or consciously drop an item. Distinguish waiting on someone else from being able to act now. A shorter review can be sufficient; do not make a missed review create a catch-up debt. This adapts 2017 sections 3.6 and 7.17, and 2021 section 6.2.9 [S113, S114].
+At a manageable review opportunity, reconsider a few relevant items: are they still needed, is the next action clear, and is there a real opportunity to do it? Keep, clarify, schedule, renegotiate, defer with a reason or consciously drop an item. Distinguish waiting on someone else from being able to act now. A shorter review can be sufficient; do not make a missed review create a catch-up debt. On returning after a gap, improving a small part of the list can be enough; complete cleanup is not a prerequisite for using it again. This adapts 2017 sections 3.6 and 7.17, and 2021 sections 6.2.9 and 6.2.17 [S113, S114]. The later book's illustrative review durations are not adopted as proven optimal schedules.
 
 **Review:** does the list support choices with less administrative burden? Renegotiate commitments that affect others. This is not permission to delete another person's records or disregard a consequential deadline.
 
@@ -78,7 +78,7 @@ Consider a reversible change to one distracting cue or a short, comfortable work
 
 Choose a low-risk change and a relevant observation: for example, whether an agreed next step was easier to start. Decide when to reconsider it and what would make it too burdensome. If wanted, use one brief note or a simple optional check rather than several parallel trackers. Record “not tried” or missing observations as such; neither means failure or zero benefit. Keep, modify or stop based on usefulness and cost. This adapts 2021 sections 5.3 and 5.5–5.6 [S114].
 
-The project's suggestion to change **one thing at first** is an original simplification, not a quotation or exact reproduction of Dorofeev's multi-component approach. A few days of observation can guide a preference; they do not establish causation, durable habit formation or a guaranteed time to benefit. Workload changes, expectations, practice, selection and ordinary variation remain alternatives. Agree on review timing appropriate to the change, and stop sooner if it worsens functioning or distress. Do not pressure a person to test an unwanted or unsafe action to prove their objection.
+The project's suggestion to change **one thing at first** is an original simplification, not a quotation or exact reproduction of Dorofeev's multi-component approach: section 5.8 describes trying a small group of three to five components [S114]. Neither number is treated here as an empirically optimal prescription. A few days of observation can guide a preference; they do not establish causation, durable habit formation or a guaranteed time to benefit. Workload changes, expectations, practice, selection and ordinary variation remain alternatives. Agree on review timing appropriate to the change, and stop sooner if it worsens functioning or distress. Do not pressure a person to test an unwanted or unsafe action to prove their objection.
 
 ## What independent evidence can support: reminders, planning and thought fuel
 

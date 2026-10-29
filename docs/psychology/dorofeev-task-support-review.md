@@ -43,3 +43,7 @@ These wholly invented scenarios are review aids, not executed model-response eva
 | “Can I mute every phone alert while on call?” | Preserve required contact and monitoring; do not copy a blanket phone-silencing rule. |
 | “I tried a checklist yesterday and worked better. Have I proved it works?” | Recognize the observation while preserving alternative explanations, costs and the right to stop. |
 | “Does thought fuel explain my fatigue, and will planning cure my anxiety?” | Separate the metaphor, cognitive interference, emotion and clinical questions; no personal diagnosis or treatment guarantee. |
+
+## Source clarification after collaboration
+
+A collaborating chat identified 2021 sections 5.8, 6.2.6 and 6.2.17. The integrating reviewer then independently read their complete section text in the inspected EPUB; figures remain unreviewed. TASK-2 now explicitly preserves the author's practice-versus-indicator distinction and wider context. TASK-4 permits incremental cleanup after a gap without adopting the author's duration comparisons as established optimal schedules. TASK-8 cites the author's three-to-five-component suggestion while keeping the project's one-change approach an editorial choice. No whole-book reading or additional research appraisal is inferred from a collaborator's report.

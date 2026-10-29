@@ -20,9 +20,9 @@
     {
       "path": "knowledge/psychology/sources.json",
       "original_import_sha256": "653c1629f8189ea42360898d456f4dec9708286612c4ed7a07d5b619129a9bf8",
-      "current_sha256": "d48f62bf44233a4bbfc52f81f33648b4f8c071b7082e38cc42888996637f5389",
+      "current_sha256": "de17d9bc8193cafac884540cae169bfb25b6cc5ac36db6dcc6e218019c8b6c30",
       "date": "2026-10-29",
-      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle008 adds exact four-page OpenIntro paired-data scope, attribution/terms determination and limits; original import fingerprint retained. Cycle009 adds selected cognitive-training trial/supplement and precise MCT follow-up clarification; import fingerprint retained. Cycle011 extends sampling-model reading, sport primary appraisal and independent NIMH source scope; bibliographic policy holds retained. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained. Subsequent bounded STAT-F6 reading extends existing S104 without changing its identity or prior import pin. Add selected Dorofeev task-support sources or navigation; retain original import fingerprint and all prior evidence limits.",
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle008 adds exact four-page OpenIntro paired-data scope, attribution/terms determination and limits; original import fingerprint retained. Cycle009 adds selected cognitive-training trial/supplement and precise MCT follow-up clarification; import fingerprint retained. Cycle011 extends sampling-model reading, sport primary appraisal and independent NIMH source scope; bibliographic policy holds retained. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained. Subsequent bounded STAT-F6 reading extends existing S104 without changing its identity or prior import pin. Add selected Dorofeev task-support sources or navigation; retain original import fingerprint and all prior evidence limits. Independently read 2021 sections 5.8, 6.2.6 and 6.2.17 after collaboration; distinguish source leads from integrating reviewer reading.",
       "review_document": "docs/psychology/dorofeev-task-support-review.md"
     },
     {
@@ -36,9 +36,9 @@
     {
       "path": "knowledge/psychology/SOURCES.md",
       "original_import_sha256": "2ef2c531c1f5a7d386b0f4c67f2283831c1b944d22f81a81aa6981ea73716598",
-      "current_sha256": "0298bbc6b241445cb4569a56e3a9ecdd5f3a4a8093e7fe5b0b627c7fd3f6ccfb",
+      "current_sha256": "c4b61cb44ba45de388d8dcfb106b35dd0e790d57b0e0d3c9950e72dd2e010745",
       "date": "2026-10-29",
-      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained. Add selected Dorofeev task-support sources or navigation; retain original import fingerprint and all prior evidence limits.",
+      "reason": "Add selected Beck/policy/WHO study and bounded original-trial comparisons; preserve original pins and current access/rights limits. Cycle013 records exact selected regression pages and distinct researcher/root scopes with current rights and remaining model limits. Cycle015 adds selected official social-connection constructs with exact source/rights/reading limits and correct current record count; original import fingerprint retained. Add selected Dorofeev task-support sources or navigation; retain original import fingerprint and all prior evidence limits. Independently read 2021 sections 5.8, 6.2.6 and 6.2.17 after collaboration; distinguish source leads from integrating reviewer reading.",
       "review_document": "docs/psychology/dorofeev-task-support-review.md"
     },
     {
