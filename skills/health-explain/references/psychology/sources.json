@@ -1,10 +1,10 @@
 {
   "version": "3.0-public-0.1.1",
-  "review_date": "2026-10-17",
+  "review_date": "2026-10-29",
   "review_type": "targeted_narrative_review",
   "language": "en",
   "not_a_systematic_review": true,
-  "source_count": 112,
+  "source_count": 117,
   "independent_study_count": null,
   "notes": [
     "Entries include guides, descriptions, codes, studies, and project pages; the number of records is not equal to the number of independent trials.",
@@ -1464,6 +1464,66 @@
       "supported": "Distinct subjective experience, network structure, support function and relationship quality; optional editorial clarification is separately identified.",
       "limitations": "Researcher/root selected printed6–7,10,opening12,selected67–68 and69–70 notices. Official synthesis with English/expert-led selection, not full systematic review, primary efficacy study or validated dialogue. Current HHS disclaimer inspected; no explicit matching AI restriction found in that scope. Ordinary copyright/nonfederal editing is not an automatic processing ban; no all-report public-domain or broad licence claim. Figures/stock images/source expression/cited works excluded. Root native download403; no visual pixels inspected.",
       "use": "General adult construct explanation in SOC-C1; no disease-risk estimate, minimum-contact prescription, absent-person diagnosis or intervention benefit."
+    },
+    {
+      "id": "S113",
+      "title": "Maxim Dorofeev - Jedi Techniques (Russian edition, 2017)",
+      "url": "https://www.mann-ivanov-ferber.ru/catalog/product/dzhedajskie-texniki/",
+      "type": "productivity_book",
+      "published": "2017; Mann, Ivanov and Ferber; ISBN 978-5-00100-685-5",
+      "access": "full_fb2_read_by_authorized_collaborator_prior_selected_epub_read_by_integrator",
+      "checked_at": "2026-10-29",
+      "supported": "Author proposals for capture, actionable wording, reviews, useful intermediate results and work intervals; not efficacy evidence.",
+      "limitations": "Complete 2017 FB2 reading by the authorized collaborating reviewer: all 1597 canonical events, appendices, 92 bibliography entries, 88 endnotes and 79 image assets; source body-text preservation and asset identity checked. The integrating reviewer separately read EPUB sections 2.2, 3.2-3.4.2, 3.6-3.6.3, 3.7.3, 4.1.4 and 7.17. Shared attribution is not independent duplicate whole-book reading; full FB2 coverage is not automatically claimed for another format. External bibliography works not implicitly appraised. Section locators, no fixed print/PDF equivalence. Copyright retained; no source text, examples, tables or checklists redistributed. Publisher page is bibliographic, not proof of the exact current edition.",
+      "use": "Optional original task-support adaptations; metaphors and anecdotes are not clinical or mechanistic validation."
+    },
+    {
+      "id": "S114",
+      "title": "Maxim Dorofeev - The Jedi's Path: Finding Your Own Productivity Method (Russian third edition, 2021)",
+      "url": "https://www.mann-ivanov-ferber.ru/catalog/product/put-dzedaia-dopolnennoe-izdanie/",
+      "type": "productivity_book",
+      "published": "2021; corrected and expanded third edition; Mann, Ivanov and Ferber; ISBN 978-5-00169-383-3",
+      "access": "complete_epub_shared_reading_attributed_text_notes_and_visual_review",
+      "checked_at": "2026-10-29",
+      "supported": "Author proposals for optional observation, small practices, capacity-sensitive plans, purpose and workload selection. Further author proposals treat task wording as both a practice and an indicator, permit incremental list maintenance, and describe small multi-component trials rather than this project one-change simplification. Full reading also distinguishes processing incoming material, accepting a request and completing an action; a permanently empty inbox is not required.",
+      "limitations": "Complete collaborative EPUB reading: integrating reviewer through 6.4.13, authorized collaborator 6.5 and concluding material, including all 155 endnotes and 106 bibliography entries. All 28 spine members, 155 text chunks and 173 image assets covered with attributed notes; source body-text sequence and asset hashes checked. Some tiny pale handwriting in figure 46 could not be confidently transcribed; its structure and surrounding explanation were read. Shared coverage is not two independent full readings. External research, audio and links not implicitly appraised. EPUB section locators, no fixed-page equivalence. Copyright retained; no copied examples/forms/figures. Current publisher link points to a later supplemented edition, not proof of equivalence to the read 2021 text. Testimonials, clinical claims and maturity levels are not validated outcomes, recommendations or scales.",
+      "use": "Optional task-support adaptations; reject compulsory tracking and clinical claims from author models."
+    },
+    {
+      "id": "S115",
+      "title": "Sam J. Gilbert - Strategic offloading of delayed intentions into the external environment",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1457331/",
+      "type": "original_experimental_research_abstract_only",
+      "published": "Online 2014-11-18; journal issue 2015; DOI 10.1080/17470218.2014.972963",
+      "access": "primary_abstract_and_institutional_bibliographic_license_record_read",
+      "checked_at": "2026-10-29",
+      "supported": "Four online experiments report improved delayed-intention performance with reminders; bounded memory-aid rationale.",
+      "limitations": "Full methods, supplements and replications not appraised. PMC direct fetch initially challenged. UCL record identifies CC BY 3.0; no source text/tasks/figures reproduced. Not a test of Dorofeev, this assistant, distress treatment or general daily functioning. Complete correction/retraction audit not performed.",
+      "use": "Separate reminder-task performance from broad productivity and clinical outcomes."
+    },
+    {
+      "id": "S116",
+      "title": "Masicampo and Baumeister - Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21688924/",
+      "type": "original_experimental_research_indexed_abstract_only",
+      "published": "2011; J Pers Soc Psychol 101(4):667-683; DOI 10.1037/a0024192",
+      "access": "indexed_primary_abstract_read_direct_page_fetch_incomplete",
+      "checked_at": "2026-10-29",
+      "supported": "Specific plans reduced goal-related cognitive interference in described studies; emotion changes were not necessary.",
+      "limitations": "Abstract through indexed primary record; direct page incomplete and alternative format unavailable. Full methods, bias and replications not appraised; complete correction/retraction audit not performed. APA copyright retained, no full text redistributed. Not evidence that planning treats anxiety or validates an entire task system.",
+      "use": "Keep cognitive interference distinct from emotional relief and clinical benefit."
+    },
+    {
+      "id": "S117",
+      "title": "Vohs et al. - A Multisite Preregistered Paradigmatic Test of the Ego-Depletion Effect",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422598/",
+      "type": "preregistered_multisite_experiment_selected_sections",
+      "published": "2021; Psychological Science 32(10); DOI 10.1177/0956797621989733",
+      "access": "society_abstract_and_selected_primary_methods_discussion_read",
+      "checked_at": "2026-10-29",
+      "supported": "Confirmatory analyses did not establish the hypothesized depletion effect; exploratory analyses differed.",
+      "limitations": "Selected abstract, participants/protocols and discussion, not full supplements or reanalysis. 36 laboratories; substantial preregistered exclusions. Not proof that fatigue is unreal, and not a direct test of the books. Copyright retained; no source instruments, tables or extended passages reproduced. Complete correction/retraction audit not performed.",
+      "use": "Prevent literal resource-tank explanations while preserving uncertainty."
     }
   ]
 }
