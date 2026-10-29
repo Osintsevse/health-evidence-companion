@@ -1,6 +1,6 @@
 # Source register
 
-The canonical psychology register now contains 112 records. Counts are not independent trials. This document preserves original entries and dated reading amendments; reading depth and source dates remain distinct.
+The canonical psychology register now contains 117 records. Counts are not independent trials. This document preserves original entries and dated reading amendments; reading depth and source dates remain distinct.
 
 ## S01 — APA — Policy statement on evidence-based practice in psychology
 - URL: https://www.apa.org/practice/guidelines/evidence-based-statement
@@ -755,3 +755,50 @@ psychology:S104 retains all prior reading. Researcher read selected OpenIntro4e 
 - Published/version:2023; official landing reviewed 2025-02-19.
 - Read: researcher/root selected original PDF text, printed 6–7,10,opening12,selected67–68 and69–70 notices; no whole-report or visual review claim.
 - Use/limits: SOC-C1 in [social connection](35_SOCIAL_CONNECTION.md) provides a bounded adult construct explanation; original optional questions are not validated therapy. No quantified risk, intervention efficacy, source figures/stock images/scales or cited third-party text adopted. HHS notices directly checked; copyright preserved without inventing a blanket AI ban or public-domain grant. Exact scope in the cycle015 review.
+
+## Task-support additions - 2026-10-29
+
+### S113 - Maxim Dorofeev - Jedi Techniques (Russian edition, 2017), selected sections
+
+- URL: https://www.mann-ivanov-ferber.ru/catalog/product/dzhedajskie-texniki/
+- Published/version: 2017; Mann, Ivanov and Ferber; ISBN 978-5-00100-685-5
+- Read: selected_epub_sections_read_title_copyright_checked; checked 2026-10-29
+- Supports: Author proposals for capture, actionable wording, reviews, useful intermediate results and work intervals; not efficacy evidence.
+- Limits: Read 2.2, 3.2-3.4.2, 3.6-3.6.3, 3.7.3, 4.1.4 and 7.17; not the whole book. EPUB locators, no fixed print/PDF page equivalence or figure review. Copyright retained; no source text, examples, tables or checklists redistributed. Publisher page is bibliographic, not proof of the exact current edition.
+- Use: Optional original task-support adaptations; metaphors and anecdotes are not clinical or mechanistic validation.
+
+### S114 - Maxim Dorofeev - The Jedi's Path: Finding Your Own Productivity Method (Russian third edition, 2021), selected sections
+
+- URL: https://www.mann-ivanov-ferber.ru/catalog/product/put-dzedaia-dopolnennoe-izdanie/
+- Published/version: 2021; corrected and expanded third edition; Mann, Ivanov and Ferber; ISBN 978-5-00169-383-3
+- Read: selected_epub_sections_read_title_copyright_edition_checked; checked 2026-10-29
+- Supports: Author proposals for optional observation, small practices, capacity-sensitive plans, purpose and workload selection.
+- Limits: Read 5.3, 5.5-5.6, chapter 6 opening model, 6.1.6, 6.2.9-6.2.11, 6.4.4 and 6.4.13; not the whole book. EPUB section locators; no fixed-page equivalence or figure review. Copyright retained; no copied examples/forms. Current publisher link points to a later supplemented edition and does not establish its equivalence to the read 2021 text. Book testimonials and maturity levels are not validated outcomes or scales.
+- Use: Optional task-support adaptations; reject compulsory tracking and clinical claims from author models.
+
+### S115 - Sam J. Gilbert - Strategic offloading of delayed intentions into the external environment
+
+- URL: https://discovery.ucl.ac.uk/id/eprint/1457331/
+- Published/version: Online 2014-11-18; journal issue 2015; DOI 10.1080/17470218.2014.972963
+- Read: primary_abstract_and_institutional_bibliographic_license_record_read; checked 2026-10-29
+- Supports: Four online experiments report improved delayed-intention performance with reminders; bounded memory-aid rationale.
+- Limits: Full methods, supplements and replications not appraised. PMC direct fetch initially challenged. UCL record identifies CC BY 3.0; no source text/tasks/figures reproduced. Not a test of Dorofeev, this assistant, distress treatment or general daily functioning. Complete correction/retraction audit not performed.
+- Use: Separate reminder-task performance from broad productivity and clinical outcomes.
+
+### S116 - Masicampo and Baumeister - Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals
+
+- URL: https://pubmed.ncbi.nlm.nih.gov/21688924/
+- Published/version: 2011; J Pers Soc Psychol 101(4):667-683; DOI 10.1037/a0024192
+- Read: indexed_primary_abstract_read_direct_page_fetch_incomplete; checked 2026-10-29
+- Supports: Specific plans reduced goal-related cognitive interference in described studies; emotion changes were not necessary.
+- Limits: Abstract through indexed primary record; direct page incomplete and alternative format unavailable. Full methods, bias and replications not appraised; complete correction/retraction audit not performed. APA copyright retained, no full text redistributed. Not evidence that planning treats anxiety or validates an entire task system.
+- Use: Keep cognitive interference distinct from emotional relief and clinical benefit.
+
+### S117 - Vohs et al. - A Multisite Preregistered Paradigmatic Test of the Ego-Depletion Effect
+
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12422598/
+- Published/version: 2021; Psychological Science 32(10); DOI 10.1177/0956797621989733
+- Read: society_abstract_and_selected_primary_methods_discussion_read; checked 2026-10-29
+- Supports: Confirmatory analyses did not establish the hypothesized depletion effect; exploratory analyses differed.
+- Limits: Selected abstract, participants/protocols and discussion, not full supplements or reanalysis. 36 laboratories; substantial preregistered exclusions. Not proof that fatigue is unreal, and not a direct test of the books. Copyright retained; no source instruments, tables or extended passages reproduced. Complete correction/retraction audit not performed.
+- Use: Prevent literal resource-tank explanations while preserving uncertainty.
