@@ -1,6 +1,6 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -54,7 +54,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.9.2 adds a bounded longevity and prevention evidence packet, source-linked statistical examples, early human reprogramming status and explicit research/review limits. No experimental regimen, personal breakthrough predictor or installed update is provided."
+        "release_notes": "Version 0.9.3 adds optional adult task and attention support from selected Dorofeev book sections, with exact reading scope, independent evidence limits and bilingual navigation. The original cards support practical experiments without compulsory tracking, diagnostic claims or installed updates."
       }
     }
   }

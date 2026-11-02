@@ -160,3 +160,7 @@ If there is a sharp increase in disorientation, panic, self-harmful impulses or 
 
 Trauma exposure, EMDR, sleep restriction, intensive breathing, cold techniques, self-treatment of sexual pain, and clinical plans for self-harm are intentionally not included here. For them, it is impossible to replace the assessment of indications and risks with an attractive card.
 
+
+## Optional practical task support
+
+For capture, next actions, realistic commitments, reviews, useful intermediate results and small personal experiments, use [module 36](36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md). Its eight cards extend practical choice without adding to or validating the historical 24-card therapy toolbox.

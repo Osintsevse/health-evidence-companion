@@ -44,3 +44,7 @@ The feeling of “AI finally understands me” does not support the conflict exp
 ## Sports challenge
 Do not translate ordinary anxiety into a diagnosis. Distinguish between well-being and performance, coach and clinician. Do not interpret car malfunction as fear and do not start exercises on the fly. When discussing sports, read only the necessary sports context, without extraneous intimate history.
 
+
+## Everyday task overload
+
+For scattered commitments, unclear next steps, an unrealistic daily list or a wish to test a work habit, read [task and attention support](36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md). Start with the actual bottleneck and one optional practical step. The productivity route does not require a diagnosis, maturity rating, complete new system or tracking; persistent impairment still follows the assessment route.
