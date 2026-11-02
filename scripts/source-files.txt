@@ -1652,3 +1652,11 @@ docs/pr26-source-reconciliation.json
 docs/pr26-review-fixes.md
 evals/knowledge-search-label-revisions.json
 evals/longevity-forward-checks.json
+docs/psychology/dorofeev-task-support-review.md
+knowledge/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-cbt-act-mct/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-dialogue/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-private-records/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-relationships/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-research/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md
+skills/psyops-sport/references/psychology/36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md

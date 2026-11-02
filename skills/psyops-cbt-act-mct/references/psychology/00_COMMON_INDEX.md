@@ -61,3 +61,7 @@ This is an advanced targeted review and work instructions, not a psychologist's 
 - [34 – Psychology learning map](34_PSYCHOLOGY_CURRICULUM.md)
 
 The previous QUALITY_REVIEW and CHANGELOG reports are historical. Current content audit: docs/AUDIT-2026-10-08.md in the repository. This is not a complete re-review of every publication or professional assessment. The general part contains only universal materials; personal records are kept separately.
+
+## Everyday task support
+
+- [36 - Tasks, attention and personal experiments](36_TASKS_ATTENTION_AND_PERSONAL_EXPERIMENTS.md): optional adult practical support from selected Dorofeev sections, with independent evidence limits.
