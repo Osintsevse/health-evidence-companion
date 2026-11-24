@@ -1,5 +1,7 @@
 # Medicines: classes, labels and checks
 
+For allergy medicines, use module 15 or the health-allergology skill for Serbian ketotifen syrup and montelukast tablets, route-specific rhinitis options and safety warnings.
+
 Sources: S10-S16, S21, S27, S37, S41. Educational information, not a personal prescription. Historical NICE sources remain bibliographic only.
 
 Before describing a product as effective, apply module 18's indication-specific evidence workflow. Registration, an appealing mechanism and a brand's presence/absence on a discovery list are different from demonstrated benefit. Keep unknown or pending appraisal explicit.

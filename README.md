@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained medical and adult psychology knowledge base and twenty AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained medical and adult psychology knowledge base and twenty-one AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -19,6 +19,7 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | Skill | Purpose |
 |---|---|
 | `health-explain` | Symptom assessment, differential hypotheses, urgency, safe self-checks, self-care, laboratory and vaccine questions |
+| [`health-allergology`](skills/health-allergology/SKILL.md) | Allergy symptoms and targeted tests, specialist referral, rhinitis medicines and Serbian product labels |
 | `health-medicine-info` | Exact ingredients/forms, evidence, OTC labels, medicine-list and interaction checks |
 | `health-research` | Guidelines, studies, systematic reviews and critical evidence appraisal |
 | `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |
@@ -87,7 +88,7 @@ python3 -m unittest discover -s examples/drugbank -v
 python3 scripts/build.py
 ```
 
-PR/main CI produces candidate artifacts. After a reviewed version bump reaches main, release automation publishes versioned and stable-name plugin ZIPs, source ZIP, checksums, build report and setup files. Installed personal copies are snapshots and need an explicit update. GitHub publishing does not install or publish anything in ChatGPT. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).
+PR CI runs validation and tests. The release workflow builds and publishes ZIPs, checksums, the build report and setup files from `main`. The latest stable release remains available. Installed personal copies are snapshots and need an explicit update. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).
 
 - [22: Laboratory identity and owner feedback](knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md) - multilingual display grouping, unit/scale distinctions and persistent clarification answers.
 

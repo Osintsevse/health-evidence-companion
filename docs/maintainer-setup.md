@@ -4,13 +4,13 @@ Owner: `Osintsevse`. Source repository: [health-evidence-companion](https://gith
 
 ## After repository creation
 
-The initial English source tree is already on `main`, with GitHub Actions enabled. Make further changes on branches through PRs and keep `CODEOWNERS` set to `@Osintsevse`. The `validate-and-build` check creates candidate artifacts; the separate **Publish plugin release** workflow publishes permanent release downloads.
+The initial English source tree is already on `main`, with GitHub Actions enabled. Make further changes on branches through PRs and keep `CODEOWNERS` set to `@Osintsevse`. The `validate-and-build` check runs validation and tests. **Publish plugin release** builds and publishes the release from `main`.
 
 Configure protection/rules for `main`: require a PR, require code-owner review with one approval, dismiss stale approvals, require `validate-and-build`, block force pushes/deletion and resolve conversations. Review bypass settings deliberately. CODEOWNERS alone requests review; it does not enforce it. The repository administration operation must actually complete before describing the branch as protected.
 
 This owner-review arrangement is for contributor PRs. A maintainer cannot approve their own authored PR. Do not manufacture a second reviewer; decide and document a narrow maintainer exception or obtain an independent reviewer where required.
 
-Allow only approved Actions; use read-only default workflow permissions. The release workflow has contents-write permission only in its reviewed-main/tag job. Manual publication accepts `main` only. Fork PR code is never executed with publisher secrets or `pull_request_target`. Review workflow modifications as carefully as content.
+Allow only approved Actions and use read-only default workflow permissions. The release job has contents-write permission and runs on `main`. Fork PR code runs without publisher secrets. Review workflow modifications as carefully as content.
 
 Optional: enable private vulnerability reporting, issues and discussions as desired. Do not claim private reporting works until enabled. Public discussion must never contain real patient data.
 
@@ -18,7 +18,7 @@ Optional: enable private vulnerability reporting, issues and discussions as desi
 
 Contributors fork and open PRs. Owner review checks evidence, limits, license and privacy in addition to CI. Include a higher `plugin.json` version and the matching changelog section in the reviewed PR. When it reaches `main`, the workflow validates/tests/builds, creates the matching `vX.Y.Z` tag and publishes a GitHub Release. No manual tag step or extra token secret is required. A failed run does not establish publication.
 
-Release-workflow/script changes also trigger a run on `main` to bootstrap a missing release, and **Actions -> Publish plugin release -> Run workflow -> main** retries a failed publication. Existing version tags and published assets are never moved/replaced. A failed upload stays a draft; reruns may add missing assets only when existing bytes and the source commit match. Mismatches require maintainer inspection or a new version, not `--clobber`. Manually pushed version tags remain supported only if they match the manifest and point into reviewed `main` history.
+Release-workflow or script changes also trigger a run on `main`. Use **Actions → Publish plugin release → Run workflow → main** to retry a failed publication. A failed upload stays a draft, and reruns may add missing assets when existing bytes and the source commit match. After successful publication, the workflow removes previous stable release entries and their downloads. Historical Git tags remain available.
 
 Release assets include the versioned plugin and source ZIPs, identical stable-name `health-evidence-companion.zip`, setup instructions/prompt, checksums and a build report. `/releases/latest/download/health-evidence-companion.zip` is the fixed download link. Latest-release selection uses GitHub's date/semantic-version policy, so an older-version retry does not explicitly force itself as latest.
 

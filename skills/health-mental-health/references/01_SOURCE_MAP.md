@@ -6461,3 +6461,83 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Purpose: Severe headache/vision changes and immediate review in pregnancy or weeks after birth; no treatment thresholds or preventive doses
 - Checked: 2026-10-18
 - Active-use disposition: not_determined (not a permission grant)
+
+### S806 - ALIMS - Galitifen 1 mg/5 mL oral syrup, Serbian SmPC 515-01-05129-19-001
+- URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-05129-19-001.pdf
+- Region: Serbia
+- Reading status: Selected product identity, indications, contraindications, interactions and alertness warnings in sections 1-4.7 inspected.
+- Purpose: Ketotifen syrup and its restricted rhinitis and adjunctive asthma indications. The label describes a specific product and supplies no comparison with other treatments.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S807 - ALIMS - Alvokast 10 mg film-coated tablet, Serbian SmPC revised May 2022
+- URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-03134-21-001.pdf
+- Region: Serbia
+- Reading status: Selected identity, indications, age, acute attack and neuropsychiatric warnings in sections 1-4.4, and section 10 revision date inspected.
+- Purpose: Montelukast in asthma and associated seasonal rhinitis. Applies to the specified tablet. No separate Serbian indication for isolated rhinitis inferred.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S808 - FDA - Montelukast boxed warning and restricted use for allergic rhinitis, March 4, 2020
+- URL: https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug
+- Region: United States
+- Reading status: Safety concern, patient actions and professional advice read. Underlying case reports and observational datasets were not independently appraised.
+- Purpose: Neuropsychiatric symptoms, immediate action and US positioning when other rhinitis therapies fail or are not tolerated. No estimate of individual risk.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S809 - NHS - Antihistamines
+- URL: https://www.nhs.uk/medicines/antihistamines/
+- Region: United Kingdom
+- Reading status: Indications, sedating and less-sedating examples, adverse effects and other medicines sections read.
+- Purpose: Symptom relief, residual impairment and overlapping cold remedies. General class information.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S810 - Welsh Medicines Advice Service - Common Ailments Service allergic rhinitis summary, version 1, May 2025
+- URL: https://www.wmic.wales.nhs.uk/cas-allergic-rhinitis-summary
+- Region: Wales
+- Reading status: Selected age 12 and older pharmacy pathway, presentations for intermittent or persistent nasal symptoms and ocular symptoms inspected. Referenced BNF and linked guidance not used.
+- Purpose: Distinguish oral and nasal antihistamines, nasal corticosteroids and ocular cromoglicate by symptom pattern. Local service guidance, no comparative effect estimate.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S811 - DailyMed - SINGULAIR historical US label, seasonal allergic rhinitis clinical studies
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10cd5ca5-6f8b-417c-af11-a2054a2dde34
+- Region: United States
+- Reading status: Inspected the sponsor label's seasonal rhinitis trial design, duration, results and active-comparator caveat around Table 4. Individual trial reports not reviewed.
+- Purpose: Short-term placebo-adjusted daytime symptom score in participants aged 15 to 82. Historical efficacy data only. Use FDA safety communication and current local label for safety and indications.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S812 - American Academy of Dermatology - Patch testing for a suspected contact rash
+- URL: https://www.aad.org/public/diseases/eczema/types/contact-dermatitis/patch-testing-rash
+- Region: United States
+- Reading status: Inspected the Academy's description of delayed readings, the comparison with skin-prick testing and the limits of an initial patch series.
+- Purpose: Clinical purpose of patch testing for delayed contact allergy. No self-testing procedure or diagnostic threshold.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S813 - AAAAI - Allergy shots (immunotherapy)
+- URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/allergy-shots-(immunotherapy)
+- Region: United States
+- Reading status: Read candidacy, potential benefit, care setting and reaction risk in the Academy's public education page.
+- Purpose: Specialist discussion of environmental allergen immunotherapy and supervised injections. No dosing or eligibility algorithm.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S814 - AAAAI - Allergy testing
+- URL: https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/allergy-testing
+- Region: United States
+- Reading status: Inspected indications, symptom history, skin and blood test descriptions in the Academy's public education page.
+- Purpose: Select testing in the context of suspected immediate allergy. No universal panel or clearance after a negative result.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S815 - NHS - Mometasone nasal spray
+- URL: https://www.nhs.uk/medicines/mometasone-nasal-spray/
+- Region: United Kingdom
+- Reading status: Read the rhinitis indication, time to symptom improvement and spray instruction sections.
+- Purpose: Regular use and administration technique matter when assessing response to this intranasal corticosteroid. UK product advice.
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)

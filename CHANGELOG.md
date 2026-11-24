@@ -1,8 +1,14 @@
 # Changelog
 
-## 0.9.4 - 2026-11-24
+## 0.10.2 - 2026-11-25
 
-- Ignore local task worktrees during exact source-manifest scans without weakening checks for unexpected distributable files.
+- Exclude local task worktrees from source scans while preserving the package allowlist.
+- Build release archives only from main and keep the latest published release.
+
+## 0.10.0 - 2026-11-24
+
+- Add a dedicated allergology skill for exposure history, targeted tests, specialist referral and emergency routing.
+- Expand the medicine chapter on allergy care with Serbian Galitifen and Alvokast label details, montelukast trial and safety evidence, and symptom-specific alternatives.
 
 ## 0.9.3 - 2026-10-29
 
