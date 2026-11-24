@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.10.1 - 2026-11-24
+
+- Add age-specific calcium intake references and practical infant/toddler food guidance to the fontanel module.
+- Keep calcium and vitamin D from being presented as ways to speed fontanel closure; preserve feeding-age, texture, and jurisdiction limits.
+
 ## 0.10.0 - 2026-11-24
 
 - Add a dedicated allergology skill for exposure history, targeted tests, specialist referral and emergency routing.

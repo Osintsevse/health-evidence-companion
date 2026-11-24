@@ -7333,5 +7333,50 @@
     "retrieval_status": "Read the rhinitis indication, time to symptom improvement and spray instruction sections.",
     "use": "Regular use and administration technique matter when assessing response to this intranasal corticosteroid. UK product advice.",
     "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S816",
+    "title": "NIH Office of Dietary Supplements: Calcium Fact Sheet for Health Professionals",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+    "region": "United States; dietary reference values are not a local treatment plan",
+    "retrieval_status": "Selected HTML sections read 2026-11-24: infant and young-child reference intakes, calcium food sources and absorption, and vitamin D role in active absorption. Linked references and other age groups not appraised.",
+    "use": "Age-specific calcium planning references and food-source/absorption context; no fontanel treatment effect",
+    "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S817",
+    "title": "CDC: Cow's Milk and Milk Alternatives",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html",
+    "region": "United States; adapt to local guidance",
+    "retrieval_status": "HTML read 2026-11-24: drink timing, pasteurized whole milk, selected dairy and fortified alternatives, label variation, and displacement of other foods with excess milk. Underlying dietary guideline and linked material not independently appraised.",
+    "use": "Age distinction for beverages versus dairy foods and practical source selection; no universal national menu",
+    "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S818",
+    "title": "CDC: When, What, and How to Introduce Solid Foods",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+    "region": "United States; adapt to local guidance and individual feeding needs",
+    "retrieval_status": "HTML read 2026-11-24: developmental readiness, complementary-food timing, dairy foods versus milk beverages, and food-texture/choking guidance. Linked videos and underlying guideline not appraised.",
+    "use": "Age- and readiness-sensitive food introduction and safe texture context",
+    "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S819",
+    "title": "CDC: Vitamin D",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/vitamin-d.html",
+    "region": "United States; follow the child's local prevention plan",
+    "retrieval_status": "HTML read 2026-11-24: vitamin D role in bone health/rickets, US age reference amounts, feeding-dependent US supplementation guidance, and age-specific milk guidance. No product labels or non-US schedules appraised.",
+    "use": "Vitamin D mechanism and jurisdiction-specific prevention context; no fontanel-directed dose",
+    "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S820",
+    "title": "Wang et al.: Effects of calcium and vitamin D supplementation on bone-specific alkaline phosphatase during pregnancy, lactation and infancy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19408664/",
+    "region": "China; retrospective sample from one hospital",
+    "retrieval_status": "Abstract only, read via a POPLINE bibliographic record on 2026-11-24 after direct PubMed access returned a challenge. The abstract describes 1,176 healthy infants aged 42-365 days, retrospective questionnaire exposure and measurements of bone-specific alkaline phosphatase and anterior-fontanel size. Full text, methods details and independent replication were not reviewed.",
+    "use": "Limited evidence that fontanel size should not be used as a proxy for calcium status; not an intervention trial of closure timing",
+    "checked_on": "2026-11-24"
   }
 ]
