@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.10.0 - 2026-11-24
+
+- Add a dedicated allergology skill for exposure history, targeted tests, specialist referral and emergency routing.
+- Expand the medicine chapter on allergy care with Serbian Galitifen and Alvokast label details, montelukast trial and safety evidence, and symptom-specific alternatives.
+
 ## 0.9.3 - 2026-10-29
 
 - Add eight optional task-support cards from the 2017 and 2021 Dorofeev books, with exact editions, attributed complete collaborative reading, remaining access limits and original examples.

@@ -1,0 +1,30 @@
+{
+  "schema": "knowledge-search-map-v1",
+  "scope": "packaged_project_notes_only",
+  "entries": [
+    {
+      "canonical_path": "knowledge/00_KNOWLEDGE_POLICY.md",
+      "local_path": "00_KNOWLEDGE_POLICY.md"
+    },
+    {
+      "canonical_path": "knowledge/05_ALLERGY_SKIN_EYES.md",
+      "local_path": "05_ALLERGY_SKIN_EYES.md"
+    },
+    {
+      "canonical_path": "knowledge/15_ALLERGOLOGY.md",
+      "local_path": "15_ALLERGOLOGY.md"
+    },
+    {
+      "canonical_path": "knowledge/19_SYMPTOM_REASONING_AND_SELF_CARE.md",
+      "local_path": "19_SYMPTOM_REASONING_AND_SELF_CARE.md"
+    },
+    {
+      "canonical_path": "knowledge/44_LABS_BP_ALLERGY_CHILDREN.md",
+      "local_path": "44_LABS_BP_ALLERGY_CHILDREN.md"
+    },
+    {
+      "canonical_path": "knowledge/clinical/EMERGENCY.md",
+      "local_path": "EMERGENCY.md"
+    }
+  ]
+}

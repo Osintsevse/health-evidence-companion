@@ -147,6 +147,11 @@ LONGEVITY_FILES = ['knowledge/57_LONGEVITY_AND_PREVENTION.md'] + [
 for _skill in LONGEVITY_SKILLS:
     MAP[_skill] = list(dict.fromkeys(MAP[_skill] + LONGEVITY_FILES))
 
+MAP['health-allergology'] = COMMON + [
+    'knowledge/05_ALLERGY_SKIN_EYES.md', 'knowledge/15_ALLERGOLOGY.md',
+    'knowledge/44_LABS_BP_ALLERGY_CHILDREN.md', 'knowledge/clinical/EMERGENCY.md',
+]
+
 # Search only this project's packaged notes. Every installed pack retains its
 # canonical locators without requiring access to a development checkout.
 SEARCH_SKILLS = sorted(skill for skill in MAP if skill != 'health-feedback')

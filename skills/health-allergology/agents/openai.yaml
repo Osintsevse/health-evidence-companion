@@ -1,0 +1,4 @@
+interface:
+  display_name: "Allergology"
+  short_description: "Explain allergy tests, symptoms and medicines"
+  default_prompt: "Use $health-allergology to help with my allergy question in my language."
