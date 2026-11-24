@@ -1,6 +1,6 @@
 # Health Evidence Companion
 
-A community-maintained medical and adult psychology knowledge base and twenty AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
+A community-maintained medical and adult psychology knowledge base and twenty-one AI skills, distributed through **GitHub Releases and manual installation**. English source content; answers in your language. No required medical API, local server or paid backend.
 
 Supports symptom reasoning, possible-diagnosis comparisons, checking self-diagnosis hypotheses, safe home observations, basic self-care and OTC label information, laboratory-result explanations, medicine interactions, psychiatry information, research appraisal and clinician preparation. Every health-facing answer includes a short disclaimer. It does not establish a diagnosis, independently prescribe/change prescription treatment or replace examination and clinical care. It is not intended for use as a medical device; no clinical validation or legal exemption is claimed.
 
@@ -19,6 +19,7 @@ Use the maintainer's plugin ZIP, not GitHub's generic source archive. Create/imp
 | Skill | Purpose |
 |---|---|
 | `health-explain` | Symptom assessment, differential hypotheses, urgency, safe self-checks, self-care, laboratory and vaccine questions |
+| [`health-allergology`](skills/health-allergology/SKILL.md) | Allergy symptoms and targeted tests, specialist referral, rhinitis medicines and Serbian product labels |
 | `health-medicine-info` | Exact ingredients/forms, evidence, OTC labels, medicine-list and interaction checks |
 | `health-research` | Guidelines, studies, systematic reviews and critical evidence appraisal |
 | `health-mental-health` | Psychiatry concepts, symptom/medicine-effect explanations, monitoring and clinician questions |

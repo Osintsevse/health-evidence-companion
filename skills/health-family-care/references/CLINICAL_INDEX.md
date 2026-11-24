@@ -8,6 +8,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 |---|---|
 | Current suspected emergency | health-first-aid; [EMERGENCY](EMERGENCY.md) |
 | Symptoms and diagnostic questions | health-explain / health-family-care; [SYMPTOMS](SYMPTOMS.md), [DIAGNOSTICS](DIAGNOSTICS.md) |
+| Suspected allergy, allergen testing or rhinitis medicines | health-allergology (module 15), with health-first-aid for a current severe reaction |
 | Ingredients, prescriptions and therapy choices | health-medicine-info; [MEDICINES](MEDICINES.md); current exact local label and indication guideline |
 | Food diary, calories/macros or diet quality | health-nutrition; [NUTRITION](NUTRITION.md); condition-specific exceptions |
 | Find appropriate local care | health-care-navigation; [NAVIGATION](NAVIGATION.md); emergency destination follows dispatch |

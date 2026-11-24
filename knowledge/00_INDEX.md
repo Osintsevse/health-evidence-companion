@@ -60,7 +60,7 @@ The curriculum describes intended coverage. This edition has not completed a med
 | 31 | Source inventory and periodic review procedure |
 | 32 | Adverse effects, absolute risks and understandable probabilities |
 
-New entry skills: health-family-care and health-prevention. Load only relevant references; sources and book indices do not establish completed medical training.
+For exposure history, targeted tests or allergy medicines, use health-allergology and [module 15](15_ALLERGOLOGY.md). Health-family-care and health-prevention cover the life-stage routes. Load only relevant references; sources and book indices do not establish completed medical training.
 
 - [33: Genetic provider exports](33_GENETIC_PROVIDER_IMPORT.md) - MyHeritage, Genotek, report-versus-raw distinctions and offline private staging.
 
