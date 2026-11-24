@@ -6541,3 +6541,43 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Purpose: Regular use and administration technique matter when assessing response to this intranasal corticosteroid. UK product advice.
 - Checked: 2026-11-24
 - Active-use disposition: not_determined (not a permission grant)
+
+### S816 - NIH Office of Dietary Supplements: Calcium Fact Sheet for Health Professionals
+- URL: https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/
+- Region: United States; dietary reference values are not a local treatment plan
+- Reading status: Selected HTML sections read 2026-11-24: infant and young-child reference intakes, calcium food sources and absorption, and vitamin D role in active absorption. Linked references and other age groups not appraised.
+- Purpose: Age-specific calcium planning references and food-source/absorption context; no fontanel treatment effect
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S817 - CDC: Cow's Milk and Milk Alternatives
+- URL: https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html
+- Region: United States; adapt to local guidance
+- Reading status: HTML read 2026-11-24: drink timing, pasteurized whole milk, selected dairy and fortified alternatives, label variation, and displacement of other foods with excess milk. Underlying dietary guideline and linked material not independently appraised.
+- Purpose: Age distinction for beverages versus dairy foods and practical source selection; no universal national menu
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S818 - CDC: When, What, and How to Introduce Solid Foods
+- URL: https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html
+- Region: United States; adapt to local guidance and individual feeding needs
+- Reading status: HTML read 2026-11-24: developmental readiness, complementary-food timing, dairy foods versus milk beverages, and food-texture/choking guidance. Linked videos and underlying guideline not appraised.
+- Purpose: Age- and readiness-sensitive food introduction and safe texture context
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S819 - CDC: Vitamin D
+- URL: https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/vitamin-d.html
+- Region: United States; follow the child's local prevention plan
+- Reading status: HTML read 2026-11-24: vitamin D role in bone health/rickets, US age reference amounts, feeding-dependent US supplementation guidance, and age-specific milk guidance. No product labels or non-US schedules appraised.
+- Purpose: Vitamin D mechanism and jurisdiction-specific prevention context; no fontanel-directed dose
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S820 - Wang et al.: Effects of calcium and vitamin D supplementation on bone-specific alkaline phosphatase during pregnancy, lactation and infancy
+- URL: https://pubmed.ncbi.nlm.nih.gov/19408664/
+- Region: China; retrospective sample from one hospital
+- Reading status: Abstract only, read via a POPLINE bibliographic record on 2026-11-24 after direct PubMed access returned a challenge. The abstract describes 1,176 healthy infants aged 42-365 days, retrospective questionnaire exposure and measurements of bone-specific alkaline phosphatase and anterior-fontanel size. Full text, methods details and independent replication were not reviewed.
+- Purpose: Limited evidence that fontanel size should not be used as a proxy for calcium status; not an intervention trial of closure timing
+- Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
