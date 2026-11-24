@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.4 - 2026-11-24
+
+- Ignore local task worktrees during exact source-manifest scans without weakening checks for unexpected distributable files.
+
 ## 0.9.3 - 2026-10-29
 
 - Add eight optional task-support cards from the 2017 and 2021 Dorofeev books, with exact editions, attributed complete collaborative reading, remaining access limits and original examples.

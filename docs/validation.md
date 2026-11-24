@@ -2,6 +2,10 @@
 
 Initial edition: 2026-10-06. This document distinguishes file checks, workflow evaluation and clinical/platform review.
 
+## Version 0.9.4 worktree-safe source scan, 2026-11-24
+
+A local nested task worktree was mistakenly scanned as distributable source and caused package tests to fail before reaching their intended assertions. The exact source allowlist remains strict outside `worktrees/`; validation excludes this task workspace from discovery and packaging. Rechecked canonical/reference validation, the full 319-test suite (315 passed, four skipped, including host/browser-dependent cases), 36 package/platform tests (35 passed, one Windows symlink check skipped), and a deterministic candidate build. Content and sources were not changed. Validation and ZIP construction do not establish clinical correctness, host acceptance or release availability.
+
 ## Version 0.4.0 private archive checks, 2026-10-07
 
 Review base: merged 0.3.1, `9e8ee0a`. Added owner-authorized private import/history instructions, eight generated blank forms, a table contract and an optional offline helper. Public source and runtime ZIPs contain only general material and wholly synthetic tests; actual archive files, destination IDs and local evaluation artifacts remain outside the checkout.
