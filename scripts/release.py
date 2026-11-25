@@ -1,4 +1,4 @@
-"""Publish a checked main snapshot once per version; never replace released assets."""
+"""Publish a checked main snapshot and retain its latest stable release."""
 import argparse
 import hashlib
 import json
@@ -22,13 +22,18 @@ def run(args, root=ROOT, allowed=(0,)):
 def release_tag(version, repository, event, ref):
     if repository != REPO:
         raise ValueError('Release publication is restricted to the maintainer repository')
-    if not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)', version):
-        raise ValueError('Expected a stable X.Y.Z manifest version')
     tag = 'v' + version
+    if stable_version(tag) is None:
+        raise ValueError('Expected a stable X.Y.Z manifest version')
     if not ((event in {'push', 'workflow_dispatch'} and ref == 'refs/heads/main')
             or (event == 'push' and ref == 'refs/tags/' + tag)):
         raise ValueError('Expected main or a pushed tag matching the manifest version')
     return tag
+
+
+def stable_version(tag):
+    match = re.fullmatch(r'v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)', tag)
+    return tuple(map(int, match.groups())) if match else None
 
 
 def disposition(existing, head, tag_commit):
@@ -81,11 +86,44 @@ def missing_assets(existing, hashes):
     return sorted(set(hashes) - set(assets))
 
 
-def find_release(command, tag):
+def list_releases(command):
     # Listing with publisher permissions includes drafts; lookup by tag may not.
     pages = json.loads(command(['gh', 'api', '--paginate', '--slurp',
                                 f'repos/{REPO}/releases']).stdout)
-    return next((item for page in pages for item in page if item['tag_name'] == tag), None)
+    return [item for page in pages for item in page]
+
+
+def published_stable(releases):
+    for release in releases:
+        if release['draft'] or release['prerelease']:
+            continue
+        version = stable_version(release['tag_name'])
+        if version is not None:
+            yield version, release
+
+
+def superseded(tag, releases):
+    current_version = stable_version(tag)
+    if any(version > current_version for version, _ in published_stable(releases)):
+        print(f'Skipping {tag}: a newer stable release is already published.')
+        return True
+    return False
+
+
+def retain_previous_releases(tag, command=run):
+    releases = list_releases(command)
+    if superseded(tag, releases):
+        return
+    latest = command(['gh', 'api', f'repos/{REPO}/releases/latest', '--jq', '.tag_name']).stdout.strip()
+    if latest != tag:
+        raise ValueError(f'Expected {tag} as the latest release before removing older releases')
+    current_version = stable_version(tag)
+    old_ids = [release['id'] for version, release in published_stable(releases)
+               if version < current_version]
+    if any(type(release_id) is not int or release_id <= 0 for release_id in old_ids):
+        raise ValueError('GitHub did not return valid release IDs for retention')
+    for release_id in old_ids:
+        command(['gh', 'api', '--method', 'DELETE', f'repos/{REPO}/releases/{release_id}'])
 
 
 def notes(root, version, head):
@@ -116,7 +154,10 @@ def publish(root=ROOT, env=None, command=None):
     if head != env.get('GITHUB_SHA'):
         raise ValueError('Checked-out commit differs from the workflow commit')
     command(['git', 'merge-base', '--is-ancestor', head, 'refs/remotes/origin/main'])
-    existing = find_release(command, tag)
+    releases = list_releases(command)
+    if superseded(tag, releases):
+        return {'action': 'superseded', 'tag': tag}
+    existing = next((release for release in releases if release['tag_name'] == tag), None)
     has_tag = command(['git', 'show-ref', '--verify', '--quiet', 'refs/tags/' + tag],
                       allowed=(0, 1)).returncode == 0
     tag_commit = (command(['git', 'rev-parse', 'refs/tags/' + tag + '^{commit}']).stdout.strip()
@@ -151,6 +192,9 @@ def publish(root=ROOT, env=None, command=None):
     uploaded = json.loads(command(['gh', 'api', endpoint]).stdout)
     if missing_assets(uploaded, hashes):
         raise ValueError('Release assets are incomplete; leave the release as a draft')
+    # Recheck after uploading in case a release was published outside this workflow.
+    if superseded(tag, list_releases(command)):
+        return {'action': 'superseded', 'tag': tag}
     published = json.loads(command(['gh', 'api', '--method', 'PATCH',
                                     f'repos/{REPO}/releases/{draft["id"]}',
                                     '-F', 'draft=false', '-f', 'make_latest=legacy']).stdout)
@@ -171,7 +215,9 @@ def main():
     if not args.execute:
         print('No changes made. GitHub Actions uses --execute after main validation/build.')
         return
-    publish()
+    result = publish()
+    if result['action'] != 'superseded':
+        retain_previous_releases(result['tag'])
 
 
 if __name__ == '__main__':

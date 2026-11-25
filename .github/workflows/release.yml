@@ -42,23 +42,8 @@ jobs:
           python3 -m unittest discover -s examples/drugbank -v
       - name: Build archives and checksums
         run: python3 scripts/build.py
-      - name: Publish GitHub assets
+      - name: Publish GitHub assets and retain the latest stable release
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: python3 scripts/release.py --execute
-      - name: Retain the latest stable release
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          set -euo pipefail
-          expected="v$(python3 -c 'import json; print(json.load(open("plugin.json"))["version"])')"
-          latest=$(gh api "repos/$GH_REPO/releases/latest" --jq '.tag_name')
-          test "$latest" = "$expected"
-          old=$(gh api --paginate "repos/$GH_REPO/releases?per_page=100" --jq ".[] | select(.draft == false and .prerelease == false and .tag_name != \"$latest\") | .id")
-          if [ -n "$old" ]; then
-            while IFS= read -r id; do
-              gh api --method DELETE "repos/$GH_REPO/releases/$id"
-            done <<< "$old"
-          fi
