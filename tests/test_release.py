@@ -7,13 +7,18 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from release import REPO, expected_assets, notes, publish, release_tag
+from release import REPO, expected_assets, main, notes, publish, release_tag, retain_previous_releases
 
 HEAD = 'a' * 40
 VERSION = '0.2.1'
 TAG = 'v' + VERSION
+
+
+def release_entry(tag, release_id, *, draft=False, prerelease=False):
+    return {'tag_name': tag, 'id': release_id, 'draft': draft, 'prerelease': prerelease}
 
 
 class FakeCommands:
@@ -28,6 +33,9 @@ class FakeCommands:
         self.reviewed = True
         self.stale_listing_after_create = False
         self.created = False
+        self.other_releases = [release_entry('v0.0.1', 1)]
+        self.next_listing_releases = []
+        self.latest = TAG
 
     def __call__(self, args, allowed=(0,)):
         self.calls.append(args)
@@ -35,7 +43,7 @@ class FakeCommands:
         code = 0
         if args == ['git', 'rev-parse', 'HEAD']:
             data = HEAD
-        elif args[:2] == ['git', 'merge-base']:
+        elif args == ['git', 'merge-base', '--is-ancestor', HEAD, 'refs/remotes/origin/main']:
             if not self.reviewed:
                 raise RuntimeError('Commit is not in reviewed main')
         elif args[:2] == ['git', 'show-ref']:
@@ -46,8 +54,9 @@ class FakeCommands:
             if self.fail_listing:
                 raise RuntimeError('GitHub lookup failed')
             visible = self.release and not (self.created and self.stale_listing_after_create)
-            data = json.dumps([[{'tag_name': 'v0.0.1', 'id': 1}],
-                               [self.release] if visible else []])
+            data = json.dumps([self.other_releases, [self.release] if visible else []])
+            self.other_releases.extend(self.next_listing_releases)
+            self.next_listing_releases.clear()
         elif args[:5] == ['gh', 'api', '--method', 'POST', f'repos/{REPO}/releases']:
             payload = json.loads(Path(args[args.index('--input') + 1]).read_text())
             self.release = {'id': 17, 'assets': [], **payload}
@@ -64,6 +73,12 @@ class FakeCommands:
             self.release['draft'] = False
             self.release['html_url'] = f'https://github.com/{REPO}/releases/tag/{TAG}'
             data = json.dumps(self.release)
+        elif args == ['gh', 'api', f'repos/{REPO}/releases/latest', '--jq', '.tag_name']:
+            data = self.latest
+        elif args[:4] == ['gh', 'api', '--method', 'DELETE']:
+            release_id = int(args[-1].rsplit('/', 1)[1])
+            self.other_releases = [release for release in self.other_releases
+                                   if release['id'] != release_id]
         elif args == ['gh', 'api', f'repos/{REPO}/releases/17']:
             data = json.dumps(self.release)
         else:
@@ -75,7 +90,8 @@ class FakeCommands:
     def mutations(self):
         return [args for args in self.calls if args[:2] == ['gh', 'release']
                 or args[:4] in [['gh', 'api', '--method', 'POST'],
-                               ['gh', 'api', '--method', 'PATCH']]]
+                               ['gh', 'api', '--method', 'PATCH'],
+                               ['gh', 'api', '--method', 'DELETE']]]
 
 
 class ReleaseTests(unittest.TestCase):
@@ -157,7 +173,7 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(publish(self.root, self.env, fake)['action'], 'create')
         self.assertFalse(fake.release['draft'])
         listings = [args for args in fake.calls if args[:4] == ['gh', 'api', '--paginate', '--slurp']]
-        self.assertEqual(len(listings), 1)
+        self.assertEqual(len(listings), 2)
 
     def test_resumes_draft_and_retains_matching_existing_asset(self):
         asset = self.asset('SETUP.md')
@@ -182,6 +198,54 @@ class ReleaseTests(unittest.TestCase):
         uploaded = {Path(args[4]).name for args in fake.calls if args[:3] == ['gh', 'release', 'upload']}
         self.assertTrue(uploaded.isdisjoint(a['name'] for a in retained))
         self.assertFalse(fake.release['draft'])
+
+    def test_newer_stable_release_skips_old_draft_before_any_mutation(self):
+        asset = self.asset('SETUP.md')
+        fake = FakeCommands(self.root, self.draft([asset]), HEAD)
+        fake.other_releases.append(release_entry('v0.2.2', 22))
+        self.assertEqual(publish(self.root, self.env, fake)['action'], 'superseded')
+        self.assertEqual(fake.release, self.draft([asset]))
+        self.assertEqual(fake.mutations(), [])
+        with patch.object(sys, 'argv', ['release.py', '--execute']), \
+                patch('release.publish', side_effect=lambda: publish(self.root, self.env, fake)), \
+                patch('release.retain_previous_releases') as retain:
+            main()
+        retain.assert_not_called()
+        self.assertEqual(fake.mutations(), [])
+
+    def test_newer_release_appearing_during_upload_keeps_old_release_a_draft(self):
+        fake = FakeCommands(self.root, self.draft([self.asset('SETUP.md')]), HEAD)
+        fake.next_listing_releases = [release_entry('v0.10.0', 22)]
+        self.assertEqual(publish(self.root, self.env, fake)['action'], 'superseded')
+        self.assertTrue(fake.release['draft'])
+        self.assertTrue(fake.mutations())
+        self.assertTrue(all(args[:3] == ['gh', 'release', 'upload'] for args in fake.mutations()))
+
+    def test_retention_skips_when_newer_stable_exists_even_if_legacy_names_old_latest(self):
+        fake = FakeCommands(self.root)
+        fake.other_releases.append(release_entry('v0.2.2', 22))
+        self.assertEqual(fake.latest, TAG)
+        retain_previous_releases(TAG, fake)
+        self.assertEqual(fake.mutations(), [])
+
+    def test_retention_deletes_only_older_published_stable_release_entries(self):
+        fake = FakeCommands(self.root)
+        fake.other_releases.extend([
+            release_entry('v0.0.10', 2),
+            release_entry('v0.2.0-rc.1', 3, prerelease=True),
+            release_entry('v0.3.0', 4, draft=True),
+            release_entry('special', 5),
+            release_entry(TAG, 17),
+        ])
+        retain_previous_releases(TAG, fake)
+        self.assertEqual({release['id'] for release in fake.other_releases}, {3, 4, 5, 17})
+
+    def test_retention_requires_github_to_confirm_expected_latest(self):
+        fake = FakeCommands(self.root)
+        fake.latest = 'v0.0.1'
+        with self.assertRaisesRegex(ValueError, 'as the latest release'):
+            retain_previous_releases(TAG, fake)
+        self.assertEqual(fake.mutations(), [])
 
     def test_missing_server_asset_prevents_publication(self):
         fake = FakeCommands(self.root)

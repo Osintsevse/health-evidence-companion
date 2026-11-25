@@ -3,7 +3,6 @@ name: Publish plugin release
 on:
   push:
     branches: [main]
-    tags: ['v*']
     paths:
       - plugin.json
       - .github/workflows/release.yml
@@ -14,15 +13,14 @@ permissions:
   contents: read
 
 concurrency:
-  group: plugin-release-${{ github.sha }}
+  group: plugin-release-main
   cancel-in-progress: false
 
 jobs:
   release:
     if: >-
       github.repository == 'Osintsevse/health-evidence-companion' &&
-      (github.ref == 'refs/heads/main' ||
-       (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')))
+      github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -30,11 +28,13 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          # Keep origin/main at the fetched branch tip when rerunning an older SHA.
+          ref: ${{ github.sha }}
           persist-credentials: false
           fetch-depth: 0
       - name: Verify reviewed main ancestry
         run: |
-          git merge-base --is-ancestor HEAD origin/main
+          git merge-base --is-ancestor HEAD refs/remotes/origin/main
       - name: Validate and test
         run: |
           python3 scripts/validate.py
@@ -42,7 +42,7 @@ jobs:
           python3 -m unittest discover -s examples/drugbank -v
       - name: Build archives and checksums
         run: python3 scripts/build.py
-      - name: Publish GitHub assets
+      - name: Publish GitHub assets and retain the latest stable release
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}

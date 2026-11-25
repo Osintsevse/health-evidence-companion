@@ -14,7 +14,7 @@ from sync_references import MAP, SEARCH_SKILLS, destination, expected
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {'.codex-plugin/plugin.json', '.claude-plugin/plugin.json', 'plugin.json', 'LICENSE', 'NOTICE.md', 'PRIVACY.md', 'TERMS.md'}
 TEXT_SUFFIXES = {'.md', '.json', '.csv', '.py', '.yaml', '.yml', '.svg', '.txt', '.html', '.mjs', '.css'}
-SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv'}
+SKIP_DIRS = {'.git', 'dist', '__pycache__', '.venv', 'worktrees'}
 SOURCE_MANIFEST = Path('scripts/source-files.txt')
 # Both stored and expanded size stay bounded despite per-skill reference copies.
 MAX_ARCHIVE_BYTES = 100 * 1024 * 1024

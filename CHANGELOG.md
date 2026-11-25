@@ -6,6 +6,11 @@
 - Add public and private care pathways in Russia and Serbia. Correct an instruction that could delay a Serbian ambulance call.
 - Add a dated update on healthy ageing, physical function and human studies, with trial registrations identified separately from outcomes.
 
+## 0.10.2 - 2026-11-25
+
+- Exclude local task worktrees from source scans while preserving the package allowlist.
+- Build release archives only from main and keep the latest published release.
+
 ## 0.10.1 - 2026-11-24
 
 - Add age-specific calcium intake references and practical infant/toddler food guidance to the fontanel module.
