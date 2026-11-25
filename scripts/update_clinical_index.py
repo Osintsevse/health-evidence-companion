@@ -24,6 +24,7 @@ def render(root=ROOT):
       '| Psychiatric medicines, cognition and dementia | health-mental-health; [NEURO](NEURO.md); adult psychological skills retain their separate scope |',
       '| Child from birth to the fifth birthday | health-family-care; [PEDIATRICS](PEDIATRICS.md), [preventive care and plans](PEDIATRIC_CARE.md), [fontanels/head shape](FONTANELS.md) |',
       '| Postnatal cranial ultrasound, ventricular enlargement or suspected raised intracranial pressure | health-family-care; [pediatric neurosonography](PEDIATRIC_NEUROSONOGRAPHY.md) |',
+      '| Treatment proposals or prognosis for pediatric ventricular enlargement | health-family-care and health-medicine-info; [pediatric treatment and prognosis](PEDIATRIC_NEUROSONOGRAPHY.md#treatment-and-prognosis-depend-on-the-diagnosis) |',
       '| Pelvic pain, endometriosis and fertility | health-family-care; [ENDOMETRIOSIS](ENDOMETRIOSIS.md); new acute symptoms still use emergency triage |',
       '| Function, older age, rehabilitation or massage | health-prevention / health-family-care; [AGEING_REHAB](AGEING_REHAB.md) |','',
       '## Topic, evidence and coverage map','',

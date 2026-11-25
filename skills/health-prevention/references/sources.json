@@ -8446,8 +8446,8 @@
     "title": "AWMF S2k 006-102 v2.0: Hydrocephalus in childhood",
     "url": "https://register.awmf.org/de/leitlinien/detail/006-102",
     "region": "Germany and Austria",
-    "retrieval_status": "Selected society-hosted full-text sections read: 5, 6.1–6.4, 6.7, 6.9, 7.1 and 8.2. Version confirmed using AWMF release metadata.",
-    "use": "Age-dependent findings, clinical interpretation of size, technical and ophthalmological limits, and questions for pediatric follow-up.",
+    "retrieval_status": "Selected society-hosted full-text sections read: 4.1, 4.6, 5, 6.1–6.4, 6.7, 6.9, 7.1, 7.2, 7.4, 8.2, 8.4, 9.1 and 9.2. Version confirmed using AWMF release metadata.",
+    "use": "Age-dependent findings, imaging and pressure limits, clinical interpretation, selected treatment options and long-term follow-up.",
     "checked_on": "2026-11-25"
   },
   {
@@ -8511,6 +8511,87 @@
     "region": "United States",
     "retrieval_status": "Read original methods, results, clinical implications, limitations and licence.",
     "use": "Consider clinical findings and developmental history alongside imaging at referral review.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S947",
+    "title": "AANS/CNS: Pediatric hydrocephalus evidence-based guidelines",
+    "url": "https://www.cns.org/guidelines/pediatric-hydrocephalus-guideline/",
+    "region": "United States",
+    "retrieval_status": "Read Parts 2, 4 and 10 recommendations and relevant supporting discussion.",
+    "use": "Scope the recommendations against selected preterm treatments and explain established surgical options and limits of ventricular-size outcomes.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S948",
+    "title": "Kennedy et al.: Acetazolamide and furosemide in posthemorrhagic ventricular dilation in infancy, one-year follow-up",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11533324/",
+    "region": "Multicenter",
+    "retrieval_status": "Read author abstract, including reported randomized outcomes at one year. Full article not read.",
+    "use": "Describe the clinical outcome and harm signal for the combined regimen in the randomized premature-infant cohort.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S949",
+    "title": "Nitzan-Luques et al.: Improving pediatric idiopathic intracranial hypertension care",
+    "url": "https://www.nature.com/articles/s41598-022-23960-w",
+    "region": "Israel",
+    "retrieval_status": "Read methods, treatment results, discussion, limitations and publisher licence.",
+    "use": "Identify actual specialist acetazolamide use for a separate diagnosed condition and the role of clinical and visual follow-up.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S950",
+    "title": "Vinchon et al.: Adult outcome of pediatric hydrocephalus",
+    "url": "https://link.springer.com/article/10.1007/s00381-012-1723-y",
+    "region": "France",
+    "retrieval_status": "Read methods, long-term surgical and functional outcomes, discussion and licence.",
+    "use": "Explain the range of long-term functional outcomes and possibility of late shunt revision after surgical treatment.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S951",
+    "title": "Zahl et al.: Long-term functional and quality-of-life follow-up of benign external hydrocephalus",
+    "url": "https://link.springer.com/article/10.1007/s00381-018-4016-2",
+    "region": "Norway",
+    "retrieval_status": "Read case definition, QoL and physician-reported results, limitations and licence.",
+    "use": "Describe variable school and developmental outcomes in a separate diagnosed imaging pattern.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S952",
+    "title": "Tenoten for Children oral drops: Russian product characteristics",
+    "url": "https://tenoten-deti.ru/docs/TED_drop_ohlp.pdf",
+    "region": "Russia",
+    "retrieval_status": "Read indication, pediatric use and contraindications in sections 4.1–4.3 and registration identifier in section 8.",
+    "use": "Verify formulation-specific age and indication in a public example of product-label applicability.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S953",
+    "title": "Tenoten for Children lozenges: Russian product characteristics",
+    "url": "https://tenoten-deti.ru/upload/OXLP_Tenoten_detskyi_tabletki.pdf",
+    "region": "Russia",
+    "retrieval_status": "Read indication, pediatric use and contraindications in sections 4.1–4.3 and registration and revision details in sections 8–10.",
+    "use": "Distinguish the lozenge indications and age from those of drops under the same brand.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S954",
+    "title": "ClinicalTrials.gov NCT03159611: Tenoten for Children liquid formulation trial",
+    "url": "https://clinicaltrials.gov/study/NCT03159611",
+    "region": "Russia",
+    "retrieval_status": "Read design, enrollment, eligibility and outcome fields in the ClinicalTrials.gov record.",
+    "use": "Check whether the studied age, diagnosis and outcome apply to the proposed use.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S955",
+    "title": "FDA: Understanding unapproved use of approved drugs",
+    "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+    "region": "United States",
+    "retrieval_status": "Read scope, examples and questions to ask before an off-label use.",
+    "use": "Frame questions about rationale, evidence, alternatives and monitoring for off-label use.",
     "checked_on": "2026-11-25"
   }
 ]

@@ -6181,6 +6181,85 @@
         "S942",
         "S946"
       ]
+    },
+    {
+      "id": "pediatric-neurosonography.treatment-and-prognosis",
+      "title": "Explain follow-up, treatment and prognosis for pediatric ventricular findings",
+      "triggers": [
+        "ventriculomegaly prognosis",
+        "hydrocephalus prognosis",
+        "shunt versus ETV",
+        "development after hydrocephalus",
+        "BESS prognosis"
+      ],
+      "minimum_context": [
+        "Age, symptoms and developmental trajectory",
+        "Radiology impression and whether a diagnosis and cause have been established",
+        "Relevant prior procedures, current findings and specialist plan"
+      ],
+      "actions": [
+        "Separate surveillance for a clinically reviewed stable finding from management of confirmed progressive or symptomatic hydrocephalus.",
+        "Explain that shunt and ETV decisions depend on cause, anatomy, age and prior treatment.",
+        "Discuss functional follow-up and late treatment failure with the limits of cohort evidence."
+      ],
+      "avoid": [
+        "Individual prognosis from ventricular size or a term such as mild or benign",
+        "Assigning surgical candidacy from age, one report or published population results",
+        "Using BESS outcomes as the prognosis for isolated ventriculomegaly"
+      ],
+      "escalation": "Current severe deterioration or suspected shunt malfunction takes priority over prognosis and treatment comparison.",
+      "source_ids": [
+        "S939",
+        "S947",
+        "S950",
+        "S951"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.treatment-evidence",
+      "title": "Check evidence for a pediatric hydrocephalus treatment proposal",
+      "triggers": [
+        "mild ventriculomegaly medicine",
+        "acetazolamide and furosemide for hydrocephalus",
+        "serial lumbar punctures to avoid shunt",
+        "nootropic for enlarged ventricles",
+        "Tenoten for intracranial pressure",
+        "homeopathy for hydrocephalus",
+        "close fontanel with treatment"
+      ],
+      "minimum_context": [
+        "Age and indication or working diagnosis",
+        "Exact product, formulation, jurisdiction and stated treatment objective",
+        "Relevant diagnosis, current symptoms, alternatives, monitoring and follow-up"
+      ],
+      "actions": [
+        "Check evidence against an exact age group, diagnosis, intervention and clinical outcome.",
+        "Distinguish a population-specific recommendation against use from a label mismatch or evidence that addresses a different outcome.",
+        "Explain the preterm posthemorrhagic scope and keep diagnosed pediatric idiopathic intracranial hypertension separate.",
+        "For an unclear proposal, suggest questions about expected benefit, harm, alternatives and who monitors the outcome."
+      ],
+      "avoid": [
+        "Prescribing, stopping or switching medication",
+        "Equating an off-label proposal with incompetence or clinical benefit",
+        "Switching age ranges across formulations or extrapolating a sponsor trial that excluded the condition",
+        "Waiting for an unproven course when a child needs urgent assessment"
+      ],
+      "escalation": "Act on current danger signs first. Ask the prescriber or an appropriate specialist to clarify unresolved indication, age, formulation or monitoring concerns.",
+      "source_ids": [
+        "S114",
+        "S614",
+        "S819",
+        "S820",
+        "S939",
+        "S942",
+        "S947",
+        "S948",
+        "S949",
+        "S952",
+        "S953",
+        "S954",
+        "S955"
+      ]
     }
   ]
 }

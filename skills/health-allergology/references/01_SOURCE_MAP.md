@@ -7529,8 +7529,8 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S939 - AWMF S2k 006-102 v2.0: Hydrocephalus in childhood
 - URL: https://register.awmf.org/de/leitlinien/detail/006-102
 - Region: Germany and Austria
-- Reading status: Selected society-hosted full-text sections read: 5, 6.1–6.4, 6.7, 6.9, 7.1 and 8.2. Version confirmed using AWMF release metadata.
-- Purpose: Age-dependent findings, clinical interpretation of size, technical and ophthalmological limits, and questions for pediatric follow-up.
+- Reading status: Selected society-hosted full-text sections read: 4.1, 4.6, 5, 6.1–6.4, 6.7, 6.9, 7.1, 7.2, 7.4, 8.2, 8.4, 9.1 and 9.2. Version confirmed using AWMF release metadata.
+- Purpose: Age-dependent findings, imaging and pressure limits, clinical interpretation, selected treatment options and long-term follow-up.
 - Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
@@ -7587,5 +7587,77 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: United States
 - Reading status: Read original methods, results, clinical implications, limitations and licence.
 - Purpose: Consider clinical findings and developmental history alongside imaging at referral review.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S947 - AANS/CNS: Pediatric hydrocephalus evidence-based guidelines
+- URL: https://www.cns.org/guidelines/pediatric-hydrocephalus-guideline/
+- Region: United States
+- Reading status: Read Parts 2, 4 and 10 recommendations and relevant supporting discussion.
+- Purpose: Scope the recommendations against selected preterm treatments and explain established surgical options and limits of ventricular-size outcomes.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S948 - Kennedy et al.: Acetazolamide and furosemide in posthemorrhagic ventricular dilation in infancy, one-year follow-up
+- URL: https://pubmed.ncbi.nlm.nih.gov/11533324/
+- Region: Multicenter
+- Reading status: Read author abstract, including reported randomized outcomes at one year. Full article not read.
+- Purpose: Describe the clinical outcome and harm signal for the combined regimen in the randomized premature-infant cohort.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S949 - Nitzan-Luques et al.: Improving pediatric idiopathic intracranial hypertension care
+- URL: https://www.nature.com/articles/s41598-022-23960-w
+- Region: Israel
+- Reading status: Read methods, treatment results, discussion, limitations and publisher licence.
+- Purpose: Identify actual specialist acetazolamide use for a separate diagnosed condition and the role of clinical and visual follow-up.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S950 - Vinchon et al.: Adult outcome of pediatric hydrocephalus
+- URL: https://link.springer.com/article/10.1007/s00381-012-1723-y
+- Region: France
+- Reading status: Read methods, long-term surgical and functional outcomes, discussion and licence.
+- Purpose: Explain the range of long-term functional outcomes and possibility of late shunt revision after surgical treatment.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S951 - Zahl et al.: Long-term functional and quality-of-life follow-up of benign external hydrocephalus
+- URL: https://link.springer.com/article/10.1007/s00381-018-4016-2
+- Region: Norway
+- Reading status: Read case definition, QoL and physician-reported results, limitations and licence.
+- Purpose: Describe variable school and developmental outcomes in a separate diagnosed imaging pattern.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S952 - Tenoten for Children oral drops: Russian product characteristics
+- URL: https://tenoten-deti.ru/docs/TED_drop_ohlp.pdf
+- Region: Russia
+- Reading status: Read indication, pediatric use and contraindications in sections 4.1–4.3 and registration identifier in section 8.
+- Purpose: Verify formulation-specific age and indication in a public example of product-label applicability.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S953 - Tenoten for Children lozenges: Russian product characteristics
+- URL: https://tenoten-deti.ru/upload/OXLP_Tenoten_detskyi_tabletki.pdf
+- Region: Russia
+- Reading status: Read indication, pediatric use and contraindications in sections 4.1–4.3 and registration and revision details in sections 8–10.
+- Purpose: Distinguish the lozenge indications and age from those of drops under the same brand.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S954 - ClinicalTrials.gov NCT03159611: Tenoten for Children liquid formulation trial
+- URL: https://clinicaltrials.gov/study/NCT03159611
+- Region: Russia
+- Reading status: Read design, enrollment, eligibility and outcome fields in the ClinicalTrials.gov record.
+- Purpose: Check whether the studied age, diagnosis and outcome apply to the proposed use.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S955 - FDA: Understanding unapproved use of approved drugs
+- URL: https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label
+- Region: United States
+- Reading status: Read scope, examples and questions to ask before an off-label use.
+- Purpose: Frame questions about rationale, evidence, alternatives and monitoring for off-label use.
 - Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)

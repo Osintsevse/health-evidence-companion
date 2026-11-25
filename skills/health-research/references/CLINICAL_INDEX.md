@@ -17,6 +17,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | Psychiatric medicines, cognition and dementia | health-mental-health; [NEURO](NEURO.md); adult psychological skills retain their separate scope |
 | Child from birth to the fifth birthday | health-family-care; [PEDIATRICS](PEDIATRICS.md), [preventive care and plans](PEDIATRIC_CARE.md), [fontanels/head shape](FONTANELS.md) |
 | Postnatal cranial ultrasound, ventricular enlargement or suspected raised intracranial pressure | health-family-care; [pediatric neurosonography](PEDIATRIC_NEUROSONOGRAPHY.md) |
+| Treatment proposals or prognosis for pediatric ventricular enlargement | health-family-care and health-medicine-info; [pediatric treatment and prognosis](PEDIATRIC_NEUROSONOGRAPHY.md#treatment-and-prognosis-depend-on-the-diagnosis) |
 | Pelvic pain, endometriosis and fertility | health-family-care; [ENDOMETRIOSIS](ENDOMETRIOSIS.md); new acute symptoms still use emergency triage |
 | Function, older age, rehabilitation or massage | health-prevention / health-family-care; [AGEING_REHAB](AGEING_REHAB.md) |
 
@@ -39,7 +40,7 @@ Select the smallest relevant section. This is a reference graph for explanation,
 | [Under-five illness, urgent care and procedures](PEDIATRICS.md) | birth/newborn, young-infant fever, jaundice, reflux, croup/wheeze, seizures, dehydration/ORS, ear/urine/limb pain, medicine errors, batteries/magnets, pediatric tests and intervals | 37 / 18 / 18 |
 | [Well-child care, development and prevention under five](PEDIATRIC_CARE.md) | newborn contacts/screens/results, 2/4/6/9/12/15/18/24/30/36/48 month development, feeding/formula/solids, growth charts, safe sleep/activity/screens, teeth/hearing/vision, toileting, vaccines/catch-up navigation, local plans | 38 / 19 / 19 |
 | [Fontanelles, sutures, skull shape and head growth](FONTANELS.md) | anterior/posterior fontanel, closure variation, sutures/craniosynostosis, head circumference, bulging/sunken/pulsation, positional flattening/torticollis, vitamin D, brain/suture ultrasound, CT/MRI/referral/surgery | 25 / 11 / 12 |
-| [Cranial ultrasound and ventricular enlargement in young children](PEDIATRIC_NEUROSONOGRAPHY.md) | postnatal cranial ultrasound, repeat ventricular measurements, ventriculomegaly, hydrocephalus, intracranial pressure, papilledema, head-growth follow-up, shunt malfunction despite stable ventricles | 12 / 3 / 5 |
+| [Cranial ultrasound and ventricular enlargement in young children](PEDIATRIC_NEUROSONOGRAPHY.md) | postnatal cranial ultrasound, repeat ventricular measurements, ventriculomegaly, hydrocephalus, intracranial pressure, papilledema, head-growth follow-up, shunt malfunction despite stable ventricles, pediatric hydrocephalus prognosis, shunt or endoscopic third ventriculostomy, pediatric hydrocephalus treatment evidence, acetazolamide and furosemide, nootropic for enlarged ventricles | 25 / 5 / 8 |
 
 Counts measure navigation/provenance records, not independent studies, medical completeness or a validated pass rate. Sources may overlap between topics. Reusable synthetic cases are fixtures; executed checks are reported separately.
 
@@ -163,10 +164,11 @@ Original targeted synthesis excluding sources with explicit unverified AI-use re
 
 ### Cranial ultrasound and ventricular enlargement in young children
 
-Original English synthesis from selected society guideline sections, a prospective measurement study, primary clinical cohorts and retained under-five guidance. Actual reading and rights recorded per source.
+Original English synthesis from selected guideline sections, primary measurement and outcome reports, formulation-specific labeling and trial registry fields. Actual reading and rights recorded per source.
 
 - Compare written reports with scope for specialist image review. No image diagnosis, individualized ICP estimate, universal threshold or care interval.
 - Prenatal, preterm neonatal and postoperative evidence stays in its clinical setting. Practice and access depend on the treating service.
+- Treatment proposals require age-, formulation-, diagnosis- and outcome-specific evidence. No individualized treatment or prognosis.
 - Synthetic behavior checks and source review support maintainership. No clinical validation.
 
 ## Review output
