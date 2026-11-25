@@ -7525,3 +7525,67 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Purpose: Distinguish a registered target-area count and participant-rated coverage from evidence of an actual treatment effect.
 - Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
+
+### S939 - AWMF S2k 006-102 v2.0: Hydrocephalus in childhood
+- URL: https://register.awmf.org/de/leitlinien/detail/006-102
+- Region: Germany and Austria
+- Reading status: Selected society-hosted full-text sections read: 5, 6.1–6.4, 6.7, 6.9, 7.1 and 8.2. Version confirmed using AWMF release metadata.
+- Purpose: Age-dependent findings, clinical interpretation of size, technical and ophthalmological limits, and questions for pediatric follow-up.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S940 - Fandak et al.: Prospective measurement of cerebrospinal fluid space widths by cranial ultrasound in healthy children aged 0–19 months
+- URL: https://link.springer.com/article/10.1186/s12887-024-04797-w
+- Region: Switzerland
+- Reading status: Article methods, acquisition landmarks, reliability results, discussion limitations and licence inspected.
+- Purpose: Technical comparability and age-specific reference limitations in term-born infants and young children.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S941 - Krahulik et al.: Sensitivity of papilledema as a sign of increased intracranial pressure
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10136908/
+- Region: Czech Republic
+- Reading status: Methods, results, discussion and rights of the original article inspected.
+- Purpose: A normal fundus examination cannot rule out raised intracranial pressure in a child.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S942 - Canadian Pediatric Neurosurgery Study Group: Pediatric neurosurgery recommendations
+- URL: https://choosingwiselycanada.org/recommendation/pediatric-neurosurgery/
+- Region: Canada
+- Reading status: Read items 1 and 3 on initial macrocephaly imaging and follow-up imaging in established hydrocephalus.
+- Purpose: Clinical question, acoustic window, urgency and local resources affect ultrasound, MRI or CT selection.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S943 - Beijst et al.: Two-dimensional ultrasound versus MRI-derived ventricular volume in preterm infants with germinal matrix intraventricular haemorrhage
+- URL: https://link.springer.com/article/10.1007/s00247-019-04542-x
+- Region: Netherlands
+- Reading status: Read original cohort, ultrasound definitions, volume-model outcomes, discussion and licence.
+- Purpose: Distinguish named ultrasound dimensions and identify preterm hemorrhage as a separate population and outcome.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S944 - Valverde et al.: Posthemorrhagic ventricular dilatation late intervention threshold and associated brain injury
+- URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276446
+- Region: Spain
+- Reading status: Read ultrasound methods, cohort definition, outcomes, selected discussion and licence.
+- Purpose: Identify postmenstrual-age and neonatal hemorrhage protocol limits.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S945 - Cour-Andlauer et al.: Optic nerve sheath diameter and intracranial hypertension in children with severe brain injury
+- URL: https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2022.894449/full
+- Region: France
+- Reading status: Read study methods, paired ICP results, discussion, limitations and licence.
+- Purpose: Explain the context-dependent limitations of an indirect pressure proxy.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S946 - Rohde et al.: Clinical factors associated with need for neurosurgical care in young children with imaging for macrocephaly
+- URL: https://link.springer.com/article/10.1186/s12887-023-04379-2
+- Region: United States
+- Reading status: Read original methods, results, clinical implications, limitations and licence.
+- Purpose: Consider clinical findings and developmental history alongside imaging at referral review.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)

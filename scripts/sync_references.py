@@ -96,7 +96,7 @@ for _skill in ['health-record-import','health-record-design','health-research','
 
 CLINICAL_TOPICS = ['EMERGENCY','MEDICINES','NUTRITION','ANATOMY','CHRONIC','NEURO',
                    'SYMPTOMS','DIAGNOSTICS','NAVIGATION','AGEING_REHAB','ENDOMETRIOSIS','ARCHITECTURE',
-                   'PEDIATRICS','PEDIATRIC_CARE','FONTANELS']
+                   'PEDIATRICS','PEDIATRIC_CARE','FONTANELS','PEDIATRIC_NEUROSONOGRAPHY']
 CLINICAL_PACK = ['knowledge/clinical/'+name+'.md' for name in CLINICAL_TOPICS] + [
     'knowledge/clinical/CLINICAL_INDEX.md','knowledge/clinical/navigation.json',
     'knowledge/clinical/routes.json','knowledge/clinical/source-review.json',

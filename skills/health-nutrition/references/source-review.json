@@ -6384,6 +6384,102 @@
       "use": "Discuss assessed conservative options, without universal exercises or durations",
       "limitations": "Not a complete guideline/evidence-body appraisal or clinical validation; displayed review dates and update gaps retained.",
       "rights": "NHS-authored text: original factual synthesis with NHS/OGL attribution under docs/medical-source-attribution.md; no third-party tables, figures, tools or linked guideline content adopted."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s939",
+      "source_id": "S939",
+      "url": "https://register.awmf.org/de/leitlinien/detail/006-102",
+      "publication_version": "v2.0, released 2025-06-11; valid through 2029-04-30",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Selected society-hosted full-text sections read: 5, 6.1–6.4, 6.7, 6.9, 7.1 and 8.2. Version confirmed using AWMF release metadata.",
+      "use": "Age-dependent findings, clinical interpretation of size, technical and ophthalmological limits, and questions for pediatric follow-up.",
+      "limitations": "Consensus guidance. Specialist, neonatal and after-treatment recommendations stay in their own settings. PDF is linked from the module. No universal number, imaging schedule or treatment rule adopted.",
+      "rights": "Public guideline citation. AWMF's rights policy reserves reproduction and redistribution. Original factual synthesis, without copied or translated text, charts, figures or decision pathways. https://www.awmf.org/regelwerk/urheberinnen-und-verwertungsrechte-von-leitlinien"
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s940",
+      "source_id": "S940",
+      "url": "https://link.springer.com/article/10.1186/s12887-024-04797-w",
+      "publication_version": "BMC Pediatrics 24:315, 2024-05-07",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Article methods, acquisition landmarks, reliability results, discussion limitations and licence inspected.",
+      "use": "Technical comparability and age-specific reference limitations in term-born infants and young children.",
+      "limitations": "359 neurologically healthy children, range 1–599 days and median 46 days. Older ages sparse, readers used the same acquisitions. No serial change threshold or ICP measurement.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Findings paraphrased with attribution. Figures, tables and calculator excluded."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s941",
+      "source_id": "S941",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10136908/",
+      "publication_version": "Children 10:723, 2023-04-14",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Methods, results, discussion and rights of the original article inspected.",
+      "use": "A normal fundus examination cannot rule out raised intracranial pressure in a child.",
+      "limitations": "39 selected patients with elevated ICP in one neurosurgical center, mixed indications and ages. No negative-pressure comparison group or universal sensitivity estimate used.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Original short synthesis with attribution, no reused table."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s942",
+      "source_id": "S942",
+      "url": "https://choosingwiselycanada.org/recommendation/pediatric-neurosurgery/",
+      "publication_version": "August 2026 update",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Read items 1 and 3 on initial macrocephaly imaging and follow-up imaging in established hydrocephalus.",
+      "use": "Clinical question, acoustic window, urgency and local resources affect ultrasound, MRI or CT selection.",
+      "limitations": "Jurisdiction-specific recommendations. Initial evaluation and surveillance differ. No individual test order or fixed intervals derived.",
+      "rights": "Public professional recommendations linked. Original factual summary only, with no reproduced item wording, figure, downloadable tool or recommendation layout."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s943",
+      "source_id": "S943",
+      "url": "https://link.springer.com/article/10.1007/s00247-019-04542-x",
+      "publication_version": "Pediatric Radiology 50:234–241, 2020; online 2019-11-06",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Read original cohort, ultrasound definitions, volume-model outcomes, discussion and licence.",
+      "use": "Distinguish named ultrasound dimensions and identify preterm hemorrhage as a separate population and outcome.",
+      "limitations": "31 preterm infants, studied around term-equivalent age after germinal matrix intraventricular hemorrhage. Volume outcomes cannot measure ICP. No equation or cutoffs transferred.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Definitions summarized in original wording with attribution. No graphic, table or model copied."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s944",
+      "source_id": "S944",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276446",
+      "publication_version": "PLOS ONE 17:e0276446, 2022-10-27",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Read ultrasound methods, cohort definition, outcomes, selected discussion and licence.",
+      "use": "Identify postmenstrual-age and neonatal hemorrhage protocol limits.",
+      "limitations": "Retrospective single-center cohort of preterm infants. Clinical thresholds and treatments were not used for this postnatal reference outside the neonatal context.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Original short scope summary. No data, table or algorithm copied."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s945",
+      "source_id": "S945",
+      "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2022.894449/full",
+      "publication_version": "Frontiers in Pediatrics 10:894449, 2022",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Read study methods, paired ICP results, discussion, limitations and licence.",
+      "use": "Explain the context-dependent limitations of an indirect pressure proxy.",
+      "limitations": "97 analyzed pediatric intensive-care patients after severe brain injury, including 20 younger than two. Limited outpatient transfer. No diagnostic cutoff advanced.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Findings summarized with attribution, no reproduced figure or thresholds."
+    },
+    {
+      "topic": "pediatric-neurosonography",
+      "local_key": "pediatric-neurosonography-s946",
+      "source_id": "S946",
+      "url": "https://link.springer.com/article/10.1186/s12887-023-04379-2",
+      "publication_version": "BMC Pediatrics 23:555, 2023",
+      "checked_on": "2026-11-25",
+      "retrieval_status": "Read original methods, results, clinical implications, limitations and licence.",
+      "use": "Consider clinical findings and developmental history alongside imaging at referral review.",
+      "limitations": "Retrospective cohort of 1,293 already-imaged children under two. Limited parental and longitudinal measurements, subjective concern endpoint and few surgeries. No individual risk estimate or referral threshold.",
+      "rights": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Original attribution and qualitative summary. No reused data table or risk formula."
     }
   ],
   "limit": "Later targeted section reviews preserve original canonical IDs/history; not a whole-corpus refresh or systematic review."

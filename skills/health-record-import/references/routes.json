@@ -6073,6 +6073,114 @@
         "S627",
         "S625"
       ]
+    },
+    {
+      "id": "pediatric-neurosonography.compare-reports",
+      "title": "Compare serial postnatal cranial ultrasound reports",
+      "triggers": [
+        "repeat cranial ultrasound",
+        "neurosonography measurements",
+        "ventricular enlargement",
+        "ventricular index",
+        "anterior horn width"
+      ],
+      "minimum_context": [
+        "Scan dates and age at each scan",
+        "Exact structure, measurement label, side, plane, unit and landmarks when known",
+        "Radiologist's impression and current clinical concern"
+      ],
+      "actions": [
+        "Retain original wording and separate observed measurements from clinical interpretation.",
+        "Compare matching measurements only and keep uncertain comparisons as separate observations.",
+        "Prepare a focused question for pediatric radiology about change on original images and whether repeat imaging would affect care."
+      ],
+      "avoid": [
+        "Converting width to pressure",
+        "Pooling prenatal, neonatal and toddler thresholds",
+        "Universal millimetre threshold or attributing a cause from text alone"
+      ],
+      "escalation": "Urgent current symptoms take priority over reviewing old reports.",
+      "source_ids": [
+        "S939",
+        "S940",
+        "S943",
+        "S944"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.eye-and-urgency",
+      "title": "Interpret eye findings, current neurological symptoms and possible shunt problems",
+      "triggers": [
+        "papilledema",
+        "normal fundus",
+        "raised intracranial pressure",
+        "optic nerve sheath diameter",
+        "persistent bulging fontanel",
+        "shunt malfunction",
+        "shunt vomiting and unusual sleepiness",
+        "stable ventricles with new symptoms",
+        "endoscopic third ventriculostomy"
+      ],
+      "minimum_context": [
+        "Chronological age",
+        "Current alertness, breathing and new eye or neurological changes",
+        "Date and source of eye findings if this does not delay care",
+        "Existing hydrocephalus, shunt or endoscopic treatment plan"
+      ],
+      "actions": [
+        "Route severe current symptoms to local emergency help first.",
+        "Treat the dated eye examination as one part of the clinical assessment.",
+        "Explain the limits of absent papilledema and indirect pressure proxies.",
+        "Unexplained repeated vomiting and unusual sleepiness in a child with a shunt need immediate emergency assessment. Advise following the treating team's emergency plan without delaying care."
+      ],
+      "avoid": [
+        "Clearance from a normal fundus or unchanged ultrasound",
+        "Doppler or optic nerve sheath diameter pressure conversion",
+        "Requesting photos or repeat measurement before emergency action"
+      ],
+      "escalation": "Immediate emergency help for difficulty waking, seizure, abnormal breathing or rapid neurological deterioration. Emergency assessment now for a suspected shunt complication. Urgent in-person assessment for persistent tense bulging while calm or new sustained abnormal gaze.",
+      "source_ids": [
+        "S565",
+        "S622",
+        "S939",
+        "S941",
+        "S945"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.follow-up",
+      "title": "Prepare specialist follow-up for a ventricular or extra-axial finding",
+      "triggers": [
+        "stable ventricular size",
+        "changing head circumference",
+        "familial macrocephaly",
+        "enlarged subarachnoid spaces",
+        "pediatric neurosurgery follow-up"
+      ],
+      "minimum_context": [
+        "Dated head-growth measurements with chart and method",
+        "Symptoms and developmental trajectory",
+        "Radiology impression and image availability",
+        "Family context and any existing specialist plan"
+      ],
+      "actions": [
+        "Identify what imaging and the clinical trajectory each show.",
+        "Ask who reviews the findings, what would change the plan and when to recontact the treating team.",
+        "Explain how the clinical question and ultrasound window affect the clinician's choice of modality."
+      ],
+      "avoid": [
+        "Assuming family or birth history establishes cause",
+        "Stopping follow-up on the basis of the last scan",
+        "Universal scan interval, automatic MRI or procedure eligibility from a report"
+      ],
+      "escalation": "Reassess verified head-growth acceleration or new symptoms despite earlier stable imaging. Suspected shunt complication follows urgent specialist or emergency guidance.",
+      "source_ids": [
+        "S616",
+        "S634",
+        "S939",
+        "S942",
+        "S946"
+      ]
     }
   ]
 }
