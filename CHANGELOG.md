@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.12.1 - 2026-11-25
+
+- Document local DICOM viewing, preparation of radiograph exports, and the limits of chat-based and specialist imaging AI.
+
 ## 0.11.0 - 2026-11-25
 
 - Add adult sleep timing, nutrition, activity, smoking and alcohol, digestive symptoms, hair loss and dandruff guidance with scope and source reading records.

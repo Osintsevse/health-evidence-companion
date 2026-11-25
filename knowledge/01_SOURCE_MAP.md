@@ -7525,3 +7525,67 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Purpose: Distinguish a registered target-area count and participant-rated coverage from evidence of an actual treatment effect.
 - Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
+
+### S956 - OpenAI: Image inputs in ChatGPT and Codex
+- URL: https://learn.chatgpt.com/docs/image-inputs
+- Region: Global
+- Reading status: Read attachment instructions and Codex PNG/JPEG support. Product documentation checked 2026-11-25.
+- Purpose: Identify supported image-input formats and surface-specific handling.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S957 - OpenAI: ChatGPT Image Inputs FAQ
+- URL: https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq
+- Region: Global
+- Reading status: Read supported image formats and the medical limitations section. Product documentation checked 2026-11-25.
+- Purpose: Distinguish image input capability from supported medical use.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S958 - Lacaita et al.: The Accuracy of ChatGPT-4o in Interpreting Chest and Abdominal X-Ray Images
+- URL: https://www.mdpi.com/2075-4426/15/5/194
+- Region: Austria and Germany
+- Reading status: Read case selection, methods, results, discussion and article licence. Journal of Personalized Medicine 15(5):194, 2025. CC BY 4.0.
+- Purpose: Illustrate misses in a particular ChatGPT-4o experiment. Selected teaching cases and model version limit transfer to clinical populations, other models and other exams.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S959 - Weasis 4.8: Export DICOM Files and Images
+- URL: https://weasis.org/en/tutorials/dicom-export/
+- Region: Global
+- Reading status: Read current-view and original-image export documentation, identity masking and the project overview on local use. No installation or image test performed.
+- Purpose: Describe an optional local DICOM viewer and its PNG export, including retention of the original for clinical review.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S960 - RadiAnt: DICOM Viewer for Windows
+- URL: https://www.radiantviewer.com/
+- Region: Global
+- Reading status: Read the official Windows support and product overview, and the official store pricing page. No installation or image test performed.
+- Purpose: Identify a commercial Windows DICOM viewer alternative.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S961 - FDA: Gleamer BoneView 1.1-US, K222176
+- URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222176.pdf
+- Region: United States
+- Reading status: Read the indications and 510(k) summary sections on concurrent reading, anatomic regions and age groups. Public filing, 2023.
+- Purpose: Identify the bounded role of computer-aided fracture detection in specified radiographic exams. US device scope only.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S962 - FDA: Annalise Enterprise CXR Triage Pneumothorax, K213941
+- URL: https://www.accessdata.fda.gov/cdrh_docs/pdf21/K213941.pdf
+- Region: United States
+- Reading status: Read the indications and device workflow for adult chest radiograph prioritization. Public FDA filing.
+- Purpose: Identify a clinician worklist triage tool for suspected pneumothorax or tension pneumothorax. An output cannot rule out either condition.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S963 - DICOM PS3.15 2026e: Basic Application Level Confidentiality Options
+- URL: https://dicom.nema.org/medical/dicom/current/output/chtml/part15/sect_E.3.html
+- Region: Global
+- Reading status: Read Annex E.3, including the Clean Pixel Data Option. Technical standard, original fact summary only.
+- Purpose: Explain why checking burned-in identifiers is separate from masking display annotations or processing metadata.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)

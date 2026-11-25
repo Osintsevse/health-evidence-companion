@@ -19,6 +19,28 @@ Sources: S33-S38. Do not repeat advertising superlatives as facts.
 
 The 2024 RCT involving 50 physicians did not find a statistically significant diagnostic-reasoning improvement from access to the tested LLM over usual resources: medians 76% versus 74%, adjusted difference two percentage points, 95% CI -4 to 8. This was a specific model and limited case experiment, not evidence about every current system or the safety of self-treatment. [S39]
 
+## X-ray images, local viewers and clinical AI
+
+Documentation and evidence checked 2026-11-25. The workflow starts with plain radiography. For CT or MRI, a radiologist needs the complete study with its series or sequences and the clinical question. Use a written report or selected images for explanation within their scope. Module 30 covers private source handling and scope limits.
+
+### Prepare a study for review
+
+1. Keep the original DICOM study and radiologist's report in the authorized private location. Request the complete study from the imaging service for a medical second opinion. For a child's study, seek a radiologist experienced in pediatric imaging when available.
+2. Use a local DICOM viewer to open the study, inspect the available projections and adjust display contrast. [Weasis](https://weasis.org/en/index.html) is a free, open-source option with offline viewing and PNG export. [RadiAnt](https://www.radiantviewer.com/) is a commercial Windows viewer. Their documentation describes file handling. No viewer was installed or tested for this review. [S959, S960]
+3. For a report explanation in an image-capable chat, share only the relevant, authorized material. Provide the report text, age, body area and the question. If images are needed, export each relevant projection as a full, labeled PNG or JPEG. Check filenames, visible labels and any identifiers burned into the pixels. Preserve useful side and projection markers while hiding personal identifiers. A display export is a derivative with a chosen contrast and framing. A masked overlay alone does not clean all pixels or metadata. [S956, S957, S959, S963]
+4. Ask the assistant to identify the supplied views when labels are readable, explain the radiologist's wording, compare dated written reports and draft follow-up questions. Qualify missing views or uncertain labels. If the report is unavailable, ask for it and explain what information would help the reader. The clinical interpretation and any decision to rule out a finding belong to the treating team. [S957, S958]
+
+### Interpret evidence about an AI reader
+
+OpenAI documents PNG and JPEG input in Codex and medical limitations for ChatGPT image inputs. An image attachment establishes a way to provide visual context. In Lacaita et al.'s 2025 experiment, ChatGPT-4o identified pneumothorax in 21 of 51 selected cases. The authors used a curated teaching-case dataset and a specific model, so the fraction cannot estimate current chat performance, performance on a particular child or accuracy in a clinic's population. Article CC BY 4.0. This summary uses results and study methods, without redistributing images. [S956–S958]
+
+| Example | Documented purpose | Scope to check before clinical use |
+|---|---|---|
+| Gleamer BoneView 1.1-US | Highlights possible fractures for the clinician while reading radiographs. | The US filing includes specified anatomy, with selected pediatric and adolescent sites for ages 2 through 21. Verify the exact version, site, projection and local authorization. [S961] |
+| Annalise Enterprise CXR Triage Pneumothorax | Prioritizes adult chest radiographs for clinical review when pneumothorax or tension pneumothorax is suspected. | The US filing covers adult worklist triage. A negative alert cannot exclude pneumothorax. [S962] |
+
+Check device version, country, modality, anatomy, age group, target finding, clinical workflow and independent evidence before relying on a product claim. The examples describe particular US filings. Individual availability in other jurisdictions and local deployment were not checked. The package supplies this workflow as guidance. DICOM parsing, inference and connections to clinical imaging systems require separate tools.
+
 ## General care workflow design
 
 A separately authorized private environment can preserve originals and dated reports; maintain a current concise summary of conditions, allergies and actual medicine use; assess urgency; consult guidelines/local labels and interaction sources; prepare questions and follow-up; record actual clinical outcomes. This is a project design choice, not a comparative trial result. The distributed skills package supplies general explanations and blank templates only.
