@@ -8,6 +8,8 @@ Selected [foundational concepts](knowledge/27_FOUNDATIONS_AND_LEARNING_INDEX.md)
 
 The [learning programme](docs/learning-programme.md) defines question-level depth and review states. [Studied question cards](knowledge/42_STUDIED_QUESTIONS.md) add selected inference, GI and sleep explanations with remaining gaps.
 
+The [everyday health and prevention index](knowledge/00_INDEX.md#everyday-health-and-prevention) covers sleep schedules, activity, diet, digestive symptoms, hair and scalp care, smoking and alcohol, and finding a doctor in Russia or Serbia. The [healthy longevity update](knowledge/longevity/50_RESEARCH_UPDATE.md) describes what recent human studies measured. [Review scope and corrections](docs/everyday-health-review-2026-11.md)
+
 ## Install or send to a friend
 
 **[Download plugin ZIP](https://github.com/Osintsevse/health-evidence-companion/releases/latest/download/health-evidence-companion.zip)** · **[Quick setup](docs/quick-start.md)** · **[Setup prompt](docs/setup-prompt.txt)** · **[Releases](https://github.com/Osintsevse/health-evidence-companion/releases)**

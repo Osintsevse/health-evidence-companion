@@ -80,7 +80,7 @@ AHA's 2026 pattern emphasizes varied vegetables and fruit, whole grains, suitabl
 |---|---|---|
 | Elevated LDL | Replace some butter or fatty meat with non-tropical plant oil, beans, lentils, fish or suitable lower-fat dairy | Allergy, very low intake, renal restrictions, or severe triglyceride plan may alter choice |
 | More fibre | Add oats, legumes, whole grains, vegetables or whole fruit that the person tolerates | Swallowing difficulty or a prescribed gastrointestinal diet needs specific advice |
-| Less sodium | Compare breads, canned foods and sauces; choose lower-salt alternatives; use herbs or lemon | Potassium-based salt substitutes need review in CKD or heart failure |
+| Less sodium | Compare similar breads, canned foods and sauces. Herbs or lemon can add flavour. | Before using potassium-based salt in a shared dish, check who will eat it. WHO's conditional recommendation for adults excludes impaired potassium excretion and does not cover children or pregnancy. Kidney disease, certain medicines or an existing heart-failure plan warrant individual advice. S328 S888 |
 | Less free sugar | Replace some sweetened drinks with water; choose unsweetened alternatives | Hypoglycemia rescue and prescribed nutritional supplements have different roles |
 | Elevated triglycerides | Review alcohol, sweetened drinks, portions and secondary causes with clinician | Severe elevation needs a different therapeutic approach |
 | Limited budget | Use frozen vegetables, suitable canned pulses, seasonal foods and batch cooking | Check salt, allergy and food-storage requirements |

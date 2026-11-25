@@ -143,6 +143,34 @@
       "local_path": "57_LONGEVITY_AND_PREVENTION.md"
     },
     {
+      "canonical_path": "knowledge/58_ADULT_SLEEP_AND_REGULARITY.md",
+      "local_path": "58_ADULT_SLEEP_AND_REGULARITY.md"
+    },
+    {
+      "canonical_path": "knowledge/59_FINDING_CARE_RUSSIA_SERBIA.md",
+      "local_path": "59_FINDING_CARE_RUSSIA_SERBIA.md"
+    },
+    {
+      "canonical_path": "knowledge/60_DIGESTION_AND_FOOD_TOLERANCE.md",
+      "local_path": "60_DIGESTION_AND_FOOD_TOLERANCE.md"
+    },
+    {
+      "canonical_path": "knowledge/61_HAIR_SCALP_AND_DANDRUFF.md",
+      "local_path": "61_HAIR_SCALP_AND_DANDRUFF.md"
+    },
+    {
+      "canonical_path": "knowledge/62_TOBACCO_VAPING_AND_ALCOHOL.md",
+      "local_path": "62_TOBACCO_VAPING_AND_ALCOHOL.md"
+    },
+    {
+      "canonical_path": "knowledge/63_ACTIVITY_FOR_HEALTH.md",
+      "local_path": "63_ACTIVITY_FOR_HEALTH.md"
+    },
+    {
+      "canonical_path": "knowledge/64_HEALTHY_EATING_IN_PRACTICE.md",
+      "local_path": "64_HEALTHY_EATING_IN_PRACTICE.md"
+    },
+    {
       "canonical_path": "knowledge/EVIDENCE_METHODS.md",
       "local_path": "evidence-methods.md"
     },
@@ -229,6 +257,10 @@
     {
       "canonical_path": "knowledge/longevity/40_STATISTICS_GUIDE.md",
       "local_path": "longevity/40_STATISTICS_GUIDE.md"
+    },
+    {
+      "canonical_path": "knowledge/longevity/50_RESEARCH_UPDATE.md",
+      "local_path": "longevity/50_RESEARCH_UPDATE.md"
     },
     {
       "canonical_path": "knowledge/psychology/14_FOUNDATIONS.md",

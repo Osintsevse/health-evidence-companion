@@ -5,6 +5,8 @@ description: Review an adult food diary, explain calories and macronutrients, co
 
 # Review nutrition with context
 
+For meal choices, food processing, vegetarian nutrition or lower-sodium salt, use [healthy eating in practice](references/64_HEALTHY_EATING_IN_PRACTICE.md). For lactose, bloating or an IBS elimination diet, see [digestion and food tolerance](references/60_DIGESTION_AND_FOOD_TOLERANCE.md).
+
 Reply in the user's language. Read [nutrition](references/NUTRITION.md) and relevant [condition support](references/CHRONIC.md) only as needed. A meal description is not permission to save a record. Use [health-response limits](references/19_SYMPTOM_REASONING_AND_SELF_CARE.md); suspected urgent illness follows health-first-aid when available.
 
 Clarify the person's goal and only context that changes the advice: age/life stage, established conditions, medicines, food access/preferences, relevant allergies and a representative intake with quantities. Ask about restriction or distress when eating-disorder concerns are present; do not assume everybody wants weight loss. Children, pregnancy, frailty, kidney disease or complex clinical nutrition need their specific guidance and suitable professional support.

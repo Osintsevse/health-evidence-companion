@@ -68,7 +68,7 @@ For exposure history, targeted tests or allergy medicines, use health-allergolog
 
 ## Psychology and combined routing
 
-[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes the six psyops-* skills alongside the thirteen medical skills. The [psychology index](psychology/00_COMMON_INDEX.md) and its source register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
+[Unified routing and private record boundaries](35_UNIFIED_HEALTH_AND_PSYCHOLOGY.md) describes how the medical and psychology skills work together. The [psychology index](psychology/00_COMMON_INDEX.md) and its source register preserve the original reading history. [Qualified source catalog](source-catalog.json) connects both namespaces without treating overlapping IDs or URLs as interchangeable evidence.
 
 - [37: Genetic evidence sources, repeat review and external-data consent](37_GENETIC_EVIDENCE_SOURCES_AND_CONSENT.md)
 
@@ -105,4 +105,19 @@ The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and
 
 - [Detection, programme outcomes and attention tasks](52_DETECTION_OUTCOMES_AND_ATTENTION.md): selected hypertension evidence and adult sport-task appraisal; sampling models are in evidence methods.
 
-- [57 - Longevity, prevention and radical extension](57_LONGEVITY_AND_PREVENTION.md): bounded evidence cards, clinical recommendation scope, statistical interpretation and remaining research gaps.
+- [Treatment outcomes and diagnostic reasoning](53_TREATMENT_OUTCOMES_AND_DIAGNOSTIC_REASONING.md)
+- [Models, strategies and iron markers](54_MODELS_STRATEGIES_AND_IRON_MARKERS.md)
+- [Volume, infection and pregnancy](55_VOLUME_INFECTION_AND_PREGNANCY.md)
+- [Bilirubin and pubertal development](56_BILIRUBIN_AND_PUBERTAL_DEVELOPMENT.md)
+- [Longevity, prevention and radical extension](57_LONGEVITY_AND_PREVENTION.md)
+
+## Everyday health and prevention
+
+- [Building a regular sleep schedule, chronic insomnia and shift work](58_ADULT_SLEEP_AND_REGULARITY.md)
+- [Finding a doctor in Russia or Serbia](59_FINDING_CARE_RUSSIA_SERBIA.md)
+- [Digestive symptoms, lactose and dietary restriction](60_DIGESTION_AND_FOOD_TOLERANCE.md)
+- [Hair shedding, traction, dandruff and biotin](61_HAIR_SCALP_AND_DANDRUFF.md)
+- [Smoking, vaping, alcohol and support for change](62_TOBACCO_VAPING_AND_ALCOHOL.md)
+- [Physical activity, strength and mobility](63_ACTIVITY_FOR_HEALTH.md)
+- [Healthy eating in everyday life](64_HEALTHY_EATING_IN_PRACTICE.md)
+- [Recent human evidence on healthy longevity](longevity/50_RESEARCH_UPDATE.md)

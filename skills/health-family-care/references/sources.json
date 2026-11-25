@@ -7378,5 +7378,662 @@
     "retrieval_status": "Abstract only, read via a POPLINE bibliographic record on 2026-11-24 after direct PubMed access returned a challenge. The abstract describes 1,176 healthy infants aged 42-365 days, retrospective questionnaire exposure and measurements of bone-specific alkaline phosphatase and anterior-fontanel size. Full text, methods details and independent replication were not reviewed.",
     "use": "Limited evidence that fontanel size should not be used as a proxy for calcium status; not an intervention trial of closure timing",
     "checked_on": "2026-11-24"
+  },
+  {
+    "id": "S821",
+    "title": "NHLBI. Insomnia: Diagnosis. Updated 24 March 2022",
+    "url": "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+    "region": "United States; public adult sleep education",
+    "retrieval_status": "Read the diagnosis introduction, sleep diary, history and examination sections. One to two weeks is a suggested diary window, not a waiting period or a diagnostic test.",
+    "use": "Sleep diary content, workdays and free days, daytime effects and chronicity",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S822",
+    "title": "Wright et al. Management of shift work disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med, 2026",
+    "url": "https://doi.org/10.1007/s44470-026-00084-w",
+    "region": "United States guideline; adults with shift work disorder",
+    "retrieval_status": "Final guideline published 24 October 2026. Read selected recommendations, remarks and rationale on caffeine, pre-shift naps, rotation and circadian adaptation. The primary trials were not separately appraised. Article licence CC BY-NC-ND 4.0; factual synthesis only.",
+    "use": "Rotating and stable shifts, limits of circadian adaptation, conditional nap guidance and risk immediately after waking",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S823",
+    "title": "Cribb et al. Sleep regularity and mortality: a prospective analysis in the UK Biobank. eLife, 2023",
+    "url": "https://doi.org/10.7554/eLife.88359",
+    "region": "United Kingdom; prospective UK Biobank accelerometry sample",
+    "retrieval_status": "Read the version-of-record PDF dated 23 November 2023, including accelerometry, mortality ascertainment, primary results, time-varying estimates and limitations. No participant-level reanalysis. Article identifies a Creative Commons Attribution licence.",
+    "use": "Cohort estimate for all-cause mortality, exposure misclassification and limits on lifespan claims",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S824",
+    "title": "Thosar et al. Bedtime regularization as a potential adjunct therapy for hypertension: a proof-of-concept study. Sleep Advances, 2025",
+    "url": "https://doi.org/10.1093/sleepadvances/zpaf082",
+    "region": "United States; eleven adults with hypertension, ages 45–62",
+    "retrieval_status": "Read the authors' abstract, results and discussion/limitations via Europe PMC article XML and publisher record. No parallel control group; ten participants had complete 24-hour blood pressure. Article licence CC BY-NC-ND 4.0; factual synthesis only.",
+    "use": "Two-week bedtime intervention and within-person ambulatory blood pressure change; no event evidence",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S825",
+    "title": "Gardiner et al. Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial. Sleep, 2025 issue; online 2024",
+    "url": "https://doi.org/10.1093/sleep/zsae230",
+    "region": "Australia; young male habitual caffeine users",
+    "retrieval_status": "Read the authors' abstract, publisher advance PDF objective sleep results and limitations. Trial compared a single 100 mg or 400 mg administration with placebo at specified times. Article identifies CC BY 4.0. Supplements and individual-level data not appraised.",
+    "use": "Within-person dose/timing comparisons for sleep, uncertainty around extrapolating a cutoff",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S826",
+    "title": "Buysse et al. Combination treatment for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med, 2026",
+    "url": "https://doi.org/10.1007/s44470-025-00038-8",
+    "region": "United States guideline; adults with chronic insomnia disorder",
+    "retrieval_status": "Read final guideline dated 13 April 2026, definition of concurrent initiation, both recommendations, evidence rationale and limitations. Individual treatment trials and the separate systematic review were not reread. Article licence CC BY-NC-ND 4.0; factual synthesis only.",
+    "use": "CBT-I plus medication compared separately with either treatment alone, certainty, timing and scope",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S827",
+    "title": "Czeisler et al. Comparison of Sleep Regularity Index scores calculated by open-source packages and implications for outcomes research: rationale and design of the RIRI statement. Sleep, April 2026 issue",
+    "url": "https://doi.org/10.1093/sleep/zsaf299",
+    "region": "United Kingdom; accelerometry-based comparison",
+    "retrieval_status": "Original abstract and statement of significance read via the Europe PMC bibliographic API (PMID 41001850). No full-text appraisal, replication, supplementary tables or checklist reproduced. Publication issue and original online publication differ.",
+    "use": "Regularity estimates and exposure associations are sensitive to the calculation method",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S828",
+    "title": "US National Highway Traffic Safety Administration. Drowsy Driving",
+    "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+    "region": "United States road safety education",
+    "retrieval_status": "Read the public tips for avoiding drowsy driving and section on short-term interventions. No publication date inferred from the access date. This is public safety guidance, not occupational fitness certification.",
+    "use": "Safe stopping when sleepy, limits of caffeine, and planning the trip",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S829",
+    "title": "Bernabei et al. (2022), Multicomponent intervention to prevent mobility disability in frail older adults (SPRINTT)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9092831/",
+    "region": "11 European countries",
+    "retrieval_status": "PMC full-text methods, primary analysis, harms, discussion, funding and CC BY-NC 4.0 notice read. Supplement and patient-level data not reviewed.",
+    "use": "Time to mobility disability or death, falls and applicability in the prespecified physically impaired stratum.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S830",
+    "title": "Ryan et al. (2026), Validation of an intrinsic capacity index and the effects of aspirin in older males and females",
+    "url": "https://link.springer.com/article/10.1007/s11357-026-02624-x",
+    "region": "Australia and United States",
+    "retrieval_status": "2026-10-29 original secondary-analysis article: cohort, index, contrasts, interaction, limitations, funding and CC BY 4.0 notice read. Primary parent-trial paper not used.",
+    "use": "Separate prognostic validity from effects on function under randomized aspirin assignment and uncertainty in sex differences.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S831",
+    "title": "Cui et al. (2026), EAT-Lancet diet, accelerated biological aging, and type 2 diabetes risk",
+    "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1951780/full",
+    "region": "United Kingdom",
+    "retrieval_status": "2026-11-11 publisher article: selected methods, results, timing, limitations and funding sections and CC BY notice read. Supplements not fully reviewed.",
+    "use": "Diet-score association with incident diabetes and limits of biomarker mediation in UK Biobank.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S832",
+    "title": "Bekele et al. (2026), Effect of multivitamin–mineral supplementation on cardiovascular-related functional health status in older adults",
+    "url": "https://link.springer.com/article/10.1007/s11357-026-02657-2",
+    "region": "United States",
+    "retrieval_status": "2026-11-18 public publisher abstract and funding and conflict statements read. Subscription article and supplement not appraised. No open full-text licence asserted.",
+    "use": "Interpret small differences in prespecified secondary questionnaire outcomes without inferring disability-free survival.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S833",
+    "title": "ClinicalTrials.gov, VITAL-H: Validation & Intervention Testing for Aging, Longevity and Healthspan (NCT07923630)",
+    "url": "https://clinicaltrials.gov/study/NCT07923630",
+    "region": "United States",
+    "retrieval_status": "Sponsor-submitted API v2 status, design, arms, eligibility, primary outcome, sponsor and hasResults inspected. Record posted 2026-11-06. Dates and enrollment were estimated; no posted results.",
+    "use": "Status and planned functional endpoint only; registration supplies no clinical efficacy or safety result.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S834",
+    "title": "Tessier et al. (2025), Optimal dietary patterns for healthy aging",
+    "url": "https://www.nature.com/articles/s41591-025-03570-5",
+    "region": "United States",
+    "retrieval_status": "Selected publisher full-text methods, results, exclusions, limitations, funding and CC BY-NC-ND 4.0 notice read. No instruments or figures reproduced. Supplements not appraised.",
+    "use": "Operational definition of healthy ageing and association between long-term diet scores and a multi-domain outcome.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S835",
+    "title": "Leningrad Oblast compulsory health-insurance fund: locating participating providers and insurers",
+    "url": "https://lofoms.spb.ru/files/2024_vopros_n6.pdf",
+    "region": "Russia; Leningrad Oblast territorial fund",
+    "retrieval_status": "Read the complete one-page public fund explanation of national and territorial registers, addresses and service scope. No provider or benefit record was queried.",
+    "use": "Finding the regional participating-provider register and asking the payer about the specific service.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S836",
+    "title": "Toksovo hospital: booking a physician appointment using Gosuslugi",
+    "url": "https://www.trbzdrav.ru/patients/services/gosuslugi/making-an-appointment-with-a-doctor.php",
+    "region": "Russia; Leningrad Oblast provider instructions",
+    "retrieval_status": "Read the hospital instructions for the Gosuslugi service link, insurance details, attachment region, branch, slot and referral. No authenticated transaction was tested.",
+    "use": "Example of regional attachment and routine booking, including the federal portal link.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S837",
+    "title": "Moscow city polyclinic administrator FAQ: booking and referral",
+    "url": "https://pt.mos.ru/faq/",
+    "region": "Russia; Moscow city provider FAQ",
+    "retrieval_status": "Opened the sections on attachment, direct booking for listed specialties, referrals and help from the administrator. Local example, no live schedule checked.",
+    "use": "Shows why lists of directly bookable specialists should be checked locally.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S838",
+    "title": "Roszdravnadzor: Unified Register of Licences, public search",
+    "url": "https://roszdravnadzor.gov.ru/spec/services/licenses",
+    "region": "Russia; federal healthcare regulator",
+    "retrieval_status": "Inspected public search instructions and the form field accepting a licence number, organization name, INN or OGRN. No identifiable provider query or live licence extract.",
+    "use": "Official entry point to check the licence holder; specific premises and services still require checking the returned record.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S839",
+    "title": "Roszdravnadzor: how to obtain an extract from the licensing register",
+    "url": "https://www.roszdravnadzor.gov.ru/medactivities/licensing/faq/244",
+    "region": "Russia; federal healthcare regulator",
+    "retrieval_status": "Read the regulator FAQ on the public register and the electronically signed extract route through Gosuslugi. Neither extract service was used.",
+    "use": "Alternative to an ambiguous clinic search result; distinguishes a licensing extract from physician accreditation.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S840",
+    "title": "Russian Ministry of Health Order No. 118n of 13 March 2025: publication of provider and staff information",
+    "url": "https://dgp140.mos.ru/global_ruffe_tech/docs/118nmz2025.pdf",
+    "region": "Russia; federal order in an official Moscow polyclinic copy",
+    "retrieval_status": "Read the effective-date details, Appendix 1 obligations and item 6 on staff, education, specialty, validity and office hours. Also inspected listed information about paid services and prices. No provider compliance audit.",
+    "use": "Where a patient can look for a particular physician’s role and specialty credentials and for clinic pricing.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S841",
+    "title": "Federal Accreditation Centre: how professionals obtain their accreditation extract",
+    "url": "https://fca-rosminzdrav.ru/upload/docs/%D0%94%D0%BB%D1%8F_%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2%D1%8B%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%BE_%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B8_%D0%B0%D0%BA%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8_2%20%281%29.pdf",
+    "region": "Russia; federal accreditation centre",
+    "retrieval_status": "Read the centre’s instructions for the signed extract via a verified Gosuslugi account and the physician’s own account route. No personal account was accessed.",
+    "use": "This documented service is for the authenticated professional; it does not establish a public physician surname search.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S842",
+    "title": "Russian Government Resolution No. 631 of 8 May 2025: medical care for foreign nationals",
+    "url": "https://dgp140.mos.ru/global_ruffe_tech/docs/631prf2025.pdf",
+    "region": "Russia; federal rules in an official Moscow polyclinic copy",
+    "retrieval_status": "Read coverage categories in provisions 1–8 and the effective-date paragraph. The clinical meaning of an individual emergency, payer eligibility and specific bilateral agreements were not adjudicated.",
+    "use": "Distinguishes emergency care for life-threatening conditions from planned care, insured eligibility and treaty provisions.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S843",
+    "title": "Serbian Health Insurance Act: Gazette 25/2019, 92/2023 and 109/2025, articles 139–143",
+    "url": "https://www.vrh.sud.rs/sites/default/files/attachments/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%BE%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%D0%BC%20%D0%BE%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%9A%D1%83%20109-25.pdf",
+    "region": "Serbia; compulsory health insurance, Supreme Court-hosted text",
+    "retrieval_status": "Read the consolidated text's edition heading and articles 139–143 on physician choice, provider lists, patient capacity, declaration and specialist referral. The declaration and referral provisions also appear in RFZO's 2023 edition. No other sections or later amendments were exhaustively reviewed. Current operational access was checked against provider and eZdravlje instructions.",
+    "use": "Describes the chosen-doctor and specialist-referral pathway, with local confirmation of current requirements.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S844",
+    "title": "Serbian eZdravlje portal: patient help on booking and chosen doctor data",
+    "url": "https://portal.e-zdravlje.gov.rs/help",
+    "region": "Serbia; national e-health portal",
+    "retrieval_status": "Read the chosen-doctor booking, missing/stale assignment, synchronization and appointment-discrepancy answers. No portals were used while authenticated.",
+    "use": "Booking a routine chosen-doctor visit and resolving discrepancies with the local institution.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S845",
+    "title": "Dom zdravlja Novi Sad: booking via its contact centre",
+    "url": "https://dzns.rs/zakazivanje-kontakt-centar/",
+    "region": "Serbia; Novi Sad municipal primary health centre",
+    "retrieval_status": "Read the provider’s appointment, service information and branch coverage sections. No call, live schedule or completed booking.",
+    "use": "Local example of a direct route to resolve routine appointment questions.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S846",
+    "title": "Serbian Medical Chamber: physicians with a valid licence, October 2026 list",
+    "url": "https://www.lks.org.rs/clanovi-lks",
+    "region": "Serbia; Serbian Medical Chamber (LKS)",
+    "retrieval_status": "Opened the Chamber’s dated October 2026 landing page, five alphabetic surname group links, data-correction notice, and table header in the first linked PDF. No person-level result was retained.",
+    "use": "Public physician check including licence validity and reported specialty, limited by the date of the list.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S847",
+    "title": "Serbian Business Registers Agency: searches for healthcare providers",
+    "url": "https://www.apr.gov.rs/registri/zdravstvene-ustanove/pretraga-podataka.4394.html",
+    "region": "Serbia; Serbian Business Registers Agency (APR)",
+    "retrieval_status": "Opened the search landing page and read the distinctions between the institutions register and the consolidated search covering private practices/entrepreneurs as well. No provider search was run.",
+    "use": "Find a registered healthcare institution or private practice separately from checking a physician or an insurance contract.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S848",
+    "title": "Serbian Ministry of Foreign Affairs: social security agreements and cross-border health documentation",
+    "url": "https://www.msp.gov.rs/gradjani/usluge/sporazumi-o-socijalnom-osiguranju",
+    "region": "Serbia; foreign ministry",
+    "retrieval_status": "Read the health-insurance and certificate instructions for a temporarily visiting foreign insured person, home fund and local branch. No individual bilateral instrument or benefit decision was assessed.",
+    "use": "Identifies whom to consult about a specific reciprocal agreement and what a certificate route can require.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S849",
+    "title": "American Academy of Dermatology: Do you have hair loss or hair shedding?",
+    "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding",
+    "region": "United States",
+    "retrieval_status": "Read the AAD sections on timing after a stressor, coexisting patterns and asking a dermatologist. Patient education, without verification of all underlying studies.",
+    "use": "Delayed diffuse shedding and history for assessment",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S850",
+    "title": "American Academy of Dermatology: Hairstyles that pull can lead to hair loss (updated November 2024)",
+    "url": "https://www.aad.org/public/diseases/hair-loss/causes/hairstyles",
+    "region": "United States",
+    "retrieval_status": "Read traction exposures, early signs, styling changes and permanent loss sections. Guidance, without a quantified effect or an individual diagnosis.",
+    "use": "Reducing painful traction and seeking assessment early",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S851",
+    "title": "NIH Office of Dietary Supplements: Biotin, health professional fact sheet",
+    "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+    "region": "United States",
+    "retrieval_status": "Read hair, nails and skin evidence, deficiency and laboratory interference sections. This evidence summary cites small studies and case reports. Underlying trials were not reappraised.",
+    "use": "Limits of cosmetic hair claims and assay-dependent test interference",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S852",
+    "title": "FDA: Biotin interference with troponin lab tests",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference",
+    "region": "United States",
+    "retrieval_status": "Read the FDA safety notice and scope of its device list. No independent validation of listed assays, incidence estimate or universal washout interval.",
+    "use": "Some troponin assays can give falsely low results with biotin exposure",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S853",
+    "title": "ALIMS: Mycoseb 20 mg/g ketoconazole shampoo, summary of product characteristics (August 2020)",
+    "url": "https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-05111-19-001.pdf",
+    "region": "Serbia",
+    "retrieval_status": "Read product identity, indications, specified age, precautions, follow-up and revision in sections 1–4.4 and 8–10 of the official Serbian document, renewal 515-01-05111-19-001. Its current commercial availability was not verified.",
+    "use": "Historical exact-product example for dandruff and scalp seborrheic dermatitis",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S854",
+    "title": "Arcutis: US prescribing information for Zoryve roflumilast topical foam 0.3% (revised September 2026)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9e0b4a9-a227-4947-b00c-41fb18d16589",
+    "region": "United States",
+    "retrieval_status": "Read indication, hepatic contraindication, clinical study population, denominators and stratified week-8 estimates in section 14.1 of the DailyMed label. A sponsor label is not independent replication or proof of authorization elsewhere.",
+    "use": "STRATUM short-term, vehicle-controlled result for moderate to severe diagnosed seborrheic dermatitis",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S855",
+    "title": "NIDDK: Eating, diet and nutrition for lactose intolerance",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition",
+    "region": "United States",
+    "retrieval_status": "Read the sections on variation in tolerated amounts, low-lactose food options, calcium and vitamin D. Patient guidance, not a comparative trial for these options.",
+    "use": "Preserve acceptable foods and adequate nutrition after lactose intolerance is established",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S856",
+    "title": "NIDDK: Symptoms and causes of diarrhea",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes",
+    "region": "United States",
+    "retrieval_status": "Read adult symptoms, dehydration and when to seek medical help. Age and risk groups are distinguished. No individual severity scoring or telephone pathway assessed.",
+    "use": "Adult warning signs including bleeding, severe pain, repeated vomiting, altered mental state and dehydration",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S857",
+    "title": "NIDDK: Treatment of diarrhea",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment",
+    "region": "United States",
+    "retrieval_status": "Read the adult acute-diarrhea, fluids and electrolytes, return to food and antidiarrheal sections. No product labels or pediatric treatment protocols were appraised.",
+    "use": "Adult supportive care, comorbidity context and limitations on self-treatment with fever or bloody stool",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S858",
+    "title": "Monash University: Starting the low FODMAP diet",
+    "url": "https://www.monashfodmap.com/ibs-central/i-have-ibs/starting-the-low-fodmap-diet/",
+    "region": "Australia; patient education on diagnosed IBS",
+    "retrieval_status": "Read the programme purpose, initial trial and nonresponse, challenges, reintroduction and personalization. Programme developer also offers a commercial app. No app, questionnaire or commercial tool was reproduced or independently evaluated.",
+    "use": "Time-limited restriction followed by assessment and dietary re-expansion",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S859",
+    "title": "ASCIA: Cow's milk (dairy) allergy fast facts (June 2023)",
+    "url": "https://www.allergy.org.au/patients/fast-facts/cows-milk-dairy-allergy",
+    "region": "Australia and New Zealand",
+    "retrieval_status": "Read milk allergy, food substitution and severe reaction sections. Mainly pediatric educational context, with the milk-protein distinction applicable beyond infancy. No pediatric formula or home challenge protocol adopted.",
+    "use": "Lactose-free cow's milk still poses a milk-protein allergy risk",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S860",
+    "title": "Bertuccioli et al.: Adjunctive Galactol in adults with IBS following a low-FODMAP diet (23 November 2026)",
+    "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1953638/pdf",
+    "region": "Italy; two centres",
+    "retrieval_status": "Read the CC BY report's design, eligibility, allocation, participant flow, Table 2, limitations, funding and declared company relationships. Study registered as NCT07465562. No participant data or independent replication assessed.",
+    "use": "Short-term bloating scores with diet advice plus an enzyme blend versus diet advice alone, without placebo",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S861",
+    "title": "WHO clinical treatment guideline for tobacco cessation in adults (2024), section 3.3.1",
+    "url": "https://iris.who.int/bitstream/handle/10665/377825/9789240096431-eng.pdf",
+    "region": "Global",
+    "retrieval_status": "Selected recommendations 3.3.1 and publication rights notice read, including the option to use combination NRT. Full guideline and individual evidence tables not fully appraised. WHO CC BY-NC-SA 3.0 IGO.",
+    "use": "Adult cessation options, including a patch plus a short-acting NRT option, without individual dosing.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S862",
+    "title": "US National Cancer Institute, Smokefree.gov: Prepare to Quit",
+    "url": "https://smokefree.gov/quit-smoking/getting-started/prepare-to-quit",
+    "region": "United States",
+    "retrieval_status": "Preparation, quit date, cravings, triggers and support sections read. Tools and linked programs not tested.",
+    "use": "Voluntary quit planning and anticipatory coping.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S863",
+    "title": "CDC, Vaping and Quitting",
+    "url": "https://www.cdc.gov/tobacco/e-cigarettes/quitting.html",
+    "region": "United States",
+    "retrieval_status": "CDC's own public guidance sections on cessation, complete substitution, dual use, FDA status and uncertainty read. Underlying third-party reviews not appraised or reproduced.",
+    "use": "Distinguish adult substitution, continued dual use, youth prevention and US regulatory status.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S864",
+    "title": "NHS, Vaping to quit smoking",
+    "url": "https://www.nhs.uk/better-health/quit-smoking/ready-to-quit-smoking/vaping-to-quit-smoking/",
+    "region": "England",
+    "retrieval_status": "NHS Better Health sections on smoking cessation, complete switching, risks, young people, pregnancy and stopping vaping read. Linked commentary, media and reviews not appraised. NHS/OGL attribution retained.",
+    "use": "England-specific guidance for adult smokers and boundaries of long-term risk evidence.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S865",
+    "title": "Caponnetto et al. (2023), Varenicline and counseling for vaping cessation: a randomized placebo-controlled trial",
+    "url": "https://link.springer.com/article/10.1186/s12916-023-02919-2",
+    "region": "Italy",
+    "retrieval_status": "Selected peer-reviewed full-text methods, outcome definitions, follow-up, harms, limitations, funding, disclosures and CC BY 4.0 notice read. Complete supplements not audited. Pfizer-funded GRAND award.",
+    "use": "Cotinine-verified continuous abstinence among adults motivated to stop nicotine vaping; separate from quitting cigarettes and from local licensing.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S866",
+    "title": "WHO Regional Office for Europe, The RUS-AUDIT validation study protocol (2021)",
+    "url": "https://iris.who.int/bitstream/handle/10665/342073/9789289055727-eng.pdf",
+    "region": "Russian Federation",
+    "retrieval_status": "WHO publication date and the reference-unit definition in the questionnaire/conversion appendices checked. No instrument items, scoring or tables reproduced. No full instrument or national guideline appraisal.",
+    "use": "Ten grams ethanol per reference drink for this validated Russian-language instrument.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S867",
+    "title": "Government of Serbia, National programme for prevention of harmful alcohol use and alcohol-related disorders (2017)",
+    "url": "https://zdravlje.gov.rs/view_file.php?cache=sr&file_id=2043",
+    "region": "Serbia",
+    "retrieval_status": "Official programme PDF, Gazette issue 115 of 2017-12-22 and standard-drink definition section read. Current validity of other programme elements not assessed.",
+    "use": "The programme uses 13 g ethanol as its Serbian reference drink. Document-specific historical definition only.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S868",
+    "title": "NHS, Alcohol units",
+    "url": "https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/",
+    "region": "United Kingdom",
+    "retrieval_status": "Definition, ABV calculation and UK guidance for regular drinkers read. NHS/OGL attribution retained; no figures or conversion tables reproduced.",
+    "use": "8 g per UK unit, relation between ABV, volume and units, and the UK 14-unit weekly low-risk advice.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S869",
+    "title": "US National Institute on Alcohol Abuse and Alcoholism, What Is a Standard Drink?",
+    "url": "https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink",
+    "region": "United States",
+    "retrieval_status": "NIAAA provider text on 14 g ethanol and beverage strength read, including the indexed official page. Poster and images not reused.",
+    "use": "US unit and the distinction between a serving and a reference drink.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S870",
+    "title": "NHS, Alcohol-use disorder",
+    "url": "https://www.nhs.uk/conditions/alcohol-use-disorder/",
+    "region": "England",
+    "retrieval_status": "Public guidance on dependence, reducing/stopping, withdrawal signs including emergency symptoms, support and pregnancy read. NHS/OGL attribution retained. No clinician protocol, home taper or drug doses taken from this source.",
+    "use": "Recognize potentially dangerous withdrawal; prompt assessment and emergency referral when indicated, followed by ongoing support.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S871",
+    "title": "St Petersburg Research Institute of Phthisiopulmonology, national tobacco cessation telephone service",
+    "url": "https://www.spbniif.ru/klinicheskie-podrazdeleniya/konsultativnyy-telefonnyy-tsentr-pomoshchi-v-otkaze-ot-potrebleniya-tabaka-.php",
+    "region": "Russian Federation",
+    "retrieval_status": "Provider website procedure, number, extension, Moscow-time specialist hours and counselling scope read. Service not called. Copyright remains with provider.",
+    "use": "Locate the Russian cessation line and distinguish the specialist extension from general round-the-clock information.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S872",
+    "title": "Institute of Public Health of Serbia Dr Milan Jovanovic Batut, Ostavi pusenje",
+    "url": "https://ostavipusenje.rs/",
+    "region": "Serbia",
+    "retrieval_status": "Provider's displayed number, weekday hours and access to local counselling directory checked. Line not called.",
+    "use": "Serbian public telephone counselling for smoking cessation.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S873",
+    "title": "Batut, Directory of smoking cessation counselling centres",
+    "url": "https://ostavipusenje.rs/informacije-o-savetovalistima/",
+    "region": "Serbia",
+    "retrieval_status": "Batut directory and multiple listed local centres inspected. Capacity, opening hours and intake not confirmed by phone.",
+    "use": "Identify city-specific alternatives to the national quitline.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S874",
+    "title": "Moscow city polyclinic 46, directory of health-service information numbers",
+    "url": "https://gp46.mos.ru/spravochnaya-informatsiya/telefony-spravochnykh-sluzhb/",
+    "region": "Russia, Moscow",
+    "retrieval_status": "Public city clinic's listing of the Moscow narcology centre alcohol/drug counselling phone checked. No call, treatment eligibility or appointment confirmation.",
+    "use": "Moscow-specific routine addiction advice contact; not an emergency service.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S875",
+    "title": "Special Hospital for Addictive Disorders, Belgrade: Contact",
+    "url": "https://www.drajzerova.org.rs/kontakt",
+    "region": "Serbia, Belgrade",
+    "retrieval_status": "Hospital's public contact and address checked. No call, intake, insurance or payment verification.",
+    "use": "Telephone entry for questions about the first visit.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S876",
+    "title": "Special Hospital for Addictive Disorders, Belgrade: alcohol diagnosis and treatment department",
+    "url": "https://www.drajzerova.org.rs/node/23",
+    "region": "Serbia, Belgrade",
+    "retrieval_status": "Hospital's account of its alcohol assessment, counselling, triage and treatment services read. No real-time availability or admission criteria verified.",
+    "use": "Establish the department's stated scope and direct routine enquiries to the hospital.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S877",
+    "title": "NHS Better Health, Drink less",
+    "url": "https://www.nhs.uk/better-health/drink-less/",
+    "region": "England",
+    "retrieval_status": "Public tips on lower-strength alternatives, social activities and drink-free days read. NHS/OGL attribution retained. No apps or calculators tested.",
+    "use": "Practical reduction options after screening for withdrawal risks.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S878",
+    "title": "UK Department of Health and Social Care, Clinical guidelines for alcohol treatment, chapter 10",
+    "url": "https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/10-pharmacological-interventions",
+    "region": "United Kingdom",
+    "retrieval_status": "Original government guidance sections on history of seizures or complicated withdrawal and settings for medically assisted withdrawal read. NICE recommendations, drug doses and detailed treatment protocols not incorporated.",
+    "use": "Reasons to seek clinical planning before withdrawal, and individualized community versus specialist inpatient assessment.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S879",
+    "title": "CDC. How to Measure Physical Activity Intensity. Updated 4 December 2025",
+    "url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html",
+    "region": "United States; public adult activity guidance",
+    "retrieval_status": "Read relative versus absolute intensity, the talk test and examples. No individual fitness testing or exercise clearance.",
+    "use": "Practical relative intensity for aerobic activity",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S880",
+    "title": "CDC. What Counts as Physical Activity for Older Adults. Updated 4 December 2025",
+    "url": "https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html",
+    "region": "United States; community-dwelling adults aged 65 and older",
+    "retrieval_status": "Read aerobic, muscle-strengthening, balance and multicomponent activity sections. Descriptive examples, not a patient-specific training program.",
+    "use": "Examples of age-appropriate strength, endurance and balance activity",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S881",
+    "title": "CDC. Increasing Physical Activity among Adults with Disabilities",
+    "url": "https://www.cdc.gov/disability-and-health/conditions/physical-activity.html",
+    "region": "United States; adults living with disability",
+    "retrieval_status": "Read the activity guidance, barriers and adapted activity options. Reviewed starting from current abilities, gradual changes and accessible settings. No disease-specific rehabilitation protocol evaluated.",
+    "use": "Adapted aerobic and strengthening activity, short starts and practical access",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S882",
+    "title": "CDC. Strategies to Prevent Worsening of Symptoms in ME/CFS. 10 May 2024",
+    "url": "https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html",
+    "region": "United States; clinical care guidance for ME/CFS",
+    "retrieval_status": "Read the sections on post-exertional malaise and individual activity planning. Not a comparative efficacy trial or a prescription for a particular level of exercise.",
+    "use": "Activity management, delayed symptoms, avoidance of pushing beyond current tolerance",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S883",
+    "title": "CDC. Long COVID Clinical Guidance. 9 March 2026",
+    "url": "https://www.cdc.gov/long-covid/hcp/clinical-guidance/index.html",
+    "region": "United States; clinical care for people with long COVID",
+    "retrieval_status": "Read treatment, symptom management and post-exertional malaise sections. Individualized care; no long COVID diagnosis from a symptom alone.",
+    "use": "Recognizing delayed post-exertional symptom exacerbation and tailoring the plan",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S884",
+    "title": "Fromherz et al. Daily physical activity volume, intensity, and accumulation patterns in relation to all-cause mortality in the German National Cohort (NAKO). BMC Medicine, 2026",
+    "url": "https://doi.org/10.1186/s12916-026-05385-8",
+    "region": "Germany; prospective cohort aged 19–74",
+    "retrieval_status": "Read original population, baseline device measurement, mortality results, sensitivity analyses, limitations, disclosures and CC BY 4.0 notice. Published 10 November 2026, version of record dated 12 November. Supplements and participant-level data not independently appraised.",
+    "use": "Dose-response across observed movement volumes, confounding and limits of a baseline hip accelerometer",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S885",
+    "title": "Clemson et al. Integration of balance and strength training into daily life activity to reduce rate of falls in older people (the LiFE study): randomised parallel trial. BMJ, 2012",
+    "url": "https://doi.org/10.1136/bmj.e4547",
+    "region": "Australia; independently ambulant adults aged at least 70 at high risk of falls",
+    "retrieval_status": "Read the original publisher PDF, including participant criteria, home-based interventions, falls ascertainment, 12-month primary result and reported adverse events. Article specifies Creative Commons Attribution Non-commercial. Distinct from the US LIFE mobility trial.",
+    "use": "Rate of recurrent falls in a supported daily-life activity program and limits on transfer",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S886",
+    "title": "NHLBI. Physical Activity and Your Heart: Risks. Updated 24 March 2022",
+    "url": "https://www.nhlbi.nih.gov/health/heart/physical-activity/risks",
+    "region": "United States; general education on physical activity and cardiovascular risks",
+    "retrieval_status": "Read clinical symptom and cardiac-risk discussion, including fitness, intensity and known heart disease. This public overview does not establish fitness to compete.",
+    "use": "Exertional symptoms that need review and contextualizing vigorous effort",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S887",
+    "title": "Bates et al. Effectiveness of workshops to teach a home-based exercise program (BEST at Home) for preventing falls in community-dwelling people aged 65 years and over: a pragmatic randomised controlled trial. BMC Geriatrics, 2022",
+    "url": "https://doi.org/10.1186/s12877-022-03050-2",
+    "region": "Australia; community-dwelling older adults in New South Wales",
+    "retrieval_status": "Read intervention and comparator, 12-month fall outcome, denominators, confidence intervals, selected secondary findings and CC BY 4.0 declaration. No individual-level reanalysis.",
+    "use": "Inconclusive fall-rate effect with a workshop-delivered program; outcomes, comparators and applicability",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S888",
+    "title": "WHO: Use of lower-sodium salt substitutes (2025 guideline)",
+    "url": "https://www.who.int/publications/i/item/9789240105591",
+    "region": "Global; WHO guideline for discretionary table salt in adults",
+    "retrieval_status": "Opened WHO's guideline and inspected the WHO-hosted PDF recommendation, strength, discretionary-use scope, exclusions, potassium-handling and iodization remarks. Its recommendations do not cover industrial or restaurant salt substitutes.",
+    "use": "Conditional suggestion for eligible adults who add table salt; identifies people and uses outside that recommendation.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S889",
+    "title": "Dicken et al.: Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health (UPDATE, 2025)",
+    "url": "https://doi.org/10.1038/s41591-025-03842-0",
+    "region": "England; single-centre, community-based randomized crossover feeding trial",
+    "retrieval_status": "Read the original CC BY 4.0 article through PMC/Europe PMC: design, flow, primary weight outcome and confidence interval, sensitivity analyses, washout and authors' limitations. Supplemental datasets were not reanalysed. Licence: https://creativecommons.org/licenses/by/4.0/",
+    "use": "Short-term between-menu weight change in adults with excess weight and high habitual UPF intake; no disease or lifespan endpoint.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S890",
+    "title": "Thompson, Jennings, Bondonno, Cassidy and Kühn: Plant-Based Diets, Ultra-Processed Foods, and Risks of Mortality and Major Chronic Diseases (2026)",
+    "url": "https://doi.org/10.1016/j.lanepe.2026.101736",
+    "region": "United Kingdom; UK Biobank prospective cohort",
+    "retrieval_status": "Open-access version of record under CC BY 4.0 verified in the Europe PMC full-text XML. Read participant selection, score construction, outcomes, adjusted estimates, sensitivity analyses and limitations. First publication 2026-06-05; issue August 2026. No participant-level data or absolute risk differences analysed. Licence: https://creativecommons.org/licenses/by/4.0/",
+    "use": "Separate within-score quartile associations for type 2 diabetes; shared UK Biobank recruitment limits independence from other publications.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S891",
+    "title": "German Federal Institute for Risk Assessment (BfR): iodine intake and practical food sources, FAQ updated 13 October 2026",
+    "url": "https://www.bfr.bund.de/en/release/iodine-intake-in-germany-is-not-optimal-tips-for-ensuring-an-adequate-iodine-intake/",
+    "region": "Germany; federal food risk assessment agency",
+    "retrieval_status": "Read dated sections on iodine in plant-based beverages, dairy, seaweed variation, iodized salt and fortification. German regulatory or intake targets were not generalized to other countries.",
+    "use": "Check iodine separately on plant-drink labels; variable high iodine in seaweed makes intake from kelp difficult to predict.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S892",
+    "title": "van Oppenraaij, Weijs and Verlaan: Effects of a self-selected vegetarian compared with an omnivorous diet on protein intake and muscle mass in older adults during resistance exercise (IMPACT)",
+    "url": "https://doi.org/10.1016/j.ajcnut.2026.101533",
+    "region": "Netherlands; randomized 12-week noninferiority trial, older adults exercising",
+    "retrieval_status": "Version-of-record CC BY 4.0 confirmed in Crossref's article-specific licence record; Europe PMC also reports CC BY. Read the authors' Amsterdam UMC abstract and the Europe PMC bibliographic record, not the full methods or supplements. Online September 2026, November issue. Authors' abstract: https://pure.amsterdamumc.nl/en/publications/effects-of-a-self-selected-vegetarian-compared-with-an-omnivorous/ Licence: https://creativecommons.org/licenses/by/4.0/",
+    "use": "Interpreting noninferiority boundaries for protein intake and appendicular muscle mass under self-selected, unequally dosed diets and resistance training.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S893",
+    "title": "ClinicalTrials.gov NCT06172725: IMPACT study registration",
+    "url": "https://clinicaltrials.gov/study/NCT06172725",
+    "region": "Netherlands; investigator-submitted protocol registry",
+    "retrieval_status": "Inspected registry status, actual enrollment field, and primary outcome and time-frame fields via the public ClinicalTrials.gov v2 structured record. Counts differ by source: registry actual enrollment 110, article abstract reports 108. Participant flow was not reconciled from the full article.",
+    "use": "Corroborates planned protein-intake and DXA mass endpoints for the published IMPACT trial; not an independent outcome dataset.",
+    "checked_on": "2026-11-25"
   }
 ]

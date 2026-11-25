@@ -5,6 +5,8 @@ description: Find a suitable medical service or hospital in the user's current c
 
 # Find an appropriate service
 
+For routine care in Russia or Serbia, use [the country guide](references/59_FINDING_CARE_RUSSIA_SERBIA.md) for official booking, referral, insurance and professional registers. Verify the particular city, provider and payer before promising an appointment or coverage.
+
 Reply in the user's language. Read [care navigation](references/NAVIGATION.md). First distinguish a current time-critical emergency from urgent assessment, planned specialist care or routine prevention. If current danger is reported, use health-first-aid when available and emergency dispatch immediately; searching a network list or insurer approval must not delay needed care.
 
 Ask for current country/city or approximate area, urgency and the needed service. Residence, nationality, tourist status and insurance membership do not establish current location. Minimize identifiers; no policy number or full medical history is needed for a general search.
