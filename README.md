@@ -88,7 +88,7 @@ python3 -m unittest discover -s examples/drugbank -v
 python3 scripts/build.py
 ```
 
-PR/main CI produces candidate artifacts. After a reviewed version bump reaches main, release automation publishes versioned and stable-name plugin ZIPs, source ZIP, checksums, build report and setup files. Installed personal copies are snapshots and need an explicit update. GitHub publishing does not install or publish anything in ChatGPT. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).
+PR CI runs validation and tests. The release workflow builds and publishes ZIPs, checksums, the build report and setup files from `main`. The latest stable release remains available. Installed personal copies are snapshots and need an explicit update. See [maintainer setup](docs/maintainer-setup.md) and [distribution boundaries](docs/publication.md).
 
 - [22: Laboratory identity and owner feedback](knowledge/22_LAB_IDENTITY_AND_FEEDBACK.md) - multilingual display grouping, unit/scale distinctions and persistent clarification answers.
 
