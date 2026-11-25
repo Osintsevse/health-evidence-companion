@@ -4,6 +4,12 @@
 
 - Document local DICOM viewing, preparation of radiograph exports, and the limits of chat-based and specialist imaging AI.
 
+## 0.12.0 - 2026-11-25
+
+- Add source-linked guidance for reviewing repeat cranial ultrasound reports, ventricular enlargement, and suspected raised intracranial pressure in young children.
+- Cover pediatric hydrocephalus prognosis, established treatments and evidence checks for inappropriate or unsupported treatment proposals.
+- Document which measurements can be compared, the limits of a reassuring eye exam, emergency escalation and questions for pediatric follow-up.
+
 ## 0.11.0 - 2026-11-25
 
 - Add adult sleep timing, nutrition, activity, smoking and alcohol, digestive symptoms, hair loss and dandruff guidance with scope and source reading records.

@@ -64,6 +64,7 @@ docs/medical-expansion-review.md
 docs/medical-source-attribution.md
 docs/migration.md
 docs/open-source-audit-2026-10-17.md
+docs/pediatric-neurosonography-review.md
 docs/pediatrics-under-five-forward-checks.md
 docs/pediatrics-under-five-review.md
 docs/platforms.md
@@ -182,6 +183,7 @@ knowledge/clinical/NEURO.md
 knowledge/clinical/NUTRITION.md
 knowledge/clinical/PEDIATRICS.md
 knowledge/clinical/PEDIATRIC_CARE.md
+knowledge/clinical/PEDIATRIC_NEUROSONOGRAPHY.md
 knowledge/clinical/SYMPTOMS.md
 knowledge/clinical/intake-question-bank.json
 knowledge/clinical/navigation.json
@@ -324,6 +326,7 @@ skills/health-care-navigation/references/NEURO.md
 skills/health-care-navigation/references/NUTRITION.md
 skills/health-care-navigation/references/PEDIATRICS.md
 skills/health-care-navigation/references/PEDIATRIC_CARE.md
+skills/health-care-navigation/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-care-navigation/references/SYMPTOMS.md
 skills/health-care-navigation/references/evidence-methods.md
 skills/health-care-navigation/references/intake-question-bank.json
@@ -395,6 +398,7 @@ skills/health-contribute/references/NEURO.md
 skills/health-contribute/references/NUTRITION.md
 skills/health-contribute/references/PEDIATRICS.md
 skills/health-contribute/references/PEDIATRIC_CARE.md
+skills/health-contribute/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-contribute/references/SYMPTOMS.md
 skills/health-contribute/references/contributing.md
 skills/health-contribute/references/contribution-workflow.md
@@ -494,6 +498,7 @@ skills/health-explain/references/NEURO.md
 skills/health-explain/references/NUTRITION.md
 skills/health-explain/references/PEDIATRICS.md
 skills/health-explain/references/PEDIATRIC_CARE.md
+skills/health-explain/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-explain/references/SYMPTOMS.md
 skills/health-explain/references/archive_tables.json
 skills/health-explain/references/evidence-methods.md
@@ -564,6 +569,7 @@ skills/health-family-care/references/NEURO.md
 skills/health-family-care/references/NUTRITION.md
 skills/health-family-care/references/PEDIATRICS.md
 skills/health-family-care/references/PEDIATRIC_CARE.md
+skills/health-family-care/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-family-care/references/SYMPTOMS.md
 skills/health-family-care/references/evidence-methods.md
 skills/health-family-care/references/intake-question-bank.json
@@ -612,6 +618,7 @@ skills/health-first-aid/references/NEURO.md
 skills/health-first-aid/references/NUTRITION.md
 skills/health-first-aid/references/PEDIATRICS.md
 skills/health-first-aid/references/PEDIATRIC_CARE.md
+skills/health-first-aid/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-first-aid/references/SYMPTOMS.md
 skills/health-first-aid/references/intake-question-bank.json
 skills/health-first-aid/references/knowledge-search-map.json
@@ -650,6 +657,7 @@ skills/health-history-intake/references/NEURO.md
 skills/health-history-intake/references/NUTRITION.md
 skills/health-history-intake/references/PEDIATRICS.md
 skills/health-history-intake/references/PEDIATRIC_CARE.md
+skills/health-history-intake/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-history-intake/references/SYMPTOMS.md
 skills/health-history-intake/references/intake-question-bank.json
 skills/health-history-intake/references/knowledge-search-map.json
@@ -721,6 +729,7 @@ skills/health-medicine-info/references/NEURO.md
 skills/health-medicine-info/references/NUTRITION.md
 skills/health-medicine-info/references/PEDIATRICS.md
 skills/health-medicine-info/references/PEDIATRIC_CARE.md
+skills/health-medicine-info/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-medicine-info/references/SYMPTOMS.md
 skills/health-medicine-info/references/evidence-methods.md
 skills/health-medicine-info/references/free-medical-tools.md
@@ -793,6 +802,7 @@ skills/health-mental-health/references/NEURO.md
 skills/health-mental-health/references/NUTRITION.md
 skills/health-mental-health/references/PEDIATRICS.md
 skills/health-mental-health/references/PEDIATRIC_CARE.md
+skills/health-mental-health/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-mental-health/references/SYMPTOMS.md
 skills/health-mental-health/references/evidence-methods.md
 skills/health-mental-health/references/intake-question-bank.json
@@ -856,6 +866,7 @@ skills/health-nutrition/references/NEURO.md
 skills/health-nutrition/references/NUTRITION.md
 skills/health-nutrition/references/PEDIATRICS.md
 skills/health-nutrition/references/PEDIATRIC_CARE.md
+skills/health-nutrition/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-nutrition/references/SYMPTOMS.md
 skills/health-nutrition/references/evidence-methods.md
 skills/health-nutrition/references/intake-question-bank.json
@@ -926,6 +937,7 @@ skills/health-prevention/references/NEURO.md
 skills/health-prevention/references/NUTRITION.md
 skills/health-prevention/references/PEDIATRICS.md
 skills/health-prevention/references/PEDIATRIC_CARE.md
+skills/health-prevention/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-prevention/references/SYMPTOMS.md
 skills/health-prevention/references/evidence-methods.md
 skills/health-prevention/references/intake-question-bank.json
@@ -980,6 +992,7 @@ skills/health-record-design/references/NEURO.md
 skills/health-record-design/references/NUTRITION.md
 skills/health-record-design/references/PEDIATRICS.md
 skills/health-record-design/references/PEDIATRIC_CARE.md
+skills/health-record-design/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-record-design/references/SYMPTOMS.md
 skills/health-record-design/references/archive_tables.json
 skills/health-record-design/references/genetic-analysis-workflow.md
@@ -1052,6 +1065,7 @@ skills/health-record-import/references/NEURO.md
 skills/health-record-import/references/NUTRITION.md
 skills/health-record-import/references/PEDIATRICS.md
 skills/health-record-import/references/PEDIATRIC_CARE.md
+skills/health-record-import/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-record-import/references/SYMPTOMS.md
 skills/health-record-import/references/archive_tables.json
 skills/health-record-import/references/genetic-analysis-workflow.md
@@ -1159,6 +1173,7 @@ skills/health-research/references/NEURO.md
 skills/health-research/references/NUTRITION.md
 skills/health-research/references/PEDIATRICS.md
 skills/health-research/references/PEDIATRIC_CARE.md
+skills/health-research/references/PEDIATRIC_NEUROSONOGRAPHY.md
 skills/health-research/references/SYMPTOMS.md
 skills/health-research/references/evidence-methods.md
 skills/health-research/references/free-medical-tools.md

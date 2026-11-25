@@ -6073,6 +6073,193 @@
         "S627",
         "S625"
       ]
+    },
+    {
+      "id": "pediatric-neurosonography.compare-reports",
+      "title": "Compare serial postnatal cranial ultrasound reports",
+      "triggers": [
+        "repeat cranial ultrasound",
+        "neurosonography measurements",
+        "ventricular enlargement",
+        "ventricular index",
+        "anterior horn width"
+      ],
+      "minimum_context": [
+        "Scan dates and age at each scan",
+        "Exact structure, measurement label, side, plane, unit and landmarks when known",
+        "Radiologist's impression and current clinical concern"
+      ],
+      "actions": [
+        "Retain original wording and separate observed measurements from clinical interpretation.",
+        "Compare matching measurements only and keep uncertain comparisons as separate observations.",
+        "Prepare a focused question for pediatric radiology about change on original images and whether repeat imaging would affect care."
+      ],
+      "avoid": [
+        "Converting width to pressure",
+        "Pooling prenatal, neonatal and toddler thresholds",
+        "Universal millimetre threshold or attributing a cause from text alone"
+      ],
+      "escalation": "Urgent current symptoms take priority over reviewing old reports.",
+      "source_ids": [
+        "S939",
+        "S940",
+        "S943",
+        "S944"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.eye-and-urgency",
+      "title": "Interpret eye findings, current neurological symptoms and possible shunt problems",
+      "triggers": [
+        "papilledema",
+        "normal fundus",
+        "raised intracranial pressure",
+        "optic nerve sheath diameter",
+        "persistent bulging fontanel",
+        "shunt malfunction",
+        "shunt vomiting and unusual sleepiness",
+        "stable ventricles with new symptoms",
+        "endoscopic third ventriculostomy"
+      ],
+      "minimum_context": [
+        "Chronological age",
+        "Current alertness, breathing and new eye or neurological changes",
+        "Date and source of eye findings if this does not delay care",
+        "Existing hydrocephalus, shunt or endoscopic treatment plan"
+      ],
+      "actions": [
+        "Route severe current symptoms to local emergency help first.",
+        "Treat the dated eye examination as one part of the clinical assessment.",
+        "Explain the limits of absent papilledema and indirect pressure proxies.",
+        "Unexplained repeated vomiting and unusual sleepiness in a child with a shunt need immediate emergency assessment. Advise following the treating team's emergency plan without delaying care."
+      ],
+      "avoid": [
+        "Clearance from a normal fundus or unchanged ultrasound",
+        "Doppler or optic nerve sheath diameter pressure conversion",
+        "Requesting photos or repeat measurement before emergency action"
+      ],
+      "escalation": "Immediate emergency help for difficulty waking, seizure, abnormal breathing or rapid neurological deterioration. Emergency assessment now for a suspected shunt complication. Urgent in-person assessment for persistent tense bulging while calm or new sustained abnormal gaze.",
+      "source_ids": [
+        "S565",
+        "S622",
+        "S939",
+        "S941",
+        "S945"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.follow-up",
+      "title": "Prepare specialist follow-up for a ventricular or extra-axial finding",
+      "triggers": [
+        "stable ventricular size",
+        "changing head circumference",
+        "familial macrocephaly",
+        "enlarged subarachnoid spaces",
+        "pediatric neurosurgery follow-up"
+      ],
+      "minimum_context": [
+        "Dated head-growth measurements with chart and method",
+        "Symptoms and developmental trajectory",
+        "Radiology impression and image availability",
+        "Family context and any existing specialist plan"
+      ],
+      "actions": [
+        "Identify what imaging and the clinical trajectory each show.",
+        "Ask who reviews the findings, what would change the plan and when to recontact the treating team.",
+        "Explain how the clinical question and ultrasound window affect the clinician's choice of modality."
+      ],
+      "avoid": [
+        "Assuming family or birth history establishes cause",
+        "Stopping follow-up on the basis of the last scan",
+        "Universal scan interval, automatic MRI or procedure eligibility from a report"
+      ],
+      "escalation": "Reassess verified head-growth acceleration or new symptoms despite earlier stable imaging. Suspected shunt complication follows urgent specialist or emergency guidance.",
+      "source_ids": [
+        "S616",
+        "S634",
+        "S939",
+        "S942",
+        "S946"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.treatment-and-prognosis",
+      "title": "Explain follow-up, treatment and prognosis for pediatric ventricular findings",
+      "triggers": [
+        "ventriculomegaly prognosis",
+        "hydrocephalus prognosis",
+        "shunt versus ETV",
+        "development after hydrocephalus",
+        "BESS prognosis"
+      ],
+      "minimum_context": [
+        "Age, symptoms and developmental trajectory",
+        "Radiology impression and whether a diagnosis and cause have been established",
+        "Relevant prior procedures, current findings and specialist plan"
+      ],
+      "actions": [
+        "Separate surveillance for a clinically reviewed stable finding from management of confirmed progressive or symptomatic hydrocephalus.",
+        "Explain that shunt and ETV decisions depend on cause, anatomy, age and prior treatment.",
+        "Discuss functional follow-up and late treatment failure with the limits of cohort evidence."
+      ],
+      "avoid": [
+        "Individual prognosis from ventricular size or a term such as mild or benign",
+        "Assigning surgical candidacy from age, one report or published population results",
+        "Using BESS outcomes as the prognosis for isolated ventriculomegaly"
+      ],
+      "escalation": "Current severe deterioration or suspected shunt malfunction takes priority over prognosis and treatment comparison.",
+      "source_ids": [
+        "S939",
+        "S947",
+        "S950",
+        "S951"
+      ]
+    },
+    {
+      "id": "pediatric-neurosonography.treatment-evidence",
+      "title": "Check evidence for a pediatric hydrocephalus treatment proposal",
+      "triggers": [
+        "mild ventriculomegaly medicine",
+        "acetazolamide and furosemide for hydrocephalus",
+        "serial lumbar punctures to avoid shunt",
+        "nootropic for enlarged ventricles",
+        "Tenoten for intracranial pressure",
+        "homeopathy for hydrocephalus",
+        "close fontanel with treatment"
+      ],
+      "minimum_context": [
+        "Age and indication or working diagnosis",
+        "Exact product, formulation, jurisdiction and stated treatment objective",
+        "Relevant diagnosis, current symptoms, alternatives, monitoring and follow-up"
+      ],
+      "actions": [
+        "Check evidence against an exact age group, diagnosis, intervention and clinical outcome.",
+        "Distinguish a population-specific recommendation against use from a label mismatch or evidence that addresses a different outcome.",
+        "Explain the preterm posthemorrhagic scope and keep diagnosed pediatric idiopathic intracranial hypertension separate.",
+        "For an unclear proposal, suggest questions about expected benefit, harm, alternatives and who monitors the outcome."
+      ],
+      "avoid": [
+        "Prescribing, stopping or switching medication",
+        "Equating an off-label proposal with incompetence or clinical benefit",
+        "Switching age ranges across formulations or extrapolating a sponsor trial that excluded the condition",
+        "Waiting for an unproven course when a child needs urgent assessment"
+      ],
+      "escalation": "Act on current danger signs first. Ask the prescriber or an appropriate specialist to clarify unresolved indication, age, formulation or monitoring concerns.",
+      "source_ids": [
+        "S114",
+        "S614",
+        "S819",
+        "S820",
+        "S939",
+        "S942",
+        "S947",
+        "S948",
+        "S949",
+        "S952",
+        "S953",
+        "S954",
+        "S955"
+      ]
     }
   ]
 }
