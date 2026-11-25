@@ -90,6 +90,8 @@ Vitamin D is needed for active intestinal calcium absorption, but that mechanism
 
 ## Imaging and referral answer different questions
 
+For recurring ventricular findings on a postnatal report, use [cranial ultrasound and ventricular enlargement](PEDIATRIC_NEUROSONOGRAPHY.md) to review measurement comparability, signs of raised intracranial pressure and questions for the treating team.
+
 History, examination and serial growth review often come first for nonacute concerns. The Dutch multidisciplinary guideline recommends prompt referral when fusion is suspected without delaying it for extra local diagnostics. In its expertise-center pathway, expert skull ultrasound or radiographs can assess moderate suspicion, while low-dose three-dimensional CT addresses high suspicion and planning. This does not mean every small fontanel requires CT. S613
 
 Brain ultrasound through a fontanel examines brain structures and fluid spaces; it is useful in selected concerns such as hydrocephalus or prematurity-related assessment. Dedicated cranial-suture ultrasound asks whether particular seams remain open. "Normal brain ultrasound" should not become "all sutures open" unless the report actually answers that question. Ultrasound does not use ionizing radiation, but expertise, window availability and the indication matter. No reviewed source establishes routine brain ultrasound for every healthy infant. S629 S613

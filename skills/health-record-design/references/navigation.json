@@ -1358,6 +1358,90 @@
         "Closure distributions describe selected imaging samples; no universal deadline, probability score or photo clearance.",
         "Head-growth referral thresholds and imaging choices depend on the chart, jurisdiction, indication and specialist expertise."
       ]
+    },
+    {
+      "id": "pediatric-neurosonography",
+      "title": "Cranial ultrasound and ventricular enlargement in young children",
+      "module": "knowledge/clinical/PEDIATRIC_NEUROSONOGRAPHY.md",
+      "reference_name": "PEDIATRIC_NEUROSONOGRAPHY.md",
+      "skills": [
+        "health-family-care",
+        "health-explain",
+        "health-medicine-info",
+        "health-research"
+      ],
+      "keywords": [
+        "postnatal cranial ultrasound",
+        "repeat ventricular measurements",
+        "ventriculomegaly",
+        "hydrocephalus",
+        "intracranial pressure",
+        "papilledema",
+        "head-growth follow-up",
+        "shunt malfunction despite stable ventricles",
+        "pediatric hydrocephalus prognosis",
+        "shunt or endoscopic third ventriculostomy",
+        "pediatric hydrocephalus treatment evidence",
+        "acetazolamide and furosemide",
+        "nootropic for enlarged ventricles"
+      ],
+      "age_scope": {
+        "minimum_months": 0,
+        "maximum_months": 59,
+        "routing_age": "chronological",
+        "prematurity": "Apply postmenstrual age only inside the neonatal measurement context. Fetal or neonatal thresholds are not general postnatal criteria."
+      },
+      "source_ids": [
+        "S114",
+        "S565",
+        "S614",
+        "S616",
+        "S622",
+        "S634",
+        "S819",
+        "S820",
+        "S939",
+        "S940",
+        "S941",
+        "S942",
+        "S943",
+        "S944",
+        "S945",
+        "S946",
+        "S947",
+        "S948",
+        "S949",
+        "S950",
+        "S951",
+        "S952",
+        "S953",
+        "S954",
+        "S955"
+      ],
+      "route_ids": [
+        "pediatric-neurosonography.compare-reports",
+        "pediatric-neurosonography.eye-and-urgency",
+        "pediatric-neurosonography.follow-up",
+        "pediatric-neurosonography.treatment-and-prognosis",
+        "pediatric-neurosonography.treatment-evidence"
+      ],
+      "evaluation_ids": [
+        "pediatric-neurosonography.mixed-planes",
+        "pediatric-neurosonography.prior-normal-eye",
+        "pediatric-neurosonography.reference-transfer",
+        "pediatric-neurosonography.family-history",
+        "pediatric-neurosonography.known-shunt",
+        "pediatric-neurosonography.prognosis-by-diagnosis",
+        "pediatric-neurosonography.preterm-therapy-boundary",
+        "pediatric-neurosonography.product-label-mismatch"
+      ],
+      "reading_depth": "Original English synthesis from selected guideline sections, primary measurement and outcome reports, formulation-specific labeling and trial registry fields. Actual reading and rights recorded per source.",
+      "coverage_limits": [
+        "Compare written reports with scope for specialist image review. No image diagnosis, individualized ICP estimate, universal threshold or care interval.",
+        "Prenatal, preterm neonatal and postoperative evidence stays in its clinical setting. Practice and access depend on the treating service.",
+        "Treatment proposals require age-, formulation-, diagnosis- and outcome-specific evidence. No individualized treatment or prognosis.",
+        "Synthetic behavior checks and source review support maintainership. No clinical validation."
+      ]
     }
   ]
 }

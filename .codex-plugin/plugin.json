@@ -1,6 +1,6 @@
 {
   "name": "health-evidence-companion",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Evidence-based medical and adult psychological education with separate private-record workflows.",
   "author": {
     "name": "Osintsevse",
@@ -55,7 +55,7 @@
       },
       "onboardingSkill": "./skills/health-explain/SKILL.md",
       "publication": {
-        "release_notes": "Version 0.10.0 adds allergology, targeted test interpretation and allergy medicine comparisons with Serbian product labels and jurisdiction-specific warnings."
+        "release_notes": "Version 0.12.0 adds pediatric cranial ultrasound report comparison, ventricular enlargement and intracranial pressure education, and preparation for specialist follow-up."
       }
     }
   }

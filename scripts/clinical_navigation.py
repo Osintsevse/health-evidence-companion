@@ -5,7 +5,8 @@ from urllib.parse import urlsplit
 from sync_references import CLINICAL_TOPICS, MAP
 
 ROOT = Path(__file__).resolve().parents[1]
-UNDER_FIVE_MODULES = {'PEDIATRICS.md', 'PEDIATRIC_CARE.md', 'FONTANELS.md'}
+UNDER_FIVE_MODULES = {'PEDIATRICS.md', 'PEDIATRIC_CARE.md', 'FONTANELS.md',
+                      'PEDIATRIC_NEUROSONOGRAPHY.md'}
 
 
 def require(ok, message):
