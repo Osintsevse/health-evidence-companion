@@ -32,7 +32,7 @@ jobs:
           fetch-depth: 0
       - name: Verify reviewed main ancestry
         run: |
-          test "$(git rev-parse HEAD)" = "$(git ls-remote origin refs/heads/main | cut -f1)"
+          git merge-base --is-ancestor HEAD origin/main
       - name: Validate and test
         run: |
           python3 scripts/validate.py
