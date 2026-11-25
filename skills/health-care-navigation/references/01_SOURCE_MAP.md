@@ -2705,9 +2705,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S336 - Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/
 - Region: US research
-- Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected
+- Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected Reviewed two correction notices on 2026-11-25: DOI 10.1016/j.cmet.2019.05.020 covers author, table, legend and supplement details; DOI 10.1016/j.cmet.2020.08.014 corrects meal-level coding. The overall daily intake contrast stands. The PMC correction metadata and body identify different notices.
 - Purpose: 20-adult crossover, 14 days per diet, energy intake and weight; mechanism limits
-- Checked: 2026-10-09
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S337 - Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition, recommendations
@@ -3025,9 +3025,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
 - URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
 - Region: Multinational phase 3 trials
-- Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read.
+- Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read. On 2026-11-25 a comparison of article versions identified a corrected table cross-reference. The reported responder percentages checked did not change. The standalone correction text and appendices were not verified.
 - Purpose: 24-week randomized pain efficacy; absolute comparator rates; distinction between response and cure.
-- Checked: 2026-10-09
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S377 - Linzagolix therapy for endometriosis-associated pain: EDELWEISS 3 randomized phase 3 study
@@ -5273,9 +5273,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S657 - VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)
 - URL: https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf
 - Region: Adult VA/DoD clinician guidance; external use needs local context
-- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.
+- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices. Revisited final guidance on 2026-11-25, recommendations 5, 7, 17-18 and 26, digital CBT-I and PAP support.
 - Purpose: Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.
-- Checked: 2026-10-17
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S658 - NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health
@@ -6185,9 +6185,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S771 - Blood Pressure Lowering Treatment Trialists' Collaboration. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure. Lancet 2021;397:1625-1636
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8102467/
 - Region: International randomized trials
-- Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded.
+- Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded. On 2026-11-25 the contributor-list correction, PMID 34022983, was checked. It did not revise the clinical estimates.
 - Purpose: randomized_clinical_event_evidence_not_universal_bp_target
-- Checked: 2026-10-18
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S772 - Chou et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. USPSTF Evidence Summary, 23 August 2022
@@ -6580,4 +6580,948 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Reading status: Abstract only, read via a POPLINE bibliographic record on 2026-11-24 after direct PubMed access returned a challenge. The abstract describes 1,176 healthy infants aged 42-365 days, retrospective questionnaire exposure and measurements of bone-specific alkaline phosphatase and anterior-fontanel size. Full text, methods details and independent replication were not reviewed.
 - Purpose: Limited evidence that fontanel size should not be used as a proxy for calcium status; not an intervention trial of closure timing
 - Checked: 2026-11-24
+- Active-use disposition: not_determined (not a permission grant)
+
+### S821 - NHLBI. Insomnia: Diagnosis. Updated 24 March 2022
+- URL: https://www.nhlbi.nih.gov/health/insomnia/diagnosis
+- Region: United States; public adult sleep education
+- Reading status: Read the diagnosis introduction, sleep diary, history and examination sections. One to two weeks is a suggested diary window, not a waiting period or a diagnostic test.
+- Purpose: Sleep diary content, workdays and free days, daytime effects and chronicity
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S822 - Wright et al. Management of shift work disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med, 2026
+- URL: https://doi.org/10.1007/s44470-026-00084-w
+- Region: United States guideline; adults with shift work disorder
+- Reading status: Final guideline published 24 October 2026. Read selected recommendations, remarks and rationale on caffeine, pre-shift naps, rotation and circadian adaptation. The primary trials were not separately appraised. Article licence CC BY-NC-ND 4.0; factual synthesis only.
+- Purpose: Rotating and stable shifts, limits of circadian adaptation, conditional nap guidance and risk immediately after waking
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S823 - Cribb et al. Sleep regularity and mortality: a prospective analysis in the UK Biobank. eLife, 2023
+- URL: https://doi.org/10.7554/eLife.88359
+- Region: United Kingdom; prospective UK Biobank accelerometry sample
+- Reading status: Read the version-of-record PDF dated 23 November 2023, including accelerometry, mortality ascertainment, primary results, time-varying estimates and limitations. No participant-level reanalysis. Article identifies a Creative Commons Attribution licence.
+- Purpose: Cohort estimate for all-cause mortality, exposure misclassification and limits on lifespan claims
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S824 - Thosar et al. Bedtime regularization as a potential adjunct therapy for hypertension: a proof-of-concept study. Sleep Advances, 2025
+- URL: https://doi.org/10.1093/sleepadvances/zpaf082
+- Region: United States; eleven adults with hypertension, ages 45–62
+- Reading status: Read the authors' abstract, results and discussion/limitations via Europe PMC article XML and publisher record. No parallel control group; ten participants had complete 24-hour blood pressure. Article licence CC BY-NC-ND 4.0; factual synthesis only.
+- Purpose: Two-week bedtime intervention and within-person ambulatory blood pressure change; no event evidence
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S825 - Gardiner et al. Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial. Sleep, 2025 issue; online 2024
+- URL: https://doi.org/10.1093/sleep/zsae230
+- Region: Australia; young male habitual caffeine users
+- Reading status: Read the authors' abstract, publisher advance PDF objective sleep results and limitations. Trial compared a single 100 mg or 400 mg administration with placebo at specified times. Article identifies CC BY 4.0. Supplements and individual-level data not appraised.
+- Purpose: Within-person dose/timing comparisons for sleep, uncertainty around extrapolating a cutoff
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S826 - Buysse et al. Combination treatment for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med, 2026
+- URL: https://doi.org/10.1007/s44470-025-00038-8
+- Region: United States guideline; adults with chronic insomnia disorder
+- Reading status: Read final guideline dated 13 April 2026, definition of concurrent initiation, both recommendations, evidence rationale and limitations. Individual treatment trials and the separate systematic review were not reread. Article licence CC BY-NC-ND 4.0; factual synthesis only.
+- Purpose: CBT-I plus medication compared separately with either treatment alone, certainty, timing and scope
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S827 - Czeisler et al. Comparison of Sleep Regularity Index scores calculated by open-source packages and implications for outcomes research: rationale and design of the RIRI statement. Sleep, April 2026 issue
+- URL: https://doi.org/10.1093/sleep/zsaf299
+- Region: United Kingdom; accelerometry-based comparison
+- Reading status: Original abstract and statement of significance read via the Europe PMC bibliographic API (PMID 41001850). No full-text appraisal, replication, supplementary tables or checklist reproduced. Publication issue and original online publication differ.
+- Purpose: Regularity estimates and exposure associations are sensitive to the calculation method
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S828 - US National Highway Traffic Safety Administration. Drowsy Driving
+- URL: https://www.nhtsa.gov/risky-driving/drowsy-driving
+- Region: United States road safety education
+- Reading status: Read the public tips for avoiding drowsy driving and section on short-term interventions. No publication date inferred from the access date. This is public safety guidance, not occupational fitness certification.
+- Purpose: Safe stopping when sleepy, limits of caffeine, and planning the trip
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S829 - Bernabei et al. (2022), Multicomponent intervention to prevent mobility disability in frail older adults (SPRINTT)
+- URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9092831/
+- Region: 11 European countries
+- Reading status: PMC full-text methods, primary analysis, harms, discussion, funding and CC BY-NC 4.0 notice read. Supplement and patient-level data not reviewed.
+- Purpose: Time to mobility disability or death, falls and applicability in the prespecified physically impaired stratum.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S830 - Ryan et al. (2026), Validation of an intrinsic capacity index and the effects of aspirin in older males and females
+- URL: https://link.springer.com/article/10.1007/s11357-026-02624-x
+- Region: Australia and United States
+- Reading status: 2026-10-29 original secondary-analysis article: cohort, index, contrasts, interaction, limitations, funding and CC BY 4.0 notice read. Primary parent-trial paper not used.
+- Purpose: Separate prognostic validity from effects on function under randomized aspirin assignment and uncertainty in sex differences.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S831 - Cui et al. (2026), EAT-Lancet diet, accelerated biological aging, and type 2 diabetes risk
+- URL: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1951780/full
+- Region: United Kingdom
+- Reading status: 2026-11-11 publisher article: selected methods, results, timing, limitations and funding sections and CC BY notice read. Supplements not fully reviewed.
+- Purpose: Diet-score association with incident diabetes and limits of biomarker mediation in UK Biobank.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S832 - Bekele et al. (2026), Effect of multivitamin–mineral supplementation on cardiovascular-related functional health status in older adults
+- URL: https://link.springer.com/article/10.1007/s11357-026-02657-2
+- Region: United States
+- Reading status: 2026-11-18 public publisher abstract and funding and conflict statements read. Subscription article and supplement not appraised. No open full-text licence asserted.
+- Purpose: Interpret small differences in prespecified secondary questionnaire outcomes without inferring disability-free survival.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S833 - ClinicalTrials.gov, VITAL-H: Validation & Intervention Testing for Aging, Longevity and Healthspan (NCT07923630)
+- URL: https://clinicaltrials.gov/study/NCT07923630
+- Region: United States
+- Reading status: Sponsor-submitted API v2 status, design, arms, eligibility, primary outcome, sponsor and hasResults inspected. Record posted 2026-11-06. Dates and enrollment were estimated; no posted results.
+- Purpose: Status and planned functional endpoint only; registration supplies no clinical efficacy or safety result.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S834 - Tessier et al. (2025), Optimal dietary patterns for healthy aging
+- URL: https://www.nature.com/articles/s41591-025-03570-5
+- Region: United States
+- Reading status: Selected publisher full-text methods, results, exclusions, limitations, funding and CC BY-NC-ND 4.0 notice read. No instruments or figures reproduced. Supplements not appraised.
+- Purpose: Operational definition of healthy ageing and association between long-term diet scores and a multi-domain outcome.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S835 - Leningrad Oblast compulsory health-insurance fund: locating participating providers and insurers
+- URL: https://lofoms.spb.ru/files/2024_vopros_n6.pdf
+- Region: Russia; Leningrad Oblast territorial fund
+- Reading status: Read the complete one-page public fund explanation of national and territorial registers, addresses and service scope. No provider or benefit record was queried.
+- Purpose: Finding the regional participating-provider register and asking the payer about the specific service.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S836 - Toksovo hospital: booking a physician appointment using Gosuslugi
+- URL: https://www.trbzdrav.ru/patients/services/gosuslugi/making-an-appointment-with-a-doctor.php
+- Region: Russia; Leningrad Oblast provider instructions
+- Reading status: Read the hospital instructions for the Gosuslugi service link, insurance details, attachment region, branch, slot and referral. No authenticated transaction was tested.
+- Purpose: Example of regional attachment and routine booking, including the federal portal link.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S837 - Moscow city polyclinic administrator FAQ: booking and referral
+- URL: https://pt.mos.ru/faq/
+- Region: Russia; Moscow city provider FAQ
+- Reading status: Opened the sections on attachment, direct booking for listed specialties, referrals and help from the administrator. Local example, no live schedule checked.
+- Purpose: Shows why lists of directly bookable specialists should be checked locally.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S838 - Roszdravnadzor: Unified Register of Licences, public search
+- URL: https://roszdravnadzor.gov.ru/spec/services/licenses
+- Region: Russia; federal healthcare regulator
+- Reading status: Inspected public search instructions and the form field accepting a licence number, organization name, INN or OGRN. No identifiable provider query or live licence extract.
+- Purpose: Official entry point to check the licence holder; specific premises and services still require checking the returned record.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S839 - Roszdravnadzor: how to obtain an extract from the licensing register
+- URL: https://www.roszdravnadzor.gov.ru/medactivities/licensing/faq/244
+- Region: Russia; federal healthcare regulator
+- Reading status: Read the regulator FAQ on the public register and the electronically signed extract route through Gosuslugi. Neither extract service was used.
+- Purpose: Alternative to an ambiguous clinic search result; distinguishes a licensing extract from physician accreditation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S840 - Russian Ministry of Health Order No. 118n of 13 March 2025: publication of provider and staff information
+- URL: https://dgp140.mos.ru/global_ruffe_tech/docs/118nmz2025.pdf
+- Region: Russia; federal order in an official Moscow polyclinic copy
+- Reading status: Read the effective-date details, Appendix 1 obligations and item 6 on staff, education, specialty, validity and office hours. Also inspected listed information about paid services and prices. No provider compliance audit.
+- Purpose: Where a patient can look for a particular physician’s role and specialty credentials and for clinic pricing.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S841 - Federal Accreditation Centre: how professionals obtain their accreditation extract
+- URL: https://fca-rosminzdrav.ru/upload/docs/%D0%94%D0%BB%D1%8F_%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2%D1%8B%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_%D0%BE_%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B8_%D0%B0%D0%BA%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8_2%20%281%29.pdf
+- Region: Russia; federal accreditation centre
+- Reading status: Read the centre’s instructions for the signed extract via a verified Gosuslugi account and the physician’s own account route. No personal account was accessed.
+- Purpose: This documented service is for the authenticated professional; it does not establish a public physician surname search.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S842 - Russian Government Resolution No. 631 of 8 May 2025: medical care for foreign nationals
+- URL: https://dgp140.mos.ru/global_ruffe_tech/docs/631prf2025.pdf
+- Region: Russia; federal rules in an official Moscow polyclinic copy
+- Reading status: Read coverage categories in provisions 1–8 and the effective-date paragraph. The clinical meaning of an individual emergency, payer eligibility and specific bilateral agreements were not adjudicated.
+- Purpose: Distinguishes emergency care for life-threatening conditions from planned care, insured eligibility and treaty provisions.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S843 - Serbian Health Insurance Act: Gazette 25/2019, 92/2023 and 109/2025, articles 139–143
+- URL: https://www.vrh.sud.rs/sites/default/files/attachments/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%BE%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%D0%BC%20%D0%BE%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%9A%D1%83%20109-25.pdf
+- Region: Serbia; compulsory health insurance, Supreme Court-hosted text
+- Reading status: Read the consolidated text's edition heading and articles 139–143 on physician choice, provider lists, patient capacity, declaration and specialist referral. The declaration and referral provisions also appear in RFZO's 2023 edition. No other sections or later amendments were exhaustively reviewed. Current operational access was checked against provider and eZdravlje instructions.
+- Purpose: Describes the chosen-doctor and specialist-referral pathway, with local confirmation of current requirements.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S844 - Serbian eZdravlje portal: patient help on booking and chosen doctor data
+- URL: https://portal.e-zdravlje.gov.rs/help
+- Region: Serbia; national e-health portal
+- Reading status: Read the chosen-doctor booking, missing/stale assignment, synchronization and appointment-discrepancy answers. No portals were used while authenticated.
+- Purpose: Booking a routine chosen-doctor visit and resolving discrepancies with the local institution.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S845 - Dom zdravlja Novi Sad: booking via its contact centre
+- URL: https://dzns.rs/zakazivanje-kontakt-centar/
+- Region: Serbia; Novi Sad municipal primary health centre
+- Reading status: Read the provider’s appointment, service information and branch coverage sections. No call, live schedule or completed booking.
+- Purpose: Local example of a direct route to resolve routine appointment questions.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S846 - Serbian Medical Chamber: physicians with a valid licence, October 2026 list
+- URL: https://www.lks.org.rs/clanovi-lks
+- Region: Serbia; Serbian Medical Chamber (LKS)
+- Reading status: Opened the Chamber’s dated October 2026 landing page, five alphabetic surname group links, data-correction notice, and table header in the first linked PDF. No person-level result was retained.
+- Purpose: Public physician check including licence validity and reported specialty, limited by the date of the list.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S847 - Serbian Business Registers Agency: searches for healthcare providers
+- URL: https://www.apr.gov.rs/registri/zdravstvene-ustanove/pretraga-podataka.4394.html
+- Region: Serbia; Serbian Business Registers Agency (APR)
+- Reading status: Opened the search landing page and read the distinctions between the institutions register and the consolidated search covering private practices/entrepreneurs as well. No provider search was run.
+- Purpose: Find a registered healthcare institution or private practice separately from checking a physician or an insurance contract.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S848 - Serbian Ministry of Foreign Affairs: social security agreements and cross-border health documentation
+- URL: https://www.msp.gov.rs/gradjani/usluge/sporazumi-o-socijalnom-osiguranju
+- Region: Serbia; foreign ministry
+- Reading status: Read the health-insurance and certificate instructions for a temporarily visiting foreign insured person, home fund and local branch. No individual bilateral instrument or benefit decision was assessed.
+- Purpose: Identifies whom to consult about a specific reciprocal agreement and what a certificate route can require.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S849 - American Academy of Dermatology: Do you have hair loss or hair shedding?
+- URL: https://www.aad.org/public/diseases/hair-loss/insider/shedding
+- Region: United States
+- Reading status: Read the AAD sections on timing after a stressor, coexisting patterns and asking a dermatologist. Patient education, without verification of all underlying studies.
+- Purpose: Delayed diffuse shedding and history for assessment
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S850 - American Academy of Dermatology: Hairstyles that pull can lead to hair loss (updated November 2024)
+- URL: https://www.aad.org/public/diseases/hair-loss/causes/hairstyles
+- Region: United States
+- Reading status: Read traction exposures, early signs, styling changes and permanent loss sections. Guidance, without a quantified effect or an individual diagnosis.
+- Purpose: Reducing painful traction and seeking assessment early
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S851 - NIH Office of Dietary Supplements: Biotin, health professional fact sheet
+- URL: https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/
+- Region: United States
+- Reading status: Read hair, nails and skin evidence, deficiency and laboratory interference sections. This evidence summary cites small studies and case reports. Underlying trials were not reappraised.
+- Purpose: Limits of cosmetic hair claims and assay-dependent test interference
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S852 - FDA: Biotin interference with troponin lab tests
+- URL: https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference
+- Region: United States
+- Reading status: Read the FDA safety notice and scope of its device list. No independent validation of listed assays, incidence estimate or universal washout interval.
+- Purpose: Some troponin assays can give falsely low results with biotin exposure
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S853 - ALIMS: Mycoseb 20 mg/g ketoconazole shampoo, summary of product characteristics (August 2020)
+- URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-05111-19-001.pdf
+- Region: Serbia
+- Reading status: Read product identity, indications, specified age, precautions, follow-up and revision in sections 1–4.4 and 8–10 of the official Serbian document, renewal 515-01-05111-19-001. Its current commercial availability was not verified.
+- Purpose: Historical exact-product example for dandruff and scalp seborrheic dermatitis
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S854 - Arcutis: US prescribing information for Zoryve roflumilast topical foam 0.3% (revised September 2026)
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9e0b4a9-a227-4947-b00c-41fb18d16589
+- Region: United States
+- Reading status: Read indication, hepatic contraindication, clinical study population, denominators and stratified week-8 estimates in section 14.1 of the DailyMed label. A sponsor label is not independent replication or proof of authorization elsewhere.
+- Purpose: STRATUM short-term, vehicle-controlled result for moderate to severe diagnosed seborrheic dermatitis
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S855 - NIDDK: Eating, diet and nutrition for lactose intolerance
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition
+- Region: United States
+- Reading status: Read the sections on variation in tolerated amounts, low-lactose food options, calcium and vitamin D. Patient guidance, not a comparative trial for these options.
+- Purpose: Preserve acceptable foods and adequate nutrition after lactose intolerance is established
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S856 - NIDDK: Symptoms and causes of diarrhea
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes
+- Region: United States
+- Reading status: Read adult symptoms, dehydration and when to seek medical help. Age and risk groups are distinguished. No individual severity scoring or telephone pathway assessed.
+- Purpose: Adult warning signs including bleeding, severe pain, repeated vomiting, altered mental state and dehydration
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S857 - NIDDK: Treatment of diarrhea
+- URL: https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment
+- Region: United States
+- Reading status: Read the adult acute-diarrhea, fluids and electrolytes, return to food and antidiarrheal sections. No product labels or pediatric treatment protocols were appraised.
+- Purpose: Adult supportive care, comorbidity context and limitations on self-treatment with fever or bloody stool
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S858 - Monash University: Starting the low FODMAP diet
+- URL: https://www.monashfodmap.com/ibs-central/i-have-ibs/starting-the-low-fodmap-diet/
+- Region: Australia; patient education on diagnosed IBS
+- Reading status: Read the programme purpose, initial trial and nonresponse, challenges, reintroduction and personalization. Programme developer also offers a commercial app. No app, questionnaire or commercial tool was reproduced or independently evaluated.
+- Purpose: Time-limited restriction followed by assessment and dietary re-expansion
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S859 - ASCIA: Cow's milk (dairy) allergy fast facts (June 2023)
+- URL: https://www.allergy.org.au/patients/fast-facts/cows-milk-dairy-allergy
+- Region: Australia and New Zealand
+- Reading status: Read milk allergy, food substitution and severe reaction sections. Mainly pediatric educational context, with the milk-protein distinction applicable beyond infancy. No pediatric formula or home challenge protocol adopted.
+- Purpose: Lactose-free cow's milk still poses a milk-protein allergy risk
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S860 - Bertuccioli et al.: Adjunctive Galactol in adults with IBS following a low-FODMAP diet (23 November 2026)
+- URL: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1953638/pdf
+- Region: Italy; two centres
+- Reading status: Read the CC BY report's design, eligibility, allocation, participant flow, Table 2, limitations, funding and declared company relationships. Study registered as NCT07465562. No participant data or independent replication assessed.
+- Purpose: Short-term bloating scores with diet advice plus an enzyme blend versus diet advice alone, without placebo
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S861 - WHO clinical treatment guideline for tobacco cessation in adults (2024), section 3.3.1
+- URL: https://iris.who.int/bitstream/handle/10665/377825/9789240096431-eng.pdf
+- Region: Global
+- Reading status: Selected recommendations 3.3.1 and publication rights notice read, including the option to use combination NRT. Full guideline and individual evidence tables not fully appraised. WHO CC BY-NC-SA 3.0 IGO.
+- Purpose: Adult cessation options, including a patch plus a short-acting NRT option, without individual dosing.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S862 - US National Cancer Institute, Smokefree.gov: Prepare to Quit
+- URL: https://smokefree.gov/quit-smoking/getting-started/prepare-to-quit
+- Region: United States
+- Reading status: Preparation, quit date, cravings, triggers and support sections read. Tools and linked programs not tested.
+- Purpose: Voluntary quit planning and anticipatory coping.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S863 - CDC, Vaping and Quitting
+- URL: https://www.cdc.gov/tobacco/e-cigarettes/quitting.html
+- Region: United States
+- Reading status: CDC's own public guidance sections on cessation, complete substitution, dual use, FDA status and uncertainty read. Underlying third-party reviews not appraised or reproduced.
+- Purpose: Distinguish adult substitution, continued dual use, youth prevention and US regulatory status.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S864 - NHS, Vaping to quit smoking
+- URL: https://www.nhs.uk/better-health/quit-smoking/ready-to-quit-smoking/vaping-to-quit-smoking/
+- Region: England
+- Reading status: NHS Better Health sections on smoking cessation, complete switching, risks, young people, pregnancy and stopping vaping read. Linked commentary, media and reviews not appraised. NHS/OGL attribution retained.
+- Purpose: England-specific guidance for adult smokers and boundaries of long-term risk evidence.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S865 - Caponnetto et al. (2023), Varenicline and counseling for vaping cessation: a randomized placebo-controlled trial
+- URL: https://link.springer.com/article/10.1186/s12916-023-02919-2
+- Region: Italy
+- Reading status: Selected peer-reviewed full-text methods, outcome definitions, follow-up, harms, limitations, funding, disclosures and CC BY 4.0 notice read. Complete supplements not audited. Pfizer-funded GRAND award.
+- Purpose: Cotinine-verified continuous abstinence among adults motivated to stop nicotine vaping; separate from quitting cigarettes and from local licensing.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S866 - WHO Regional Office for Europe, The RUS-AUDIT validation study protocol (2021)
+- URL: https://iris.who.int/bitstream/handle/10665/342073/9789289055727-eng.pdf
+- Region: Russian Federation
+- Reading status: WHO publication date and the reference-unit definition in the questionnaire/conversion appendices checked. No instrument items, scoring or tables reproduced. No full instrument or national guideline appraisal.
+- Purpose: Ten grams ethanol per reference drink for this validated Russian-language instrument.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S867 - Government of Serbia, National programme for prevention of harmful alcohol use and alcohol-related disorders (2017)
+- URL: https://zdravlje.gov.rs/view_file.php?cache=sr&file_id=2043
+- Region: Serbia
+- Reading status: Official programme PDF, Gazette issue 115 of 2017-12-22 and standard-drink definition section read. Current validity of other programme elements not assessed.
+- Purpose: The programme uses 13 g ethanol as its Serbian reference drink. Document-specific historical definition only.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S868 - NHS, Alcohol units
+- URL: https://www.nhs.uk/live-well/alcohol-advice/calculating-alcohol-units/
+- Region: United Kingdom
+- Reading status: Definition, ABV calculation and UK guidance for regular drinkers read. NHS/OGL attribution retained; no figures or conversion tables reproduced.
+- Purpose: 8 g per UK unit, relation between ABV, volume and units, and the UK 14-unit weekly low-risk advice.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S869 - US National Institute on Alcohol Abuse and Alcoholism, What Is a Standard Drink?
+- URL: https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink
+- Region: United States
+- Reading status: NIAAA provider text on 14 g ethanol and beverage strength read, including the indexed official page. Poster and images not reused.
+- Purpose: US unit and the distinction between a serving and a reference drink.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S870 - NHS, Alcohol-use disorder
+- URL: https://www.nhs.uk/conditions/alcohol-use-disorder/
+- Region: England
+- Reading status: Public guidance on dependence, reducing/stopping, withdrawal signs including emergency symptoms, support and pregnancy read. NHS/OGL attribution retained. No clinician protocol, home taper or drug doses taken from this source.
+- Purpose: Recognize potentially dangerous withdrawal; prompt assessment and emergency referral when indicated, followed by ongoing support.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S871 - St Petersburg Research Institute of Phthisiopulmonology, national tobacco cessation telephone service
+- URL: https://www.spbniif.ru/klinicheskie-podrazdeleniya/konsultativnyy-telefonnyy-tsentr-pomoshchi-v-otkaze-ot-potrebleniya-tabaka-.php
+- Region: Russian Federation
+- Reading status: Provider website procedure, number, extension, Moscow-time specialist hours and counselling scope read. Service not called. Copyright remains with provider.
+- Purpose: Locate the Russian cessation line and distinguish the specialist extension from general round-the-clock information.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S872 - Institute of Public Health of Serbia Dr Milan Jovanovic Batut, Ostavi pusenje
+- URL: https://ostavipusenje.rs/
+- Region: Serbia
+- Reading status: Provider's displayed number, weekday hours and access to local counselling directory checked. Line not called.
+- Purpose: Serbian public telephone counselling for smoking cessation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S873 - Batut, Directory of smoking cessation counselling centres
+- URL: https://ostavipusenje.rs/informacije-o-savetovalistima/
+- Region: Serbia
+- Reading status: Batut directory and multiple listed local centres inspected. Capacity, opening hours and intake not confirmed by phone.
+- Purpose: Identify city-specific alternatives to the national quitline.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S874 - Moscow city polyclinic 46, directory of health-service information numbers
+- URL: https://gp46.mos.ru/spravochnaya-informatsiya/telefony-spravochnykh-sluzhb/
+- Region: Russia, Moscow
+- Reading status: Public city clinic's listing of the Moscow narcology centre alcohol/drug counselling phone checked. No call, treatment eligibility or appointment confirmation.
+- Purpose: Moscow-specific routine addiction advice contact; not an emergency service.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S875 - Special Hospital for Addictive Disorders, Belgrade: Contact
+- URL: https://www.drajzerova.org.rs/kontakt
+- Region: Serbia, Belgrade
+- Reading status: Hospital's public contact and address checked. No call, intake, insurance or payment verification.
+- Purpose: Telephone entry for questions about the first visit.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S876 - Special Hospital for Addictive Disorders, Belgrade: alcohol diagnosis and treatment department
+- URL: https://www.drajzerova.org.rs/node/23
+- Region: Serbia, Belgrade
+- Reading status: Hospital's account of its alcohol assessment, counselling, triage and treatment services read. No real-time availability or admission criteria verified.
+- Purpose: Establish the department's stated scope and direct routine enquiries to the hospital.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S877 - NHS Better Health, Drink less
+- URL: https://www.nhs.uk/better-health/drink-less/
+- Region: England
+- Reading status: Public tips on lower-strength alternatives, social activities and drink-free days read. NHS/OGL attribution retained. No apps or calculators tested.
+- Purpose: Practical reduction options after screening for withdrawal risks.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S878 - UK Department of Health and Social Care, Clinical guidelines for alcohol treatment, chapter 10
+- URL: https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/10-pharmacological-interventions
+- Region: United Kingdom
+- Reading status: Original government guidance sections on history of seizures or complicated withdrawal and settings for medically assisted withdrawal read. NICE recommendations, drug doses and detailed treatment protocols not incorporated.
+- Purpose: Reasons to seek clinical planning before withdrawal, and individualized community versus specialist inpatient assessment.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S879 - CDC. How to Measure Physical Activity Intensity. Updated 4 December 2025
+- URL: https://www.cdc.gov/physical-activity-basics/measuring/index.html
+- Region: United States; public adult activity guidance
+- Reading status: Read relative versus absolute intensity, the talk test and examples. No individual fitness testing or exercise clearance.
+- Purpose: Practical relative intensity for aerobic activity
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S880 - CDC. What Counts as Physical Activity for Older Adults. Updated 4 December 2025
+- URL: https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html
+- Region: United States; community-dwelling adults aged 65 and older
+- Reading status: Read aerobic, muscle-strengthening, balance and multicomponent activity sections. Descriptive examples, not a patient-specific training program.
+- Purpose: Examples of age-appropriate strength, endurance and balance activity
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S881 - CDC. Increasing Physical Activity among Adults with Disabilities
+- URL: https://www.cdc.gov/disability-and-health/conditions/physical-activity.html
+- Region: United States; adults living with disability
+- Reading status: Read the activity guidance, barriers and adapted activity options. Reviewed starting from current abilities, gradual changes and accessible settings. No disease-specific rehabilitation protocol evaluated.
+- Purpose: Adapted aerobic and strengthening activity, short starts and practical access
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S882 - CDC. Strategies to Prevent Worsening of Symptoms in ME/CFS. 10 May 2024
+- URL: https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html
+- Region: United States; clinical care guidance for ME/CFS
+- Reading status: Read the sections on post-exertional malaise and individual activity planning. Not a comparative efficacy trial or a prescription for a particular level of exercise.
+- Purpose: Activity management, delayed symptoms, avoidance of pushing beyond current tolerance
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S883 - CDC. Long COVID Clinical Guidance. 9 March 2026
+- URL: https://www.cdc.gov/long-covid/hcp/clinical-guidance/index.html
+- Region: United States; clinical care for people with long COVID
+- Reading status: Read treatment, symptom management and post-exertional malaise sections. Individualized care; no long COVID diagnosis from a symptom alone.
+- Purpose: Recognizing delayed post-exertional symptom exacerbation and tailoring the plan
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S884 - Fromherz et al. Daily physical activity volume, intensity, and accumulation patterns in relation to all-cause mortality in the German National Cohort (NAKO). BMC Medicine, 2026
+- URL: https://doi.org/10.1186/s12916-026-05385-8
+- Region: Germany; prospective cohort aged 19–74
+- Reading status: Read original population, baseline device measurement, mortality results, sensitivity analyses, limitations, disclosures and CC BY 4.0 notice. Published 10 November 2026, version of record dated 12 November. Supplements and participant-level data not independently appraised.
+- Purpose: Dose-response across observed movement volumes, confounding and limits of a baseline hip accelerometer
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S885 - Clemson et al. Integration of balance and strength training into daily life activity to reduce rate of falls in older people (the LiFE study): randomised parallel trial. BMJ, 2012
+- URL: https://doi.org/10.1136/bmj.e4547
+- Region: Australia; independently ambulant adults aged at least 70 at high risk of falls
+- Reading status: Read the original publisher PDF, including participant criteria, home-based interventions, falls ascertainment, 12-month primary result and reported adverse events. Article specifies Creative Commons Attribution Non-commercial. Distinct from the US LIFE mobility trial.
+- Purpose: Rate of recurrent falls in a supported daily-life activity program and limits on transfer
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S886 - NHLBI. Physical Activity and Your Heart: Risks. Updated 24 March 2022
+- URL: https://www.nhlbi.nih.gov/health/heart/physical-activity/risks
+- Region: United States; general education on physical activity and cardiovascular risks
+- Reading status: Read clinical symptom and cardiac-risk discussion, including fitness, intensity and known heart disease. This public overview does not establish fitness to compete.
+- Purpose: Exertional symptoms that need review and contextualizing vigorous effort
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S887 - Bates et al. Effectiveness of workshops to teach a home-based exercise program (BEST at Home) for preventing falls in community-dwelling people aged 65 years and over: a pragmatic randomised controlled trial. BMC Geriatrics, 2022
+- URL: https://doi.org/10.1186/s12877-022-03050-2
+- Region: Australia; community-dwelling older adults in New South Wales
+- Reading status: Read intervention and comparator, 12-month fall outcome, denominators, confidence intervals, selected secondary findings and CC BY 4.0 declaration. No individual-level reanalysis.
+- Purpose: Inconclusive fall-rate effect with a workshop-delivered program; outcomes, comparators and applicability
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S888 - WHO: Use of lower-sodium salt substitutes (2025 guideline)
+- URL: https://www.who.int/publications/i/item/9789240105591
+- Region: Global; WHO guideline for discretionary table salt in adults
+- Reading status: Opened WHO's guideline and inspected the WHO-hosted PDF recommendation, strength, discretionary-use scope, exclusions, potassium-handling and iodization remarks. Its recommendations do not cover industrial or restaurant salt substitutes.
+- Purpose: Conditional suggestion for eligible adults who add table salt; identifies people and uses outside that recommendation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S889 - Dicken et al.: Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health (UPDATE, 2025)
+- URL: https://doi.org/10.1038/s41591-025-03842-0
+- Region: England; single-centre, community-based randomized crossover feeding trial
+- Reading status: Read the original CC BY 4.0 article through PMC/Europe PMC: design, flow, primary weight outcome and confidence interval, sensitivity analyses, washout and authors' limitations. Supplemental datasets were not reanalysed. Licence: https://creativecommons.org/licenses/by/4.0/
+- Purpose: Short-term between-menu weight change in adults with excess weight and high habitual UPF intake; no disease or lifespan endpoint.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S890 - Thompson, Jennings, Bondonno, Cassidy and Kühn: Plant-Based Diets, Ultra-Processed Foods, and Risks of Mortality and Major Chronic Diseases (2026)
+- URL: https://doi.org/10.1016/j.lanepe.2026.101736
+- Region: United Kingdom; UK Biobank prospective cohort
+- Reading status: Open-access version of record under CC BY 4.0 verified in the Europe PMC full-text XML. Read participant selection, score construction, outcomes, adjusted estimates, sensitivity analyses and limitations. First publication 2026-06-05; issue August 2026. No participant-level data or absolute risk differences analysed. Licence: https://creativecommons.org/licenses/by/4.0/
+- Purpose: Separate within-score quartile associations for type 2 diabetes; shared UK Biobank recruitment limits independence from other publications.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S891 - German Federal Institute for Risk Assessment (BfR): iodine intake and practical food sources, FAQ updated 13 October 2026
+- URL: https://www.bfr.bund.de/en/release/iodine-intake-in-germany-is-not-optimal-tips-for-ensuring-an-adequate-iodine-intake/
+- Region: Germany; federal food risk assessment agency
+- Reading status: Read dated sections on iodine in plant-based beverages, dairy, seaweed variation, iodized salt and fortification. German regulatory or intake targets were not generalized to other countries.
+- Purpose: Check iodine separately on plant-drink labels; variable high iodine in seaweed makes intake from kelp difficult to predict.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S892 - van Oppenraaij, Weijs and Verlaan: Effects of a self-selected vegetarian compared with an omnivorous diet on protein intake and muscle mass in older adults during resistance exercise (IMPACT)
+- URL: https://doi.org/10.1016/j.ajcnut.2026.101533
+- Region: Netherlands; randomized 12-week noninferiority trial, older adults exercising
+- Reading status: Version-of-record CC BY 4.0 confirmed in Crossref's article-specific licence record; Europe PMC also reports CC BY. Read the authors' Amsterdam UMC abstract and the Europe PMC bibliographic record, not the full methods or supplements. Online September 2026, November issue. Authors' abstract: https://pure.amsterdamumc.nl/en/publications/effects-of-a-self-selected-vegetarian-compared-with-an-omnivorous/ Licence: https://creativecommons.org/licenses/by/4.0/
+- Purpose: Interpreting noninferiority boundaries for protein intake and appendicular muscle mass under self-selected, unequally dosed diets and resistance training.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S893 - ClinicalTrials.gov NCT06172725: IMPACT study registration
+- URL: https://clinicaltrials.gov/study/NCT06172725
+- Region: Netherlands; investigator-submitted protocol registry
+- Reading status: Inspected registry status, actual enrollment field, and primary outcome and time-frame fields via the public ClinicalTrials.gov v2 structured record. Counts differ by source: registry actual enrollment 110, article abstract reports 108. Participant flow was not reconciled from the full article.
+- Purpose: Corroborates planned protein-intake and DXA mass endpoints for the published IMPACT trial; not an independent outcome dataset.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S894 - Patil et al. Treatment of adult obstructive sleep apnea with positive airway pressure. AASM clinical practice guideline, 2019
+- URL: https://aasm.org/wp-content/uploads/2019/02/TreatmentOSAwithPAP-Guideline-at-a-Glance.pdf
+- Region: United States; adults with diagnosed OSA
+- Reading status: Read the society's original guideline-at-a-glance PDF, including recommendation strengths 1–3, the clinical contexts of the flow diagram, and support and follow-up recommendations. DOI of full guideline 10.5664/jcsm.7640. Underlying reviews not independently regraded.
+- Purpose: PAP for excessive sleepiness, impaired sleep-related quality of life and comorbid hypertension, and follow-up of treatment
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S895 - Tang et al. Effect of CPAP on cardiovascular events in minimally symptomatic OSA: long-term follow-up of the MOSAIC randomised controlled trial. BMJ Open Respiratory Research, 2020
+- URL: https://doi.org/10.1136/bmjresp-2020-000742
+- Region: United Kingdom; single-centre extended follow-up of randomized MOSAIC participants
+- Reading status: Read the published full PDF, including randomized groups, broad cardiovascular composite, follow-up by group, crossovers, intention-to-treat estimate and limitations. Article CC BY-NC 4.0. Original factual synthesis.
+- Purpose: Uncertainty about cardiovascular events in a minimally symptomatic, selected population, distinct from treating excessive sleepiness
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S896 - Sweetman et al. Cognitive and behavioral therapy for insomnia increases the use of continuous positive airway pressure therapy in obstructive sleep apnea participants with comorbid insomnia: a randomized clinical trial. Sleep, 2019
+- URL: https://doi.org/10.1093/sleep/zsz178
+- Region: Australia; 145 adults with insomnia and AHI at least 15
+- Reading status: Read the authors' published abstract including eligibility, comparison, six-month endpoint, confidence interval and daytime findings (PMID 31403168). Full article and underlying records not appraised. No open full-text licence asserted. Original factual synthesis only.
+- Purpose: CBT-I before CPAP versus usual care, with duration of subsequent PAP use and daytime impairment as separate outcomes
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S897 - Ong et al. A randomized controlled trial of CBT-I and PAP for obstructive sleep apnea and comorbid insomnia: main outcomes from the MATRICS study. Sleep, 2020
+- URL: https://doi.org/10.1093/sleep/zsaa041
+- Region: United States; adults with diagnosed comorbid insomnia and OSA
+- Reading status: Read the published study abstract, including three arms, objective 90-day PAP adherence, insomnia secondary outcomes and sequencing (PMID 32170307). Full text not independently appraised. No open full-text licence asserted. Original factual synthesis only.
+- Purpose: Improved insomnia outcomes without a significant between-group difference in PAP adherence or superiority of either sequence
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S898 - Shi et al. Clinician-guided digital CBT-I improves sleep quality and apnea severity in patients with co-morbid insomnia and OSA: A Double-Blind, Randomized Clinical Trial. American Journal of Respiratory and Critical Care Medicine, 2026
+- URL: https://doi.org/10.1093/ajrccm/aamag567
+- Region: China; trial in 88 adults with comorbid insomnia and OSA
+- Reading status: Read the publisher's accepted-manuscript abstract, publication history (online 29 October 2026) and CC BY-NC 4.0 statement. Cross-checked PMID 42958645. Posttreatment and three-month endpoints distinguished. Full PDF, registry protocol and supplements not appraised. Original factual synthesis.
+- Purpose: Clinical guidance during internet CBT-I, insomnia outcomes, posttreatment secondary AHI and transient increase in sleepiness
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S899 - Vethe et al. Long-term clinical and cost-effectiveness of a fully automated digital cognitive behavioural therapy for insomnia: 2-year follow-up of a single-blind, superiority, randomised controlled trial. The Lancet Regional Health – Europe, 2026
+- URL: https://doi.org/10.1016/j.lanepe.2026.101691
+- Region: Norway; self-referred adults selected for significant insomnia symptoms
+- Reading status: Verified article-specific CC BY 4.0 in the version-of-record rights statement (PMC13186012). Read the authors' abstract and selected full-text eligibility, endpoints, visit completion, missing-data methods and limitations. Earlier primary-endpoint publication and cost-effectiveness model not independently evaluated.
+- Purpose: Long-term symptom difference with an active comparator, substantial attrition and exclusions limiting use in night workers or people at risk of apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S900 - Kabbani et al. Culturally adapted digital cognitive behavioral therapy for insomnia in South Korea – a double-blind randomized controlled trial. Internet Interventions, 2026
+- URL: https://doi.org/10.1016/j.invent.2026.100933
+- Region: South Korea; multicentre trial in adults with chronic insomnia
+- Reading status: Verified article-specific CC BY-NC-ND 4.0 rights statement in PMC13010449. Read trial population, six-week arms and contact schedule, post-intervention primary and secondary outcomes, and the single-arm three-month follow-up. Original factual synthesis without copied translation or instruments.
+- Purpose: No detectable primary between-group insomnia severity difference versus an education app in a small randomized comparison
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S901 - US Food and Drug Administration. Sleep Apnea Notification Feature, 510(k) K240929. Clearance dated 13 September 2024
+- URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240929.pdf
+- Region: United States; indicated software use in previously undiagnosed adults aged 18 years and older
+- Reading status: Read the FDA clearance letter and the enclosed indications for use, device description and comparison of intended uses. The submitted manufacturer summary is identified separately within the FDA record. No accuracy analysis or independent replication claimed.
+- Purpose: Distinguishes cleared risk alerts from diagnosis, exclusion or management of sleep apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S902 - American Academy of Sleep Medicine. Health advisory: Sleep apps and devices that self-assess risk of obstructive sleep apnea, adopted 10 January 2025
+- URL: https://aasm.org/wp-content/uploads/2025/04/apps-devices-sleep-apnea-risk-health-advisory.pdf
+- Region: United States; public sleep apnea risk assessment advisory
+- Reading status: Read the society's full one-page advisory, including scope, federal regulatory context and adoption date. Original factual summary. The advisory is not an accuracy study of any one device.
+- Purpose: Limits of self-screening, symptom-driven discussion and why an absent alert does not exclude apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S903 - Leota et al. Dose-response relationship between evening exercise and sleep. Nature Communications, 2025
+- URL: https://doi.org/10.1038/s41467-025-58271-x
+- Region: Multinational observational cohort of physically active commercial wearable users
+- Reading status: Read the published PDF's study population, exposure definitions, models relative to habitual sleep onset, contrasts, study limitations, affiliations and article rights (CC BY-NC-ND 4.0). Original factual synthesis. Device algorithms and individual-level data not audited.
+- Purpose: Timing and strain in relation to device-estimated sleep, with limits on causal inference and on universal cutoffs
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S904 - Gale et al. Evening regular activity breaks extend subsequent free-living sleep time in healthy adults: a randomised crossover trial. BMJ Open Sport & Exercise Medicine, 2024
+- URL: https://doi.org/10.1136/bmjsem-2023-001774
+- Region: New Zealand; randomized crossover study of adults aged 19–39 providing sleep data
+- Reading status: Read published full-text intervention and secondary sleep-measure methods, results and denominators, including first-night and 48-hour contrasts and wake times. Article states CC BY-NC 4.0. Original factual synthesis.
+- Purpose: Short evening activity breaks versus uninterrupted sitting, first-night measured duration and null 48-hour result
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S905 - Tariq et al. Chronotype-aligned exercise timing in middle-aged adults at cardiometabolic risk: a randomised controlled trial. Open Heart, 2026
+- URL: https://doi.org/10.1136/openhrt-2025-003573
+- Region: Pakistan; sedentary adults aged 40–60 in Lahore with a clear morning or evening chronotype and cardiovascular risk
+- Reading status: Read the publisher PDF's eligibility, intervention, post-randomization exclusions, outcome hierarchy, sleep quality results and limitations. Published April 2026. Article CC BY-NC 4.0. No sleep staging or shift-worker effect inferred.
+- Purpose: Exercise aligned with chronotype in a selected population, self-reported sleep as a secondary endpoint and applicability limits
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S906 - Albalak et al. The effect of physical activity timing on insomnia and sleep quality: a randomized cross-over trial in older adults. Sleep Medicine, online October 2026
+- URL: https://doi.org/10.1016/j.sleep.2026.109332
+- Region: Netherlands; adults aged 60–80 with insomnia symptoms
+- Reading status: Verified publisher-deposited Crossref rights metadata for this DOI, CC BY 4.0 specifically for the version of record. Read published author abstract via PubMed, PMID 42945713, including intervention times and duration, availability of sleep data, ISI contrast and limits. No full-text appraisal. The abstract's sleep-midpoint coefficient and units are ambiguous, so no numerical effect for that endpoint is reported here.
+- Purpose: Morning versus evening coached activity in older adults with insomnia symptoms, short follow-up and the difference between symptom severity and measured timing
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S907 - ACHIEVE (NCT03243422), posted results of the Aging and Cognitive Health Evaluation in Elders trial
+- URL: https://clinicaltrials.gov/study/NCT03243422?tab=results
+- Region: United States
+- Reading status: Sponsor-submitted ClinicalTrials.gov API v2 results read for the primary cognitive score, composite cognitive impairment, subgroup definitions and contrasts. Results first posted 2024-02-01. Individual records and the publication supplement not examined.
+- Purpose: Primary three-year effect in the entire randomized group, prespecified recruitment-group contrasts and scope of composite cognitive impairment.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S908 - Lin et al., Effects of hearing intervention on cognitive decline: ACHIEVE primary author abstract at AAIC 2023
+- URL: https://aaic.alz.org/downloads2023/ACHIEVE-trial-hearing-intervention-AAIC-2023.pdf
+- Region: United States
+- Reading status: Investigator conference abstract (PDF page 3) and conference description read, including the prespecified interaction p=0.010. Main and group estimates separately cross-checked with the sponsor's posted results. Short original facts only; no figure or instrument reproduced.
+- Purpose: Relative cognitive-score decline in ARIC, formal heterogeneity test and differences in recruitment groups.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S909 - PAHO BIGG-REC, WHO 2026 recommendation on hearing aids and cognitive decline or dementia
+- URL: https://bigg-rec.bvsalud.org/en/recommendations/f0a6cab8f84bbb88d5ff655736066cf679ef3cfa
+- Region: Global
+- Reading status: WHO regional office recommendation record inspected for population, conditional strength, low certainty and implementation remarks. July WHO release independently checked; underlying reviews not newly appraised. No recommendation table or instrument reproduced.
+- Purpose: Offer hearing care for hearing loss and communicate the uncertainty of a dementia-prevention claim.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S910 - CHOICE investigators, published protocol for the Chinese Hearing Solution for Improvement of Cognition in Elders trial
+- URL: https://link.springer.com/article/10.1186/s13063-023-07813-z
+- Region: China
+- Reading status: Original open protocol's population, planned groups, outcome definitions, assessor methods and Chinese registry ID ChiCTR2000036139 checked. CC BY 4.0. A protocol is not a results report.
+- Purpose: Distinguish the prespecified dementia-progression comparison from changes in a cognitive rating.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S911 - Shanghai Jiao Tong University School of Medicine, CHOICE-RCT investigators' institutional report on the 2026 trial
+- URL: https://www.shsmu.edu.cn/jswm/info/1037/19439.htm
+- Region: Shanghai, China
+- Reading status: Institution's own Chinese-language account read directly, including 703 randomized, two-year follow-up, primary progression and return-to-normal proportions. Independent institutional report rather than a copy of the journal article. No primary comparison CI supplied in this account.
+- Purpose: Results and limits as reported by the study team's institution. Score-category changes do not establish disease reversal.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S912 - Goman et al., Effects of hearing intervention on falls in older adults: secondary analysis of ACHIEVE (2025)
+- URL: https://doi.org/10.1016/S2468-2667(25)00088-X
+- Region: United States
+- Reading status: Selected original publisher PDF methods, adjusted results, limitations and disclosures read. Crossref version-of-record licence CC BY 4.0. Trial/analysis NIH-supported; hearing-device industry relationships disclosed. Falls were prespecified exploratory and recalled annually.
+- Purpose: Adjusted cumulative mean number of falls. Distinguish counts from risk of a first fall, diagnosis of dementia and independence.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S913 - Leroi et al., Hearing and vision rehabilitation for people with dementia in five European countries (SENSE-Cog)
+- URL: https://pubmed.ncbi.nlm.nih.gov/39389083/
+- Region: Cyprus, France, Greece, Ireland and United Kingdom
+- Reading status: Original 2024 study abstract read for design, assignment, analysed population, primary endpoint and harms. EU Horizon 2020 support. Crossref deposits a CC BY-NC 4.0 version-of-record licence. Full text and supplements not appraised.
+- Purpose: 36-week quality-of-life comparison in people with established dementia and sensory difficulties.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S914 - Cecilia S Lee et al., Association Between Cataract Extraction and Development of Dementia (2021 online)
+- URL: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2786583
+- Region: United States, Washington
+- Reading status: Selected prospective cohort methods, outcome definition, results, limitations, funding and disclosures read. Article-specific CC BY. NIH and foundation support. Not a surgical trial; complete supplements not reviewed.
+- Purpose: Clinical dementia incidence associated with cataract surgery, without establishing a preventive effect.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S915 - C Lee et al., The Effect of Cataract Surgery on the Risk of Dementia: A Nationwide Cohort Study (2023)
+- URL: https://www.mdpi.com/2077-0383/12/20/6441
+- Region: Republic of Korea
+- Reading status: Publisher full-text methods, claims endpoint, time-varying exposure, multivariable results, limitations and funding inspected. CC BY 4.0. National Research Foundation of Korea support. No individual claims or supplement reanalysis.
+- Purpose: Different direction in a retrospective national cohort, illustrating limitations of causal comparisons.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S916 - Harwood et al., Falls and health status in elderly women following first eye cataract surgery: a randomised controlled trial
+- URL: https://pubmed.ncbi.nlm.nih.gov/15615747/
+- Region: England
+- Reading status: Original investigators' abstract read for the 306 randomized women, comparator timing, visual outcomes, rate of falls, counts with at least one fall and 12-month horizon. Full text, funding and surgical complications not appraised here.
+- Purpose: First-eye surgery timing, visual function and recurrent falls. No cognitive or lifespan claim.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S917 - X Jiang et al., Patient-reported hearing-aid use and noisy-room communication difficulty: 2019 and 2024 NHIS (2026)
+- URL: https://pubmed.ncbi.nlm.nih.gov/43017530/
+- Region: United States
+- Reading status: Original author abstract read for the distinct pooled and 2024-only samples, participant age, outcome definition, survey weights and confidence intervals. Article published 2026-11-07. Crossref lists CC BY-NC 3.0. No full-text audit.
+- Purpose: Residual self-reported listening difficulty during use, distinct from an estimated device effect.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S918 - Retraction: Association between hearing aid use and all-cause and cause-specific dementia: an analysis of the UK Biobank cohort
+- URL: https://pubmed.ncbi.nlm.nih.gov/38101424/
+- Region: United Kingdom
+- Reading status: PubMed publication status and linked retracted article checked. Retraction notice first online 2023-12-12; bibliographic status only. Retracted study not used for any efficacy estimate.
+- Purpose: Exclude a retracted UK Biobank analysis; do not confuse it with other hearing studies.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S919 - JAMA Neurology, Error in Abstract: correction to the CHOICE randomized trial (2026)
+- URL: https://jamanetwork.com/journals/jamaneurology/fullarticle/2856209
+- Region: China; publication notice
+- Reading status: Publisher correction checked as a bibliographic notice: November 2026 correction concerned the male count in the abstract. No efficacy data taken from this notice or the licence-restricted results article.
+- Purpose: Record the type of correction and distinguish an amended baseline count from a retraction.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S920 - British Association of Dermatologists: Telogen effluvium
+- URL: https://www.bad.org.uk/pils/telogen-effluvium/1
+- Region: United Kingdom
+- Reading status: Inspected society patient leaflet sections on delayed onset, appearance, history, investigations, expected course and coexisting pattern loss. Consensus education, not a diagnostic accuracy study.
+- Purpose: Distinguish diffuse shedding and time to recover density from persistent thinning and select tests through clinical evaluation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S921 - American Academy of Dermatology: Signs and symptoms of central centrifugal cicatricial alopecia
+- URL: https://www.aad.org/public/diseases/hair-loss/types/ccca/symptoms
+- Region: United States
+- Reading status: Read society-authored symptom and distribution sections, including lack of pain and late shiny scarring. No patient images or underlying studies incorporated.
+- Purpose: Crown breakage or progressive thinning with or without symptoms warrants assessment for a scarring disorder.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S922 - American Academy of Dermatology: Diagnosis and treatment of central centrifugal cicatricial alopecia
+- URL: https://www.aad.org/public/diseases/hair-loss/types/ccca/treatment
+- Region: United States
+- Reading status: Read society-authored examination, scalp biopsy, coexisting diagnoses and goals for anti-inflammatory care versus regrowth sections. Individual regimens were not assessed.
+- Purpose: Early dermatology review can protect remaining follicles; minoxidil alone does not control active scarring inflammation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S923 - American Academy of Dermatology: Frontal fibrosing alopecia overview
+- URL: https://www.aad.org/public/diseases/hair-loss/types/frontal-fibrosing-alopecia
+- Region: United States
+- Reading status: Reviewed the AAD overview and descriptions of early distribution, eyebrow involvement and prevention of progression. Patient images, prevalence estimates and regimens were not used.
+- Purpose: Progressive frontal and temporal band with eyebrow loss as a reason for early review.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S924 - British Association of Dermatologists: Tinea capitis patient leaflet, May 2023
+- URL: https://www.bad.org.uk/pils/tinea-capitis
+- Region: United Kingdom
+- Reading status: Read differential features, kerion, sampling, systemic therapy, adjunct shampoo and permanent scarring sections. The page lists May 2026 as its planned next review, without a newer edition confirmed.
+- Purpose: Scaly patches with broken hair and severe inflammatory swelling need examination. Scalp antifungal shampoo alone is insufficient.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S925 - Centers for Disease Control and Prevention: Treatment of ringworm
+- URL: https://www.cdc.gov/ringworm/treatment/index.html
+- Region: United States
+- Reading status: Read CDC-authored treatment sections on scalp infection and topical corticosteroids. No species-specific regimen or duration extrapolated to individual cases.
+- Purpose: Prescribed systemic treatment for scalp ringworm and avoiding topical steroids for suspected infection.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S926 - National Institute of Arthritis and Musculoskeletal and Skin Diseases: Alopecia areata overview
+- URL: https://www.niams.nih.gov/health-topics/alopecia-areata
+- Region: United States
+- Reading status: Read NIAMS overview, causes, distribution and course. The text is agency education and does not determine an individual diagnosis.
+- Purpose: Immune-mediated hair loss with a variable course and possible recurrence or spontaneous regrowth.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S927 - National Institute of Arthritis and Musculoskeletal and Skin Diseases: Alopecia areata diagnosis, treatment and steps to take
+- URL: https://www.niams.nih.gov/health-topics/alopecia-areata/diagnosis-treatment-and-steps-to-take
+- Region: United States
+- Reading status: Read August 2024 review sections on examination, magnification, differential tests, patient choices and living with hair loss. Exact current medicine indications rely on separate product labels.
+- Purpose: Differentiate lookalikes through examination; treatment or observation can reflect personal priorities.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S928 - ALIMS: Regaine 50 mg/g cutaneous foam registration, 11 March 2025 renewal
+- URL: https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/?id=491137
+- Region: Serbia
+- Reading status: Read official public register fields for the 60 g foam, nonprescription dispensing and 2025-03-11 to 2030-03-11 decision dates. Verified on the regulator's direct page; availability at pharmacies was not assessed.
+- Purpose: Local product identification, renewal dates and nonprescription status.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S929 - ALIMS: Regaine 50 mg/g foam, summary of product characteristics, decision 000476365
+- URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/000476365%202023%2059010%20007%20000%20515%20021%2004%20001.pdf
+- Region: Serbia
+- Reading status: Read sections 4.1–4.4, 4.6 and 5.1 of the official Serbian product PDF, including the 16-week vehicle-controlled hair counts and subject rating. No trial-level reanalysis.
+- Purpose: Adult male indication, intact scalp, systemic and infant-contact precautions, continued use and short-term effects on counts and ratings.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S930 - Women's Rogaine Unscented 5% minoxidil foam, US Drug Facts label
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4d328537-b7f5-43cc-9837-c5a0c6c390f8
+- Region: United States
+- Reading status: Read uses, warnings, directions, timeframe for response and continued-use requirement for the named nonprescription foam. No inference about other country labels.
+- Purpose: Exact US women's foam example for top-of-scalp loss, warning conditions and time horizon.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S931 - Minoxidil tablets, US prescription product label (DailyMed set 1d134237)
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d134237-3e94-258e-e063-6294a90af556
+- Region: United States
+- Reading status: Read the named tablet label's boxed warning, indications and precautions on refractory hypertension, fluid retention, pericardial effusion and angina. Risks under low-dose hair-loss use were not quantified from this label.
+- Purpose: Different clinical indication and risk considerations for a systemic medicine.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S932 - Chaudhry et al.: Low-dose oral versus topical minoxidil in androgenetic alopecia, randomized double-dummy trial (2026)
+- URL: https://doi.org/10.1111/jocd.71198
+- Region: Pakistan
+- Reading status: Article-specific version-of-record CC BY 4.0 verified in Crossref and article XML. Read the authors' abstract and study outcome/table headings via Europe PMC. Reports 90 completers of 100 randomized at 24 weeks. No participant-level data or long-term safety assessment.
+- Purpose: Short-term photographic improvement, satisfaction and different adverse effects by route; absence of a significant difference cannot establish equivalence.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S933 - MINALO3004, posted results for 5% topical foam versus 2% solution in women (NCT01145625)
+- URL: https://clinicaltrials.gov/study/NCT01145625?tab=results
+- Region: Multicentre trial registry
+- Reading status: Read primary endpoint, arm counts and sponsor-supplied noninferiority margin in ClinicalTrials.gov API v2. Entry lists 2014-05-22 last update. Source of the margin discrepancy with the regulator remains unresolved.
+- Purpose: Estimated difference and confidence interval and the distinct noninferiority threshold in the sponsor's registry.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S934 - Swedish Medical Products Agency: Public assessment report for Roquinna 50 mg/g foam, SE/H/1503/01/DC
+- URL: https://docetp.mpa.se/LMF/Roquinna%20cutaneous%20foam%20ENG%20PAR_09001bee807a81f8.pdf
+- Region: Sweden, European decentralized procedure
+- Reading status: Read the procedural date (2015-12-14) and regulator's efficacy appraisal of MINALO3004 and MINALO3005, including the formal margin, reviewer interpretation and vehicle comparison. Independent regulatory assessment, not a participant-data reanalysis by this project.
+- Purpose: Formal noninferiority conclusion and its sensitivity to the margin; distinction between hair count and perceived scalp coverage.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S935 - FDA: Potential risks associated with compounded topical finasteride products
+- URL: https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded
+- Region: United States
+- Reading status: Read the FDA safety communication on US compounded topical preparations, exposure through skin, local and systemic adverse-event reports, handling and transfer. Passive reports have no reliable exposure denominator.
+- Purpose: Compounded topical finasteride precautions and limits on interpreting reports or transferring findings to other formulations.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S936 - European Medicines Agency: Finasteride- and dutasteride-containing medicinal products, safety referral
+- URL: https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products
+- Region: European Union
+- Reading status: Read EMA patient and professional summaries and named formulations after the 2025 European review. Examined tablet and cutaneous-spray statements separately, without treating absence of an identified link as proof of no risk.
+- Purpose: Mood and sexual adverse effects, regulator advice for new mood symptoms on the 1 mg hair-loss tablet and jurisdiction-specific scope.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S937 - FDA: Litfulo (ritlecitinib) US prescribing information, revised June 2026
+- URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215830s001lbl.pdf
+- Region: United States
+- Reading status: Read indication, boxed warning, patient assessment and trial population, SALT definition and week-24 Table 7. The randomized trial had multiple arms; the cited comparison is 130 assigned the approved regimen and 131 assigned placebo. No long-term withdrawal analysis.
+- Purpose: Severe alopecia areata patient eligibility, absolute week-24 scalp-coverage endpoint and important safety context.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S938 - AWAKENING: Phase 2 PP405 trial in adult women with androgenetic alopecia (NCT07907783)
+- URL: https://clinicaltrials.gov/study/NCT07907783
+- Region: United States trial registry
+- Reading status: Read ClinicalTrials.gov API v2 status, dates, estimated enrolment and registered primary and secondary endpoints. Entry updated 2026-11-17 listed recruiting and no posted results as checked 2026-11-25.
+- Purpose: Distinguish a registered target-area count and participant-rated coverage from evidence of an actual treatment effect.
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)

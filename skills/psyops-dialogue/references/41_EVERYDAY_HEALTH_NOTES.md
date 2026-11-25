@@ -16,7 +16,7 @@ For nighttime/lying-down symptoms, NIDDK says leaving at least three hours betwe
 
 General habits include adequate sleep opportunity, reasonably consistent timing, a quiet/dark/cool environment and a calm wind-down. Daytime outdoor time/activity may support a routine. Consider caffeine/nicotine timing, alcohol and large late meals. If naps interfere with nighttime sleep, review timing/length; shift work needs a schedule-specific approach. These habits are not rigid rules or a guarantee of good sleep. [medical:S648]
 
-NHLBI describes multicomponent CBT-I as a usual first treatment for long-term insomnia. Sleep education/habits are one component alongside other structured elements. Persistent difficulty with daytime effects deserves assessment rather than repeated hygiene tips. Do not convert sleep restriction into an unsupervised time-in-bed prescription here, independently select sleep medicines or extrapolate this adult overview to infants. The page was updated March 2022; a full current insomnia guideline, sleep-apnea pathway and comparative trial review remain pending. [medical:S649]
+NHLBI describes multicomponent CBT-I as a usual first treatment for long-term insomnia. Sleep education/habits are one component alongside other structured elements. Persistent difficulty with daytime effects deserves assessment rather than repeated hygiene tips. Do not convert sleep restriction into an unsupervised time-in-bed prescription here, independently select sleep medicines or extrapolate this adult overview to infants. The page was updated March 2022. For later evidence, the health-explain skill includes module 43 on sleep assessment and module 58 on sleep timing, shift work and insomnia. [medical:S649]
 
 ## Eye exercises: a named indication
 

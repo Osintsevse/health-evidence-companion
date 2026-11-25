@@ -314,6 +314,58 @@
       "reviewed_on": "2026-10-18",
       "review_kind": "author_read_generated_metadata_entry",
       "reason": "Reviewed same bibliographic entry; generated active-use disposition adds one metadata line per preceding entry. Clinical reading scope and relevance unchanged."
+    },
+    {
+      "case_id": "search-candidate-003",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Psychology and combined routing",
+        "line": 69,
+        "line_end": 77,
+        "text_sha256": "65b52ae74e271a5ab9d530ccfba5644b6527b508da820f9149f7f8ec1b6b6902",
+        "relevance": 3,
+        "justification": "The section directly links unified medical and psychological routing.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Psychology and combined routing",
+        "line": 69,
+        "line_end": 77,
+        "text_sha256": "da3642328c0c6d972b6891c44f94340e8b169c06b40a5dd1399a3c52b4094d40",
+        "relevance": 3,
+        "justification": "The section directly links unified medical and psychological routing.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-11-25",
+      "review_kind": "author_read_canonical_navigation_paragraph",
+      "reason": "The passage still links combined medical and psychological routing. An outdated skill count was removed. Relevance and eligibility were reviewed and retained."
+    },
+    {
+      "case_id": "search-candidate-005",
+      "previous": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Studied question packets",
+        "line": 85,
+        "line_end": 109,
+        "text_sha256": "b831b4dc791b93e10ca3b789d0c5f3fb17aa1bcc1c2e12fb878e6c7c6629e55c",
+        "relevance": 3,
+        "justification": "The section lists studied question packets.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "current": {
+        "path": "knowledge/00_INDEX.md",
+        "heading": "Studied question packets",
+        "line": 85,
+        "line_end": 114,
+        "text_sha256": "9b38446fb185a6d52db865bff3555fba8a08c1bf2e2608abbccaf1db69affed7",
+        "relevance": 3,
+        "justification": "The section lists studied question packets.",
+        "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
+      },
+      "reviewed_on": "2026-11-25",
+      "review_kind": "author_read_canonical_navigation_section",
+      "reason": "The reviewed index section now also lists modules 53\u201356 and ends at the new everyday health heading. It still answers the same question about where to find studied packets."
     }
   ]
 }

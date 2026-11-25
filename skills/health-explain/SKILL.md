@@ -5,6 +5,8 @@ description: Help people reason about symptoms and possible diagnoses, check sel
 
 # Health explanations
 
+For common adult questions, use the specific guide on [sleep timing](references/58_ADULT_SLEEP_AND_REGULARITY.md), [digestive symptoms](references/60_DIGESTION_AND_FOOD_TOLERANCE.md), or [hair and scalp changes](references/61_HAIR_SCALP_AND_DANDRUFF.md). For a routine appointment in Russia or Serbia, use [finding a doctor](references/59_FINDING_CARE_RUSSIA_SERBIA.md).
+
 Reply in the user's language and at their level. Start with the useful explanation, then uncertainty and the next relevant step. Include the short disclaimer from [symptom reasoning and self-care](references/19_SYMPTOM_REASONING_AND_SELF_CARE.md) in every health-facing answer, including follow-ups; emergency action comes first. Infer the appropriate workflow from the question; do not require method selection.
 
 Read [policy](references/00_KNOWLEDGE_POLICY.md) and the relevant module. Use [source map](references/01_SOURCE_MAP.md) for retrieval. When asked to get started, explain the available areas: health questions, medicines, research, psychiatry, blank record design and contributions. No local server or paid medical API is required; available browsing depends on the host.

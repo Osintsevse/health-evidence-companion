@@ -1,6 +1,6 @@
 # Longevity, prevention and radical life extension
 
-Evidence cut-off: 2026-10-18. General adult educational guidance; not an individual prescription, prognostic calculator, formal clinical guideline or clinical validation. This packet is source-checked in bounded sections and awaits substantive maintainer/clinical review. Read actual source scopes in the ledger; a checked date is not a full-text claim.
+The original evidence cards were checked through 18 October 2026. The [November research update](longevity/50_RESEARCH_UPDATE.md) covers a targeted search through 24 November, including function, disability, nutrition and a new trial registration. Read each card for its population, outcome and reading scope. Substantive maintainer and clinical review remain pending.
 
 ## Start with the outcome
 

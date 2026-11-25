@@ -167,7 +167,7 @@
           "heading": "Psychology and combined routing",
           "line": 69,
           "line_end": 77,
-          "text_sha256": "65b52ae74e271a5ab9d530ccfba5644b6527b508da820f9149f7f8ec1b6b6902",
+          "text_sha256": "da3642328c0c6d972b6891c44f94340e8b169c06b40a5dd1399a3c52b4094d40",
           "relevance": 3,
           "justification": "The section directly links unified medical and psychological routing.",
           "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
@@ -266,8 +266,8 @@
           "path": "knowledge/00_INDEX.md",
           "heading": "Studied question packets",
           "line": 85,
-          "line_end": 109,
-          "text_sha256": "b831b4dc791b93e10ca3b789d0c5f3fb17aa1bcc1c2e12fb878e6c7c6629e55c",
+          "line_end": 114,
+          "text_sha256": "9b38446fb185a6d52db865bff3555fba8a08c1bf2e2608abbccaf1db69affed7",
           "relevance": 3,
           "justification": "The section lists studied question packets.",
           "hash_basis": "UTF-8 decoded canonical section text including heading; universal newlines; through next equal-or-higher heading, or introduction only for H1."
