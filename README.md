@@ -68,6 +68,8 @@ Relevant voluntarily supplied symptom/medicine/test details can inform the autho
 
 No copyrighted textbook corpus, third-party interaction dataset or medical model weights are bundled. Optional integration research and the licensed DrugBank example remain outside the plugin ZIP. MIT covers original code/instructions/notes; external sources retain their rights ([NOTICE](NOTICE.md)).
 
+[X-ray and DICOM guidance](knowledge/08_MEDICAL_AI.md#x-ray-images-local-viewers-and-clinical-ai) covers how to prepare images for a report explanation or specialist review, local viewers, and the scope of clinical imaging AI. See [imaging privacy and source preservation](knowledge/30_PRIVATE_IMAGES_GENETICS_AND_ACTIVITY.md#photos-and-imaging) for handling originals and exports.
+
 ## Keep a private medical history
 
 Use [private archive setup](docs/private-archive-setup.md) and [document/history rules](knowledge/20_PRIVATE_DOCUMENT_IMPORT_AND_HISTORY.md). The preferred Drive layout preserves received photos/PDFs separately and uses one native Google Sheet for dated laboratory results, visits/recommendations, prescriptions, actual medicine-use events, corrections and an import journal. Each fact links to its source/page; unclear fields remain pending. JSON import snapshots provide an audit/export trail, while charts and summaries are derived views.

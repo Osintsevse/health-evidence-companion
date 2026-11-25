@@ -8593,5 +8593,77 @@
     "retrieval_status": "Read scope, examples and questions to ask before an off-label use.",
     "use": "Frame questions about rationale, evidence, alternatives and monitoring for off-label use.",
     "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S956",
+    "title": "OpenAI: Image inputs in ChatGPT and Codex",
+    "url": "https://learn.chatgpt.com/docs/image-inputs",
+    "region": "Global",
+    "retrieval_status": "Read attachment instructions and Codex PNG/JPEG support. Product documentation checked 2026-11-25.",
+    "use": "Identify supported image-input formats and surface-specific handling.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S957",
+    "title": "OpenAI: ChatGPT Image Inputs FAQ",
+    "url": "https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq",
+    "region": "Global",
+    "retrieval_status": "Read supported image formats and the medical limitations section. Product documentation checked 2026-11-25.",
+    "use": "Distinguish image input capability from supported medical use.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S958",
+    "title": "Lacaita et al.: The Accuracy of ChatGPT-4o in Interpreting Chest and Abdominal X-Ray Images",
+    "url": "https://www.mdpi.com/2075-4426/15/5/194",
+    "region": "Austria and Germany",
+    "retrieval_status": "Read case selection, methods, results, discussion and article licence. Journal of Personalized Medicine 15(5):194, 2025. CC BY 4.0.",
+    "use": "Illustrate misses in a particular ChatGPT-4o experiment. Selected teaching cases and model version limit transfer to clinical populations, other models and other exams.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S959",
+    "title": "Weasis 4.8: Export DICOM Files and Images",
+    "url": "https://weasis.org/en/tutorials/dicom-export/",
+    "region": "Global",
+    "retrieval_status": "Read current-view and original-image export documentation, identity masking and the project overview on local use. No installation or image test performed.",
+    "use": "Describe an optional local DICOM viewer and its PNG export, including retention of the original for clinical review.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S960",
+    "title": "RadiAnt: DICOM Viewer for Windows",
+    "url": "https://www.radiantviewer.com/",
+    "region": "Global",
+    "retrieval_status": "Read the official Windows support and product overview, and the official store pricing page. No installation or image test performed.",
+    "use": "Identify a commercial Windows DICOM viewer alternative.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S961",
+    "title": "FDA: Gleamer BoneView 1.1-US, K222176",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222176.pdf",
+    "region": "United States",
+    "retrieval_status": "Read the indications and 510(k) summary sections on concurrent reading, anatomic regions and age groups. Public filing, 2023.",
+    "use": "Identify the bounded role of computer-aided fracture detection in specified radiographic exams. US device scope only.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S962",
+    "title": "FDA: Annalise Enterprise CXR Triage Pneumothorax, K213941",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K213941.pdf",
+    "region": "United States",
+    "retrieval_status": "Read the indications and device workflow for adult chest radiograph prioritization. Public FDA filing.",
+    "use": "Identify a clinician worklist triage tool for suspected pneumothorax or tension pneumothorax. An output cannot rule out either condition.",
+    "checked_on": "2026-11-25"
+  },
+  {
+    "id": "S963",
+    "title": "DICOM PS3.15 2026e: Basic Application Level Confidentiality Options",
+    "url": "https://dicom.nema.org/medical/dicom/current/output/chtml/part15/sect_E.3.html",
+    "region": "Global",
+    "retrieval_status": "Read Annex E.3, including the Clean Pixel Data Option. Technical standard, original fact summary only.",
+    "use": "Explain why checking burned-in identifiers is separate from masking display annotations or processing metadata.",
+    "checked_on": "2026-11-25"
   }
 ]

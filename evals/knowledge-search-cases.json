@@ -8426,8 +8426,8 @@
         {
           "path": "knowledge/08_MEDICAL_AI.md",
           "heading": "Open weights and code",
-          "line": 28,
-          "line_end": 38,
+          "line": 50,
+          "line_end": 60,
           "text_sha256": "12e187535136fa26966ced9a76ef1b7d7f3d61de789acdbf6c3480871763498c",
           "relevance": 3,
           "justification": "The section distinguishes weights, code, hosting cost and unmeasured clinical performance.",

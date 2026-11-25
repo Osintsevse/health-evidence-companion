@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.12.1 - 2026-11-25
+
+- Document local DICOM viewing, preparation of radiograph exports, and the limits of chat-based and specialist imaging AI.
+
 ## 0.12.0 - 2026-11-25
 
 - Add source-linked guidance for reviewing repeat cranial ultrasound reports, ventricular enlargement, and suspected raised intracranial pressure in young children.

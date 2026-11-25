@@ -10,6 +10,8 @@ For MRI, CT and X-ray, prefer the radiologist's report and the clinical question
 
 Originals, DICOM metadata, embedded labels, image EXIF and filenames can identify people. Keep them private. Removing an overlay or name does not prove anonymization. Never upload an image to a third-party AI/OCR service merely because analysis was requested.
 
+For plain radiographs, module 08 adds an original-DICOM and derivative-export workflow, local viewer options, and examples of age- and finding-specific clinical AI. Keep each exported view linked to its original in private storage when saving is authorized. Check visible labels, burned-in identifiers and metadata separately before any authorized transfer. [S959, S963]
+
 ## Genetic information
 
 Distinguish analytical accuracy, a variant's association with disease and whether acting on the result improves outcomes. A consumer panel samples particular variants, and a negative result does not exclude every relevant genetic cause. A positive result may require clinical confirmation. FDA education supports these limitations; its US authorization examples are not a Serbian/Russian regulatory list. [S198]
