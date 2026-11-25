@@ -28,11 +28,13 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          # Keep origin/main at the fetched branch tip when rerunning an older SHA.
+          ref: ${{ github.sha }}
           persist-credentials: false
           fetch-depth: 0
       - name: Verify reviewed main ancestry
         run: |
-          git merge-base --is-ancestor HEAD origin/main
+          git merge-base --is-ancestor HEAD refs/remotes/origin/main
       - name: Validate and test
         run: |
           python3 scripts/validate.py

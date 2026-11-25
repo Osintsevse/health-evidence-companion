@@ -115,7 +115,7 @@ def publish(root=ROOT, env=None, command=None):
     head = command(['git', 'rev-parse', 'HEAD']).stdout.strip()
     if head != env.get('GITHUB_SHA'):
         raise ValueError('Checked-out commit differs from the workflow commit')
-    command(['git', 'merge-base', '--is-ancestor', head, 'origin/main'])
+    command(['git', 'merge-base', '--is-ancestor', head, 'refs/remotes/origin/main'])
     existing = find_release(command, tag)
     has_tag = command(['git', 'show-ref', '--verify', '--quiet', 'refs/tags/' + tag],
                       allowed=(0, 1)).returncode == 0

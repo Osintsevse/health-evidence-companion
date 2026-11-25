@@ -35,7 +35,7 @@ class FakeCommands:
         code = 0
         if args == ['git', 'rev-parse', 'HEAD']:
             data = HEAD
-        elif args[:2] == ['git', 'merge-base']:
+        elif args == ['git', 'merge-base', '--is-ancestor', HEAD, 'refs/remotes/origin/main']:
             if not self.reviewed:
                 raise RuntimeError('Commit is not in reviewed main')
         elif args[:2] == ['git', 'show-ref']:
