@@ -121,3 +121,9 @@ The [laboratory/BP/allergy/child-care cards](44_LABS_BP_ALLERGY_CHILDREN.md) and
 - [Physical activity, strength and mobility](63_ACTIVITY_FOR_HEALTH.md)
 - [Healthy eating in everyday life](64_HEALTHY_EATING_IN_PRACTICE.md)
 - [Recent human evidence on healthy longevity](longevity/50_RESEARCH_UPDATE.md)
+
+## Sleep treatment, sensory health and hair loss
+
+- [Insomnia, sleep apnea, wearables and exercise timing](65_SLEEP_TREATMENT_AND_MEASUREMENT.md)
+- [Hair loss, regrowth and medicine safety](66_HAIR_LOSS_EVIDENCE.md)
+- [Hearing, vision, everyday function and cognition](longevity/60_FUNCTION_AND_COGNITION.md)

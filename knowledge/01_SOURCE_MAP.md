@@ -2705,9 +2705,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S336 - Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7946062/
 - Region: US research
-- Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected
+- Reading status: Full-text accessible; summary, design, results, food-density/eating-rate discussion and limitations inspected Reviewed two correction notices on 2026-11-25: DOI 10.1016/j.cmet.2019.05.020 covers author, table, legend and supplement details; DOI 10.1016/j.cmet.2020.08.014 corrects meal-level coding. The overall daily intake contrast stands. The PMC correction metadata and body identify different notices.
 - Purpose: 20-adult crossover, 14 days per diet, energy intake and weight; mechanism limits
-- Checked: 2026-10-09
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S337 - Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition, recommendations
@@ -3025,9 +3025,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S376 - Once daily oral relugolix combination therapy versus placebo in endometriosis-associated pain: SPIRIT 1 and 2
 - URL: https://pubmed.ncbi.nlm.nih.gov/35717987/
 - Region: Multinational phase 3 trials
-- Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read.
+- Reading status: Indexed PubMed/publisher abstract methods, responder definitions, efficacy, withdrawals, bone results and funding inspected. Full article not read. On 2026-11-25 a comparison of article versions identified a corrected table cross-reference. The reported responder percentages checked did not change. The standalone correction text and appendices were not verified.
 - Purpose: 24-week randomized pain efficacy; absolute comparator rates; distinction between response and cure.
-- Checked: 2026-10-09
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S377 - Linzagolix therapy for endometriosis-associated pain: EDELWEISS 3 randomized phase 3 study
@@ -5273,9 +5273,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S657 - VA/DoD: Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea, version3.0 (2025)
 - URL: https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf
 - Region: Adult VA/DoD clinician guidance; external use needs local context
-- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices.
+- Reading status: Selected printed/physical pp7–8,30–31,34,44–50 inspected on2026-10-17; not full guideline/trials/instrument appendices. Revisited final guidance on 2026-11-25, recommendations 5, 7, 17-18 and 26, digital CBT-I and PAP support.
 - Purpose: Insomnia/opportunity distinction, CBT-I/hygiene, outcome/strength/certainty/review-status and selected applicability limits.
-- Checked: 2026-10-17
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S658 - NHLBI: Sleep Deprivation and Deficiency—How Sleep Affects Your Health
@@ -6185,9 +6185,9 @@ The clinical navigation extension has additional reading records in knowledge/cl
 ### S771 - Blood Pressure Lowering Treatment Trialists' Collaboration. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure. Lancet 2021;397:1625-1636
 - URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC8102467/
 - Region: International randomized trials
-- Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded.
+- Reading status: selected_full_text_sections_read; Summary, selected methods/results, standardization, limitations, harms omission, funding and article licence; appendix excluded. On 2026-11-25 the contributor-list correction, PMID 34022983, was checked. It did not revise the clinical estimates.
 - Purpose: randomized_clinical_event_evidence_not_universal_bp_target
-- Checked: 2026-10-18
+- Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)
 
 ### S772 - Chou et al. Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication. USPSTF Evidence Summary, 23 August 2022
@@ -7163,5 +7163,365 @@ The clinical navigation extension has additional reading records in knowledge/cl
 - Region: Netherlands; investigator-submitted protocol registry
 - Reading status: Inspected registry status, actual enrollment field, and primary outcome and time-frame fields via the public ClinicalTrials.gov v2 structured record. Counts differ by source: registry actual enrollment 110, article abstract reports 108. Participant flow was not reconciled from the full article.
 - Purpose: Corroborates planned protein-intake and DXA mass endpoints for the published IMPACT trial; not an independent outcome dataset.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S894 - Patil et al. Treatment of adult obstructive sleep apnea with positive airway pressure. AASM clinical practice guideline, 2019
+- URL: https://aasm.org/wp-content/uploads/2019/02/TreatmentOSAwithPAP-Guideline-at-a-Glance.pdf
+- Region: United States; adults with diagnosed OSA
+- Reading status: Read the society's original guideline-at-a-glance PDF, including recommendation strengths 1–3, the clinical contexts of the flow diagram, and support and follow-up recommendations. DOI of full guideline 10.5664/jcsm.7640. Underlying reviews not independently regraded.
+- Purpose: PAP for excessive sleepiness, impaired sleep-related quality of life and comorbid hypertension, and follow-up of treatment
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S895 - Tang et al. Effect of CPAP on cardiovascular events in minimally symptomatic OSA: long-term follow-up of the MOSAIC randomised controlled trial. BMJ Open Respiratory Research, 2020
+- URL: https://doi.org/10.1136/bmjresp-2020-000742
+- Region: United Kingdom; single-centre extended follow-up of randomized MOSAIC participants
+- Reading status: Read the published full PDF, including randomized groups, broad cardiovascular composite, follow-up by group, crossovers, intention-to-treat estimate and limitations. Article CC BY-NC 4.0. Original factual synthesis.
+- Purpose: Uncertainty about cardiovascular events in a minimally symptomatic, selected population, distinct from treating excessive sleepiness
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S896 - Sweetman et al. Cognitive and behavioral therapy for insomnia increases the use of continuous positive airway pressure therapy in obstructive sleep apnea participants with comorbid insomnia: a randomized clinical trial. Sleep, 2019
+- URL: https://doi.org/10.1093/sleep/zsz178
+- Region: Australia; 145 adults with insomnia and AHI at least 15
+- Reading status: Read the authors' published abstract including eligibility, comparison, six-month endpoint, confidence interval and daytime findings (PMID 31403168). Full article and underlying records not appraised. No open full-text licence asserted. Original factual synthesis only.
+- Purpose: CBT-I before CPAP versus usual care, with duration of subsequent PAP use and daytime impairment as separate outcomes
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S897 - Ong et al. A randomized controlled trial of CBT-I and PAP for obstructive sleep apnea and comorbid insomnia: main outcomes from the MATRICS study. Sleep, 2020
+- URL: https://doi.org/10.1093/sleep/zsaa041
+- Region: United States; adults with diagnosed comorbid insomnia and OSA
+- Reading status: Read the published study abstract, including three arms, objective 90-day PAP adherence, insomnia secondary outcomes and sequencing (PMID 32170307). Full text not independently appraised. No open full-text licence asserted. Original factual synthesis only.
+- Purpose: Improved insomnia outcomes without a significant between-group difference in PAP adherence or superiority of either sequence
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S898 - Shi et al. Clinician-guided digital CBT-I improves sleep quality and apnea severity in patients with co-morbid insomnia and OSA: A Double-Blind, Randomized Clinical Trial. American Journal of Respiratory and Critical Care Medicine, 2026
+- URL: https://doi.org/10.1093/ajrccm/aamag567
+- Region: China; trial in 88 adults with comorbid insomnia and OSA
+- Reading status: Read the publisher's accepted-manuscript abstract, publication history (online 29 October 2026) and CC BY-NC 4.0 statement. Cross-checked PMID 42958645. Posttreatment and three-month endpoints distinguished. Full PDF, registry protocol and supplements not appraised. Original factual synthesis.
+- Purpose: Clinical guidance during internet CBT-I, insomnia outcomes, posttreatment secondary AHI and transient increase in sleepiness
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S899 - Vethe et al. Long-term clinical and cost-effectiveness of a fully automated digital cognitive behavioural therapy for insomnia: 2-year follow-up of a single-blind, superiority, randomised controlled trial. The Lancet Regional Health – Europe, 2026
+- URL: https://doi.org/10.1016/j.lanepe.2026.101691
+- Region: Norway; self-referred adults selected for significant insomnia symptoms
+- Reading status: Verified article-specific CC BY 4.0 in the version-of-record rights statement (PMC13186012). Read the authors' abstract and selected full-text eligibility, endpoints, visit completion, missing-data methods and limitations. Earlier primary-endpoint publication and cost-effectiveness model not independently evaluated.
+- Purpose: Long-term symptom difference with an active comparator, substantial attrition and exclusions limiting use in night workers or people at risk of apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S900 - Kabbani et al. Culturally adapted digital cognitive behavioral therapy for insomnia in South Korea – a double-blind randomized controlled trial. Internet Interventions, 2026
+- URL: https://doi.org/10.1016/j.invent.2026.100933
+- Region: South Korea; multicentre trial in adults with chronic insomnia
+- Reading status: Verified article-specific CC BY-NC-ND 4.0 rights statement in PMC13010449. Read trial population, six-week arms and contact schedule, post-intervention primary and secondary outcomes, and the single-arm three-month follow-up. Original factual synthesis without copied translation or instruments.
+- Purpose: No detectable primary between-group insomnia severity difference versus an education app in a small randomized comparison
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S901 - US Food and Drug Administration. Sleep Apnea Notification Feature, 510(k) K240929. Clearance dated 13 September 2024
+- URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240929.pdf
+- Region: United States; indicated software use in previously undiagnosed adults aged 18 years and older
+- Reading status: Read the FDA clearance letter and the enclosed indications for use, device description and comparison of intended uses. The submitted manufacturer summary is identified separately within the FDA record. No accuracy analysis or independent replication claimed.
+- Purpose: Distinguishes cleared risk alerts from diagnosis, exclusion or management of sleep apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S902 - American Academy of Sleep Medicine. Health advisory: Sleep apps and devices that self-assess risk of obstructive sleep apnea, adopted 10 January 2025
+- URL: https://aasm.org/wp-content/uploads/2025/04/apps-devices-sleep-apnea-risk-health-advisory.pdf
+- Region: United States; public sleep apnea risk assessment advisory
+- Reading status: Read the society's full one-page advisory, including scope, federal regulatory context and adoption date. Original factual summary. The advisory is not an accuracy study of any one device.
+- Purpose: Limits of self-screening, symptom-driven discussion and why an absent alert does not exclude apnea
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S903 - Leota et al. Dose-response relationship between evening exercise and sleep. Nature Communications, 2025
+- URL: https://doi.org/10.1038/s41467-025-58271-x
+- Region: Multinational observational cohort of physically active commercial wearable users
+- Reading status: Read the published PDF's study population, exposure definitions, models relative to habitual sleep onset, contrasts, study limitations, affiliations and article rights (CC BY-NC-ND 4.0). Original factual synthesis. Device algorithms and individual-level data not audited.
+- Purpose: Timing and strain in relation to device-estimated sleep, with limits on causal inference and on universal cutoffs
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S904 - Gale et al. Evening regular activity breaks extend subsequent free-living sleep time in healthy adults: a randomised crossover trial. BMJ Open Sport & Exercise Medicine, 2024
+- URL: https://doi.org/10.1136/bmjsem-2023-001774
+- Region: New Zealand; randomized crossover study of adults aged 19–39 providing sleep data
+- Reading status: Read published full-text intervention and secondary sleep-measure methods, results and denominators, including first-night and 48-hour contrasts and wake times. Article states CC BY-NC 4.0. Original factual synthesis.
+- Purpose: Short evening activity breaks versus uninterrupted sitting, first-night measured duration and null 48-hour result
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S905 - Tariq et al. Chronotype-aligned exercise timing in middle-aged adults at cardiometabolic risk: a randomised controlled trial. Open Heart, 2026
+- URL: https://doi.org/10.1136/openhrt-2025-003573
+- Region: Pakistan; sedentary adults aged 40–60 in Lahore with a clear morning or evening chronotype and cardiovascular risk
+- Reading status: Read the publisher PDF's eligibility, intervention, post-randomization exclusions, outcome hierarchy, sleep quality results and limitations. Published April 2026. Article CC BY-NC 4.0. No sleep staging or shift-worker effect inferred.
+- Purpose: Exercise aligned with chronotype in a selected population, self-reported sleep as a secondary endpoint and applicability limits
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S906 - Albalak et al. The effect of physical activity timing on insomnia and sleep quality: a randomized cross-over trial in older adults. Sleep Medicine, online October 2026
+- URL: https://doi.org/10.1016/j.sleep.2026.109332
+- Region: Netherlands; adults aged 60–80 with insomnia symptoms
+- Reading status: Verified publisher-deposited Crossref rights metadata for this DOI, CC BY 4.0 specifically for the version of record. Read published author abstract via PubMed, PMID 42945713, including intervention times and duration, availability of sleep data, ISI contrast and limits. No full-text appraisal. The abstract's sleep-midpoint coefficient and units are ambiguous, so no numerical effect for that endpoint is reported here.
+- Purpose: Morning versus evening coached activity in older adults with insomnia symptoms, short follow-up and the difference between symptom severity and measured timing
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S907 - ACHIEVE (NCT03243422), posted results of the Aging and Cognitive Health Evaluation in Elders trial
+- URL: https://clinicaltrials.gov/study/NCT03243422?tab=results
+- Region: United States
+- Reading status: Sponsor-submitted ClinicalTrials.gov API v2 results read for the primary cognitive score, composite cognitive impairment, subgroup definitions and contrasts. Results first posted 2024-02-01. Individual records and the publication supplement not examined.
+- Purpose: Primary three-year effect in the entire randomized group, prespecified recruitment-group contrasts and scope of composite cognitive impairment.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S908 - Lin et al., Effects of hearing intervention on cognitive decline: ACHIEVE primary author abstract at AAIC 2023
+- URL: https://aaic.alz.org/downloads2023/ACHIEVE-trial-hearing-intervention-AAIC-2023.pdf
+- Region: United States
+- Reading status: Investigator conference abstract (PDF page 3) and conference description read, including the prespecified interaction p=0.010. Main and group estimates separately cross-checked with the sponsor's posted results. Short original facts only; no figure or instrument reproduced.
+- Purpose: Relative cognitive-score decline in ARIC, formal heterogeneity test and differences in recruitment groups.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S909 - PAHO BIGG-REC, WHO 2026 recommendation on hearing aids and cognitive decline or dementia
+- URL: https://bigg-rec.bvsalud.org/en/recommendations/f0a6cab8f84bbb88d5ff655736066cf679ef3cfa
+- Region: Global
+- Reading status: WHO regional office recommendation record inspected for population, conditional strength, low certainty and implementation remarks. July WHO release independently checked; underlying reviews not newly appraised. No recommendation table or instrument reproduced.
+- Purpose: Offer hearing care for hearing loss and communicate the uncertainty of a dementia-prevention claim.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S910 - CHOICE investigators, published protocol for the Chinese Hearing Solution for Improvement of Cognition in Elders trial
+- URL: https://link.springer.com/article/10.1186/s13063-023-07813-z
+- Region: China
+- Reading status: Original open protocol's population, planned groups, outcome definitions, assessor methods and Chinese registry ID ChiCTR2000036139 checked. CC BY 4.0. A protocol is not a results report.
+- Purpose: Distinguish the prespecified dementia-progression comparison from changes in a cognitive rating.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S911 - Shanghai Jiao Tong University School of Medicine, CHOICE-RCT investigators' institutional report on the 2026 trial
+- URL: https://www.shsmu.edu.cn/jswm/info/1037/19439.htm
+- Region: Shanghai, China
+- Reading status: Institution's own Chinese-language account read directly, including 703 randomized, two-year follow-up, primary progression and return-to-normal proportions. Independent institutional report rather than a copy of the journal article. No primary comparison CI supplied in this account.
+- Purpose: Results and limits as reported by the study team's institution. Score-category changes do not establish disease reversal.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S912 - Goman et al., Effects of hearing intervention on falls in older adults: secondary analysis of ACHIEVE (2025)
+- URL: https://doi.org/10.1016/S2468-2667(25)00088-X
+- Region: United States
+- Reading status: Selected original publisher PDF methods, adjusted results, limitations and disclosures read. Crossref version-of-record licence CC BY 4.0. Trial/analysis NIH-supported; hearing-device industry relationships disclosed. Falls were prespecified exploratory and recalled annually.
+- Purpose: Adjusted cumulative mean number of falls. Distinguish counts from risk of a first fall, diagnosis of dementia and independence.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S913 - Leroi et al., Hearing and vision rehabilitation for people with dementia in five European countries (SENSE-Cog)
+- URL: https://pubmed.ncbi.nlm.nih.gov/39389083/
+- Region: Cyprus, France, Greece, Ireland and United Kingdom
+- Reading status: Original 2024 study abstract read for design, assignment, analysed population, primary endpoint and harms. EU Horizon 2020 support. Crossref deposits a CC BY-NC 4.0 version-of-record licence. Full text and supplements not appraised.
+- Purpose: 36-week quality-of-life comparison in people with established dementia and sensory difficulties.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S914 - Cecilia S Lee et al., Association Between Cataract Extraction and Development of Dementia (2021 online)
+- URL: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2786583
+- Region: United States, Washington
+- Reading status: Selected prospective cohort methods, outcome definition, results, limitations, funding and disclosures read. Article-specific CC BY. NIH and foundation support. Not a surgical trial; complete supplements not reviewed.
+- Purpose: Clinical dementia incidence associated with cataract surgery, without establishing a preventive effect.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S915 - C Lee et al., The Effect of Cataract Surgery on the Risk of Dementia: A Nationwide Cohort Study (2023)
+- URL: https://www.mdpi.com/2077-0383/12/20/6441
+- Region: Republic of Korea
+- Reading status: Publisher full-text methods, claims endpoint, time-varying exposure, multivariable results, limitations and funding inspected. CC BY 4.0. National Research Foundation of Korea support. No individual claims or supplement reanalysis.
+- Purpose: Different direction in a retrospective national cohort, illustrating limitations of causal comparisons.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S916 - Harwood et al., Falls and health status in elderly women following first eye cataract surgery: a randomised controlled trial
+- URL: https://pubmed.ncbi.nlm.nih.gov/15615747/
+- Region: England
+- Reading status: Original investigators' abstract read for the 306 randomized women, comparator timing, visual outcomes, rate of falls, counts with at least one fall and 12-month horizon. Full text, funding and surgical complications not appraised here.
+- Purpose: First-eye surgery timing, visual function and recurrent falls. No cognitive or lifespan claim.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S917 - X Jiang et al., Patient-reported hearing-aid use and noisy-room communication difficulty: 2019 and 2024 NHIS (2026)
+- URL: https://pubmed.ncbi.nlm.nih.gov/43017530/
+- Region: United States
+- Reading status: Original author abstract read for the distinct pooled and 2024-only samples, participant age, outcome definition, survey weights and confidence intervals. Article published 2026-11-07. Crossref lists CC BY-NC 3.0. No full-text audit.
+- Purpose: Residual self-reported listening difficulty during use, distinct from an estimated device effect.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S918 - Retraction: Association between hearing aid use and all-cause and cause-specific dementia: an analysis of the UK Biobank cohort
+- URL: https://pubmed.ncbi.nlm.nih.gov/38101424/
+- Region: United Kingdom
+- Reading status: PubMed publication status and linked retracted article checked. Retraction notice first online 2023-12-12; bibliographic status only. Retracted study not used for any efficacy estimate.
+- Purpose: Exclude a retracted UK Biobank analysis; do not confuse it with other hearing studies.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S919 - JAMA Neurology, Error in Abstract: correction to the CHOICE randomized trial (2026)
+- URL: https://jamanetwork.com/journals/jamaneurology/fullarticle/2856209
+- Region: China; publication notice
+- Reading status: Publisher correction checked as a bibliographic notice: November 2026 correction concerned the male count in the abstract. No efficacy data taken from this notice or the licence-restricted results article.
+- Purpose: Record the type of correction and distinguish an amended baseline count from a retraction.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S920 - British Association of Dermatologists: Telogen effluvium
+- URL: https://www.bad.org.uk/pils/telogen-effluvium/1
+- Region: United Kingdom
+- Reading status: Inspected society patient leaflet sections on delayed onset, appearance, history, investigations, expected course and coexisting pattern loss. Consensus education, not a diagnostic accuracy study.
+- Purpose: Distinguish diffuse shedding and time to recover density from persistent thinning and select tests through clinical evaluation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S921 - American Academy of Dermatology: Signs and symptoms of central centrifugal cicatricial alopecia
+- URL: https://www.aad.org/public/diseases/hair-loss/types/ccca/symptoms
+- Region: United States
+- Reading status: Read society-authored symptom and distribution sections, including lack of pain and late shiny scarring. No patient images or underlying studies incorporated.
+- Purpose: Crown breakage or progressive thinning with or without symptoms warrants assessment for a scarring disorder.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S922 - American Academy of Dermatology: Diagnosis and treatment of central centrifugal cicatricial alopecia
+- URL: https://www.aad.org/public/diseases/hair-loss/types/ccca/treatment
+- Region: United States
+- Reading status: Read society-authored examination, scalp biopsy, coexisting diagnoses and goals for anti-inflammatory care versus regrowth sections. Individual regimens were not assessed.
+- Purpose: Early dermatology review can protect remaining follicles; minoxidil alone does not control active scarring inflammation.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S923 - American Academy of Dermatology: Frontal fibrosing alopecia overview
+- URL: https://www.aad.org/public/diseases/hair-loss/types/frontal-fibrosing-alopecia
+- Region: United States
+- Reading status: Reviewed the AAD overview and descriptions of early distribution, eyebrow involvement and prevention of progression. Patient images, prevalence estimates and regimens were not used.
+- Purpose: Progressive frontal and temporal band with eyebrow loss as a reason for early review.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S924 - British Association of Dermatologists: Tinea capitis patient leaflet, May 2023
+- URL: https://www.bad.org.uk/pils/tinea-capitis
+- Region: United Kingdom
+- Reading status: Read differential features, kerion, sampling, systemic therapy, adjunct shampoo and permanent scarring sections. The page lists May 2026 as its planned next review, without a newer edition confirmed.
+- Purpose: Scaly patches with broken hair and severe inflammatory swelling need examination. Scalp antifungal shampoo alone is insufficient.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S925 - Centers for Disease Control and Prevention: Treatment of ringworm
+- URL: https://www.cdc.gov/ringworm/treatment/index.html
+- Region: United States
+- Reading status: Read CDC-authored treatment sections on scalp infection and topical corticosteroids. No species-specific regimen or duration extrapolated to individual cases.
+- Purpose: Prescribed systemic treatment for scalp ringworm and avoiding topical steroids for suspected infection.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S926 - National Institute of Arthritis and Musculoskeletal and Skin Diseases: Alopecia areata overview
+- URL: https://www.niams.nih.gov/health-topics/alopecia-areata
+- Region: United States
+- Reading status: Read NIAMS overview, causes, distribution and course. The text is agency education and does not determine an individual diagnosis.
+- Purpose: Immune-mediated hair loss with a variable course and possible recurrence or spontaneous regrowth.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S927 - National Institute of Arthritis and Musculoskeletal and Skin Diseases: Alopecia areata diagnosis, treatment and steps to take
+- URL: https://www.niams.nih.gov/health-topics/alopecia-areata/diagnosis-treatment-and-steps-to-take
+- Region: United States
+- Reading status: Read August 2024 review sections on examination, magnification, differential tests, patient choices and living with hair loss. Exact current medicine indications rely on separate product labels.
+- Purpose: Differentiate lookalikes through examination; treatment or observation can reflect personal priorities.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S928 - ALIMS: Regaine 50 mg/g cutaneous foam registration, 11 March 2025 renewal
+- URL: https://www.alims.gov.rs/humani-lekovi/pretrazivanje-humanih-lekova/?id=491137
+- Region: Serbia
+- Reading status: Read official public register fields for the 60 g foam, nonprescription dispensing and 2025-03-11 to 2030-03-11 decision dates. Verified on the regulator's direct page; availability at pharmacies was not assessed.
+- Purpose: Local product identification, renewal dates and nonprescription status.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S929 - ALIMS: Regaine 50 mg/g foam, summary of product characteristics, decision 000476365
+- URL: https://www.alims.gov.rs/doc_file/lekovi/smpc/000476365%202023%2059010%20007%20000%20515%20021%2004%20001.pdf
+- Region: Serbia
+- Reading status: Read sections 4.1–4.4, 4.6 and 5.1 of the official Serbian product PDF, including the 16-week vehicle-controlled hair counts and subject rating. No trial-level reanalysis.
+- Purpose: Adult male indication, intact scalp, systemic and infant-contact precautions, continued use and short-term effects on counts and ratings.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S930 - Women's Rogaine Unscented 5% minoxidil foam, US Drug Facts label
+- URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4d328537-b7f5-43cc-9837-c5a0c6c390f8
+- Region: United States
+- Reading status: Read uses, warnings, directions, timeframe for response and continued-use requirement for the named nonprescription foam. No inference about other country labels.
+- Purpose: Exact US women's foam example for top-of-scalp loss, warning conditions and time horizon.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S931 - Minoxidil tablets, US prescription product label (DailyMed set 1d134237)
+- URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d134237-3e94-258e-e063-6294a90af556
+- Region: United States
+- Reading status: Read the named tablet label's boxed warning, indications and precautions on refractory hypertension, fluid retention, pericardial effusion and angina. Risks under low-dose hair-loss use were not quantified from this label.
+- Purpose: Different clinical indication and risk considerations for a systemic medicine.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S932 - Chaudhry et al.: Low-dose oral versus topical minoxidil in androgenetic alopecia, randomized double-dummy trial (2026)
+- URL: https://doi.org/10.1111/jocd.71198
+- Region: Pakistan
+- Reading status: Article-specific version-of-record CC BY 4.0 verified in Crossref and article XML. Read the authors' abstract and study outcome/table headings via Europe PMC. Reports 90 completers of 100 randomized at 24 weeks. No participant-level data or long-term safety assessment.
+- Purpose: Short-term photographic improvement, satisfaction and different adverse effects by route; absence of a significant difference cannot establish equivalence.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S933 - MINALO3004, posted results for 5% topical foam versus 2% solution in women (NCT01145625)
+- URL: https://clinicaltrials.gov/study/NCT01145625?tab=results
+- Region: Multicentre trial registry
+- Reading status: Read primary endpoint, arm counts and sponsor-supplied noninferiority margin in ClinicalTrials.gov API v2. Entry lists 2014-05-22 last update. Source of the margin discrepancy with the regulator remains unresolved.
+- Purpose: Estimated difference and confidence interval and the distinct noninferiority threshold in the sponsor's registry.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S934 - Swedish Medical Products Agency: Public assessment report for Roquinna 50 mg/g foam, SE/H/1503/01/DC
+- URL: https://docetp.mpa.se/LMF/Roquinna%20cutaneous%20foam%20ENG%20PAR_09001bee807a81f8.pdf
+- Region: Sweden, European decentralized procedure
+- Reading status: Read the procedural date (2015-12-14) and regulator's efficacy appraisal of MINALO3004 and MINALO3005, including the formal margin, reviewer interpretation and vehicle comparison. Independent regulatory assessment, not a participant-data reanalysis by this project.
+- Purpose: Formal noninferiority conclusion and its sensitivity to the margin; distinction between hair count and perceived scalp coverage.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S935 - FDA: Potential risks associated with compounded topical finasteride products
+- URL: https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded
+- Region: United States
+- Reading status: Read the FDA safety communication on US compounded topical preparations, exposure through skin, local and systemic adverse-event reports, handling and transfer. Passive reports have no reliable exposure denominator.
+- Purpose: Compounded topical finasteride precautions and limits on interpreting reports or transferring findings to other formulations.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S936 - European Medicines Agency: Finasteride- and dutasteride-containing medicinal products, safety referral
+- URL: https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products
+- Region: European Union
+- Reading status: Read EMA patient and professional summaries and named formulations after the 2025 European review. Examined tablet and cutaneous-spray statements separately, without treating absence of an identified link as proof of no risk.
+- Purpose: Mood and sexual adverse effects, regulator advice for new mood symptoms on the 1 mg hair-loss tablet and jurisdiction-specific scope.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S937 - FDA: Litfulo (ritlecitinib) US prescribing information, revised June 2026
+- URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215830s001lbl.pdf
+- Region: United States
+- Reading status: Read indication, boxed warning, patient assessment and trial population, SALT definition and week-24 Table 7. The randomized trial had multiple arms; the cited comparison is 130 assigned the approved regimen and 131 assigned placebo. No long-term withdrawal analysis.
+- Purpose: Severe alopecia areata patient eligibility, absolute week-24 scalp-coverage endpoint and important safety context.
+- Checked: 2026-11-25
+- Active-use disposition: not_determined (not a permission grant)
+
+### S938 - AWAKENING: Phase 2 PP405 trial in adult women with androgenetic alopecia (NCT07907783)
+- URL: https://clinicaltrials.gov/study/NCT07907783
+- Region: United States trial registry
+- Reading status: Read ClinicalTrials.gov API v2 status, dates, estimated enrolment and registered primary and secondary endpoints. Entry updated 2026-11-17 listed recruiting and no posted results as checked 2026-11-25.
+- Purpose: Distinguish a registered target-area count and participant-rated coverage from evidence of an actual treatment effect.
 - Checked: 2026-11-25
 - Active-use disposition: not_determined (not a permission grant)

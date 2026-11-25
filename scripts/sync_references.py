@@ -143,7 +143,7 @@ LONGEVITY_FILES = ['knowledge/57_LONGEVITY_AND_PREVENTION.md'] + [
     'knowledge/longevity/' + name for name in [
         '00_READING_PLAN.md', '10_PREVENTION_EVIDENCE.md',
         '20_GEROSCIENCE_EVIDENCE.md', '30_RADICAL_EXTENSION_EVIDENCE.md',
-        '40_STATISTICS_GUIDE.md', '50_RESEARCH_UPDATE.md', 'evidence-ledger.json', 'statistics.json']]
+        '40_STATISTICS_GUIDE.md', '50_RESEARCH_UPDATE.md', '60_FUNCTION_AND_COGNITION.md', 'evidence-ledger.json', 'statistics.json']]
 for _skill in LONGEVITY_SKILLS:
     MAP[_skill] = list(dict.fromkeys(MAP[_skill] + LONGEVITY_FILES))
 
@@ -155,9 +155,11 @@ MAP['health-allergology'] = COMMON + [
 # Each card travels with the skills that answer its question.
 EVERYDAY_CARDS = {
     '58_ADULT_SLEEP_AND_REGULARITY.md': ('health-explain', 'health-prevention', 'health-mental-health', 'health-research'),
+    '65_SLEEP_TREATMENT_AND_MEASUREMENT.md': ('health-explain', 'health-prevention', 'health-mental-health', 'health-research'),
     '59_FINDING_CARE_RUSSIA_SERBIA.md': ('health-care-navigation', 'health-explain', 'health-prevention'),
     '60_DIGESTION_AND_FOOD_TOLERANCE.md': ('health-explain', 'health-nutrition', 'health-allergology', 'health-research'),
     '61_HAIR_SCALP_AND_DANDRUFF.md': ('health-explain', 'health-medicine-info', 'health-research'),
+    '66_HAIR_LOSS_EVIDENCE.md': ('health-explain', 'health-medicine-info', 'health-research'),
     '62_TOBACCO_VAPING_AND_ALCOHOL.md': ('health-explain', 'health-prevention', 'health-mental-health', 'health-research'),
     '63_ACTIVITY_FOR_HEALTH.md': ('health-explain', 'health-prevention', 'health-family-care', 'health-research', 'psyops-sport'),
     '64_HEALTHY_EATING_IN_PRACTICE.md': ('health-explain', 'health-nutrition', 'health-prevention', 'health-research'),
